@@ -1,9 +1,9 @@
 # Rapporto sulle persone
 
-- Schede create: **90**.
-- Nomi di partecipante citati dagli eventi: **133** distinti.
-- Nomi coperti da una scheda persona: **90**.
-- Nomi coperti da un'entità collettiva: **43**.
+- Schede create: **92**.
+- Nomi di partecipante citati dagli eventi: **136** distinti.
+- Nomi coperti da una scheda persona: **92**.
+- Nomi coperti da un'entità collettiva: **44**.
 - Nomi ancora senza scheda: **0**.
 
 ## Schede
@@ -15,9 +15,9 @@
 | `aragorn` | Aragorn | personaggio | Uomo | 9 |
 | `bilbo-baggins` | Bilbo Baggins | personaggio | Hobbit | 8 |
 | `samvise-gamgi` | Samvise Gamgi | personaggio | Hobbit | 5 |
-| `sauron` | Sauron | personaggio | Maia | 10 |
+| `sauron` | Sauron | personaggio | Maia | 12 |
 | `saruman` | Saruman | personaggio | Maia | 8 |
-| `gollum` | Gollum | personaggio | Sturoi | 5 |
+| `gollum` | Gollum | personaggio | Sturoi | 6 |
 | `elrond` | Elrond | personaggio | Mezzelfo | 10 |
 | `galadriel` | Galadriel | personaggio | Elfo | 2 |
 | `thorin-scudodiquercia` | Thorin Scudodiquercia | personaggio | Nano | 4 |
@@ -39,7 +39,7 @@
 | `beregond` | Beregond | personaggio | Uomo | 1 |
 | `castamir` | Castamir | personaggio | Uomo | 1 |
 | `cirion` | Cirion | personaggio | Uomo | 2 |
-| `cirdan` | Círdan | personaggio | Elfo | 2 |
+| `cirdan` | Círdan | personaggio | Elfo | 3 |
 | `denethor-ii` | Denethor II | personaggio | Uomo | 1 |
 | `durin-vi` | Durin VI | personaggio | Nano | 1 |
 | `dain-i` | Dàin I | personaggio | Nano | 1 |
@@ -81,7 +81,7 @@
 | `re-degli-stregoni` | il Re degli Stregoni | personaggio | Uomo | 7 |
 | `balrog` | il Balrog | personaggio | Maia | 2 |
 | `orchetto-di-moria` | un Orchetto di Moria | personaggio | Orchetto | 1 |
-| `celebrian` | Celebrían | personaggio | Elfo | 3 |
+| `celebrian` | Celebrían | personaggio | Elfo | 5 |
 | `elladan` | Elladan | personaggio | Mezzelfo | 1 |
 | `elrohir` | Elrohir | personaggio | Mezzelfo | 1 |
 | `ostoher` | Ostoher | personaggio | Uomo | 1 |
@@ -100,6 +100,8 @@
 | `frumgar` | Frumgar | personaggio | Uomo | 1 |
 | `bucca-della-palude` | Bucca della Palude | personaggio | Hobbit | 1 |
 | `firiel` | Firiel | personaggio | Uomo | 1 |
+| `thorin-i` | Thorin I | personaggio | Nano | 1 |
+| `isumbras-i` | Isumbras I | personaggio | Hobbit | 1 |
 
 ## Nomi di partecipante non ancora coperti
 

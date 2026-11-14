@@ -667,3 +667,20 @@
   dentro: null
   descrizione: La piana davanti al Morannon, teatro di battaglie.
   nota: null
+
+- id: terra-di-buck
+  nome: Terra di Buck
+  tipo: regione
+  alias: []
+  dentro: null
+  descrizione: La regione a est del Baranduin, dove si stabiliscono i Vecchiobecco.
+  nota: null
+
+- id: valico-cornorosso
+  nome: Valico Cornorosso
+  tipo: passo
+  alias:
+    - Cornorosso
+  dentro: montagne-nebbiose
+  descrizione: Il passo delle Montagne Nebbiose dove Celebrían viene assalita nel 2509.
+  nota: null

@@ -20,6 +20,7 @@
         "festa-inattesa",
         "fondazione-contea",
         "frodo-parte",
+        "isumbras-conte",
         "lungacque",
         "lungo-inverno",
         "saruman-tradisce"
@@ -105,6 +106,7 @@
       "nota": "«Khazad-dûm» è il nome nanico; «Moria» è il nome comune dopo la caduta.",
       "eventi": [
         "balrog-moria",
+        "fortezze-orchetti",
         "gandalf-moria",
         "gollum-fugge",
         "thror"
@@ -248,6 +250,7 @@
       "nota": "Prima dell'ombra del 1050 era la Grande Foresta Verde.",
       "eventi": [
         "consiglio-dol-guldur",
+        "dol-guldur-cresce",
         "gandalf-dol-guldur",
         "gollum-fugge",
         "ombra-bosco-attro",
@@ -313,7 +316,8 @@
         "draghi-nord",
         "nani-erebor",
         "smaug-erebor",
-        "smaug-ucciso"
+        "smaug-ucciso",
+        "thorin-i-montagne-grigie"
       ]
     },
     {
@@ -341,6 +345,7 @@
       "descrizione": "I porti elfici del Lindon, da cui salpano le navi verso l'Occidente.",
       "nota": "«Porti Grigi» è la spiegazione corrente; la forma dell'epub è Rifugi Oscuri.",
       "eventi": [
+        "celebrian-parte",
         "istari",
         "porti-grigi"
       ]
@@ -505,6 +510,7 @@
       "nota": null,
       "eventi": [
         "consiglio-dol-guldur",
+        "dol-guldur-cresce",
         "gandalf-dol-guldur",
         "pace-vigile",
         "saggi-dol-guldur",
@@ -574,8 +580,11 @@
       "eventi": [
         "anello-bilbo",
         "angmar",
+        "celebrian-ferita",
         "deagol-anello",
-        "gollum-fugge"
+        "fortezze-orchetti",
+        "gollum-fugge",
+        "gollum-montagne"
       ]
     },
     {
@@ -599,7 +608,8 @@
       "descrizione": "La catena del nord tra Erebor e le terre orientali, dimora dei Draghi.",
       "nota": null,
       "eventi": [
-        "draghi-nord"
+        "draghi-nord",
+        "thorin-i-montagne-grigie"
       ]
     },
     {
@@ -921,6 +931,7 @@
       "descrizione": "Il mare a ovest della Terra di Mezzo, oltre i Rifugi Oscuri.",
       "nota": null,
       "eventi": [
+        "celebrian-parte",
         "earnil-morte-mare",
         "porti-grigi"
       ]
@@ -1133,11 +1144,37 @@
       "eventi": [
         "calimehtar-dagorlad"
       ]
+    },
+    {
+      "id": "terra-di-buck",
+      "nome": "Terra di Buck",
+      "tipo": "regione",
+      "alias": [],
+      "dentro": null,
+      "descrizione": "La regione a est del Baranduin, dove si stabiliscono i Vecchiobecco.",
+      "nota": null,
+      "eventi": [
+        "isumbras-conte"
+      ]
+    },
+    {
+      "id": "valico-cornorosso",
+      "nome": "Valico Cornorosso",
+      "tipo": "passo",
+      "alias": [
+        "Cornorosso"
+      ],
+      "dentro": "montagne-nebbiose",
+      "descrizione": "Il passo delle Montagne Nebbiose dove Celebrían viene assalita nel 2509.",
+      "nota": null,
+      "eventi": [
+        "celebrian-ferita"
+      ]
     }
   ],
   "copertura": {
-    "luoghi_citati": 78,
-    "luoghi_coperti": 78,
+    "luoghi_citati": 80,
+    "luoghi_coperti": 80,
     "luoghi_scoperti": 0,
     "scoperti": []
   }

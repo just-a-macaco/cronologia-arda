@@ -321,3 +321,11 @@
     - Éothéod
   descrizione: Il popolo del Nord che diventerà i Rohirrim.
   nota: null
+
+- id: gruppo-vecchiobecco
+  nome: i Vecchiobecco
+  tipo: gruppo
+  alias:
+    - Vecchiobecco
+  descrizione: La famiglia hobbit che si installa nella Terra di Buck.
+  nota: null

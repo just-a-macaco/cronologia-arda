@@ -1106,6 +1106,28 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Note:** La sparizione è certa; la morte è presunta, non testimoniata. L'epub alterna «Eärnur» e «Earnur»: si adotta la forma con la dieresi.
 
+## Cresce il potere di Dol Guldur
+
+**ID:** `dol-guldur-cresce` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 2060 · Terza Era
+
+**Dove:** Dol Guldur, Bosco Atro
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| i Saggi | Eldar e Istari | osservatori | temono il ritorno di Sauron |
+| Sauron | Dol Guldur | signore nascosto | accresce il suo potere |
+
+**Versione breve:** Il potere di Dol Guldur cresce: i Saggi cominciano a temere che il suo padrone sia Sauron in persona.
+
+**Testo lungo:** Nel 2060 il potere di Dol Guldur si accresce. I Saggi, che fino ad allora avevano pensato a uno dei Nazgûl, cominciano a sospettare che vi sia Sauron stesso, pronto a risorgere. È il preludio della Pace Vigile.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2060
+
 ## La Pace Vigile
 
 **ID:** `pace-vigile` · **Tipo:** evento · **Certezza:** certa
@@ -1128,6 +1150,51 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 2063
+
+## Thorin I conduce i Nani a nord
+
+**ID:** `thorin-i-montagne-grigie` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** Anno 2210 · Terza Era
+
+**Dove:** Erebor, Montagne Grigie
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Thorin I | Nani | re | lascia Erebor |
+| i Nani del Popolo di Durin | Nani | popolo | si raduna nelle Montagne Grigie |
+
+**Versione breve:** Thorin I lascia Erebor e conduce i superstiti del Popolo di Durin nelle Montagne Grigie.
+
+**Testo lungo:** Nel 2210 Thorin I lascia Erebor e si reca a nord, alle Montagne Grigie, dove si stanno radunando quasi tutti i superstiti del Popolo di Durin. Il regno sotto la Montagna resta più povero, mentre i Nani cercano nuove sedi.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2210
+
+## Isumbras I diventa Conte
+
+**ID:** `isumbras-conte` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 2340 · Terza Era
+
+**Dove:** Contea, Terra di Buck
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Isumbras I | Contea | conte | assume il titolo |
+| gli Hobbit | Contea | popolo | lo riconosce |
+| i Vecchiobecco | Contea | famiglia | si installa nella Terra di Buck |
+
+**Versione breve:** Isumbras I diventa il tredicesimo Conte, primo della casa dei Tuc. I Vecchiobecco si stabiliscono nella Terra di Buck.
+
+**Testo lungo:** Nel 2340 Isumbras I diventa il tredicesimo Conte della Contea e il primo della casa dei Tuc. Nello stesso periodo i Vecchiobecco si installano nella Terra di Buck, oltre il Baranduin, dando inizio a una delle famiglie più importanti della storia hobbit.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2340
 
 ## Sauron torna a Dol Guldur
 
@@ -1174,6 +1241,27 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anni 2463-2470; Libro I, capitolo 2
 
+## Gollum si nasconde nelle Montagne Nebbiose
+
+**ID:** `gollum-montagne` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 2470 · Terza Era
+
+**Dove:** Montagne Nebbiose
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gollum | Montagne Nebbiose | custode dell'Anello | si nasconde nelle caverne |
+
+**Versione breve:** Sméagol, ormai Gollum, si nasconde nelle caverne delle Montagne Nebbiose.
+
+**Testo lungo:** Nel 2470 Sméagol, ormai corrotto dall'Anello e conosciuto come Gollum, si nasconde nelle caverne delle Montagne Nebbiose. Vi resterà per secoli, custodendo l'Anello e perdendo ogni contatto con il mondo.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2470
+
 ## Osgiliath è distrutta
 
 **ID:** `osgiliath-distrutta` · **Tipo:** distruzione · **Certezza:** certa
@@ -1197,6 +1285,50 @@ la versione breve è quella che compare sulla linea del tempo.
 - Il Signore degli Anelli, Appendice B, anno 2475
 
 **Note:** L'Appendice B non nomina gli assalitori; la scheda li indica come «forze di Mordor» in modo generico.
+
+## Fortezze degli Orchetti nei valichi
+
+**ID:** `fortezze-orchetti` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 2480 · Terza Era
+
+**Dove:** Montagne Nebbiose, Moria
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| gli Orchetti | Montagne Nebbiose | costruttori | costruiscono fortezze segrete |
+| Sauron | Mordor | signore oscuro | popola Moria con le sue creature |
+
+**Versione breve:** Gli Orchetti costruiscono fortezze segrete nei valichi delle Montagne Nebbiose; Sauron comincia a popolare Moria.
+
+**Testo lungo:** Intorno al 2480 gli Orchetti costruiscono fortezze segrete nelle Montagne Nebbiose per controllare i valichi verso l'Eriador. Nello stesso periodo Sauron comincia a popolare Moria con le sue creature. I passi che univano l'Eriador al Rhovanion diventano sempre più pericolosi.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2480 circa
+
+## Celebrían ferita al Valico Cornorosso
+
+**ID:** `celebrian-ferita` · **Tipo:** perdita · **Certezza:** certa
+
+**Quando:** Anno 2509 · Terza Era
+
+**Dove:** Valico Cornorosso, Montagne Nebbiose
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Celebrían | Gran Burrone | viaggiatrice | viene ferita |
+| gli Orchetti | Montagne Nebbiose | assalitori | la colpiscono con una freccia avvelenata |
+
+**Versione breve:** Celebrían, in viaggio verso Lórien, viene assalita al Valico Cornorosso e ferita da una freccia avvelenata.
+
+**Testo lungo:** Nel 2509 Celebrían, moglie di Elrond, viaggia verso Lórien. Al Valico Cornorosso viene assalita dagli Orchetti e colpita da una freccia avvelenata. Le ferite la segneranno profondamente e la porteranno a lasciare la Terra di Mezzo.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2509
 
 ## Battaglia del Campo di Celebrant
 
@@ -1222,6 +1354,28 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 2510; Appendice A, Cirion ed Eorl
+
+## Celebrían parte oltre il Mare
+
+**ID:** `celebrian-parte` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** Anno 2510 · Terza Era
+
+**Dove:** Rifugi Oscuri, Grande Mare
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Celebrían | Gran Burrone | viaggiatrice | salpa verso l'Occidente |
+| Círdan | Rifugi Oscuri | signore del porto | assiste alla partenza |
+
+**Versione breve:** Celebrían lascia la Terra di Mezzo e salpa dai Rifugi Oscuri.
+
+**Testo lungo:** Nel 2510 Celebrían parte dai Rifugi Oscuri e salpa verso l'Occidente. Le ferite ricevute al Valico Cornorosso non guariscono, e la sua partenza lascia Elrond e i figli a Gran Burrone.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2510
 
 ## Il dono di Calenardhon e il Giuramento di Eorl
 

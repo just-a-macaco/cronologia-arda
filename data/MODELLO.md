@@ -206,6 +206,6 @@ e `data/entita.yaml` contiene **43 entità collettive**. Insieme coprono **tutti
 schede per ID (`persona:` o `entita:`), come i luoghi.
 
 Per la Terza Era il database di eventi, luoghi e partecipanti è pronto. Il lavoro
-continua con l'espansione dell'Appendice B: 90 eventi e 64 anni su 127 coperti.
+continua con l'espansione dell'Appendice B: 97 eventi e 70 anni su 127 coperti.
 Restano le famiglie (per gli alberi genealogici), le fonti come entità separate e
 la vetrina.

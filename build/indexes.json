@@ -8,6 +8,8 @@
       "elrond-celebrian",
       "nozze-arvedui-firiel",
       "re-stregoni-mordor",
+      "dol-guldur-cresce",
+      "gollum-montagne",
       "pace-vigile",
       "sauron-ritorno",
       "deagol-anello",
@@ -26,6 +28,7 @@
     "perdita": [
       "isildur-anello",
       "earnil-morte-mare",
+      "celebrian-ferita",
       "earnur",
       "gandalf-moria"
     ],
@@ -40,6 +43,8 @@
       "incoronazione-earnil-ii",
       "aranarth-capitano",
       "bucca-conte",
+      "isumbras-conte",
+      "fortezze-orchetti",
       "elessar"
     ],
     "fondazione": [
@@ -101,6 +106,8 @@
     ],
     "viaggio": [
       "eotheod-nord",
+      "thorin-i-montagne-grigie",
+      "celebrian-parte",
       "bilbo-torna",
       "frodo-parte",
       "compagnia-parte",
@@ -256,8 +263,17 @@
     "2050": [
       "earnur"
     ],
+    "2060": [
+      "dol-guldur-cresce"
+    ],
     "2063": [
       "pace-vigile"
+    ],
+    "2210": [
+      "thorin-i-montagne-grigie"
+    ],
+    "2340": [
+      "isumbras-conte"
     ],
     "2460": [
       "sauron-ritorno"
@@ -265,10 +281,20 @@
     "2463": [
       "deagol-anello"
     ],
+    "2470": [
+      "gollum-montagne"
+    ],
     "2475": [
       "osgiliath-distrutta"
     ],
+    "2480": [
+      "fortezze-orchetti"
+    ],
+    "2509": [
+      "celebrian-ferita"
+    ],
     "2510": [
+      "celebrian-parte",
       "battaglia-celebrant",
       "rohan"
     ],
@@ -432,7 +458,9 @@
     "Celebrían": [
       "elrond-celebrian",
       "elladan-elrohir",
-      "nascita-arwen"
+      "nascita-arwen",
+      "celebrian-ferita",
+      "celebrian-parte"
     ],
     "Cirion": [
       "battaglia-celebrant",
@@ -443,6 +471,7 @@
     ],
     "Círdan": [
       "istari",
+      "celebrian-parte",
       "porti-grigi"
     ],
     "Denethor II": [
@@ -565,6 +594,7 @@
       "battaglia-fornost"
     ],
     "Gollum": [
+      "gollum-montagne",
       "deagol-anello",
       "anello-bilbo",
       "sauron-si-dichiara",
@@ -606,6 +636,9 @@
     "Isildur": [
       "inizio-terza",
       "isildur-anello"
+    ],
+    "Isumbras I": [
+      "isumbras-conte"
     ],
     "Legolas": [
       "consiglio-elrond",
@@ -685,6 +718,8 @@
     ],
     "Sauron": [
       "inizio-terza",
+      "dol-guldur-cresce",
+      "fortezze-orchetti",
       "pace-vigile",
       "sauron-ritorno",
       "gandalf-dol-guldur",
@@ -707,6 +742,9 @@
     ],
     "Telumehtar Umbardacil": [
       "telumehtar-umbar"
+    ],
+    "Thorin I": [
+      "thorin-i-montagne-grigie"
     ],
     "Thorin Scudodiquercia": [
       "smaug-erebor",
@@ -766,6 +804,7 @@
       "grande-peste",
       "fondazione-contea",
       "bucca-conte",
+      "isumbras-conte",
       "erba-pipa"
     ],
     "gli Hobbit della Contea": [
@@ -773,6 +812,8 @@
     ],
     "gli Orchetti": [
       "angmar",
+      "fortezze-orchetti",
+      "celebrian-ferita",
       "battaglia-celebrant",
       "gollum-fugge",
       "compagnia-si-scioglie"
@@ -825,7 +866,8 @@
       "angmar-invaude"
     ],
     "i Nani del Popolo di Durin": [
-      "nani-erebor"
+      "nani-erebor",
+      "thorin-i-montagne-grigie"
     ],
     "i Nazgûl": [
       "saggi-dol-guldur",
@@ -843,7 +885,11 @@
       "rohan"
     ],
     "i Saggi": [
-      "saggi-dol-guldur"
+      "saggi-dol-guldur",
+      "dol-guldur-cresce"
+    ],
+    "i Vecchiobecco": [
+      "isumbras-conte"
     ],
     "i dodici compagni di Thorin": [
       "festa-inattesa"
@@ -953,6 +999,7 @@
     "Bosco Atro": [
       "ombra-bosco-attro",
       "saggi-dol-guldur",
+      "dol-guldur-cresce",
       "pace-vigile",
       "sauron-ritorno",
       "gandalf-dol-guldur",
@@ -1002,6 +1049,7 @@
     "Contea": [
       "fondazione-contea",
       "bucca-conte",
+      "isumbras-conte",
       "erba-pipa",
       "lungo-inverno",
       "bilbo-nasce",
@@ -1024,6 +1072,7 @@
     ],
     "Dol Guldur": [
       "saggi-dol-guldur",
+      "dol-guldur-cresce",
       "pace-vigile",
       "sauron-ritorno",
       "gandalf-dol-guldur",
@@ -1038,6 +1087,7 @@
     ],
     "Erebor": [
       "nani-erebor",
+      "thorin-i-montagne-grigie",
       "draghi-nord",
       "smaug-erebor",
       "smaug-ucciso",
@@ -1106,6 +1156,7 @@
     ],
     "Grande Mare": [
       "earnil-morte-mare",
+      "celebrian-parte",
       "porti-grigi"
     ],
     "Harad": [
@@ -1167,10 +1218,14 @@
       "nozze-elessar-arwen"
     ],
     "Montagne Grigie": [
+      "thorin-i-montagne-grigie",
       "draghi-nord"
     ],
     "Montagne Nebbiose": [
       "angmar",
+      "gollum-montagne",
+      "fortezze-orchetti",
+      "celebrian-ferita",
       "deagol-anello",
       "anello-bilbo",
       "gollum-fugge"
@@ -1194,6 +1249,7 @@
     ],
     "Moria": [
       "balrog-moria",
+      "fortezze-orchetti",
       "thror",
       "gollum-fugge",
       "gandalf-moria"
@@ -1240,6 +1296,7 @@
     ],
     "Rifugi Oscuri": [
       "istari",
+      "celebrian-parte",
       "porti-grigi"
     ],
     "Rohan": [
@@ -1249,6 +1306,9 @@
     ],
     "Sammath Naur": [
       "distruzione-anello"
+    ],
+    "Terra di Buck": [
+      "isumbras-conte"
     ],
     "Terra di Mezzo": [
       "istari"
@@ -1266,6 +1326,9 @@
       "assedio-umbar-ciryandil",
       "ribelli-umbar",
       "telumehtar-umbar"
+    ],
+    "Valico Cornorosso": [
+      "celebrian-ferita"
     ],
     "Valle": [
       "smaug-erebor",
@@ -1321,6 +1384,7 @@
     "bosco-atro": [
       "ombra-bosco-attro",
       "saggi-dol-guldur",
+      "dol-guldur-cresce",
       "pace-vigile",
       "sauron-ritorno",
       "gandalf-dol-guldur",
@@ -1373,6 +1437,7 @@
     "contea": [
       "fondazione-contea",
       "bucca-conte",
+      "isumbras-conte",
       "erba-pipa",
       "lungo-inverno",
       "bilbo-nasce",
@@ -1395,6 +1460,7 @@
     ],
     "dol-guldur": [
       "saggi-dol-guldur",
+      "dol-guldur-cresce",
       "pace-vigile",
       "sauron-ritorno",
       "gandalf-dol-guldur",
@@ -1409,6 +1475,7 @@
     ],
     "erebor": [
       "nani-erebor",
+      "thorin-i-montagne-grigie",
       "draghi-nord",
       "smaug-erebor",
       "smaug-ucciso",
@@ -1477,6 +1544,7 @@
     ],
     "grande-mare": [
       "earnil-morte-mare",
+      "celebrian-parte",
       "porti-grigi"
     ],
     "harad": [
@@ -1538,10 +1606,14 @@
       "nozze-elessar-arwen"
     ],
     "montagne-grigie": [
+      "thorin-i-montagne-grigie",
       "draghi-nord"
     ],
     "montagne-nebbiose": [
       "angmar",
+      "gollum-montagne",
+      "fortezze-orchetti",
+      "celebrian-ferita",
       "deagol-anello",
       "anello-bilbo",
       "gollum-fugge"
@@ -1565,6 +1637,7 @@
     ],
     "moria": [
       "balrog-moria",
+      "fortezze-orchetti",
       "thror",
       "gollum-fugge",
       "gandalf-moria"
@@ -1614,6 +1687,7 @@
     ],
     "rifugi-oscuri": [
       "istari",
+      "celebrian-parte",
       "porti-grigi"
     ],
     "rohan": [
@@ -1623,6 +1697,9 @@
     ],
     "sammath-naur": [
       "distruzione-anello"
+    ],
+    "terra-di-buck": [
+      "isumbras-conte"
     ],
     "terra-di-mezzo": [
       "istari"
@@ -1640,6 +1717,9 @@
       "assedio-umbar-ciryandil",
       "ribelli-umbar",
       "telumehtar-umbar"
+    ],
+    "valico-cornorosso": [
+      "celebrian-ferita"
     ],
     "valle": [
       "smaug-erebor",

@@ -68,6 +68,7 @@
         "erba-pipa",
         "fondazione-contea",
         "grande-peste",
+        "isumbras-conte",
         "ombra-bosco-attro"
       ]
     },
@@ -125,7 +126,9 @@
       "eventi": [
         "angmar",
         "battaglia-celebrant",
+        "celebrian-ferita",
         "compagnia-si-scioglie",
+        "fortezze-orchetti",
         "gollum-fugge"
       ]
     },
@@ -176,7 +179,8 @@
       "descrizione": "I Nani discendenti di Durin, dispersi tra Erebor, Moria e i Colli Ferrosi.",
       "nota": null,
       "eventi": [
-        "nani-erebor"
+        "nani-erebor",
+        "thorin-i-montagne-grigie"
       ]
     },
     {
@@ -336,6 +340,7 @@
       "descrizione": "Il consiglio dei sapienti, formato da Istari e capi degli Eldar.",
       "nota": null,
       "eventi": [
+        "dol-guldur-cresce",
         "saggi-dol-guldur"
       ]
     },
@@ -545,10 +550,23 @@
       "eventi": [
         "eotheod-nord"
       ]
+    },
+    {
+      "id": "gruppo-vecchiobecco",
+      "nome": "i Vecchiobecco",
+      "tipo": "gruppo",
+      "alias": [
+        "Vecchiobecco"
+      ],
+      "descrizione": "La famiglia hobbit che si installa nella Terra di Buck.",
+      "nota": null,
+      "eventi": [
+        "isumbras-conte"
+      ]
     }
   ],
   "copertura": {
-    "nomi_coperti": 43,
-    "nomi_scoperti": 90
+    "nomi_coperti": 44,
+    "nomi_scoperti": 92
   }
 }

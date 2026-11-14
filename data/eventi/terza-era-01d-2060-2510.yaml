@@ -1,0 +1,276 @@
+# Schede della Terza Era, anni 2060-2510.
+# Quarto blocco dell'Appendice B: Dol Guldur, i Nani, la Contea e Celebrían.
+# Fonte: Il Signore degli Anelli, Appendice B (Bompiani 2004).
+
+- id: dol-guldur-cresce
+  titolo: Cresce il potere di Dol Guldur
+  tipo: evento
+  data:
+    era: terza
+    anno: 2060
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2060"
+  luoghi:
+    - dol-guldur
+    - bosco-atro
+  fa_parte_di: null
+  partecipanti:
+    - entita: gruppo-saggi
+      parte: Eldar e Istari
+      ruolo: osservatori
+      esito: temono il ritorno di Sauron
+    - persona: sauron
+      parte: Dol Guldur
+      ruolo: signore nascosto
+      esito: accresce il suo potere
+  breve: >-
+    Il potere di Dol Guldur cresce: i Saggi cominciano a temere che il suo
+    padrone sia Sauron in persona.
+  lungo: >-
+    Nel 2060 il potere di Dol Guldur si accresce. I Saggi, che fino ad allora
+    avevano pensato a uno dei Nazgûl, cominciano a sospettare che vi sia
+    Sauron stesso, pronto a risorgere. È il preludio della Pace Vigile.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2060"
+  certezza: certa
+  note: null
+
+- id: thorin-i-montagne-grigie
+  titolo: Thorin I conduce i Nani a nord
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 2210
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2210"
+  luoghi:
+    - erebor
+    - montagne-grigie
+  fa_parte_di: null
+  partecipanti:
+    - persona: thorin-i
+      parte: Nani
+      ruolo: re
+      esito: lascia Erebor
+    - entita: popolo-nani-di-durin
+      parte: Nani
+      ruolo: popolo
+      esito: si raduna nelle Montagne Grigie
+  breve: >-
+    Thorin I lascia Erebor e conduce i superstiti del Popolo di Durin nelle
+    Montagne Grigie.
+  lungo: >-
+    Nel 2210 Thorin I lascia Erebor e si reca a nord, alle Montagne Grigie,
+    dove si stanno radunando quasi tutti i superstiti del Popolo di Durin. Il
+    regno sotto la Montagna resta più povero, mentre i Nani cercano nuove sedi.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2210"
+  certezza: certa
+  note: null
+
+- id: isumbras-conte
+  titolo: Isumbras I diventa Conte
+  tipo: politica
+  data:
+    era: terza
+    anno: 2340
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2340"
+  luoghi:
+    - contea
+    - terra-di-buck
+  fa_parte_di: null
+  partecipanti:
+    - persona: isumbras-i
+      parte: Contea
+      ruolo: conte
+      esito: assume il titolo
+    - entita: popolo-hobbit
+      parte: Contea
+      ruolo: popolo
+      esito: lo riconosce
+    - entita: gruppo-vecchiobecco
+      parte: Contea
+      ruolo: famiglia
+      esito: si installa nella Terra di Buck
+  breve: >-
+    Isumbras I diventa il tredicesimo Conte, primo della casa dei Tuc. I
+    Vecchiobecco si stabiliscono nella Terra di Buck.
+  lungo: >-
+    Nel 2340 Isumbras I diventa il tredicesimo Conte della Contea e il primo
+    della casa dei Tuc. Nello stesso periodo i Vecchiobecco si installano
+    nella Terra di Buck, oltre il Baranduin, dando inizio a una delle famiglie
+    più importanti della storia hobbit.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2340"
+  certezza: certa
+  note: null
+
+- id: gollum-montagne
+  titolo: Gollum si nasconde nelle Montagne Nebbiose
+  tipo: evento
+  data:
+    era: terza
+    anno: 2470
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2470"
+  luoghi:
+    - montagne-nebbiose
+  fa_parte_di: null
+  partecipanti:
+    - persona: gollum
+      parte: Montagne Nebbiose
+      ruolo: custode dell'Anello
+      esito: si nasconde nelle caverne
+  breve: >-
+    Sméagol, ormai Gollum, si nasconde nelle caverne delle Montagne Nebbiose.
+  lungo: >-
+    Nel 2470 Sméagol, ormai corrotto dall'Anello e conosciuto come Gollum, si
+    nasconde nelle caverne delle Montagne Nebbiose. Vi resterà per secoli,
+    custodendo l'Anello e perdendo ogni contatto con il mondo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2470"
+  certezza: certa
+  note: null
+
+- id: fortezze-orchetti
+  titolo: Fortezze degli Orchetti nei valichi
+  tipo: politica
+  data:
+    era: terza
+    anno: 2480
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2480"
+  luoghi:
+    - montagne-nebbiose
+    - moria
+  fa_parte_di: null
+  partecipanti:
+    - entita: popolo-orchetti
+      parte: Montagne Nebbiose
+      ruolo: costruttori
+      esito: costruiscono fortezze segrete
+    - persona: sauron
+      parte: Mordor
+      ruolo: signore oscuro
+      esito: popola Moria con le sue creature
+  breve: >-
+    Gli Orchetti costruiscono fortezze segrete nei valichi delle Montagne
+    Nebbiose; Sauron comincia a popolare Moria.
+  lungo: >-
+    Intorno al 2480 gli Orchetti costruiscono fortezze segrete nelle Montagne
+    Nebbiose per controllare i valichi verso l'Eriador. Nello stesso periodo
+    Sauron comincia a popolare Moria con le sue creature. I passi che univano
+    l'Eriador al Rhovanion diventano sempre più pericolosi.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2480 circa"
+  certezza: certa
+  note: null
+
+- id: celebrian-ferita
+  titolo: Celebrían ferita al Valico Cornorosso
+  tipo: perdita
+  data:
+    era: terza
+    anno: 2509
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2509"
+  luoghi:
+    - valico-cornorosso
+    - montagne-nebbiose
+  fa_parte_di: null
+  partecipanti:
+    - persona: celebrian
+      parte: Gran Burrone
+      ruolo: viaggiatrice
+      esito: viene ferita
+    - entita: popolo-orchetti
+      parte: Montagne Nebbiose
+      ruolo: assalitori
+      esito: la colpiscono con una freccia avvelenata
+  breve: >-
+    Celebrían, in viaggio verso Lórien, viene assalita al Valico Cornorosso e
+    ferita da una freccia avvelenata.
+  lungo: >-
+    Nel 2509 Celebrían, moglie di Elrond, viaggia verso Lórien. Al Valico
+    Cornorosso viene assalita dagli Orchetti e colpita da una freccia
+    avvelenata. Le ferite la segneranno profondamente e la porteranno a
+    lasciare la Terra di Mezzo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2509"
+  certezza: certa
+  note: null
+
+- id: celebrian-parte
+  titolo: Celebrían parte oltre il Mare
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 2510
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2510"
+  luoghi:
+    - rifugi-oscuri
+    - grande-mare
+  fa_parte_di: null
+  partecipanti:
+    - persona: celebrian
+      parte: Gran Burrone
+      ruolo: viaggiatrice
+      esito: salpa verso l'Occidente
+    - persona: cirdan
+      parte: Rifugi Oscuri
+      ruolo: signore del porto
+      esito: assiste alla partenza
+  breve: >-
+    Celebrían lascia la Terra di Mezzo e salpa dai Rifugi Oscuri.
+  lungo: >-
+    Nel 2510 Celebrían parte dai Rifugi Oscuri e salpa verso l'Occidente. Le
+    ferite ricevute al Valico Cornorosso non guariscono, e la sua partenza
+    lascia Elrond e i figli a Gran Burrone.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2510"
+  certezza: certa
+  note: null

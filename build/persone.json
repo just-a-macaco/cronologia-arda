@@ -145,6 +145,8 @@
         "bilbo-torna",
         "consiglio-dol-guldur",
         "distruzione-anello",
+        "dol-guldur-cresce",
+        "fortezze-orchetti",
         "gandalf-dol-guldur",
         "inizio-terza",
         "osgiliath-3018",
@@ -196,6 +198,7 @@
         "deagol-anello",
         "distruzione-anello",
         "gollum-fugge",
+        "gollum-montagne",
         "sauron-si-dichiara"
       ]
     },
@@ -566,6 +569,7 @@
       "descrizione": "Il Signore dei Rifugi Oscuri, costruttore di navi.",
       "nota": null,
       "eventi": [
+        "celebrian-parte",
         "istari",
         "porti-grigi"
       ]
@@ -1229,6 +1233,8 @@
       "descrizione": "La figlia di Celeborn e Galadriel, moglie di Elrond.",
       "nota": null,
       "eventi": [
+        "celebrian-ferita",
+        "celebrian-parte",
         "elladan-elrohir",
         "elrond-celebrian",
         "nascita-arwen"
@@ -1508,12 +1514,42 @@
       "eventi": [
         "nozze-arvedui-firiel"
       ]
+    },
+    {
+      "id": "thorin-i",
+      "nome": "Thorin I",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re nano che lascia Erebor per le Montagne Grigie.",
+      "nota": null,
+      "eventi": [
+        "thorin-i-montagne-grigie"
+      ]
+    },
+    {
+      "id": "isumbras-i",
+      "nome": "Isumbras I",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il tredicesimo Conte della Contea, primo della casa dei Tuc.",
+      "nota": null,
+      "eventi": [
+        "isumbras-conte"
+      ]
     }
   ],
   "copertura": {
-    "nomi_citati": 133,
-    "nomi_coperti": 90,
-    "nomi_coperti_da_entita": 43,
+    "nomi_citati": 136,
+    "nomi_coperti": 92,
+    "nomi_coperti_da_entita": 44,
     "nomi_scoperti": 0,
     "scoperti": {}
   }

@@ -1,20 +1,20 @@
 # Rapporto sui luoghi
 
-- Schede create: **78**.
-- Luoghi citati dagli eventi: **78** distinti (su 210 citazioni).
-- Luoghi con una scheda: **78**.
+- Schede create: **80**.
+- Luoghi citati dagli eventi: **80** distinti (su 223 citazioni).
+- Luoghi con una scheda: **80**.
 - Luoghi senza scheda: **0**.
 
 ## Schede
 
 | ID | Nome | Tipo | Dentro | Eventi collegati |
 |---|---|---|---|---|
-| `contea` | Contea | regione | eriador | 11 |
+| `contea` | Contea | regione | eriador | 12 |
 | `hobbiville` | Hobbiville | villaggio | contea | 6 |
 | `casa-baggins` | Casa Baggins | edificio | hobbiville | 3 |
 | `brea` | Brea | città | eriador | 2 |
 | `gran-burrone` | Gran Burrone | rifugio | eriador | 8 |
-| `moria` | Moria | città sotterranea | montagne-nebbiose | 4 |
+| `moria` | Moria | città sotterranea | montagne-nebbiose | 5 |
 | `isengard` | Isengard | fortezza | — | 5 |
 | `minas-tirith` | Minas Tirith | città | gondor | 10 |
 | `osgiliath` | Osgiliath | città | gondor | 5 |
@@ -22,13 +22,13 @@
 | `barad-dur` | Barad-dûr | fortezza | mordor | 3 |
 | `monte-fato` | Monte Fato | montagna | mordor | 2 |
 | `anduin` | Anduin | fiume | — | 5 |
-| `bosco-atro` | Bosco Atro | bosco | rhovanion | 7 |
+| `bosco-atro` | Bosco Atro | bosco | rhovanion | 8 |
 | `rohan` | Rohan | regno | — | 3 |
 | `edoras` | Edoras | città | rohan | 1 |
 | `fosso-di-helm` | Fosso di Helm | valle | rohan | 2 |
-| `erebor` | Erebor | montagna | rhovanion | 5 |
+| `erebor` | Erebor | montagna | rhovanion | 6 |
 | `esgaroth` | Esgaroth | città | rhovanion | 2 |
-| `rifugi-oscuri` | Rifugi Oscuri | porto | lindon | 2 |
+| `rifugi-oscuri` | Rifugi Oscuri | porto | lindon | 3 |
 | `gondor` | Gondor | regno | — | 14 |
 | `arnor` | Arnor | regno | — | 3 |
 | `eriador` | Eriador | regione | — | 3 |
@@ -39,13 +39,13 @@
 | `cardolan` | Cardolan | regno | — | 1 |
 | `rhudaur` | Rhudaur | regno | — | 2 |
 | `angmar` | Angmar | regno | — | 1 |
-| `dol-guldur` | Dol Guldur | fortezza | bosco-atro | 6 |
+| `dol-guldur` | Dol Guldur | fortezza | bosco-atro | 7 |
 | `minas-morgul` | Minas Morgul | città | mordor | 5 |
 | `fornost` | Fornost | città | arthedain | 5 |
 | `amon-sul` | Amon Sûl | collina | eriador | 1 |
-| `montagne-nebbiose` | Montagne Nebbiose | montagna | — | 4 |
+| `montagne-nebbiose` | Montagne Nebbiose | montagna | — | 7 |
 | `ered-luin` | Ered Luin | montagna | — | 1 |
-| `montagne-grigie` | Montagne Grigie | montagna | — | 1 |
+| `montagne-grigie` | Montagne Grigie | montagna | — | 2 |
 | `lorien` | Lórien | regno | rhovanion | 1 |
 | `fangorn` | Fangorn | bosco | rhovanion | 1 |
 | `morannon` | Morannon | passo | mordor | 1 |
@@ -70,7 +70,7 @@
 | `ithilien` | Ithilien | regione | gondor | 2 |
 | `limterso` | Limterso | fiume | rohan | 1 |
 | `lungacque` | Lungacque | villaggio | contea | 1 |
-| `grande-mare` | Grande Mare | mare | — | 2 |
+| `grande-mare` | Grande Mare | mare | — | 3 |
 | `nanduhirion` | Nanduhirion | valle | montagne-nebbiose | 1 |
 | `nimrodel` | Nimrodel | fiume | lorien | 2 |
 | `orthanc` | Orthanc | torre | isengard | 3 |
@@ -87,6 +87,8 @@
 | `caverna-di-gollum` | caverna di Gollum | caverna | montagne-nebbiose | 1 |
 | `province-orientali-di-gondor` | territori orientali di Gondor | regione | — | 1 |
 | `dagorlad` | Dagorlad | pianura | — | 1 |
+| `terra-di-buck` | Terra di Buck | regione | — | 1 |
+| `valico-cornorosso` | Valico Cornorosso | passo | montagne-nebbiose | 1 |
 
 ## Copertura
 
