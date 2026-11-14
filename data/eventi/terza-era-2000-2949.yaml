@@ -1,0 +1,1099 @@
+# Schede complete degli eventi della Terza Era, anni 2000-2949.
+# Fonte primaria: Il Signore degli Anelli, Appendice B (ed. Bompiani 2004,
+# traduzione di Vittoria Alliata di Villafranca), verificata sull'epub.
+# I nomi seguono l'edizione di riferimento; le varianti sono in `note`.
+
+- id: minas-ithil
+  titolo: Caduta di Minas Ithil
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 2002
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2002"
+  luoghi:
+    - Minas Ithil
+    - Minas Morgul
+    - Mordor
+  fa_parte_di: null
+  partecipanti:
+    - nome: i Nazgûl
+      parte: Mordor
+      ruolo: assedianti
+      esito: conquistano la città
+    - nome: Gondor
+      parte: Gondor
+      ruolo: difensore
+      esito: perde Minas Ithil e il palantír
+  breve: >-
+    Dopo due anni d'assedio i Nazgûl prendono Minas Ithil e ne catturano il
+    palantír. La città diventa Minas Morgul, la torre di stregoneria.
+  lungo: >-
+    Nel 2000 i Nazgûl escono da Mordor e assediano Minas Ithil, la città
+    gemella di Minas Anor. Dopo due anni la città cade: i Nazgûl se ne
+    impadroniscono, catturano il palantír che vi era custodito e la
+    trasformano in Minas Morgul, la Torre della Stregoneria. Da allora Minas
+    Ithil è un luogo di terrore, e il palantír finirà nelle mani di Sauron.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 2000-2002"
+  certezza: certa
+  note: null
+
+- id: earnur
+  titolo: La sparizione di Eärnur
+  tipo: perdita
+  data:
+    era: terza
+    anno: 2050
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2050"
+  luoghi:
+    - Minas Morgul
+    - Minas Tirith
+  fa_parte_di: null
+  partecipanti:
+    - nome: Eärnur
+      parte: Gondor
+      ruolo: re
+      esito: scompare
+    - nome: Mardil
+      parte: Gondor
+      ruolo: Sovrintendente
+      esito: diventa Sovrintendente Regnante
+    - nome: il Signore di Morgul
+      parte: Mordor
+      ruolo: sfidante
+      esito: vittoria non testimoniata
+    - nome: la scorta di cavalieri
+      parte: Gondor
+      ruolo: seguito del re
+      esito: scompare
+  breve: >-
+    Il Signore di Morgul sfida Eärnur: il re cavalca fino a Minas Morgul e
+    scompare. Mardil diventa il primo Sovrintendente Regnante.
+  lungo: >-
+    Nel 2043 Eärnur riceve la corona di Gondor. Il Re di Minas Morgul lo sfida
+    a duello, rinfacciandogli di non averlo affrontato durante la guerra del
+    Nord; Mardil, il Sovrintendente, riesce a trattenere il re. Anni dopo la
+    sfida si ripete. Mardil non può più fermarlo: Eärnur cavalca fino al
+    cancello di Minas Morgul con una piccola scorta. Di lui e dei suoi non si
+    ha mai più notizia. A Gondor tutti pensano a una trappola. Mardil assume
+    il governo come primo Sovrintendente Regnante, e Gondor resta senza re
+    per quasi mille anni.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 2043-2050; Appendice A, Gondor"
+  certezza: certa
+  note: >-
+    La sparizione è certa; la morte è presunta, non testimoniata. L'epub
+    alterna «Eärnur» e «Earnur»: si adotta la forma con la dieresi.
+
+- id: pace-vigile
+  titolo: La Pace Vigile
+  tipo: evento
+  data:
+    era: terza
+    anno: 2063
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2063"
+  luoghi:
+    - Dol Guldur
+    - Minas Morgul
+    - Bosco Atro
+  fa_parte_di: null
+  partecipanti:
+    - nome: Gandalf
+      parte: Istari
+      ruolo: esploratore
+      esito: entra a Dol Guldur
+    - nome: Sauron
+      parte: Dol Guldur
+      ruolo: signore nascosto
+      esito: si ritira a est
+    - nome: i Nazgûl
+      parte: Mordor
+      ruolo: spettri
+      esito: attendono a Minas Morgul
+  breve: >-
+    Gandalf entra a Dol Guldur e Sauron si ritira a est. Inizia la Pace
+    Vigile: per quasi quattro secoli i Nazgûl attendono in silenzio.
+  lungo: >-
+    Nel 2063 Gandalf si reca a Dol Guldur. Sauron, non ancora pronto allo
+    scontro, indietreggia e si rifugia a est. Comincia quello che viene
+    chiamato la Pace Vigile: per quasi quattro secoli Sauron resta nascosto e
+    i Nazgûl attendono in silenzio a Minas Morgul. È una pace solo apparente:
+    il male si prepara, non scompare.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2063"
+  certezza: certa
+  note: null
+
+- id: sauron-ritorno
+  titolo: Sauron torna a Dol Guldur
+  tipo: evento
+  data:
+    era: terza
+    anno: 2460
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2460"
+  luoghi:
+    - Dol Guldur
+    - Bosco Atro
+  fa_parte_di: null
+  partecipanti:
+    - nome: Sauron
+      parte: Dol Guldur
+      ruolo: signore oscuro
+      esito: rioccupa la fortezza
+    - nome: i Nazgûl
+      parte: Mordor
+      ruolo: servi
+      esito: si radunano
+  breve: >-
+    Finisce la Pace Vigile: Sauron ritorna a Dol Guldur con forze rinnovate.
+  lungo: >-
+    Nel 2460 Sauron ritorna a Dol Guldur con nuove forze. La Pace Vigile è
+    finita. Da questo momento la sua presenza nel Bosco Atro diventa sempre
+    più forte, e i Saggi cominciano a temere che il male non sia opera di un
+    Nazgûl ma del Signore Oscuro in persona.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2460"
+  certezza: certa
+  note: null
+
+- id: deagol-anello
+  titolo: Déagol trova l'Anello
+  tipo: evento
+  data:
+    era: terza
+    anno: 2463
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2463"
+  luoghi:
+    - Campo Gaggiolo
+    - Anduin
+    - Montagne Nebbiose
+  fa_parte_di: null
+  partecipanti:
+    - nome: Déagol
+      parte: Sturoi
+      ruolo: pescatore
+      esito: trova l'Anello e viene ucciso
+    - nome: Sméagol
+      parte: Sturoi
+      ruolo: assassino
+      esito: prende l'Anello, diventa Gollum
+    - nome: il Bianco Consiglio
+      parte: Eldar e Istari
+      ruolo: consiglio dei saggi
+      esito: si costituisce
+  breve: >-
+    Si costituisce il Bianco Consiglio. Presso l'Anduin, Déagol rinviene
+    l'Unico Anello e viene ucciso dall'amico Sméagol.
+  lungo: >-
+    Nel 2463 si costituisce il Bianco Consiglio. Nello stesso anno, presso il
+    Campo Gaggiolo, sulle rive dell'Anduin, lo Sturoi Déagol trova l'Unico
+    Anello, perduto da Isildur oltre duemila anni prima. Il suo amico Sméagol
+    lo uccide per prendere l'Anello. Pochi anni dopo, nel 2470, Sméagol,
+    ormai corrotto, si nasconde nelle Montagne Nebbiose: diventa Gollum.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 2463-2470; Libro I, capitolo 2"
+  certezza: certa
+  note: null
+
+- id: osgiliath-distrutta
+  titolo: Osgiliath è distrutta
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 2475
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2475"
+  luoghi:
+    - Osgiliath
+    - Anduin
+  fa_parte_di: null
+  partecipanti:
+    - nome: Gondor
+      parte: Gondor
+      ruolo: difensore
+      esito: perde la città
+    - nome: gli assalitori di Mordor
+      parte: Mordor
+      ruolo: esercito
+      esito: distruggono Osgiliath
+  breve: >-
+    Un nuovo attacco colpisce Gondor: Osgiliath, già provata dalla peste, è
+    rovinata definitivamente e il suo ponte di pietra crolla.
+  lungo: >-
+    Nel 2475 Gondor viene nuovamente attaccata. Osgiliath, già in declino dopo
+    la peste e lo spostamento della corte, è definitivamente distrutta e il
+    suo ponte di pietra crolla. La città che era stata la capitale del regno
+    non sarà mai più ricostruita com'era. Gondor si difende, ma perde uno dei
+    suoi simboli.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2475"
+  certezza: certa
+  note: >-
+    L'Appendice B non nomina gli assalitori; la scheda li indica come «forze
+    di Mordor» in modo generico.
+
+- id: battaglia-celebrant
+  titolo: Battaglia del Campo di Celebrant
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 2510
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2510"
+  luoghi:
+    - Campo di Celebrant
+    - Calenardhon
+    - Limterso
+    - Argentaroggia
+  fa_parte_di: null
+  partecipanti:
+    - nome: Eorl il Giovane
+      parte: popolo del Nord
+      ruolo: comandante
+      esito: vince
+    - nome: Cirion
+      parte: Gondor
+      ruolo: Sovrintendente
+      esito: chiede aiuto e concede la terra
+    - nome: i Balchoth
+      parte: Est
+      ruolo: invasori
+      esito: sconfitti
+    - nome: gli Esterling
+      parte: Est
+      ruolo: invasori
+      esito: sconfitti
+    - nome: gli Orchetti
+      parte: Montagne
+      ruolo: alleati degli invasori
+      esito: respinti
+  breve: >-
+    Orchetti ed Esterling dilagano nel Calenardhon: Eorl il Giovane li sbaraglia
+    sul Campo di Celebrant e salva Gondor.
+  lungo: >-
+    Una grande schiera di Uomini Selvaggi invade il Rhovanion da nord-est,
+    attraversa l'Anduin su zattere e conquista il Calenardhon, mentre gli
+    Orchetti scendono dalle Montagne. Cirion, Sovrintendente di Gondor, chiede
+    aiuto al popolo del Nord. Eorl il Giovane parte con un grande esercito di
+    cavalieri e giunge alla battaglia del Campo di Celebrant, lo spazio verde
+    fra l'Argentaroggia e il Limterso, dove l'esercito di Gondor era stato
+    respinto oltre il Limterso. Eorl stermina i nemici e insegue i Balchoth
+    fino a ucciderli tutti sui campi del Calenardhon.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2510; Appendice A, Cirion ed Eorl"
+  certezza: certa
+  note: null
+
+- id: rohan
+  titolo: Il dono di Calenardhon e il Giuramento di Eorl
+  tipo: fondazione
+  data:
+    era: terza
+    anno: 2510
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2510"
+  luoghi:
+    - Calenardhon
+    - Rohan
+  fa_parte_di: null
+  partecipanti:
+    - nome: Cirion
+      parte: Gondor
+      ruolo: Sovrintendente
+      esito: dona il Calenardhon
+    - nome: Eorl il Giovane
+      parte: popolo del Nord
+      ruolo: condottiero
+      esito: riceve la terra e presta il Giuramento
+    - nome: i Rohirrim
+      parte: Rohan
+      ruolo: popolo
+      esito: si stabiliscono nel Calenardhon
+  breve: >-
+    Cirion dona il Calenardhon a Eorl il Giovane, che presta il Giuramento di
+    Eorl. I Rohirrim si stabiliscono nella terra che diventa il Mark.
+  lungo: >-
+    Per ringraziarlo dell'aiuto nella battaglia del Campo di Celebrant, Cirion
+    dona a Eorl e alla sua gente il Calenardhon, la vasta terra fra l'Anduin,
+    l'Argentaroggia e il Limterso, spopolata dalla peste e dalle invasioni.
+    Eorl presta il Giuramento di Eorl, impegnandosi all'alleanza perpetua con
+    i Signori di Gondor. I Rohirrim si stabiliscono nella nuova terra, che
+    diventa il Mark dei Cavalieri. Nasce Rohan.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2510; Appendice A, Cirion ed Eorl"
+  certezza: certa
+  note: >-
+    La battaglia e il dono sono due eventi distinti dello stesso anno: hanno
+    partecipanti e conseguenze diverse e vanno tenuti separati.
+
+- id: draghi-nord
+  titolo: I Draghi del Nord
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 2589
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2589"
+  luoghi:
+    - Montagne Grigie
+    - Erebor
+    - Colli Ferrosi
+  fa_parte_di: null
+  partecipanti:
+    - nome: Dàin I
+      parte: Nani
+      ruolo: re
+      esito: ucciso da un Drago
+    - nome: Thrór
+      parte: Nani
+      ruolo: erede
+      esito: torna a Erebor
+    - nome: Grór
+      parte: Nani
+      ruolo: fratello di Thrór
+      esito: si reca ai Colli Ferrosi
+    - nome: i Draghi
+      parte: Nord
+      ruolo: predatori
+      esito: ricompaiono all'estremo Nord
+  breve: >-
+    I Draghi riapparsi alle Montagne Grigie uccidono re Dàin I; l'anno dopo
+    Thrór riporta la sua gente a Erebor.
+  lungo: >-
+    I Draghi cominciano a riapparire all'estremo Nord e tormentano i Nani
+    delle Montagne Grigie. Nel 2589 re Dàin I viene ucciso da un Drago. L'anno
+    seguente Thrór, suo figlio, riporta una parte del popolo a Erebor, mentre
+    il fratello Grór si reca ai Colli Ferrosi. La dispersione del Popolo di
+    Durin continua.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 2589-2590"
+  certezza: certa
+  note: null
+
+- id: erba-pipa
+  titolo: Nasce l'erba-pipa
+  tipo: evento
+  data:
+    era: terza
+    anno: 2670
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: circa
+    calendario: terza
+    testo: "Anno 2670 circa"
+  luoghi:
+    - Decumano Sud
+    - Contea
+  fa_parte_di: null
+  partecipanti:
+    - nome: Tobaldo
+      parte: Hobbit
+      ruolo: coltivatore
+      esito: pianta l'erba-pipa
+    - nome: gli Hobbit
+      parte: Hobbit
+      ruolo: popolo
+      esito: prendono l'abitudine di fumare
+  breve: >-
+    Tobaldo pianta l'erba-pipa nel Decumano Sud: nasce la passione degli
+    Hobbit per il fumo.
+  lungo: >-
+    Intorno al 2670 l'Hobbit Tobaldo pianta per la prima volta l'erba-pipa nel
+    Decumano Sud della Contea. Da questa coltivazione nasce l'abitudine di
+    fumare che diventa uno dei tratti più riconoscibili degli Hobbit. La
+    notizia è quasi domestica, ma introduce un dettaglio che avrà un ruolo
+    nella storia dell'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2670 circa; Prologo"
+  certezza: certa
+  note: null
+
+- id: lungo-inverno
+  titolo: Il Lungo Inverno
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 2758
+    mese: null
+    giorno: null
+    anno_fine: 2759
+    precisione: intervallo
+    qualificatore: null
+    calendario: terza
+    testo: "2758-2759"
+  luoghi:
+    - Rohan
+    - Fosso di Helm
+    - Edoras
+    - Gondor
+    - Contea
+  fa_parte_di: null
+  partecipanti:
+    - nome: Helm
+      parte: Rohan
+      ruolo: re
+      esito: muore nel Fosso di Helm
+    - nome: Wulf
+      parte: invasori
+      ruolo: usurpatore
+      esito: assedia Edoras
+    - nome: Fréaláf
+      parte: Rohan
+      ruolo: nipote di Helm
+      esito: caccia Wulf e fonda la seconda linea dei re
+    - nome: i Corsari di Umbar
+      parte: Umbar
+      ruolo: invasori
+      esito: assalgono Gondor
+    - nome: Gandalf
+      parte: Istari
+      ruolo: soccorritore
+      esito: aiuta la Contea
+  breve: >-
+    Rohan, assalita da est e da ovest, è travolta: Helm si asserraglia nel
+    Fosso e vi muore, mentre i Corsari incalzano Gondor. Il Lungo Inverno gela
+    ogni terra e Gandalf soccorre la Contea.
+  lungo: >-
+    Nel 2758 Rohan viene attaccato da est e da ovest. Re Helm si rifugia nel
+    Fosso di Helm, mentre Wulf assedia Edoras. Nello stesso periodo le flotte
+    dei Corsari di Umbar assalgono Gondor. L'inverno che segue, il Lungo
+    Inverno, è durissimo: gela le terre, uccide uomini e bestie e provoca
+    grandi sofferenze nell'Eriador e nel Rohan. Gandalf soccorre la gente
+    della Contea. Nel 2759 muore Helm; Fréaláf caccia Wulf e dà inizio alla
+    seconda linea dei Re del Mark.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 2758-2759; Appendice A, Rohan"
+  certezza: certa
+  note: null
+
+- id: saruman-isengard
+  titolo: Saruman si stabilisce a Isengard
+  tipo: evento
+  data:
+    era: terza
+    anno: 2759
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2759"
+  luoghi:
+    - Isengard
+    - Orthanc
+  fa_parte_di: null
+  partecipanti:
+    - nome: Saruman
+      parte: Istari
+      ruolo: capo del Bianco Consiglio
+      esito: prende possesso di Isengard
+    - nome: Gondor
+      parte: Gondor
+      ruolo: proprietario formale
+      esito: cede la torre al Consiglio
+  breve: >-
+    Saruman si stabilisce a Isengard e ne fa la propria fortezza.
+  lungo: >-
+    Nel 2759 Saruman si stabilisce a Isengard, la fortezza al centro del
+    Calenardhon, e ne fa la propria dimora. La torre di Orthanc custodisce uno
+    dei palantíri. Per secoli Saruman sarà il capo riconosciuto del Bianco
+    Consiglio, ma Isengard diventerà il centro dei suoi progetti personali.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2759"
+  certezza: certa
+  note: null
+
+- id: smaug-erebor
+  titolo: Smaug devasta Erebor
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 2770
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2770"
+  luoghi:
+    - Erebor
+    - Valle
+    - Esgaroth
+  fa_parte_di: null
+  partecipanti:
+    - nome: Smaug
+      parte: Draghi
+      ruolo: drago
+      esito: conquista Erebor
+    - nome: Thrór
+      parte: Nani
+      ruolo: re
+      esito: fugge
+    - nome: Thràin II
+      parte: Nani
+      ruolo: principe
+      esito: fugge
+    - nome: Thorin Scudodiquercia
+      parte: Nani
+      ruolo: principe
+      esito: fugge
+  breve: >-
+    Il drago Smaug piomba sul regno sotto la Montagna: Thrór fugge con Thràin
+    II e Thorin, e i Nani diventano un popolo errante.
+  lungo: >-
+    Il drago Smaug assalta Erebor e il regno sotto la Montagna. Re Thrór
+    fugge con il figlio Thràin II e il nipote Thorin Scudodiquercia; molti
+    Nani si dispersero. Smaug si insedia nella Montagna con il tesoro dei
+    Nani. Il regno di Erebor finisce, e il popolo di Durin diventa un popolo
+    errante.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2770; Appendice A, Durin"
+  certezza: certa
+  note: null
+
+- id: thror
+  titolo: Morte di Thrór
+  tipo: morte
+  data:
+    era: terza
+    anno: 2790
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2790"
+  luoghi:
+    - Moria
+    - Cancello Orientale
+  fa_parte_di: null
+  partecipanti:
+    - nome: Thrór
+      parte: Nani
+      ruolo: re in esilio
+      esito: ucciso
+    - nome: un Orchetto di Moria
+      parte: Moria
+      ruolo: assassino
+      esito: uccide Thrór
+    - nome: Nár
+      parte: Nani
+      ruolo: compagno di Thrór
+      esito: porta la notizia
+  breve: >-
+    Sceso da solo a Moria, Thrór viene ucciso da un Orchetto: i Nani dei sette
+    casati si radunano per una guerra di vendetta.
+  lungo: >-
+    Thrór, vecchio e ridotto in povertà, scende a Moria con il solo compagno
+    Nár. Davanti al Cancello Orientale viene ucciso da un Orchetto, che gli
+    prende la testa. Nár porta la notizia al popolo. I Nani dei sette casati
+    si radunano per una guerra di vendetta contro gli Orchetti di Moria.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2790; Appendice A, Durin"
+  certezza: certa
+  note: null
+
+- id: nanduhirion
+  titolo: Battaglia di Nanduhirion
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 2799
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2799"
+  luoghi:
+    - Nanduhirion
+    - Cancello Orientale di Moria
+    - Colli Ferrosi
+    - Ered Luin
+  fa_parte_di: null
+  partecipanti:
+    - nome: Dàin Piediferro
+      parte: Nani
+      ruolo: comandante
+      esito: torna ai Colli Ferrosi
+    - nome: Thràin II
+      parte: Nani
+      ruolo: erede di Thrór
+      esito: parte verso ovest
+    - nome: Thorin Scudodiquercia
+      parte: Nani
+      ruolo: principe
+      esito: parte verso ovest
+    - nome: gli Orchetti di Moria
+      parte: Moria
+      ruolo: nemici
+      esito: sconfitti
+  breve: >-
+    La Guerra tra i Nani e gli Orchetti si chiude davanti al Cancello Orientale
+    di Moria. Dàin Piediferro torna ai Colli Ferrosi; Thràin II e Thorin si
+    portano a ovest.
+  lungo: >-
+    La guerra di vendetta dei Nani contro gli Orchetti di Moria culmina nel
+    2799 nella battaglia di Nanduhirion, davanti al Cancello Orientale di
+    Moria. I Nani vincono, ma a caro prezzo. Dàin Piediferro torna ai Colli
+    Ferrosi; Thràin II e suo figlio Thorin si dirigono verso ovest e si
+    stabiliscono nell'Ered Luin, oltre la Contea. Moria resta in mano agli
+    Orchetti e al Balrog.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 2793-2799; Appendice A, Durin"
+  certezza: certa
+  note: null
+
+- id: gandalf-dol-guldur
+  titolo: Gandalf a Dol Guldur
+  tipo: evento
+  data:
+    era: terza
+    anno: 2850
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2850"
+  luoghi:
+    - Dol Guldur
+    - Bosco Atro
+  fa_parte_di: null
+  partecipanti:
+    - nome: Gandalf
+      parte: Istari
+      ruolo: esploratore
+      esito: scopre Sauron e riceve la chiave di Erebor
+    - nome: Thràin II
+      parte: Nani
+      ruolo: prigioniero
+      esito: muore a Dol Guldur
+    - nome: Sauron
+      parte: Dol Guldur
+      ruolo: signore oscuro
+      esito: cerca l'Anello e l'Erede di Isildur
+  breve: >-
+    Gandalf entra di nuovo nella fortezza e scopre che il suo padrone è
+    Sauron. Vi trova morente Thràin II, che gli affida la chiave di Erebor.
+  lungo: >-
+    Nel 2850 Gandalf torna a Dol Guldur e scopre che il padrone del luogo è
+    Sauron in persona, impegnato a raccogliere gli Anelli e a cercare notizie
+    dell'Unico Anello e dell'Erede di Isildur. Nella fortezza trova Thràin II,
+    prigioniero e morente, che gli affida la chiave di Erebor. Thràin muore a
+    Dol Guldur. Gandalf esce con la prova che il male è tornato.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 2841-2850; Appendice A, Durin"
+  certezza: certa
+  note: null
+
+- id: bilbo-nasce
+  titolo: Nasce Bilbo
+  tipo: nascita
+  data:
+    era: terza
+    anno: 2890
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2890"
+  luoghi:
+    - Contea
+    - Hobbiville
+  fa_parte_di: null
+  partecipanti:
+    - nome: Bilbo Baggins
+      parte: Hobbit
+      ruolo: neonato
+      esito: nasce a Casa Baggins
+    - nome: la famiglia Baggins
+      parte: Hobbit
+      ruolo: famiglia
+      esito: lo accoglie
+  breve: >-
+    Nasce nella Contea Bilbo Baggins di Casa Baggins.
+  lungo: >-
+    Nel 2890 nasce nella Contea Bilbo Baggins, di Casa Baggins. Nessuno può
+    saperlo, ma sarà lui a trovare l'Unico Anello e a portarlo fuori dalla
+    Contea. La sua nascita è il primo anello di una catena che arriverà fino
+    a Frodo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2890; Appendice C, Bilbo"
+  certezza: certa
+  note: null
+
+- id: festa-inattesa
+  titolo: La festa inattesa
+  tipo: evento
+  data:
+    era: terza
+    anno: 2941
+    mese: 4
+    giorno: null
+    anno_fine: null
+    precisione: mese
+    qualificatore: null
+    calendario: terza
+    testo: "Aprile 2941"
+  luoghi:
+    - Contea
+    - Hobbiville
+    - Casa Baggins
+  fa_parte_di: La ricerca di Erebor
+  partecipanti:
+    - nome: Bilbo Baggins
+      parte: Hobbit
+      ruolo: futuro scassinatore
+      esito: accetta la missione
+    - nome: Gandalf
+      parte: Istari
+      ruolo: mandante
+      esito: organizza la compagnia
+    - nome: Thorin Scudodiquercia
+      parte: Nani
+      ruolo: capo della compagnia
+      esito: recluta Bilbo
+    - nome: i dodici compagni di Thorin
+      parte: Nani
+      ruolo: membri della compagnia
+      esito: partono con lui
+  breve: >-
+    Gandalf e Thorin Scudodiquercia arrivano a Casa Baggins: Bilbo viene
+    reclutato come scassinatore per la riconquista di Erebor.
+  lungo: >-
+    In aprile Gandalf e Thorin Scudodiquercia si presentano a Casa Baggins
+    con dodici compagni. Bilbo, sorpreso e spaventato, accetta di unirsi alla
+    compagnia come scassinatore. La missione è riconquistare Erebor e il suo
+    tesoro, ora in mano al drago Smaug. Comincia la ricerca che porterà Bilbo
+    fino all'Anello.
+  fonti:
+    - opera: Lo Hobbit
+      riferimento: "Capitolo 1, Una festa inattesa"
+  certezza: certa
+  note: >-
+    L'Appendice B data l'impresa al 2941; il testo de Lo Hobbit la colloca in
+    aprile senza indicare il giorno. La scheda non inventa una data più
+    precisa.
+
+- id: anello-bilbo
+  titolo: L'Anello ritrova Bilbo
+  tipo: evento
+  data:
+    era: terza
+    anno: 2941
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Estate 2941"
+  luoghi:
+    - Montagne Nebbiose
+    - caverna di Gollum
+  fa_parte_di: La ricerca di Erebor
+  partecipanti:
+    - nome: Bilbo Baggins
+      parte: Hobbit
+      ruolo: portatore
+      esito: trova l'Unico Anello
+    - nome: Gollum
+      parte: Montagne Nebbiose
+      ruolo: custode
+      esito: perde l'Anello
+  breve: >-
+    Nelle caverne delle Montagne Nebbiose Bilbo trova l'Unico Anello e
+    incontra Gollum. L'Anello, creduto perduto, torna nel mondo.
+  lungo: >-
+    Durante il viaggio verso Erebor, Bilbo si perde nelle caverne delle
+    Montagne Nebbiose e trova l'Unico Anello. Incontra Gollum, che lo chiama
+    «il mio tessoro», e si salva grazie a un gioco di indovinelli e all'Anello
+    che lo rende invisibile. Bilbo esce dalle caverne con l'Anello, senza
+    sapere cosa sia davvero: è l'inizio della catena che porterà Frodo a
+    Mordor.
+  fonti:
+    - opera: Lo Hobbit
+      riferimento: "Capitolo 5, Indovinelli nell'oscurità"
+  certezza: certa
+  note: >-
+    La data esatta non è nell'Appendice B; la cronologia de Lo Hobbit la
+    colloca nell'estate del 2941.
+
+- id: consiglio-dol-guldur
+  titolo: Il Bianco Consiglio attacca Dol Guldur
+  tipo: consiglio
+  data:
+    era: terza
+    anno: 2941
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2941"
+  luoghi:
+    - Dol Guldur
+    - Bosco Atro
+    - Gran Burrone
+  fa_parte_di: null
+  partecipanti:
+    - nome: Saruman
+      parte: Bianco Consiglio
+      ruolo: capo
+      esito: acconsente all'attacco
+    - nome: Gandalf
+      parte: Bianco Consiglio
+      ruolo: promotore
+      esito: ottiene l'attacco
+    - nome: Galadriel
+      parte: Bianco Consiglio
+      ruolo: signora di Lórien
+      esito: partecipa
+    - nome: Elrond
+      parte: Bianco Consiglio
+      ruolo: signore di Imladris
+      esito: partecipa
+    - nome: Sauron
+      parte: Dol Guldur
+      ruolo: signore oscuro
+      esito: abbandona la fortezza
+  breve: >-
+    Il Bianco Consiglio assalta Dol Guldur. Sauron, che ha già pronto il suo
+    piano, abbandona la fortezza e si ritira in segreto verso Mordor.
+  lungo: >-
+    Nel 2941 il Bianco Consiglio si riunisce. Saruman, che teme che Sauron
+    trovi l'Anello nel fiume, acconsente all'attacco contro Dol Guldur.
+    L'assalto riesce: Sauron abbandona la fortezza. Ma non è una fuga
+    improvvisata: Sauron ha già preparato il suo ritorno e si dirige in
+    segreto verso Mordor. Il Consiglio crede di aver vinto una battaglia,
+    mentre il nemico si prepara alla guerra.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2941"
+  certezza: certa
+  note: >-
+    L'Appendice B non descrive lo svolgimento dell'attacco; la scena è narrata
+    in altre opere. La scheda si limita a ciò che dice l'Appendice.
+
+- id: smaug-ucciso
+  titolo: Bard uccide Smaug
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 2941
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2941"
+  luoghi:
+    - Esgaroth
+    - Valle
+    - Erebor
+  fa_parte_di: La ricerca di Erebor
+  partecipanti:
+    - nome: Bard
+      parte: Esgaroth
+      ruolo: arciere
+      esito: uccide Smaug
+    - nome: Smaug
+      parte: Draghi
+      ruolo: drago
+      esito: muore
+    - nome: gli abitanti di Esgaroth
+      parte: Esgaroth
+      ruolo: città
+      esito: sopravvivono alla distruzione
+  breve: >-
+    Bard di Esgaroth uccide Smaug, e il tesoro di Erebor resta senza
+    custode.
+  lungo: >-
+    Smaug attacca Esgaroth. Bard, discendente dei Signori di Valle, scocca la
+    freccia che colpisce il drago nel punto scoperto e lo uccide. La città è
+    in gran parte distrutta, ma il tesoro di Erebor resta senza custode. La
+    morte di Smaug apre la strada alla battaglia per il tesoro.
+  fonti:
+    - opera: Lo Hobbit
+      riferimento: "Capitolo 14, Fuoco e acqua"
+  certezza: certa
+  note: null
+
+- id: cinque-eserciti
+  titolo: Battaglia dei Cinque Eserciti
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 2941
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2941"
+  luoghi:
+    - Valle
+    - Erebor
+    - Montagna Solitaria
+  fa_parte_di: La ricerca di Erebor
+  partecipanti:
+    - nome: Thorin Scudodiquercia
+      parte: Nani
+      ruolo: re
+      esito: muore
+    - nome: Dàin Piediferro
+      parte: Nani
+      ruolo: comandante
+      esito: diventa Re sotto la Montagna
+    - nome: Bard
+      parte: Esgaroth
+      ruolo: comandante
+      esito: sopravvive
+    - nome: Thranduil
+      parte: Bosco Atro
+      ruolo: re elfico
+      esito: sopravvive
+    - nome: Bilbo Baggins
+      parte: Hobbit
+      ruolo: portatore dell'Anello
+      esito: sopravvive
+    - nome: gli Orchetti e i Lupi
+      parte: Nord
+      ruolo: invasori
+      esito: sconfitti
+  breve: >-
+    Alla Valle si combatte la Battaglia dei Cinque Eserciti: Thorin muore e
+    Dàin Piediferro diventa Re sotto la Montagna.
+  lungo: >-
+    Alla Valle, davanti a Erebor, si scontrano Nani, Elfi e Uomini contro
+    Orchetti e Lupi. La battaglia è chiamata dei Cinque Eserciti. Thorin
+    Scudodiquercia muore; Dàin Piediferro, giunto in aiuto, diventa Re sotto
+    la Montagna. Bilbo, ferito alla testa, sopravvive. Il tesoro di Erebor
+    torna ai Nani e la Valle viene ricostruita.
+  fonti:
+    - opera: Lo Hobbit
+      riferimento: "Capitoli 17-18, La battaglia dei cinque eserciti"
+  certezza: certa
+  note: null
+
+- id: bilbo-torna
+  titolo: Bilbo torna con l'Anello
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 2942
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2942"
+  luoghi:
+    - Contea
+    - Hobbiville
+    - Mordor
+  fa_parte_di: null
+  partecipanti:
+    - nome: Bilbo Baggins
+      parte: Hobbit
+      ruolo: viaggiatore
+      esito: torna a Casa Baggins con l'Anello
+    - nome: Sauron
+      parte: Mordor
+      ruolo: signore oscuro
+      esito: rientra in segreto a Mordor
+  breve: >-
+    Bilbo rientra nella Contea con l'Anello; nello stesso anno Sauron
+    raggiunge di nascosto Mordor.
+  lungo: >-
+    Nel 2942 Bilbo rientra nella Contea e si stabilisce a Casa Baggins con
+    l'Unico Anello, che tiene come un semplice ricordo del viaggio. Nello
+    stesso anno Sauron, dopo aver abbandonato Dol Guldur, raggiunge di nascosto
+    Mordor. Le due cose accadono quasi insieme: l'Anello è nella Contea, il
+    suo padrone è tornato a casa.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2942"
+  certezza: certa
+  note: null

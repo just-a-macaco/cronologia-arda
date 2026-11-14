@@ -1,0 +1,1155 @@
+# Schede complete degli eventi della Terza Era, anni 2950-3021.
+# Fonte primaria: Il Signore degli Anelli, Appendice B (ed. Bompiani 2004,
+# traduzione di Vittoria Alliata di Villafranca), verificata sull'epub.
+# I nomi seguono l'edizione di riferimento; le varianti sono in `note`.
+
+- id: sauron-si-dichiara
+  titolo: Sauron si dichiara
+  tipo: evento
+  data:
+    era: terza
+    anno: 2951
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2951"
+  luoghi:
+    - Mordor
+    - Barad-dûr
+    - Dol Guldur
+  fa_parte_di: null
+  partecipanti:
+    - nome: Sauron
+      parte: Mordor
+      ruolo: Signore Oscuro
+      esito: dichiara il proprio ritorno
+    - nome: i Nazgûl
+      parte: Mordor
+      ruolo: servi
+      esito: tre rioccupano Dol Guldur
+    - nome: Gollum
+      parte: Montagne Nebbiose
+      ruolo: cercatore
+      esito: si dirige verso Mordor
+    - nome: Elrond
+      parte: Imladris
+      ruolo: signore elfico
+      esito: rivela ad Aragorn la sua discendenza
+    - nome: Aragorn
+      parte: Dúnedain
+      ruolo: erede di Isildur
+      esito: riceve i frantumi di Narsil
+  breve: >-
+    Sauron annuncia apertamente il proprio ritorno, raduna le forze a Mordor e
+    ricostruisce Barad-dûr. Tre Nazgûl rioccupano Dol Guldur.
+  lungo: >-
+    Nel 2951 Sauron dichiara apertamente il proprio ritorno: raduna le forze a
+    Mordor e comincia a ricostruire Barad-dûr. Tre Nazgûl rioccupano Dol
+    Guldur. Nello stesso anno Elrond rivela ad Aragorn, che ha vissuto a
+    Gran Burrone sotto il nome di Estel, la sua vera discendenza e gli affida
+    i frantumi di Narsil; Aragorn incontra Arwen e poi parte per le Terre
+    Selvagge. La guerra dell'Anello non è ancora cominciata, ma i suoi
+    protagonisti sono già in cammino.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2951"
+  certezza: certa
+  note: null
+
+- id: ultimo-consiglio
+  titolo: L'ultima seduta del Bianco Consiglio
+  tipo: consiglio
+  data:
+    era: terza
+    anno: 2953
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2953"
+  luoghi:
+    - Gran Burrone
+    - Isengard
+    - Brea
+    - Decumano Sud
+  fa_parte_di: null
+  partecipanti:
+    - nome: Saruman
+      parte: Bianco Consiglio
+      ruolo: capo
+      esito: mente sull'Anello e si ritira a Isengard
+    - nome: Gandalf
+      parte: Bianco Consiglio
+      ruolo: membro
+      esito: viene spiato
+    - nome: il Bianco Consiglio
+      parte: Eldar e Istari
+      ruolo: consiglio dei saggi
+      esito: si scioglie
+  breve: >-
+    Il Consiglio discute degli Anelli e si scioglie. Saruman si ritira a
+    Isengard e mette spie alle calcagna di Gandalf.
+  lungo: >-
+    Nel 2953 si tiene l'ultima seduta del Bianco Consiglio. Si discute la
+    questione degli Anelli. Saruman finge di aver scoperto che l'Unico Anello,
+    sceso lungo l'Anduin, è finito nel Mare. Poi si ritira a Isengard e ne fa
+    la sua fortezza. Geloso e timoroso di Gandalf, gli mette delle spie alle
+    calcagna e manda agenti a Brea e nel Decumano Sud. Il Consiglio non si
+    riunirà mai più.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2953"
+  certezza: certa
+  note: null
+
+- id: fato-avvampa
+  titolo: Il Monte Fato avvampa
+  tipo: evento
+  data:
+    era: terza
+    anno: 2954
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2954"
+  luoghi:
+    - Monte Fato
+    - Ithilien
+    - Anduin
+  fa_parte_di: null
+  partecipanti:
+    - nome: il Monte Fato
+      parte: Mordor
+      ruolo: vulcano
+      esito: torna in eruzione
+    - nome: gli abitanti dell'Ithilien
+      parte: Gondor
+      ruolo: popolazione
+      esito: fuggono oltre l'Anduin
+  breve: >-
+    Il vulcano torna in eruzione: gli ultimi abitanti dell'Ithilien fuggono
+    oltre l'Anduin.
+  lungo: >-
+    Nel 2954 il Monte Fato torna in eruzione. Il fumo e le ceneri rendono
+    l'Ithilien sempre più difficile da abitare, e gli ultimi abitanti fuggono
+    oltre l'Anduin. È il segno visibile che Mordor si sta risvegliando. Gondor
+    perde anche quel che resta della sua provincia orientale.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2954"
+  certezza: certa
+  note: null
+
+- id: saruman-tradisce
+  titolo: Saruman tradisce
+  tipo: tradimento
+  data:
+    era: terza
+    anno: 3000
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 3000"
+  luoghi:
+    - Isengard
+    - Orthanc
+    - Mordor
+    - Contea
+  fa_parte_di: null
+  partecipanti:
+    - nome: Saruman
+      parte: Isengard
+      ruolo: capo del Bianco Consiglio
+      esito: usa il palantír e cade sotto il dominio di Sauron
+    - nome: Sauron
+      parte: Mordor
+      ruolo: Signore Oscuro
+      esito: irretisce Saruman
+    - nome: le spie di Saruman
+      parte: Isengard
+      ruolo: informatori
+      esito: riferiscono sulla Contea
+  breve: >-
+    L'ombra di Mordor si allunga. Saruman osa usare il palantír di Orthanc e
+    ne resta irretito: da allora lavora in segreto per Sauron.
+  lungo: >-
+    Intorno al 3000 l'ombra di Mordor si estende. Saruman osa adoperare il
+    palantír di Orthanc, ma Sauron, che possiede la Pietra d'Ithil, lo
+    irretisce. Da questo momento Saruman tradisce definitivamente il Bianco
+    Consiglio e lavora in segreto per il nemico. Le sue spie riferiscono che
+    la Contea è rigorosamente custodita dai Raminghi: un'informazione che
+    incuriosisce Sauron.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3000"
+  certezza: certa
+  note: null
+
+- id: festa-bilbo
+  titolo: La festa d'addio di Bilbo
+  tipo: evento
+  data:
+    era: terza
+    anno: 3001
+    mese: 9
+    giorno: 22
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "22 settembre 3001"
+  luoghi:
+    - Contea
+    - Hobbiville
+    - Casa Baggins
+  fa_parte_di: null
+  partecipanti:
+    - nome: Bilbo Baggins
+      parte: Hobbit
+      ruolo: festeggiato
+      esito: parte e lascia l'Anello a Frodo
+    - nome: Frodo Baggins
+      parte: Hobbit
+      ruolo: erede
+      esito: riceve l'Anello
+    - nome: Gandalf
+      parte: Istari
+      ruolo: ospite
+      esito: comincia a sospettare la verità
+  breve: >-
+    Bilbo scompare dalla Contea lasciando l'Anello a Frodo. Gandalf comincia a
+    sospettare che sia l'Unico Anello.
+  lungo: >-
+    Il 22 settembre 3001 Bilbo Baggins celebra il suo centoundicesimo
+    compleanno con una grande festa. Alla fine del discorso indossa l'Anello,
+    scompare davanti a tutti e lascia la Contea. Prima di partire ha affidato
+    l'Anello a Frodo. Gandalf comincia a sospettare che quell'anello da
+    bisaccia sia l'Unico Anello: da ora la vigilanza sulla Contea viene
+    raddoppiata, e Gandalf cerca notizie di Gollum con l'aiuto di Aragorn.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3001; Libro I, capitolo 1"
+  certezza: certa
+  note: >-
+    La data è quella del calendario della Contea, come nell'Appendice B.
+
+- id: osgiliath-3018
+  titolo: Sauron attacca Osgiliath
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3018
+    mese: 6
+    giorno: 20
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "20 giugno 3018"
+  luoghi:
+    - Osgiliath
+    - Anduin
+    - Morgul
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - nome: Sauron
+      parte: Mordor
+      ruolo: Signore Oscuro
+      esito: ordina l'attacco
+    - nome: Gondor
+      parte: Gondor
+      ruolo: difensore
+      esito: perde Osgiliath
+    - nome: i Nazgûl
+      parte: Mordor
+      ruolo: cavalieri
+      esito: attraversano il fiume
+  breve: >-
+    L'Oscuro Signore muove guerra a Gondor e travolge Osgiliath: la ricerca
+    dell'Anello è diventata caccia.
+  lungo: >-
+    Il 20 giugno 3018 Sauron attacca Osgiliath. La città, già in rovina, viene
+    travolta e i Nazgûl attraversano l'Anduin. Gondor chiede aiuto e Boromir
+    parte da Minas Tirith il 4 luglio per cercare il significato di un sogno.
+    Nello stesso periodo Thranduil viene assalito nel Bosco Atro e Gollum
+    fugge. La Guerra dell'Anello comincia con una serie di mosse quasi
+    simultanee.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 20 giugno 3018"
+  certezza: certa
+  note: null
+
+- id: gollum-fugge
+  titolo: Gollum fugge dal Bosco Atro
+  tipo: evento
+  data:
+    era: terza
+    anno: 3018
+    mese: 6
+    giorno: null
+    anno_fine: null
+    precisione: mese
+    qualificatore: null
+    calendario: contea
+    testo: "Giugno 3018"
+  luoghi:
+    - Bosco Atro
+    - Montagne Nebbiose
+    - Moria
+  fa_parte_di: null
+  partecipanti:
+    - nome: Gollum
+      parte: Montagne Nebbiose
+      ruolo: prigioniero
+      esito: fugge
+    - nome: Thranduil
+      parte: Bosco Atro
+      ruolo: re elfico
+      esito: subisce l'assalto
+    - nome: gli Elfi Silvani
+      parte: Bosco Atro
+      ruolo: guardiani
+      esito: perdono il prigioniero
+    - nome: gli Orchetti
+      parte: Montagne
+      ruolo: assalitori
+      esito: liberano Gollum
+  breve: >-
+    Thranduil viene assalito nel Bosco Atro e Gollum fugge. Si pensa che si
+    sia rifugiato a Moria.
+  lungo: >-
+    Nel giugno 3018 Thranduil viene assalito nel Bosco Atro da una banda di
+    Orchetti. Gollum approfitta del tumulto e fugge. Si pensa che, inseguito
+    dagli Elfi e dai servitori di Sauron, si sia rifugiato a Moria; ma una
+    volta scoperta la via del Cancello Occidentale non sarebbe riuscito a
+    uscirne. In realtà Gollum seguirà i passi di Frodo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, giugno 3018"
+  certezza: certa
+  note: null
+
+- id: frodo-parte
+  titolo: Frodo lascia la Contea
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3018
+    mese: 9
+    giorno: 23
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "23 settembre 3018"
+  luoghi:
+    - Contea
+    - Hobbiville
+    - Casa Baggins
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - nome: Frodo Baggins
+      parte: Hobbit
+      ruolo: Portatore dell'Anello
+      esito: parte da Casa Baggins
+    - nome: Samvise Gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: parte con Frodo
+    - nome: Meriadoc Brandibuck
+      parte: Hobbit
+      ruolo: compagno
+      esito: parte con Frodo
+    - nome: Peregrino Tuc
+      parte: Hobbit
+      ruolo: compagno
+      esito: parte con Frodo
+    - nome: i Cavalieri Neri
+      parte: Mordor
+      ruolo: inseguitori
+      esito: entrano nella Contea
+    - nome: Gandalf
+      parte: Istari
+      ruolo: guida
+      esito: parte da Rohan
+  breve: >-
+    Quattro Cavalieri Neri entrano nella Contea prima dell'alba. Frodo parte
+    da Casa Baggins: comincia la traversata che porterà l'Anello a sud.
+  lungo: >-
+    Il 23 settembre 3018 quattro Cavalieri Neri entrano nella Contea prima
+    dell'alba; uno di loro giunge a Hobbiville sul calare della notte. Frodo
+    lascia Casa Baggins con Sam, Merry e Pippin. Nello stesso giorno Gandalf,
+    dopo aver domato Ombromanto, parte da Rohan. Comincia il viaggio che
+    porterà l'Anello verso Gran Burrone e poi verso Mordor.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 23 settembre 3018"
+  certezza: certa
+  note: null
+
+- id: consiglio-elrond
+  titolo: Consiglio di Elrond
+  tipo: consiglio
+  data:
+    era: terza
+    anno: 3018
+    mese: 10
+    giorno: 25
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "25 ottobre 3018"
+  luoghi:
+    - Gran Burrone
+    - Imladris
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - nome: Elrond
+      parte: Imladris
+      ruolo: signore del consiglio
+      esito: convoca il Consiglio
+    - nome: Gandalf
+      parte: Istari
+      ruolo: consigliere
+      esito: sostiene la distruzione dell'Anello
+    - nome: Frodo Baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: si offre di portare l'Anello
+    - nome: Aragorn
+      parte: Dúnedain
+      ruolo: erede di Isildur
+      esito: entra nella Compagnia
+    - nome: Boromir
+      parte: Gondor
+      ruolo: figlio del Sovrintendente
+      esito: entra nella Compagnia
+    - nome: Legolas
+      parte: Bosco Atro
+      ruolo: elfo
+      esito: entra nella Compagnia
+    - nome: Gimli
+      parte: Nani
+      ruolo: nano
+      esito: entra nella Compagnia
+    - nome: Bilbo Baggins
+      parte: Hobbit
+      ruolo: ospite
+      esito: offre il suo aiuto
+  breve: >-
+    A Gran Burrone si decide la sorte dell'Unico Anello: nasce la Compagnia dei
+    Nove Viandanti.
+  lungo: >-
+    Il 25 ottobre 3018 si riunisce a Gran Burrone il Consiglio di Elrond. Si
+    discute che cosa fare dell'Unico Anello. Si decide che non può essere
+    usato né nascosto: va distrutto nel Monte Fato. Frodo si offre di portarlo.
+    Nasce la Compagnia dei Nove Viandanti: Frodo, Sam, Merry, Pippin, Gandalf,
+    Aragorn, Boromir, Legolas e Gimli. Il Consiglio è il momento in cui le
+    storie sparse convergono in un'unica impresa.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, 25 ottobre 3018; Libro II, capitolo 2"
+  certezza: certa
+  note: null
+
+- id: compagnia-parte
+  titolo: La Compagnia parte
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3018
+    mese: 12
+    giorno: 25
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "25 dicembre 3018"
+  luoghi:
+    - Gran Burrone
+    - Imladris
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - nome: la Compagnia dell'Anello
+      parte: Compagnia
+      ruolo: nove viandanti
+      esito: parte da Gran Burrone
+    - nome: Frodo Baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: guida la compagnia
+    - nome: Gandalf
+      parte: Istari
+      ruolo: guida
+      esito: accompagna la compagnia
+  breve: >-
+    La Compagnia dell'Anello lascia Gran Burrone al crepuscolo, nel cuore
+    dell'inverno.
+  lungo: >-
+    Il 25 dicembre 3018 la Compagnia dell'Anello lascia Gran Burrone al
+    crepuscolo. I nove viandanti prendono la via del sud, verso i valichi
+    delle Montagne Nebbiose e poi verso Moria. È l'inizio della parte più
+    pericolosa del viaggio.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, 25 dicembre 3018; Libro II, capitolo 3"
+  certezza: certa
+  note: null
+
+- id: gandalf-moria
+  titolo: Gandalf cade a Moria
+  tipo: perdita
+  data:
+    era: terza
+    anno: 3019
+    mese: 1
+    giorno: 15
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "15 gennaio 3019"
+  luoghi:
+    - Moria
+    - Khazad-dûm
+    - Ponte di Khazad-dûm
+    - Nimrodel
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - nome: Gandalf
+      parte: Compagnia
+      ruolo: Istaro
+      esito: cade con il Balrog
+    - nome: il Balrog
+      parte: Morgoth
+      ruolo: demone del fuoco
+      esito: precipita con Gandalf
+    - nome: Aragorn
+      parte: Compagnia
+      ruolo: guida
+      esito: conduce i superstiti fuori da Moria
+    - nome: Frodo Baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: sopravvive
+    - nome: Boromir
+      parte: Compagnia
+      ruolo: guerriero
+      esito: sopravvive
+    - nome: Legolas
+      parte: Compagnia
+      ruolo: arciere
+      esito: sopravvive
+    - nome: Gimli
+      parte: Compagnia
+      ruolo: nano
+      esito: sopravvive
+  breve: >-
+    Sul Ponte di Khazad-dûm il mago affronta da solo il flagello di Durin per
+    permettere alla Compagnia di fuggire.
+  lungo: >-
+    Il 15 gennaio 3019 la Compagnia attraversa Moria. Nel buio delle sale
+    profonde viene attaccata da un Balrog, il flagello di Durin. Sul Ponte di
+    Khazad-dûm Gandalf affronta il demone da solo per permettere agli altri di
+    fuggire: il ponte crolla e il mago precipita con il Balrog. La Compagnia
+    esce da Moria e raggiunge il Nimrodel a notte inoltrata, senza sapere che
+    Gandalf tornerà.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, 15 gennaio 3019; Libro II, capitolo 5"
+  certezza: certa
+  note: null
+
+- id: compagnia-si-scioglie
+  titolo: La Compagnia si scioglie
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 2
+    giorno: 26
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "26 febbraio 3019"
+  luoghi:
+    - Parth Galen
+    - Argonath
+    - Emyn Muil
+    - Rohan
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - nome: Boromir
+      parte: Compagnia
+      ruolo: guerriero
+      esito: muore
+    - nome: Meriadoc Brandibuck
+      parte: Hobbit
+      ruolo: compagno
+      esito: catturato
+    - nome: Peregrino Tuc
+      parte: Hobbit
+      ruolo: compagno
+      esito: catturato
+    - nome: Frodo Baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: prosegue da solo con Sam
+    - nome: Samvise Gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: segue Frodo
+    - nome: Aragorn
+      parte: Compagnia
+      ruolo: guida
+      esito: insegue gli Orchetti
+    - nome: gli Orchetti
+      parte: Mordor
+      ruolo: rapitori
+      esito: fuggono con Merry e Pippin
+  breve: >-
+    A Parth Galen la Compagnia si spezza: Boromir cade, Merry e Pippin vengono
+    catturati, e Frodo e Sam puntano da soli verso Mordor.
+  lungo: >-
+    Il 26 febbraio 3019, a Parth Galen sotto gli Argonath, la Compagnia viene
+    attaccata. Boromir muore difendendo Merry e Pippin, che vengono catturati
+    dagli Orchetti. Frodo e Sam si separano dagli altri e proseguono da soli
+    verso Mordor. Aragorn, Legolas e Gimli partono all'inseguimento degli
+    Orchetti. La Compagnia dei Nove non esiste più come gruppo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, 26 febbraio 3019; Libro III, capitolo 1"
+  certezza: certa
+  note: null
+
+- id: fosso-helm
+  titolo: Battaglia del Trombatorrione
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 3
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "3 marzo 3019"
+  luoghi:
+    - Fosso di Helm
+    - Trombatorrione
+    - Clivovalle
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - nome: Théoden
+      parte: Rohan
+      ruolo: re
+      esito: resiste
+    - nome: Éomer
+      parte: Rohan
+      ruolo: comandante
+      esito: combatte
+    - nome: Aragorn
+      parte: Compagnia
+      ruolo: comandante
+      esito: combatte
+    - nome: Gandalf
+      parte: Istari
+      ruolo: soccorritore
+      esito: arriva con i rinforzi
+    - nome: Saruman
+      parte: Isengard
+      ruolo: nemico
+      esito: attacca con il suo esercito
+    - nome: gli Uruk-hai
+      parte: Isengard
+      ruolo: assalitori
+      esito: sconfitti
+  breve: >-
+    Théoden resiste all'assalto del Trombatorrione, mentre gli Ent radono al
+    suolo Isengard.
+  lungo: >-
+    Il 3 marzo 3019 Théoden si ritira nel Fosso di Helm con il suo esercito.
+    Comincia la battaglia del Trombatorrione: gli Uruk-hai di Saruman
+    assalgono la fortezza. Théoden, Éomer e Aragorn resistono; Gandalf arriva
+    all'alba con i rinforzi. Nello stesso giorno gli Ent completano la
+    distruzione di Isengard. La vittoria di Rohan è totale, ma il costo è
+    alto.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, 3 marzo 3019; Libro III, capitolo 7"
+  certezza: certa
+  note: >-
+    La battaglia inizia il 3 marzo e prosegue fino all'alba del 4; la scheda
+    usa il giorno d'inizio.
+
+- id: distruzione-isengard
+  titolo: Gli Ent distruggono Isengard
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 3
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "2-3 marzo 3019"
+  luoghi:
+    - Isengard
+    - Orthanc
+    - Fangorn
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - nome: Barbalbero
+      parte: Ent
+      ruolo: guida
+      esito: dirige l'assalto
+    - nome: gli Ent
+      parte: Fangorn
+      ruolo: esercito
+      esito: distruggono Isengard
+    - nome: Saruman
+      parte: Isengard
+      ruolo: signore
+      esito: resta chiuso a Orthanc
+    - nome: Orthanc
+      parte: Isengard
+      ruolo: torre
+      esito: resiste
+  breve: >-
+    Gli Ent marciano su Isengard e ne distruggono le difese. Saruman resta
+    chiuso nella torre di Orthanc.
+  lungo: >-
+    Il 2 marzo 3019 gli Ent, guidati da Barbalbero, marciano su Isengard.
+    Nella notte e il giorno seguente distruggono le mura, le macchine e le
+    cisterne della fortezza. Saruman resta chiuso nella torre di Orthanc, che
+    non può essere abbattuta. È la fine del potere materiale di Isengard.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, 2-3 marzo 3019; Libro III, capitolo 9"
+  certezza: certa
+  note: null
+
+- id: pelennor
+  titolo: Battaglia dei Campi del Pelennor
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 15
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "15 marzo 3019"
+  luoghi:
+    - Campi del Pelennor
+    - Minas Tirith
+    - Harlond
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - nome: Denethor II
+      parte: Gondor
+      ruolo: Sovrintendente
+      esito: muore
+    - nome: Gandalf
+      parte: Istari
+      ruolo: difesa della città
+      esito: vivo
+    - nome: Théoden
+      parte: Rohan
+      ruolo: re, comandante
+      esito: muore
+    - nome: Éomer
+      parte: Rohan
+      ruolo: erede, guida la carica
+      esito: vivo
+    - nome: Éowyn
+      parte: Rohan
+      ruolo: Dernhelm, uccide il Re degli Stregoni
+      esito: ferita
+    - nome: Meriadoc Brandibuck
+      parte: Rohan
+      ruolo: scudiero, ferisce il Re degli Stregoni
+      esito: ferito
+    - nome: il Re degli Stregoni
+      parte: Mordor
+      ruolo: comandante
+      esito: distrutto
+    - nome: Aragorn
+      parte: Gondor
+      ruolo: rinforzi dal Sud
+      esito: vivo
+    - nome: Beregond
+      parte: Gondor
+      ruolo: salva Faramir
+      esito: vivo
+    - nome: Faramir
+      parte: Gondor
+      ruolo: ferito
+      esito: vivo
+  breve: >-
+    L'esercito di Mordor abbatte il Cancello di Minas Tirith; all'alba i
+    Rohirrim rovesciano la battaglia. Théoden muore, Éowyn e Merry uccidono il
+    Re degli Stregoni, Aragorn arriva dal Sud.
+  lungo: >-
+    Mordor assedia Minas Tirith e, nelle prime ore del 15 marzo, Grond abbatte
+    il Grande Cancello. All'alba i cavalieri di Rohan attaccano i campi.
+    Théoden uccide con la lancia il capitano dei Sudroni, ma la lancia si
+    spezza; una freccia nera trafigge Nevecrino, il re cade sotto il cavallo e
+    muore. Éowyn, con il nome di Dernhelm, e Merry uccidono il Re degli
+    Stregoni. Denethor si dà fuoco nella Casa dei Sovrintendenti, a Rath Dinen,
+    mentre Gandalf e Beregond salvano Faramir. L'arrivo di Aragorn al porto di
+    Harlond, sulle navi prese ai Corsari di Umbar e con i rinforzi del Sud,
+    sconfigge definitivamente Mordor.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, 15 marzo 3019; Libro V, capitolo 6"
+  certezza: certa
+  note: >-
+    Nomi verificati sull'epub: Nevecrino (non Snowmane), Casa dei Sovrintendenti
+    (singolare), Rath Dinen, Sudroni, Dernhelm, Harlond.
+
+- id: morannon
+  titolo: Battaglia del Morannon
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 25
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "25 marzo 3019"
+  luoghi:
+    - Morannon
+    - Colli di Scorie
+    - Desolazione del Morannon
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - nome: Aragorn
+      parte: Esercito dell'Ovest
+      ruolo: comandante
+      esito: resiste
+    - nome: Gandalf
+      parte: Esercito dell'Ovest
+      ruolo: comandante
+      esito: resiste
+    - nome: Éomer
+      parte: Rohan
+      ruolo: comandante
+      esito: resiste
+    - nome: Imrahil
+      parte: Dol Amroth
+      ruolo: comandante
+      esito: resiste
+    - nome: l'Esercito dell'Ovest
+      parte: Gondor e Rohan
+      ruolo: esercito
+      esito: circondato
+    - nome: le forze di Sauron
+      parte: Mordor
+      ruolo: esercito
+      esito: crolla alla caduta di Sauron
+  breve: >-
+    L'Esercito dell'Ovest viene circondato sui Colli di Scorie per dare a
+    Frodo il tempo di distruggere l'Anello.
+  lungo: >-
+    Il 25 marzo 3019 l'Esercito dell'Ovest, guidato da Aragorn e Gandalf,
+    affronta le forze di Sauron davanti al Morannon. È una battaglia
+    disperata: l'esercito viene circondato sui Colli di Scorie. Il suo scopo
+    non è vincere, ma attirare l'attenzione di Sauron e dare a Frodo il tempo
+    di raggiungere il Sammath Naur. Quando l'Anello viene distrutto, le forze
+    di Mordor crollano.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, 25 marzo 3019; Libro V, capitolo 10"
+  certezza: certa
+  note: null
+
+- id: distruzione-anello
+  titolo: Distruzione dell'Anello
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 25
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "25 marzo 3019"
+  luoghi:
+    - Sammath Naur
+    - Monte Fato
+    - Barad-dûr
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - nome: Frodo Baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: cede all'Anello, poi viene salvato
+    - nome: Samvise Gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: sopravvive
+    - nome: Gollum
+      parte: Montagne Nebbiose
+      ruolo: custode
+      esito: cade nella Voragine con l'Anello
+    - nome: Sauron
+      parte: Mordor
+      ruolo: Signore Oscuro
+      esito: muore
+  breve: >-
+    Nel Sammath Naur Gollum strappa l'Anello a Frodo e cade con esso nella
+    Voragine del Fato: Barad-dûr crolla e Sauron muore.
+  lungo: >-
+    Nel Sammath Naur Frodo cede al potere dell'Anello e non riesce a
+    gettarlo. Gollum lo attacca, gli strappa l'Anello e cade nella Voragine
+    del Fato. L'Anello viene distrutto. Barad-dûr crolla, Sauron muore e le
+    sue forze si dissolvono. Nello stesso momento, sui Colli di Scorie,
+    l'Esercito dell'Ovest resiste circondato. La Terza Era sta per finire.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, 25 marzo 3019; Libro VI, capitolo 3"
+  certezza: certa
+  note: null
+
+- id: elessar
+  titolo: Incoronazione di Re Elessar
+  tipo: politica
+  data:
+    era: terza
+    anno: 3019
+    mese: 5
+    giorno: 1
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "1 maggio 3019"
+  luoghi:
+    - Minas Tirith
+    - Gondor
+  fa_parte_di: null
+  partecipanti:
+    - nome: Aragorn
+      parte: Gondor
+      ruolo: re
+      esito: viene incoronato Elessar
+    - nome: Gandalf
+      parte: Istari
+      ruolo: consigliere
+      esito: pone la corona
+    - nome: Elrond
+      parte: Imladris
+      ruolo: signore elfico
+      esito: parte da Gran Burrone
+    - nome: Arwen
+      parte: Imladris
+      ruolo: regina
+      esito: parte con Elrond
+  breve: >-
+    Aragorn è incoronato a Minas Tirith con il nome di Elessar. A Mezza Estate
+    sposerà Arwen.
+  lungo: >-
+    Il 1 maggio 3019 Aragorn viene incoronato re di Gondor e Arnor con il nome
+    di Elessar. Gandalf gli pone la corona. Nello stesso giorno Elrond e Arwen
+    partono da Gran Burrone per raggiungere Minas Tirith. È la restaurazione
+    della linea di Elendil dopo quasi mille anni senza re.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, Giorni principali, 1 maggio 3019"
+  certezza: certa
+  note: null
+
+- id: nozze-elessar-arwen
+  titolo: Nozze di Elessar e Arwen
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 6
+    giorno: null
+    anno_fine: null
+    precisione: mese
+    qualificatore: null
+    calendario: contea
+    testo: "Giorno di Mezza Estate 3019"
+  luoghi:
+    - Minas Tirith
+    - Gondor
+  fa_parte_di: null
+  partecipanti:
+    - nome: Aragorn
+      parte: Gondor
+      ruolo: re
+      esito: sposa Arwen
+    - nome: Arwen
+      parte: Imladris
+      ruolo: regina
+      esito: sposa Aragorn
+    - nome: Elrond
+      parte: Imladris
+      ruolo: padre della sposa
+      esito: celebra le nozze
+  breve: >-
+    Nel Giorno di Mezza Estate Aragorn e Arwen si sposano a Minas Tirith.
+  lungo: >-
+    Nel Giorno di Mezza Estate del 3019 Aragorn e Arwen si sposano a Minas
+    Tirith. Arwen, figlia di Elrond, sceglie la sorte degli Uomini e rinuncia
+    all'immortalità. Con queste nozze si salda la discendenza di Elros e di
+    Elrond, e la linea dei Mezzelfi entra nella casa reale di Gondor.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, Giorni principali, Mezza Estate 3019"
+  certezza: certa
+  note: >-
+    La data esatta segue il calendario della Contea; il testo la indica come
+    «Giorno di Mezza Estate».
+
+- id: lungacque
+  titolo: Battaglia di Lungacque
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3019
+    mese: 11
+    giorno: 3
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "3 novembre 3019"
+  luoghi:
+    - Lungacque
+    - Contea
+    - Hobbiville
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - nome: Frodo Baggins
+      parte: Hobbit
+      ruolo: guida
+      esito: sopravvive
+    - nome: Samvise Gamgi
+      parte: Hobbit
+      ruolo: combattente
+      esito: sopravvive
+    - nome: Meriadoc Brandibuck
+      parte: Hobbit
+      ruolo: combattente
+      esito: sopravvive
+    - nome: Peregrino Tuc
+      parte: Hobbit
+      ruolo: combattente
+      esito: sopravvive
+    - nome: Saruman
+      parte: Isengard
+      ruolo: nemico
+      esito: muore
+    - nome: gli Hobbit della Contea
+      parte: Hobbit
+      ruolo: popolo
+      esito: sollevano la Contea
+  breve: >-
+    Gli Hobbit sollevano la Contea e sconfiggono gli uomini di Saruman: con la
+    morte dello stregone finisce davvero la Guerra dell'Anello.
+  lungo: >-
+    Il 3 novembre 3019 gli Hobbit, guidati da Frodo, Sam, Merry e Pippin,
+    affrontano gli uomini di Saruman a Lungacque. La battaglia è breve ma
+    decisiva: la Contea viene liberata. Saruman, ridotto a un vecchio senza
+    potere, viene ucciso dal suo servo Grima Vermilinguo. Con la sua morte
+    finisce davvero la Guerra dell'Anello, anche se la Contea dovrà curare le
+    sue ferite.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, Giorni principali, 3 novembre 3019; Libro VI, capitolo 8"
+  certezza: certa
+  note: >-
+    «Grima Vermilinguo» è la forma dell'edizione Bompiani, verificata
+    sull'epub.
+
+- id: porti-grigi
+  titolo: La partenza dai Rifugi Oscuri
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3021
+    mese: 9
+    giorno: 29
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "29 settembre 3021"
+  luoghi:
+    - Rifugi Oscuri
+    - Mithlond
+    - Mare
+  fa_parte_di: null
+  partecipanti:
+    - nome: Frodo Baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: salpa
+    - nome: Bilbo Baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: salpa
+    - nome: Gandalf
+      parte: Istari
+      ruolo: Custode
+      esito: salpa
+    - nome: Elrond
+      parte: Imladris
+      ruolo: Custode
+      esito: salpa
+    - nome: Galadriel
+      parte: Lórien
+      ruolo: Custode
+      esito: salpa
+    - nome: Círdan
+      parte: Rifugi Oscuri
+      ruolo: Signore del porto
+      esito: assiste alla partenza
+    - nome: Samvise Gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: torna alla Contea
+  breve: >-
+    Frodo e Bilbo salpano dai Rifugi Oscuri con Gandalf, Elrond e Galadriel:
+    sul mare si chiude la Terza Era.
+  lungo: >-
+    Il 29 settembre 3021 Frodo e Bilbo salpano dai Rifugi Oscuri insieme con i
+    Tre Custodi degli Anelli: Gandalf, Elrond e Galadriel. Círdan assiste alla
+    partenza. Sam, Merry e Pippin tornano alla Contea. Con la partenza
+    dell'Ultima Nave finisce la Terza Era: comincia il dominio degli Uomini e
+    il declino delle altre razze parlanti.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, 29 settembre 3021; Libro VI, capitolo 9"
+  certezza: certa
+  note: >-
+    Il titolo usa «Rifugi Oscuri», la forma dell'edizione Bompiani. L'ID
+    storico resta `porti-grigi`.

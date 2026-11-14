@@ -1,0 +1,407 @@
+#!/usr/bin/env python3
+"""Compila le schede degli eventi in dati per il sito.
+
+Legge i file YAML in data/eventi/, controlla i riferimenti e produce:
+  - js/data.js                 (formato compatibile con js/circle.js)
+  - build/arda.sqlite          (database interrogabile con SQL)
+  - build/indexes.json         (indici per ricerca e filtri)
+  - build/schede-terza-era.md  (le schede in forma leggibile)
+  - build/rapporto.md          (riepilogo del lavoro)
+
+Uso: python3 tools/build_data.py
+"""
+from __future__ import annotations
+
+import glob
+import json
+import os
+import sqlite3
+import sys
+from datetime import date
+
+import yaml
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(ROOT, "data", "eventi")
+BUILD_DIR = os.path.join(ROOT, "build")
+JS_DIR = os.path.join(ROOT, "js")
+
+NOMI_ERA = {
+    "lampade": "Era delle Lampadi",
+    "alberi": "Era degli Alberi",
+    "prima": "Prima Era",
+    "seconda": "Seconda Era",
+    "terza": "Terza Era",
+    "quarta": "Quarta Era",
+}
+
+TIPI = {
+    "evento", "fondazione", "battaglia", "guerra", "distruzione", "perdita",
+    "tradimento", "morte", "nascita", "viaggio", "consiglio", "politica",
+}
+PRECISIONI = {"giorno", "mese", "anno", "intervallo", "ignoto"}
+QUALIFICATORI = {None, "circa", "prima", "dopo", "inizio", "fine"}
+
+# ID presenti nel dataset originale (js/data.js prima di questo build).
+ID_ORIGINALI = {
+    "inizio-terza", "isildur-anello", "divisione-arnor", "istari",
+    "ombra-bosco-attro", "saggi-dol-guldur", "angmar", "angmar-invaude",
+    "lotta-stirpi", "grande-peste", "mordor-sorveglianza", "aurighe",
+    "battaglia-campo", "cade-arnor", "battaglia-fornost", "balrog-moria",
+    "nani-erebor", "minas-ithil", "earnur", "pace-vigile", "sauron-ritorno",
+    "deagol-anello", "osgiliath-distrutta", "rohan", "draghi-nord",
+    "erba-pipa", "lungo-inverno", "smaug-erebor", "thror", "nanduhirion",
+    "gandalf-dol-guldur", "bilbo-nasce", "anello-bilbo", "bilbo-torna",
+    "sauron-si-dichiara", "ultimo-consiglio", "fato-avvampa",
+    "saruman-tradisce", "festa-bilbo", "osgiliath-3018", "frodo-parte",
+    "consiglio-elrond", "compagnia-parte", "gandalf-moria",
+    "compagnia-si-scioglie", "fosso-helm", "pelennor",
+    "distruzione-anello", "elessar", "lungacque", "porti-grigi",
+}
+
+# Eventi nati dalla separazione di un evento che ne conteneva più d'uno.
+SEPARAZIONI = {
+    "anello-bilbo": ["consiglio-dol-guldur", "smaug-ucciso", "cinque-eserciti"],
+    "rohan": ["battaglia-celebrant"],
+    "lungo-inverno": ["saruman-isengard"],
+    "osgiliath-3018": ["gollum-fugge"],
+    "fosso-helm": ["distruzione-isengard"],
+    "distruzione-anello": ["morannon"],
+    "elessar": ["nozze-elessar-arwen"],
+}
+AGGIUNTI = {"festa-inattesa"}
+
+# Correzioni di nome fatte rispetto al dataset/glossario precedente.
+CORREZIONI = [
+    ("Aurighe", "Carrieri", "la forma dell'epub è «Carrieri» (9 occorrenze, «Aurighe» 0)"),
+    ("Porti Grigi", "Rifugi Oscuri", "l'epub usa 18 volte «Rifugi Oscuri»; «Porti Grigi» è la spiegazione"),
+    ("Éorl", "Eorl", "l'epub scrive sempre «Eorl», senza accento"),
+    ("Dáin", "Dàin", "l'epub usa l'accento grave: «Dàin» (32 occorrenze)"),
+    ("Thráin", "Thràin", "l'epub usa l'accento grave: «Thràin» (30 occorrenze)"),
+    ("Náin", "Nain", "l'epub scrive «Nain» senza accento"),
+    ("Rath Dínen", "Rath Dinen", "l'epub scrive «Rath Dinen» senza accento"),
+    ("Snowmane", "Nevecrino", "nome italiano del cavallo di Théoden"),
+    ("Grima", "Grima Vermilinguo", "la forma completa dell'epub"),
+]
+
+
+def fail(msg: str) -> None:
+    print(f"ERRORE: {msg}", file=sys.stderr)
+    raise SystemExit(1)
+
+
+def carica() -> list[dict]:
+    eventi: list[dict] = []
+    for path in sorted(glob.glob(os.path.join(DATA_DIR, "*.yaml"))):
+        with open(path, encoding="utf-8") as fh:
+            blocco = yaml.safe_load(fh)
+        if not isinstance(blocco, list):
+            fail(f"{path}: il file deve contenere una lista di eventi")
+        for ev in blocco:
+            ev["_file"] = os.path.basename(path)
+            eventi.append(ev)
+    if not eventi:
+        fail("nessun evento trovato in data/eventi/")
+    return eventi
+
+
+def valida(eventi: list[dict]) -> None:
+    ids: set[str] = set()
+    for ev in eventi:
+        eid = ev.get("id", "?")
+        if not eid or not isinstance(eid, str):
+            fail(f"{ev['_file']}: evento senza id")
+        if eid in ids:
+            fail(f"id duplicato: {eid}")
+        ids.add(eid)
+        for campo in ("titolo", "tipo", "breve", "lungo", "certezza", "fonti", "luoghi", "partecipanti"):
+            if campo not in ev or ev[campo] in (None, "", []):
+                fail(f"{eid}: campo mancante o vuoto «{campo}»")
+        if ev["tipo"] not in TIPI:
+            fail(f"{eid}: tipo sconosciuto «{ev['tipo']}»")
+        d = ev.get("data") or {}
+        for campo in ("era", "anno", "precisione", "calendario", "testo"):
+            if campo not in d or d[campo] in (None, ""):
+                fail(f"{eid}: data mancante «{campo}»")
+        if not isinstance(d["anno"], int):
+            fail(f"{eid}: anno non intero")
+        if d["precisione"] not in PRECISIONI:
+            fail(f"{eid}: precisione sconosciuta «{d['precisione']}»")
+        if d.get("qualificatore") not in QUALIFICATORI:
+            fail(f"{eid}: qualificatore sconosciuto «{d.get('qualificatore')}»")
+        m, g = d.get("mese"), d.get("giorno")
+        if m is not None and not (1 <= m <= 12):
+            fail(f"{eid}: mese fuori intervallo")
+        if g is not None:
+            if m is None:
+                fail(f"{eid}: giorno senza mese")
+            try:
+                date(d["anno"], m, g)
+            except ValueError:
+                fail(f"{eid}: giorno non valido ({d['anno']}-{m}-{g})")
+        fine = d.get("anno_fine")
+        if fine is not None and fine < d["anno"]:
+            fail(f"{eid}: anno_fine precedente all'anno")
+        if d["precisione"] == "intervallo" and fine is None:
+            fail(f"{eid}: intervallo senza anno_fine")
+        for p in ev["partecipanti"]:
+            if not p.get("nome"):
+                fail(f"{eid}: partecipante senza nome")
+        for f in ev["fonti"]:
+            if not f.get("opera") or not f.get("riferimento"):
+                fail(f"{eid}: fonte incompleta")
+        if len(ev["breve"]) < 20:
+            fail(f"{eid}: testo breve troppo corto")
+        if len(ev["lungo"]) < len(ev["breve"]):
+            fail(f"{eid}: il testo lungo è più corto del breve")
+
+
+DI_MESI = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334]
+
+
+def giorno_dell_anno(mese: int, giorno: int) -> int:
+    return DI_MESI[mese - 1] + giorno
+
+
+def anno_decimale(d: dict) -> float:
+    """Posizione sul cerchio: un decimale come nel dataset originale."""
+    anno = d["anno"]
+    mese, giorno = d.get("mese"), d.get("giorno")
+    if mese and giorno:
+        return round(anno + (giorno_dell_anno(mese, giorno) - 1) / 365, 2)
+    if mese:
+        return round(anno + (giorno_dell_anno(mese, 15) - 1) / 365, 2)
+    return float(anno)
+
+
+def scrivi_js(eventi: list[dict]) -> None:
+    eras = [
+        {"id": "lampade", "name": "Era delle Lampadi", "len": None, "scale": False, "active": False},
+        {"id": "alberi", "name": "Era degli Alberi", "len": None, "scale": False, "active": False},
+        {"id": "prima", "name": "Prima Era", "len": 590, "scale": True, "active": False},
+        {"id": "seconda", "name": "Seconda Era", "len": 3441, "scale": True, "active": False},
+        {"id": "terza", "name": "Terza Era", "len": 3021, "scale": True, "active": True},
+        {"id": "quarta", "name": "Quarta Era", "len": None, "scale": False, "active": False},
+    ]
+    righe = [
+        "/* File generato da tools/build_data.py. Non modificare a mano.",
+        "   Fonte: data/eventi/*.yaml. */",
+        "",
+        "const ERAS=" + json.dumps(eras, ensure_ascii=False, indent=2) + ";",
+        "",
+        "const EVENTS=[",
+    ]
+    for ev in sorted(eventi, key=lambda e: (anno_decimale(e["data"]), e["id"])):
+        d = ev["data"]
+        record = {
+            "id": ev["id"],
+            "era": d["era"],
+            "year": anno_decimale(d),
+            "approx": d.get("qualificatore") == "circa",
+            "label": d["testo"],
+            "title": ev["titolo"],
+            "desc": ev["breve"],
+            "type": ev["tipo"],
+            "place": ev["luoghi"][0],
+            "people": [p["nome"] for p in ev["partecipanti"]],
+            "source": ev["fonti"][0]["riferimento"],
+            "short": ev["breve"],
+            "long": ev["lungo"],
+            "places": ev["luoghi"],
+            "participants": ev["partecipanti"],
+            "sources": ev["fonti"],
+            "certainty": ev["certezza"],
+            "parent": ev.get("fa_parte_di"),
+            "note": ev.get("note"),
+        }
+        righe.append("  " + json.dumps(record, ensure_ascii=False) + ",")
+    righe += ["];", ""]
+    os.makedirs(JS_DIR, exist_ok=True)
+    with open(os.path.join(JS_DIR, "data.js"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(righe))
+
+
+def scrivi_sqlite(eventi: list[dict]) -> None:
+    os.makedirs(BUILD_DIR, exist_ok=True)
+    path = os.path.join(BUILD_DIR, "arda.sqlite")
+    if os.path.exists(path):
+        os.remove(path)
+    con = sqlite3.connect(path)
+    cur = con.cursor()
+    cur.executescript(
+        """
+        CREATE TABLE events (
+            id TEXT PRIMARY KEY, title TEXT, type TEXT, era TEXT,
+            year INTEGER, month INTEGER, day INTEGER, year_end INTEGER,
+            precision TEXT, qualifier TEXT, calendar TEXT, display TEXT,
+            short TEXT, long TEXT, certainty TEXT, parent TEXT, note TEXT
+        );
+        CREATE TABLE participants (
+            event_id TEXT, name TEXT, side TEXT, role TEXT, outcome TEXT
+        );
+        CREATE TABLE places (event_id TEXT, name TEXT);
+        CREATE TABLE sources (event_id TEXT, work TEXT, reference TEXT);
+        """
+    )
+    for ev in eventi:
+        d = ev["data"]
+        cur.execute(
+            "INSERT INTO events VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            (ev["id"], ev["titolo"], ev["tipo"], d["era"], d["anno"], d.get("mese"),
+             d.get("giorno"), d.get("anno_fine"), d["precisione"], d.get("qualificatore"),
+             d["calendario"], d["testo"], ev["breve"], ev["lungo"], ev["certezza"],
+             ev.get("fa_parte_di"), ev.get("note")),
+        )
+        for p in ev["partecipanti"]:
+            cur.execute("INSERT INTO participants VALUES (?,?,?,?,?)",
+                        (ev["id"], p["nome"], p.get("parte"), p.get("ruolo"), p.get("esito")))
+        for luogo in ev["luoghi"]:
+            cur.execute("INSERT INTO places VALUES (?,?)", (ev["id"], luogo))
+        for f in ev["fonti"]:
+            cur.execute("INSERT INTO sources VALUES (?,?,?)", (ev["id"], f["opera"], f["riferimento"]))
+    con.commit()
+    con.close()
+
+
+def scrivi_indici(eventi: list[dict]) -> None:
+    per_tipo: dict[str, list[str]] = {}
+    per_anno: dict[int, list[str]] = {}
+    per_persona: dict[str, list[str]] = {}
+    per_luogo: dict[str, list[str]] = {}
+    for ev in eventi:
+        per_tipo.setdefault(ev["tipo"], []).append(ev["id"])
+        per_anno.setdefault(ev["data"]["anno"], []).append(ev["id"])
+        for p in ev["partecipanti"]:
+            per_persona.setdefault(p["nome"], []).append(ev["id"])
+        for luogo in ev["luoghi"]:
+            per_luogo.setdefault(luogo, []).append(ev["id"])
+    indici = {
+        "per_tipo": per_tipo,
+        "per_anno": {str(k): v for k, v in sorted(per_anno.items())},
+        "per_persona": dict(sorted(per_persona.items())),
+        "per_luogo": dict(sorted(per_luogo.items())),
+    }
+    os.makedirs(BUILD_DIR, exist_ok=True)
+    with open(os.path.join(BUILD_DIR, "indexes.json"), "w", encoding="utf-8") as fh:
+        json.dump(indici, fh, ensure_ascii=False, indent=2)
+
+
+def scrivi_schede(eventi: list[dict]) -> None:
+    righe = ["# Schede della Terza Era", "",
+             "Generate da `data/eventi/*.yaml`. Ogni scheda è la versione lunga;",
+             "la versione breve è quella che compare sulla linea del tempo.", ""]
+    for ev in sorted(eventi, key=lambda e: (anno_decimale(e["data"]), e["id"])):
+        d = ev["data"]
+        righe.append(f"## {ev['titolo']}")
+        righe.append("")
+        righe.append(f"**ID:** `{ev['id']}` · **Tipo:** {ev['tipo']} · **Certezza:** {ev['certezza']}")
+        righe.append("")
+        righe.append(f"**Quando:** {d['testo']} · {NOMI_ERA.get(d['era'], d['era'])}")
+        righe.append("")
+        righe.append(f"**Dove:** {', '.join(ev['luoghi'])}")
+        righe.append("")
+        if ev.get("fa_parte_di"):
+            righe.append(f"**Fa parte di:** {ev['fa_parte_di']}")
+            righe.append("")
+        righe.append("**Partecipanti:**")
+        righe.append("")
+        righe.append("| Nome | Parte | Ruolo | Esito |")
+        righe.append("|---|---|---|---|")
+        for p in ev["partecipanti"]:
+            righe.append(f"| {p['nome']} | {p.get('parte') or '—'} | {p.get('ruolo') or '—'} | {p.get('esito') or '—'} |")
+        righe.append("")
+        righe.append(f"**Versione breve:** {ev['breve']}")
+        righe.append("")
+        righe.append(f"**Testo lungo:** {ev['lungo']}")
+        righe.append("")
+        righe.append("**Fonti:**")
+        for f in ev["fonti"]:
+            righe.append(f"- {f['opera']}, {f['riferimento']}")
+        righe.append("")
+        if ev.get("note"):
+            righe.append(f"**Note:** {ev['note']}")
+            righe.append("")
+    with open(os.path.join(BUILD_DIR, "schede-terza-era.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(righe))
+
+
+def scrivi_rapporto(eventi: list[dict]) -> None:
+    ids = {e["id"] for e in eventi}
+    nuovi = sorted(ids - ID_ORIGINALI)
+    mancanti = sorted(ID_ORIGINALI - ids)
+    solo_anno = [e for e in eventi if e["data"]["precisione"] in ("anno", "ignoto")]
+    incerti = [e for e in eventi if e["certezza"] != "certa" or e.get("note")]
+    persone = {}
+    luoghi = {}
+    for e in eventi:
+        for p in e["partecipanti"]:
+            persone[p["nome"]] = persone.get(p["nome"], 0) + 1
+        for l in e["luoghi"]:
+            luoghi[l] = luoghi.get(l, 0) + 1
+    righe = [
+        "# Rapporto sul lavoro — Terza Era",
+        "",
+        f"- Eventi: **{len(eventi)}** (erano {len(ID_ORIGINALI)}).",
+        f"- Partecipanti nominati: **{len(persone)}** nomi distinti, {sum(persone.values())} presenze.",
+        f"- Luoghi nominati: **{len(luoghi)}** nomi distinti.",
+        f"- Eventi con solo anno (o senza anno): **{len(solo_anno)}**.",
+        f"- Eventi con nota o certezza non piena: **{len(incerti)}**.",
+        "",
+        "## Eventi separati",
+        "",
+        "Alcuni eventi del dataset originale contenevano più avvenimenti distinti.",
+        "Sono stati separati perché hanno partecipanti e conseguenze diverse.",
+        "",
+    ]
+    for padre, figli in SEPARAZIONI.items():
+        presenti = [f for f in figli if f in ids]
+        if presenti:
+            righe.append(f"- `{padre}` → " + ", ".join(f"`{f}`" for f in presenti))
+    righe += ["", "## Eventi aggiunti", ""]
+    for eid in sorted(AGGIUNTI & ids):
+        ev = next(e for e in eventi if e["id"] == eid)
+        righe.append(f"- `{eid}` — {ev['titolo']}")
+    righe += ["", "## Correzioni di nome", ""]
+    for prima, dopo, motivo in CORREZIONI:
+        righe.append(f"- **{prima} → {dopo}**: {motivo}.")
+    righe += ["", "## Casi da sapere", ""]
+    for e in incerti:
+        if e.get("note"):
+            righe.append(f"- **{e['titolo']}** (`{e['id']}`): {e['note']}")
+    righe += [
+        "",
+        "## Cosa manca ancora",
+        "",
+        "- I partecipanti sono nomi, non ancora schede persona collegate: la fase alberi",
+        "  li trasformerà in entità con ID, parentele e relazioni.",
+        "- I luoghi sono nomi, non ancora geometrie: la fase mappa assegnerà coordinate",
+        "  e scene (Arda piatta / Arda rotonda).",
+        "- Gli eventi del 2941 e del 3019 sono stati separati, ma restano da aggiungere",
+        "  gli altri fatti dell'Appendice B (battaglie del Nord, assalti a Lórien,",
+        "  distruzione di Dol Guldur, Campo di Cormallen).",
+        "- Le date con solo l'anno non hanno giorno e mese: è voluto, non è una lacuna",
+        "  del lavoro. Il sito deve mostrarle come «anno» e non inventare precisione.",
+        "",
+    ]
+    with open(os.path.join(BUILD_DIR, "rapporto.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(righe))
+
+
+def main() -> None:
+    eventi = carica()
+    valida(eventi)
+    scrivi_js(eventi)
+    scrivi_sqlite(eventi)
+    scrivi_indici(eventi)
+    scrivi_schede(eventi)
+    scrivi_rapporto(eventi)
+    print(f"OK: {len(eventi)} eventi compilati.")
+    print(f"  js/data.js")
+    print(f"  build/arda.sqlite")
+    print(f"  build/indexes.json")
+    print(f"  build/schede-terza-era.md")
+    print(f"  build/rapporto.md")
+
+
+if __name__ == "__main__":
+    main()

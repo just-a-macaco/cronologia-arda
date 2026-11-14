@@ -1,13 +1,14 @@
 # Glossario dei nomi
 
-Regola generale: il sito adotta le forme dell'**edizione Bompiani 2004** del Signore degli Anelli (la nostra fonte per le date), **salvo le eccezioni dichiarate** qui sotto. La forma a sinistra del trattino è quella usata nel sito; quelle a destra sono le varianti incontrate in altre edizioni o nel fandom.
+Regola generale, senza eccezioni: **se l'epub Bompiani 2004 dice X, il sito dice X**. La forma a sinistra del trattino è quella usata nel sito; quelle a destra sono le varianti incontrate in altre edizioni o nel fandom, citate solo per riconoscerle. Le forme sono state verificate direttamente sull'epub in `fonti/`.
 
 Ogni voce nuova: forma scelta — varianti — breve nota sul perché.
 
+Nota sulle due edizioni: per i nomi condivisi vale il **Signore degli Anelli** Bompiani 2004. L'epub de **Lo Hobbit** (Bompiani, traduzione più vecchia) usa forme diverse — «Dale», «Smog», «Dain», «il re degli Elfi» senza nome — che NON vengono usate nel sito. Da Lo Hobbit si prendono i fatti, non le grafie.
+
 ## Popoli e gruppi
 
-- **Aurighe** — varianti: Carrieri (Bompiani 2004, Appendice B), Uomini-Auriga, Wainriders.
-  Eccezione alla regola generale: «Aurighe» è la forma più diffusa in italiano e più riconoscibile. Le date restano quelle dell'Appendice.
+- **Carrieri** — varianti: Aurighe, Uomini-Auriga, Wainriders. Forma dell'edizione Bompiani 2004 (9 occorrenze nell'epub; «Aurighe» non compare). L'ID interno dell'evento del 1856 resta `aurighe`, ma il nome visibile è «Carrieri».
 
 - **Istari** — varianti: Maghi, Stregoni. «Istari» è il nome elfico; nel testo corrente si può dire «i Maghi».
 
@@ -32,8 +33,9 @@ Ogni voce nuova: forma scelta — varianti — breve nota sul perché.
 
 - **Erenbrulli** — varianti: Ettenmoors. Forma Bompiani.
 
-- **Porti Grigi** — varianti: Rifugi Oscuri (Bompiani 2004, Appendice B), Mithlond, Grey Havens.
-  Scelta: «Porti Grigi» come forma principale perché più chiara; «Rifugi Oscuri» resta citato dove serve fedeltà all'Appendice.
+- **Rifugi Oscuri** — varianti: Porti Grigi, Mithlond, Grey Havens. Forma dell'edizione Bompiani 2004 (18 occorrenze nell'epub). L'ID interno dell'evento del 3021 resta `porti-grigi`.
+
+- **Rath Dinen** — varianti: Rath Dínen. L'epub scrive «Rath Dinen», senza accento. È la Via dei Re o delle Tombe dentro Minas Tirith, dove si trova la Casa dei Sovrintendenti.
 
 - **Minas Anor / Minas Tirith** — nota: la città si chiama Minas Anor fino al 1640, quando Tarondor vi sposta la residenza del re; da allora è Minas Tirith. I testi seguono il nome del periodo raccontato.
 
@@ -42,6 +44,15 @@ Ogni voce nuova: forma scelta — varianti — breve nota sul perché.
 - **Valle** — varianti: Dale. La città di Valle è distinta da Esgaroth, la città sul lago: non confonderle nei testi.
 
 - **Ered Luin** — varianti: Montagne Blu. Forma Bompiani.
+
+## Persone
+
+- **Dàin** — varianti: Dáin, Dain. L'epub usa l'accento grave (32 occorrenze): «Dàin Piediferro», «Dàin I».
+- **Thràin** — varianti: Thráin, Thrain. L'epub usa l'accento grave (30 occorrenze): «Thràin I», «Thràin II».
+- **Nain** — varianti: Náin, Nàin. L'epub scrive «Nain» senza accento: «Nain I».
+- **Eorl** — varianti: Éorl. L'epub scrive sempre «Eorl», senza accento: «Eorl il Giovane», «Giuramento di Eorl».
+- **Grima Vermilinguo** — varianti: Grima, Grima Linguadiserpe, Wormtongue. Forma dell'epub: «Vermilinguo» compare 64 volte, «Linguadiserpe» mai.
+- **Nevecrino** — varianti: Snowmane. È il cavallo di Théoden nell'edizione Bompiani.
 
 ## Istituzioni
 

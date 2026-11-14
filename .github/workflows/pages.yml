@@ -20,6 +20,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Controlla che i dati siano aggiornati
+        run: |
+          python3 -m pip install --quiet -r requirements.txt
+          python3 tools/build_data.py
+          git diff --exit-code js/data.js
+
       - name: Prepara il sito (solo i file pubblicabili)
         run: |
           mkdir -p _site

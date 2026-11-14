@@ -1,0 +1,839 @@
+# Schede complete degli eventi della Terza Era, anni 1-1999.
+# Fonte primaria: Il Signore degli Anelli, Appendice B (ed. Bompiani 2004,
+# traduzione di Vittoria Alliata di Villafranca), verificata sull'epub.
+# Ogni scheda ha due testi: `breve` per la linea del tempo, `lungo` per la pagina.
+# I nomi seguono l'edizione di riferimento; le varianti sono in `note`.
+
+- id: inizio-terza
+  titolo: Inizia la Terza Era
+  tipo: evento
+  data:
+    era: terza
+    anno: 1
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1"
+  luoghi:
+    - Mordor
+    - Barad-dûr
+  fa_parte_di: null
+  partecipanti:
+    - nome: Sauron
+      parte: Mordor
+      ruolo: Signore Oscuro
+      esito: sconfitto
+    - nome: Isildur
+      parte: Ultima Alleanza
+      ruolo: re di Gondor
+      esito: prende l'Unico Anello
+    - nome: Elendil
+      parte: Ultima Alleanza
+      ruolo: re
+      esito: muore
+    - nome: Gil-galad
+      parte: Ultima Alleanza
+      ruolo: Alto Re degli Elfi
+      esito: muore
+  breve: >-
+    Sauron è sconfitto e Isildur prende l'Unico Anello. Finisce la Seconda Era
+    e comincia il computo della Terza.
+  lungo: >-
+    L'Ultima Alleanza di Elfi e Uomini assedia Barad-dûr. Sauron esce dalla
+    torre e affronta Elendil e Gil-galad: tutti e tre periscono, ma Sauron
+    viene abbattuto. Isildur, figlio di Elendil, gli taglia l'Anello dalla mano
+    e lo tiene per sé invece di distruggerlo. Con la caduta di Sauron termina
+    la Seconda Era; gli Schiavi dell'Anello svaniscono nelle ombre.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, Seconda Era 3441"
+  certezza: certa
+  note: null
+
+- id: isildur-anello
+  titolo: Isildur muore e l'Anello è perduto
+  tipo: perdita
+  data:
+    era: terza
+    anno: 2
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2"
+  luoghi:
+    - Minas Anor
+    - Campo Gaggiolo
+    - Anduin
+  fa_parte_di: null
+  partecipanti:
+    - nome: Isildur
+      parte: Gondor
+      ruolo: re
+      esito: muore
+    - nome: Meneldil
+      parte: Gondor
+      ruolo: re del Sud
+      esito: riceve il regno
+    - nome: Ohtar
+      parte: Gondor
+      ruolo: scudiero di Isildur
+      esito: porta i frantumi di Narsil a Imladris
+    - nome: i tre figli maggiori di Isildur
+      parte: Gondor
+      ruolo: principi
+      esito: muoiono
+  breve: >-
+    Isildur pianta a Minas Anor un seme dell'Albero Bianco, affida il Sud a
+    Meneldil, poi cade in un agguato al Campo Gaggiolo. L'Anello sprofonda
+    nell'Anduin.
+  lungo: >-
+    Isildur pianta un seme dell'Albero Bianco a Minas Anor e affida il Regno
+    del Sud a Meneldil. Sulla via del ritorno a nord, presso il Campo Gaggiolo,
+    la sua schiera viene assalita dagli Orchetti. Isildur indossa l'Unico
+    Anello, ma l'Anello lo tradisce e gli scivola dal dito mentre cerca di
+    fuggire a nuoto: gli Orchetti lo uccidono e l'Anello sprofonda nell'Anduin.
+    Muoiono anche i suoi tre figli maggiori. Ohtar porta a Imladris i frantumi
+    di Narsil.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 2-3; Libro I, capitolo 2"
+  certezza: certa
+  note: >-
+    L'Anello resta perduto nel fiume per circa 2.500 anni, fino al 2463.
+
+- id: divisione-arnor
+  titolo: Arnor si divide
+  tipo: politica
+  data:
+    era: terza
+    anno: 861
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 861"
+  luoghi:
+    - Arnor
+    - Arthedain
+    - Cardolan
+    - Rhudaur
+    - Fornost
+  fa_parte_di: null
+  partecipanti:
+    - nome: Eärendur
+      parte: Arnor
+      ruolo: re
+      esito: muore
+    - nome: i tre figli di Eärendur
+      parte: Arnor
+      ruolo: eredi
+      esito: si dividono il regno
+  breve: >-
+    Alla morte di re Eärendur il regno del Nord si spezza fra i suoi tre
+    figli: nascono Arthedain, Cardolan e Rhudaur.
+  lungo: >-
+    Alla morte di Eärendur, decimo re di Arnor, i suoi tre figli si disputano
+    l'eredità. Il regno del Nord viene diviso in tre reami: Arthedain, il più
+    fedele alla linea di Isildur, con capitale Fornost; Cardolan, a sud; e
+    Rhudaur, a est, tra le Montagne Nebbiose e l'Eriador orientale. La
+    divisione indebolisce per sempre i Dúnedain del Nord.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 861; Appendice A, Arnor"
+  certezza: certa
+  note: null
+
+- id: istari
+  titolo: Giungono gli Istari
+  tipo: evento
+  data:
+    era: terza
+    anno: 1000
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: circa
+    calendario: terza
+    testo: "Anno 1000 circa"
+  luoghi:
+    - Terra di Mezzo
+    - Rifugi Oscuri
+    - Isengard
+  fa_parte_di: null
+  partecipanti:
+    - nome: Saruman
+      parte: Istari
+      ruolo: il Bianco, capo dell'ordine
+      esito: si stabilisce a Isengard
+    - nome: Gandalf
+      parte: Istari
+      ruolo: il Grigio
+      esito: percorre l'Ovest
+    - nome: Radagast
+      parte: Istari
+      ruolo: il Bruno
+      esito: si dedica alle bestie e agli uccelli
+    - nome: Círdan
+      parte: Lindon
+      ruolo: Signore dei Rifugi Oscuri
+      esito: accoglie Gandalf e gli affida Narya
+  breve: >-
+    Trascorso circa un millennio, una prima ombra cala sulla Grande Foresta
+    Verde e in Terra di Mezzo arrivano i Maghi.
+  lungo: >-
+    Intorno all'anno 1000 appaiono in Terra di Mezzo gli Istari, cinque
+    messaggeri inviati dall'Occidente per contrastare Sauron e unire chi aveva
+    la volontà di resistergli. Hanno l'aspetto di uomini anziani e invecchiano
+    lentamente; a nessuno è permesso dominare Elfi e Uomini con la forza o con
+    la paura. I due più importanti sono Curunír, che gli Uomini del Nord
+    chiamano Saruman, e Mithrandir, cioè Gandalf. Saruman si stabilisce a
+    Isengard; Gandalf non sceglie dimora fissa. Círdan lo accoglie ai Rifugi
+    Oscuri e gli affida il suo Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1000 circa"
+  certezza: certa
+  note: >-
+    L'epub non nomina i due Istari azzurri; i loro nomi si trovano in altre
+    opere e vanno trattati come tradizione separata.
+
+- id: ombra-bosco-attro
+  titolo: L'ombra sul Bosco Atro
+  tipo: evento
+  data:
+    era: terza
+    anno: 1050
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1050"
+  luoghi:
+    - Bosco Atro
+    - Gondor
+    - Harad
+    - Eriador
+  fa_parte_di: null
+  partecipanti:
+    - nome: Hyarmendacil
+      parte: Gondor
+      ruolo: re
+      esito: conquista l'Harad
+    - nome: i Periannath
+      parte: Hobbit
+      ruolo: popolo
+      esito: compaiono per la prima volta nei documenti
+  breve: >-
+    Mentre Gondor tocca il culmine della potenza, un'ombra incombe sulla
+    Foresta Verde, che comincia a chiamarsi Bosco Atro. Gli Hobbit compaiono
+    per la prima volta nei documenti.
+  lungo: >-
+    Sotto il re Hyarmendacil Gondor conquista l'Harad e raggiunge l'apice della
+    sua potenza. Nello stesso periodo un'ombra cade sulla Grande Foresta Verde,
+    che la gente comincia a chiamare Bosco Atro. È il primo segno del risveglio
+    di un potere malefico nel nord-est. In questi anni i Periannath, cioè gli
+    Hobbit, vengono menzionati per la prima volta in documenti scritti, a
+    proposito della loro venuta nell'Eriador.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1050"
+  certezza: certa
+  note: null
+
+- id: saggi-dol-guldur
+  titolo: I Saggi scoprono Dol Guldur
+  tipo: evento
+  data:
+    era: terza
+    anno: 1100
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: circa
+    calendario: terza
+    testo: "Anno 1100 circa"
+  luoghi:
+    - Dol Guldur
+    - Bosco Atro
+  fa_parte_di: null
+  partecipanti:
+    - nome: i Saggi
+      parte: Eldar e Istari
+      ruolo: consiglio dei sapienti
+      esito: scoprono il male di Dol Guldur
+    - nome: i Nazgûl
+      parte: Mordor
+      ruolo: sospettati
+      esito: il sospetto è errato
+  breve: >-
+    Istari e capi degli Eldar scoprono che un potere malefico si è stabilito a
+    Dol Guldur: lo scambiano per uno dei Nazgûl.
+  lungo: >-
+    I Saggi, cioè gli Istari e i capi degli Eldar, si accorgono che un potere
+    malefico si è stabilito nella fortezza di Dol Guldur, nel Bosco Atro.
+    Ritengono che si tratti di uno dei Nazgûl, uno degli Schiavi dell'Anello.
+    Solo molto più tardi scopriranno che il padrone del luogo è Sauron in
+    persona.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1100 circa"
+  certezza: certa
+  note: null
+
+- id: angmar
+  titolo: Il Re Stregone fonda Angmar
+  tipo: fondazione
+  data:
+    era: terza
+    anno: 1300
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: circa
+    calendario: terza
+    testo: "Anno 1300 circa"
+  luoghi:
+    - Angmar
+    - Montagne Nebbiose
+    - Brea
+    - Eriador
+  fa_parte_di: null
+  partecipanti:
+    - nome: il Re degli Stregoni
+      parte: Mordor
+      ruolo: capo dei Nazgûl
+      esito: fonda Angmar
+    - nome: i Nazgûl
+      parte: Mordor
+      ruolo: spettri
+      esito: riappaiono
+    - nome: gli Orchetti
+      parte: Angmar
+      ruolo: esercito
+      esito: infestano le Montagne Nebbiose
+    - nome: i Periannath
+      parte: Hobbit
+      ruolo: popolo
+      esito: molti emigrano a Brea
+  breve: >-
+    I Nazgûl riappaiono: il loro capo sale a nord e fonda Angmar, nemico dei
+    Dúnedain. Gli Orchetti infestano le Montagne Nebbiose e molti Hobbit
+    emigrano a Brea.
+  lungo: >-
+    Intorno al 1300 gli esseri malefici ricominciano a moltiplicarsi. Gli
+    Orchetti pullulano sulle Montagne Nebbiose e attaccano i Nani; i Nazgûl
+    riappaiono. Il loro capo, il Re degli Stregoni, si reca a nord e fonda il
+    regno di Angmar, deciso a distruggere i Dúnedain del Nord. I Periannath
+    emigrano verso ovest e molti si stabiliscono a Brea.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1300 circa"
+  certezza: certa
+  note: null
+
+- id: angmar-invaude
+  titolo: Angmar invade Arnor
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 1409
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1409"
+  luoghi:
+    - Arnor
+    - Amon Sûl
+    - Fornost
+    - Tyrn Gorthad
+  fa_parte_di: null
+  partecipanti:
+    - nome: il Re degli Stregoni
+      parte: Angmar
+      ruolo: comandante
+      esito: invade Arnor
+    - nome: Arveleg I
+      parte: Arthedain
+      ruolo: re
+      esito: muore
+    - nome: Fornost
+      parte: Arthedain
+      ruolo: fortezza
+      esito: resiste
+    - nome: Tyrn Gorthad
+      parte: Cardolan
+      ruolo: colline dei tumuli
+      esito: resiste
+  breve: >-
+    Il Re degli Stregoni muove contro Arnor: cade re Arveleg I e viene
+    distrutta la torre di Amon Sûl. Fornost e Tyrn Gorthad resistono.
+  lungo: >-
+    Il Re degli Stregoni di Angmar invade il territorio di Arnor. Re Arveleg I
+    viene ucciso e la Torre di Amon Sûl, che custodiva uno dei palantíri del
+    Nord, viene distrutta. Fornost e Tyrn Gorthad resistono all'assalto. La
+    guerra tra Angmar e i regni del Nord non finisce qui: proseguirà per
+    secoli, fino alla caduta dell'Arthedain.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1409"
+  certezza: certa
+  note: null
+
+- id: lotta-stirpi
+  titolo: La Lotta delle Stirpi
+  tipo: guerra
+  data:
+    era: terza
+    anno: 1432
+    mese: null
+    giorno: null
+    anno_fine: 1447
+    precisione: intervallo
+    qualificatore: null
+    calendario: terza
+    testo: "1432-1447"
+  luoghi:
+    - Gondor
+    - Osgiliath
+    - Erui
+    - Pelargir
+    - Umbar
+  fa_parte_di: null
+  partecipanti:
+    - nome: Valacar
+      parte: Gondor
+      ruolo: re
+      esito: muore
+    - nome: Eldacar
+      parte: Gondor
+      ruolo: erede legittimo
+      esito: riconquista il trono
+    - nome: Castamir
+      parte: ribelli
+      ruolo: usurpatore
+      esito: sconfitto e ucciso
+    - nome: Ornendil
+      parte: Gondor
+      ruolo: figlio di Eldacar
+      esito: ucciso
+  breve: >-
+    Alla morte di re Valacar Gondor sprofonda nella guerra civile: Osgiliath
+    brucia e il palantír va perduto, finché Eldacar torna e sconfigge
+    l'usurpatore Castamir ai Guadi dell'Erui.
+  lungo: >-
+    Alla morte di re Valacar, figlio di una principessa del Rhovanion, una
+    parte dei Dúnedain rifiuta l'erede Eldacar perché di sangue misto. Scoppia
+    la Lotta delle Stirpi. Nel 1436 Osgiliath brucia e il suo palantír va
+    perduto; Eldacar fugge nel Rhovanion e suo figlio Ornendil viene ucciso.
+    Castamir l'Usurpatore prende il trono. Nel 1447 Eldacar ritorna con un
+    esercito, sconfigge Castamir ai Guadi dell'Erui e assedia Pelargir. I
+    figli di Castamir fuggono a Umbar, dove fonderanno una dinastia di
+    Corsari.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 1432-1448; Appendice A, Gondor"
+  certezza: certa
+  note: >-
+    La guerra è trattata come un solo evento con intervallo; le singole
+    battaglie (Osgiliath 1436, Erui 1447, Pelargir 1447) possono diventare
+    schede autonome in una fase successiva.
+
+- id: grande-peste
+  titolo: La Grande Peste
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 1636
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1636"
+  luoghi:
+    - Gondor
+    - Minas Anor
+    - Eriador
+    - Baranduin
+  fa_parte_di: null
+  partecipanti:
+    - nome: Telemnar
+      parte: Gondor
+      ruolo: re
+      esito: muore
+    - nome: i figli di Telemnar
+      parte: Gondor
+      ruolo: principi
+      esito: muoiono
+    - nome: Gondor
+      parte: Gondor
+      ruolo: regno
+      esito: perde gran parte della popolazione
+    - nome: i Periannath
+      parte: Hobbit
+      ruolo: popolo
+      esito: sopravvivono con gravi perdite
+  breve: >-
+    L'epidemia fa strage a Gondor: muoiono re Telemnar e i suoi figli, e
+    appassisce l'Albero Bianco. La peste dilaga a nord e devasta l'Eriador.
+  lungo: >-
+    La Grande Peste colpisce Gondor nel 1636. Muoiono re Telemnar e tutti i
+    suoi figli; l'Albero Bianco appassisce a Minas Anor. L'epidemia risale
+    verso nord e verso ovest e devasta l'Eriador, lasciando molte regioni
+    deserte. Oltre il Baranduin i Periannath sopravvivono, ma con perdite
+    ingenti. È uno dei colpi da cui Gondor non si riprenderà mai del tutto.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1636"
+  certezza: certa
+  note: null
+
+- id: mordor-sorveglianza
+  titolo: Cessa la sorveglianza su Mordor
+  tipo: politica
+  data:
+    era: terza
+    anno: 1640
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1640"
+  luoghi:
+    - Minas Anor
+    - Osgiliath
+    - Mordor
+  fa_parte_di: null
+  partecipanti:
+    - nome: Tarondor
+      parte: Gondor
+      ruolo: re
+      esito: sposta la residenza a Minas Anor
+    - nome: Gondor
+      parte: Gondor
+      ruolo: regno
+      esito: abbandona i presidi su Mordor
+  breve: >-
+    Re Tarondor sposta la residenza a Minas Anor e pianta un nuovo seme
+    dell'Albero Bianco. Osgiliath declina e Gondor smette di presidiare
+    Mordor.
+  lungo: >-
+    Re Tarondor sposta la residenza reale da Osgiliath a Minas Anor e vi
+    pianta un nuovo seme dell'Albero Bianco. Osgiliath, già provata dalla
+    peste, comincia il suo declino. Soprattutto, Gondor cessa di sorvegliare
+    Mordor: le fortezze che tenevano a bada la terra di Sauron vengono
+    abbandonate. È una decisione che peserà secoli dopo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1640"
+  certezza: certa
+  note: null
+
+- id: aurighe
+  titolo: I Carrieri travolgono Gondor
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 1856
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1856"
+  luoghi:
+    - territori orientali di Gondor
+    - Rhovanion
+  fa_parte_di: null
+  partecipanti:
+    - nome: Narmacil II
+      parte: Gondor
+      ruolo: re
+      esito: muore in battaglia
+    - nome: i Carrieri
+      parte: Est
+      ruolo: popolo invasore
+      esito: conquistano i territori orientali
+    - nome: Gondor
+      parte: Gondor
+      ruolo: regno
+      esito: perde le province orientali
+  breve: >-
+    Le scorrerie dei Carrieri, iniziate nel 1851, dilagano: Gondor perde i
+    territori orientali e cade in battaglia re Narmacil II.
+  lungo: >-
+    Nel 1851 cominciano le scorrerie dei Carrieri, un popolo o una federazione
+    di popoli venuti dall'Est. Nel 1856 la loro pressione travolge le difese
+    di Gondor: le province orientali vanno perdute e re Narmacil II cade in
+    battaglia. Gondor è costretto a ritirarsi dietro l'Anduin. La minaccia dei
+    Carrieri durerà per generazioni.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 1851-1856"
+  certezza: certa
+  note: >-
+    L'ID storico dell'evento resta `aurighe`, ma il nome visibile è ora
+    «Carrieri», la forma dell'edizione Bompiani 2004.
+
+- id: battaglia-campo
+  titolo: Battaglia del Campo
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 1944
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1944"
+  luoghi:
+    - Ithilien
+    - Paludi Morte
+    - Gondor
+  fa_parte_di: null
+  partecipanti:
+    - nome: Ondoher
+      parte: Gondor
+      ruolo: re
+      esito: muore
+    - nome: Eärnil
+      parte: Gondor
+      ruolo: generale
+      esito: vince la battaglia
+    - nome: Arvedui
+      parte: Arthedain
+      ruolo: re
+      esito: rivendica la corona di Gondor
+    - nome: i Carrieri
+      parte: Est
+      ruolo: invasori
+      esito: sconfitti e respinti
+  breve: >-
+    Re Ondoher cade contro i Carrieri; nel sud Eärnil li sconfigge in Ithilien
+    e ne annienta l'esercito nella Battaglia del Campo. Arvedui di Arnor
+    rivendica la corona, che va però a Eärnil II.
+  lungo: >-
+    Nel 1944 i Carrieri attaccano Gondor su più fronti. Re Ondoher cade in
+    battaglia. Nel sud Ithilien Eärnil sconfigge il nemico, poi lo annienta
+    nella Battaglia del Campo e lo respinge nelle Paludi Morte. Alla morte di
+    Ondoher, Arvedui di Arthedain rivendica la corona di Gondor per via della
+    moglie Firiel, ma il Consiglio di Gondor sceglie Eärnil, che diventa re
+    nel 1945. La scelta spezza per sempre la possibilità di riunire i due
+    regni.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 1944-1945; Appendice A, Gondor"
+  certezza: certa
+  note: null
+
+- id: cade-arnor
+  titolo: Cade il regno del Nord
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 1974
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1974"
+  luoghi:
+    - Arthedain
+    - Fornost
+    - Arnor
+  fa_parte_di: null
+  partecipanti:
+    - nome: il Re degli Stregoni
+      parte: Angmar
+      ruolo: comandante
+      esito: conquista Fornost
+    - nome: Arvedui
+      parte: Arthedain
+      ruolo: re
+      esito: fugge a nord
+    - nome: Arthedain
+      parte: Arnor
+      ruolo: regno
+      esito: finisce
+  breve: >-
+    Il Re degli Stregoni invade l'Arthedain e prende Fornost: dopo mille anni
+    finisce il regno di Arnor. Arvedui, ultimo re, fugge a nord.
+  lungo: >-
+    Il Re degli Stregoni invade l'Arthedain con forze soverchianti e conquista
+    Fornost. Re Arvedui, ultimo sovrano del Regno del Nord, fugge verso le
+    terre del nord. Dopo più di mille anni dalla fondazione, Arnor cessa di
+    esistere come regno. I Dúnedain del Nord diventeranno un popolo errante e
+    segreto, i Raminghi.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1974; Appendice A, Arnor"
+  certezza: certa
+  note: null
+
+- id: battaglia-fornost
+  titolo: Battaglia di Fornost
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 1975
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1975"
+  luoghi:
+    - Fornost
+    - Forochel
+    - Lindon
+    - Erenbrulli
+  fa_parte_di: null
+  partecipanti:
+    - nome: Arvedui
+      parte: Arthedain
+      ruolo: re in fuga
+      esito: annega nella Baia di Forochel
+    - nome: Eärnur
+      parte: Gondor
+      ruolo: principe
+      esito: guida la flotta del Lindon
+    - nome: il Re degli Stregoni
+      parte: Angmar
+      ruolo: comandante
+      esito: sconfitto, scompare dal Nord
+    - nome: Glorfindel
+      parte: Imladris
+      ruolo: signore elfico
+      esito: pronuncia la profezia
+  breve: >-
+    Arvedui annega nella baia di Forochel e i palantíri del Nord vanno
+    perduti. La flotta di Eärnur sconfigge il Re degli Stregoni davanti a
+    Fornost e lo insegue fino agli Erenbrulli.
+  lungo: >-
+    Arvedui fugge verso nord e annega nella Baia di Forochel; con lui vanno
+    perduti i palantíri di Annúminas e di Amon Sûl. Eärnur, figlio del re di
+    Gondor, porta una flotta nel Lindon e marcia contro Angmar. Nella
+    Battaglia di Fornost il Re degli Stregoni viene sconfitto e inseguito sino
+    agli Erenbrulli, dove scompare dal Nord. Glorfindel pronuncia allora la
+    profezia: il Re degli Stregoni non cadrà per mano di un uomo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1975; Appendice A, Gondor"
+  certezza: certa
+  note: null
+
+- id: balrog-moria
+  titolo: Un Balrog a Moria
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 1980
+    mese: null
+    giorno: null
+    anno_fine: 1981
+    precisione: intervallo
+    qualificatore: null
+    calendario: terza
+    testo: "1980-1981"
+  luoghi:
+    - Moria
+    - Khazad-dûm
+    - Lórien
+    - Nimrodel
+  fa_parte_di: null
+  partecipanti:
+    - nome: Durin VI
+      parte: Nani
+      ruolo: re di Khazad-dûm
+      esito: ucciso dal Balrog
+    - nome: Nain I
+      parte: Nani
+      ruolo: re
+      esito: ucciso
+    - nome: il Balrog
+      parte: Morgoth
+      ruolo: demone del fuoco
+      esito: scaccia i Nani da Moria
+    - nome: Amroth
+      parte: Lórien
+      ruolo: re
+      esito: perduto
+  breve: >-
+    Nelle profondità di Khazad-dûm riappare il flagello di Durin: muore il re
+    Durin VI e l'anno dopo anche suo figlio Nain I. I Nani abbandonano Moria.
+  lungo: >-
+    Nel 1980 un Balrog, antico demone al servizio di Morgoth, si risveglia
+    nelle profondità di Khazad-dûm e uccide re Durin VI. L'anno seguente
+    uccide anche Nain I, figlio di Durin. I Nani fuggono da Moria, che resta
+    da allora un luogo di tenebra. Molti Elfi Silvani abbandonano il Lórien e
+    si perdono Amroth e la valle del Nimrodel.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 1980-1981"
+  certezza: certa
+  note: null
+
+- id: nani-erebor
+  titolo: I Nani fondano Erebor
+  tipo: fondazione
+  data:
+    era: terza
+    anno: 1999
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1999"
+  luoghi:
+    - Erebor
+    - Montagna Solitaria
+  fa_parte_di: null
+  partecipanti:
+    - nome: Thràin I
+      parte: Nani
+      ruolo: re
+      esito: fonda il regno sotto la Montagna
+    - nome: i Nani del Popolo di Durin
+      parte: Nani
+      ruolo: popolo
+      esito: si stabiliscono a Erebor
+  breve: >-
+    Thràin I conduce a Erebor il suo popolo e fonda il regno dei Nani sotto la
+    Montagna.
+  lungo: >-
+    Thràin I, erede di Durin, conduce il suo popolo a Erebor, la Montagna
+    Solitaria, e vi fonda un regno dei Nani «sotto la Montagna». La ricchezza
+    del regno cresce, ma attirerà l'attenzione dei Draghi del Nord. La
+    prosperità di Erebor durerà fino all'arrivo di Smaug.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1999"
+  certezza: certa
+  note: null
