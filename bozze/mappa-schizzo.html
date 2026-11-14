@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cronologia di Arda · schizzo mappa Terza Era</title>
+<title>Cronologia di Arda · schizzo mappa Terza Era — v3</title>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#f2f3f4;--ink:#1a1d21;--mt:#6b7178;--ln:#c9cfd4;--ac:#b23a2e;--sea:#e3e9ed;--sea2:#d7dfe4;--riv:#5b7f9e;--for:#9fb396;--mt2:#b9bfc4;--mtfill:#e3e6e8}
@@ -11,7 +11,7 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.5 "Space Grotesk",Helvetica,Arial,sans-serif}
 main{max-width:1100px;margin:0 auto;padding:24px}
 h1{font:500 .9rem/1.3 "Space Grotesk",sans-serif;letter-spacing:.3em;text-transform:uppercase;margin:0 0 6px}
-p{margin:0 0 4px;color:var(--mt);font-size:.85rem;max-width:60em}
+p{margin:0 0 4px;color:var(--mt);font-size:.85rem;max-width:64em}
 svg{display:block;width:100%;height:auto;margin-top:16px}
 svg text{font-family:"Space Grotesk",Helvetica,Arial,sans-serif}
 .legend{margin-top:14px;display:flex;flex-wrap:wrap;gap:18px;font-size:.8rem;color:var(--mt)}
@@ -22,8 +22,8 @@ svg text{font-family:"Space Grotesk",Helvetica,Arial,sans-serif}
 </head>
 <body>
 <main>
-<h1>Cronologia di Arda · schizzo mappa — v2</h1>
-<p>Bozza di approvazione, non integrata nel sito. Geometria disegnata da zero (nessuna mappa ufficiale riprodotta), proporzioni schematiche. Da approvare: silhouette, densità delle montagne, resa di fiumi/foreste, etichette.</p>
+<h1>Cronologia di Arda · schizzo mappa — v3</h1>
+<p>Sistema di coordinate in miglia: 1 unità = 1 miglio (griglia ogni 200 miglia). Le posizioni rispettano le distanze dei libri: ~240 miglia Hobbiville–Porti Grigi, ~390 Hobbiville–Gran Burrone, ~470 Hobbiville–Moria, ~800 di Montagne Nebbiose dal Gundabad al Methedras, ~1300 di Anduin. Geometria originale, nessuna mappa pubblicata riprodotta. Il quadrato tratteggiato è il ritaglio che andrà al centro del cerchio.</p>
 <div id="map"></div>
 <div class="legend">
   <span><i class="sw" style="background:var(--ink)"></i>coste</span>
@@ -35,148 +35,176 @@ svg text{font-family:"Space Grotesk",Helvetica,Arial,sans-serif}
 </div>
 </main>
 <script>
-const W=1000;
+/* ===== coordinate: 1 unità = 1 miglio; x = est, y = sud ===== */
+const VB={x:-380,y:-580,w:1520,h:1930};
 
-/* --- costa (catena di punti, chiusa, in senso orario) --- */
+/* costa (senso orario partendo dal capo di Forochel) */
 const COAST=[
-[150,58],[200,92],[300,112],[362,70],[430,52],[600,58],[760,60],[890,78],[955,160],[980,330],
-[972,510],[958,670],[918,820],[872,905],[806,932],[742,940],[700,900],[668,836],[632,760],
-[600,700],[566,668],[520,652],[468,644],[414,660],[366,682],[332,710],[290,662],[260,600],
-[232,548],[198,500],[166,430],[142,360],[120,305],[150,268],[178,255],[156,240],[120,228],
-[104,182],[112,120]
+[-330,-430],[-240,-500],[-150,-510],[-100,-470],[-120,-400],[-90,-330],[-20,-350],[40,-420],
+[250,-490],[600,-540],[950,-520],[1100,-450],[1120,-150],[1125,150],[1110,500],[1080,800],[1050,1050],
+[1060,1290],[700,1300],[300,1280],[-100,1255],[-350,1230],[-350,1140],
+[-260,1105],[-100,1070],[120,1035],[280,1015],[430,1005],[580,1010],[720,1030],[840,1060],
+[885,1125],[920,1165],[870,1010],[850,930],
+[770,880],[700,830],[640,800],[610,795],[565,850],[540,810],[470,770],[400,745],[330,718],
+[235,705],[165,760],[155,685],[95,655],[30,615],[-35,560],[-75,530],[-110,495],[-150,430],
+[-185,370],[-215,310],[-240,250],[-265,190],[-280,130],[-295,95],[-250,55],[-285,15],
+[-300,-30],[-310,-80],[-330,-180],[-325,-280]
 ];
 
-/* --- fiumi --- */
+/* fiumi */
 const RIVERS=[
-[[560,130],[555,220],[540,300],[532,360],[545,400],[556,430],[560,470],[556,520],[560,570],[575,600],[590,625],[585,660],[592,690]], // Anduin
-[[480,470],[460,510],[420,540],[370,545],[320,548],[270,552],[232,548]], // Acquagrigia
-[[330,300],[310,330],[288,360],[262,390],[240,415],[210,438],[176,442]], // Brandivino
-[[468,476],[448,505],[435,538],[420,570],[408,598],[396,614]], // Isen
-[[620,410],[580,430],[556,452],[558,458]], // Celebrant
-[[520,480],[540,505],[552,535],[556,555]], // Entwash
-[[570,432],[556,446],[550,455]], // Limlight
-[[505,605],[490,578],[482,548],[500,520],[528,505],[552,535]], // Acquaneve
-[[700,585],[660,615],[628,645],[596,660]], // Poros
-[[750,690],[716,730],[692,772],[674,812]], // Harnen
-[[692,250],[710,290],[738,315],[790,330],[838,332]], // Celduin
-[[815,240],[805,290],[812,320],[840,322]] // Carnen
+[[440,-320],[445,-220],[450,-120],[462,-60],[468,80],[466,168],[485,205],[505,255],[540,330],[565,420],[610,520],[680,620],[740,700],[790,770],[822,830],[835,855],[850,870]], // Anduin
+[[447,150],[466,165]], // Gaggiolo
+[[452,192],[480,205],[492,220]], // Celebrant
+[[458,240],[505,258],[535,300]], // Limlight
+[[528,435],[558,455],[590,490],[615,535],[640,580]], // Entalluvio
+[[560,648],[538,600],[530,568],[548,535],[585,505],[598,500]], // Acquaneve
+[[432,498],[370,540],[300,585],[225,622],[150,645],[98,652]], // Isen
+[[438,462],[375,482],[315,495],[215,508],[110,512],[-70,528]], // Acquagrigia
+[[85,-105],[82,-25],[88,55],[75,135],[45,210],[0,285],[-60,350],[-110,395],[-148,422]], // Brandivino
+[[-228,52],[-252,56]], // Lune
+[[878,868],[855,872],[838,864]], // Poros
+[[968,972],[915,1005],[862,1048],[806,1076]], // Harnen
+[[690,-148],[725,-85],[755,-15],[790,55],[838,115],[872,150]], // Celduin
+[[855,-185],[842,-110],[858,-35],[875,40],[890,100]] // Carnen
 ];
 
-/* --- montagne: creste [x,y,larghezza] --- */
+/* montagne: creste */
 const RIDGES=[
-{pts:[[470,90],[476,150],[486,210],[496,270],[492,330],[488,385],[483,425],[475,468]],w:9},   // Montagne Nebbiose
-{pts:[[555,120],[610,108],[665,112],[720,125],[770,142]],w:8},                                   // Montagne Grigie
-{pts:[[790,200],[825,212],[855,232]],w:7},                                                        // Colli Ferrosi
-{pts:[[185,150],[180,200],[175,260],[170,320]],w:7},                                              // Ered Luin
-{pts:[[420,602],[465,592],[515,590],[565,596],[610,606]],w:8},                                    // Montagne Bianche
-{pts:[[640,590],[650,620],[658,650],[668,678],[674,700]],w:8},                                    // Ephel Dúath
-{pts:[[650,588],[695,578],[745,582],[790,592]],w:8},                                              // Ered Lithui
-{pts:[[674,700],[704,698],[738,690]],w:7}                                                         // Ephel Dúath (sud)
+{pts:[[415,-270],[424,-165],[431,-50],[437,60],[442,160],[448,260],[452,360],[447,445],[440,482]],w:11}, // Nebbiose
+{pts:[[420,-285],[520,-325],[620,-345],[720,-330],[800,-295]],w:9}, // Grigie
+{pts:[[815,-225],[850,-195],[880,-160]],w:8}, // Colli Ferrosi
+{pts:[[-250,-190],[-242,-90],[-236,10],[-233,110],[-230,210],[-228,300]],w:8}, // Ered Luin
+{pts:[[390,652],[460,622],[540,610],[620,625],[690,655],[748,730],[775,772]],w:9}, // Bianche
+{pts:[[843,748],[852,790],[856,835],[866,882],[882,928],[930,962],[985,972]],w:8}, // Ephel Dúath
+{pts:[[843,748],[900,730],[960,724],[1020,733],[1060,755]],w:8} // Ered Lithui
 ];
 const HILLS=[
-{pts:[[360,300],[382,308],[402,315]],w:4},
-{pts:[[292,372],[300,380],[308,386]],w:4}
+{pts:[[538,298],[550,318],[556,338]],w:5}, // Emyn Muil
+{pts:[[225,12],[235,22],[245,32]],w:4}, // Colle Vento
+{pts:[[272,-198],[282,-192],[292,-186]],w:4}, // Colli del Nord
+{pts:[[115,28],[122,36]],w:3} // Tumulilande
 ];
 
-/* --- foreste: contorni (chiusi) --- */
+/* foreste (contorni chiusi) */
 const FORESTS=[
-[[610,215],[655,205],[705,220],[735,260],[730,320],[705,380],[660,415],[620,400],[605,350],[600,285]],
-[[548,418],[565,415],[575,432],[560,446],[548,440]],
-[[505,458],[522,455],[535,470],[525,488],[505,482],[498,470]],
-[[285,378],[296,372],[302,382],[294,392],[284,388]],
-[[548,582],[560,580],[566,590],[556,596],[546,592]],
-[[602,636],[622,632],[628,648],[612,658],[598,650]],
-[[565,622],[576,620],[580,630],[568,634],[560,630]]
+[[478,-160],[520,-215],[575,-200],[618,-140],[638,-70],[640,0],[628,70],[608,145],[588,215],[568,275],[558,310],[535,285],[515,235],[500,170],[490,95],[482,10],[476,-80]], // Bosco Atro
+[[490,172],[522,168],[535,205],[522,232],[492,228],[484,200]], // Lothlórien
+[[505,405],[535,398],[553,425],[548,458],[518,462],[500,432]], // Fangorn
+[[102,8],[114,4],[120,16],[112,28],[100,22]], // Vecchia Foresta
+[[788,775],[822,772],[836,805],[818,838],[788,828],[778,800]], // Ithilien
+[[732,740],[748,738],[754,752],[740,760],[728,752]], // Drúadan
+[[636,658],[652,655],[658,668],[646,675],[634,670]] // Firien
 ];
 
-/* --- laghi [cx,cy,rx,ry] --- */
+/* laghi [cx,cy,rx,ry] e isole */
 const LAKES=[
-[860,330,52,38],   // Mare di Rhûn
-[735,690,40,28],   // Mare di Núrnen
-[660,262,10,16],   // Lago Lungo
-[292,278,20,11]    // Evendim
+[895,180,85,65,0],   // Mare di Rhûn
+[958,955,45,32,0],   // Mare di Núrnen
+[660,-55,9,48,0],    // Lago Lungo
+[85,-105,22,13,0],   // Evendim
+[556,322,8,15,0],    // Nen Hithoel
+[735,925,22,16,1]    // Tolfalas (isola)
 ];
+const MARSH=[740,590,32,18]; // Paludi Morte
 
-/* --- luoghi degli eventi [x,y,nome,dx,dy,anchor] --- */
+/* luoghi degli eventi [x,y,nome,dx,dy,anchor] */
 const PLACES=[
-[170,258,"Porti Grigi",15,-4,"start"],
-[262,352,"Contea",-8,18,"start"],
-[322,338,"Brea",11,-2,"start"],
-[336,258,"Fornost",11,-2,"start"],
-[392,306,"Amon Sûl",11,8,"start"],
-[452,282,"Gran Burrone",11,-4,"start"],
-[390,152,"Angmar",11,2,"start"],
-[545,398,"Campo Gaggiolo",11,-2,"start"],
-[620,398,"Dol Guldur",11,8,"start"],
-[700,240,"Erebor",11,-2,"start"],
-[660,258,"Esgaroth",-10,16,"end"],
-[495,395,"Moria",-11,-2,"end"],
-[560,432,"Lothlórien",11,-4,"start"],
-[518,470,"Fangorn",-11,10,"end"],
-[462,472,"Isengard",-11,-4,"end"],
-[445,545,"Fosso di Helm",-11,2,"end"],
-[555,462,"Campi del Celebrant",12,8,"start"],
-[632,545,"Dagorlad",11,-2,"start"],
-[568,610,"Minas Tirith",-11,2,"end"],
-[592,620,"Osgiliath",7,16,"start"],
-[652,614,"Minas Morgul",11,-2,"start"],
-[702,640,"Monte Fato",11,8,"start"],
-[722,612,"Barad-dûr",11,-2,"start"],
-[552,545,"Parth Galen",-11,-6,"end"],
-[640,120,"Montagne Grigie",11,12,"start"],
-[498,300,"Montagne Nebbiose",-11,-6,"end"],
-[614,645,"Ithilien",11,8,"start"]
+[-240,45,"Porti Grigi",16,5,"start"],
+[0,10,"Contea",0,38,"middle"],
+[130,25,"Brea",16,5,"start"],
+[280,-192,"Fornost",16,5,"start"],
+[235,22,"Amon Sûl",16,18,"start"],
+[388,5,"Gran Burrone",16,5,"start"],
+[325,-318,"Angmar",16,5,"start"],
+[468,165,"Campo Gaggiolo",16,5,"start"],
+[552,296,"Dol Guldur",-14,26,"end"],
+[690,-150,"Erebor",18,5,"start"],
+[650,-95,"Esgaroth",-14,22,"end"],
+[436,183,"Moria",-16,5,"end"],
+[505,200,"Lothlórien",20,28,"start"],
+[525,430,"Fangorn",-16,26,"end"],
+[442,478,"Isengard",-16,5,"end"],
+[455,588,"Fosso di Helm",-16,5,"end"],
+[515,295,"Campi del Celebrant",-16,30,"end"],
+[800,700,"Dagorlad",16,5,"start"],
+[770,780,"Minas Tirith",-16,5,"end"],
+[800,790,"Osgiliath",10,24,"start"],
+[856,808,"Minas Morgul",16,5,"start"],
+[920,858,"Monte Fato",16,18,"start"],
+[950,828,"Barad-dûr",16,5,"start"],
+[543,338,"Parth Galen",-16,5,"end"],
+[575,-330,"Montagne Grigie",0,30,"middle"],
+[434,-55,"Montagne Nebbiose",-16,5,"end"],
+[815,820,"Ithilien",8,-10,"start"]
 ];
 
-/* --- nomi secondari (geografia) --- */
+/* nomi secondari */
 const SEC=[
-[492,532,"Edoras",8,10,"start"],
-[586,662,"Pelargir",8,10,"start"],
-[402,668,"Dol Amroth",8,10,"start"],
-[664,800,"Umbar",8,10,"start"],
-[320,548,"Tharbad",8,10,"start"],
-[530,280,"Anduin",0,12,"middle"],
-[272,95,"Forochel",0,12,"middle"]
+[95,-112,"Annúminas",14,-6,"start"],
+[315,495,"Tharbad",14,16,"start"],
+[528,565,"Edoras",14,16,"start"],
+[833,855,"Pelargir",14,16,"start"],
+[570,790,"Dol Amroth",14,16,"start"],
+[895,1125,"Umbar",14,16,"start"],
+[843,748,"Cancello Nero",14,-6,"start"],
+[757,722,"Cair Andros",14,16,"start"],
+[700,-138,"Valle",14,-6,"start"],
+[560,-95,"Thranduil",14,16,"start"]
 ];
 
-/* --- regioni [x,y,nome,font] --- */
+/* regioni [x,y,nome,dim] */
 const REGIONS=[
-[560,110,"FORODWAITH",13],
-[300,430,"ERIADOR",16],
-[740,440,"RHOVANION",14],
-[478,520,"ROHAN",13],
-[480,690,"GONDOR",14],
-[750,670,"MORDOR",14],
-[740,880,"HARAD",14],
-[372,560,"ENEDWAITH",12],
-[120,230,"LINDON",13]
+[280,-420,"FORODWAITH",26],
+[140,250,"ERIADOR",30],
+[700,140,"RHOVANION",26],
+[505,540,"ROHAN",24],
+[645,735,"GONDOR",26],
+[990,900,"MORDOR",26],
+[700,1160,"HARAD",26],
+[190,565,"ENEDWAITH",17],
+[400,462,"DUNLAND",16],
+[395,185,"EREGION",17],
+[-80,360,"MINHIRIATH",16],
+[750,838,"LEBENNIN",15],
+[870,980,"HARONDORE",15],
+[640,470,"TERRE BRUNE",15],
+[930,850,"GORGOROTH",14],
+[958,990,"NURN",14],
+[558,30,"BOSCO ATRO",18],
+[-282,0,"LINDON",16]
+];
+const WATER=[
+[-215,280,"BELEGAER",24,-72],
+[590,905,"Baia di Belfalas",18,0],
+[-95,-400,"Baia di Forochel",16,0],
+[-255,25,"Golfo di Lune",14,0],
+[895,180,"Rhûn",20,0],
+[958,955,"Núrnen",15,0],
+[740,640,"Paludi Morte",14,0]
 ];
 
 /* ===== disegno ===== */
-
-// Catmull-Rom → polilinea densa
 function cr(pts,closed,per){
-  const n=pts.length, out=[];
+  const n=pts.length,out=[];
   if(closed){
     for(let i=0;i<n;i++){
       const p0=pts[(i-1+n)%n],p1=pts[i],p2=pts[(i+1)%n],p3=pts[(i+2)%n];
       for(let k=0;k<per;k++){
-        const t=k/per, t2=t*t, t3=t2*t;
+        const t=k/per,t2=t*t,t3=t2*t;
         out.push([
-          0.5*((2*p1[0])+(-p0[0]+p2[0])*t+(2*p0[0]-5*p1[0]+4*p2[0]-p3[0])*t2+(-p0[0]+3*p1[0]-3*p2[0]+p3[0])*t3),
-          0.5*((2*p1[1])+(-p0[1]+p2[1])*t+(2*p0[1]-5*p1[1]+4*p2[1]-p3[1])*t2+(-p0[1]+3*p1[1]-3*p2[1]+p3[1])*t3)
-        ]);
+          .5*((2*p1[0])+(-p0[0]+p2[0])*t+(2*p0[0]-5*p1[0]+4*p2[0]-p3[0])*t2+(-p0[0]+3*p1[0]-3*p2[0]+p3[0])*t3),
+          .5*((2*p1[1])+(-p0[1]+p2[1])*t+(2*p0[1]-5*p1[1]+4*p2[1]-p3[1])*t2+(-p0[1]+3*p1[1]-3*p2[1]+p3[1])*t3)]);
       }
     }
   }else{
     for(let i=0;i<n-1;i++){
       const p0=pts[Math.max(0,i-1)],p1=pts[i],p2=pts[i+1],p3=pts[Math.min(n-1,i+2)];
       for(let k=0;k<per;k++){
-        const t=k/per, t2=t*t, t3=t2*t;
+        const t=k/per,t2=t*t,t3=t2*t;
         out.push([
-          0.5*((2*p1[0])+(-p0[0]+p2[0])*t+(2*p0[0]-5*p1[0]+4*p2[0]-p3[0])*t2+(-p0[0]+3*p1[0]-3*p2[0]+p3[0])*t3),
-          0.5*((2*p1[1])+(-p0[1]+p2[1])*t+(2*p0[1]-5*p1[1]+4*p2[1]-p3[1])*t2+(-p0[1]+3*p1[1]-3*p2[1]+p3[1])*t3)
-        ]);
+          .5*((2*p1[0])+(-p0[0]+p2[0])*t+(2*p0[0]-5*p1[0]+4*p2[0]-p3[0])*t2+(-p0[0]+3*p1[0]-3*p2[0]+p3[0])*t3),
+          .5*((2*p1[1])+(-p0[1]+p2[1])*t+(2*p0[1]-5*p1[1]+4*p2[1]-p3[1])*t2+(-p0[1]+3*p1[1]-3*p2[1]+p3[1])*t3)]);
       }
     }
   }
@@ -186,74 +214,65 @@ function polyPath(pts,closed){
   const d=cr(pts,closed,14);
   return d.map((p,i)=>`${i?"L":"M"}${p[0].toFixed(1)} ${p[1].toFixed(1)}`).join(" ")+(closed?" Z":"");
 }
-
-// montagne: fascia riempita + cresta + segni
 function mountains(ridge){
-  const pts=cr(ridge.pts,false,14), n=pts.length, up=[],lo=[];
+  const pts=cr(ridge.pts,false,14),n=pts.length,up=[],lo=[];
   for(let i=0;i<n;i++){
     const a=pts[Math.max(0,i-1)],b=pts[Math.min(n-1,i+1)];
     let dx=b[0]-a[0],dy=b[1]-a[1];const L=Math.hypot(dx,dy)||1;dx/=L;dy/=L;
-    const nx=-dy,ny=dx;
-    const env=0.35+0.65*Math.sin(Math.PI*i/(n-1));
-    const w=ridge.w*env;
+    const nx=-dy,ny=dx,env=.35+.65*Math.sin(Math.PI*i/(n-1)),w=ridge.w*env;
     up.push([pts[i][0]+nx*w,pts[i][1]+ny*w]);
     lo.push([pts[i][0]-nx*w,pts[i][1]-ny*w]);
   }
-  let out=`<path d="M${up.map(p=>p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" L ")} L${lo.slice().reverse().map(p=>p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" L ")} Z" fill="var(--mtfill)" stroke="none"/>`;
-  out+=`<path d="M${pts.map(p=>p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" L ")}" fill="none" stroke="var(--mt2)" stroke-width="1"/>`;
-  for(let i=0;i<n;i+=Math.max(2,Math.round(16/ (2*ridge.w/9)))){
+  let out=`<path d="M${up.map(p=>p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" L ")} L${lo.slice().reverse().map(p=>p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" L ")} Z" fill="var(--mtfill)"/>`;
+  out+=`<path d="M${pts.map(p=>p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" L ")}" fill="none" stroke="var(--mt2)" stroke-width="1.4"/>`;
+  for(let i=0;i<n;i+=3){
     const a=pts[Math.max(0,i-1)],b=pts[Math.min(n-1,i+1)];
     let dx=b[0]-a[0],dy=b[1]-a[1];const L=Math.hypot(dx,dy)||1;dx/=L;dy/=L;
-    const nx=-dy,ny=dx, s=ridge.w*0.62;
-    out+=`<path d="M${(pts[i][0]+nx*s).toFixed(1)} ${(pts[i][1]+ny*s).toFixed(1)}L${(pts[i][0]-nx*s).toFixed(1)} ${(pts[i][1]-ny*s).toFixed(1)}" stroke="var(--mt)" stroke-width="1.1" stroke-linecap="round"/>`;
+    const nx=-dy,ny=dx,s=ridge.w*.62;
+    out+=`<path d="M${(pts[i][0]+nx*s).toFixed(1)} ${(pts[i][1]+ny*s).toFixed(1)}L${(pts[i][0]-nx*s).toFixed(1)} ${(pts[i][1]-ny*s).toFixed(1)}" stroke="var(--mt)" stroke-width="1.3" stroke-linecap="round"/>`;
   }
   return out;
 }
 function forest(ring){
-  let out=`<path d="${polyPath(ring,true)}" fill="var(--for)" fill-opacity=".34" stroke="var(--for)" stroke-width="1" stroke-opacity=".7"/>`;
-  const cx=ring.reduce((s,p)=>s+p[0],0)/ring.length, cy=ring.reduce((s,p)=>s+p[1],0)/ring.length;
-  const marks=Math.round(Math.hypot(ring[2][0]-ring[0][0],ring[2][1]-ring[0][1])/9);
+  let out=`<path d="${polyPath(ring,true)}" fill="var(--for)" fill-opacity=".34" stroke="var(--for)" stroke-width="1.2" stroke-opacity=".7"/>`;
+  const cx=ring.reduce((s,p)=>s+p[0],0)/ring.length,cy=ring.reduce((s,p)=>s+p[1],0)/ring.length;
+  let minx=1e9,miny=1e9,maxx=-1e9,maxy=-1e9;
+  ring.forEach(p=>{minx=Math.min(minx,p[0]);maxx=Math.max(maxx,p[0]);miny=Math.min(miny,p[1]);maxy=Math.max(maxy,p[1])});
+  const marks=Math.max(4,Math.round((maxx-minx)*(maxy-miny)/3800));
   for(let i=0;i<marks;i++){
-    const a=i*2.399963, r=Math.sqrt(i/marks);
-    const x=cx+Math.cos(a)*14*r, y=cy+Math.sin(a)*12*r;
-    out+=`<path d="M${(x-2.4).toFixed(1)} ${(y+2.4).toFixed(1)}L${x.toFixed(1)} ${(y-2.8).toFixed(1)}L${(x+2.4).toFixed(1)} ${(y+2.4).toFixed(1)}" fill="none" stroke="var(--for)" stroke-width="1.5" stroke-linejoin="round" opacity=".8"/>`;
+    const a=i*2.399963,r=Math.sqrt(i/marks);
+    const x=cx+Math.cos(a)*(maxx-minx)*.34*r,y=cy+Math.sin(a)*(maxy-miny)*.34*r;
+    out+=`<path d="M${(x-3).toFixed(1)} ${(y+3).toFixed(1)}L${x.toFixed(1)} ${(y-3.5).toFixed(1)}L${(x+3).toFixed(1)} ${(y+3).toFixed(1)}" fill="none" stroke="var(--for)" stroke-width="1.8" stroke-linejoin="round" opacity=".8"/>`;
   }
   return out;
 }
 
 let g="";
-// sfondo e griglia
-g+=`<rect width="${W}" height="${W}" fill="var(--sea)"/>`;
-for(let i=100;i<W;i+=100){
-  g+=`<line x1="${i}" y1="0" x2="${i}" y2="${W}" stroke="var(--mt)" stroke-width=".6" opacity=".07"/>`;
-  g+=`<line x1="0" y1="${i}" x2="${W}" y2="${i}" stroke="var(--mt)" stroke-width=".6" opacity=".07"/>`;
-}
-g+=`<text x="120" y="540" font-size="22" letter-spacing=".4em" fill="var(--mt)" opacity=".5" transform="rotate(-58 120 540)">MARE</text>`;
-// terra
-g+=`<path d="${polyPath(COAST,true)}" fill="var(--bg)" stroke="var(--ink)" stroke-width="1.5" stroke-linejoin="round"/>`;
-// eco di costa (profondità marina)
-g+=`<path d="${polyPath(COAST,true)}" fill="none" stroke="var(--sea2)" stroke-width="5" stroke-linejoin="round"/>`;
-// laghi
-LAKES.forEach(l=>{g+=`<ellipse cx="${l[0]}" cy="${l[1]}" rx="${l[2]}" ry="${l[3]}" fill="var(--sea)" stroke="var(--riv)" stroke-width="1.2"/>`});
-// fiumi
-RIVERS.forEach(r=>{g+=`<path d="${polyPath(r,false)}" fill="none" stroke="var(--riv)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>`});
-// foreste
+g+=`<rect x="${VB.x}" y="${VB.y}" width="${VB.w}" height="${VB.h}" fill="var(--sea)"/>`;
+for(let x=-200;x<=1000;x+=200)g+=`<line x1="${x}" y1="${VB.y}" x2="${x}" y2="${VB.y+VB.h}" stroke="var(--mt)" stroke-width=".6" opacity=".08"/>`;
+for(let y=-400;y<=1200;y+=200)g+=`<line x1="${VB.x}" y1="${y}" x2="${VB.x+VB.w}" y2="${y}" stroke="var(--mt)" stroke-width=".6" opacity=".08"/>`;
+WATER.forEach(w=>{g+=`<text x="${w[0]}" y="${w[1]}" font-size="${w[3]}"${w[4]?` transform="rotate(${w[4]} ${w[0]} ${w[1]})"`:""} text-anchor="middle" letter-spacing=".35em" fill="var(--mt)" opacity=".6" font-style="italic">${w[2]}</text>`});
+g+=`<path d="${polyPath(COAST,true)}" fill="none" stroke="var(--sea2)" stroke-width="9" stroke-linejoin="round"/>`;
+g+=`<path d="${polyPath(COAST,true)}" fill="var(--bg)" stroke="var(--ink)" stroke-width="2.4" stroke-linejoin="round"/>`;
+LAKES.forEach(l=>{g+=`<ellipse cx="${l[0]}" cy="${l[1]}" rx="${l[2]}" ry="${l[3]}" fill="${l[4]?"var(--bg)":"var(--sea)"}" stroke="${l[4]?"var(--ink)":"var(--riv)"}" stroke-width="2"/>`});
+g+=`<ellipse cx="${MARSH[0]}" cy="${MARSH[1]}" rx="${MARSH[2]}" ry="${MARSH[3]}" fill="var(--sea2)" fill-opacity=".8" stroke="var(--riv)" stroke-width="1.4" stroke-dasharray="5 6"/>`;
+RIVERS.forEach(r=>{g+=`<path d="${polyPath(r,false)}" fill="none" stroke="var(--riv)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`});
 FORESTS.forEach(f=>{g+=forest(f)});
-// montagne
 RIDGES.forEach(r=>{g+=mountains(r)});
 HILLS.forEach(r=>{g+=mountains(r)});
-// regioni
 REGIONS.forEach(r=>{g+=`<text x="${r[0]}" y="${r[1]}" text-anchor="middle" font-size="${r[3]}" letter-spacing=".32em" fill="var(--mt)" opacity=".85">${r[2]}</text>`});
-// nomi secondari
-SEC.forEach(s=>{g+=`<text x="${s[0]+s[3]}" y="${s[1]+s[4]}" text-anchor="${s[5]}" font-size="11" fill="var(--mt)" letter-spacing=".05em">${s[2]}</text>`});
-// luoghi
+SEC.forEach(s=>{g+=`<text x="${s[0]+s[3]}" y="${s[1]+s[4]}" text-anchor="${s[5]}" font-size="14" fill="var(--mt)" letter-spacing=".05em">${s[2]}</text>`});
 PLACES.forEach(p=>{
-  g+=`<circle cx="${p[0]}" cy="${p[1]}" r="4.5" fill="var(--ac)"/>`;
-  g+=`<text x="${p[0]+p[3]}" y="${p[1]+p[4]}" text-anchor="${p[5]}" font-size="12" fill="var(--ink)">${p[2]}</text>`;
+  g+=`<circle cx="${p[0]}" cy="${p[1]}" r="6" fill="var(--ac)"/>`;
+  g+=`<text x="${p[0]+p[3]}" y="${p[1]+p[4]}" text-anchor="${p[5]}" font-size="15" fill="var(--ink)">${p[2]}</text>`;
 });
-// rosa dei venti
-g+=`<g transform="translate(170 500)" opacity=".5"><circle r="30" fill="none" stroke="var(--mt)" stroke-width="1"/><circle r="3" fill="var(--mt)"/><path d="M0 -22 L5 6 L0 2 L-5 6 Z" fill="var(--mt)"/><path d="M0 22 L4 -6 L0 -2 L-4 -6 Z" fill="var(--mt)" opacity=".5"/><text y="-36" text-anchor="middle" font-size="13" letter-spacing=".25em" fill="var(--mt)">N</text></g>`;
-document.getElementById("map").innerHTML=`<svg viewBox="0 0 ${W} ${W}" role="img" aria-label="Schizzo della mappa della Terra di Mezzo nella Terza Era">${g}</svg>`;
+// ritaglio per il cerchio
+g+=`<rect x="-248" y="-338" width="1205" height="1203" fill="none" stroke="var(--ac)" stroke-width="2" stroke-dasharray="12 10" opacity=".8"/>`;
+g+=`<text x="-248" y="-352" font-size="15" fill="var(--ac)" letter-spacing=".1em">RITAGLIO PER IL CERCHIO (1200 MIGLIA)</text>`;
+// rosa dei venti e scala
+g+=`<g transform="translate(-250 660)" opacity=".5"><circle r="36" fill="none" stroke="var(--mt)" stroke-width="1.2"/><circle r="3.5" fill="var(--mt)"/><path d="M0 -27 L6 7 L0 2.5 L-6 7 Z" fill="var(--mt)"/><path d="M0 27 L5 -7 L0 -2.5 L-5 -7 Z" fill="var(--mt)" opacity=".5"/><text y="-46" text-anchor="middle" font-size="16" letter-spacing=".25em" fill="var(--mt)">N</text></g>`;
+g+=`<g transform="translate(-300 1245)" opacity=".7"><line x1="0" y1="0" x2="200" y2="0" stroke="var(--ink)" stroke-width="2"/><line x1="0" y1="-6" x2="0" y2="6" stroke="var(--ink)" stroke-width="2"/><line x1="100" y1="-4" x2="100" y2="4" stroke="var(--ink)" stroke-width="1.5"/><line x1="200" y1="-6" x2="200" y2="6" stroke="var(--ink)" stroke-width="2"/><text x="100" y="-12" text-anchor="middle" font-size="15" fill="var(--ink)">200 miglia</text></g>`;
+document.getElementById("map").innerHTML=`<svg viewBox="${VB.x} ${VB.y} ${VB.w} ${VB.h}" role="img" aria-label="Schizzo in scala della Terra di Mezzo nella Terza Era">${g}</svg>`;
 </script>
 </body>
 </html>
