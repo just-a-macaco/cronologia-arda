@@ -44,7 +44,9 @@ TIPI = {
 }
 TIPI_LUOGO = {
     "regione", "regno", "città", "villaggio", "rifugio", "edificio", "fortezza",
-    "torre", "montagna", "fiume", "bosco", "valle", "porto", "città sotterranea",
+    "torre", "montagna", "collina", "fiume", "bosco", "valle", "porto",
+    "città sotterranea", "passo", "pianura", "palude", "caverna", "ponte",
+    "monumento", "mondo", "mare",
 }
 PRECISIONI = {"giorno", "mese", "anno", "intervallo", "ignoto"}
 QUALIFICATORI = {None, "circa", "prima", "dopo", "inizio", "fine"}
@@ -507,7 +509,7 @@ def scrivi_luoghi(eventi: list[dict], luoghi: list[dict]) -> None:
         f"- Nomi già coperti da una scheda: **{len(dati['coperti'])}**.",
         f"- Nomi ancora senza scheda: **{len(dati['scoperti'])}**.",
         "",
-        "## Primo blocco",
+        "## Schede",
         "",
         "| ID | Nome | Tipo | Dentro | Eventi collegati |",
         "|---|---|---|---|---|",
@@ -517,16 +519,24 @@ def scrivi_luoghi(eventi: list[dict], luoghi: list[dict]) -> None:
             f"| `{luogo['id']}` | {luogo['nome']} | {luogo['tipo']} | "
             f"{luogo.get('dentro') or '—'} | {len(luogo['eventi'])} |"
         )
-    righe += [
-        "",
-        "## Nomi citati dagli eventi, non ancora coperti",
-        "",
-        "Questi nomi aspettano il prossimo blocco. Alcuni sono doppioni o varianti",
-        "di luoghi già presenti: vanno uniti con un alias, non duplicati.",
-        "",
-    ]
-    for nome in sorted(dati["scoperti"]):
-        righe.append(f"- {nome}")
+    if dati["scoperti"]:
+        righe += [
+            "",
+            "## Nomi citati dagli eventi, non ancora coperti",
+            "",
+            "Questi nomi aspettano il prossimo blocco. Alcuni sono doppioni o varianti",
+            "di luoghi già presenti: vanno uniti con un alias, non duplicati.",
+            "",
+        ]
+        for nome in sorted(dati["scoperti"]):
+            righe.append(f"- {nome}")
+    else:
+        righe += [
+            "",
+            "## Copertura",
+            "",
+            "Tutti i nomi di luogo citati dagli eventi hanno una scheda.",
+        ]
     righe.append("")
     with open(os.path.join(BUILD_DIR, "rapporto-luoghi.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(righe))

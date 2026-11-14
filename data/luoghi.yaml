@@ -11,7 +11,7 @@
   alias:
     - la Contea
     - Shire
-  dentro: null
+  dentro: eriador
   descrizione: La terra degli Hobbit nell'Eriador occidentale, divisa in Decumani e attraversata dalla Grande Strada Est.
   nota: null
 
@@ -36,7 +36,7 @@
   nome: Brea
   tipo: città
   alias: []
-  dentro: null
+  dentro: eriador
   descrizione: La città principale della Terra di Brea, all'incrocio delle strade dell'Eriador, con la sua locanda.
   nota: null
 
@@ -46,7 +46,7 @@
   alias:
     - Imladris
     - Rivendell
-  dentro: null
+  dentro: eriador
   descrizione: Il rifugio elfico di Elrond nella gola del Bruinen, ai piedi delle Montagne Nebbiose.
   nota: null
 
@@ -55,7 +55,7 @@
   tipo: città sotterranea
   alias:
     - Khazad-dûm
-  dentro: null
+  dentro: montagne-nebbiose
   descrizione: La grande città sotterranea dei Nani nelle Montagne Nebbiose, abbandonata dopo il risveglio del Balrog.
   nota: «Khazad-dûm» è il nome nanico; «Moria» è il nome comune dopo la caduta.
 
@@ -73,7 +73,7 @@
   tipo: città
   alias:
     - Minas Anor
-  dentro: null
+  dentro: gondor
   descrizione: La città bianca di Gondor, costruita sul Mindolluin e protetta da sette cerchi di mura.
   nota: Chiamata Minas Anor fino al 1640, quando Tarondor vi spostò la residenza reale.
 
@@ -81,7 +81,7 @@
   nome: Osgiliath
   tipo: città
   alias: []
-  dentro: null
+  dentro: gondor
   descrizione: L'antica capitale di Gondor sull'Anduin, rovinata dalla peste e dalla guerra.
   nota: Fu la prima capitale di Gondor.
 
@@ -126,7 +126,7 @@
   tipo: bosco
   alias:
     - Grande Foresta Verde
-  dentro: null
+  dentro: rhovanion
   descrizione: La grande foresta a est delle Montagne Nebbiose, oscurata dalla presenza di Dol Guldur.
   nota: Prima dell'ombra del 1050 era la Grande Foresta Verde.
 
@@ -161,7 +161,7 @@
   tipo: montagna
   alias:
     - Montagna Solitaria
-  dentro: null
+  dentro: rhovanion
   descrizione: La Montagna Solitaria a nord-est del Bosco Atro, sede del regno dei Nani sotto la Montagna.
   nota: Il regno dei Nani «sotto la Montagna» fu fondato qui nel 1999.
 
@@ -169,7 +169,7 @@
   nome: Esgaroth
   tipo: città
   alias: []
-  dentro: null
+  dentro: rhovanion
   descrizione: La città di palafitte sul Lago Lungo, davanti a Erebor.
   nota: null
 
@@ -179,6 +179,482 @@
   alias:
     - Mithlond
     - Porti Grigi
-  dentro: null
+  dentro: lindon
   descrizione: I porti elfici del Lindon, da cui salpano le navi verso l'Occidente.
   nota: «Porti Grigi» è la spiegazione corrente; la forma dell'epub è Rifugi Oscuri.
+
+- id: gondor
+  nome: Gondor
+  tipo: regno
+  alias:
+    - Regno del Sud
+    - Reame del Sud
+  dentro: null
+  descrizione: Il regno degli Uomini del Sud, tra l'Anduin e le Montagne Bianche, con capitale Minas Tirith.
+  nota: Fondato da Isildur e Anárion alla fine della Seconda Era.
+
+- id: arnor
+  nome: Arnor
+  tipo: regno
+  alias:
+    - Regno del Nord
+    - Reame del Nord
+  dentro: null
+  descrizione: Il regno del Nord fondato da Elendil, diviso nel 861 fra Arthedain, Cardolan e Rhudaur.
+  nota: null
+
+- id: eriador
+  nome: Eriador
+  tipo: regione
+  alias: []
+  dentro: null
+  descrizione: La grande regione occidentale tra le Montagne Nebbiose e il mare, con la Contea, Brea e Gran Burrone.
+  nota: null
+
+- id: lindon
+  nome: Lindon
+  tipo: regione
+  alias: []
+  dentro: null
+  descrizione: La regione costiera a ovest delle Ered Luin, con i porti dei Rifugi Oscuri.
+  nota: null
+
+- id: rhovanion
+  nome: Rhovanion
+  tipo: regione
+  alias:
+    - Terre Selvagge
+  dentro: null
+  descrizione: La vasta regione a est delle Montagne Nebbiose, tra il Bosco Atro, Erebor e il Mare di Rhûn.
+  nota: null
+
+- id: calenardhon
+  nome: Calenardhon
+  tipo: regione
+  alias: []
+  dentro: null
+  descrizione: La terra tra l'Anduin e le Montagne Bianche, donata a Eorl nel 2510 e diventata Rohan.
+  nota: Nome antico della terra poi donata a Eorl; non è un alias di Rohan.
+
+- id: arthedain
+  nome: Arthedain
+  tipo: regno
+  alias: []
+  dentro: null
+  descrizione: Il regno del Nord fondato nel 861, il più fedele alla linea di Isildur, con capitale Fornost.
+  nota: null
+
+- id: cardolan
+  nome: Cardolan
+  tipo: regno
+  alias: []
+  dentro: null
+  descrizione: Il regno del Nord a sud dell'Arthedain, nella regione delle Tumulilande.
+  nota: null
+
+- id: rhudaur
+  nome: Rhudaur
+  tipo: regno
+  alias: []
+  dentro: null
+  descrizione: Il regno del Nord a est, tra le Montagne Nebbiose e l'Eriador orientale.
+  nota: null
+
+- id: angmar
+  nome: Angmar
+  tipo: regno
+  alias: []
+  dentro: null
+  descrizione: Il regno fondato dal Re degli Stregoni a nord delle Montagne Nebbiose, nemico dei Dúnedain.
+  nota: null
+
+- id: dol-guldur
+  nome: Dol Guldur
+  tipo: fortezza
+  alias: []
+  dentro: bosco-atro
+  descrizione: La fortezza di Sauron nel Bosco Atro, scoperta dai Saggi intorno al 1100.
+  nota: null
+
+- id: minas-morgul
+  nome: Minas Morgul
+  tipo: città
+  alias:
+    - Minas Ithil
+    - Morgul
+  dentro: mordor
+  descrizione: La città conquistata dai Nazgûl nel 2002 e trasformata in torre di stregoneria.
+  nota: Prima della conquista si chiamava Minas Ithil.
+
+- id: fornost
+  nome: Fornost
+  tipo: città
+  alias:
+    - Fornost Erain
+  dentro: arthedain
+  descrizione: L'antica capitale dell'Arthedain, conquistata dal Re degli Stregoni nel 1974.
+  nota: null
+
+- id: amon-sul
+  nome: Amon Sûl
+  tipo: collina
+  alias:
+    - Colle Vento
+  dentro: eriador
+  descrizione: La collina con la torre che custodiva uno dei palantíri del Nord, distrutta nel 1409.
+  nota: null
+
+- id: montagne-nebbiose
+  nome: Montagne Nebbiose
+  tipo: montagna
+  alias: []
+  dentro: null
+  descrizione: La grande catena che divide l'Eriador dal Rhovanion.
+  nota: null
+
+- id: ered-luin
+  nome: Ered Luin
+  tipo: montagna
+  alias: []
+  dentro: null
+  descrizione: La catena che separa l'Eriador da Lindon.
+  nota: null
+
+- id: montagne-grigie
+  nome: Montagne Grigie
+  tipo: montagna
+  alias: []
+  dentro: null
+  descrizione: La catena del nord tra Erebor e le terre orientali, dimora dei Draghi.
+  nota: null
+
+- id: lorien
+  nome: Lórien
+  tipo: regno
+  alias:
+    - Lothlórien
+  dentro: rhovanion
+  descrizione: Il regno elfico di Galadriel e Celeborn nel bosco a est delle Montagne Nebbiose.
+  nota: null
+
+- id: fangorn
+  nome: Fangorn
+  tipo: bosco
+  alias: []
+  dentro: rhovanion
+  descrizione: Il bosco antico ai piedi meridionali delle Montagne Nebbiose, dimora degli Ent.
+  nota: null
+
+- id: morannon
+  nome: Morannon
+  tipo: passo
+  alias:
+    - Cancello Nero
+  dentro: mordor
+  descrizione: Il grande cancello che chiude l'ingresso nord-occidentale di Mordor.
+  nota: La Desolazione del Morannon è la piana davanti al cancello.
+
+- id: argentaroggia
+  nome: Argentaroggia
+  tipo: fiume
+  alias: []
+  dentro: lorien
+  descrizione: Il fiume che scende da Moria e attraversa Lórien.
+  nota: null
+
+- id: argonath
+  nome: Argonath
+  tipo: monumento
+  alias: []
+  dentro: null
+  descrizione: Le due grandi statue dei Re scolpite nelle rocce ai lati dell'Anduin.
+  nota: null
+
+- id: baranduin
+  nome: Baranduin
+  tipo: fiume
+  alias:
+    - Brandivino
+  dentro: null
+  descrizione: Il fiume che segna il confine orientale della Contea.
+  nota: null
+
+- id: campi-del-pelennor
+  nome: Campi del Pelennor
+  tipo: pianura
+  alias:
+    - Pelennor
+  dentro: gondor
+  descrizione: La pianura coltivata davanti a Minas Tirith, teatro della grande battaglia del 3019.
+  nota: null
+
+- id: campo-gaggiolo
+  nome: Campo Gaggiolo
+  tipo: pianura
+  alias: []
+  dentro: null
+  descrizione: I campi lungo l'Anduin dove Isildur perse l'Anello e Déagol lo ritrovò.
+  nota: null
+
+- id: campo-di-celebrant
+  nome: Campo di Celebrant
+  tipo: pianura
+  alias: []
+  dentro: calenardhon
+  descrizione: La pianura tra l'Argentaroggia e il Limterso, dove Eorl sconfisse i Balchoth nel 2510.
+  nota: null
+
+- id: cancello-orientale-di-moria
+  nome: Cancello Orientale di Moria
+  tipo: passo
+  alias:
+    - Cancello Orientale
+  dentro: moria
+  descrizione: L'ingresso orientale di Moria, davanti alla valle del Nanduhirion.
+  nota: null
+
+- id: clivovalle
+  nome: Clivovalle
+  tipo: valle
+  alias: []
+  dentro: rohan
+  descrizione: La gola che conduce al Fosso di Helm.
+  nota: null
+
+- id: colli-ferrosi
+  nome: Colli Ferrosi
+  tipo: collina
+  alias: []
+  dentro: null
+  descrizione: Le colline a est di Erebor, sede di un regno nano.
+  nota: null
+
+- id: colli-di-scorie
+  nome: Colli di Scorie
+  tipo: collina
+  alias: []
+  dentro: null
+  descrizione: Le alture di scorie davanti al Morannon, dove l'Esercito dell'Ovest fu circondato.
+  nota: null
+
+- id: decumano-sud
+  nome: Decumano Sud
+  tipo: regione
+  alias: []
+  dentro: contea
+  descrizione: La parte meridionale della Contea, tra i fiumi e i confini del sud.
+  nota: null
+
+- id: desolazione-del-morannon
+  nome: Desolazione del Morannon
+  tipo: pianura
+  alias: []
+  dentro: null
+  descrizione: La piana desolata davanti al Cancello Nero.
+  nota: null
+
+- id: emyn-muil
+  nome: Emyn Muil
+  tipo: regione
+  alias: []
+  dentro: null
+  descrizione: La regione di rocce e burroni tra l'Anduin e le Paludi Morte.
+  nota: null
+
+- id: erenbrulli
+  nome: Erenbrulli
+  tipo: regione
+  alias: []
+  dentro: eriador
+  descrizione: Le brughiere del nord dell'Eriador, ai piedi delle Montagne Nebbiose.
+  nota: null
+
+- id: erui
+  nome: Erui
+  tipo: fiume
+  alias: []
+  dentro: gondor
+  descrizione: Il fiume di Gondor dove Eldacar sconfisse Castamir nel 1447.
+  nota: null
+
+- id: forochel
+  nome: Forochel
+  tipo: regione
+  alias:
+    - Baia di Forochel
+  dentro: null
+  descrizione: La baia ghiacciata e la terra del nord, dove si perdette Arvedui.
+  nota: null
+
+- id: harad
+  nome: Harad
+  tipo: regione
+  alias: []
+  dentro: null
+  descrizione: Le terre del sud, oltre Gondor e Umbar.
+  nota: null
+
+- id: harlond
+  nome: Harlond
+  tipo: porto
+  alias: []
+  dentro: gondor
+  descrizione: Il porto di Minas Tirith sull'Anduin.
+  nota: null
+
+- id: ithilien
+  nome: Ithilien
+  tipo: regione
+  alias: []
+  dentro: gondor
+  descrizione: La regione di Gondor a est dell'Anduin, ai piedi dell'Ephel Dúath.
+  nota: null
+
+- id: limterso
+  nome: Limterso
+  tipo: fiume
+  alias: []
+  dentro: rohan
+  descrizione: Il fiume che segna il confine settentrionale di Rohan.
+  nota: null
+
+- id: lungacque
+  nome: Lungacque
+  tipo: villaggio
+  alias: []
+  dentro: contea
+  descrizione: Il villaggio della Contea dove finisce la battaglia del 3019.
+  nota: null
+
+- id: grande-mare
+  nome: Grande Mare
+  tipo: mare
+  alias:
+    - Mare
+  dentro: null
+  descrizione: Il mare a ovest della Terra di Mezzo, oltre i Rifugi Oscuri.
+  nota: null
+
+- id: nanduhirion
+  nome: Nanduhirion
+  tipo: valle
+  alias:
+    - Azanulbizar
+  dentro: montagne-nebbiose
+  descrizione: La valle davanti al Cancello Orientale di Moria, dove si combatté nel 2799.
+  nota: null
+
+- id: nimrodel
+  nome: Nimrodel
+  tipo: fiume
+  alias: []
+  dentro: lorien
+  descrizione: Il fiume di Lórien, presso il quale la Compagnia si fermò dopo Moria.
+  nota: null
+
+- id: orthanc
+  nome: Orthanc
+  tipo: torre
+  alias: []
+  dentro: isengard
+  descrizione: La torre di Isengard, che custodiva uno dei palantíri.
+  nota: null
+
+- id: paludi-morte
+  nome: Paludi Morte
+  tipo: palude
+  alias: []
+  dentro: rhovanion
+  descrizione: Le paludi a est dell'Emyn Muil, piene di fuochi e di morti.
+  nota: null
+
+- id: parth-galen
+  nome: Parth Galen
+  tipo: pianura
+  alias: []
+  dentro: null
+  descrizione: Il prato sull'Anduin ai piedi di Amon Hen, dove la Compagnia si sciolse.
+  nota: null
+
+- id: pelargir
+  nome: Pelargir
+  tipo: città
+  alias: []
+  dentro: gondor
+  descrizione: Il porto di Gondor sull'Anduin, a sud di Minas Tirith.
+  nota: null
+
+- id: ponte-di-khazad-dum
+  nome: Ponte di Khazad-dûm
+  tipo: ponte
+  alias: []
+  dentro: moria
+  descrizione: Il ponte sopra l'abisso di Moria, dove Gandalf affrontò il Balrog.
+  nota: null
+
+- id: sammath-naur
+  nome: Sammath Naur
+  tipo: caverna
+  alias: []
+  dentro: monte-fato
+  descrizione: La camera del fuoco dentro il Monte Fato, dove fu distrutto l'Anello.
+  nota: null
+
+- id: terra-di-mezzo
+  nome: Terra di Mezzo
+  tipo: mondo
+  alias: []
+  dentro: null
+  descrizione: Il mondo in cui si svolgono le storie, dalla Contea a Mordor.
+  nota: "Non è un luogo puntuale: è il teatro della storia."
+
+- id: trombatorrione
+  nome: Trombatorrione
+  tipo: fortezza
+  alias: []
+  dentro: fosso-di-helm
+  descrizione: La fortezza che chiude il Fosso di Helm.
+  nota: null
+
+- id: tyrn-gorthad
+  nome: Tyrn Gorthad
+  tipo: collina
+  alias:
+    - Tumulilande
+  dentro: cardolan
+  descrizione: Le colline dei tumuli nell'antico Cardolan.
+  nota: null
+
+- id: umbar
+  nome: Umbar
+  tipo: città
+  alias: []
+  dentro: null
+  descrizione: La città portuale del sud, rifugio dei Corsari.
+  nota: null
+
+- id: valle
+  nome: Valle
+  tipo: città
+  alias: []
+  dentro: rhovanion
+  descrizione: La città ai piedi di Erebor, ricostruita dopo la morte di Smaug.
+  nota: null
+
+- id: caverna-di-gollum
+  nome: caverna di Gollum
+  tipo: caverna
+  alias: []
+  dentro: montagne-nebbiose
+  descrizione: La caverna delle Montagne Nebbiose dove Gollum si nascose per secoli.
+  nota: null
+
+- id: province-orientali-di-gondor
+  nome: territori orientali di Gondor
+  tipo: regione
+  alias: []
+  dentro: null
+  descrizione: Le province di Gondor a est dell'Anduin, perdute contro i Carrieri.
+  nota: Espressione descrittiva, non un nome proprio.
+
+

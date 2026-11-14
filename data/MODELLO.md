@@ -195,7 +195,8 @@ Niente fretta: un blocco alla volta, con il computer che controlla.
 
 ## 9. Stato
 
-Primo blocco fatto: `data/luoghi.yaml` contiene 20 luoghi. Coprono 25 dei 85 nomi
-citati dagli eventi (perché alcuni nomi sono alias). Restano 60 nomi, elencati in
-`build/rapporto-luoghi.md`. Il controllo del build verifica ID doppi, alias in
-conflitto e gerarchie circolari.
+Anagrafica dei luoghi completa rispetto agli eventi attuali: `data/luoghi.yaml`
+contiene 77 schede, che coprono tutti gli 85 nomi citati dagli eventi (alcuni nomi
+sono alias dello stesso luogo). Il controllo del build verifica ID doppi, alias in
+conflitto e gerarchie circolari. Il prossimo passo è collegare gli eventi agli ID
+e poi passare alle persone.
