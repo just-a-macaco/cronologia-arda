@@ -17,9 +17,8 @@
     calendario: terza
     testo: "Anno 2002"
   luoghi:
-    - Minas Ithil
-    - Minas Morgul
-    - Mordor
+    - minas-morgul
+    - mordor
   fa_parte_di: null
   partecipanti:
     - nome: i Nazgûl
@@ -59,8 +58,8 @@
     calendario: terza
     testo: "Anno 2050"
   luoghi:
-    - Minas Morgul
-    - Minas Tirith
+    - minas-morgul
+    - minas-tirith
   fa_parte_di: null
   partecipanti:
     - nome: Eärnur
@@ -113,9 +112,9 @@
     calendario: terza
     testo: "Anno 2063"
   luoghi:
-    - Dol Guldur
-    - Minas Morgul
-    - Bosco Atro
+    - dol-guldur
+    - minas-morgul
+    - bosco-atro
   fa_parte_di: null
   partecipanti:
     - nome: Gandalf
@@ -159,8 +158,8 @@
     calendario: terza
     testo: "Anno 2460"
   luoghi:
-    - Dol Guldur
-    - Bosco Atro
+    - dol-guldur
+    - bosco-atro
   fa_parte_di: null
   partecipanti:
     - nome: Sauron
@@ -198,9 +197,9 @@
     calendario: terza
     testo: "Anno 2463"
   luoghi:
-    - Campo Gaggiolo
-    - Anduin
-    - Montagne Nebbiose
+    - campo-gaggiolo
+    - anduin
+    - montagne-nebbiose
   fa_parte_di: null
   partecipanti:
     - nome: Déagol
@@ -244,8 +243,8 @@
     calendario: terza
     testo: "Anno 2475"
   luoghi:
-    - Osgiliath
-    - Anduin
+    - osgiliath
+    - anduin
   fa_parte_di: null
   partecipanti:
     - nome: Gondor
@@ -287,10 +286,10 @@
     calendario: terza
     testo: "Anno 2510"
   luoghi:
-    - Campo di Celebrant
-    - Calenardhon
-    - Limterso
-    - Argentaroggia
+    - campo-di-celebrant
+    - calenardhon
+    - limterso
+    - argentaroggia
   fa_parte_di: null
   partecipanti:
     - nome: Eorl il Giovane
@@ -345,8 +344,8 @@
     calendario: terza
     testo: "Anno 2510"
   luoghi:
-    - Calenardhon
-    - Rohan
+    - calenardhon
+    - rohan
   fa_parte_di: null
   partecipanti:
     - nome: Cirion
@@ -393,9 +392,9 @@
     calendario: terza
     testo: "Anno 2589"
   luoghi:
-    - Montagne Grigie
-    - Erebor
-    - Colli Ferrosi
+    - montagne-grigie
+    - erebor
+    - colli-ferrosi
   fa_parte_di: null
   partecipanti:
     - nome: Dàin I
@@ -443,8 +442,8 @@
     calendario: terza
     testo: "Anno 2670 circa"
   luoghi:
-    - Decumano Sud
-    - Contea
+    - decumano-sud
+    - contea
   fa_parte_di: null
   partecipanti:
     - nome: Tobaldo
@@ -484,11 +483,11 @@
     calendario: terza
     testo: "2758-2759"
   luoghi:
-    - Rohan
-    - Fosso di Helm
-    - Edoras
-    - Gondor
-    - Contea
+    - rohan
+    - fosso-di-helm
+    - edoras
+    - gondor
+    - contea
   fa_parte_di: null
   partecipanti:
     - nome: Helm
@@ -543,8 +542,8 @@
     calendario: terza
     testo: "Anno 2759"
   luoghi:
-    - Isengard
-    - Orthanc
+    - isengard
+    - orthanc
   fa_parte_di: null
   partecipanti:
     - nome: Saruman
@@ -582,9 +581,9 @@
     calendario: terza
     testo: "Anno 2770"
   luoghi:
-    - Erebor
-    - Valle
-    - Esgaroth
+    - erebor
+    - valle
+    - esgaroth
   fa_parte_di: null
   partecipanti:
     - nome: Smaug
@@ -632,8 +631,8 @@
     calendario: terza
     testo: "Anno 2790"
   luoghi:
-    - Moria
-    - Cancello Orientale
+    - moria
+    - cancello-orientale-di-moria
   fa_parte_di: null
   partecipanti:
     - nome: Thrór
@@ -676,10 +675,10 @@
     calendario: terza
     testo: "Anno 2799"
   luoghi:
-    - Nanduhirion
-    - Cancello Orientale di Moria
-    - Colli Ferrosi
-    - Ered Luin
+    - nanduhirion
+    - cancello-orientale-di-moria
+    - colli-ferrosi
+    - ered-luin
   fa_parte_di: null
   partecipanti:
     - nome: Dàin Piediferro
@@ -729,8 +728,8 @@
     calendario: terza
     testo: "Anno 2850"
   luoghi:
-    - Dol Guldur
-    - Bosco Atro
+    - dol-guldur
+    - bosco-atro
   fa_parte_di: null
   partecipanti:
     - nome: Gandalf
@@ -774,8 +773,8 @@
     calendario: terza
     testo: "Anno 2890"
   luoghi:
-    - Contea
-    - Hobbiville
+    - contea
+    - hobbiville
   fa_parte_di: null
   partecipanti:
     - nome: Bilbo Baggins
@@ -813,9 +812,9 @@
     calendario: terza
     testo: "Aprile 2941"
   luoghi:
-    - Contea
-    - Hobbiville
-    - Casa Baggins
+    - contea
+    - hobbiville
+    - casa-baggins
   fa_parte_di: La ricerca di Erebor
   partecipanti:
     - nome: Bilbo Baggins
@@ -866,8 +865,8 @@
     calendario: terza
     testo: "Estate 2941"
   luoghi:
-    - Montagne Nebbiose
-    - caverna di Gollum
+    - montagne-nebbiose
+    - caverna-di-gollum
   fa_parte_di: La ricerca di Erebor
   partecipanti:
     - nome: Bilbo Baggins
@@ -910,9 +909,9 @@
     calendario: terza
     testo: "Anno 2941"
   luoghi:
-    - Dol Guldur
-    - Bosco Atro
-    - Gran Burrone
+    - dol-guldur
+    - bosco-atro
+    - gran-burrone
   fa_parte_di: null
   partecipanti:
     - nome: Saruman
@@ -967,9 +966,9 @@
     calendario: terza
     testo: "Anno 2941"
   luoghi:
-    - Esgaroth
-    - Valle
-    - Erebor
+    - esgaroth
+    - valle
+    - erebor
   fa_parte_di: La ricerca di Erebor
   partecipanti:
     - nome: Bard
@@ -1012,9 +1011,8 @@
     calendario: terza
     testo: "Anno 2941"
   luoghi:
-    - Valle
-    - Erebor
-    - Montagna Solitaria
+    - valle
+    - erebor
   fa_parte_di: La ricerca di Erebor
   partecipanti:
     - nome: Thorin Scudodiquercia
@@ -1070,9 +1068,9 @@
     calendario: terza
     testo: "Anno 2942"
   luoghi:
-    - Contea
-    - Hobbiville
-    - Mordor
+    - contea
+    - hobbiville
+    - mordor
   fa_parte_di: null
   partecipanti:
     - nome: Bilbo Baggins

@@ -18,8 +18,8 @@
     calendario: terza
     testo: "Anno 1"
   luoghi:
-    - Mordor
-    - Barad-dûr
+    - mordor
+    - barad-dur
   fa_parte_di: null
   partecipanti:
     - nome: Sauron
@@ -67,9 +67,9 @@
     calendario: terza
     testo: "Anno 2"
   luoghi:
-    - Minas Anor
-    - Campo Gaggiolo
-    - Anduin
+    - minas-tirith
+    - campo-gaggiolo
+    - anduin
   fa_parte_di: null
   partecipanti:
     - nome: Isildur
@@ -121,11 +121,11 @@
     calendario: terza
     testo: "Anno 861"
   luoghi:
-    - Arnor
-    - Arthedain
-    - Cardolan
-    - Rhudaur
-    - Fornost
+    - arnor
+    - arthedain
+    - cardolan
+    - rhudaur
+    - fornost
   fa_parte_di: null
   partecipanti:
     - nome: Eärendur
@@ -165,9 +165,9 @@
     calendario: terza
     testo: "Anno 1000 circa"
   luoghi:
-    - Terra di Mezzo
-    - Rifugi Oscuri
-    - Isengard
+    - terra-di-mezzo
+    - rifugi-oscuri
+    - isengard
   fa_parte_di: null
   partecipanti:
     - nome: Saruman
@@ -220,10 +220,10 @@
     calendario: terza
     testo: "Anno 1050"
   luoghi:
-    - Bosco Atro
-    - Gondor
-    - Harad
-    - Eriador
+    - bosco-atro
+    - gondor
+    - harad
+    - eriador
   fa_parte_di: null
   partecipanti:
     - nome: Hyarmendacil
@@ -265,8 +265,8 @@
     calendario: terza
     testo: "Anno 1100 circa"
   luoghi:
-    - Dol Guldur
-    - Bosco Atro
+    - dol-guldur
+    - bosco-atro
   fa_parte_di: null
   partecipanti:
     - nome: i Saggi
@@ -306,10 +306,10 @@
     calendario: terza
     testo: "Anno 1300 circa"
   luoghi:
-    - Angmar
-    - Montagne Nebbiose
-    - Brea
-    - Eriador
+    - angmar
+    - montagne-nebbiose
+    - brea
+    - eriador
   fa_parte_di: null
   partecipanti:
     - nome: il Re degli Stregoni
@@ -358,10 +358,10 @@
     calendario: terza
     testo: "Anno 1409"
   luoghi:
-    - Arnor
-    - Amon Sûl
-    - Fornost
-    - Tyrn Gorthad
+    - arnor
+    - amon-sul
+    - fornost
+    - tyrn-gorthad
   fa_parte_di: null
   partecipanti:
     - nome: il Re degli Stregoni
@@ -409,11 +409,11 @@
     calendario: terza
     testo: "1432-1447"
   luoghi:
-    - Gondor
-    - Osgiliath
-    - Erui
-    - Pelargir
-    - Umbar
+    - gondor
+    - osgiliath
+    - erui
+    - pelargir
+    - umbar
   fa_parte_di: null
   partecipanti:
     - nome: Valacar
@@ -468,10 +468,10 @@
     calendario: terza
     testo: "Anno 1636"
   luoghi:
-    - Gondor
-    - Minas Anor
-    - Eriador
-    - Baranduin
+    - gondor
+    - minas-tirith
+    - eriador
+    - baranduin
   fa_parte_di: null
   partecipanti:
     - nome: Telemnar
@@ -519,9 +519,9 @@
     calendario: terza
     testo: "Anno 1640"
   luoghi:
-    - Minas Anor
-    - Osgiliath
-    - Mordor
+    - minas-tirith
+    - osgiliath
+    - mordor
   fa_parte_di: null
   partecipanti:
     - nome: Tarondor
@@ -562,8 +562,8 @@
     calendario: terza
     testo: "Anno 1856"
   luoghi:
-    - territori orientali di Gondor
-    - Rhovanion
+    - province-orientali-di-gondor
+    - rhovanion
   fa_parte_di: null
   partecipanti:
     - nome: Narmacil II
@@ -609,9 +609,9 @@
     calendario: terza
     testo: "Anno 1944"
   luoghi:
-    - Ithilien
-    - Paludi Morte
-    - Gondor
+    - ithilien
+    - paludi-morte
+    - gondor
   fa_parte_di: null
   partecipanti:
     - nome: Ondoher
@@ -662,9 +662,9 @@
     calendario: terza
     testo: "Anno 1974"
   luoghi:
-    - Arthedain
-    - Fornost
-    - Arnor
+    - arthedain
+    - fornost
+    - arnor
   fa_parte_di: null
   partecipanti:
     - nome: il Re degli Stregoni
@@ -708,10 +708,10 @@
     calendario: terza
     testo: "Anno 1975"
   luoghi:
-    - Fornost
-    - Forochel
-    - Lindon
-    - Erenbrulli
+    - fornost
+    - forochel
+    - lindon
+    - erenbrulli
   fa_parte_di: null
   partecipanti:
     - nome: Arvedui
@@ -761,10 +761,9 @@
     calendario: terza
     testo: "1980-1981"
   luoghi:
-    - Moria
-    - Khazad-dûm
-    - Lórien
-    - Nimrodel
+    - moria
+    - lorien
+    - nimrodel
   fa_parte_di: null
   partecipanti:
     - nome: Durin VI
@@ -812,8 +811,7 @@
     calendario: terza
     testo: "Anno 1999"
   luoghi:
-    - Erebor
-    - Montagna Solitaria
+    - erebor
   fa_parte_di: null
   partecipanti:
     - nome: Thràin I

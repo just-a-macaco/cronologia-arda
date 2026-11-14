@@ -17,9 +17,9 @@
     calendario: terza
     testo: "Anno 2951"
   luoghi:
-    - Mordor
-    - Barad-dûr
-    - Dol Guldur
+    - mordor
+    - barad-dur
+    - dol-guldur
   fa_parte_di: null
   partecipanti:
     - nome: Sauron
@@ -73,10 +73,10 @@
     calendario: terza
     testo: "Anno 2953"
   luoghi:
-    - Gran Burrone
-    - Isengard
-    - Brea
-    - Decumano Sud
+    - gran-burrone
+    - isengard
+    - brea
+    - decumano-sud
   fa_parte_di: null
   partecipanti:
     - nome: Saruman
@@ -121,9 +121,9 @@
     calendario: terza
     testo: "Anno 2954"
   luoghi:
-    - Monte Fato
-    - Ithilien
-    - Anduin
+    - monte-fato
+    - ithilien
+    - anduin
   fa_parte_di: null
   partecipanti:
     - nome: il Monte Fato
@@ -162,10 +162,10 @@
     calendario: terza
     testo: "Anno 3000"
   luoghi:
-    - Isengard
-    - Orthanc
-    - Mordor
-    - Contea
+    - isengard
+    - orthanc
+    - mordor
+    - contea
   fa_parte_di: null
   partecipanti:
     - nome: Saruman
@@ -210,9 +210,9 @@
     calendario: contea
     testo: "22 settembre 3001"
   luoghi:
-    - Contea
-    - Hobbiville
-    - Casa Baggins
+    - contea
+    - hobbiville
+    - casa-baggins
   fa_parte_di: null
   partecipanti:
     - nome: Bilbo Baggins
@@ -258,9 +258,9 @@
     calendario: contea
     testo: "20 giugno 3018"
   luoghi:
-    - Osgiliath
-    - Anduin
-    - Morgul
+    - osgiliath
+    - anduin
+    - minas-morgul
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - nome: Sauron
@@ -305,9 +305,9 @@
     calendario: contea
     testo: "Giugno 3018"
   luoghi:
-    - Bosco Atro
-    - Montagne Nebbiose
-    - Moria
+    - bosco-atro
+    - montagne-nebbiose
+    - moria
   fa_parte_di: null
   partecipanti:
     - nome: Gollum
@@ -355,9 +355,9 @@
     calendario: contea
     testo: "23 settembre 3018"
   luoghi:
-    - Contea
-    - Hobbiville
-    - Casa Baggins
+    - contea
+    - hobbiville
+    - casa-baggins
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - nome: Frodo Baggins
@@ -413,8 +413,7 @@
     calendario: contea
     testo: "25 ottobre 3018"
   luoghi:
-    - Gran Burrone
-    - Imladris
+    - gran-burrone
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - nome: Elrond
@@ -479,8 +478,7 @@
     calendario: contea
     testo: "25 dicembre 3018"
   luoghi:
-    - Gran Burrone
-    - Imladris
+    - gran-burrone
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - nome: la Compagnia dell'Anello
@@ -523,10 +521,9 @@
     calendario: contea
     testo: "15 gennaio 3019"
   luoghi:
-    - Moria
-    - Khazad-dûm
-    - Ponte di Khazad-dûm
-    - Nimrodel
+    - moria
+    - ponte-di-khazad-dum
+    - nimrodel
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - nome: Gandalf
@@ -587,10 +584,10 @@
     calendario: contea
     testo: "26 febbraio 3019"
   luoghi:
-    - Parth Galen
-    - Argonath
-    - Emyn Muil
-    - Rohan
+    - parth-galen
+    - argonath
+    - emyn-muil
+    - rohan
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - nome: Boromir
@@ -650,9 +647,9 @@
     calendario: contea
     testo: "3 marzo 3019"
   luoghi:
-    - Fosso di Helm
-    - Trombatorrione
-    - Clivovalle
+    - fosso-di-helm
+    - trombatorrione
+    - clivovalle
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - nome: Théoden
@@ -711,9 +708,9 @@
     calendario: contea
     testo: "2-3 marzo 3019"
   luoghi:
-    - Isengard
-    - Orthanc
-    - Fangorn
+    - isengard
+    - orthanc
+    - fangorn
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - nome: Barbalbero
@@ -760,9 +757,9 @@
     calendario: contea
     testo: "15 marzo 3019"
   luoghi:
-    - Campi del Pelennor
-    - Minas Tirith
-    - Harlond
+    - campi-del-pelennor
+    - minas-tirith
+    - harlond
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - nome: Denethor II
@@ -841,9 +838,9 @@
     calendario: contea
     testo: "25 marzo 3019"
   luoghi:
-    - Morannon
-    - Colli di Scorie
-    - Desolazione del Morannon
+    - morannon
+    - colli-di-scorie
+    - desolazione-del-morannon
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - nome: Aragorn
@@ -900,9 +897,9 @@
     calendario: contea
     testo: "25 marzo 3019"
   luoghi:
-    - Sammath Naur
-    - Monte Fato
-    - Barad-dûr
+    - sammath-naur
+    - monte-fato
+    - barad-dur
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - nome: Frodo Baggins
@@ -950,8 +947,8 @@
     calendario: contea
     testo: "1 maggio 3019"
   luoghi:
-    - Minas Tirith
-    - Gondor
+    - minas-tirith
+    - gondor
   fa_parte_di: null
   partecipanti:
     - nome: Aragorn
@@ -998,8 +995,8 @@
     calendario: contea
     testo: "Giorno di Mezza Estate 3019"
   luoghi:
-    - Minas Tirith
-    - Gondor
+    - minas-tirith
+    - gondor
   fa_parte_di: null
   partecipanti:
     - nome: Aragorn
@@ -1043,9 +1040,9 @@
     calendario: contea
     testo: "3 novembre 3019"
   luoghi:
-    - Lungacque
-    - Contea
-    - Hobbiville
+    - lungacque
+    - contea
+    - hobbiville
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - nome: Frodo Baggins
@@ -1104,9 +1101,8 @@
     calendario: contea
     testo: "29 settembre 3021"
   luoghi:
-    - Rifugi Oscuri
-    - Mithlond
-    - Mare
+    - rifugi-oscuri
+    - grande-mare
   fa_parte_di: null
   partecipanti:
     - nome: Frodo Baggins

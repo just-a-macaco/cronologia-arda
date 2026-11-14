@@ -2,7 +2,7 @@
 
 - Eventi: **61** (erano 51).
 - Partecipanti nominati: **112** nomi distinti, 235 presenze.
-- Luoghi nominati: **85** nomi distinti.
+- Luoghi nominati: **77** nomi distinti.
 - Eventi con solo anno (o senza anno): **40**.
 - Eventi con nota o certezza non piena: **16**.
 
@@ -58,8 +58,8 @@ Sono stati separati perché hanno partecipanti e conseguenze diverse.
 
 - I partecipanti sono nomi, non ancora schede persona collegate: la fase alberi
   li trasformerà in entità con ID, parentele e relazioni.
-- I luoghi hanno una prima anagrafica di 20 schede; le altre citazioni
-  degli eventi aspettano il secondo blocco (vedi `build/rapporto-luoghi.md`).
+- I luoghi sono ora collegati agli eventi tramite ID: la fase mappa assegnerà
+  coordinate e scene (Arda piatta / Arda rotonda).
 - Gli eventi del 2941 e del 3019 sono stati separati, ma restano da aggiungere
   gli altri fatti dell'Appendice B (battaglie del Nord, assalti a Lórien,
   distruzione di Dol Guldur, Campo di Cormallen).

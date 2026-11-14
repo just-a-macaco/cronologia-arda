@@ -760,10 +760,8 @@
     "Campo di Celebrant": [
       "battaglia-celebrant"
     ],
-    "Cancello Orientale": [
-      "thror"
-    ],
     "Cancello Orientale di Moria": [
+      "thror",
       "nanduhirion"
     ],
     "Cardolan": [
@@ -872,6 +870,9 @@
       "consiglio-elrond",
       "compagnia-parte"
     ],
+    "Grande Mare": [
+      "porti-grigi"
+    ],
     "Harad": [
       "ombra-bosco-attro"
     ],
@@ -886,10 +887,6 @@
       "frodo-parte",
       "lungacque"
     ],
-    "Imladris": [
-      "consiglio-elrond",
-      "compagnia-parte"
-    ],
     "Isengard": [
       "istari",
       "saruman-isengard",
@@ -900,10 +897,6 @@
     "Ithilien": [
       "battaglia-campo",
       "fato-avvampa"
-    ],
-    "Khazad-dûm": [
-      "balrog-moria",
-      "gandalf-moria"
     ],
     "Limterso": [
       "battaglia-celebrant"
@@ -917,34 +910,20 @@
     "Lórien": [
       "balrog-moria"
     ],
-    "Mare": [
-      "porti-grigi"
-    ],
-    "Minas Anor": [
-      "isildur-anello",
-      "grande-peste",
-      "mordor-sorveglianza"
-    ],
-    "Minas Ithil": [
-      "minas-ithil"
-    ],
     "Minas Morgul": [
       "minas-ithil",
       "earnur",
-      "pace-vigile"
+      "pace-vigile",
+      "osgiliath-3018"
     ],
     "Minas Tirith": [
+      "isildur-anello",
+      "grande-peste",
+      "mordor-sorveglianza",
       "earnur",
       "pelennor",
       "elessar",
       "nozze-elessar-arwen"
-    ],
-    "Mithlond": [
-      "porti-grigi"
-    ],
-    "Montagna Solitaria": [
-      "nani-erebor",
-      "cinque-eserciti"
     ],
     "Montagne Grigie": [
       "draghi-nord"
@@ -969,9 +948,6 @@
       "bilbo-torna",
       "sauron-si-dichiara",
       "saruman-tradisce"
-    ],
-    "Morgul": [
-      "osgiliath-3018"
     ],
     "Moria": [
       "balrog-moria",
@@ -1049,6 +1025,337 @@
     ],
     "territori orientali di Gondor": [
       "aurighe"
+    ]
+  },
+  "per_luogo_id": {
+    "amon-sul": [
+      "angmar-invaude"
+    ],
+    "anduin": [
+      "isildur-anello",
+      "deagol-anello",
+      "osgiliath-distrutta",
+      "fato-avvampa",
+      "osgiliath-3018"
+    ],
+    "angmar": [
+      "angmar"
+    ],
+    "argentaroggia": [
+      "battaglia-celebrant"
+    ],
+    "argonath": [
+      "compagnia-si-scioglie"
+    ],
+    "arnor": [
+      "divisione-arnor",
+      "angmar-invaude",
+      "cade-arnor"
+    ],
+    "arthedain": [
+      "divisione-arnor",
+      "cade-arnor"
+    ],
+    "barad-dur": [
+      "inizio-terza",
+      "sauron-si-dichiara",
+      "distruzione-anello"
+    ],
+    "baranduin": [
+      "grande-peste"
+    ],
+    "bosco-atro": [
+      "ombra-bosco-attro",
+      "saggi-dol-guldur",
+      "pace-vigile",
+      "sauron-ritorno",
+      "gandalf-dol-guldur",
+      "consiglio-dol-guldur",
+      "gollum-fugge"
+    ],
+    "brea": [
+      "angmar",
+      "ultimo-consiglio"
+    ],
+    "calenardhon": [
+      "battaglia-celebrant",
+      "rohan"
+    ],
+    "campi-del-pelennor": [
+      "pelennor"
+    ],
+    "campo-di-celebrant": [
+      "battaglia-celebrant"
+    ],
+    "campo-gaggiolo": [
+      "isildur-anello",
+      "deagol-anello"
+    ],
+    "cancello-orientale-di-moria": [
+      "thror",
+      "nanduhirion"
+    ],
+    "cardolan": [
+      "divisione-arnor"
+    ],
+    "casa-baggins": [
+      "festa-inattesa",
+      "festa-bilbo",
+      "frodo-parte"
+    ],
+    "caverna-di-gollum": [
+      "anello-bilbo"
+    ],
+    "clivovalle": [
+      "fosso-helm"
+    ],
+    "colli-di-scorie": [
+      "morannon"
+    ],
+    "colli-ferrosi": [
+      "draghi-nord",
+      "nanduhirion"
+    ],
+    "contea": [
+      "erba-pipa",
+      "lungo-inverno",
+      "bilbo-nasce",
+      "festa-inattesa",
+      "bilbo-torna",
+      "saruman-tradisce",
+      "festa-bilbo",
+      "frodo-parte",
+      "lungacque"
+    ],
+    "decumano-sud": [
+      "erba-pipa",
+      "ultimo-consiglio"
+    ],
+    "desolazione-del-morannon": [
+      "morannon"
+    ],
+    "dol-guldur": [
+      "saggi-dol-guldur",
+      "pace-vigile",
+      "sauron-ritorno",
+      "gandalf-dol-guldur",
+      "consiglio-dol-guldur",
+      "sauron-si-dichiara"
+    ],
+    "edoras": [
+      "lungo-inverno"
+    ],
+    "emyn-muil": [
+      "compagnia-si-scioglie"
+    ],
+    "erebor": [
+      "nani-erebor",
+      "draghi-nord",
+      "smaug-erebor",
+      "smaug-ucciso",
+      "cinque-eserciti"
+    ],
+    "ered-luin": [
+      "nanduhirion"
+    ],
+    "erenbrulli": [
+      "battaglia-fornost"
+    ],
+    "eriador": [
+      "ombra-bosco-attro",
+      "angmar",
+      "grande-peste"
+    ],
+    "erui": [
+      "lotta-stirpi"
+    ],
+    "esgaroth": [
+      "smaug-erebor",
+      "smaug-ucciso"
+    ],
+    "fangorn": [
+      "distruzione-isengard"
+    ],
+    "fornost": [
+      "divisione-arnor",
+      "angmar-invaude",
+      "cade-arnor",
+      "battaglia-fornost"
+    ],
+    "forochel": [
+      "battaglia-fornost"
+    ],
+    "fosso-di-helm": [
+      "lungo-inverno",
+      "fosso-helm"
+    ],
+    "gondor": [
+      "ombra-bosco-attro",
+      "lotta-stirpi",
+      "grande-peste",
+      "battaglia-campo",
+      "lungo-inverno",
+      "elessar",
+      "nozze-elessar-arwen"
+    ],
+    "gran-burrone": [
+      "consiglio-dol-guldur",
+      "ultimo-consiglio",
+      "consiglio-elrond",
+      "compagnia-parte"
+    ],
+    "grande-mare": [
+      "porti-grigi"
+    ],
+    "harad": [
+      "ombra-bosco-attro"
+    ],
+    "harlond": [
+      "pelennor"
+    ],
+    "hobbiville": [
+      "bilbo-nasce",
+      "festa-inattesa",
+      "bilbo-torna",
+      "festa-bilbo",
+      "frodo-parte",
+      "lungacque"
+    ],
+    "isengard": [
+      "istari",
+      "saruman-isengard",
+      "ultimo-consiglio",
+      "saruman-tradisce",
+      "distruzione-isengard"
+    ],
+    "ithilien": [
+      "battaglia-campo",
+      "fato-avvampa"
+    ],
+    "limterso": [
+      "battaglia-celebrant"
+    ],
+    "lindon": [
+      "battaglia-fornost"
+    ],
+    "lorien": [
+      "balrog-moria"
+    ],
+    "lungacque": [
+      "lungacque"
+    ],
+    "minas-morgul": [
+      "minas-ithil",
+      "earnur",
+      "pace-vigile",
+      "osgiliath-3018"
+    ],
+    "minas-tirith": [
+      "isildur-anello",
+      "grande-peste",
+      "mordor-sorveglianza",
+      "earnur",
+      "pelennor",
+      "elessar",
+      "nozze-elessar-arwen"
+    ],
+    "montagne-grigie": [
+      "draghi-nord"
+    ],
+    "montagne-nebbiose": [
+      "angmar",
+      "deagol-anello",
+      "anello-bilbo",
+      "gollum-fugge"
+    ],
+    "monte-fato": [
+      "fato-avvampa",
+      "distruzione-anello"
+    ],
+    "morannon": [
+      "morannon"
+    ],
+    "mordor": [
+      "inizio-terza",
+      "mordor-sorveglianza",
+      "minas-ithil",
+      "bilbo-torna",
+      "sauron-si-dichiara",
+      "saruman-tradisce"
+    ],
+    "moria": [
+      "balrog-moria",
+      "thror",
+      "gollum-fugge",
+      "gandalf-moria"
+    ],
+    "nanduhirion": [
+      "nanduhirion"
+    ],
+    "nimrodel": [
+      "balrog-moria",
+      "gandalf-moria"
+    ],
+    "orthanc": [
+      "saruman-isengard",
+      "saruman-tradisce",
+      "distruzione-isengard"
+    ],
+    "osgiliath": [
+      "lotta-stirpi",
+      "mordor-sorveglianza",
+      "osgiliath-distrutta",
+      "osgiliath-3018"
+    ],
+    "paludi-morte": [
+      "battaglia-campo"
+    ],
+    "parth-galen": [
+      "compagnia-si-scioglie"
+    ],
+    "pelargir": [
+      "lotta-stirpi"
+    ],
+    "ponte-di-khazad-dum": [
+      "gandalf-moria"
+    ],
+    "province-orientali-di-gondor": [
+      "aurighe"
+    ],
+    "rhovanion": [
+      "aurighe"
+    ],
+    "rhudaur": [
+      "divisione-arnor"
+    ],
+    "rifugi-oscuri": [
+      "istari",
+      "porti-grigi"
+    ],
+    "rohan": [
+      "rohan",
+      "lungo-inverno",
+      "compagnia-si-scioglie"
+    ],
+    "sammath-naur": [
+      "distruzione-anello"
+    ],
+    "terra-di-mezzo": [
+      "istari"
+    ],
+    "trombatorrione": [
+      "fosso-helm"
+    ],
+    "tyrn-gorthad": [
+      "angmar-invaude"
+    ],
+    "umbar": [
+      "lotta-stirpi"
+    ],
+    "valle": [
+      "smaug-erebor",
+      "smaug-ucciso",
+      "cinque-eserciti"
     ]
   }
 }

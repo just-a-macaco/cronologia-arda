@@ -217,6 +217,14 @@ def valida_luoghi(luoghi: list[dict]) -> None:
             corrente = next((l for l in luoghi if l["id"] == corrente["dentro"]), {})
 
 
+def valida_riferimenti_luoghi(eventi: list[dict], luoghi: list[dict]) -> None:
+    ids = {luogo["id"] for luogo in luoghi}
+    for ev in eventi:
+        for lid in ev["luoghi"]:
+            if lid not in ids:
+                fail(f"{ev['id']}: luogo sconosciuto «{lid}»")
+
+
 def indice_nomi_luoghi(luoghi: list[dict]) -> dict[str, str]:
     indice: dict[str, str] = {}
     for luogo in luoghi:
@@ -227,16 +235,14 @@ def indice_nomi_luoghi(luoghi: list[dict]) -> dict[str, str]:
 
 
 def collega_luoghi(eventi: list[dict], luoghi: list[dict]) -> dict:
-    indice = indice_nomi_luoghi(luoghi)
-    citazioni: dict[str, list[str]] = {}
-    for ev in eventi:
-        for nome in ev["luoghi"]:
-            citazioni.setdefault(nome, []).append(ev["id"])
-    coperti = {nome: indice[nome] for nome in citazioni if nome in indice}
-    scoperti = {nome: ids for nome, ids in citazioni.items() if nome not in indice}
+    ids = {luogo["id"] for luogo in luoghi}
+    citati: set[str] = set()
     per_luogo: dict[str, set[str]] = {}
-    for nome, lid in coperti.items():
-        per_luogo.setdefault(lid, set()).update(citazioni[nome])
+    for ev in eventi:
+        for lid in ev["luoghi"]:
+            citati.add(lid)
+            per_luogo.setdefault(lid, set()).add(ev["id"])
+    scoperti = citati - ids
     schede = []
     for luogo in luoghi:
         record = dict(luogo)
@@ -244,7 +250,7 @@ def collega_luoghi(eventi: list[dict], luoghi: list[dict]) -> dict:
         schede.append(record)
     return {
         "schede": schede,
-        "coperti": coperti,
+        "citati": citati,
         "scoperti": scoperti,
         "per_luogo": {k: sorted(v) for k, v in per_luogo.items()},
     }
@@ -268,7 +274,8 @@ def anno_decimale(d: dict) -> float:
     return float(anno)
 
 
-def scrivi_js(eventi: list[dict]) -> None:
+def scrivi_js(eventi: list[dict], luoghi: list[dict]) -> None:
+    nomi_luoghi = {l["id"]: l["nome"] for l in luoghi}
     eras = [
         {"id": "lampade", "name": "Era delle Lampadi", "len": None, "scale": False, "active": False},
         {"id": "alberi", "name": "Era degli Alberi", "len": None, "scale": False, "active": False},
@@ -287,6 +294,7 @@ def scrivi_js(eventi: list[dict]) -> None:
     ]
     for ev in sorted(eventi, key=lambda e: (anno_decimale(e["data"]), e["id"])):
         d = ev["data"]
+        nomi = [nomi_luoghi[lid] for lid in ev["luoghi"]]
         record = {
             "id": ev["id"],
             "era": d["era"],
@@ -296,12 +304,13 @@ def scrivi_js(eventi: list[dict]) -> None:
             "title": ev["titolo"],
             "desc": ev["breve"],
             "type": ev["tipo"],
-            "place": ev["luoghi"][0],
+            "place": nomi[0],
             "people": [p["nome"] for p in ev["partecipanti"]],
             "source": ev["fonti"][0]["riferimento"],
             "short": ev["breve"],
             "long": ev["lungo"],
-            "places": ev["luoghi"],
+            "places": nomi,
+            "place_ids": ev["luoghi"],
             "participants": ev["partecipanti"],
             "sources": ev["fonti"],
             "certainty": ev["certezza"],
@@ -315,7 +324,8 @@ def scrivi_js(eventi: list[dict]) -> None:
         fh.write("\n".join(righe))
 
 
-def scrivi_sqlite(eventi: list[dict]) -> None:
+def scrivi_sqlite(eventi: list[dict], luoghi: list[dict]) -> None:
+    nomi_luoghi = {l["id"]: l["nome"] for l in luoghi}
     os.makedirs(BUILD_DIR, exist_ok=True)
     path = os.path.join(BUILD_DIR, "arda.sqlite")
     if os.path.exists(path):
@@ -333,7 +343,7 @@ def scrivi_sqlite(eventi: list[dict]) -> None:
         CREATE TABLE participants (
             event_id TEXT, name TEXT, side TEXT, role TEXT, outcome TEXT
         );
-        CREATE TABLE places (event_id TEXT, name TEXT);
+        CREATE TABLE places (event_id TEXT, place_id TEXT, name TEXT);
         CREATE TABLE sources (event_id TEXT, work TEXT, reference TEXT);
         """
     )
@@ -349,38 +359,44 @@ def scrivi_sqlite(eventi: list[dict]) -> None:
         for p in ev["partecipanti"]:
             cur.execute("INSERT INTO participants VALUES (?,?,?,?,?)",
                         (ev["id"], p["nome"], p.get("parte"), p.get("ruolo"), p.get("esito")))
-        for luogo in ev["luoghi"]:
-            cur.execute("INSERT INTO places VALUES (?,?)", (ev["id"], luogo))
+        for lid in ev["luoghi"]:
+            cur.execute("INSERT INTO places VALUES (?,?,?)",
+                        (ev["id"], lid, nomi_luoghi[lid]))
         for f in ev["fonti"]:
             cur.execute("INSERT INTO sources VALUES (?,?,?)", (ev["id"], f["opera"], f["riferimento"]))
     con.commit()
     con.close()
 
 
-def scrivi_indici(eventi: list[dict]) -> None:
+def scrivi_indici(eventi: list[dict], luoghi: list[dict]) -> None:
+    nomi_luoghi = {l["id"]: l["nome"] for l in luoghi}
     per_tipo: dict[str, list[str]] = {}
     per_anno: dict[int, list[str]] = {}
     per_persona: dict[str, list[str]] = {}
     per_luogo: dict[str, list[str]] = {}
+    per_luogo_id: dict[str, list[str]] = {}
     for ev in eventi:
         per_tipo.setdefault(ev["tipo"], []).append(ev["id"])
         per_anno.setdefault(ev["data"]["anno"], []).append(ev["id"])
         for p in ev["partecipanti"]:
             per_persona.setdefault(p["nome"], []).append(ev["id"])
-        for luogo in ev["luoghi"]:
-            per_luogo.setdefault(luogo, []).append(ev["id"])
+        for lid in ev["luoghi"]:
+            per_luogo.setdefault(nomi_luoghi[lid], []).append(ev["id"])
+            per_luogo_id.setdefault(lid, []).append(ev["id"])
     indici = {
         "per_tipo": per_tipo,
         "per_anno": {str(k): v for k, v in sorted(per_anno.items())},
         "per_persona": dict(sorted(per_persona.items())),
         "per_luogo": dict(sorted(per_luogo.items())),
+        "per_luogo_id": dict(sorted(per_luogo_id.items())),
     }
     os.makedirs(BUILD_DIR, exist_ok=True)
     with open(os.path.join(BUILD_DIR, "indexes.json"), "w", encoding="utf-8") as fh:
         json.dump(indici, fh, ensure_ascii=False, indent=2)
 
 
-def scrivi_schede(eventi: list[dict]) -> None:
+def scrivi_schede(eventi: list[dict], luoghi: list[dict]) -> None:
+    nomi_luoghi = {l["id"]: l["nome"] for l in luoghi}
     righe = ["# Schede della Terza Era", "",
              "Generate da `data/eventi/*.yaml`. Ogni scheda è la versione lunga;",
              "la versione breve è quella che compare sulla linea del tempo.", ""]
@@ -392,7 +408,7 @@ def scrivi_schede(eventi: list[dict]) -> None:
         righe.append("")
         righe.append(f"**Quando:** {d['testo']} · {NOMI_ERA.get(d['era'], d['era'])}")
         righe.append("")
-        righe.append(f"**Dove:** {', '.join(ev['luoghi'])}")
+        righe.append(f"**Dove:** {', '.join(nomi_luoghi[lid] for lid in ev['luoghi'])}")
         righe.append("")
         if ev.get("fa_parte_di"):
             righe.append(f"**Fa parte di:** {ev['fa_parte_di']}")
@@ -419,7 +435,8 @@ def scrivi_schede(eventi: list[dict]) -> None:
         fh.write("\n".join(righe))
 
 
-def scrivi_rapporto(eventi: list[dict]) -> None:
+def scrivi_rapporto(eventi: list[dict], luoghi: list[dict]) -> None:
+    nomi_luoghi = {l["id"]: l["nome"] for l in luoghi}
     ids = {e["id"] for e in eventi}
     nuovi = sorted(ids - ID_ORIGINALI)
     mancanti = sorted(ID_ORIGINALI - ids)
@@ -430,8 +447,9 @@ def scrivi_rapporto(eventi: list[dict]) -> None:
     for e in eventi:
         for p in e["partecipanti"]:
             persone[p["nome"]] = persone.get(p["nome"], 0) + 1
-        for l in e["luoghi"]:
-            luoghi[l] = luoghi.get(l, 0) + 1
+        for lid in e["luoghi"]:
+            nome = nomi_luoghi[lid]
+            luoghi[nome] = luoghi.get(nome, 0) + 1
     righe = [
         "# Rapporto sul lavoro — Terza Era",
         "",
@@ -468,8 +486,8 @@ def scrivi_rapporto(eventi: list[dict]) -> None:
         "",
         "- I partecipanti sono nomi, non ancora schede persona collegate: la fase alberi",
         "  li trasformerà in entità con ID, parentele e relazioni.",
-        "- I luoghi hanno una prima anagrafica di 20 schede; le altre citazioni",
-        "  degli eventi aspettano il secondo blocco (vedi `build/rapporto-luoghi.md`).",
+        "- I luoghi sono ora collegati agli eventi tramite ID: la fase mappa assegnerà",
+        "  coordinate e scene (Arda piatta / Arda rotonda).",
         "- Gli eventi del 2941 e del 3019 sono stati separati, ma restano da aggiungere",
         "  gli altri fatti dell'Appendice B (battaglie del Nord, assalti a Lórien,",
         "  distruzione di Dol Guldur, Campo di Cormallen).",
@@ -484,16 +502,16 @@ def scrivi_rapporto(eventi: list[dict]) -> None:
 def scrivi_luoghi(eventi: list[dict], luoghi: list[dict]) -> None:
     dati = collega_luoghi(eventi, luoghi)
     os.makedirs(BUILD_DIR, exist_ok=True)
-    nomi_citati = len(dati["coperti"]) + len(dati["scoperti"])
+    citati = len(dati["citati"])
     with open(os.path.join(BUILD_DIR, "luoghi.json"), "w", encoding="utf-8") as fh:
         json.dump(
             {
                 "luoghi": dati["schede"],
                 "copertura": {
-                    "nomi_citati": nomi_citati,
-                    "nomi_coperti": len(dati["coperti"]),
-                    "nomi_scoperti": len(dati["scoperti"]),
-                    "scoperti": dict(sorted(dati["scoperti"].items())),
+                    "luoghi_citati": citati,
+                    "luoghi_coperti": citati - len(dati["scoperti"]),
+                    "luoghi_scoperti": len(dati["scoperti"]),
+                    "scoperti": sorted(dati["scoperti"]),
                 },
             },
             fh,
@@ -504,10 +522,10 @@ def scrivi_luoghi(eventi: list[dict], luoghi: list[dict]) -> None:
         "# Rapporto sui luoghi",
         "",
         f"- Schede create: **{len(luoghi)}**.",
-        f"- Nomi di luogo citati dagli eventi: **{nomi_citati}** distinti "
+        f"- Luoghi citati dagli eventi: **{citati}** distinti "
         f"(su {sum(len(e['luoghi']) for e in eventi)} citazioni).",
-        f"- Nomi già coperti da una scheda: **{len(dati['coperti'])}**.",
-        f"- Nomi ancora senza scheda: **{len(dati['scoperti'])}**.",
+        f"- Luoghi con una scheda: **{citati - len(dati['scoperti'])}**.",
+        f"- Luoghi senza scheda: **{len(dati['scoperti'])}**.",
         "",
         "## Schede",
         "",
@@ -547,11 +565,12 @@ def main() -> None:
     valida(eventi)
     luoghi = carica_luoghi()
     valida_luoghi(luoghi)
-    scrivi_js(eventi)
-    scrivi_sqlite(eventi)
-    scrivi_indici(eventi)
-    scrivi_schede(eventi)
-    scrivi_rapporto(eventi)
+    valida_riferimenti_luoghi(eventi, luoghi)
+    scrivi_js(eventi, luoghi)
+    scrivi_sqlite(eventi, luoghi)
+    scrivi_indici(eventi, luoghi)
+    scrivi_schede(eventi, luoghi)
+    scrivi_rapporto(eventi, luoghi)
     scrivi_luoghi(eventi, luoghi)
     print(f"OK: {len(eventi)} eventi e {len(luoghi)} luoghi compilati.")
     print(f"  js/data.js")

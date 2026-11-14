@@ -1088,9 +1088,9 @@
     }
   ],
   "copertura": {
-    "nomi_citati": 85,
-    "nomi_coperti": 85,
-    "nomi_scoperti": 0,
-    "scoperti": {}
+    "luoghi_citati": 77,
+    "luoghi_coperti": 77,
+    "luoghi_scoperti": 0,
+    "scoperti": []
   }
 }

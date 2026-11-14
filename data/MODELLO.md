@@ -168,7 +168,7 @@ punto di rottura, senza risolvere nessun problema reale.
 Se un giorno vorrai interrogare i dati con SQL per studiarti le parentele, il build
 già produce `build/arda.sqlite`: è un database vero, ma **locale**, non online.
 
-## 8. Il primo passo concreto
+## 8. Il primo passo concreto (fatto)
 
 Partiamo dai **luoghi**, non dalle persone.
 
@@ -197,6 +197,6 @@ Niente fretta: un blocco alla volta, con il computer che controlla.
 
 Anagrafica dei luoghi completa rispetto agli eventi attuali: `data/luoghi.yaml`
 contiene 77 schede, che coprono tutti gli 85 nomi citati dagli eventi (alcuni nomi
-sono alias dello stesso luogo). Il controllo del build verifica ID doppi, alias in
-conflitto e gerarchie circolari. Il prossimo passo è collegare gli eventi agli ID
-e poi passare alle persone.
+sono alias dello stesso luogo). Gli eventi ora **richiamano i luoghi per ID**: il
+build controlla che ogni ID esista e usa il nome solo per la visualizzazione.
+Il prossimo passo sono le persone.

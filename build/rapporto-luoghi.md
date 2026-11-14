@@ -1,9 +1,9 @@
 # Rapporto sui luoghi
 
 - Schede create: **77**.
-- Nomi di luogo citati dagli eventi: **85** distinti (su 183 citazioni).
-- Nomi già coperti da una scheda: **85**.
-- Nomi ancora senza scheda: **0**.
+- Luoghi citati dagli eventi: **77** distinti (su 175 citazioni).
+- Luoghi con una scheda: **77**.
+- Luoghi senza scheda: **0**.
 
 ## Schede
 

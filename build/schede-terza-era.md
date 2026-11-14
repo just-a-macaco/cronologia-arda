@@ -33,7 +33,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** Anno 2 · Terza Era
 
-**Dove:** Minas Anor, Campo Gaggiolo, Anduin
+**Dove:** Minas Tirith, Campo Gaggiolo, Anduin
 
 **Partecipanti:**
 
@@ -225,7 +225,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** Anno 1636 · Terza Era
 
-**Dove:** Gondor, Minas Anor, Eriador, Baranduin
+**Dove:** Gondor, Minas Tirith, Eriador, Baranduin
 
 **Partecipanti:**
 
@@ -249,7 +249,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** Anno 1640 · Terza Era
 
-**Dove:** Minas Anor, Osgiliath, Mordor
+**Dove:** Minas Tirith, Osgiliath, Mordor
 
 **Partecipanti:**
 
@@ -367,7 +367,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** 1980-1981 · Terza Era
 
-**Dove:** Moria, Khazad-dûm, Lórien, Nimrodel
+**Dove:** Moria, Lórien, Nimrodel
 
 **Partecipanti:**
 
@@ -391,7 +391,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** Anno 1999 · Terza Era
 
-**Dove:** Erebor, Montagna Solitaria
+**Dove:** Erebor
 
 **Partecipanti:**
 
@@ -413,7 +413,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** Anno 2002 · Terza Era
 
-**Dove:** Minas Ithil, Minas Morgul, Mordor
+**Dove:** Minas Morgul, Mordor
 
 **Partecipanti:**
 
@@ -720,7 +720,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** Anno 2790 · Terza Era
 
-**Dove:** Moria, Cancello Orientale
+**Dove:** Moria, Cancello Orientale di Moria
 
 **Partecipanti:**
 
@@ -838,7 +838,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** Anno 2941 · Terza Era
 
-**Dove:** Valle, Erebor, Montagna Solitaria
+**Dove:** Valle, Erebor
 
 **Fa parte di:** La ricerca di Erebor
 
@@ -1110,7 +1110,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** 20 giugno 3018 · Terza Era
 
-**Dove:** Osgiliath, Anduin, Morgul
+**Dove:** Osgiliath, Anduin, Minas Morgul
 
 **Fa parte di:** La Guerra dell'Anello
 
@@ -1163,7 +1163,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** 25 ottobre 3018 · Terza Era
 
-**Dove:** Gran Burrone, Imladris
+**Dove:** Gran Burrone
 
 **Fa parte di:** La Guerra dell'Anello
 
@@ -1193,7 +1193,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** 25 dicembre 3018 · Terza Era
 
-**Dove:** Gran Burrone, Imladris
+**Dove:** Gran Burrone
 
 **Fa parte di:** La Guerra dell'Anello
 
@@ -1218,7 +1218,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** 15 gennaio 3019 · Terza Era
 
-**Dove:** Moria, Khazad-dûm, Ponte di Khazad-dûm, Nimrodel
+**Dove:** Moria, Ponte di Khazad-dûm, Nimrodel
 
 **Fa parte di:** La Guerra dell'Anello
 
@@ -1499,7 +1499,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Quando:** 29 settembre 3021 · Terza Era
 
-**Dove:** Rifugi Oscuri, Mithlond, Mare
+**Dove:** Rifugi Oscuri, Grande Mare
 
 **Partecipanti:**
 
