@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cronologia di Arda · schizzo mappa Terza Era</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f3f4;--ink:#1a1d21;--mt:#6b7178;--ln:#c9cfd4;--ac:#b23a2e;--sea:#e2e8ec;--riv:#5b7f9e;--for:#a8bba4}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.5 "Space Grotesk",Helvetica,Arial,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:24px}
+h1{font:500 .9rem/1.3 "Space Grotesk",sans-serif;letter-spacing:.3em;text-transform:uppercase;margin:0 0 6px}
+p{margin:0 0 4px;color:var(--mt);font-size:.85rem;max-width:60em}
+svg{display:block;width:100%;height:auto;margin-top:16px}
+svg text{font-family:"Space Grotesk",Helvetica,Arial,sans-serif}
+.legend{margin-top:14px;display:flex;flex-wrap:wrap;gap:18px;font-size:.8rem;color:var(--mt)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:18px;height:3px;display:inline-block}
+@media(min-width:900px){body{font-size:16px}}
+</style>
+</head>
+<body>
+<main>
+<h1>Cronologia di Arda · schizzo mappa</h1>
+<p>Bozza di approvazione, non integrata nel sito. Geometria disegnata da zero (nessuna mappa ufficiale riprodotta), proporzioni provvisorie. I punti sono i luoghi dei 51 eventi della Terza Era. Da approvare: forma delle coste, densità delle montagne, resa di fiumi e foreste, livello di dettaglio.</p>
+<div id="map"></div>
+<div class="legend">
+  <span><i class="sw" style="background:var(--ink)"></i>coste</span>
+  <span><i class="sw" style="background:var(--riv)"></i>fiumi</span>
+  <span><i class="sw" style="background:var(--mt)"></i>montagne</span>
+  <span><i class="sw" style="background:var(--for)"></i>foreste</span>
+  <span><i style="width:9px;height:9px;border-radius:50%;background:var(--ac);display:inline-block"></i>luoghi degli eventi</span>
+</div>
+</main>
+<script>
+const W=1000;
+
+// costa: un solo poligono terraferma; mare = sfondo. La baia di Belfalas è aperta a sud-ovest.
+const LAND=[
+[95,45],[170,25],[380,15],[640,20],[950,8],[985,300],[975,600],[960,860],[900,930],[820,970],[740,985],
+[700,900],[670,860],[645,800],[620,740],[600,700],
+[585,685],[560,672],[500,658],[450,655],[400,665],[360,688],[320,675],[280,640],[245,595],[215,545],[190,480],[165,410],[145,340],[138,295],
+[152,270],[178,245],[192,220],[170,170],[145,120],[122,70]
+];
+
+// fiumi: polilinee
+const RIVERS=[
+// Anduin
+[[555,140],[540,190],[535,260],[528,330],[520,400],[530,440],[545,470],[548,520],[560,570],[575,600],[590,622],[585,655],[592,690]],
+// Isen
+[[452,478],[445,505],[440,540],[432,570],[426,595]],
+// Brandivino
+[[300,290],[285,315],[263,340],[245,365],[232,395],[220,425]],
+// Celebrant
+[[620,405],[595,425],[565,445],[548,462]],
+// Entwash
+[[512,478],[535,495],[548,520],[555,545]],
+// Limlight
+[[575,435],[558,448],[548,458]],
+// Poros
+[[690,585],[665,610],[630,645],[605,658]],
+// Celduin
+[[686,250],[710,290],[740,315],[790,330],[820,330]],
+// Carnen
+[[815,240],[805,290],[810,320],[830,315]]
+];
+
+// montagne: creste (polilinea lungo cui si disegnano i segni)
+const RIDGES=[
+// Montagne Nebbiose
+[[470,90],[478,140],[488,200],[498,260],[494,320],[488,380],[482,425],[475,468]],
+// Montagne Grigie
+[[560,120],[610,108],[665,112],[720,125],[770,142]],
+// Colli Ferrosi
+[[790,200],[825,212],[855,232]],
+// Ered Luin
+[[185,150],[180,200],[175,260],[170,320]],
+// Montagne Bianche
+[[420,602],[465,592],[515,590],[565,596],[610,606]],
+// Ephel Dúath
+[[640,590],[650,620],[658,650],[668,678]],
+// Ered Lithui
+[[650,588],[695,578],[745,582],[790,592]]
+];
+
+// colline basse (segni piccoli)
+const HILLS=[
+[[360,300],[382,308],[402,315]],
+[[250,470],[272,478]]
+];
+
+// foreste: ellissi [cx,cy,rx,ry]
+const FORESTS=[
+[660,330,46,95],    // Bosco Atro
+[545,437,16,13],    // Lothlórien
+[515,474,21,17],    // Fangorn
+[607,642,18,12],    // Ithilien
+[290,382,11,9]      // Vecchia Foresta
+];
+
+// laghi: [cx,cy,rx,ry]
+const LAKES=[
+[865,330,55,40]     // Mare di Rhûn
+];
+
+// luoghi [x,y,nome,dx,dy,anchor]
+const PLACES=[
+[150,272,"Porti Grigi",15,-4,"start"],
+[250,357,"Contea",-10,20,"middle"],
+[322,340,"Brea",11,-2,"start"],
+[330,255,"Fornost",11,-2,"start"],
+[395,310,"Amon Sûl",11,8,"start"],
+[455,300,"Gran Burrone",11,-4,"start"],
+[420,140,"Angmar",11,2,"start"],
+[523,395,"Campo Gaggiolo",11,-2,"start"],
+[622,398,"Dol Guldur",11,8,"start"],
+[700,242,"Erebor",11,-2,"start"],
+[642,270,"Esgaroth",-11,16,"end"],
+[485,420,"Moria",-11,-2,"end"],
+[545,437,"Lothlórien",10,-4,"start"],
+[515,474,"Fangorn",-11,10,"end"],
+[452,478,"Isengard",-11,-4,"end"],
+[438,545,"Fosso di Helm",-11,2,"end"],
+[545,462,"Campi del Celebrant",12,8,"start"],
+[640,545,"Dagorlad",11,-2,"start"],
+[562,615,"Minas Tirith",-11,2,"end"],
+[588,622,"Osgiliath",7,16,"start"],
+[645,620,"Minas Morgul",11,-2,"start"],
+[698,640,"Monte Fato",11,8,"start"],
+[718,612,"Barad-dûr",11,-2,"start"],
+[555,545,"Parth Galen",-11,-6,"end"]
+];
+
+const REGIONS=[
+[300,440,"ERIADOR",0,"middle",16,"var(--mt)",""],
+[730,440,"RHOVANION",0,"middle",14,"var(--mt)",""],
+[478,520,"ROHAN",0,"middle",13,"var(--mt)",""],
+[470,690,"GONDOR",0,"middle",14,"var(--mt)",""],
+[760,690,"MORDOR",0,"middle",14,"var(--mt)",""],
+[760,860,"HARAD",0,"middle",14,"var(--mt)",""],
+[865,335,"RHÛN",0,"middle",12,"var(--mt)",""],
+[668,842,"Umbar",0,"middle",12,"var(--mt)",""]
+];
+
+function coastPath(){
+  return LAND.map((p,i)=>`${i?"L":"M"}${p[0]} ${p[1]}`).join(" ")+" Z";
+}
+function chevrons(pts,step,size,sw){
+  let out="";
+  for(let i=0;i<pts.length-1;i++){
+    const a=pts[i],b=pts[i+1];
+    const len=Math.hypot(b[0]-a[0],b[1]-a[1]);
+    const n=Math.max(1,Math.round(len/step));
+    for(let k=0;k<n;k++){
+      const t=(k+.5)/n;
+      const x=a[0]+(b[0]-a[0])*t, y=a[1]+(b[1]-a[1])*t;
+      const ang=Math.atan2(b[1]-a[1],b[0]-a[0])*180/Math.PI;
+      out+=`<path d="M${-size} ${size*0.8}L0 ${-size*0.9}L${size} ${size*0.8}" transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${ang.toFixed(1)})" fill="none" stroke="var(--mt)" stroke-width="${sw}" stroke-linejoin="round" stroke-linecap="round"/>`;
+    }
+  }
+  return out;
+}
+function forest(cx,cy,rx,ry){
+  let out=`<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="var(--for)" fill-opacity=".38"/>`;
+  const marks=Math.max(5,Math.round(rx*ry/400));
+  for(let i=0;i<marks;i++){
+    const a=i*2.399963, r=Math.sqrt(i/marks);
+    const x=cx+Math.cos(a)*rx*r*0.8, y=cy+Math.sin(a)*ry*r*0.8;
+    out+=`<path d="M${(x-2.6).toFixed(1)} ${(y+2.6).toFixed(1)}L${x.toFixed(1)} ${(y-3).toFixed(1)}L${(x+2.6).toFixed(1)} ${(y+2.6).toFixed(1)}" fill="none" stroke="var(--for)" stroke-width="1.6" stroke-linejoin="round"/>`;
+  }
+  return out;
+}
+
+let g="";
+g+=`<rect width="${W}" height="${W}" fill="var(--sea)"/>`;
+g+=`<text x="118" y="560" font-size="22" letter-spacing=".35em" fill="var(--mt)" opacity=".55" transform="rotate(-64 118 560)">MARE</text>`;
+g+=`<path d="${coastPath()}" fill="var(--bg)" stroke="var(--ink)" stroke-width="1.4" stroke-linejoin="round"/>`;
+LAKES.forEach(l=>{g+=`<ellipse cx="${l[0]}" cy="${l[1]}" rx="${l[2]}" ry="${l[3]}" fill="var(--sea)" stroke="var(--riv)" stroke-width="1.3"/>`});
+RIVERS.forEach(r=>{g+=`<path d="${r.map((p,i)=>`${i?"L":"M"}${p[0]} ${p[1]}`).join(" ")}" fill="none" stroke="var(--riv)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>`});
+FORESTS.forEach(f=>{g+=forest(f[0],f[1],f[2],f[3])});
+RIDGES.forEach(r=>{g+=chevrons(r,18,5.5,1)});
+HILLS.forEach(r=>{g+=chevrons(r,12,3.2,1)});
+REGIONS.forEach(r=>{g+=`<text x="${r[0]}" y="${r[1]}" text-anchor="${r[3]}" font-size="${r[4]}" letter-spacing=".3em" fill="${r[6]}">${r[2]}</text>`});
+PLACES.forEach(p=>{
+  g+=`<circle cx="${p[0]}" cy="${p[1]}" r="4.5" fill="var(--ac)"/>`;
+  g+=`<text x="${p[0]+p[3]}" y="${p[1]+p[4]}" text-anchor="${p[5]}" font-size="12" fill="var(--ink)">${p[2]}</text>`;
+});
+document.getElementById("map").innerHTML=`<svg viewBox="0 0 ${W} ${W}" role="img" aria-label="Schizzo della mappa della Terra di Mezzo nella Terza Era">${g}</svg>`;
+</script>
+</body>
+</html>
