@@ -3078,6 +3078,30 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 3017
 
+## Gandalf raggiunge Hobbiville
+
+**ID:** `gandalf-hobbiville-3018` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 12 aprile 3018 · Terza Era
+
+**Dove:** Hobbiville
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gandalf | Istari | visitatore | raggiunge Frodo |
+| Frodo Baggins | Hobbit | ospite | lo accoglie |
+
+**Versione breve:** Gandalf raggiunge Hobbiville per parlare con Frodo dell'Anello.
+
+**Testo lungo:** Il 12 aprile 3018 Gandalf raggiunge Hobbiville. È una delle visite con cui il mago cerca di capire la natura dell'Anello di Frodo e di preparare la partenza dalla Contea.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 12 aprile 3018
+
 ## Gollum fugge dal Bosco Atro
 
 **ID:** `gollum-fugge` · **Tipo:** evento · **Certezza:** certa
@@ -3127,6 +3151,77 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, I Grandi Anni, 20 giugno 3018
 
+## Boromir parte da Minas Tirith
+
+**ID:** `boromir-parte` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 4 luglio 3018 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Boromir | Gondor | figlio del Sovrintendente | parte per cercare il significato del sogno |
+
+**Versione breve:** Boromir parte da Minas Tirith per cercare il significato di un sogno.
+
+**Testo lungo:** Il 4 luglio 3018 Boromir parte da Minas Tirith. Un sogno lo ha spinto a cercare Gran Burrone e il significato delle parole su Isildur e sull'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 4 luglio 3018
+
+## Gandalf imprigionato a Orthanc
+
+**ID:** `gandalf-prigioniero` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 10 luglio 3018 · Terza Era
+
+**Dove:** Orthanc, Isengard
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gandalf | Istari | prigioniero | viene imprigionato |
+| Saruman | Isengard | traditore | lo fa imprigionare |
+
+**Versione breve:** Saruman fa imprigionare Gandalf nella torre di Orthanc.
+
+**Testo lungo:** Il 10 luglio 3018 Saruman fa imprigionare Gandalf sulla cima di Orthanc. Il capo del Bianco Consiglio ha ormai scelto di lavorare per sé e per Sauron, e teme che Gandalf possa ostacolarlo.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 10 luglio 3018
+
+## Gandalf fugge e doma Ombromanto
+
+**ID:** `gandalf-edoras` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 18-22 settembre 3018 · Terza Era
+
+**Dove:** Isengard, Edoras, Rohan
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gandalf | Istari | fuggiasco | fugge da Orthanc e doma Ombromanto |
+| Théoden | Rohan | re | lo caccia da Edoras |
+
+**Versione breve:** Gandalf fugge da Orthanc, raggiunge Edoras e viene cacciato da Théoden; poi doma Ombromanto.
+
+**Testo lungo:** Tra il 18 e il 22 settembre 3018 Gandalf fugge da Orthanc, raggiunge Edoras e viene cacciato da Théoden. Nei campi di Rohan insegue e doma Ombromanto, il cavallo che lo porterà lontano.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 18-22 settembre 3018
+
 ## Frodo lascia la Contea
 
 **ID:** `frodo-parte` · **Tipo:** viaggio · **Certezza:** certa
@@ -3154,6 +3249,108 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, I Grandi Anni, 23 settembre 3018
+
+## Frodo nella Vecchia Foresta
+
+**ID:** `frodo-vecchia-foresta` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 26-28 settembre 3018 · Terza Era
+
+**Dove:** Vecchia Foresta, Casa di Tom Bombadil, Tyrn Gorthad
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | attraversa la foresta |
+| Samvise Gamgi | Hobbit | compagno | lo accompagna |
+| Meriadoc Brandibuck | Hobbit | compagno | viene catturato dagli Spettri |
+| Peregrino Tuc | Hobbit | compagno | viene catturato dagli Spettri |
+| Tom Bombadil | Vecchia Foresta | soccorritore | li libera |
+
+**Versione breve:** Frodo attraversa la Vecchia Foresta, incontra Tom Bombadil e viene salvato dai Tumuli.
+
+**Testo lungo:** Tra il 26 e il 28 settembre 3018 Frodo e i suoi compagni attraversano la Vecchia Foresta. Incontrano Tom Bombadil, che li ospita, e poi vengono catturati dagli Spettri dei Tumuli. Bombadil li libera e li rimette sulla strada per Brea.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 26-28 settembre 3018
+
+## Frodo arriva a Brea
+
+**ID:** `frodo-brea` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 29-30 settembre 3018 · Terza Era
+
+**Dove:** Brea
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | arriva a Brea |
+| Aragorn | Dúnedain del Nord | Ramingo | lo incontra alla locanda |
+| Samvise Gamgi | Hobbit | compagno | lo accompagna |
+
+**Versione breve:** Frodo arriva a Brea, incontra Aragorn e lascia la città dopo un attacco notturno.
+
+**Testo lungo:** Il 29 settembre 3018 Frodo arriva a Brea e incontra Aragorn, che si fa chiamare Passolungo. Nella notte i Cavalieri Neri attaccano la locanda e le camere; all'alba Frodo lascia Brea con Aragorn e i compagni.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 29-30 settembre 3018
+
+## Frodo ferito a Colle Vento
+
+**ID:** `frodo-ferito-colle-vento` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** 3-6 ottobre 3018 · Terza Era
+
+**Dove:** Amon Sûl
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | viene ferito |
+| Aragorn | Dúnedain del Nord | guida | lo difende |
+| i Nazgûl | Mordor | assalitori | feriscono Frodo |
+
+**Versione breve:** I Cavalieri Neri assalgono l'accampamento ai piedi di Colle Vento e feriscono Frodo.
+
+**Testo lungo:** Il 3 ottobre 3018 Gandalf viene assalito a Colle Vento. Il 6 ottobre i Cavalieri Neri attaccano l'accampamento ai piedi della collina e feriscono Frodo con una lama di Morgul. Aragorn lo difende e lo porta via.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 3-6 ottobre 3018
+
+## La fuga al Guado di Bruinen
+
+**ID:** `guado-bruinen` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 9-20 ottobre 3018 · Terza Era
+
+**Dove:** Guado di Bruinen, Gran Burrone
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | attraversa il guado |
+| Glorfindel | Gran Burrone | soccorritore | lo guida |
+| Elrond | Gran Burrone | signore elfico | scatena l'onda del fiume |
+
+**Versione breve:** Glorfindel guida Frodo al Guado di Bruinen; l'onda di Elrond travolge i Cavalieri Neri.
+
+**Testo lungo:** Tra il 9 e il 20 ottobre 3018 Glorfindel lascia Gran Burrone e guida Frodo verso il Guado di Bruinen. Quando i Cavalieri Neri stanno per raggiungerli, l'onda del fiume scatenata da Elrond li travolge.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 9-20 ottobre 3018
 
 ## Consiglio di Elrond
 
@@ -3210,6 +3407,56 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, 25 dicembre 3018; Libro II, capitolo 3
 
+## La Compagnia entra a Moria
+
+**ID:** `compagnia-moria` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 8-14 gennaio 3019 · Terza Era
+
+**Dove:** Montagne Nebbiose, Moria
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Compagnia | Portatore | entra a Moria |
+| Gandalf | Compagnia | guida | apre il Cancello |
+| Aragorn | Compagnia | guida | protegge il gruppo |
+| Gollum | Montagne Nebbiose | inseguitore | comincia a seguire Frodo |
+
+**Versione breve:** La Compagnia attraversa il Caradhras, sfugge ai lupi ed entra a Moria dal Cancello Occidentale; Gollum comincia a seguirla.
+
+**Testo lungo:** Tra l'8 e il 14 gennaio 3019 la Compagnia attraversa l'Agrifogliere, tenta il passo del Caradhras, viene assalita dai lupi e raggiunge il Cancello Occidentale di Moria. Qui Gollum comincia a seguire il Portatore dell'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 8-14 gennaio 3019
+
+## La Compagnia arriva a Caras Galadhon
+
+**ID:** `caras-galadhon` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 17 gennaio 3019 · Terza Era
+
+**Dove:** Caras Galadhon, Lórien
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Compagnia | Portatore | arriva in Lórien |
+| Galadriel | Lórien | signora elfica | li accoglie |
+
+**Versione breve:** La Compagnia arriva a Caras Galadhon, in Lórien, e viene accolta da Galadriel.
+
+**Testo lungo:** Il 17 gennaio 3019 la Compagnia arriva a Caras Galadhon, la città degli alberi di Lórien. Galadriel accoglie i viandanti e offre loro riposo, ma il tempo stringe e la guerra si avvicina.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 17 gennaio 3019
+
 ## Gandalf cade a Moria
 
 **ID:** `gandalf-moria` · **Tipo:** perdita · **Certezza:** certa
@@ -3239,6 +3486,55 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, 15 gennaio 3019; Libro II, capitolo 5
 
+## Gandalf sconfigge il Balrog
+
+**ID:** `gandalf-balrog` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** 23-25 gennaio 3019 · Terza Era
+
+**Dove:** Montagne Nebbiose, Moria
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gandalf | Compagnia | Istaro | sconfigge il Balrog e muore |
+| il Balrog | Morgoth | demone del fuoco | precipita negli abissi |
+
+**Versione breve:** Gandalf insegue il Balrog fino a Zirak-zigil e lo fa precipitare negli abissi, ma muore.
+
+**Testo lungo:** Dal 23 al 25 gennaio 3019 Gandalf insegue il Balrog dalla voragine di Moria fino al picco di Zirak-zigil. Lo fa precipitare negli abissi, ma il suo corpo giace senza vita sulla montagna. Tornerà come Gandalf il Bianco.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 23-25 gennaio 3019
+
+## Addio a Lórien
+
+**ID:** `addio-lorien` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 14-17 febbraio 3019 · Terza Era
+
+**Dove:** Lórien
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Compagnia | Portatore | guarda lo Specchio di Galadriel |
+| Galadriel | Lórien | signora elfica | li congeda |
+| Gandalf | Istari | rinato | viene portato a Lórien |
+
+**Versione breve:** La Compagnia guarda lo Specchio di Galadriel e lascia Lórien; Gandalf, rinato, viene portato a Lórien.
+
+**Testo lungo:** Il 14 febbraio 3019 Frodo guarda lo Specchio di Galadriel. Il 16 la Compagnia lascia Lórien, mentre Gollum la osserva da un nascondiglio. Il 17 Gwaihir porta Gandalf, tornato in vita, a Lórien.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 14-17 febbraio 3019
+
 ## La Compagnia si scioglie
 
 **ID:** `compagnia-si-scioglie` · **Tipo:** evento · **Certezza:** certa
@@ -3267,6 +3563,157 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, 26 febbraio 3019; Libro III, capitolo 1
+
+## Le barche assalite a Sarn Gebir
+
+**ID:** `sarn-gebir` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** 23 febbraio 3019 · Terza Era
+
+**Dove:** Sarn Gebir, Anduin
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Compagnia | Portatore | sopravvive |
+| gli Orchetti | Mordor | assalitori | attaccano le barche |
+
+**Versione breve:** Le barche della Compagnia vengono assalite nella notte a Sarn Gebir.
+
+**Testo lungo:** Nella notte del 23 febbraio 3019 le barche della Compagnia vengono assalite a Sarn Gebir. Gli Orchetti sono respinti, ma la via del fiume diventa più pericolosa.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 23 febbraio 3019
+
+## Muore Théodred
+
+**ID:** `theodred-morte` · **Tipo:** morte · **Certezza:** certa
+
+**Quando:** 25 febbraio 3019 · Terza Era
+
+**Dove:** Rohan
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Théodred | Rohan | principe | muore |
+| gli Orchetti | Isengard | assalitori | vincono lo scontro |
+
+**Versione breve:** Théodred, figlio di Théoden, muore nella prima battaglia dei Guadi dell'Isen.
+
+**Testo lungo:** Il 25 febbraio 3019 Théodred, figlio di Théoden, muore nella prima battaglia dei Guadi dell'Isen. La sua morte apre la crisi di Rohan e lascia Théoden senza erede diretto.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 25 febbraio 3019
+
+## Aragorn incontra Gandalf il Bianco
+
+**ID:** `aragorn-gandalf-bianco` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 1 marzo 3019 · Terza Era
+
+**Dove:** Fangorn, Rohan
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aragorn | Compagnia | guida | incontra Gandalf |
+| Gandalf | Istari | il Bianco | si riunisce a lui |
+| Legolas | Compagnia | arciere | lo accompagna |
+| Gimli | Compagnia | nano | lo accompagna |
+
+**Versione breve:** Aragorn incontra Gandalf il Bianco; insieme partono per Edoras.
+
+**Testo lungo:** Il 1 marzo 3019 Aragorn, Legolas e Gimli incontrano Gandalf il Bianco. Insieme partono per Edoras, dove il mago guarirà Théoden e cambierà le sorti di Rohan.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 1 marzo 3019
+
+## Éomer annienta gli Orchetti
+
+**ID:** `eomer-orchetti` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** 28-29 febbraio 3019 · Terza Era
+
+**Dove:** Fangorn, Rohan
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Éomer | Rohan | maresciallo | vince |
+| i Rohirrim | Rohan | cavalieri | annientano gli Orchetti |
+| Meriadoc Brandibuck | Compagnia | prigioniero | fugge |
+| Peregrino Tuc | Compagnia | prigioniero | fugge |
+
+**Versione breve:** Éomer annienta la banda di Orchetti ai margini di Fangorn; Merry e Pippin fuggono e incontrano Barbalbero.
+
+**Testo lungo:** Tra il 28 e il 29 febbraio 3019 Éomer raggiunge gli Orchetti ai margini della Foresta di Fangorn e li annienta all'alba. Merry e Pippin riescono a fuggire e incontrano Barbalbero.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 28-29 febbraio 3019
+
+## Frodo incontra Gollum
+
+**ID:** `frodo-gollum` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Fine febbraio 3019 · Terza Era
+
+**Dove:** Emyn Muil
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | incontra Gollum |
+| Samvise Gamgi | Hobbit | compagno | lo protegge |
+| Gollum | Montagne Nebbiose | inseguitore | si offre come guida |
+
+**Versione breve:** Frodo scende dall'Emyn Muil e incontra Gollum, che si offre di fargli da guida.
+
+**Testo lungo:** Alla fine di febbraio del 3019 Frodo scende dall'Emyn Muil e incontra Gollum. Dopo un momento di tensione, Gollum si offre di guidare Frodo e Sam verso Mordor, sperando di recuperare l'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 29 febbraio 3019
+
+## Gandalf guarisce Théoden
+
+**ID:** `theoden-guarito` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 2 marzo 3019 · Terza Era
+
+**Dove:** Edoras, Rohan, Isengard
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gandalf | Istari | il Bianco | guarisce Théoden |
+| Théoden | Rohan | re | torna in sé |
+| Éomer | Rohan | maresciallo | raduna i cavalieri |
+| i Rohirrim | Rohan | cavalieri | cavalcano verso ovest |
+
+**Versione breve:** Gandalf guarisce Théoden; i Rohirrim cavalcano verso l'Isen e gli Ent marciano su Isengard.
+
+**Testo lungo:** Il 2 marzo 3019 Gandalf guarisce Théoden a Edoras. I Rohirrim cavalcano verso ovest per assalire Saruman, mentre l'Entaconsulta termina e gli Ent marciano su Isengard.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 2 marzo 3019
 
 ## Gli Ent distruggono Isengard
 
@@ -3324,6 +3771,289 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Note:** La battaglia inizia il 3 marzo e prosegue fino all'alba del 4; la scheda usa il giorno d'inizio.
 
+## Frodo ai margini del Morannon
+
+**ID:** `frodo-morannon-margini` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 4 marzo 3019 · Terza Era
+
+**Dove:** Morannon, Mordor
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | raggiunge i margini del Morannon |
+| Samvise Gamgi | Hobbit | compagno | lo accompagna |
+| Gollum | Montagne Nebbiose | guida | li conduce |
+
+**Versione breve:** Frodo raggiunge i tumuli ai margini della Desolazione del Morannon.
+
+**Testo lungo:** Il 4 marzo 3019 Frodo, Sam e Gollum raggiungono i tumuli ai margini della Desolazione del Morannon. La via per Mordor passa davanti al Cancello Nero, sorvegliato dalle forze di Sauron.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 4 marzo 3019
+
+## Gandalf e Pippin partono per Minas Tirith
+
+**ID:** `gandalf-pippin-minas-tirith` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 5 marzo 3019 · Terza Era
+
+**Dove:** Isengard, Rohan, Minas Tirith
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gandalf | Istari | il Bianco | parte per Minas Tirith |
+| Peregrino Tuc | Hobbit | compagno | parte con lui |
+| Théoden | Rohan | re | discute con Saruman |
+| Saruman | Isengard | prigioniero | rifiuta la clemenza |
+
+**Versione breve:** Gandalf e Pippin partono per Minas Tirith; Théoden discute con Saruman a Orthanc.
+
+**Testo lungo:** Il 5 marzo 3019 Gandalf e Pippin partono da Isengard alla volta di Minas Tirith. Nello stesso giorno Théoden discute con Saruman a Orthanc: il mago traditore rifiuta la clemenza e resta chiuso nella torre.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 5 marzo 3019
+
+## Aragorn prende i Sentieri dei Morti
+
+**ID:** `aragorn-sentieri-morti` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 8 marzo 3019 · Terza Era
+
+**Dove:** Dunclivo, Erech
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aragorn | Dúnedain del Nord | capitano | prende i Sentieri dei Morti |
+| i Dúnedain del Nord | Dúnedain del Nord | seguito | lo accompagna |
+
+**Versione breve:** Aragorn si avvia verso i Sentieri dei Morti e raggiunge Erech.
+
+**Testo lungo:** L'8 marzo 3019 Aragorn si avvia all'alba verso i Sentieri dei Morti e raggiunge Erech a mezzanotte, dove raduna i Morti che hanno tradito il giuramento.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 8 marzo 3019
+
+## I Dúnedain raggiungono Aragorn
+
+**ID:** `dunedain-aragorn` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 6 marzo 3019 · Terza Era
+
+**Dove:** Rohan
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aragorn | Dúnedain del Nord | capitano | riceve i suoi uomini |
+| i Dúnedain del Nord | Dúnedain del Nord | rinforzi | lo raggiungono |
+| Théoden | Rohan | re | lascia il Trombatorrione |
+
+**Versione breve:** I Dúnedain del Nord raggiungono Aragorn; Théoden lascia il Trombatorrione.
+
+**Testo lungo:** Il 6 marzo 3019 i Dúnedain del Nord raggiungono Aragorn. Théoden lascia il Trombatorrione e si dirige verso Clivovalle, mentre Aragorn parte dopo di lui alla volta dei Sentieri dei Morti.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 6 marzo 3019
+
+## Frodo a Henneth Annûn
+
+**ID:** `frodo-henneth` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 7 marzo 3019 · Terza Era
+
+**Dove:** Henneth Annûn, Ithilien
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | viene condotto al rifugio |
+| Faramir | Gondor | capitano | lo interroga |
+| Samvise Gamgi | Hobbit | compagno | lo accompagna |
+| Gollum | Montagne Nebbiose | guida | viene tenuto prigioniero |
+
+**Versione breve:** Faramir conduce Frodo e Sam a Henneth Annûn e li interroga.
+
+**Testo lungo:** Il 7 marzo 3019 Faramir conduce Frodo e Sam a Henneth Annûn, il rifugio segreto dell'Ithilien. Qui li interroga e scopre che portano l'Unico Anello, ma decide di lasciarli proseguire.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 7 marzo 3019
+
+## Gandalf giunge a Minas Tirith
+
+**ID:** `gandalf-minas-tirith` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 9 marzo 3019 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gandalf | Istari | il Bianco | giunge in città |
+| Peregrino Tuc | Hobbit | compagno | entra con lui |
+| Denethor II | Gondor | Sovrintendente | lo riceve |
+
+**Versione breve:** Gandalf e Pippin giungono a Minas Tirith, mentre l'oscurità si estende.
+
+**Testo lungo:** Il 9 marzo 3019 Gandalf e Pippin giungono a Minas Tirith. L'oscurità si estende oltre i confini di Mordor e la città si prepara all'assedio.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 9 marzo 3019
+
+## Frodo catturato a Cirith Ungol
+
+**ID:** `frodo-catturato` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** 13 marzo 3019 · Terza Era
+
+**Dove:** Cirith Ungol, Campi del Pelennor, Pelargir
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | viene catturato |
+| Samvise Gamgi | Hobbit | compagno | resta libero |
+| gli Orchetti | Cirith Ungol | catturatori | lo portano nella torre |
+| Faramir | Gondor | capitano | viene ferito |
+| Aragorn | Dúnedain del Nord | capitano | cattura la flotta |
+
+**Versione breve:** Frodo viene catturato dagli Orchetti di Cirith Ungol; inizia l'invasione del Pelennor e Faramir viene ferito.
+
+**Testo lungo:** Il 13 marzo 3019 Frodo viene catturato dagli Orchetti di Cirith Ungol. Nello stesso giorno inizia l'invasione del Pelennor, Faramir viene ferito e Aragorn raggiunge Pelargir, catturando la flotta dei Corsari.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 13 marzo 3019
+
+## Frodo nella tana di Shelob
+
+**ID:** `frodo-tana-shelob` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 12 marzo 3019 · Terza Era
+
+**Dove:** Cirith Ungol
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | entra nella tana |
+| Samvise Gamgi | Hobbit | compagno | lo segue |
+| Gollum | Montagne Nebbiose | traditore | li conduce da Shelob |
+| Shelob | Cirith Ungol | ragna | attacca Frodo |
+
+**Versione breve:** Gollum conduce Frodo nella tana di Shelob; Faramir retrocede e gli Ent sconfiggono gli invasori di Rohan.
+
+**Testo lungo:** Il 12 marzo 3019 Gollum conduce Frodo e Sam nella tana di Shelob. Nello stesso giorno Faramir retrocede fino alle Fortezze della Strada Maestra e gli Ent sconfiggono gli invasori di Rohan.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 12 marzo 3019
+
+## Il Giorno Senza Alba
+
+**ID:** `giorno-senza-alba` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** 10 marzo 3019 · Terza Era
+
+**Dove:** Rohan, Minas Tirith, Ithilien
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Théoden | Rohan | re | raduna i Rohirrim |
+| Gandalf | Istari | difensore | salva Faramir |
+| Faramir | Gondor | capitano | viene salvato |
+| Aragorn | Dúnedain del Nord | capitano | attraversa il Ringló |
+| Frodo Baggins | Hobbit | Portatore | passa il Crocevia |
+
+**Versione breve:** Il Giorno Senza Alba: i Rohirrim partono, Faramir viene salvato, Aragorn attraversa il Ringló e Frodo passa il Crocevia.
+
+**Testo lungo:** Il 10 marzo 3019 è il Giorno Senza Alba. I Rohirrim partono da Dunclivo, Gandalf salva Faramir davanti al cancello della Città, Aragorn attraversa il Ringló e Frodo passa il Crocevia, vedendo partire l'esercito di Morgul.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 10 marzo 3019
+
+## Primo assalto a Lórien
+
+**ID:** `primo-assalto-lorien` · **Tipo:** guerra · **Certezza:** certa
+
+**Quando:** 11 marzo 3019 · Terza Era
+
+**Dove:** Lórien, Cirith Ungol, Minas Tirith
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Galadriel | Lórien | signora elfica | respinge l'assalto |
+| gli Orchetti | Dol Guldur | assalitori | vengono respinti |
+| Gollum | Montagne Nebbiose | guida | va da Shelob |
+| Denethor II | Gondor | Sovrintendente | invia Faramir a Osgiliath |
+
+**Versione breve:** Primo assalto a Lórien; Gollum va da Shelob e Denethor invia Faramir a Osgiliath.
+
+**Testo lungo:** L'11 marzo 3019 Dol Guldur sferra il primo assalto a Lórien, ma Galadriel lo respinge. Gollum va da Shelob, mentre Denethor invia Faramir a Osgiliath e Aragorn raggiunge Linhir.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 11 marzo 3019
+
+## Il consiglio dei capitani
+
+**ID:** `consiglio-capitani` · **Tipo:** consiglio · **Certezza:** certa
+
+**Quando:** 16 marzo 3019 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aragorn | Gondor | comandante | propone la marcia sul Morannon |
+| Gandalf | Istari | consigliere | sostiene il piano |
+| Éomer | Rohan | comandante | partecipa |
+| Imrahil | Dol Amroth | comandante | partecipa |
+
+**Versione breve:** I capitani decidono di marciare sul Morannon per distrarre Sauron e dare a Frodo il tempo di distruggere l'Anello.
+
+**Testo lungo:** Il 16 marzo 3019 i capitani di Gondor e Rohan si riuniscono a Minas Tirith. Decidono di marciare sul Morannon con l'Esercito dell'Ovest: non per vincere, ma per attirare l'attenzione di Sauron e dare a Frodo il tempo di raggiungere il Monte Fato.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 16 marzo 3019
+
 ## Battaglia dei Campi del Pelennor
 
 **ID:** `pelennor` · **Tipo:** battaglia · **Certezza:** certa
@@ -3357,6 +4087,211 @@ la versione breve è quella che compare sulla linea del tempo.
 - Il Signore degli Anelli, Appendice B, 15 marzo 3019; Libro V, capitolo 6
 
 **Note:** Nomi verificati sull'epub: Nevecrino (non Snowmane), Casa dei Sovrintendenti (singolare), Rath Dinen, Sudroni, Dernhelm, Harlond.
+
+## Sam libera Frodo
+
+**ID:** `sam-libera-frodo` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 14 marzo 3019 · Terza Era
+
+**Dove:** Cirith Ungol, Minas Tirith
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Samvise Gamgi | Hobbit | compagno | trova Frodo nella torre |
+| Frodo Baggins | Hobbit | Portatore | viene liberato |
+| gli Orchetti | Cirith Ungol | guardiani | vengono sconfitti |
+
+**Versione breve:** Sam trova Frodo nella Torre di Cirith Ungol; intanto Minas Tirith è sotto assedio.
+
+**Testo lungo:** Il 14 marzo 3019 Sam entra nella Torre di Cirith Ungol e trova Frodo. Intanto Minas Tirith è sotto assedio e i Rohirrim raggiungono il Bosco Grigio, preparandosi alla battaglia del Pelennor.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 14 marzo 3019
+
+## Battaglia della Valle
+
+**ID:** `battaglia-valle-3019` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** 17 marzo 3019 · Terza Era
+
+**Dove:** Valle, Erebor
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Brand | Valle | re | muore |
+| Dàin Piediferro | Nani | re | muore |
+| gli Esterling | Est | invasori | vincono la battaglia |
+
+**Versione breve:** Alla Valle cadono re Brand e re Dàin Piediferro; Nani e Uomini si rifugiano a Erebor.
+
+**Testo lungo:** Il 17 marzo 3019 gli Esterling attaccano la Valle. Re Brand e re Dàin Piediferro muoiono in battaglia, e Nani e Uomini si rifugiano a Erebor, dove vengono assediati. La vittoria del Nord arriverà solo dopo la caduta di Sauron.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 17 marzo 3019
+
+## L'Esercito entra nella Valle di Morgul
+
+**ID:** `esercito-morgul-vale` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 19 marzo 3019 · Terza Era
+
+**Dove:** Minas Morgul, Ithilien, Mordor
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aragorn | Esercito dell'Ovest | comandante | entra nella valle |
+| Gandalf | Esercito dell'Ovest | comandante | entra nella valle |
+| l'Esercito dell'Ovest | Gondor e Rohan | esercito | marcia verso Mordor |
+| Frodo Baggins | Hobbit | Portatore | fugge lungo la strada |
+| Samvise Gamgi | Hobbit | compagno | lo accompagna |
+
+**Versione breve:** L'Esercito dell'Ovest entra nella Valle di Morgul; Frodo e Sam fuggono lungo la strada di Barad-dûr.
+
+**Testo lungo:** Il 19 marzo 3019 l'Esercito dell'Ovest arriva nella Valle di Morgul. Frodo e Sam, intanto, fuggono lungo la strada che porta a Barad-dûr, cercando di non essere visti.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 19 marzo 3019
+
+## L'Esercito dell'Ovest parte
+
+**ID:** `esercito-ovest-parte` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 18 marzo 3019 · Terza Era
+
+**Dove:** Minas Tirith, Ithilien, Morannon
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aragorn | Esercito dell'Ovest | comandante | guida la marcia |
+| Gandalf | Esercito dell'Ovest | comandante | guida la marcia |
+| l'Esercito dell'Ovest | Gondor e Rohan | esercito | marcia verso Mordor |
+
+**Versione breve:** L'Esercito dell'Ovest lascia Minas Tirith e marcia verso il Morannon.
+
+**Testo lungo:** Il 18 marzo 3019 l'Esercito dell'Ovest lascia Minas Tirith e marcia verso il Morannon. È una spedizione disperata: il suo scopo è attirare Sauron mentre Frodo e Sam si avvicinano al Monte Fato.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 18 marzo 3019
+
+## L'Esercito lascia l'Ithilien
+
+**ID:** `esercito-lascia-ithilien` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 23 marzo 3019 · Terza Era
+
+**Dove:** Ithilien, Mordor
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aragorn | Esercito dell'Ovest | comandante | lascia l'Ithilien |
+| Gandalf | Esercito dell'Ovest | comandante | lascia l'Ithilien |
+| l'Esercito dell'Ovest | Gondor e Rohan | esercito | marcia verso il Morannon |
+| Frodo Baggins | Hobbit | Portatore | abbandona le armi |
+| Samvise Gamgi | Hobbit | compagno | abbandona le armi |
+
+**Versione breve:** L'Esercito dell'Ovest lascia l'Ithilien; Frodo e Sam abbandonano armi e oggetti inutili.
+
+**Testo lungo:** Il 23 marzo 3019 l'Esercito dell'Ovest lascia l'Ithilien e marcia verso il Morannon. Frodo e Sam, ormai vicini al Monte Fato, abbandonano armi e oggetti inutili per alleggerire il cammino.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 23 marzo 3019
+
+## Terzo assalto a Lórien
+
+**ID:** `terzo-assalto-lorien` · **Tipo:** guerra · **Certezza:** certa
+
+**Quando:** 22 marzo 3019 · Terza Era
+
+**Dove:** Lórien, Mordor
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Galadriel | Lórien | signora elfica | respinge l'assalto |
+| gli Orchetti | Dol Guldur | assalitori | vengono respinti |
+| Frodo Baggins | Hobbit | Portatore | si dirige verso il Monte Fato |
+| Samvise Gamgi | Hobbit | compagno | lo accompagna |
+
+**Versione breve:** Terzo assalto a Lórien; Frodo e Sam lasciano la strada e si dirigono verso il Monte Fato.
+
+**Testo lungo:** Il 22 marzo 3019 Dol Guldur sferra il terzo assalto a Lórien, ancora respinto. Nello stesso giorno Frodo e Sam lasciano la strada di Barad-dûr e si dirigono a est, verso il Monte Fato.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 22 marzo 3019
+
+## L'ultima tappa di Frodo
+
+**ID:** `ultima-tappa-frodo` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 24 marzo 3019 · Terza Era
+
+**Dove:** Mordor, Monte Fato
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | intraprende l'ultima tappa |
+| Samvise Gamgi | Hobbit | compagno | lo accompagna |
+| Gollum | Montagne Nebbiose | guida | li segue |
+
+**Versione breve:** Frodo e Sam intraprendono l'ultima tappa verso il Monte Fato.
+
+**Testo lungo:** Il 24 marzo 3019 Frodo e Sam intraprendono l'ultima tappa del viaggio verso i piedi del Monte Fato. L'Esercito dell'Ovest si accampa intanto nella Desolazione del Morannon, pronto alla battaglia finale.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, I Grandi Anni, 24 marzo 3019
+
+## Bard II caccia il nemico dalla Valle
+
+**ID:** `bard-ii-valle` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** 27 marzo 3019 · Terza Era
+
+**Dove:** Valle, Erebor
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Bard II | Valle | re | caccia gli Esterling |
+| Thorin III Elminpietra | Nani | re | caccia gli Esterling |
+| gli Esterling | Est | invasori | vengono sconfitti |
+
+**Versione breve:** Bard II e Thorin III Elminpietra cacciano gli Esterling dalla Valle.
+
+**Testo lungo:** Il 27 marzo 3019, giunta la notizia della caduta di Sauron, Bard II e Thorin III Elminpietra escono da Erebor e cacciano gli Esterling dalla Valle. I due regni del Nord sono salvi.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, Giorni principali, 27 marzo 3019
 
 ## Distruzione dell'Anello
 
@@ -3412,6 +4347,79 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, 25 marzo 3019; Libro V, capitolo 10
 
+## Celeborn distrugge Dol Guldur
+
+**ID:** `distruzione-dol-guldur` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** 28 marzo 3019 · Terza Era
+
+**Dove:** Dol Guldur, Bosco Atro, Lórien
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Celeborn | Lórien | signore elfico | guida l'esercito |
+| Galadriel | Lórien | signora elfica | distrugge le mura |
+| gli Elfi Silvani | Lórien | esercito | conquista la fortezza |
+
+**Versione breve:** Celeborn attraversa l'Anduin e inizia la distruzione di Dol Guldur; Galadriel ne abbatte le mura.
+
+**Testo lungo:** Il 28 marzo 3019 Celeborn attraversa l'Anduin con l'esercito di Lórien e comincia la distruzione di Dol Guldur. Galadriel ne abbatte le mura e ne svuota i pozzi: la fortezza di Sauron nel Bosco Atro cade.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, Giorni principali, 28 marzo 3019
+
+## Il Bosco Atro diventa Eryn Lasgalen
+
+**ID:** `eryn-lasgalen` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 6 aprile 3019 · Terza Era
+
+**Dove:** Bosco Atro
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Celeborn | Lórien | signore elfico | prende la parte meridionale |
+| Thranduil | Bosco Atro | re elfico | prende la parte settentrionale |
+
+**Versione breve:** Celeborn e Thranduil si incontrano e cambiano il nome del Bosco Atro in Eryn Lasgalen, il Bosco di Foglieverdi.
+
+**Testo lungo:** Il 6 aprile 3019 Celeborn e Thranduil si incontrano in mezzo al Bosco Atro. La foresta viene purificata e prende il nome di Eryn Lasgalen, il Bosco di Foglieverdi. Thranduil ne prende la parte settentrionale, Celeborn quella meridionale.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, Giorni principali, 6 aprile 3019
+
+## Onori sul Campo di Cormallen
+
+**ID:** `campo-cormallen` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 8 aprile 3019 · Terza Era
+
+**Dove:** Campo di Cormallen, Ithilien
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | riceve gli onori |
+| Samvise Gamgi | Hobbit | Portatore | riceve gli onori |
+| Aragorn | Gondor | re | presiede |
+| Gandalf | Istari | consigliere | partecipa |
+
+**Versione breve:** Frodo e Sam ricevono grandi onori sul Campo di Cormallen.
+
+**Testo lungo:** L'8 aprile 3019 l'esercito si raduna sul Campo di Cormallen, in Ithilien. Frodo e Sam vengono celebrati come Portatori dell'Anello, davanti a Aragorn, Gandalf e ai capitani di Gondor e Rohan.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, Giorni principali, 8 aprile 3019
+
 ## Incoronazione di Re Elessar
 
 **ID:** `elessar` · **Tipo:** politica · **Certezza:** certa
@@ -3461,6 +4469,79 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Note:** La data esatta segue il calendario della Contea; il testo la indica come «Giorno di Mezza Estate».
 
+## Aragorn trova l'Alberello Bianco
+
+**ID:** `alberello-bianco` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 25 giugno 3019 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aragorn | Gondor | re | trova l'alberello |
+| Arwen | Gran Burrone | regina | giunge a Minas Tirith |
+
+**Versione breve:** Aragorn trova un Alberello Bianco sul Mindolluin; Arwen giunge a Minas Tirith.
+
+**Testo lungo:** Il 25 giugno 3019 Aragorn trova sul Mindolluin un Alberello Bianco, discendente dell'albero perduto. Arwen giunge a Minas Tirith per le nozze, che si celebrano nel Giorno di Mezza Estate.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, Giorni principali, 25 giugno 3019
+
+## Funerali di Théoden
+
+**ID:** `funerali-theoden` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 10 agosto 3019 · Terza Era
+
+**Dove:** Edoras, Rohan
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Théoden | Rohan | re | viene sepolto |
+| Éomer | Rohan | re | guida il regno |
+| Éowyn | Rohan | nipote | partecipa |
+| Aragorn | Gondor | re | partecipa |
+
+**Versione breve:** Théoden viene sepolto a Edoras; Éomer diventa re di Rohan.
+
+**Testo lungo:** Il 10 agosto 3019 si svolgono i funerali di Théoden a Edoras. Il re caduto ai Campi del Pelennor viene sepolto nei Tumuli dei Re, e Éomer assume il governo di Rohan.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, Giorni principali, 10 agosto 3019
+
+## I Viaggiatori arrivano nella Contea
+
+**ID:** `ritorno-contea` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 1-2 novembre 3019 · Terza Era
+
+**Dove:** Contea, Lungacque
+
+**Fa parte di:** La Guerra dell'Anello
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | viaggiatore | arriva nella Contea |
+| Samvise Gamgi | Hobbit | viaggiatore | arriva nella Contea |
+| Meriadoc Brandibuck | Hobbit | viaggiatore | arriva nella Contea |
+| Peregrino Tuc | Hobbit | viaggiatore | arriva nella Contea |
+| Saruman | Isengard | tiranno | occupa la Contea |
+
+**Versione breve:** Frodo, Sam, Merry e Pippin arrivano nella Contea e la trovano occupata dagli uomini di Saruman.
+
+**Testo lungo:** Tra il 1 e il 2 novembre 3019 i quattro Hobbit arrivano nella Contea e la trovano occupata dagli uomini di Saruman. Il 3 novembre li affrontano a Lungacque: è l'ultima battaglia della Guerra dell'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, Giorni principali, 1-2 novembre 3019
+
 ## Battaglia di Lungacque
 
 **ID:** `lungacque` · **Tipo:** battaglia · **Certezza:** certa
@@ -3491,6 +4572,205 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Note:** «Grima Vermilinguo» è la forma dell'edizione Bompiani, verificata sull'epub.
 
+## Frodo si sente male
+
+**ID:** `frodo-malato-3020` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 13 marzo 3020 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | reduce | si ammala |
+
+**Versione breve:** Frodo si sente male nell'anniversario della ferita di Shelob.
+
+**Testo lungo:** Il 13 marzo 3020 Frodo si sente male. La ferita ricevuta a Colle Vento e il ricordo di Shelob tornano a farsi sentire ogni anno, segno che la sua guarigione non sarà completa.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3020
+
+## Fiorisce il mallorn
+
+**ID:** `mallorn-fiorisce` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 6 aprile 3020 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Samvise Gamgi | Hobbit | giardiniere | vede fiorire l'albero |
+
+**Versione breve:** Il mallorn fiorisce nel Prato della Festa.
+
+**Testo lungo:** Il 6 aprile 3020 il mallorn piantato da Sam fiorisce nel Prato della Festa. È il segno che la Contea sta guarendo dopo la guerra e che la bellezza elfica è arrivata anche tra gli Hobbit.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3020
+
+## Sam sposa Rosie Cotton
+
+**ID:** `sam-rosie` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 1 maggio 3020 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Samvise Gamgi | Hobbit | sposo | sposa Rosie |
+| Rosie Cotton | Hobbit | sposa | sposa Sam |
+
+**Versione breve:** Sam sposa Rosie Cotton.
+
+**Testo lungo:** Il 1 maggio 3020 Samvise Gamgi sposa Rosie Cotton. Dalla loro unione nascerà Elanor la Bella, e la famiglia Gamgi diventerà una delle più importanti della Contea.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3020
+
+## Frodo lascia l'incarico di Sindaco
+
+**ID:** `frodo-si-dimetta` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Giorno di Mezza Estate 3020 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Sindaco | si dimette |
+
+**Versione breve:** Nel Giorno di Mezza Estate Frodo si dimette dall'incarico di Sindaco.
+
+**Testo lungo:** Nel Giorno di Mezza Estate del 3020 Frodo si dimette dall'incarico di Sindaco della Contea. La vita pubblica torna nelle mani degli Hobbit, ma Frodo resta segnato dalla guerra.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3020
+
+## Il centotrentesimo compleanno di Bilbo
+
+**ID:** `compleanno-bilbo-3020` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 22 settembre 3020 · Terza Era
+
+**Dove:** Gran Burrone
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Bilbo Baggins | Hobbit | festeggiato | compie 130 anni |
+| Elrond | Gran Burrone | ospite | lo festeggia |
+
+**Versione breve:** Bilbo compie 130 anni a Gran Burrone.
+
+**Testo lungo:** Il 22 settembre 3020 Bilbo compie 130 anni a Gran Burrone. È un traguardo raro per un Hobbit, e la sua longevità resta legata all'Anello che ha portato per tanti anni.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3020
+
+## Frodo si ammala di nuovo
+
+**ID:** `frodo-malato-3021` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 13 marzo 3021 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | reduce | si ammala |
+
+**Versione breve:** Frodo si ammala di nuovo nell'anniversario della ferita.
+
+**Testo lungo:** Il 13 marzo 3021 Frodo si ammala di nuovo. Le ferite della guerra non guariscono, e la sua decisione di lasciare la Terra di Mezzo si avvicina.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3021
+
+## Nasce Elanor la Bella
+
+**ID:** `elanor-nasce` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** 25 marzo 3021 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Elanor | Hobbit | neonata | nasce |
+| Samvise Gamgi | Hobbit | padre | la alleva |
+| Rosie Cotton | Hobbit | madre | la alleva |
+
+**Versione breve:** Nasce Elanor la Bella, figlia di Sam e Rosie.
+
+**Testo lungo:** Il 25 marzo 3021 nasce Elanor la Bella, figlia di Samvise e Rosie. Secondo il calendario di Gondor, con questa data comincia la Quarta Era.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3021
+
+## Frodo e Sam lasciano Hobbiville
+
+**ID:** `frodo-sam-parte` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 21 settembre 3021 · Terza Era
+
+**Dove:** Hobbiville, Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | parte |
+| Samvise Gamgi | Hobbit | compagno | lo accompagna |
+
+**Versione breve:** Frodo e Sam partono da Hobbiville verso i Rifugi Oscuri.
+
+**Testo lungo:** Il 21 settembre 3021 Frodo e Sam lasciano Hobbiville. Il giorno dopo incontrano l'Ultima Cavalcata dei Custodi degli Anelli, e il 29 settembre raggiungono i Rifugi Oscuri.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3021
+
+## L'Ultima Cavalcata dei Custodi
+
+**ID:** `ultima-cavalcata` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** 22 settembre 3021 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | Portatore | si unisce ai Custodi |
+| Samvise Gamgi | Hobbit | compagno | li accompagna |
+| Bilbo Baggins | Hobbit | Portatore | si unisce ai Custodi |
+| Gandalf | Istari | Custode | guida la cavalcata |
+| Elrond | Imladris | Custode | partecipa |
+| Galadriel | Lórien | Custode | partecipa |
+
+**Versione breve:** Frodo e Sam incontrano l'Ultima Cavalcata dei Custodi degli Anelli.
+
+**Testo lungo:** Il 22 settembre 3021 Frodo e Sam incontrano l'Ultima Cavalcata dei Custodi degli Anelli a Terminalbosco, presso i confini della Contea. Insieme si dirigono verso i Rifugi Oscuri.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3021
+
 ## La partenza dai Rifugi Oscuri
 
 **ID:** `porti-grigi` · **Tipo:** viaggio · **Certezza:** certa
@@ -3519,3 +4799,24 @@ la versione breve è quella che compare sulla linea del tempo.
 - Il Signore degli Anelli, Appendice B, 29 settembre 3021; Libro VI, capitolo 9
 
 **Note:** Il titolo usa «Rifugi Oscuri», la forma dell'edizione Bompiani. L'ID storico resta `porti-grigi`.
+
+## Sam torna a Casa Baggins
+
+**ID:** `sam-torna-casa` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 6 ottobre 3021 · Terza Era
+
+**Dove:** Hobbiville, Casa Baggins
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Samvise Gamgi | Hobbit | reduce | torna a casa |
+
+**Versione breve:** Sam torna a Casa Baggins, mentre la Terza Era è finita.
+
+**Testo lungo:** Il 6 ottobre 3021 Samvise Gamgi torna a Casa Baggins. Frodo e Bilbo sono partiti per l'Occidente, e Sam resta nella Contea con la famiglia. La Terza Era è finita.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3021

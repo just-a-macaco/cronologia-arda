@@ -1,8 +1,8 @@
 # Rapporto sul lavoro — Terza Era
 
-- Eventi: **151** (erano 51).
-- Partecipanti nominati: **163** nomi distinti, 421 presenze.
-- Luoghi nominati: **92** nomi distinti.
+- Eventi: **204** (erano 51).
+- Partecipanti nominati: **170** nomi distinti, 582 presenze.
+- Luoghi nominati: **100** nomi distinti.
 - Eventi con solo anno (o senza anno): **126**.
 - Eventi con nota o certezza non piena: **19**.
 

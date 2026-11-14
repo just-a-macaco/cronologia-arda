@@ -206,6 +206,6 @@ e `data/entita.yaml` contiene **43 entità collettive**. Insieme coprono **tutti
 schede per ID (`persona:` o `entita:`), come i luoghi.
 
 Per la Terza Era il database di eventi, luoghi e partecipanti è pronto. Il lavoro
-continua con l'espansione dell'Appendice B: 151 eventi e 119 anni su 127 coperti; gli 8 anni restanti sono dentro eventi-intervallo o annotazioni di regno. Restano i Grandi Anni 3018-3019, giorno per giorno.
+continua con l'espansione dell'Appendice B: 204 eventi e 119 anni su 127 coperti; gli 8 anni restanti sono dentro eventi-intervallo o annotazioni di regno. Dei Grandi Anni 3018-3019 sono coperti i passaggi principali; restano le giornate minori e alcuni dettagli del 3020-3021.
 Restano le famiglie (per gli alberi genealogici), le fonti come entità separate e
 la vetrina.

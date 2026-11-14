@@ -781,3 +781,68 @@
   dentro: null
   descrizione: La regione a sud dell'Eriador dove si stabiliscono gli Sturoi.
   nota: null
+
+- id: vecchia-foresta
+  nome: Vecchia Foresta
+  tipo: bosco
+  alias: []
+  dentro: eriador
+  descrizione: Il bosco antico a est della Contea, dove vive Tom Bombadil.
+  nota: null
+
+- id: casa-di-bombadil
+  nome: Casa di Tom Bombadil
+  tipo: edificio
+  alias: []
+  dentro: vecchia-foresta
+  descrizione: La casa di Tom Bombadil nella Vecchia Foresta.
+  nota: null
+
+- id: guado-bruinen
+  nome: Guado di Bruinen
+  tipo: passo
+  alias: []
+  dentro: eriador
+  descrizione: Il guado del Bruinen, dove Frodo sfugge ai Cavalieri Neri.
+  nota: null
+
+- id: caras-galadhon
+  nome: Caras Galadhon
+  tipo: città
+  alias: []
+  dentro: lorien
+  descrizione: La città degli alberi di Galadriel e Celeborn in Lórien.
+  nota: null
+
+- id: sarn-gebir
+  nome: Sarn Gebir
+  tipo: fiume
+  alias:
+    - Rapide di Sarn Gebir
+  dentro: anduin
+  descrizione: Le rapide dell'Anduin dove le barche della Compagnia vengono assalite.
+  nota: null
+
+- id: dunclivo
+  nome: Dunclivo
+  tipo: rifugio
+  alias: []
+  dentro: rohan
+  descrizione: Il rifugio di Rohan ai piedi dei Sentieri dei Morti.
+  nota: null
+
+- id: erech
+  nome: Erech
+  tipo: collina
+  alias: []
+  dentro: gondor
+  descrizione: La collina del Giuramento tradito, dove Aragorn raduna i Morti.
+  nota: null
+
+- id: campo-di-cormallen
+  nome: Campo di Cormallen
+  tipo: pianura
+  alias: []
+  dentro: ithilien
+  descrizione: Il campo in Ithilien dove i Portatori dell'Anello ricevono gli onori.
+  nota: null

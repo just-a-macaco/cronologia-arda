@@ -89,6 +89,7 @@
       "descrizione": "Gli Elfi del Bosco Atro e di Lórien.",
       "nota": null,
       "eventi": [
+        "distruzione-dol-guldur",
         "gollum-fugge"
       ]
     },
@@ -115,7 +116,9 @@
       "descrizione": "I popoli dell'Est che attaccano Gondor e Rohan.",
       "nota": null,
       "eventi": [
+        "bard-ii-valle",
         "battaglia-celebrant",
+        "battaglia-valle-3019",
         "invasione-esterling",
         "morte-romendacil",
         "romendacil-esterling"
@@ -138,10 +141,16 @@
         "colonia-moria",
         "compagnia-si-scioglie",
         "fortezze-orchetti",
+        "frodo-catturato",
         "gollum-fugge",
         "guerra-nani-orchetti",
         "orcs-eridor",
-        "orcs-rovano"
+        "orcs-rovano",
+        "primo-assalto-lorien",
+        "sam-libera-frodo",
+        "sarn-gebir",
+        "terzo-assalto-lorien",
+        "theodred-morte"
       ]
     },
     {
@@ -207,8 +216,10 @@
       "descrizione": "Il popolo dei Cavalieri di Rohan.",
       "nota": null,
       "eventi": [
+        "eomer-orchetti",
         "orcs-rovano",
-        "rohan"
+        "rohan",
+        "theoden-guarito"
       ]
     },
     {
@@ -339,6 +350,7 @@
       "eventi": [
         "angmar",
         "assedio-minas-ithil",
+        "frodo-ferito-colle-vento",
         "frodo-parte",
         "minas-ithil",
         "osgiliath-3018",
@@ -426,6 +438,9 @@
       "descrizione": "L'esercito di Gondor e Rohan che marcia sul Morannon.",
       "nota": null,
       "eventi": [
+        "esercito-lascia-ithilien",
+        "esercito-morgul-vale",
+        "esercito-ovest-parte",
         "morannon"
       ]
     },
@@ -556,7 +571,9 @@
       "descrizione": "Il popolo errante discendente di Arnor, guidato dai Capitani.",
       "nota": null,
       "eventi": [
+        "aragorn-sentieri-morti",
         "aranarth-capitano",
+        "dunedain-aragorn",
         "orcs-eridor"
       ]
     },
@@ -671,6 +688,6 @@
   ],
   "copertura": {
     "nomi_coperti": 51,
-    "nomi_scoperti": 112
+    "nomi_scoperti": 119
   }
 }

@@ -14,20 +14,35 @@
       "descrizione": "Lo Istaro Mithrandir, il Grigio, inviato in Terra di Mezzo per contrastare Sauron.",
       "nota": "Muore a Moria nel 3019 e ritorna come Gandalf il Bianco.",
       "eventi": [
+        "addio-lorien",
         "aragorn-gandalf",
+        "aragorn-gandalf-bianco",
+        "campo-cormallen",
+        "compagnia-moria",
         "compagnia-parte",
         "consiglio-2851",
+        "consiglio-capitani",
         "consiglio-dol-guldur",
         "consiglio-elrond",
         "elessar",
+        "esercito-lascia-ithilien",
+        "esercito-morgul-vale",
+        "esercito-ovest-parte",
         "festa-bilbo",
         "festa-inattesa",
         "fosso-helm",
         "frodo-parte",
         "gandalf-balin-bilbo",
+        "gandalf-balrog",
         "gandalf-dol-guldur",
+        "gandalf-edoras",
+        "gandalf-hobbiville-3018",
+        "gandalf-minas-tirith",
         "gandalf-moria",
+        "gandalf-pippin-minas-tirith",
+        "gandalf-prigioniero",
         "gandalf-visita-frodo",
+        "giorno-senza-alba",
         "gollum-catturato",
         "istari",
         "lungo-inverno",
@@ -36,6 +51,8 @@
         "pelennor",
         "porti-grigi",
         "ricerca-gollum",
+        "theoden-guarito",
+        "ultima-cavalcata",
         "ultima-visita-gandalf",
         "ultimo-consiglio"
       ]
@@ -54,17 +71,44 @@
       "descrizione": "L'Hobbit della Contea che porta l'Unico Anello fino al Monte Fato.",
       "nota": null,
       "eventi": [
+        "addio-lorien",
+        "campo-cormallen",
+        "caras-galadhon",
+        "compagnia-moria",
         "compagnia-parte",
         "compagnia-si-scioglie",
         "consiglio-elrond",
         "distruzione-anello",
+        "esercito-lascia-ithilien",
+        "esercito-morgul-vale",
         "festa-bilbo",
+        "frodo-brea",
+        "frodo-catturato",
+        "frodo-ferito-colle-vento",
+        "frodo-gollum",
+        "frodo-henneth",
+        "frodo-malato-3020",
+        "frodo-malato-3021",
+        "frodo-morannon-margini",
         "frodo-parte",
+        "frodo-sam-parte",
+        "frodo-si-dimetta",
+        "frodo-tana-shelob",
+        "frodo-vecchia-foresta",
+        "gandalf-hobbiville-3018",
         "gandalf-moria",
         "gandalf-visita-frodo",
+        "giorno-senza-alba",
+        "guado-bruinen",
         "lungacque",
         "nascita-frodo",
         "porti-grigi",
+        "ritorno-contea",
+        "sam-libera-frodo",
+        "sarn-gebir",
+        "terzo-assalto-lorien",
+        "ultima-cavalcata",
+        "ultima-tappa-frodo",
         "ultima-visita-gandalf"
       ]
     },
@@ -84,14 +128,29 @@
       "descrizione": "L'erede di Isildur, Ramingo del Nord, incoronato re Elessar.",
       "nota": null,
       "eventi": [
+        "alberello-bianco",
         "aragorn-arwen-cerin-amroth",
         "aragorn-gandalf",
+        "aragorn-gandalf-bianco",
+        "aragorn-sentieri-morti",
         "arathorn-ucciso",
+        "campo-cormallen",
+        "compagnia-moria",
         "compagnia-si-scioglie",
+        "consiglio-capitani",
         "consiglio-elrond",
+        "dunedain-aragorn",
         "elessar",
+        "esercito-lascia-ithilien",
+        "esercito-morgul-vale",
+        "esercito-ovest-parte",
         "fosso-helm",
+        "frodo-brea",
+        "frodo-catturato",
+        "frodo-ferito-colle-vento",
+        "funerali-theoden",
         "gandalf-moria",
+        "giorno-senza-alba",
         "gollum-catturato",
         "morannon",
         "nascita-aragorn",
@@ -121,11 +180,13 @@
         "bilbo-nasce",
         "bilbo-torna",
         "cinque-eserciti",
+        "compleanno-bilbo-3020",
         "consiglio-elrond",
         "festa-bilbo",
         "festa-inattesa",
         "gandalf-balin-bilbo",
-        "porti-grigi"
+        "porti-grigi",
+        "ultima-cavalcata"
       ]
     },
     {
@@ -142,12 +203,32 @@
       "descrizione": "Il giardiniere di Frodo, che lo accompagna fino a Mordor.",
       "nota": null,
       "eventi": [
+        "campo-cormallen",
         "compagnia-si-scioglie",
         "distruzione-anello",
+        "elanor-nasce",
+        "esercito-lascia-ithilien",
+        "esercito-morgul-vale",
+        "frodo-brea",
+        "frodo-catturato",
+        "frodo-gollum",
+        "frodo-henneth",
+        "frodo-morannon-margini",
         "frodo-parte",
+        "frodo-sam-parte",
+        "frodo-tana-shelob",
+        "frodo-vecchia-foresta",
         "lungacque",
+        "mallorn-fiorisce",
         "nascita-faramir-sam",
-        "porti-grigi"
+        "porti-grigi",
+        "ritorno-contea",
+        "sam-libera-frodo",
+        "sam-rosie",
+        "sam-torna-casa",
+        "terzo-assalto-lorien",
+        "ultima-cavalcata",
+        "ultima-tappa-frodo"
       ]
     },
     {
@@ -194,8 +275,11 @@
         "consiglio-dol-guldur",
         "distruzione-isengard",
         "fosso-helm",
+        "gandalf-pippin-minas-tirith",
+        "gandalf-prigioniero",
         "istari",
         "lungacque",
+        "ritorno-contea",
         "saruman-isengard",
         "saruman-scopre",
         "saruman-tradisce",
@@ -217,15 +301,22 @@
       "nota": "La nascita è approssimativa, intorno al 2430.",
       "eventi": [
         "anello-bilbo",
+        "compagnia-moria",
         "deagol-anello",
         "distruzione-anello",
+        "frodo-gollum",
+        "frodo-henneth",
+        "frodo-morannon-margini",
+        "frodo-tana-shelob",
         "gollum-catturato",
         "gollum-fugge",
         "gollum-lascia-montagne",
         "gollum-montagne",
         "gollum-shelob",
+        "primo-assalto-lorien",
         "ricerca-gollum",
-        "sauron-si-dichiara"
+        "sauron-si-dichiara",
+        "ultima-tappa-frodo"
       ]
     },
     {
@@ -243,15 +334,18 @@
         "aranarth-capitano",
         "arathorn-ucciso",
         "bilbo-gran-burrone",
+        "compleanno-bilbo-3020",
         "consiglio-dol-guldur",
         "consiglio-elrond",
         "elessar",
         "elladan-elrohir",
         "elrond-celebrian",
+        "guado-bruinen",
         "nascita-arwen",
         "nozze-elessar-arwen",
         "porti-grigi",
-        "sauron-si-dichiara"
+        "sauron-si-dichiara",
+        "ultima-cavalcata"
       ]
     },
     {
@@ -266,8 +360,14 @@
       "descrizione": "La signora elfica di Lórien e custode di uno dei Tre Anelli.",
       "nota": null,
       "eventi": [
+        "addio-lorien",
+        "caras-galadhon",
         "consiglio-dol-guldur",
-        "porti-grigi"
+        "distruzione-dol-guldur",
+        "porti-grigi",
+        "primo-assalto-lorien",
+        "terzo-assalto-lorien",
+        "ultima-cavalcata"
       ]
     },
     {
@@ -302,9 +402,15 @@
       "descrizione": "Il re di Rohan nella Guerra dell'Anello, morto ai Campi del Pelennor.",
       "nota": null,
       "eventi": [
+        "dunedain-aragorn",
         "fosso-helm",
+        "funerali-theoden",
+        "gandalf-edoras",
+        "gandalf-pippin-minas-tirith",
+        "giorno-senza-alba",
         "nascita-theoden",
         "pelennor",
+        "theoden-guarito",
         "theoden-re"
       ]
     },
@@ -322,6 +428,7 @@
       "descrizione": "La nipote di Théoden, che uccide il Re degli Stregoni sotto il nome di Dernhelm.",
       "nota": null,
       "eventi": [
+        "funerali-theoden",
         "nascita-eowyn",
         "pelennor"
       ]
@@ -338,10 +445,14 @@
       "descrizione": "Il nipote di Théoden e maresciallo del Mark, poi re di Rohan.",
       "nota": null,
       "eventi": [
+        "consiglio-capitani",
+        "eomer-orchetti",
         "fosso-helm",
+        "funerali-theoden",
         "morannon",
         "nascita-eomer",
-        "pelennor"
+        "pelennor",
+        "theoden-guarito"
       ]
     },
     {
@@ -356,6 +467,7 @@
       "descrizione": "Il figlio di Denethor, caduto a Parth Galen.",
       "nota": null,
       "eventi": [
+        "boromir-parte",
         "compagnia-si-scioglie",
         "consiglio-elrond",
         "gandalf-moria",
@@ -374,6 +486,9 @@
       "descrizione": "Il figlio di Denethor, Sovrintendente di Gondor dopo la guerra.",
       "nota": null,
       "eventi": [
+        "frodo-catturato",
+        "frodo-henneth",
+        "giorno-senza-alba",
         "nascita-faramir-sam",
         "pelennor"
       ]
@@ -393,9 +508,12 @@
       "nota": null,
       "eventi": [
         "compagnia-si-scioglie",
+        "eomer-orchetti",
         "frodo-parte",
+        "frodo-vecchia-foresta",
         "lungacque",
-        "pelennor"
+        "pelennor",
+        "ritorno-contea"
       ]
     },
     {
@@ -413,8 +531,13 @@
       "nota": null,
       "eventi": [
         "compagnia-si-scioglie",
+        "eomer-orchetti",
         "frodo-parte",
-        "lungacque"
+        "frodo-vecchia-foresta",
+        "gandalf-minas-tirith",
+        "gandalf-pippin-minas-tirith",
+        "lungacque",
+        "ritorno-contea"
       ]
     },
     {
@@ -429,6 +552,7 @@
       "descrizione": "Il Nano della Compagnia, figlio di Glóin.",
       "nota": null,
       "eventi": [
+        "aragorn-gandalf-bianco",
         "consiglio-elrond",
         "gandalf-moria"
       ]
@@ -445,6 +569,7 @@
       "descrizione": "L'elfo di Bosco Atro, arciere della Compagnia.",
       "nota": null,
       "eventi": [
+        "aragorn-gandalf-bianco",
         "consiglio-elrond",
         "gandalf-moria"
       ]
@@ -509,6 +634,7 @@
       "descrizione": "La figlia di Elrond, che sposa Aragorn e sceglie la sorte degli Uomini.",
       "nota": null,
       "eventi": [
+        "alberello-bianco",
         "aragorn-arwen-cerin-amroth",
         "elessar",
         "nascita-arwen",
@@ -627,11 +753,13 @@
       "nota": null,
       "eventi": [
         "denethor-sovrintendente",
+        "gandalf-minas-tirith",
         "nascita-boromir",
         "nascita-denethor",
         "nascita-faramir-sam",
         "nozze-denethor-finduilas",
-        "pelennor"
+        "pelennor",
+        "primo-assalto-lorien"
       ]
     },
     {
@@ -678,6 +806,7 @@
       "descrizione": "Il re nano che diventa Re sotto la Montagna dopo Thorin.",
       "nota": null,
       "eventi": [
+        "battaglia-valle-3019",
         "cinque-eserciti",
         "nanduhirion"
       ]
@@ -837,7 +966,8 @@
       "descrizione": "Il signore elfico di Gran Burrone che pronuncia la profezia sul Re degli Stregoni.",
       "nota": null,
       "eventi": [
-        "battaglia-fornost"
+        "battaglia-fornost",
+        "guado-bruinen"
       ]
     },
     {
@@ -897,6 +1027,7 @@
       "descrizione": "Il principe di Dol Amroth, comandante nella Guerra dell'Anello.",
       "nota": null,
       "eventi": [
+        "consiglio-capitani",
         "morannon"
       ]
     },
@@ -1111,6 +1242,7 @@
       "nota": null,
       "eventi": [
         "cinque-eserciti",
+        "eryn-lasgalen",
         "gollum-catturato",
         "gollum-fugge"
       ]
@@ -1249,6 +1381,7 @@
       "nota": null,
       "eventi": [
         "balrog-moria",
+        "gandalf-balrog",
         "gandalf-moria"
       ]
     },
@@ -1890,6 +2023,7 @@
       "descrizione": "Il figlio di Bain, re della Valle durante la Guerra dell'Anello.",
       "nota": null,
       "eventi": [
+        "battaglia-valle-3019",
         "brand-re-valle"
       ]
     },
@@ -1905,13 +2039,129 @@
       "descrizione": "La grande ragna che vive a Cirith Ungol.",
       "nota": null,
       "eventi": [
+        "frodo-tana-shelob",
         "gollum-shelob"
+      ]
+    },
+    {
+      "id": "tom-bombadil",
+      "nome": "Tom Bombadil",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Essere antico",
+      "nascita": null,
+      "morte": null,
+      "alias": [
+        "Bombadil"
+      ],
+      "descrizione": "L'essere antichissimo che vive nella Vecchia Foresta.",
+      "nota": null,
+      "eventi": [
+        "frodo-vecchia-foresta"
+      ]
+    },
+    {
+      "id": "theodred",
+      "nome": "Théodred",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": 3019,
+      "alias": [],
+      "descrizione": "Il figlio di Théoden, caduto ai Guadi dell'Isen.",
+      "nota": null,
+      "eventi": [
+        "theodred-morte"
+      ]
+    },
+    {
+      "id": "bard-ii",
+      "nome": "Bard II",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il figlio di Brand, re della Valle dopo la Guerra dell'Anello.",
+      "nota": null,
+      "eventi": [
+        "bard-ii-valle"
+      ]
+    },
+    {
+      "id": "thorin-iii",
+      "nome": "Thorin III Elminpietra",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "alias": [
+        "Thorin III"
+      ],
+      "descrizione": "Il figlio di Dàin Piediferro, Re sotto la Montagna dopo la guerra.",
+      "nota": null,
+      "eventi": [
+        "bard-ii-valle"
+      ]
+    },
+    {
+      "id": "celeborn",
+      "nome": "Celeborn",
+      "tipo": "personaggio",
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il signore di Lórien, marito di Galadriel.",
+      "nota": null,
+      "eventi": [
+        "distruzione-dol-guldur",
+        "eryn-lasgalen"
+      ]
+    },
+    {
+      "id": "elanor",
+      "nome": "Elanor",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3021,
+      "morte": null,
+      "alias": [
+        "Elanor la Bella"
+      ],
+      "descrizione": "La figlia di Samvise e Rosie, nata nel 3021.",
+      "nota": null,
+      "eventi": [
+        "elanor-nasce"
+      ]
+    },
+    {
+      "id": "rosie-cotton",
+      "nome": "Rosie Cotton",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "alias": [
+        "Rosie"
+      ],
+      "descrizione": "La moglie di Samvise Gamgi.",
+      "nota": null,
+      "eventi": [
+        "elanor-nasce",
+        "sam-rosie"
       ]
     }
   ],
   "copertura": {
-    "nomi_citati": 163,
-    "nomi_coperti": 112,
+    "nomi_citati": 170,
+    "nomi_coperti": 119,
     "nomi_coperti_da_entita": 51,
     "nomi_scoperti": 0,
     "scoperti": {}

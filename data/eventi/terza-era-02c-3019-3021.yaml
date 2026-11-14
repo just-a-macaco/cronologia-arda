@@ -1,0 +1,359 @@
+# Schede della Terza Era, 3019-3021 (completamento).
+# Ultimi giorni dei Grandi Anni e primi anni della Contea dopo la guerra.
+# Fonte: Il Signore degli Anelli, Appendice B (Bompiani 2004).
+
+- id: esercito-morgul-vale
+  titolo: L'Esercito entra nella Valle di Morgul
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 19
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "19 marzo 3019"
+  luoghi:
+    - minas-morgul
+    - ithilien
+    - mordor
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: aragorn
+      parte: Esercito dell'Ovest
+      ruolo: comandante
+      esito: entra nella valle
+    - persona: gandalf
+      parte: Esercito dell'Ovest
+      ruolo: comandante
+      esito: entra nella valle
+    - entita: gruppo-esercito-ovest
+      parte: Gondor e Rohan
+      ruolo: esercito
+      esito: marcia verso Mordor
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: fugge lungo la strada
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: lo accompagna
+  breve: >-
+    L'Esercito dell'Ovest entra nella Valle di Morgul; Frodo e Sam fuggono
+    lungo la strada di Barad-dûr.
+  lungo: >-
+    Il 19 marzo 3019 l'Esercito dell'Ovest arriva nella Valle di Morgul. Frodo
+    e Sam, intanto, fuggono lungo la strada che porta a Barad-dûr, cercando di
+    non essere visti.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 19 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: terzo-assalto-lorien
+  titolo: Terzo assalto a Lórien
+  tipo: guerra
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 22
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "22 marzo 3019"
+  luoghi:
+    - lorien
+    - mordor
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: galadriel
+      parte: Lórien
+      ruolo: signora elfica
+      esito: respinge l'assalto
+    - entita: popolo-orchetti
+      parte: Dol Guldur
+      ruolo: assalitori
+      esito: vengono respinti
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: si dirige verso il Monte Fato
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: lo accompagna
+  breve: >-
+    Terzo assalto a Lórien; Frodo e Sam lasciano la strada e si dirigono verso
+    il Monte Fato.
+  lungo: >-
+    Il 22 marzo 3019 Dol Guldur sferra il terzo assalto a Lórien, ancora
+    respinto. Nello stesso giorno Frodo e Sam lasciano la strada di Barad-dûr e
+    si dirigono a est, verso il Monte Fato.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 22 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: esercito-lascia-ithilien
+  titolo: L'Esercito lascia l'Ithilien
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 23
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "23 marzo 3019"
+  luoghi:
+    - ithilien
+    - mordor
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: aragorn
+      parte: Esercito dell'Ovest
+      ruolo: comandante
+      esito: lascia l'Ithilien
+    - persona: gandalf
+      parte: Esercito dell'Ovest
+      ruolo: comandante
+      esito: lascia l'Ithilien
+    - entita: gruppo-esercito-ovest
+      parte: Gondor e Rohan
+      ruolo: esercito
+      esito: marcia verso il Morannon
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: abbandona le armi
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: abbandona le armi
+  breve: >-
+    L'Esercito dell'Ovest lascia l'Ithilien; Frodo e Sam abbandonano armi e
+    oggetti inutili.
+  lungo: >-
+    Il 23 marzo 3019 l'Esercito dell'Ovest lascia l'Ithilien e marcia verso il
+    Morannon. Frodo e Sam, ormai vicini al Monte Fato, abbandonano armi e
+    oggetti inutili per alleggerire il cammino.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 23 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: frodo-malato-3020
+  titolo: Frodo si sente male
+  tipo: evento
+  data:
+    era: terza
+    anno: 3020
+    mese: 3
+    giorno: 13
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "13 marzo 3020"
+  luoghi:
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: reduce
+      esito: si ammala
+  breve: >-
+    Frodo si sente male nell'anniversario della ferita di Shelob.
+  lungo: >-
+    Il 13 marzo 3020 Frodo si sente male. La ferita ricevuta a Colle Vento e il
+    ricordo di Shelob tornano a farsi sentire ogni anno, segno che la sua
+    guarigione non sarà completa.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3020"
+  certezza: certa
+  note: null
+
+- id: mallorn-fiorisce
+  titolo: Fiorisce il mallorn
+  tipo: evento
+  data:
+    era: terza
+    anno: 3020
+    mese: 4
+    giorno: 6
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "6 aprile 3020"
+  luoghi:
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: giardiniere
+      esito: vede fiorire l'albero
+  breve: >-
+    Il mallorn fiorisce nel Prato della Festa.
+  lungo: >-
+    Il 6 aprile 3020 il mallorn piantato da Sam fiorisce nel Prato della Festa.
+    È il segno che la Contea sta guarendo dopo la guerra e che la bellezza
+    elfica è arrivata anche tra gli Hobbit.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3020"
+  certezza: certa
+  note: null
+
+- id: frodo-si-dimetta
+  titolo: Frodo lascia l'incarico di Sindaco
+  tipo: politica
+  data:
+    era: terza
+    anno: 3020
+    mese: 6
+    giorno: 25
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "Giorno di Mezza Estate 3020"
+  luoghi:
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Sindaco
+      esito: si dimette
+  breve: >-
+    Nel Giorno di Mezza Estate Frodo si dimette dall'incarico di Sindaco.
+  lungo: >-
+    Nel Giorno di Mezza Estate del 3020 Frodo si dimette dall'incarico di
+    Sindaco della Contea. La vita pubblica torna nelle mani degli Hobbit, ma
+    Frodo resta segnato dalla guerra.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3020"
+  certezza: certa
+  note: null
+
+- id: compleanno-bilbo-3020
+  titolo: Il centotrentesimo compleanno di Bilbo
+  tipo: evento
+  data:
+    era: terza
+    anno: 3020
+    mese: 9
+    giorno: 22
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "22 settembre 3020"
+  luoghi:
+    - gran-burrone
+  fa_parte_di: null
+  partecipanti:
+    - persona: bilbo-baggins
+      parte: Hobbit
+      ruolo: festeggiato
+      esito: compie 130 anni
+    - persona: elrond
+      parte: Gran Burrone
+      ruolo: ospite
+      esito: lo festeggia
+  breve: >-
+    Bilbo compie 130 anni a Gran Burrone.
+  lungo: >-
+    Il 22 settembre 3020 Bilbo compie 130 anni a Gran Burrone. È un traguardo
+    raro per un Hobbit, e la sua longevità resta legata all'Anello che ha
+    portato per tanti anni.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3020"
+  certezza: certa
+  note: null
+
+- id: frodo-malato-3021
+  titolo: Frodo si ammala di nuovo
+  tipo: evento
+  data:
+    era: terza
+    anno: 3021
+    mese: 3
+    giorno: 13
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "13 marzo 3021"
+  luoghi:
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: reduce
+      esito: si ammala
+  breve: >-
+    Frodo si ammala di nuovo nell'anniversario della ferita.
+  lungo: >-
+    Il 13 marzo 3021 Frodo si ammala di nuovo. Le ferite della guerra non
+    guariscono, e la sua decisione di lasciare la Terra di Mezzo si avvicina.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3021"
+  certezza: certa
+  note: null
+
+- id: frodo-sam-parte
+  titolo: Frodo e Sam lasciano Hobbiville
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3021
+    mese: 9
+    giorno: 21
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "21 settembre 3021"
+  luoghi:
+    - hobbiville
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: parte
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: lo accompagna
+  breve: >-
+    Frodo e Sam partono da Hobbiville verso i Rifugi Oscuri.
+  lungo: >-
+    Il 21 settembre 3021 Frodo e Sam lasciano Hobbiville. Il giorno dopo
+    incontrano l'Ultima Cavalcata dei Custodi degli Anelli, e il 29 settembre
+    raggiungono i Rifugi Oscuri.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3021"
+  certezza: certa
+  note: null

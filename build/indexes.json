@@ -21,6 +21,26 @@
       "ultima-visita-gandalf",
       "gollum-catturato",
       "sturoi-contea",
+      "gandalf-prigioniero",
+      "guado-bruinen",
+      "addio-lorien",
+      "frodo-gollum",
+      "aragorn-gandalf-bianco",
+      "theoden-guarito",
+      "dunedain-aragorn",
+      "gandalf-minas-tirith",
+      "frodo-tana-shelob",
+      "sam-libera-frodo",
+      "eryn-lasgalen",
+      "campo-cormallen",
+      "alberello-bianco",
+      "funerali-theoden",
+      "sam-rosie",
+      "ultima-cavalcata",
+      "frodo-malato-3020",
+      "mallorn-fiorisce",
+      "compleanno-bilbo-3020",
+      "frodo-malato-3021",
       "pace-vigile",
       "sauron-ritorno",
       "deagol-anello",
@@ -66,6 +86,7 @@
       "theoden-re",
       "denethor-sovrintendente",
       "brand-re-valle",
+      "frodo-si-dimetta",
       "elessar"
     ],
     "fondazione": [
@@ -86,6 +107,15 @@
       "calimehtar-dagorlad",
       "brandobras-orcs",
       "battaglia-erui",
+      "frodo-ferito-colle-vento",
+      "gandalf-balrog",
+      "sarn-gebir",
+      "eomer-orchetti",
+      "giorno-senza-alba",
+      "frodo-catturato",
+      "battaglia-valle-3019",
+      "bard-ii-valle",
+      "distruzione-dol-guldur",
       "battaglia-celebrant",
       "nanduhirion",
       "smaug-ucciso",
@@ -103,7 +133,9 @@
       "orcs-eridor",
       "guerra-nani-orchetti",
       "orcs-rovano",
-      "haradrim-poros"
+      "haradrim-poros",
+      "primo-assalto-lorien",
+      "terzo-assalto-lorien"
     ],
     "distruzione": [
       "grande-peste",
@@ -135,6 +167,7 @@
       "nascita-faramir-sam",
       "nascita-eomer",
       "nascita-eowyn",
+      "elanor-nasce",
       "bilbo-nasce"
     ],
     "morte": [
@@ -148,6 +181,7 @@
       "arathorn-ucciso",
       "morte-finduilas",
       "morte-gilraen",
+      "theodred-morte",
       "thror"
     ],
     "viaggio": [
@@ -161,6 +195,24 @@
       "bilbo-gran-burrone",
       "ricerca-gollum",
       "migrazione-sturoi",
+      "gandalf-hobbiville-3018",
+      "boromir-parte",
+      "gandalf-edoras",
+      "frodo-vecchia-foresta",
+      "frodo-brea",
+      "compagnia-moria",
+      "caras-galadhon",
+      "frodo-morannon-margini",
+      "gandalf-pippin-minas-tirith",
+      "frodo-henneth",
+      "aragorn-sentieri-morti",
+      "esercito-ovest-parte",
+      "ultima-tappa-frodo",
+      "ritorno-contea",
+      "sam-torna-casa",
+      "esercito-morgul-vale",
+      "esercito-lascia-ithilien",
+      "frodo-sam-parte",
       "bilbo-torna",
       "frodo-parte",
       "compagnia-parte",
@@ -168,6 +220,7 @@
     ],
     "consiglio": [
       "consiglio-2851",
+      "consiglio-capitani",
       "consiglio-dol-guldur",
       "ultimo-consiglio",
       "consiglio-elrond"
@@ -557,6 +610,14 @@
       "gollum-catturato"
     ],
     "3018": [
+      "gandalf-hobbiville-3018",
+      "boromir-parte",
+      "gandalf-prigioniero",
+      "gandalf-edoras",
+      "frodo-vecchia-foresta",
+      "frodo-brea",
+      "frodo-ferito-colle-vento",
+      "guado-bruinen",
       "osgiliath-3018",
       "gollum-fugge",
       "frodo-parte",
@@ -564,6 +625,41 @@
       "compagnia-parte"
     ],
     "3019": [
+      "compagnia-moria",
+      "caras-galadhon",
+      "gandalf-balrog",
+      "addio-lorien",
+      "sarn-gebir",
+      "theodred-morte",
+      "eomer-orchetti",
+      "frodo-gollum",
+      "aragorn-gandalf-bianco",
+      "theoden-guarito",
+      "frodo-morannon-margini",
+      "gandalf-pippin-minas-tirith",
+      "dunedain-aragorn",
+      "frodo-henneth",
+      "aragorn-sentieri-morti",
+      "gandalf-minas-tirith",
+      "giorno-senza-alba",
+      "primo-assalto-lorien",
+      "frodo-tana-shelob",
+      "frodo-catturato",
+      "sam-libera-frodo",
+      "consiglio-capitani",
+      "battaglia-valle-3019",
+      "esercito-ovest-parte",
+      "ultima-tappa-frodo",
+      "bard-ii-valle",
+      "distruzione-dol-guldur",
+      "eryn-lasgalen",
+      "campo-cormallen",
+      "alberello-bianco",
+      "funerali-theoden",
+      "ritorno-contea",
+      "esercito-morgul-vale",
+      "terzo-assalto-lorien",
+      "esercito-lascia-ithilien",
       "gandalf-moria",
       "compagnia-si-scioglie",
       "fosso-helm",
@@ -575,7 +671,19 @@
       "nozze-elessar-arwen",
       "lungacque"
     ],
+    "3020": [
+      "sam-rosie",
+      "frodo-malato-3020",
+      "mallorn-fiorisce",
+      "frodo-si-dimetta",
+      "compleanno-bilbo-3020"
+    ],
     "3021": [
+      "elanor-nasce",
+      "ultima-cavalcata",
+      "sam-torna-casa",
+      "frodo-malato-3021",
+      "frodo-sam-parte",
       "porti-grigi"
     ]
   },
@@ -600,6 +708,21 @@
       "aragorn-arwen-cerin-amroth",
       "ricerca-gollum",
       "gollum-catturato",
+      "frodo-brea",
+      "frodo-ferito-colle-vento",
+      "compagnia-moria",
+      "aragorn-gandalf-bianco",
+      "dunedain-aragorn",
+      "aragorn-sentieri-morti",
+      "giorno-senza-alba",
+      "frodo-catturato",
+      "consiglio-capitani",
+      "esercito-ovest-parte",
+      "campo-cormallen",
+      "alberello-bianco",
+      "funerali-theoden",
+      "esercito-morgul-vale",
+      "esercito-lascia-ithilien",
       "sauron-si-dichiara",
       "consiglio-elrond",
       "gandalf-moria",
@@ -643,6 +766,7 @@
       "nascita-arwen",
       "aragorn-arwen-cerin-amroth",
       "ricerca-gollum",
+      "alberello-bianco",
       "elessar",
       "nozze-elessar-arwen"
     ],
@@ -665,6 +789,9 @@
       "smaug-ucciso",
       "cinque-eserciti"
     ],
+    "Bard II": [
+      "bard-ii-valle"
+    ],
     "Belecthor II": [
       "albero-morto"
     ],
@@ -674,6 +801,8 @@
     "Bilbo Baggins": [
       "gandalf-balin-bilbo",
       "bilbo-gran-burrone",
+      "ultima-cavalcata",
+      "compleanno-bilbo-3020",
       "bilbo-nasce",
       "festa-inattesa",
       "anello-bilbo",
@@ -685,12 +814,14 @@
     ],
     "Boromir": [
       "nascita-boromir",
+      "boromir-parte",
       "consiglio-elrond",
       "gandalf-moria",
       "compagnia-si-scioglie"
     ],
     "Brand": [
-      "brand-re-valle"
+      "brand-re-valle",
+      "battaglia-valle-3019"
     ],
     "Brandobras Tuc": [
       "brandobras-orcs"
@@ -708,6 +839,10 @@
     "Castamir": [
       "lotta-stirpi",
       "battaglia-erui"
+    ],
+    "Celeborn": [
+      "distruzione-dol-guldur",
+      "eryn-lasgalen"
     ],
     "Celebrían": [
       "elrond-celebrian",
@@ -734,6 +869,8 @@
       "nascita-boromir",
       "nascita-faramir-sam",
       "denethor-sovrintendente",
+      "gandalf-minas-tirith",
+      "primo-assalto-lorien",
       "pelennor"
     ],
     "Durin VI": [
@@ -743,6 +880,7 @@
       "draghi-nord"
     ],
     "Dàin Piediferro": [
+      "battaglia-valle-3019",
       "nanduhirion",
       "cinque-eserciti"
     ],
@@ -756,6 +894,9 @@
       "nascita-denethor",
       "viaggi-aragorn",
       "denethor-sovrintendente"
+    ],
+    "Elanor": [
+      "elanor-nasce"
     ],
     "Eldacar": [
       "lotta-stirpi",
@@ -778,6 +919,9 @@
       "aranarth-capitano",
       "arathorn-ucciso",
       "bilbo-gran-burrone",
+      "guado-bruinen",
+      "ultima-cavalcata",
+      "compleanno-bilbo-3020",
       "consiglio-dol-guldur",
       "sauron-si-dichiara",
       "consiglio-elrond",
@@ -810,6 +954,9 @@
     ],
     "Faramir": [
       "nascita-faramir-sam",
+      "frodo-henneth",
+      "giorno-senza-alba",
+      "frodo-catturato",
       "pelennor"
     ],
     "Finduilas": [
@@ -829,6 +976,33 @@
       "nascita-frodo",
       "gandalf-visita-frodo",
       "ultima-visita-gandalf",
+      "gandalf-hobbiville-3018",
+      "frodo-vecchia-foresta",
+      "frodo-brea",
+      "frodo-ferito-colle-vento",
+      "guado-bruinen",
+      "compagnia-moria",
+      "caras-galadhon",
+      "addio-lorien",
+      "sarn-gebir",
+      "frodo-gollum",
+      "frodo-morannon-margini",
+      "frodo-henneth",
+      "giorno-senza-alba",
+      "frodo-tana-shelob",
+      "frodo-catturato",
+      "sam-libera-frodo",
+      "ultima-tappa-frodo",
+      "campo-cormallen",
+      "ritorno-contea",
+      "ultima-cavalcata",
+      "esercito-morgul-vale",
+      "terzo-assalto-lorien",
+      "esercito-lascia-ithilien",
+      "frodo-malato-3020",
+      "frodo-si-dimetta",
+      "frodo-malato-3021",
+      "frodo-sam-parte",
       "festa-bilbo",
       "frodo-parte",
       "consiglio-elrond",
@@ -846,6 +1020,12 @@
       "lungo-inverno"
     ],
     "Galadriel": [
+      "caras-galadhon",
+      "addio-lorien",
+      "primo-assalto-lorien",
+      "distruzione-dol-guldur",
+      "ultima-cavalcata",
+      "terzo-assalto-lorien",
       "consiglio-dol-guldur",
       "porti-grigi"
     ],
@@ -858,6 +1038,23 @@
       "ultima-visita-gandalf",
       "ricerca-gollum",
       "gollum-catturato",
+      "gandalf-hobbiville-3018",
+      "gandalf-prigioniero",
+      "gandalf-edoras",
+      "compagnia-moria",
+      "gandalf-balrog",
+      "addio-lorien",
+      "aragorn-gandalf-bianco",
+      "theoden-guarito",
+      "gandalf-pippin-minas-tirith",
+      "gandalf-minas-tirith",
+      "giorno-senza-alba",
+      "consiglio-capitani",
+      "esercito-ovest-parte",
+      "campo-cormallen",
+      "ultima-cavalcata",
+      "esercito-morgul-vale",
+      "esercito-lascia-ithilien",
       "pace-vigile",
       "lungo-inverno",
       "gandalf-dol-guldur",
@@ -889,11 +1086,13 @@
       "morte-gilraen"
     ],
     "Gimli": [
+      "aragorn-gandalf-bianco",
       "consiglio-elrond",
       "gandalf-moria"
     ],
     "Glorfindel": [
-      "battaglia-fornost"
+      "battaglia-fornost",
+      "guado-bruinen"
     ],
     "Gollum": [
       "gollum-montagne",
@@ -901,6 +1100,13 @@
       "gollum-shelob",
       "ricerca-gollum",
       "gollum-catturato",
+      "compagnia-moria",
+      "frodo-gollum",
+      "frodo-morannon-margini",
+      "frodo-henneth",
+      "primo-assalto-lorien",
+      "frodo-tana-shelob",
+      "ultima-tappa-frodo",
       "deagol-anello",
       "anello-bilbo",
       "sauron-si-dichiara",
@@ -941,6 +1147,7 @@
       "hyarmendacil-ii-harad"
     ],
     "Imrahil": [
+      "consiglio-capitani",
       "morannon"
     ],
     "Isengrim II": [
@@ -954,6 +1161,7 @@
       "isumbras-conte"
     ],
     "Legolas": [
+      "aragorn-gandalf-bianco",
       "consiglio-elrond",
       "gandalf-moria"
     ],
@@ -964,6 +1172,9 @@
       "isildur-anello"
     ],
     "Meriadoc Brandibuck": [
+      "frodo-vecchia-foresta",
+      "eomer-orchetti",
+      "ritorno-contea",
       "frodo-parte",
       "compagnia-si-scioglie",
       "pelennor",
@@ -998,6 +1209,11 @@
       "ostoher-minas-anor"
     ],
     "Peregrino Tuc": [
+      "frodo-vecchia-foresta",
+      "eomer-orchetti",
+      "gandalf-pippin-minas-tirith",
+      "gandalf-minas-tirith",
+      "ritorno-contea",
       "frodo-parte",
       "compagnia-si-scioglie",
       "lungacque"
@@ -1008,12 +1224,36 @@
     "Rhudaur": [
       "argeleb-i-morte"
     ],
+    "Rosie Cotton": [
+      "sam-rosie",
+      "elanor-nasce"
+    ],
     "Rómendacil I": [
       "romendacil-esterling",
       "morte-romendacil"
     ],
     "Samvise Gamgi": [
       "nascita-faramir-sam",
+      "frodo-vecchia-foresta",
+      "frodo-brea",
+      "frodo-gollum",
+      "frodo-morannon-margini",
+      "frodo-henneth",
+      "frodo-tana-shelob",
+      "frodo-catturato",
+      "sam-libera-frodo",
+      "ultima-tappa-frodo",
+      "campo-cormallen",
+      "ritorno-contea",
+      "sam-rosie",
+      "elanor-nasce",
+      "ultima-cavalcata",
+      "sam-torna-casa",
+      "esercito-morgul-vale",
+      "terzo-assalto-lorien",
+      "esercito-lascia-ithilien",
+      "mallorn-fiorisce",
+      "frodo-sam-parte",
       "frodo-parte",
       "compagnia-si-scioglie",
       "distruzione-anello",
@@ -1024,6 +1264,9 @@
       "istari",
       "consiglio-2851",
       "saruman-scopre",
+      "gandalf-prigioniero",
+      "gandalf-pippin-minas-tirith",
+      "ritorno-contea",
       "saruman-isengard",
       "consiglio-dol-guldur",
       "ultimo-consiglio",
@@ -1047,7 +1290,8 @@
       "distruzione-anello"
     ],
     "Shelob": [
-      "gollum-shelob"
+      "gollum-shelob",
+      "frodo-tana-shelob"
     ],
     "Smaug": [
       "smaug-erebor",
@@ -1069,6 +1313,9 @@
     "Thorin I": [
       "thorin-i-montagne-grigie"
     ],
+    "Thorin III Elminpietra": [
+      "bard-ii-valle"
+    ],
     "Thorin Scudodiquercia": [
       "smaug-erebor",
       "nanduhirion",
@@ -1077,6 +1324,7 @@
     ],
     "Thranduil": [
       "gollum-catturato",
+      "eryn-lasgalen",
       "cinque-eserciti",
       "gollum-fugge"
     ],
@@ -1096,11 +1344,23 @@
     "Théoden": [
       "nascita-theoden",
       "theoden-re",
+      "gandalf-edoras",
+      "theoden-guarito",
+      "gandalf-pippin-minas-tirith",
+      "dunedain-aragorn",
+      "giorno-senza-alba",
+      "funerali-theoden",
       "fosso-helm",
       "pelennor"
     ],
+    "Théodred": [
+      "theodred-morte"
+    ],
     "Tobaldo": [
       "erba-pipa"
+    ],
+    "Tom Bombadil": [
+      "frodo-vecchia-foresta"
     ],
     "Valacar": [
       "lotta-stirpi"
@@ -1112,6 +1372,7 @@
       "lungo-inverno"
     ],
     "gli Elfi Silvani": [
+      "distruzione-dol-guldur",
       "gollum-fugge"
     ],
     "gli Ent": [
@@ -1121,6 +1382,8 @@
       "invasione-esterling",
       "romendacil-esterling",
       "morte-romendacil",
+      "battaglia-valle-3019",
+      "bard-ii-valle",
       "battaglia-celebrant"
     ],
     "gli Haradrim": [
@@ -1152,6 +1415,12 @@
       "guerra-nani-orchetti",
       "orcs-rovano",
       "colonia-moria",
+      "sarn-gebir",
+      "theodred-morte",
+      "primo-assalto-lorien",
+      "frodo-catturato",
+      "sam-libera-frodo",
+      "terzo-assalto-lorien",
       "battaglia-celebrant",
       "gollum-fugge",
       "compagnia-si-scioglie"
@@ -1208,7 +1477,9 @@
     ],
     "i Dúnedain del Nord": [
       "aranarth-capitano",
-      "orcs-eridor"
+      "orcs-eridor",
+      "dunedain-aragorn",
+      "aragorn-sentieri-morti"
     ],
     "i Dúnedain di Cardolan": [
       "angmar-invaude"
@@ -1230,6 +1501,7 @@
       "angmar",
       "re-stregoni-mordor",
       "assedio-minas-ithil",
+      "frodo-ferito-colle-vento",
       "minas-ithil",
       "pace-vigile",
       "sauron-ritorno",
@@ -1242,6 +1514,8 @@
     ],
     "i Rohirrim": [
       "orcs-rovano",
+      "eomer-orchetti",
+      "theoden-guarito",
       "rohan"
     ],
     "i Saggi": [
@@ -1276,6 +1550,7 @@
     ],
     "il Balrog": [
       "balrog-moria",
+      "gandalf-balrog",
       "gandalf-moria"
     ],
     "il Bianco Consiglio": [
@@ -1293,6 +1568,9 @@
       "pelennor"
     ],
     "l'Esercito dell'Ovest": [
+      "esercito-ovest-parte",
+      "esercito-morgul-vale",
+      "esercito-lascia-ithilien",
       "morannon"
     ],
     "la Compagnia dell'Anello": [
@@ -1319,22 +1597,29 @@
     ],
     "Éomer": [
       "nascita-eomer",
+      "eomer-orchetti",
+      "theoden-guarito",
+      "consiglio-capitani",
+      "funerali-theoden",
       "fosso-helm",
       "pelennor",
       "morannon"
     ],
     "Éowyn": [
       "nascita-eowyn",
+      "funerali-theoden",
       "pelennor"
     ]
   },
   "per_luogo": {
     "Amon Sûl": [
-      "angmar-invaude"
+      "angmar-invaude",
+      "frodo-ferito-colle-vento"
     ],
     "Anduin": [
       "isildur-anello",
       "ricerca-gollum",
+      "sarn-gebir",
       "deagol-anello",
       "osgiliath-distrutta",
       "fato-avvampa",
@@ -1376,6 +1661,8 @@
       "dol-guldur-cresce",
       "ricerca-gollum",
       "gollum-catturato",
+      "distruzione-dol-guldur",
+      "eryn-lasgalen",
       "pace-vigile",
       "sauron-ritorno",
       "gandalf-dol-guldur",
@@ -1384,6 +1671,7 @@
     ],
     "Brea": [
       "angmar",
+      "frodo-brea",
       "ultimo-consiglio"
     ],
     "Calenardhon": [
@@ -1391,6 +1679,7 @@
       "rohan"
     ],
     "Campi del Pelennor": [
+      "frodo-catturato",
       "pelennor"
     ],
     "Campo Gaggiolo": [
@@ -1402,23 +1691,37 @@
     "Campo di Celebrant": [
       "battaglia-celebrant"
     ],
+    "Campo di Cormallen": [
+      "campo-cormallen"
+    ],
     "Cancello Orientale di Moria": [
       "thror",
       "nanduhirion"
+    ],
+    "Caras Galadhon": [
+      "caras-galadhon"
     ],
     "Cardolan": [
       "divisione-arnor"
     ],
     "Casa Baggins": [
+      "sam-torna-casa",
       "festa-inattesa",
       "festa-bilbo",
       "frodo-parte"
+    ],
+    "Casa di Tom Bombadil": [
+      "frodo-vecchia-foresta"
     ],
     "Cerin Amroth": [
       "aragorn-arwen-cerin-amroth"
     ],
     "Cirith Ungol": [
-      "gollum-shelob"
+      "gollum-shelob",
+      "primo-assalto-lorien",
+      "frodo-tana-shelob",
+      "frodo-catturato",
+      "sam-libera-frodo"
     ],
     "Clivovalle": [
       "fosso-helm"
@@ -1444,6 +1747,15 @@
       "gandalf-visita-frodo",
       "ultima-visita-gandalf",
       "sturoi-contea",
+      "ritorno-contea",
+      "sam-rosie",
+      "elanor-nasce",
+      "ultima-cavalcata",
+      "frodo-malato-3020",
+      "mallorn-fiorisce",
+      "frodo-si-dimetta",
+      "frodo-malato-3021",
+      "frodo-sam-parte",
       "erba-pipa",
       "lungo-inverno",
       "bilbo-nasce",
@@ -1470,11 +1782,15 @@
     "Dol Guldur": [
       "saggi-dol-guldur",
       "dol-guldur-cresce",
+      "distruzione-dol-guldur",
       "pace-vigile",
       "sauron-ritorno",
       "gandalf-dol-guldur",
       "consiglio-dol-guldur",
       "sauron-si-dichiara"
+    ],
+    "Dunclivo": [
+      "aragorn-sentieri-morti"
     ],
     "Dunland": [
       "migrazione-sturoi"
@@ -1482,9 +1798,13 @@
     "Edoras": [
       "sala-d-oro",
       "theoden-re",
+      "gandalf-edoras",
+      "theoden-guarito",
+      "funerali-theoden",
       "lungo-inverno"
     ],
     "Emyn Muil": [
+      "frodo-gollum",
       "compagnia-si-scioglie"
     ],
     "Enedwaith": [
@@ -1495,10 +1815,15 @@
       "thorin-i-montagne-grigie",
       "bard-re-valle",
       "balin-moria",
+      "battaglia-valle-3019",
+      "bard-ii-valle",
       "draghi-nord",
       "smaug-erebor",
       "smaug-ucciso",
       "cinque-eserciti"
+    ],
+    "Erech": [
+      "aragorn-sentieri-morti"
     ],
     "Ered Luin": [
       "nanduhirion"
@@ -1530,6 +1855,8 @@
       "smaug-ucciso"
     ],
     "Fangorn": [
+      "eomer-orchetti",
+      "aragorn-gandalf-bianco",
       "distruzione-isengard"
     ],
     "Fornost": [
@@ -1574,6 +1901,8 @@
       "bilbo-gran-burrone",
       "morte-gilraen",
       "ricerca-gollum",
+      "guado-bruinen",
+      "compleanno-bilbo-3020",
       "consiglio-dol-guldur",
       "ultimo-consiglio",
       "consiglio-elrond",
@@ -1587,6 +1916,9 @@
     "Grandi Smial": [
       "isengrim-grandi-smial"
     ],
+    "Guado di Bruinen": [
+      "guado-bruinen"
+    ],
     "Harad": [
       "ombra-bosco-attro",
       "aldamir-morte",
@@ -1596,10 +1928,14 @@
       "pelennor"
     ],
     "Henneth Annûn": [
-      "ithilien-abbandonata"
+      "ithilien-abbandonata",
+      "frodo-henneth"
     ],
     "Hobbiville": [
       "gandalf-balin-bilbo",
+      "gandalf-hobbiville-3018",
+      "sam-torna-casa",
+      "frodo-sam-parte",
       "bilbo-nasce",
       "festa-inattesa",
       "bilbo-torna",
@@ -1610,6 +1946,10 @@
     "Isengard": [
       "istari",
       "saruman-scopre",
+      "gandalf-prigioniero",
+      "gandalf-edoras",
+      "theoden-guarito",
+      "gandalf-pippin-minas-tirith",
       "saruman-isengard",
       "ultimo-consiglio",
       "saruman-tradisce",
@@ -1618,6 +1958,12 @@
     "Ithilien": [
       "battaglia-campo",
       "ithilien-abbandonata",
+      "frodo-henneth",
+      "giorno-senza-alba",
+      "esercito-ovest-parte",
+      "campo-cormallen",
+      "esercito-morgul-vale",
+      "esercito-lascia-ithilien",
       "fato-avvampa"
     ],
     "Limterso": [
@@ -1627,14 +1973,21 @@
       "battaglia-fornost"
     ],
     "Lungacque": [
+      "ritorno-contea",
       "lungacque"
     ],
     "Lórien": [
       "balrog-moria",
-      "aragorn-arwen-cerin-amroth"
+      "aragorn-arwen-cerin-amroth",
+      "caras-galadhon",
+      "addio-lorien",
+      "primo-assalto-lorien",
+      "distruzione-dol-guldur",
+      "terzo-assalto-lorien"
     ],
     "Minas Morgul": [
       "assedio-minas-ithil",
+      "esercito-morgul-vale",
       "minas-ithil",
       "earnur",
       "pace-vigile",
@@ -1656,6 +2009,15 @@
       "denethor-sovrintendente",
       "morte-finduilas",
       "gollum-catturato",
+      "boromir-parte",
+      "gandalf-pippin-minas-tirith",
+      "gandalf-minas-tirith",
+      "giorno-senza-alba",
+      "primo-assalto-lorien",
+      "sam-libera-frodo",
+      "consiglio-capitani",
+      "esercito-ovest-parte",
+      "alberello-bianco",
       "earnur",
       "pelennor",
       "elessar",
@@ -1675,15 +2037,20 @@
       "celebrian-ferita",
       "guerra-nani-orchetti",
       "gollum-lascia-montagne",
+      "compagnia-moria",
+      "gandalf-balrog",
       "deagol-anello",
       "anello-bilbo",
       "gollum-fugge"
     ],
     "Monte Fato": [
+      "ultima-tappa-frodo",
       "fato-avvampa",
       "distruzione-anello"
     ],
     "Morannon": [
+      "frodo-morannon-margini",
+      "esercito-ovest-parte",
       "morannon"
     ],
     "Mordor": [
@@ -1693,6 +2060,11 @@
       "assedio-minas-ithil",
       "gollum-shelob",
       "ricerca-gollum",
+      "frodo-morannon-margini",
+      "ultima-tappa-frodo",
+      "esercito-morgul-vale",
+      "terzo-assalto-lorien",
+      "esercito-lascia-ithilien",
       "minas-ithil",
       "bilbo-torna",
       "sauron-si-dichiara",
@@ -1704,6 +2076,8 @@
       "guerra-nani-orchetti",
       "balin-moria",
       "colonia-moria",
+      "compagnia-moria",
+      "gandalf-balrog",
       "thror",
       "gollum-fugge",
       "gandalf-moria"
@@ -1716,6 +2090,7 @@
       "gandalf-moria"
     ],
     "Orthanc": [
+      "gandalf-prigioniero",
       "saruman-isengard",
       "saruman-tradisce",
       "distruzione-isengard"
@@ -1737,7 +2112,8 @@
     "Pelargir": [
       "lotta-stirpi",
       "corsari-pelargir",
-      "battaglia-erui"
+      "battaglia-erui",
+      "frodo-catturato"
     ],
     "Ponte di Khazad-dûm": [
       "gandalf-moria"
@@ -1770,6 +2146,15 @@
       "theoden-re",
       "nascita-eomer",
       "nascita-eowyn",
+      "gandalf-edoras",
+      "theodred-morte",
+      "eomer-orchetti",
+      "aragorn-gandalf-bianco",
+      "theoden-guarito",
+      "gandalf-pippin-minas-tirith",
+      "dunedain-aragorn",
+      "giorno-senza-alba",
+      "funerali-theoden",
       "rohan",
       "lungo-inverno",
       "compagnia-si-scioglie"
@@ -1779,6 +2164,9 @@
     ],
     "Sammath Naur": [
       "distruzione-anello"
+    ],
+    "Sarn Gebir": [
+      "sarn-gebir"
     ],
     "Terra di Buck": [
       "isumbras-conte"
@@ -1793,7 +2181,8 @@
       "fosso-helm"
     ],
     "Tyrn Gorthad": [
-      "angmar-invaude"
+      "angmar-invaude",
+      "frodo-vecchia-foresta"
     ],
     "Umbar": [
       "lotta-stirpi",
@@ -1811,9 +2200,14 @@
       "bard-re-valle",
       "bain-re-valle",
       "brand-re-valle",
+      "battaglia-valle-3019",
+      "bard-ii-valle",
       "smaug-erebor",
       "smaug-ucciso",
       "cinque-eserciti"
+    ],
+    "Vecchia Foresta": [
+      "frodo-vecchia-foresta"
     ],
     "caverna di Gollum": [
       "anello-bilbo"
@@ -1824,11 +2218,13 @@
   },
   "per_luogo_id": {
     "amon-sul": [
-      "angmar-invaude"
+      "angmar-invaude",
+      "frodo-ferito-colle-vento"
     ],
     "anduin": [
       "isildur-anello",
       "ricerca-gollum",
+      "sarn-gebir",
       "deagol-anello",
       "osgiliath-distrutta",
       "fato-avvampa",
@@ -1870,6 +2266,8 @@
       "dol-guldur-cresce",
       "ricerca-gollum",
       "gollum-catturato",
+      "distruzione-dol-guldur",
+      "eryn-lasgalen",
       "pace-vigile",
       "sauron-ritorno",
       "gandalf-dol-guldur",
@@ -1878,6 +2276,7 @@
     ],
     "brea": [
       "angmar",
+      "frodo-brea",
       "ultimo-consiglio"
     ],
     "calenardhon": [
@@ -1885,10 +2284,14 @@
       "rohan"
     ],
     "campi-del-pelennor": [
+      "frodo-catturato",
       "pelennor"
     ],
     "campo-di-celebrant": [
       "battaglia-celebrant"
+    ],
+    "campo-di-cormallen": [
+      "campo-cormallen"
     ],
     "campo-gaggiolo": [
       "isildur-anello",
@@ -1900,13 +2303,20 @@
       "thror",
       "nanduhirion"
     ],
+    "caras-galadhon": [
+      "caras-galadhon"
+    ],
     "cardolan": [
       "divisione-arnor"
     ],
     "casa-baggins": [
+      "sam-torna-casa",
       "festa-inattesa",
       "festa-bilbo",
       "frodo-parte"
+    ],
+    "casa-di-bombadil": [
+      "frodo-vecchia-foresta"
     ],
     "caverna-di-gollum": [
       "anello-bilbo"
@@ -1915,7 +2325,11 @@
       "aragorn-arwen-cerin-amroth"
     ],
     "cirith-ungol": [
-      "gollum-shelob"
+      "gollum-shelob",
+      "primo-assalto-lorien",
+      "frodo-tana-shelob",
+      "frodo-catturato",
+      "sam-libera-frodo"
     ],
     "clivovalle": [
       "fosso-helm"
@@ -1941,6 +2355,15 @@
       "gandalf-visita-frodo",
       "ultima-visita-gandalf",
       "sturoi-contea",
+      "ritorno-contea",
+      "sam-rosie",
+      "elanor-nasce",
+      "ultima-cavalcata",
+      "frodo-malato-3020",
+      "mallorn-fiorisce",
+      "frodo-si-dimetta",
+      "frodo-malato-3021",
+      "frodo-sam-parte",
       "erba-pipa",
       "lungo-inverno",
       "bilbo-nasce",
@@ -1967,11 +2390,15 @@
     "dol-guldur": [
       "saggi-dol-guldur",
       "dol-guldur-cresce",
+      "distruzione-dol-guldur",
       "pace-vigile",
       "sauron-ritorno",
       "gandalf-dol-guldur",
       "consiglio-dol-guldur",
       "sauron-si-dichiara"
+    ],
+    "dunclivo": [
+      "aragorn-sentieri-morti"
     ],
     "dunland": [
       "migrazione-sturoi"
@@ -1979,9 +2406,13 @@
     "edoras": [
       "sala-d-oro",
       "theoden-re",
+      "gandalf-edoras",
+      "theoden-guarito",
+      "funerali-theoden",
       "lungo-inverno"
     ],
     "emyn-muil": [
+      "frodo-gollum",
       "compagnia-si-scioglie"
     ],
     "enedwaith": [
@@ -1992,10 +2423,15 @@
       "thorin-i-montagne-grigie",
       "bard-re-valle",
       "balin-moria",
+      "battaglia-valle-3019",
+      "bard-ii-valle",
       "draghi-nord",
       "smaug-erebor",
       "smaug-ucciso",
       "cinque-eserciti"
+    ],
+    "erech": [
+      "aragorn-sentieri-morti"
     ],
     "ered-luin": [
       "nanduhirion"
@@ -2027,6 +2463,8 @@
       "smaug-ucciso"
     ],
     "fangorn": [
+      "eomer-orchetti",
+      "aragorn-gandalf-bianco",
       "distruzione-isengard"
     ],
     "fornost": [
@@ -2071,6 +2509,8 @@
       "bilbo-gran-burrone",
       "morte-gilraen",
       "ricerca-gollum",
+      "guado-bruinen",
+      "compleanno-bilbo-3020",
       "consiglio-dol-guldur",
       "ultimo-consiglio",
       "consiglio-elrond",
@@ -2084,6 +2524,9 @@
     "grandi-smial": [
       "isengrim-grandi-smial"
     ],
+    "guado-bruinen": [
+      "guado-bruinen"
+    ],
     "harad": [
       "ombra-bosco-attro",
       "aldamir-morte",
@@ -2093,10 +2536,14 @@
       "pelennor"
     ],
     "henneth-annun": [
-      "ithilien-abbandonata"
+      "ithilien-abbandonata",
+      "frodo-henneth"
     ],
     "hobbiville": [
       "gandalf-balin-bilbo",
+      "gandalf-hobbiville-3018",
+      "sam-torna-casa",
+      "frodo-sam-parte",
       "bilbo-nasce",
       "festa-inattesa",
       "bilbo-torna",
@@ -2107,6 +2554,10 @@
     "isengard": [
       "istari",
       "saruman-scopre",
+      "gandalf-prigioniero",
+      "gandalf-edoras",
+      "theoden-guarito",
+      "gandalf-pippin-minas-tirith",
       "saruman-isengard",
       "ultimo-consiglio",
       "saruman-tradisce",
@@ -2115,6 +2566,12 @@
     "ithilien": [
       "battaglia-campo",
       "ithilien-abbandonata",
+      "frodo-henneth",
+      "giorno-senza-alba",
+      "esercito-ovest-parte",
+      "campo-cormallen",
+      "esercito-morgul-vale",
+      "esercito-lascia-ithilien",
       "fato-avvampa"
     ],
     "limterso": [
@@ -2125,13 +2582,20 @@
     ],
     "lorien": [
       "balrog-moria",
-      "aragorn-arwen-cerin-amroth"
+      "aragorn-arwen-cerin-amroth",
+      "caras-galadhon",
+      "addio-lorien",
+      "primo-assalto-lorien",
+      "distruzione-dol-guldur",
+      "terzo-assalto-lorien"
     ],
     "lungacque": [
+      "ritorno-contea",
       "lungacque"
     ],
     "minas-morgul": [
       "assedio-minas-ithil",
+      "esercito-morgul-vale",
       "minas-ithil",
       "earnur",
       "pace-vigile",
@@ -2153,6 +2617,15 @@
       "denethor-sovrintendente",
       "morte-finduilas",
       "gollum-catturato",
+      "boromir-parte",
+      "gandalf-pippin-minas-tirith",
+      "gandalf-minas-tirith",
+      "giorno-senza-alba",
+      "primo-assalto-lorien",
+      "sam-libera-frodo",
+      "consiglio-capitani",
+      "esercito-ovest-parte",
+      "alberello-bianco",
       "earnur",
       "pelennor",
       "elessar",
@@ -2172,15 +2645,20 @@
       "celebrian-ferita",
       "guerra-nani-orchetti",
       "gollum-lascia-montagne",
+      "compagnia-moria",
+      "gandalf-balrog",
       "deagol-anello",
       "anello-bilbo",
       "gollum-fugge"
     ],
     "monte-fato": [
+      "ultima-tappa-frodo",
       "fato-avvampa",
       "distruzione-anello"
     ],
     "morannon": [
+      "frodo-morannon-margini",
+      "esercito-ovest-parte",
       "morannon"
     ],
     "mordor": [
@@ -2190,6 +2668,11 @@
       "assedio-minas-ithil",
       "gollum-shelob",
       "ricerca-gollum",
+      "frodo-morannon-margini",
+      "ultima-tappa-frodo",
+      "esercito-morgul-vale",
+      "terzo-assalto-lorien",
+      "esercito-lascia-ithilien",
       "minas-ithil",
       "bilbo-torna",
       "sauron-si-dichiara",
@@ -2201,6 +2684,8 @@
       "guerra-nani-orchetti",
       "balin-moria",
       "colonia-moria",
+      "compagnia-moria",
+      "gandalf-balrog",
       "thror",
       "gollum-fugge",
       "gandalf-moria"
@@ -2213,6 +2698,7 @@
       "gandalf-moria"
     ],
     "orthanc": [
+      "gandalf-prigioniero",
       "saruman-isengard",
       "saruman-tradisce",
       "distruzione-isengard"
@@ -2234,7 +2720,8 @@
     "pelargir": [
       "lotta-stirpi",
       "corsari-pelargir",
-      "battaglia-erui"
+      "battaglia-erui",
+      "frodo-catturato"
     ],
     "ponte-di-khazad-dum": [
       "gandalf-moria"
@@ -2270,6 +2757,15 @@
       "theoden-re",
       "nascita-eomer",
       "nascita-eowyn",
+      "gandalf-edoras",
+      "theodred-morte",
+      "eomer-orchetti",
+      "aragorn-gandalf-bianco",
+      "theoden-guarito",
+      "gandalf-pippin-minas-tirith",
+      "dunedain-aragorn",
+      "giorno-senza-alba",
+      "funerali-theoden",
       "rohan",
       "lungo-inverno",
       "compagnia-si-scioglie"
@@ -2279,6 +2775,9 @@
     ],
     "sammath-naur": [
       "distruzione-anello"
+    ],
+    "sarn-gebir": [
+      "sarn-gebir"
     ],
     "terra-di-buck": [
       "isumbras-conte"
@@ -2293,7 +2792,8 @@
       "fosso-helm"
     ],
     "tyrn-gorthad": [
-      "angmar-invaude"
+      "angmar-invaude",
+      "frodo-vecchia-foresta"
     ],
     "umbar": [
       "lotta-stirpi",
@@ -2311,9 +2811,14 @@
       "bard-re-valle",
       "bain-re-valle",
       "brand-re-valle",
+      "battaglia-valle-3019",
+      "bard-ii-valle",
       "smaug-erebor",
       "smaug-ucciso",
       "cinque-eserciti"
+    ],
+    "vecchia-foresta": [
+      "frodo-vecchia-foresta"
     ]
   }
 }

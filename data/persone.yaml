@@ -1257,3 +1257,84 @@
   alias: []
   descrizione: La grande ragna che vive a Cirith Ungol.
   nota: null
+
+- id: tom-bombadil
+  nome: Tom Bombadil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Essere antico
+  nascita: null
+  morte: null
+  alias:
+    - Bombadil
+  descrizione: L'essere antichissimo che vive nella Vecchia Foresta.
+  nota: null
+
+- id: theodred
+  nome: Théodred
+  tipo: personaggio
+  specie: Uomo
+  popolo: Rohirrim
+  nascita: null
+  morte: 3019
+  alias: []
+  descrizione: Il figlio di Théoden, caduto ai Guadi dell'Isen.
+  nota: null
+
+- id: bard-ii
+  nome: Bard II
+  tipo: personaggio
+  specie: Uomo
+  popolo: Uomini
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il figlio di Brand, re della Valle dopo la Guerra dell'Anello.
+  nota: null
+
+- id: thorin-iii
+  nome: Thorin III Elminpietra
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: null
+  morte: null
+  alias:
+    - Thorin III
+  descrizione: Il figlio di Dàin Piediferro, Re sotto la Montagna dopo la guerra.
+  nota: null
+
+- id: celeborn
+  nome: Celeborn
+  tipo: personaggio
+  specie: Elfo
+  popolo: Elfi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il signore di Lórien, marito di Galadriel.
+  nota: null
+
+- id: elanor
+  nome: Elanor
+  tipo: personaggio
+  specie: Hobbit
+  popolo: Hobbit
+  nascita: 3021
+  morte: null
+  alias:
+    - Elanor la Bella
+  descrizione: La figlia di Samvise e Rosie, nata nel 3021.
+  nota: null
+
+- id: rosie-cotton
+  nome: Rosie Cotton
+  tipo: personaggio
+  specie: Hobbit
+  popolo: Hobbit
+  nascita: null
+  morte: null
+  alias:
+    - Rosie
+  descrizione: La moglie di Samvise Gamgi.
+  nota: null

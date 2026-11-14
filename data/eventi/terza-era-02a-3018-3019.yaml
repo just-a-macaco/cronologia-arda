@@ -1,0 +1,1252 @@
+# Schede della Terza Era, Grandi Anni 3018-3019 (prima parte).
+# Fonte: Il Signore degli Anelli, Appendice B (Bompiani 2004), «I Grandi Anni».
+
+- id: gandalf-hobbiville-3018
+  titolo: Gandalf raggiunge Hobbiville
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3018
+    mese: 4
+    giorno: 12
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "12 aprile 3018"
+  luoghi:
+    - hobbiville
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: gandalf
+      parte: Istari
+      ruolo: visitatore
+      esito: raggiunge Frodo
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: ospite
+      esito: lo accoglie
+  breve: >-
+    Gandalf raggiunge Hobbiville per parlare con Frodo dell'Anello.
+  lungo: >-
+    Il 12 aprile 3018 Gandalf raggiunge Hobbiville. È una delle visite con cui
+    il mago cerca di capire la natura dell'Anello di Frodo e di preparare la
+    partenza dalla Contea.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 12 aprile 3018"
+  certezza: certa
+  note: null
+
+- id: boromir-parte
+  titolo: Boromir parte da Minas Tirith
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3018
+    mese: 7
+    giorno: 4
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "4 luglio 3018"
+  luoghi:
+    - minas-tirith
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: boromir
+      parte: Gondor
+      ruolo: figlio del Sovrintendente
+      esito: parte per cercare il significato del sogno
+  breve: >-
+    Boromir parte da Minas Tirith per cercare il significato di un sogno.
+  lungo: >-
+    Il 4 luglio 3018 Boromir parte da Minas Tirith. Un sogno lo ha spinto a
+    cercare Gran Burrone e il significato delle parole su Isildur e sull'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 4 luglio 3018"
+  certezza: certa
+  note: null
+
+- id: gandalf-prigioniero
+  titolo: Gandalf imprigionato a Orthanc
+  tipo: evento
+  data:
+    era: terza
+    anno: 3018
+    mese: 7
+    giorno: 10
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "10 luglio 3018"
+  luoghi:
+    - orthanc
+    - isengard
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: gandalf
+      parte: Istari
+      ruolo: prigioniero
+      esito: viene imprigionato
+    - persona: saruman
+      parte: Isengard
+      ruolo: traditore
+      esito: lo fa imprigionare
+  breve: >-
+    Saruman fa imprigionare Gandalf nella torre di Orthanc.
+  lungo: >-
+    Il 10 luglio 3018 Saruman fa imprigionare Gandalf sulla cima di Orthanc.
+    Il capo del Bianco Consiglio ha ormai scelto di lavorare per sé e per
+    Sauron, e teme che Gandalf possa ostacolarlo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 10 luglio 3018"
+  certezza: certa
+  note: null
+
+- id: gandalf-edoras
+  titolo: Gandalf fugge e doma Ombromanto
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3018
+    mese: 9
+    giorno: 18
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "18-22 settembre 3018"
+  luoghi:
+    - isengard
+    - edoras
+    - rohan
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: gandalf
+      parte: Istari
+      ruolo: fuggiasco
+      esito: fugge da Orthanc e doma Ombromanto
+    - persona: theoden
+      parte: Rohan
+      ruolo: re
+      esito: lo caccia da Edoras
+  breve: >-
+    Gandalf fugge da Orthanc, raggiunge Edoras e viene cacciato da Théoden;
+    poi doma Ombromanto.
+  lungo: >-
+    Tra il 18 e il 22 settembre 3018 Gandalf fugge da Orthanc, raggiunge Edoras
+    e viene cacciato da Théoden. Nei campi di Rohan insegue e doma Ombromanto,
+    il cavallo che lo porterà lontano.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 18-22 settembre 3018"
+  certezza: certa
+  note: null
+
+- id: frodo-vecchia-foresta
+  titolo: Frodo nella Vecchia Foresta
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3018
+    mese: 9
+    giorno: 26
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "26-28 settembre 3018"
+  luoghi:
+    - vecchia-foresta
+    - casa-di-bombadil
+    - tyrn-gorthad
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: attraversa la foresta
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: lo accompagna
+    - persona: meriadoc-brandibuck
+      parte: Hobbit
+      ruolo: compagno
+      esito: viene catturato dagli Spettri
+    - persona: peregrino-tuc
+      parte: Hobbit
+      ruolo: compagno
+      esito: viene catturato dagli Spettri
+    - persona: tom-bombadil
+      parte: Vecchia Foresta
+      ruolo: soccorritore
+      esito: li libera
+  breve: >-
+    Frodo attraversa la Vecchia Foresta, incontra Tom Bombadil e viene salvato
+    dai Tumuli.
+  lungo: >-
+    Tra il 26 e il 28 settembre 3018 Frodo e i suoi compagni attraversano la
+    Vecchia Foresta. Incontrano Tom Bombadil, che li ospita, e poi vengono
+    catturati dagli Spettri dei Tumuli. Bombadil li libera e li rimette sulla
+    strada per Brea.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 26-28 settembre 3018"
+  certezza: certa
+  note: null
+
+- id: frodo-brea
+  titolo: Frodo arriva a Brea
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3018
+    mese: 9
+    giorno: 29
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "29-30 settembre 3018"
+  luoghi:
+    - brea
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: arriva a Brea
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: Ramingo
+      esito: lo incontra alla locanda
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: lo accompagna
+  breve: >-
+    Frodo arriva a Brea, incontra Aragorn e lascia la città dopo un attacco
+    notturno.
+  lungo: >-
+    Il 29 settembre 3018 Frodo arriva a Brea e incontra Aragorn, che si fa
+    chiamare Passolungo. Nella notte i Cavalieri Neri attaccano la locanda e
+    le camere; all'alba Frodo lascia Brea con Aragorn e i compagni.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 29-30 settembre 3018"
+  certezza: certa
+  note: null
+
+- id: frodo-ferito-colle-vento
+  titolo: Frodo ferito a Colle Vento
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3018
+    mese: 10
+    giorno: 6
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "3-6 ottobre 3018"
+  luoghi:
+    - amon-sul
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: viene ferito
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: guida
+      esito: lo difende
+    - entita: gruppo-nazgul
+      parte: Mordor
+      ruolo: assalitori
+      esito: feriscono Frodo
+  breve: >-
+    I Cavalieri Neri assalgono l'accampamento ai piedi di Colle Vento e
+    feriscono Frodo.
+  lungo: >-
+    Il 3 ottobre 3018 Gandalf viene assalito a Colle Vento. Il 6 ottobre i
+    Cavalieri Neri attaccano l'accampamento ai piedi della collina e feriscono
+    Frodo con una lama di Morgul. Aragorn lo difende e lo porta via.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 3-6 ottobre 3018"
+  certezza: certa
+  note: null
+
+- id: guado-bruinen
+  titolo: La fuga al Guado di Bruinen
+  tipo: evento
+  data:
+    era: terza
+    anno: 3018
+    mese: 10
+    giorno: 20
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "9-20 ottobre 3018"
+  luoghi:
+    - guado-bruinen
+    - gran-burrone
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: attraversa il guado
+    - persona: glorfindel
+      parte: Gran Burrone
+      ruolo: soccorritore
+      esito: lo guida
+    - persona: elrond
+      parte: Gran Burrone
+      ruolo: signore elfico
+      esito: scatena l'onda del fiume
+  breve: >-
+    Glorfindel guida Frodo al Guado di Bruinen; l'onda di Elrond travolge i
+    Cavalieri Neri.
+  lungo: >-
+    Tra il 9 e il 20 ottobre 3018 Glorfindel lascia Gran Burrone e guida Frodo
+    verso il Guado di Bruinen. Quando i Cavalieri Neri stanno per raggiungerli,
+    l'onda del fiume scatenata da Elrond li travolge.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 9-20 ottobre 3018"
+  certezza: certa
+  note: null
+
+- id: compagnia-moria
+  titolo: La Compagnia entra a Moria
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3019
+    mese: 1
+    giorno: 13
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "8-14 gennaio 3019"
+  luoghi:
+    - montagne-nebbiose
+    - moria
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Compagnia
+      ruolo: Portatore
+      esito: entra a Moria
+    - persona: gandalf
+      parte: Compagnia
+      ruolo: guida
+      esito: apre il Cancello
+    - persona: aragorn
+      parte: Compagnia
+      ruolo: guida
+      esito: protegge il gruppo
+    - persona: gollum
+      parte: Montagne Nebbiose
+      ruolo: inseguitore
+      esito: comincia a seguire Frodo
+  breve: >-
+    La Compagnia attraversa il Caradhras, sfugge ai lupi ed entra a Moria dal
+    Cancello Occidentale; Gollum comincia a seguirla.
+  lungo: >-
+    Tra l'8 e il 14 gennaio 3019 la Compagnia attraversa l'Agrifogliere, tenta
+    il passo del Caradhras, viene assalita dai lupi e raggiunge il Cancello
+    Occidentale di Moria. Qui Gollum comincia a seguire il Portatore
+    dell'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 8-14 gennaio 3019"
+  certezza: certa
+  note: null
+
+- id: caras-galadhon
+  titolo: La Compagnia arriva a Caras Galadhon
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3019
+    mese: 1
+    giorno: 17
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "17 gennaio 3019"
+  luoghi:
+    - caras-galadhon
+    - lorien
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Compagnia
+      ruolo: Portatore
+      esito: arriva in Lórien
+    - persona: galadriel
+      parte: Lórien
+      ruolo: signora elfica
+      esito: li accoglie
+  breve: >-
+    La Compagnia arriva a Caras Galadhon, in Lórien, e viene accolta da
+    Galadriel.
+  lungo: >-
+    Il 17 gennaio 3019 la Compagnia arriva a Caras Galadhon, la città degli
+    alberi di Lórien. Galadriel accoglie i viandanti e offre loro riposo, ma
+    il tempo stringe e la guerra si avvicina.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 17 gennaio 3019"
+  certezza: certa
+  note: null
+
+- id: gandalf-balrog
+  titolo: Gandalf sconfigge il Balrog
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3019
+    mese: 1
+    giorno: 25
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "23-25 gennaio 3019"
+  luoghi:
+    - montagne-nebbiose
+    - moria
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: gandalf
+      parte: Compagnia
+      ruolo: Istaro
+      esito: sconfigge il Balrog e muore
+    - persona: balrog
+      parte: Morgoth
+      ruolo: demone del fuoco
+      esito: precipita negli abissi
+  breve: >-
+    Gandalf insegue il Balrog fino a Zirak-zigil e lo fa precipitare negli
+    abissi, ma muore.
+  lungo: >-
+    Dal 23 al 25 gennaio 3019 Gandalf insegue il Balrog dalla voragine di Moria
+    fino al picco di Zirak-zigil. Lo fa precipitare negli abissi, ma il suo
+    corpo giace senza vita sulla montagna. Tornerà come Gandalf il Bianco.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 23-25 gennaio 3019"
+  certezza: certa
+  note: null
+
+- id: addio-lorien
+  titolo: Addio a Lórien
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 2
+    giorno: 16
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "14-17 febbraio 3019"
+  luoghi:
+    - lorien
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Compagnia
+      ruolo: Portatore
+      esito: guarda lo Specchio di Galadriel
+    - persona: galadriel
+      parte: Lórien
+      ruolo: signora elfica
+      esito: li congeda
+    - persona: gandalf
+      parte: Istari
+      ruolo: rinato
+      esito: viene portato a Lórien
+  breve: >-
+    La Compagnia guarda lo Specchio di Galadriel e lascia Lórien; Gandalf,
+    rinato, viene portato a Lórien.
+  lungo: >-
+    Il 14 febbraio 3019 Frodo guarda lo Specchio di Galadriel. Il 16 la
+    Compagnia lascia Lórien, mentre Gollum la osserva da un nascondiglio. Il
+    17 Gwaihir porta Gandalf, tornato in vita, a Lórien.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 14-17 febbraio 3019"
+  certezza: certa
+  note: null
+
+- id: sarn-gebir
+  titolo: Le barche assalite a Sarn Gebir
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3019
+    mese: 2
+    giorno: 23
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "23 febbraio 3019"
+  luoghi:
+    - sarn-gebir
+    - anduin
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Compagnia
+      ruolo: Portatore
+      esito: sopravvive
+    - entita: popolo-orchetti
+      parte: Mordor
+      ruolo: assalitori
+      esito: attaccano le barche
+  breve: >-
+    Le barche della Compagnia vengono assalite nella notte a Sarn Gebir.
+  lungo: >-
+    Nella notte del 23 febbraio 3019 le barche della Compagnia vengono
+    assalite a Sarn Gebir. Gli Orchetti sono respinti, ma la via del fiume
+    diventa più pericolosa.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 23 febbraio 3019"
+  certezza: certa
+  note: null
+
+- id: theodred-morte
+  titolo: Muore Théodred
+  tipo: morte
+  data:
+    era: terza
+    anno: 3019
+    mese: 2
+    giorno: 25
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "25 febbraio 3019"
+  luoghi:
+    - rohan
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: theodred
+      parte: Rohan
+      ruolo: principe
+      esito: muore
+    - entita: popolo-orchetti
+      parte: Isengard
+      ruolo: assalitori
+      esito: vincono lo scontro
+  breve: >-
+    Théodred, figlio di Théoden, muore nella prima battaglia dei Guadi
+    dell'Isen.
+  lungo: >-
+    Il 25 febbraio 3019 Théodred, figlio di Théoden, muore nella prima
+    battaglia dei Guadi dell'Isen. La sua morte apre la crisi di Rohan e
+    lascia Théoden senza erede diretto.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 25 febbraio 3019"
+  certezza: certa
+  note: null
+
+- id: eomer-orchetti
+  titolo: Éomer annienta gli Orchetti
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3019
+    mese: 2
+    giorno: 28
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "28-29 febbraio 3019"
+  luoghi:
+    - fangorn
+    - rohan
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: eomer
+      parte: Rohan
+      ruolo: maresciallo
+      esito: vince
+    - entita: popolo-rohirrim
+      parte: Rohan
+      ruolo: cavalieri
+      esito: annientano gli Orchetti
+    - persona: meriadoc-brandibuck
+      parte: Compagnia
+      ruolo: prigioniero
+      esito: fugge
+    - persona: peregrino-tuc
+      parte: Compagnia
+      ruolo: prigioniero
+      esito: fugge
+  breve: >-
+    Éomer annienta la banda di Orchetti ai margini di Fangorn; Merry e Pippin
+    fuggono e incontrano Barbalbero.
+  lungo: >-
+    Tra il 28 e il 29 febbraio 3019 Éomer raggiunge gli Orchetti ai margini
+    della Foresta di Fangorn e li annienta all'alba. Merry e Pippin riescono a
+    fuggire e incontrano Barbalbero.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 28-29 febbraio 3019"
+  certezza: certa
+  note: null
+
+- id: frodo-gollum
+  titolo: Frodo incontra Gollum
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 2
+    giorno: 28
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "Fine febbraio 3019"
+  luoghi:
+    - emyn-muil
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: incontra Gollum
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: lo protegge
+    - persona: gollum
+      parte: Montagne Nebbiose
+      ruolo: inseguitore
+      esito: si offre come guida
+  breve: >-
+    Frodo scende dall'Emyn Muil e incontra Gollum, che si offre di fargli da
+    guida.
+  lungo: >-
+    Alla fine di febbraio del 3019 Frodo scende dall'Emyn Muil e incontra
+    Gollum. Dopo un momento di tensione, Gollum si offre di guidare Frodo e
+    Sam verso Mordor, sperando di recuperare l'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 29 febbraio 3019"
+  certezza: certa
+  note: null
+
+- id: aragorn-gandalf-bianco
+  titolo: Aragorn incontra Gandalf il Bianco
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 1
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "1 marzo 3019"
+  luoghi:
+    - fangorn
+    - rohan
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: aragorn
+      parte: Compagnia
+      ruolo: guida
+      esito: incontra Gandalf
+    - persona: gandalf
+      parte: Istari
+      ruolo: il Bianco
+      esito: si riunisce a lui
+    - persona: legolas
+      parte: Compagnia
+      ruolo: arciere
+      esito: lo accompagna
+    - persona: gimli
+      parte: Compagnia
+      ruolo: nano
+      esito: lo accompagna
+  breve: >-
+    Aragorn incontra Gandalf il Bianco; insieme partono per Edoras.
+  lungo: >-
+    Il 1 marzo 3019 Aragorn, Legolas e Gimli incontrano Gandalf il Bianco.
+    Insieme partono per Edoras, dove il mago guarirà Théoden e cambierà le
+    sorti di Rohan.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 1 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: theoden-guarito
+  titolo: Gandalf guarisce Théoden
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 2
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "2 marzo 3019"
+  luoghi:
+    - edoras
+    - rohan
+    - isengard
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: gandalf
+      parte: Istari
+      ruolo: il Bianco
+      esito: guarisce Théoden
+    - persona: theoden
+      parte: Rohan
+      ruolo: re
+      esito: torna in sé
+    - persona: eomer
+      parte: Rohan
+      ruolo: maresciallo
+      esito: raduna i cavalieri
+    - entita: popolo-rohirrim
+      parte: Rohan
+      ruolo: cavalieri
+      esito: cavalcano verso ovest
+  breve: >-
+    Gandalf guarisce Théoden; i Rohirrim cavalcano verso l'Isen e gli Ent
+    marciano su Isengard.
+  lungo: >-
+    Il 2 marzo 3019 Gandalf guarisce Théoden a Edoras. I Rohirrim cavalcano
+    verso ovest per assalire Saruman, mentre l'Entaconsulta termina e gli Ent
+    marciano su Isengard.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 2 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: frodo-morannon-margini
+  titolo: Frodo ai margini del Morannon
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 4
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "4 marzo 3019"
+  luoghi:
+    - morannon
+    - mordor
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: raggiunge i margini del Morannon
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: lo accompagna
+    - persona: gollum
+      parte: Montagne Nebbiose
+      ruolo: guida
+      esito: li conduce
+  breve: >-
+    Frodo raggiunge i tumuli ai margini della Desolazione del Morannon.
+  lungo: >-
+    Il 4 marzo 3019 Frodo, Sam e Gollum raggiungono i tumuli ai margini della
+    Desolazione del Morannon. La via per Mordor passa davanti al Cancello Nero,
+    sorvegliato dalle forze di Sauron.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 4 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: gandalf-pippin-minas-tirith
+  titolo: Gandalf e Pippin partono per Minas Tirith
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 5
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "5 marzo 3019"
+  luoghi:
+    - isengard
+    - rohan
+    - minas-tirith
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: gandalf
+      parte: Istari
+      ruolo: il Bianco
+      esito: parte per Minas Tirith
+    - persona: peregrino-tuc
+      parte: Hobbit
+      ruolo: compagno
+      esito: parte con lui
+    - persona: theoden
+      parte: Rohan
+      ruolo: re
+      esito: discute con Saruman
+    - persona: saruman
+      parte: Isengard
+      ruolo: prigioniero
+      esito: rifiuta la clemenza
+  breve: >-
+    Gandalf e Pippin partono per Minas Tirith; Théoden discute con Saruman a
+    Orthanc.
+  lungo: >-
+    Il 5 marzo 3019 Gandalf e Pippin partono da Isengard alla volta di Minas
+    Tirith. Nello stesso giorno Théoden discute con Saruman a Orthanc: il mago
+    traditore rifiuta la clemenza e resta chiuso nella torre.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 5 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: dunedain-aragorn
+  titolo: I Dúnedain raggiungono Aragorn
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 6
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "6 marzo 3019"
+  luoghi:
+    - rohan
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: capitano
+      esito: riceve i suoi uomini
+    - entita: gruppo-dunedain-del-nord
+      parte: Dúnedain del Nord
+      ruolo: rinforzi
+      esito: lo raggiungono
+    - persona: theoden
+      parte: Rohan
+      ruolo: re
+      esito: lascia il Trombatorrione
+  breve: >-
+    I Dúnedain del Nord raggiungono Aragorn; Théoden lascia il Trombatorrione.
+  lungo: >-
+    Il 6 marzo 3019 i Dúnedain del Nord raggiungono Aragorn. Théoden lascia il
+    Trombatorrione e si dirige verso Clivovalle, mentre Aragorn parte dopo di
+    lui alla volta dei Sentieri dei Morti.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 6 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: frodo-henneth
+  titolo: Frodo a Henneth Annûn
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 7
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "7 marzo 3019"
+  luoghi:
+    - henneth-annun
+    - ithilien
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: viene condotto al rifugio
+    - persona: faramir
+      parte: Gondor
+      ruolo: capitano
+      esito: lo interroga
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: lo accompagna
+    - persona: gollum
+      parte: Montagne Nebbiose
+      ruolo: guida
+      esito: viene tenuto prigioniero
+  breve: >-
+    Faramir conduce Frodo e Sam a Henneth Annûn e li interroga.
+  lungo: >-
+    Il 7 marzo 3019 Faramir conduce Frodo e Sam a Henneth Annûn, il rifugio
+    segreto dell'Ithilien. Qui li interroga e scopre che portano l'Unico
+    Anello, ma decide di lasciarli proseguire.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 7 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: aragorn-sentieri-morti
+  titolo: Aragorn prende i Sentieri dei Morti
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 8
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "8 marzo 3019"
+  luoghi:
+    - dunclivo
+    - erech
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: capitano
+      esito: prende i Sentieri dei Morti
+    - entita: gruppo-dunedain-del-nord
+      parte: Dúnedain del Nord
+      ruolo: seguito
+      esito: lo accompagna
+  breve: >-
+    Aragorn si avvia verso i Sentieri dei Morti e raggiunge Erech.
+  lungo: >-
+    L'8 marzo 3019 Aragorn si avvia all'alba verso i Sentieri dei Morti e
+    raggiunge Erech a mezzanotte, dove raduna i Morti che hanno tradito il
+    giuramento.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 8 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: gandalf-minas-tirith
+  titolo: Gandalf giunge a Minas Tirith
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 9
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "9 marzo 3019"
+  luoghi:
+    - minas-tirith
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: gandalf
+      parte: Istari
+      ruolo: il Bianco
+      esito: giunge in città
+    - persona: peregrino-tuc
+      parte: Hobbit
+      ruolo: compagno
+      esito: entra con lui
+    - persona: denethor-ii
+      parte: Gondor
+      ruolo: Sovrintendente
+      esito: lo riceve
+  breve: >-
+    Gandalf e Pippin giungono a Minas Tirith, mentre l'oscurità si estende.
+  lungo: >-
+    Il 9 marzo 3019 Gandalf e Pippin giungono a Minas Tirith. L'oscurità si
+    estende oltre i confini di Mordor e la città si prepara all'assedio.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 9 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: giorno-senza-alba
+  titolo: Il Giorno Senza Alba
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 10
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "10 marzo 3019"
+  luoghi:
+    - rohan
+    - minas-tirith
+    - ithilien
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: theoden
+      parte: Rohan
+      ruolo: re
+      esito: raduna i Rohirrim
+    - persona: gandalf
+      parte: Istari
+      ruolo: difensore
+      esito: salva Faramir
+    - persona: faramir
+      parte: Gondor
+      ruolo: capitano
+      esito: viene salvato
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: capitano
+      esito: attraversa il Ringló
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: passa il Crocevia
+  breve: >-
+    Il Giorno Senza Alba: i Rohirrim partono, Faramir viene salvato, Aragorn
+    attraversa il Ringló e Frodo passa il Crocevia.
+  lungo: >-
+    Il 10 marzo 3019 è il Giorno Senza Alba. I Rohirrim partono da Dunclivo,
+    Gandalf salva Faramir davanti al cancello della Città, Aragorn attraversa
+    il Ringló e Frodo passa il Crocevia, vedendo partire l'esercito di Morgul.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 10 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: primo-assalto-lorien
+  titolo: Primo assalto a Lórien
+  tipo: guerra
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 11
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "11 marzo 3019"
+  luoghi:
+    - lorien
+    - cirith-ungol
+    - minas-tirith
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: galadriel
+      parte: Lórien
+      ruolo: signora elfica
+      esito: respinge l'assalto
+    - entita: popolo-orchetti
+      parte: Dol Guldur
+      ruolo: assalitori
+      esito: vengono respinti
+    - persona: gollum
+      parte: Montagne Nebbiose
+      ruolo: guida
+      esito: va da Shelob
+    - persona: denethor-ii
+      parte: Gondor
+      ruolo: Sovrintendente
+      esito: invia Faramir a Osgiliath
+  breve: >-
+    Primo assalto a Lórien; Gollum va da Shelob e Denethor invia Faramir a
+    Osgiliath.
+  lungo: >-
+    L'11 marzo 3019 Dol Guldur sferra il primo assalto a Lórien, ma Galadriel
+    lo respinge. Gollum va da Shelob, mentre Denethor invia Faramir a
+    Osgiliath e Aragorn raggiunge Linhir.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 11 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: frodo-tana-shelob
+  titolo: Frodo nella tana di Shelob
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 12
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "12 marzo 3019"
+  luoghi:
+    - cirith-ungol
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: entra nella tana
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: lo segue
+    - persona: gollum
+      parte: Montagne Nebbiose
+      ruolo: traditore
+      esito: li conduce da Shelob
+    - persona: shelob
+      parte: Cirith Ungol
+      ruolo: ragna
+      esito: attacca Frodo
+  breve: >-
+    Gollum conduce Frodo nella tana di Shelob; Faramir retrocede e gli Ent
+    sconfiggono gli invasori di Rohan.
+  lungo: >-
+    Il 12 marzo 3019 Gollum conduce Frodo e Sam nella tana di Shelob. Nello
+    stesso giorno Faramir retrocede fino alle Fortezze della Strada Maestra e
+    gli Ent sconfiggono gli invasori di Rohan.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 12 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: frodo-catturato
+  titolo: Frodo catturato a Cirith Ungol
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 13
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "13 marzo 3019"
+  luoghi:
+    - cirith-ungol
+    - campi-del-pelennor
+    - pelargir
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: viene catturato
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: resta libero
+    - entita: popolo-orchetti
+      parte: Cirith Ungol
+      ruolo: catturatori
+      esito: lo portano nella torre
+    - persona: faramir
+      parte: Gondor
+      ruolo: capitano
+      esito: viene ferito
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: capitano
+      esito: cattura la flotta
+  breve: >-
+    Frodo viene catturato dagli Orchetti di Cirith Ungol; inizia l'invasione
+    del Pelennor e Faramir viene ferito.
+  lungo: >-
+    Il 13 marzo 3019 Frodo viene catturato dagli Orchetti di Cirith Ungol.
+    Nello stesso giorno inizia l'invasione del Pelennor, Faramir viene ferito e
+    Aragorn raggiunge Pelargir, catturando la flotta dei Corsari.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 13 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: sam-libera-frodo
+  titolo: Sam libera Frodo
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 14
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "14 marzo 3019"
+  luoghi:
+    - cirith-ungol
+    - minas-tirith
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: trova Frodo nella torre
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: viene liberato
+    - entita: popolo-orchetti
+      parte: Cirith Ungol
+      ruolo: guardiani
+      esito: vengono sconfitti
+  breve: >-
+    Sam trova Frodo nella Torre di Cirith Ungol; intanto Minas Tirith è sotto
+    assedio.
+  lungo: >-
+    Il 14 marzo 3019 Sam entra nella Torre di Cirith Ungol e trova Frodo.
+    Intanto Minas Tirith è sotto assedio e i Rohirrim raggiungono il Bosco
+    Grigio, preparandosi alla battaglia del Pelennor.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 14 marzo 3019"
+  certezza: certa
+  note: null

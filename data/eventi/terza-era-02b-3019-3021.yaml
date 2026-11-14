@@ -1,0 +1,649 @@
+# Schede della Terza Era, 3019-3021 (seconda parte).
+# Dalla battaglia della Valle alla fine della Terza Era.
+# Fonte: Il Signore degli Anelli, Appendice B (Bompiani 2004).
+
+- id: consiglio-capitani
+  titolo: Il consiglio dei capitani
+  tipo: consiglio
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 16
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "16 marzo 3019"
+  luoghi:
+    - minas-tirith
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: aragorn
+      parte: Gondor
+      ruolo: comandante
+      esito: propone la marcia sul Morannon
+    - persona: gandalf
+      parte: Istari
+      ruolo: consigliere
+      esito: sostiene il piano
+    - persona: eomer
+      parte: Rohan
+      ruolo: comandante
+      esito: partecipa
+    - persona: imrahil
+      parte: Dol Amroth
+      ruolo: comandante
+      esito: partecipa
+  breve: >-
+    I capitani decidono di marciare sul Morannon per distrarre Sauron e dare a
+    Frodo il tempo di distruggere l'Anello.
+  lungo: >-
+    Il 16 marzo 3019 i capitani di Gondor e Rohan si riuniscono a Minas Tirith.
+    Decidono di marciare sul Morannon con l'Esercito dell'Ovest: non per
+    vincere, ma per attirare l'attenzione di Sauron e dare a Frodo il tempo di
+    raggiungere il Monte Fato.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 16 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: battaglia-valle-3019
+  titolo: Battaglia della Valle
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 17
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "17 marzo 3019"
+  luoghi:
+    - valle
+    - erebor
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: brand
+      parte: Valle
+      ruolo: re
+      esito: muore
+    - persona: dain-piediferro
+      parte: Nani
+      ruolo: re
+      esito: muore
+    - entita: popolo-esterling
+      parte: Est
+      ruolo: invasori
+      esito: vincono la battaglia
+  breve: >-
+    Alla Valle cadono re Brand e re Dàin Piediferro; Nani e Uomini si
+    rifugiano a Erebor.
+  lungo: >-
+    Il 17 marzo 3019 gli Esterling attaccano la Valle. Re Brand e re Dàin
+    Piediferro muoiono in battaglia, e Nani e Uomini si rifugiano a Erebor,
+    dove vengono assediati. La vittoria del Nord arriverà solo dopo la caduta
+    di Sauron.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 17 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: esercito-ovest-parte
+  titolo: L'Esercito dell'Ovest parte
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 18
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "18 marzo 3019"
+  luoghi:
+    - minas-tirith
+    - ithilien
+    - morannon
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: aragorn
+      parte: Esercito dell'Ovest
+      ruolo: comandante
+      esito: guida la marcia
+    - persona: gandalf
+      parte: Esercito dell'Ovest
+      ruolo: comandante
+      esito: guida la marcia
+    - entita: gruppo-esercito-ovest
+      parte: Gondor e Rohan
+      ruolo: esercito
+      esito: marcia verso Mordor
+  breve: >-
+    L'Esercito dell'Ovest lascia Minas Tirith e marcia verso il Morannon.
+  lungo: >-
+    Il 18 marzo 3019 l'Esercito dell'Ovest lascia Minas Tirith e marcia verso
+    il Morannon. È una spedizione disperata: il suo scopo è attirare Sauron
+    mentre Frodo e Sam si avvicinano al Monte Fato.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 18 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: ultima-tappa-frodo
+  titolo: L'ultima tappa di Frodo
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 24
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "24 marzo 3019"
+  luoghi:
+    - mordor
+    - monte-fato
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: intraprende l'ultima tappa
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: lo accompagna
+    - persona: gollum
+      parte: Montagne Nebbiose
+      ruolo: guida
+      esito: li segue
+  breve: >-
+    Frodo e Sam intraprendono l'ultima tappa verso il Monte Fato.
+  lungo: >-
+    Il 24 marzo 3019 Frodo e Sam intraprendono l'ultima tappa del viaggio verso
+    i piedi del Monte Fato. L'Esercito dell'Ovest si accampa intanto nella
+    Desolazione del Morannon, pronto alla battaglia finale.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, I Grandi Anni, 24 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: bard-ii-valle
+  titolo: Bard II caccia il nemico dalla Valle
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 27
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "27 marzo 3019"
+  luoghi:
+    - valle
+    - erebor
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: bard-ii
+      parte: Valle
+      ruolo: re
+      esito: caccia gli Esterling
+    - persona: thorin-iii
+      parte: Nani
+      ruolo: re
+      esito: caccia gli Esterling
+    - entita: popolo-esterling
+      parte: Est
+      ruolo: invasori
+      esito: vengono sconfitti
+  breve: >-
+    Bard II e Thorin III Elminpietra cacciano gli Esterling dalla Valle.
+  lungo: >-
+    Il 27 marzo 3019, giunta la notizia della caduta di Sauron, Bard II e
+    Thorin III Elminpietra escono da Erebor e cacciano gli Esterling dalla
+    Valle. I due regni del Nord sono salvi.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, Giorni principali, 27 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: distruzione-dol-guldur
+  titolo: Celeborn distrugge Dol Guldur
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 3019
+    mese: 3
+    giorno: 28
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "28 marzo 3019"
+  luoghi:
+    - dol-guldur
+    - bosco-atro
+    - lorien
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: celeborn
+      parte: Lórien
+      ruolo: signore elfico
+      esito: guida l'esercito
+    - persona: galadriel
+      parte: Lórien
+      ruolo: signora elfica
+      esito: distrugge le mura
+    - entita: popolo-elfi-silvani
+      parte: Lórien
+      ruolo: esercito
+      esito: conquista la fortezza
+  breve: >-
+    Celeborn attraversa l'Anduin e inizia la distruzione di Dol Guldur;
+    Galadriel ne abbatte le mura.
+  lungo: >-
+    Il 28 marzo 3019 Celeborn attraversa l'Anduin con l'esercito di Lórien e
+    comincia la distruzione di Dol Guldur. Galadriel ne abbatte le mura e ne
+    svuota i pozzi: la fortezza di Sauron nel Bosco Atro cade.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, Giorni principali, 28 marzo 3019"
+  certezza: certa
+  note: null
+
+- id: eryn-lasgalen
+  titolo: Il Bosco Atro diventa Eryn Lasgalen
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 4
+    giorno: 6
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "6 aprile 3019"
+  luoghi:
+    - bosco-atro
+  fa_parte_di: null
+  partecipanti:
+    - persona: celeborn
+      parte: Lórien
+      ruolo: signore elfico
+      esito: prende la parte meridionale
+    - persona: thranduil
+      parte: Bosco Atro
+      ruolo: re elfico
+      esito: prende la parte settentrionale
+  breve: >-
+    Celeborn e Thranduil si incontrano e cambiano il nome del Bosco Atro in
+    Eryn Lasgalen, il Bosco di Foglieverdi.
+  lungo: >-
+    Il 6 aprile 3019 Celeborn e Thranduil si incontrano in mezzo al Bosco Atro.
+    La foresta viene purificata e prende il nome di Eryn Lasgalen, il Bosco di
+    Foglieverdi. Thranduil ne prende la parte settentrionale, Celeborn quella
+    meridionale.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, Giorni principali, 6 aprile 3019"
+  certezza: certa
+  note: null
+
+- id: campo-cormallen
+  titolo: Onori sul Campo di Cormallen
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 4
+    giorno: 8
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "8 aprile 3019"
+  luoghi:
+    - campo-di-cormallen
+    - ithilien
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: riceve gli onori
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: Portatore
+      esito: riceve gli onori
+    - persona: aragorn
+      parte: Gondor
+      ruolo: re
+      esito: presiede
+    - persona: gandalf
+      parte: Istari
+      ruolo: consigliere
+      esito: partecipa
+  breve: >-
+    Frodo e Sam ricevono grandi onori sul Campo di Cormallen.
+  lungo: >-
+    L'8 aprile 3019 l'esercito si raduna sul Campo di Cormallen, in Ithilien.
+    Frodo e Sam vengono celebrati come Portatori dell'Anello, davanti a
+    Aragorn, Gandalf e ai capitani di Gondor e Rohan.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, Giorni principali, 8 aprile 3019"
+  certezza: certa
+  note: null
+
+- id: alberello-bianco
+  titolo: Aragorn trova l'Alberello Bianco
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 6
+    giorno: 25
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "25 giugno 3019"
+  luoghi:
+    - minas-tirith
+  fa_parte_di: null
+  partecipanti:
+    - persona: aragorn
+      parte: Gondor
+      ruolo: re
+      esito: trova l'alberello
+    - persona: arwen
+      parte: Gran Burrone
+      ruolo: regina
+      esito: giunge a Minas Tirith
+  breve: >-
+    Aragorn trova un Alberello Bianco sul Mindolluin; Arwen giunge a Minas
+    Tirith.
+  lungo: >-
+    Il 25 giugno 3019 Aragorn trova sul Mindolluin un Alberello Bianco,
+    discendente dell'albero perduto. Arwen giunge a Minas Tirith per le nozze,
+    che si celebrano nel Giorno di Mezza Estate.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, Giorni principali, 25 giugno 3019"
+  certezza: certa
+  note: null
+
+- id: funerali-theoden
+  titolo: Funerali di Théoden
+  tipo: evento
+  data:
+    era: terza
+    anno: 3019
+    mese: 8
+    giorno: 10
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "10 agosto 3019"
+  luoghi:
+    - edoras
+    - rohan
+  fa_parte_di: null
+  partecipanti:
+    - persona: theoden
+      parte: Rohan
+      ruolo: re
+      esito: viene sepolto
+    - persona: eomer
+      parte: Rohan
+      ruolo: re
+      esito: guida il regno
+    - persona: eowyn
+      parte: Rohan
+      ruolo: nipote
+      esito: partecipa
+    - persona: aragorn
+      parte: Gondor
+      ruolo: re
+      esito: partecipa
+  breve: >-
+    Théoden viene sepolto a Edoras; Éomer diventa re di Rohan.
+  lungo: >-
+    Il 10 agosto 3019 si svolgono i funerali di Théoden a Edoras. Il re caduto
+    ai Campi del Pelennor viene sepolto nei Tumuli dei Re, e Éomer assume il
+    governo di Rohan.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, Giorni principali, 10 agosto 3019"
+  certezza: certa
+  note: null
+
+- id: ritorno-contea
+  titolo: I Viaggiatori arrivano nella Contea
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3019
+    mese: 11
+    giorno: 1
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "1-2 novembre 3019"
+  luoghi:
+    - contea
+    - lungacque
+  fa_parte_di: La Guerra dell'Anello
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: viaggiatore
+      esito: arriva nella Contea
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: viaggiatore
+      esito: arriva nella Contea
+    - persona: meriadoc-brandibuck
+      parte: Hobbit
+      ruolo: viaggiatore
+      esito: arriva nella Contea
+    - persona: peregrino-tuc
+      parte: Hobbit
+      ruolo: viaggiatore
+      esito: arriva nella Contea
+    - persona: saruman
+      parte: Isengard
+      ruolo: tiranno
+      esito: occupa la Contea
+  breve: >-
+    Frodo, Sam, Merry e Pippin arrivano nella Contea e la trovano occupata
+    dagli uomini di Saruman.
+  lungo: >-
+    Tra il 1 e il 2 novembre 3019 i quattro Hobbit arrivano nella Contea e la
+    trovano occupata dagli uomini di Saruman. Il 3 novembre li affrontano a
+    Lungacque: è l'ultima battaglia della Guerra dell'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, Giorni principali, 1-2 novembre 3019"
+  certezza: certa
+  note: null
+
+- id: sam-rosie
+  titolo: Sam sposa Rosie Cotton
+  tipo: evento
+  data:
+    era: terza
+    anno: 3020
+    mese: 5
+    giorno: 1
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "1 maggio 3020"
+  luoghi:
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: sposo
+      esito: sposa Rosie
+    - persona: rosie-cotton
+      parte: Hobbit
+      ruolo: sposa
+      esito: sposa Sam
+  breve: >-
+    Sam sposa Rosie Cotton.
+  lungo: >-
+    Il 1 maggio 3020 Samvise Gamgi sposa Rosie Cotton. Dalla loro unione
+    nascerà Elanor la Bella, e la famiglia Gamgi diventerà una delle più
+    importanti della Contea.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3020"
+  certezza: certa
+  note: null
+
+- id: elanor-nasce
+  titolo: Nasce Elanor la Bella
+  tipo: nascita
+  data:
+    era: terza
+    anno: 3021
+    mese: 3
+    giorno: 25
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "25 marzo 3021"
+  luoghi:
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: elanor
+      parte: Hobbit
+      ruolo: neonata
+      esito: nasce
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: padre
+      esito: la alleva
+    - persona: rosie-cotton
+      parte: Hobbit
+      ruolo: madre
+      esito: la alleva
+  breve: >-
+    Nasce Elanor la Bella, figlia di Sam e Rosie.
+  lungo: >-
+    Il 25 marzo 3021 nasce Elanor la Bella, figlia di Samvise e Rosie. Secondo
+    il calendario di Gondor, con questa data comincia la Quarta Era.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3021"
+  certezza: certa
+  note: null
+
+- id: ultima-cavalcata
+  titolo: L'Ultima Cavalcata dei Custodi
+  tipo: evento
+  data:
+    era: terza
+    anno: 3021
+    mese: 9
+    giorno: 22
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "22 settembre 3021"
+  luoghi:
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: si unisce ai Custodi
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: compagno
+      esito: li accompagna
+    - persona: bilbo-baggins
+      parte: Hobbit
+      ruolo: Portatore
+      esito: si unisce ai Custodi
+    - persona: gandalf
+      parte: Istari
+      ruolo: Custode
+      esito: guida la cavalcata
+    - persona: elrond
+      parte: Imladris
+      ruolo: Custode
+      esito: partecipa
+    - persona: galadriel
+      parte: Lórien
+      ruolo: Custode
+      esito: partecipa
+  breve: >-
+    Frodo e Sam incontrano l'Ultima Cavalcata dei Custodi degli Anelli.
+  lungo: >-
+    Il 22 settembre 3021 Frodo e Sam incontrano l'Ultima Cavalcata dei Custodi
+    degli Anelli a Terminalbosco, presso i confini della Contea. Insieme si
+    dirigono verso i Rifugi Oscuri.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3021"
+  certezza: certa
+  note: null
+
+- id: sam-torna-casa
+  titolo: Sam torna a Casa Baggins
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3021
+    mese: 10
+    giorno: 6
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: contea
+    testo: "6 ottobre 3021"
+  luoghi:
+    - hobbiville
+    - casa-baggins
+  fa_parte_di: null
+  partecipanti:
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: reduce
+      esito: torna a casa
+  breve: >-
+    Sam torna a Casa Baggins, mentre la Terza Era è finita.
+  lungo: >-
+    Il 6 ottobre 3021 Samvise Gamgi torna a Casa Baggins. Frodo e Bilbo sono
+    partiti per l'Occidente, e Sam resta nella Contea con la famiglia. La Terza
+    Era è finita.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3021"
+  certezza: certa
+  note: null

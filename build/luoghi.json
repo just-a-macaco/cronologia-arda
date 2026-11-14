@@ -17,22 +17,31 @@
         "brandobras-orcs",
         "bucca-conte",
         "crudele-inverno",
+        "elanor-nasce",
         "erba-pipa",
         "festa-bilbo",
         "festa-inattesa",
         "fondazione-contea",
+        "frodo-malato-3020",
+        "frodo-malato-3021",
         "frodo-parte",
+        "frodo-sam-parte",
+        "frodo-si-dimetta",
         "gandalf-balin-bilbo",
         "gandalf-visita-frodo",
         "isengrim-grandi-smial",
         "isumbras-conte",
         "lungacque",
         "lungo-inverno",
+        "mallorn-fiorisce",
         "morte-vecchio-tuc",
         "nascita-faramir-sam",
         "nascita-frodo",
+        "ritorno-contea",
+        "sam-rosie",
         "saruman-tradisce",
         "sturoi-contea",
+        "ultima-cavalcata",
         "ultima-visita-gandalf"
       ]
     },
@@ -52,8 +61,11 @@
         "festa-bilbo",
         "festa-inattesa",
         "frodo-parte",
+        "frodo-sam-parte",
         "gandalf-balin-bilbo",
-        "lungacque"
+        "gandalf-hobbiville-3018",
+        "lungacque",
+        "sam-torna-casa"
       ]
     },
     {
@@ -67,7 +79,8 @@
       "eventi": [
         "festa-bilbo",
         "festa-inattesa",
-        "frodo-parte"
+        "frodo-parte",
+        "sam-torna-casa"
       ]
     },
     {
@@ -80,6 +93,7 @@
       "nota": null,
       "eventi": [
         "angmar",
+        "frodo-brea",
         "ultimo-consiglio"
       ]
     },
@@ -99,11 +113,13 @@
         "arathorn-ucciso",
         "bilbo-gran-burrone",
         "compagnia-parte",
+        "compleanno-bilbo-3020",
         "consiglio-2851",
         "consiglio-dol-guldur",
         "consiglio-elrond",
         "elladan-elrohir",
         "elrond-celebrian",
+        "guado-bruinen",
         "morte-gilraen",
         "nascita-arwen",
         "ricerca-gollum",
@@ -124,7 +140,9 @@
         "balin-moria",
         "balrog-moria",
         "colonia-moria",
+        "compagnia-moria",
         "fortezze-orchetti",
+        "gandalf-balrog",
         "gandalf-moria",
         "gollum-fugge",
         "guerra-nani-orchetti",
@@ -143,10 +161,14 @@
       "nota": "«Angrenost» è il nome elfico; la torre centrale è Orthanc.",
       "eventi": [
         "distruzione-isengard",
+        "gandalf-edoras",
+        "gandalf-pippin-minas-tirith",
+        "gandalf-prigioniero",
         "istari",
         "saruman-isengard",
         "saruman-scopre",
         "saruman-tradisce",
+        "theoden-guarito",
         "ultimo-consiglio"
       ]
     },
@@ -161,11 +183,18 @@
       "descrizione": "La città bianca di Gondor, costruita sul Mindolluin e protetta da sette cerchi di mura.",
       "nota": "Chiamata Minas Anor fino al 1640, quando Tarondor vi spostò la residenza reale.",
       "eventi": [
+        "alberello-bianco",
         "albero-morto",
+        "boromir-parte",
+        "consiglio-capitani",
         "denethor-sovrintendente",
         "earnur",
         "ecthelion-torre",
         "elessar",
+        "esercito-ovest-parte",
+        "gandalf-minas-tirith",
+        "gandalf-pippin-minas-tirith",
+        "giorno-senza-alba",
         "gollum-catturato",
         "grande-peste",
         "incoronazione-earnil-ii",
@@ -179,6 +208,8 @@
         "nozze-elessar-arwen",
         "ostoher-minas-anor",
         "pelennor",
+        "primo-assalto-lorien",
+        "sam-libera-frodo",
         "torre-bianca"
       ]
     },
@@ -212,6 +243,9 @@
       "eventi": [
         "assedio-minas-ithil",
         "bilbo-torna",
+        "esercito-lascia-ithilien",
+        "esercito-morgul-vale",
+        "frodo-morannon-margini",
         "gollum-shelob",
         "inizio-terza",
         "minas-ithil",
@@ -219,7 +253,9 @@
         "re-stregoni-mordor",
         "ricerca-gollum",
         "saruman-tradisce",
-        "sauron-si-dichiara"
+        "sauron-si-dichiara",
+        "terzo-assalto-lorien",
+        "ultima-tappa-frodo"
       ]
     },
     {
@@ -250,7 +286,8 @@
       "nota": null,
       "eventi": [
         "distruzione-anello",
-        "fato-avvampa"
+        "fato-avvampa",
+        "ultima-tappa-frodo"
       ]
     },
     {
@@ -267,7 +304,8 @@
         "isildur-anello",
         "osgiliath-3018",
         "osgiliath-distrutta",
-        "ricerca-gollum"
+        "ricerca-gollum",
+        "sarn-gebir"
       ]
     },
     {
@@ -282,7 +320,9 @@
       "nota": "Prima dell'ombra del 1050 era la Grande Foresta Verde.",
       "eventi": [
         "consiglio-dol-guldur",
+        "distruzione-dol-guldur",
         "dol-guldur-cresce",
+        "eryn-lasgalen",
         "gandalf-dol-guldur",
         "gollum-catturato",
         "gollum-fugge",
@@ -305,8 +345,15 @@
       "descrizione": "Il regno dei Rohirrim tra l'Anduin e le Montagne Bianche, nato dal dono del Calenardhon.",
       "nota": "Nato nel 2510, quando Cirion donò il Calenardhon a Eorl.",
       "eventi": [
+        "aragorn-gandalf-bianco",
         "baldor-scompare",
         "compagnia-si-scioglie",
+        "dunedain-aragorn",
+        "eomer-orchetti",
+        "funerali-theoden",
+        "gandalf-edoras",
+        "gandalf-pippin-minas-tirith",
+        "giorno-senza-alba",
         "lungo-inverno",
         "morte-eorl",
         "nascita-eomer",
@@ -314,7 +361,9 @@
         "nascita-theoden",
         "orcs-rovano",
         "rohan",
+        "theoden-guarito",
         "theoden-re",
+        "theodred-morte",
         "viaggi-aragorn"
       ]
     },
@@ -327,8 +376,11 @@
       "descrizione": "La capitale di Rohan, costruita su un colle ai piedi delle Montagne Bianche.",
       "nota": null,
       "eventi": [
+        "funerali-theoden",
+        "gandalf-edoras",
         "lungo-inverno",
         "sala-d-oro",
+        "theoden-guarito",
         "theoden-re"
       ]
     },
@@ -357,7 +409,9 @@
       "nota": "Il regno dei Nani «sotto la Montagna» fu fondato qui nel 1999.",
       "eventi": [
         "balin-moria",
+        "bard-ii-valle",
         "bard-re-valle",
+        "battaglia-valle-3019",
         "cinque-eserciti",
         "draghi-nord",
         "nani-erebor",
@@ -568,6 +622,7 @@
       "nota": null,
       "eventi": [
         "consiglio-dol-guldur",
+        "distruzione-dol-guldur",
         "dol-guldur-cresce",
         "gandalf-dol-guldur",
         "pace-vigile",
@@ -590,6 +645,7 @@
       "eventi": [
         "assedio-minas-ithil",
         "earnur",
+        "esercito-morgul-vale",
         "minas-ithil",
         "osgiliath-3018",
         "pace-vigile"
@@ -624,7 +680,8 @@
       "descrizione": "La collina con la torre che custodiva uno dei palantíri del Nord, distrutta nel 1409.",
       "nota": null,
       "eventi": [
-        "angmar-invaude"
+        "angmar-invaude",
+        "frodo-ferito-colle-vento"
       ]
     },
     {
@@ -639,8 +696,10 @@
         "anello-bilbo",
         "angmar",
         "celebrian-ferita",
+        "compagnia-moria",
         "deagol-anello",
         "fortezze-orchetti",
+        "gandalf-balrog",
         "gollum-fugge",
         "gollum-lascia-montagne",
         "gollum-montagne",
@@ -683,8 +742,13 @@
       "descrizione": "Il regno elfico di Galadriel e Celeborn nel bosco a est delle Montagne Nebbiose.",
       "nota": null,
       "eventi": [
+        "addio-lorien",
         "aragorn-arwen-cerin-amroth",
-        "balrog-moria"
+        "balrog-moria",
+        "caras-galadhon",
+        "distruzione-dol-guldur",
+        "primo-assalto-lorien",
+        "terzo-assalto-lorien"
       ]
     },
     {
@@ -696,7 +760,9 @@
       "descrizione": "Il bosco antico ai piedi meridionali delle Montagne Nebbiose, dimora degli Ent.",
       "nota": null,
       "eventi": [
-        "distruzione-isengard"
+        "aragorn-gandalf-bianco",
+        "distruzione-isengard",
+        "eomer-orchetti"
       ]
     },
     {
@@ -710,6 +776,8 @@
       "descrizione": "Il grande cancello che chiude l'ingresso nord-occidentale di Mordor.",
       "nota": "La Desolazione del Morannon è la piana davanti al cancello.",
       "eventi": [
+        "esercito-ovest-parte",
+        "frodo-morannon-margini",
         "morannon"
       ]
     },
@@ -765,6 +833,7 @@
       "descrizione": "La pianura coltivata davanti a Minas Tirith, teatro della grande battaglia del 3019.",
       "nota": null,
       "eventi": [
+        "frodo-catturato",
         "pelennor"
       ]
     },
@@ -881,7 +950,8 @@
       "descrizione": "La regione di rocce e burroni tra l'Anduin e le Paludi Morte.",
       "nota": null,
       "eventi": [
-        "compagnia-si-scioglie"
+        "compagnia-si-scioglie",
+        "frodo-gollum"
       ]
     },
     {
@@ -959,7 +1029,13 @@
       "nota": null,
       "eventi": [
         "battaglia-campo",
+        "campo-cormallen",
+        "esercito-lascia-ithilien",
+        "esercito-morgul-vale",
+        "esercito-ovest-parte",
         "fato-avvampa",
+        "frodo-henneth",
+        "giorno-senza-alba",
         "ithilien-abbandonata"
       ]
     },
@@ -984,7 +1060,8 @@
       "descrizione": "Il villaggio della Contea dove finisce la battaglia del 3019.",
       "nota": null,
       "eventi": [
-        "lungacque"
+        "lungacque",
+        "ritorno-contea"
       ]
     },
     {
@@ -1040,6 +1117,7 @@
       "nota": null,
       "eventi": [
         "distruzione-isengard",
+        "gandalf-prigioniero",
         "saruman-isengard",
         "saruman-tradisce"
       ]
@@ -1080,6 +1158,7 @@
       "eventi": [
         "battaglia-erui",
         "corsari-pelargir",
+        "frodo-catturato",
         "lotta-stirpi"
       ]
     },
@@ -1142,7 +1221,8 @@
       "descrizione": "Le colline dei tumuli nell'antico Cardolan.",
       "nota": null,
       "eventi": [
-        "angmar-invaude"
+        "angmar-invaude",
+        "frodo-vecchia-foresta"
       ]
     },
     {
@@ -1172,7 +1252,9 @@
       "nota": null,
       "eventi": [
         "bain-re-valle",
+        "bard-ii-valle",
         "bard-re-valle",
+        "battaglia-valle-3019",
         "brand-re-valle",
         "cinque-eserciti",
         "smaug-erebor",
@@ -1301,6 +1383,7 @@
       "descrizione": "Il rifugio segreto costruito in Ithilien nel 2901.",
       "nota": null,
       "eventi": [
+        "frodo-henneth",
         "ithilien-abbandonata"
       ]
     },
@@ -1361,7 +1444,11 @@
       "descrizione": "Il passo di Mordor dove vive Shelob.",
       "nota": null,
       "eventi": [
-        "gollum-shelob"
+        "frodo-catturato",
+        "frodo-tana-shelob",
+        "gollum-shelob",
+        "primo-assalto-lorien",
+        "sam-libera-frodo"
       ]
     },
     {
@@ -1389,11 +1476,109 @@
       "eventi": [
         "migrazione-sturoi"
       ]
+    },
+    {
+      "id": "vecchia-foresta",
+      "nome": "Vecchia Foresta",
+      "tipo": "bosco",
+      "alias": [],
+      "dentro": "eriador",
+      "descrizione": "Il bosco antico a est della Contea, dove vive Tom Bombadil.",
+      "nota": null,
+      "eventi": [
+        "frodo-vecchia-foresta"
+      ]
+    },
+    {
+      "id": "casa-di-bombadil",
+      "nome": "Casa di Tom Bombadil",
+      "tipo": "edificio",
+      "alias": [],
+      "dentro": "vecchia-foresta",
+      "descrizione": "La casa di Tom Bombadil nella Vecchia Foresta.",
+      "nota": null,
+      "eventi": [
+        "frodo-vecchia-foresta"
+      ]
+    },
+    {
+      "id": "guado-bruinen",
+      "nome": "Guado di Bruinen",
+      "tipo": "passo",
+      "alias": [],
+      "dentro": "eriador",
+      "descrizione": "Il guado del Bruinen, dove Frodo sfugge ai Cavalieri Neri.",
+      "nota": null,
+      "eventi": [
+        "guado-bruinen"
+      ]
+    },
+    {
+      "id": "caras-galadhon",
+      "nome": "Caras Galadhon",
+      "tipo": "città",
+      "alias": [],
+      "dentro": "lorien",
+      "descrizione": "La città degli alberi di Galadriel e Celeborn in Lórien.",
+      "nota": null,
+      "eventi": [
+        "caras-galadhon"
+      ]
+    },
+    {
+      "id": "sarn-gebir",
+      "nome": "Sarn Gebir",
+      "tipo": "fiume",
+      "alias": [
+        "Rapide di Sarn Gebir"
+      ],
+      "dentro": "anduin",
+      "descrizione": "Le rapide dell'Anduin dove le barche della Compagnia vengono assalite.",
+      "nota": null,
+      "eventi": [
+        "sarn-gebir"
+      ]
+    },
+    {
+      "id": "dunclivo",
+      "nome": "Dunclivo",
+      "tipo": "rifugio",
+      "alias": [],
+      "dentro": "rohan",
+      "descrizione": "Il rifugio di Rohan ai piedi dei Sentieri dei Morti.",
+      "nota": null,
+      "eventi": [
+        "aragorn-sentieri-morti"
+      ]
+    },
+    {
+      "id": "erech",
+      "nome": "Erech",
+      "tipo": "collina",
+      "alias": [],
+      "dentro": "gondor",
+      "descrizione": "La collina del Giuramento tradito, dove Aragorn raduna i Morti.",
+      "nota": null,
+      "eventi": [
+        "aragorn-sentieri-morti"
+      ]
+    },
+    {
+      "id": "campo-di-cormallen",
+      "nome": "Campo di Cormallen",
+      "tipo": "pianura",
+      "alias": [],
+      "dentro": "ithilien",
+      "descrizione": "Il campo in Ithilien dove i Portatori dell'Anello ricevono gli onori.",
+      "nota": null,
+      "eventi": [
+        "campo-cormallen"
+      ]
     }
   ],
   "copertura": {
-    "luoghi_citati": 92,
-    "luoghi_coperti": 92,
+    "luoghi_citati": 100,
+    "luoghi_coperti": 100,
     "luoghi_scoperti": 0,
     "scoperti": []
   }
