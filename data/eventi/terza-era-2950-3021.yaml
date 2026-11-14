@@ -35,11 +35,11 @@
       ruolo: cercatore
       esito: si dirige verso Mordor
     - persona: elrond
-      parte: Imladris
+      parte: Gran Burrone
       ruolo: signore elfico
       esito: rivela ad Aragorn la sua discendenza
     - persona: aragorn
-      parte: Dúnedain
+      parte: Dúnedain del Nord
       ruolo: erede di Isildur
       esito: riceve i frantumi di Narsil
   breve: >-
@@ -417,7 +417,7 @@
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
     - persona: elrond
-      parte: Imladris
+      parte: Gran Burrone
       ruolo: signore del consiglio
       esito: convoca il Consiglio
     - persona: gandalf
@@ -429,7 +429,7 @@
       ruolo: Portatore
       esito: si offre di portare l'Anello
     - persona: aragorn
-      parte: Dúnedain
+      parte: Dúnedain del Nord
       ruolo: erede di Isildur
       esito: entra nella Compagnia
     - persona: boromir
@@ -912,7 +912,7 @@
       esito: sopravvive
     - persona: gollum
       parte: Montagne Nebbiose
-      ruolo: custode
+      ruolo: Custode
       esito: cade nella Voragine con l'Anello
     - persona: sauron
       parte: Mordor
@@ -960,11 +960,11 @@
       ruolo: consigliere
       esito: pone la corona
     - persona: elrond
-      parte: Imladris
+      parte: Gran Burrone
       ruolo: signore elfico
       esito: parte da Gran Burrone
     - persona: arwen
-      parte: Imladris
+      parte: Gran Burrone
       ruolo: regina
       esito: parte con Elrond
   breve: >-
@@ -1004,11 +1004,11 @@
       ruolo: re
       esito: sposa Arwen
     - persona: arwen
-      parte: Imladris
+      parte: Gran Burrone
       ruolo: regina
       esito: sposa Aragorn
     - persona: elrond
-      parte: Imladris
+      parte: Gran Burrone
       ruolo: padre della sposa
       esito: celebra le nozze
   breve: >-
@@ -1118,7 +1118,7 @@
       ruolo: Custode
       esito: salpa
     - persona: elrond
-      parte: Imladris
+      parte: Gran Burrone
       ruolo: Custode
       esito: salpa
     - persona: galadriel

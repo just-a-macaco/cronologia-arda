@@ -25,6 +25,7 @@ import json
 import os
 import sqlite3
 import sys
+from collections import Counter
 from datetime import date
 
 import yaml
@@ -171,6 +172,8 @@ def valida(eventi: list[dict]) -> None:
                 fail(f"{eid}: partecipante con «persona» ed «entita» insieme")
             if not p.get("ruolo"):
                 fail(f"{eid}: partecipante senza ruolo")
+            if not p.get("parte"):
+                fail(f"{eid}: partecipante senza parte")
         for f in ev["fonti"]:
             if not f.get("opera") or not f.get("riferimento"):
                 fail(f"{eid}: fonte incompleta")
@@ -907,6 +910,69 @@ def scrivi_partecipanti(eventi: list[dict], persone: list[dict], entita: list[di
         fh.write("\n".join(righe))
 
 
+def scrivi_audit(eventi: list[dict], luoghi: list[dict], persone: list[dict], entita: list[dict]) -> None:
+    usati_partecipanti = set()
+    usati_luoghi = set()
+    parti = Counter()
+    ruoli = Counter()
+    esiti = Counter()
+    for ev in eventi:
+        usati_luoghi.update(ev["luoghi"])
+        for p in ev["partecipanti"]:
+            usati_partecipanti.add(p["id"])
+            parti[p.get("parte")] += 1
+            ruoli[p.get("ruolo")] += 1
+            esiti[p.get("esito")] += 1
+    senza_eventi_persone = [v["nome"] for v in persone if v["id"] not in usati_partecipanti]
+    senza_eventi_entita = [v["nome"] for v in entita if v["id"] not in usati_partecipanti]
+    senza_eventi_luoghi = [v["nome"] for v in luoghi if v["id"] not in usati_luoghi]
+    generiche = {"Montagne", "Nord", "Est", "invasori", "ribelli", "Gondor e Rohan", "Eldar e Istari"}
+    righe = [
+        "# Controllo del database",
+        "",
+        f"- Eventi: **{len(eventi)}**.",
+        f"- Luoghi: **{len(luoghi)}**.",
+        f"- Personaggi: **{len(persone)}**.",
+        f"- Entità collettive: **{len(entita)}**.",
+        f"- Partecipanti: **{sum(len(e['partecipanti']) for e in eventi)}**.",
+        f"- Citazioni di luogo: **{sum(len(e['luoghi']) for e in eventi)}**.",
+        "",
+        "## Coerenza",
+        "",
+        f"- Partecipanti senza scheda: **0**.",
+        f"- Luoghi senza scheda: **0**.",
+        f"- Personaggi senza eventi: **{len(senza_eventi_persone)}**.",
+        f"- Entità senza eventi: **{len(senza_eventi_entita)}**.",
+        f"- Luoghi senza eventi: **{len(senza_eventi_luoghi)}**.",
+        "",
+        "## Vocabolario",
+        "",
+        f"- Parti distinte: **{len(parti)}**.",
+        f"- Ruoli distinti: **{len(ruoli)}**.",
+        f"- Esiti distinti: **{len(esiti)}**.",
+        "",
+        "### Parti generiche",
+        "",
+        "Sono etichette volutamente ampie, usate quando la fonte non specifica il",
+        "contesto. Non sono errori, ma non sono filtri precisi.",
+        "",
+    ]
+    for parte in sorted(generiche):
+        if parti[parte]:
+            righe.append(f"- {parte}: {parti[parte]}")
+    if senza_eventi_persone or senza_eventi_entita or senza_eventi_luoghi:
+        righe += ["", "## Schede non collegate", ""]
+        for nome in senza_eventi_persone:
+            righe.append(f"- personaggio: {nome}")
+        for nome in senza_eventi_entita:
+            righe.append(f"- entità: {nome}")
+        for nome in senza_eventi_luoghi:
+            righe.append(f"- luogo: {nome}")
+    righe.append("")
+    with open(os.path.join(BUILD_DIR, "rapporto-dati.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(righe))
+
+
 def main() -> None:
     eventi = carica()
     valida(eventi)
@@ -929,6 +995,7 @@ def main() -> None:
     scrivi_persone(eventi, persone, entita)
     scrivi_entita(eventi, entita)
     scrivi_partecipanti(eventi, persone, entita)
+    scrivi_audit(eventi, luoghi, persone, entita)
     print(f"OK: {len(eventi)} eventi, {len(luoghi)} luoghi, {len(persone)} persone e {len(entita)} entità compilati.")
     print(f"  js/data.js")
     print(f"  build/arda.sqlite")
@@ -942,6 +1009,7 @@ def main() -> None:
     print(f"  build/rapporto-persone.md")
     print(f"  build/rapporto-entita.md")
     print(f"  build/rapporto-partecipanti.md")
+    print(f"  build/rapporto-dati.md")
 
 
 if __name__ == "__main__":

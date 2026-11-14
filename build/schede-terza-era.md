@@ -960,7 +960,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Arvedui | Arthedain | re in fuga | annega nella Baia di Forochel |
 | Eärnur | Gondor | principe | guida la flotta del Lindon |
 | il Re degli Stregoni | Angmar | comandante | sconfitto, scompare dal Nord |
-| Glorfindel | Imladris | signore elfico | pronuncia la profezia |
+| Glorfindel | Gran Burrone | signore elfico | pronuncia la profezia |
 
 **Versione breve:** Arvedui annega nella baia di Forochel e i palantíri del Nord vanno perduti. La flotta di Eärnur sconfigge il Re degli Stregoni davanti a Fornost e lo insegue fino agli Erenbrulli.
 
@@ -983,7 +983,7 @@ la versione breve è quella che compare sulla linea del tempo.
 |---|---|---|---|
 | Aranarth | Dúnedain del Nord | capitano | assume il titolo |
 | i Dúnedain del Nord | Dúnedain del Nord | popolo | lo segue |
-| Elrond | Gran Burrone | custode | riceve i tesori di Arnor |
+| Elrond | Gran Burrone | Custode | riceve i tesori di Arnor |
 
 **Versione breve:** Aranarth prende il titolo di Capitano dei Dúnedain; i tesori di Arnor sono affidati a Elrond.
 
@@ -1278,7 +1278,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
-| Sauron | Dol Guldur | signore oscuro | rioccupa la fortezza |
+| Sauron | Dol Guldur | Signore Oscuro | rioccupa la fortezza |
 | i Nazgûl | Mordor | servi | si radunano |
 
 **Versione breve:** Finisce la Pace Vigile: Sauron ritorna a Dol Guldur con forze rinnovate.
@@ -1369,7 +1369,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
 | gli Orchetti | Montagne Nebbiose | costruttori | costruiscono fortezze segrete |
-| Sauron | Mordor | signore oscuro | popola Moria con le sue creature |
+| Sauron | Mordor | Signore Oscuro | popola Moria con le sue creature |
 
 **Versione breve:** Gli Orchetti costruiscono fortezze segrete nei valichi delle Montagne Nebbiose; Sauron comincia a popolare Moria.
 
@@ -1412,7 +1412,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
-| Eorl il Giovane | popolo del Nord | comandante | vince |
+| Eorl il Giovane | Éothéod | comandante | vince |
 | Cirion | Gondor | Sovrintendente | chiede aiuto e concede la terra |
 | i Balchoth | Est | invasori | sconfitti |
 | gli Esterling | Est | invasori | sconfitti |
@@ -1438,7 +1438,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
 | Celebrían | Gran Burrone | viaggiatrice | salpa verso l'Occidente |
-| Círdan | Rifugi Oscuri | signore del porto | assiste alla partenza |
+| Círdan | Rifugi Oscuri | Signore del porto | assiste alla partenza |
 
 **Versione breve:** Celebrían lascia la Terra di Mezzo e salpa dai Rifugi Oscuri.
 
@@ -1460,7 +1460,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
 | Cirion | Gondor | Sovrintendente | dona il Calenardhon |
-| Eorl il Giovane | popolo del Nord | condottiero | riceve la terra e presta il Giuramento |
+| Eorl il Giovane | Éothéod | condottiero | riceve la terra e presta il Giuramento |
 | i Rohirrim | Rohan | popolo | si stabiliscono nel Calenardhon |
 
 **Versione breve:** Cirion dona il Calenardhon a Eorl il Giovane, che presta il Giuramento di Eorl. I Rohirrim si stabiliscono nella terra che diventa il Mark.
@@ -1845,7 +1845,7 @@ la versione breve è quella che compare sulla linea del tempo.
 |---|---|---|---|
 | Gandalf | Istari | esploratore | scopre Sauron e riceve la chiave di Erebor |
 | Thràin II | Nani | prigioniero | muore a Dol Guldur |
-| Sauron | Dol Guldur | signore oscuro | cerca l'Anello e l'Erede di Isildur |
+| Sauron | Dol Guldur | Signore Oscuro | cerca l'Anello e l'Erede di Isildur |
 
 **Versione breve:** Gandalf entra di nuovo nella fortezza e scopre che il suo padrone è Sauron. Vi trova morente Thràin II, che gli affida la chiave di Erebor.
 
@@ -2202,8 +2202,8 @@ la versione breve è quella che compare sulla linea del tempo.
 
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
-| Bilbo Baggins | Hobbit | portatore | trova l'Unico Anello |
-| Gollum | Montagne Nebbiose | custode | perde l'Anello |
+| Bilbo Baggins | Hobbit | Portatore | trova l'Unico Anello |
+| Gollum | Montagne Nebbiose | Custode | perde l'Anello |
 
 **Versione breve:** Nelle caverne delle Montagne Nebbiose Bilbo trova l'Unico Anello e incontra Gollum. L'Anello, creduto perduto, torna nel mondo.
 
@@ -2232,7 +2232,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Dàin Piediferro | Nani | comandante | diventa Re sotto la Montagna |
 | Bard | Esgaroth | comandante | sopravvive |
 | Thranduil | Bosco Atro | re elfico | sopravvive |
-| Bilbo Baggins | Hobbit | portatore dell'Anello | sopravvive |
+| Bilbo Baggins | Hobbit | Portatore dell'Anello | sopravvive |
 | gli Orchetti e i Lupi | Nord | invasori | sconfitti |
 
 **Versione breve:** Alla Valle si combatte la Battaglia dei Cinque Eserciti: Thorin muore e Dàin Piediferro diventa Re sotto la Montagna.
@@ -2258,7 +2258,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Gandalf | Bianco Consiglio | promotore | ottiene l'attacco |
 | Galadriel | Bianco Consiglio | signora di Lórien | partecipa |
 | Elrond | Bianco Consiglio | signore di Imladris | partecipa |
-| Sauron | Dol Guldur | signore oscuro | abbandona la fortezza |
+| Sauron | Dol Guldur | Signore Oscuro | abbandona la fortezza |
 
 **Versione breve:** Il Bianco Consiglio assalta Dol Guldur. Sauron, che ha già pronto il suo piano, abbandona la fortezza e si ritira in segreto verso Mordor.
 
@@ -2335,7 +2335,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
 | Bilbo Baggins | Hobbit | viaggiatore | torna a Casa Baggins con l'Anello |
-| Sauron | Mordor | signore oscuro | rientra in segreto a Mordor |
+| Sauron | Mordor | Signore Oscuro | rientra in segreto a Mordor |
 
 **Versione breve:** Bilbo rientra nella Contea con l'Anello; nello stesso anno Sauron raggiunge di nascosto Mordor.
 
@@ -2378,7 +2378,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
-| Gollum | Montagne Nebbiose | custode | parte in cerca del ladro |
+| Gollum | Montagne Nebbiose | Custode | parte in cerca del ladro |
 
 **Versione breve:** Gollum lascia le Montagne Nebbiose in cerca del «ladro» dell'Anello.
 
@@ -2469,8 +2469,8 @@ la versione breve è quella che compare sulla linea del tempo.
 | Sauron | Mordor | Signore Oscuro | dichiara il proprio ritorno |
 | i Nazgûl | Mordor | servi | tre rioccupano Dol Guldur |
 | Gollum | Montagne Nebbiose | cercatore | si dirige verso Mordor |
-| Elrond | Imladris | signore elfico | rivela ad Aragorn la sua discendenza |
-| Aragorn | Dúnedain | erede di Isildur | riceve i frantumi di Narsil |
+| Elrond | Gran Burrone | signore elfico | rivela ad Aragorn la sua discendenza |
+| Aragorn | Dúnedain del Nord | erede di Isildur | riceve i frantumi di Narsil |
 
 **Versione breve:** Sauron annuncia apertamente il proprio ritorno, raduna le forze a Mordor e ricostruisce Barad-dûr. Tre Nazgûl rioccupano Dol Guldur.
 
@@ -3366,10 +3366,10 @@ la versione breve è quella che compare sulla linea del tempo.
 
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
-| Elrond | Imladris | signore del consiglio | convoca il Consiglio |
+| Elrond | Gran Burrone | signore del consiglio | convoca il Consiglio |
 | Gandalf | Istari | consigliere | sostiene la distruzione dell'Anello |
 | Frodo Baggins | Hobbit | Portatore | si offre di portare l'Anello |
-| Aragorn | Dúnedain | erede di Isildur | entra nella Compagnia |
+| Aragorn | Dúnedain del Nord | erede di Isildur | entra nella Compagnia |
 | Boromir | Gondor | figlio del Sovrintendente | entra nella Compagnia |
 | Legolas | Bosco Atro | elfo | entra nella Compagnia |
 | Gimli | Nani | nano | entra nella Compagnia |
@@ -4309,7 +4309,7 @@ la versione breve è quella che compare sulla linea del tempo.
 |---|---|---|---|
 | Frodo Baggins | Hobbit | Portatore | cede all'Anello, poi viene salvato |
 | Samvise Gamgi | Hobbit | compagno | sopravvive |
-| Gollum | Montagne Nebbiose | custode | cade nella Voragine con l'Anello |
+| Gollum | Montagne Nebbiose | Custode | cade nella Voragine con l'Anello |
 | Sauron | Mordor | Signore Oscuro | muore |
 
 **Versione breve:** Nel Sammath Naur Gollum strappa l'Anello a Frodo e cade con esso nella Voragine del Fato: Barad-dûr crolla e Sauron muore.
@@ -4434,8 +4434,8 @@ la versione breve è quella che compare sulla linea del tempo.
 |---|---|---|---|
 | Aragorn | Gondor | re | viene incoronato Elessar |
 | Gandalf | Istari | consigliere | pone la corona |
-| Elrond | Imladris | signore elfico | parte da Gran Burrone |
-| Arwen | Imladris | regina | parte con Elrond |
+| Elrond | Gran Burrone | signore elfico | parte da Gran Burrone |
+| Arwen | Gran Burrone | regina | parte con Elrond |
 
 **Versione breve:** Aragorn è incoronato a Minas Tirith con il nome di Elessar. A Mezza Estate sposerà Arwen.
 
@@ -4457,8 +4457,8 @@ la versione breve è quella che compare sulla linea del tempo.
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
 | Aragorn | Gondor | re | sposa Arwen |
-| Arwen | Imladris | regina | sposa Aragorn |
-| Elrond | Imladris | padre della sposa | celebra le nozze |
+| Arwen | Gran Burrone | regina | sposa Aragorn |
+| Elrond | Gran Burrone | padre della sposa | celebra le nozze |
 
 **Versione breve:** Nel Giorno di Mezza Estate Aragorn e Arwen si sposano a Minas Tirith.
 
@@ -4761,7 +4761,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Samvise Gamgi | Hobbit | compagno | li accompagna |
 | Bilbo Baggins | Hobbit | Portatore | si unisce ai Custodi |
 | Gandalf | Istari | Custode | guida la cavalcata |
-| Elrond | Imladris | Custode | partecipa |
+| Elrond | Gran Burrone | Custode | partecipa |
 | Galadriel | Lórien | Custode | partecipa |
 
 **Versione breve:** Frodo e Sam incontrano l'Ultima Cavalcata dei Custodi degli Anelli.
@@ -4786,7 +4786,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Frodo Baggins | Hobbit | Portatore | salpa |
 | Bilbo Baggins | Hobbit | Portatore | salpa |
 | Gandalf | Istari | Custode | salpa |
-| Elrond | Imladris | Custode | salpa |
+| Elrond | Gran Burrone | Custode | salpa |
 | Galadriel | Lórien | Custode | salpa |
 | Círdan | Rifugi Oscuri | Signore del porto | assiste alla partenza |
 | Samvise Gamgi | Hobbit | compagno | torna alla Contea |

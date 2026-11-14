@@ -164,7 +164,7 @@
   partecipanti:
     - persona: sauron
       parte: Dol Guldur
-      ruolo: signore oscuro
+      ruolo: Signore Oscuro
       esito: rioccupa la fortezza
     - entita: gruppo-nazgul
       parte: Mordor
@@ -293,7 +293,7 @@
   fa_parte_di: null
   partecipanti:
     - persona: eorl-il-giovane
-      parte: popolo del Nord
+      parte: Éothéod
       ruolo: comandante
       esito: vince
     - persona: cirion
@@ -353,7 +353,7 @@
       ruolo: Sovrintendente
       esito: dona il Calenardhon
     - persona: eorl-il-giovane
-      parte: popolo del Nord
+      parte: Éothéod
       ruolo: condottiero
       esito: riceve la terra e presta il Giuramento
     - entita: popolo-rohirrim
@@ -742,7 +742,7 @@
       esito: muore a Dol Guldur
     - persona: sauron
       parte: Dol Guldur
-      ruolo: signore oscuro
+      ruolo: Signore Oscuro
       esito: cerca l'Anello e l'Erede di Isildur
   breve: >-
     Gandalf entra di nuovo nella fortezza e scopre che il suo padrone è
@@ -871,11 +871,11 @@
   partecipanti:
     - persona: bilbo-baggins
       parte: Hobbit
-      ruolo: portatore
+      ruolo: Portatore
       esito: trova l'Unico Anello
     - persona: gollum
       parte: Montagne Nebbiose
-      ruolo: custode
+      ruolo: Custode
       esito: perde l'Anello
   breve: >-
     Nelle caverne delle Montagne Nebbiose Bilbo trova l'Unico Anello e
@@ -932,7 +932,7 @@
       esito: partecipa
     - persona: sauron
       parte: Dol Guldur
-      ruolo: signore oscuro
+      ruolo: Signore Oscuro
       esito: abbandona la fortezza
   breve: >-
     Il Bianco Consiglio assalta Dol Guldur. Sauron, che ha già pronto il suo
@@ -1033,7 +1033,7 @@
       esito: sopravvive
     - persona: bilbo-baggins
       parte: Hobbit
-      ruolo: portatore dell'Anello
+      ruolo: Portatore dell'Anello
       esito: sopravvive
     - entita: gruppo-orchetti-lupi
       parte: Nord
@@ -1079,7 +1079,7 @@
       esito: torna a Casa Baggins con l'Anello
     - persona: sauron
       parte: Mordor
-      ruolo: signore oscuro
+      ruolo: Signore Oscuro
       esito: rientra in segreto a Mordor
   breve: >-
     Bilbo rientra nella Contea con l'Anello; nello stesso anno Sauron
