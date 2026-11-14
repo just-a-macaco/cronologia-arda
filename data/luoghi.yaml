@@ -1,0 +1,184 @@
+# Anagrafica dei luoghi.
+# Primo blocco: 20 luoghi principali della Terza Era.
+# Regole: id stabile, nome visibile, tipo, alias (nomi alternativi), dentro
+# (il luogo che lo contiene), descrizione breve. Le note spiegano i cambi di nome.
+# I nomi seguono l'epub Bompiani 2004; gli alias servono alla ricerca e ai testi
+# che usano il nome di un altro periodo.
+
+- id: contea
+  nome: Contea
+  tipo: regione
+  alias:
+    - la Contea
+    - Shire
+  dentro: null
+  descrizione: La terra degli Hobbit nell'Eriador occidentale, divisa in Decumani e attraversata dalla Grande Strada Est.
+  nota: null
+
+- id: hobbiville
+  nome: Hobbiville
+  tipo: villaggio
+  alias:
+    - Hobbiton
+  dentro: contea
+  descrizione: Il villaggio principale della Contea, costruito sulla Collina lungo la Grande Strada Est.
+  nota: null
+
+- id: casa-baggins
+  nome: Casa Baggins
+  tipo: edificio
+  alias: []
+  dentro: hobbiville
+  descrizione: La casa hobbit scavata nella Collina a Hobbiville, dimora di Bilbo e poi di Frodo.
+  nota: null
+
+- id: brea
+  nome: Brea
+  tipo: città
+  alias: []
+  dentro: null
+  descrizione: La città principale della Terra di Brea, all'incrocio delle strade dell'Eriador, con la sua locanda.
+  nota: null
+
+- id: gran-burrone
+  nome: Gran Burrone
+  tipo: rifugio
+  alias:
+    - Imladris
+    - Rivendell
+  dentro: null
+  descrizione: Il rifugio elfico di Elrond nella gola del Bruinen, ai piedi delle Montagne Nebbiose.
+  nota: null
+
+- id: moria
+  nome: Moria
+  tipo: città sotterranea
+  alias:
+    - Khazad-dûm
+  dentro: null
+  descrizione: La grande città sotterranea dei Nani nelle Montagne Nebbiose, abbandonata dopo il risveglio del Balrog.
+  nota: «Khazad-dûm» è il nome nanico; «Moria» è il nome comune dopo la caduta.
+
+- id: isengard
+  nome: Isengard
+  tipo: fortezza
+  alias:
+    - Angrenost
+  dentro: null
+  descrizione: La fortezza al centro del Calenardhon, cinta da un anello di mura, con la torre di Orthanc.
+  nota: «Angrenost» è il nome elfico; la torre centrale è Orthanc.
+
+- id: minas-tirith
+  nome: Minas Tirith
+  tipo: città
+  alias:
+    - Minas Anor
+  dentro: null
+  descrizione: La città bianca di Gondor, costruita sul Mindolluin e protetta da sette cerchi di mura.
+  nota: Chiamata Minas Anor fino al 1640, quando Tarondor vi spostò la residenza reale.
+
+- id: osgiliath
+  nome: Osgiliath
+  tipo: città
+  alias: []
+  dentro: null
+  descrizione: L'antica capitale di Gondor sull'Anduin, rovinata dalla peste e dalla guerra.
+  nota: Fu la prima capitale di Gondor.
+
+- id: mordor
+  nome: Mordor
+  tipo: regione
+  alias:
+    - Terra Nera
+    - Terra di Mordor
+  dentro: null
+  descrizione: La terra di Sauron a est dell'Anduin, chiusa dall'Ephel Dúath, dall'Ered Lithui e dalle alture di Núrnen.
+  nota: null
+
+- id: barad-dur
+  nome: Barad-dûr
+  tipo: fortezza
+  alias:
+    - Torre Oscura
+  dentro: mordor
+  descrizione: La torre di Sauron a Mordor, ricostruita prima della Guerra dell'Anello.
+  nota: null
+
+- id: monte-fato
+  nome: Monte Fato
+  tipo: montagna
+  alias:
+    - Orodruin
+  dentro: mordor
+  descrizione: Il vulcano di Mordor dove Sauron forgiò l'Unico Anello e dove fu distrutto.
+  nota: null
+
+- id: anduin
+  nome: Anduin
+  tipo: fiume
+  alias: []
+  dentro: null
+  descrizione: Il Grande Fiume che scende da nord a sud attraverso la Terra di Mezzo e bagna Gondor.
+  nota: null
+
+- id: bosco-atro
+  nome: Bosco Atro
+  tipo: bosco
+  alias:
+    - Grande Foresta Verde
+  dentro: null
+  descrizione: La grande foresta a est delle Montagne Nebbiose, oscurata dalla presenza di Dol Guldur.
+  nota: Prima dell'ombra del 1050 era la Grande Foresta Verde.
+
+- id: rohan
+  nome: Rohan
+  tipo: regno
+  alias:
+    - il Mark
+    - Mark
+  dentro: null
+  descrizione: Il regno dei Rohirrim tra l'Anduin e le Montagne Bianche, nato dal dono del Calenardhon.
+  nota: Nato nel 2510, quando Cirion donò il Calenardhon a Eorl.
+
+- id: edoras
+  nome: Edoras
+  tipo: città
+  alias: []
+  dentro: rohan
+  descrizione: La capitale di Rohan, costruita su un colle ai piedi delle Montagne Bianche.
+  nota: null
+
+- id: fosso-di-helm
+  nome: Fosso di Helm
+  tipo: valle
+  alias: []
+  dentro: rohan
+  descrizione: La valle fortificata di Rohan, chiusa dal Trombatorrione.
+  nota: La fortezza che chiude la valle è il Trombatorrione.
+
+- id: erebor
+  nome: Erebor
+  tipo: montagna
+  alias:
+    - Montagna Solitaria
+  dentro: null
+  descrizione: La Montagna Solitaria a nord-est del Bosco Atro, sede del regno dei Nani sotto la Montagna.
+  nota: Il regno dei Nani «sotto la Montagna» fu fondato qui nel 1999.
+
+- id: esgaroth
+  nome: Esgaroth
+  tipo: città
+  alias: []
+  dentro: null
+  descrizione: La città di palafitte sul Lago Lungo, davanti a Erebor.
+  nota: null
+
+- id: rifugi-oscuri
+  nome: Rifugi Oscuri
+  tipo: porto
+  alias:
+    - Mithlond
+    - Porti Grigi
+  dentro: null
+  descrizione: I porti elfici del Lindon, da cui salpano le navi verso l'Occidente.
+  nota: «Porti Grigi» è la spiegazione corrente; la forma dell'epub è Rifugi Oscuri.

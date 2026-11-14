@@ -1,0 +1,558 @@
+{
+  "luoghi": [
+    {
+      "id": "contea",
+      "nome": "Contea",
+      "tipo": "regione",
+      "alias": [
+        "la Contea",
+        "Shire"
+      ],
+      "dentro": null,
+      "descrizione": "La terra degli Hobbit nell'Eriador occidentale, divisa in Decumani e attraversata dalla Grande Strada Est.",
+      "nota": null,
+      "eventi": [
+        "bilbo-nasce",
+        "bilbo-torna",
+        "erba-pipa",
+        "festa-bilbo",
+        "festa-inattesa",
+        "frodo-parte",
+        "lungacque",
+        "lungo-inverno",
+        "saruman-tradisce"
+      ]
+    },
+    {
+      "id": "hobbiville",
+      "nome": "Hobbiville",
+      "tipo": "villaggio",
+      "alias": [
+        "Hobbiton"
+      ],
+      "dentro": "contea",
+      "descrizione": "Il villaggio principale della Contea, costruito sulla Collina lungo la Grande Strada Est.",
+      "nota": null,
+      "eventi": [
+        "bilbo-nasce",
+        "bilbo-torna",
+        "festa-bilbo",
+        "festa-inattesa",
+        "frodo-parte",
+        "lungacque"
+      ]
+    },
+    {
+      "id": "casa-baggins",
+      "nome": "Casa Baggins",
+      "tipo": "edificio",
+      "alias": [],
+      "dentro": "hobbiville",
+      "descrizione": "La casa hobbit scavata nella Collina a Hobbiville, dimora di Bilbo e poi di Frodo.",
+      "nota": null,
+      "eventi": [
+        "festa-bilbo",
+        "festa-inattesa",
+        "frodo-parte"
+      ]
+    },
+    {
+      "id": "brea",
+      "nome": "Brea",
+      "tipo": "città",
+      "alias": [],
+      "dentro": null,
+      "descrizione": "La città principale della Terra di Brea, all'incrocio delle strade dell'Eriador, con la sua locanda.",
+      "nota": null,
+      "eventi": [
+        "angmar",
+        "ultimo-consiglio"
+      ]
+    },
+    {
+      "id": "gran-burrone",
+      "nome": "Gran Burrone",
+      "tipo": "rifugio",
+      "alias": [
+        "Imladris",
+        "Rivendell"
+      ],
+      "dentro": null,
+      "descrizione": "Il rifugio elfico di Elrond nella gola del Bruinen, ai piedi delle Montagne Nebbiose.",
+      "nota": null,
+      "eventi": [
+        "compagnia-parte",
+        "consiglio-dol-guldur",
+        "consiglio-elrond",
+        "ultimo-consiglio"
+      ]
+    },
+    {
+      "id": "moria",
+      "nome": "Moria",
+      "tipo": "città sotterranea",
+      "alias": [
+        "Khazad-dûm"
+      ],
+      "dentro": null,
+      "descrizione": "La grande città sotterranea dei Nani nelle Montagne Nebbiose, abbandonata dopo il risveglio del Balrog.",
+      "nota": "«Khazad-dûm» è il nome nanico; «Moria» è il nome comune dopo la caduta.",
+      "eventi": [
+        "balrog-moria",
+        "gandalf-moria",
+        "gollum-fugge",
+        "thror"
+      ]
+    },
+    {
+      "id": "isengard",
+      "nome": "Isengard",
+      "tipo": "fortezza",
+      "alias": [
+        "Angrenost"
+      ],
+      "dentro": null,
+      "descrizione": "La fortezza al centro del Calenardhon, cinta da un anello di mura, con la torre di Orthanc.",
+      "nota": "«Angrenost» è il nome elfico; la torre centrale è Orthanc.",
+      "eventi": [
+        "distruzione-isengard",
+        "istari",
+        "saruman-isengard",
+        "saruman-tradisce",
+        "ultimo-consiglio"
+      ]
+    },
+    {
+      "id": "minas-tirith",
+      "nome": "Minas Tirith",
+      "tipo": "città",
+      "alias": [
+        "Minas Anor"
+      ],
+      "dentro": null,
+      "descrizione": "La città bianca di Gondor, costruita sul Mindolluin e protetta da sette cerchi di mura.",
+      "nota": "Chiamata Minas Anor fino al 1640, quando Tarondor vi spostò la residenza reale.",
+      "eventi": [
+        "earnur",
+        "elessar",
+        "grande-peste",
+        "isildur-anello",
+        "mordor-sorveglianza",
+        "nozze-elessar-arwen",
+        "pelennor"
+      ]
+    },
+    {
+      "id": "osgiliath",
+      "nome": "Osgiliath",
+      "tipo": "città",
+      "alias": [],
+      "dentro": null,
+      "descrizione": "L'antica capitale di Gondor sull'Anduin, rovinata dalla peste e dalla guerra.",
+      "nota": "Fu la prima capitale di Gondor.",
+      "eventi": [
+        "lotta-stirpi",
+        "mordor-sorveglianza",
+        "osgiliath-3018",
+        "osgiliath-distrutta"
+      ]
+    },
+    {
+      "id": "mordor",
+      "nome": "Mordor",
+      "tipo": "regione",
+      "alias": [
+        "Terra Nera",
+        "Terra di Mordor"
+      ],
+      "dentro": null,
+      "descrizione": "La terra di Sauron a est dell'Anduin, chiusa dall'Ephel Dúath, dall'Ered Lithui e dalle alture di Núrnen.",
+      "nota": null,
+      "eventi": [
+        "bilbo-torna",
+        "inizio-terza",
+        "minas-ithil",
+        "mordor-sorveglianza",
+        "saruman-tradisce",
+        "sauron-si-dichiara"
+      ]
+    },
+    {
+      "id": "barad-dur",
+      "nome": "Barad-dûr",
+      "tipo": "fortezza",
+      "alias": [
+        "Torre Oscura"
+      ],
+      "dentro": "mordor",
+      "descrizione": "La torre di Sauron a Mordor, ricostruita prima della Guerra dell'Anello.",
+      "nota": null,
+      "eventi": [
+        "distruzione-anello",
+        "inizio-terza",
+        "sauron-si-dichiara"
+      ]
+    },
+    {
+      "id": "monte-fato",
+      "nome": "Monte Fato",
+      "tipo": "montagna",
+      "alias": [
+        "Orodruin"
+      ],
+      "dentro": "mordor",
+      "descrizione": "Il vulcano di Mordor dove Sauron forgiò l'Unico Anello e dove fu distrutto.",
+      "nota": null,
+      "eventi": [
+        "distruzione-anello",
+        "fato-avvampa"
+      ]
+    },
+    {
+      "id": "anduin",
+      "nome": "Anduin",
+      "tipo": "fiume",
+      "alias": [],
+      "dentro": null,
+      "descrizione": "Il Grande Fiume che scende da nord a sud attraverso la Terra di Mezzo e bagna Gondor.",
+      "nota": null,
+      "eventi": [
+        "deagol-anello",
+        "fato-avvampa",
+        "isildur-anello",
+        "osgiliath-3018",
+        "osgiliath-distrutta"
+      ]
+    },
+    {
+      "id": "bosco-atro",
+      "nome": "Bosco Atro",
+      "tipo": "bosco",
+      "alias": [
+        "Grande Foresta Verde"
+      ],
+      "dentro": null,
+      "descrizione": "La grande foresta a est delle Montagne Nebbiose, oscurata dalla presenza di Dol Guldur.",
+      "nota": "Prima dell'ombra del 1050 era la Grande Foresta Verde.",
+      "eventi": [
+        "consiglio-dol-guldur",
+        "gandalf-dol-guldur",
+        "gollum-fugge",
+        "ombra-bosco-attro",
+        "pace-vigile",
+        "saggi-dol-guldur",
+        "sauron-ritorno"
+      ]
+    },
+    {
+      "id": "rohan",
+      "nome": "Rohan",
+      "tipo": "regno",
+      "alias": [
+        "il Mark",
+        "Mark"
+      ],
+      "dentro": null,
+      "descrizione": "Il regno dei Rohirrim tra l'Anduin e le Montagne Bianche, nato dal dono del Calenardhon.",
+      "nota": "Nato nel 2510, quando Cirion donò il Calenardhon a Eorl.",
+      "eventi": [
+        "compagnia-si-scioglie",
+        "lungo-inverno",
+        "rohan"
+      ]
+    },
+    {
+      "id": "edoras",
+      "nome": "Edoras",
+      "tipo": "città",
+      "alias": [],
+      "dentro": "rohan",
+      "descrizione": "La capitale di Rohan, costruita su un colle ai piedi delle Montagne Bianche.",
+      "nota": null,
+      "eventi": [
+        "lungo-inverno"
+      ]
+    },
+    {
+      "id": "fosso-di-helm",
+      "nome": "Fosso di Helm",
+      "tipo": "valle",
+      "alias": [],
+      "dentro": "rohan",
+      "descrizione": "La valle fortificata di Rohan, chiusa dal Trombatorrione.",
+      "nota": "La fortezza che chiude la valle è il Trombatorrione.",
+      "eventi": [
+        "fosso-helm",
+        "lungo-inverno"
+      ]
+    },
+    {
+      "id": "erebor",
+      "nome": "Erebor",
+      "tipo": "montagna",
+      "alias": [
+        "Montagna Solitaria"
+      ],
+      "dentro": null,
+      "descrizione": "La Montagna Solitaria a nord-est del Bosco Atro, sede del regno dei Nani sotto la Montagna.",
+      "nota": "Il regno dei Nani «sotto la Montagna» fu fondato qui nel 1999.",
+      "eventi": [
+        "cinque-eserciti",
+        "draghi-nord",
+        "nani-erebor",
+        "smaug-erebor",
+        "smaug-ucciso"
+      ]
+    },
+    {
+      "id": "esgaroth",
+      "nome": "Esgaroth",
+      "tipo": "città",
+      "alias": [],
+      "dentro": null,
+      "descrizione": "La città di palafitte sul Lago Lungo, davanti a Erebor.",
+      "nota": null,
+      "eventi": [
+        "smaug-erebor",
+        "smaug-ucciso"
+      ]
+    },
+    {
+      "id": "rifugi-oscuri",
+      "nome": "Rifugi Oscuri",
+      "tipo": "porto",
+      "alias": [
+        "Mithlond",
+        "Porti Grigi"
+      ],
+      "dentro": null,
+      "descrizione": "I porti elfici del Lindon, da cui salpano le navi verso l'Occidente.",
+      "nota": "«Porti Grigi» è la spiegazione corrente; la forma dell'epub è Rifugi Oscuri.",
+      "eventi": [
+        "istari",
+        "porti-grigi"
+      ]
+    }
+  ],
+  "copertura": {
+    "nomi_citati": 85,
+    "nomi_coperti": 25,
+    "nomi_scoperti": 60,
+    "scoperti": {
+      "Amon Sûl": [
+        "angmar-invaude"
+      ],
+      "Angmar": [
+        "angmar"
+      ],
+      "Argentaroggia": [
+        "battaglia-celebrant"
+      ],
+      "Argonath": [
+        "compagnia-si-scioglie"
+      ],
+      "Arnor": [
+        "divisione-arnor",
+        "angmar-invaude",
+        "cade-arnor"
+      ],
+      "Arthedain": [
+        "divisione-arnor",
+        "cade-arnor"
+      ],
+      "Baranduin": [
+        "grande-peste"
+      ],
+      "Calenardhon": [
+        "battaglia-celebrant",
+        "rohan"
+      ],
+      "Campi del Pelennor": [
+        "pelennor"
+      ],
+      "Campo Gaggiolo": [
+        "isildur-anello",
+        "deagol-anello"
+      ],
+      "Campo di Celebrant": [
+        "battaglia-celebrant"
+      ],
+      "Cancello Orientale": [
+        "thror"
+      ],
+      "Cancello Orientale di Moria": [
+        "nanduhirion"
+      ],
+      "Cardolan": [
+        "divisione-arnor"
+      ],
+      "Clivovalle": [
+        "fosso-helm"
+      ],
+      "Colli Ferrosi": [
+        "draghi-nord",
+        "nanduhirion"
+      ],
+      "Colli di Scorie": [
+        "morannon"
+      ],
+      "Decumano Sud": [
+        "erba-pipa",
+        "ultimo-consiglio"
+      ],
+      "Desolazione del Morannon": [
+        "morannon"
+      ],
+      "Dol Guldur": [
+        "saggi-dol-guldur",
+        "pace-vigile",
+        "sauron-ritorno",
+        "gandalf-dol-guldur",
+        "consiglio-dol-guldur",
+        "sauron-si-dichiara"
+      ],
+      "Emyn Muil": [
+        "compagnia-si-scioglie"
+      ],
+      "Ered Luin": [
+        "nanduhirion"
+      ],
+      "Erenbrulli": [
+        "battaglia-fornost"
+      ],
+      "Eriador": [
+        "ombra-bosco-attro",
+        "angmar",
+        "grande-peste"
+      ],
+      "Erui": [
+        "lotta-stirpi"
+      ],
+      "Fangorn": [
+        "distruzione-isengard"
+      ],
+      "Fornost": [
+        "divisione-arnor",
+        "angmar-invaude",
+        "cade-arnor",
+        "battaglia-fornost"
+      ],
+      "Forochel": [
+        "battaglia-fornost"
+      ],
+      "Gondor": [
+        "ombra-bosco-attro",
+        "lotta-stirpi",
+        "grande-peste",
+        "battaglia-campo",
+        "lungo-inverno",
+        "elessar",
+        "nozze-elessar-arwen"
+      ],
+      "Harad": [
+        "ombra-bosco-attro"
+      ],
+      "Harlond": [
+        "pelennor"
+      ],
+      "Ithilien": [
+        "battaglia-campo",
+        "fato-avvampa"
+      ],
+      "Limterso": [
+        "battaglia-celebrant"
+      ],
+      "Lindon": [
+        "battaglia-fornost"
+      ],
+      "Lungacque": [
+        "lungacque"
+      ],
+      "Lórien": [
+        "balrog-moria"
+      ],
+      "Mare": [
+        "porti-grigi"
+      ],
+      "Minas Ithil": [
+        "minas-ithil"
+      ],
+      "Minas Morgul": [
+        "minas-ithil",
+        "earnur",
+        "pace-vigile"
+      ],
+      "Montagne Grigie": [
+        "draghi-nord"
+      ],
+      "Montagne Nebbiose": [
+        "angmar",
+        "deagol-anello",
+        "anello-bilbo",
+        "gollum-fugge"
+      ],
+      "Morannon": [
+        "morannon"
+      ],
+      "Morgul": [
+        "osgiliath-3018"
+      ],
+      "Nanduhirion": [
+        "nanduhirion"
+      ],
+      "Nimrodel": [
+        "balrog-moria",
+        "gandalf-moria"
+      ],
+      "Orthanc": [
+        "saruman-isengard",
+        "saruman-tradisce",
+        "distruzione-isengard"
+      ],
+      "Paludi Morte": [
+        "battaglia-campo"
+      ],
+      "Parth Galen": [
+        "compagnia-si-scioglie"
+      ],
+      "Pelargir": [
+        "lotta-stirpi"
+      ],
+      "Ponte di Khazad-dûm": [
+        "gandalf-moria"
+      ],
+      "Rhovanion": [
+        "aurighe"
+      ],
+      "Rhudaur": [
+        "divisione-arnor"
+      ],
+      "Sammath Naur": [
+        "distruzione-anello"
+      ],
+      "Terra di Mezzo": [
+        "istari"
+      ],
+      "Trombatorrione": [
+        "fosso-helm"
+      ],
+      "Tyrn Gorthad": [
+        "angmar-invaude"
+      ],
+      "Umbar": [
+        "lotta-stirpi"
+      ],
+      "Valle": [
+        "smaug-erebor",
+        "smaug-ucciso",
+        "cinque-eserciti"
+      ],
+      "caverna di Gollum": [
+        "anello-bilbo"
+      ],
+      "territori orientali di Gondor": [
+        "aurighe"
+      ]
+    }
+  }
+}

@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Compila le schede degli eventi in dati per il sito.
 
-Legge i file YAML in data/eventi/, controlla i riferimenti e produce:
+Legge i file YAML in data/eventi/ e data/luoghi.yaml, controlla i riferimenti e produce:
   - js/data.js                 (formato compatibile con js/circle.js)
   - build/arda.sqlite          (database interrogabile con SQL)
   - build/indexes.json         (indici per ricerca e filtri)
+  - build/luoghi.json          (anagrafica dei luoghi e copertura degli eventi)
   - build/schede-terza-era.md  (le schede in forma leggibile)
   - build/rapporto.md          (riepilogo del lavoro)
+  - build/rapporto-luoghi.md   (stato dell'anagrafica dei luoghi)
 
 Uso: python3 tools/build_data.py
 """
@@ -23,6 +25,7 @@ import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data", "eventi")
+LUOGHI_FILE = os.path.join(ROOT, "data", "luoghi.yaml")
 BUILD_DIR = os.path.join(ROOT, "build")
 JS_DIR = os.path.join(ROOT, "js")
 
@@ -38,6 +41,10 @@ NOMI_ERA = {
 TIPI = {
     "evento", "fondazione", "battaglia", "guerra", "distruzione", "perdita",
     "tradimento", "morte", "nascita", "viaggio", "consiglio", "politica",
+}
+TIPI_LUOGO = {
+    "regione", "regno", "città", "villaggio", "rifugio", "edificio", "fortezza",
+    "torre", "montagna", "fiume", "bosco", "valle", "porto", "città sotterranea",
 }
 PRECISIONI = {"giorno", "mese", "anno", "intervallo", "ignoto"}
 QUALIFICATORI = {None, "circa", "prima", "dopo", "inizio", "fine"}
@@ -154,6 +161,91 @@ def valida(eventi: list[dict]) -> None:
             fail(f"{eid}: testo breve troppo corto")
         if len(ev["lungo"]) < len(ev["breve"]):
             fail(f"{eid}: il testo lungo è più corto del breve")
+
+
+def carica_luoghi() -> list[dict]:
+    if not os.path.exists(LUOGHI_FILE):
+        fail("manca data/luoghi.yaml")
+    with open(LUOGHI_FILE, encoding="utf-8") as fh:
+        blocco = yaml.safe_load(fh)
+    if not isinstance(blocco, list):
+        fail("data/luoghi.yaml deve contenere una lista di luoghi")
+    return blocco
+
+
+def valida_luoghi(luoghi: list[dict]) -> None:
+    ids: set[str] = set()
+    nomi: dict[str, str] = {}
+    alias_visti: dict[str, str] = {}
+    for luogo in luoghi:
+        lid = luogo.get("id", "?")
+        for campo in ("id", "nome", "tipo", "descrizione"):
+            if not luogo.get(campo):
+                fail(f"luogo {lid}: campo mancante o vuoto «{campo}»")
+        if luogo["tipo"] not in TIPI_LUOGO:
+            fail(f"luogo {lid}: tipo sconosciuto «{luogo['tipo']}»")
+        if lid in ids:
+            fail(f"luogo con id duplicato: {lid}")
+        ids.add(lid)
+        if luogo["nome"] in nomi:
+            fail(f"luogo con nome duplicato: {luogo['nome']} ({nomi[luogo['nome']]} e {lid})")
+        nomi[luogo["nome"]] = lid
+        alias = luogo.get("alias") or []
+        if not isinstance(alias, list):
+            fail(f"luogo {lid}: «alias» deve essere una lista")
+        for nome_alias in alias:
+            if nome_alias in alias_visti and alias_visti[nome_alias] != lid:
+                fail(f"alias «{nome_alias}» usato da {alias_visti[nome_alias]} e {lid}")
+            alias_visti[nome_alias] = lid
+    for nome, lid in nomi.items():
+        if nome in alias_visti and alias_visti[nome] != lid:
+            fail(f"«{nome}» è nome di {lid} ma anche alias di {alias_visti[nome]}")
+    for luogo in luoghi:
+        dentro = luogo.get("dentro")
+        if dentro is not None and dentro not in ids:
+            fail(f"luogo {luogo['id']}: «dentro» rimanda a {dentro}, che non esiste")
+        if dentro == luogo["id"]:
+            fail(f"luogo {luogo['id']}: un luogo non può stare dentro se stesso")
+        visto = set()
+        corrente = luogo
+        while corrente.get("dentro"):
+            if corrente["id"] in visto:
+                fail(f"luogo {luogo['id']}: gerarchia circolare")
+            visto.add(corrente["id"])
+            corrente = next((l for l in luoghi if l["id"] == corrente["dentro"]), {})
+
+
+def indice_nomi_luoghi(luoghi: list[dict]) -> dict[str, str]:
+    indice: dict[str, str] = {}
+    for luogo in luoghi:
+        indice[luogo["nome"]] = luogo["id"]
+        for nome_alias in luogo.get("alias") or []:
+            indice[nome_alias] = luogo["id"]
+    return indice
+
+
+def collega_luoghi(eventi: list[dict], luoghi: list[dict]) -> dict:
+    indice = indice_nomi_luoghi(luoghi)
+    citazioni: dict[str, list[str]] = {}
+    for ev in eventi:
+        for nome in ev["luoghi"]:
+            citazioni.setdefault(nome, []).append(ev["id"])
+    coperti = {nome: indice[nome] for nome in citazioni if nome in indice}
+    scoperti = {nome: ids for nome, ids in citazioni.items() if nome not in indice}
+    per_luogo: dict[str, set[str]] = {}
+    for nome, lid in coperti.items():
+        per_luogo.setdefault(lid, set()).update(citazioni[nome])
+    schede = []
+    for luogo in luoghi:
+        record = dict(luogo)
+        record["eventi"] = sorted(per_luogo.get(luogo["id"], set()))
+        schede.append(record)
+    return {
+        "schede": schede,
+        "coperti": coperti,
+        "scoperti": scoperti,
+        "per_luogo": {k: sorted(v) for k, v in per_luogo.items()},
+    }
 
 
 DI_MESI = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334]
@@ -374,8 +466,8 @@ def scrivi_rapporto(eventi: list[dict]) -> None:
         "",
         "- I partecipanti sono nomi, non ancora schede persona collegate: la fase alberi",
         "  li trasformerà in entità con ID, parentele e relazioni.",
-        "- I luoghi sono nomi, non ancora geometrie: la fase mappa assegnerà coordinate",
-        "  e scene (Arda piatta / Arda rotonda).",
+        "- I luoghi hanno una prima anagrafica di 20 schede; le altre citazioni",
+        "  degli eventi aspettano il secondo blocco (vedi `build/rapporto-luoghi.md`).",
         "- Gli eventi del 2941 e del 3019 sono stati separati, ma restano da aggiungere",
         "  gli altri fatti dell'Appendice B (battaglie del Nord, assalti a Lórien,",
         "  distruzione di Dol Guldur, Campo di Cormallen).",
@@ -387,20 +479,78 @@ def scrivi_rapporto(eventi: list[dict]) -> None:
         fh.write("\n".join(righe))
 
 
+def scrivi_luoghi(eventi: list[dict], luoghi: list[dict]) -> None:
+    dati = collega_luoghi(eventi, luoghi)
+    os.makedirs(BUILD_DIR, exist_ok=True)
+    nomi_citati = len(dati["coperti"]) + len(dati["scoperti"])
+    with open(os.path.join(BUILD_DIR, "luoghi.json"), "w", encoding="utf-8") as fh:
+        json.dump(
+            {
+                "luoghi": dati["schede"],
+                "copertura": {
+                    "nomi_citati": nomi_citati,
+                    "nomi_coperti": len(dati["coperti"]),
+                    "nomi_scoperti": len(dati["scoperti"]),
+                    "scoperti": dict(sorted(dati["scoperti"].items())),
+                },
+            },
+            fh,
+            ensure_ascii=False,
+            indent=2,
+        )
+    righe = [
+        "# Rapporto sui luoghi",
+        "",
+        f"- Schede create: **{len(luoghi)}**.",
+        f"- Nomi di luogo citati dagli eventi: **{nomi_citati}** distinti "
+        f"(su {sum(len(e['luoghi']) for e in eventi)} citazioni).",
+        f"- Nomi già coperti da una scheda: **{len(dati['coperti'])}**.",
+        f"- Nomi ancora senza scheda: **{len(dati['scoperti'])}**.",
+        "",
+        "## Primo blocco",
+        "",
+        "| ID | Nome | Tipo | Dentro | Eventi collegati |",
+        "|---|---|---|---|---|",
+    ]
+    for luogo in dati["schede"]:
+        righe.append(
+            f"| `{luogo['id']}` | {luogo['nome']} | {luogo['tipo']} | "
+            f"{luogo.get('dentro') or '—'} | {len(luogo['eventi'])} |"
+        )
+    righe += [
+        "",
+        "## Nomi citati dagli eventi, non ancora coperti",
+        "",
+        "Questi nomi aspettano il prossimo blocco. Alcuni sono doppioni o varianti",
+        "di luoghi già presenti: vanno uniti con un alias, non duplicati.",
+        "",
+    ]
+    for nome in sorted(dati["scoperti"]):
+        righe.append(f"- {nome}")
+    righe.append("")
+    with open(os.path.join(BUILD_DIR, "rapporto-luoghi.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(righe))
+
+
 def main() -> None:
     eventi = carica()
     valida(eventi)
+    luoghi = carica_luoghi()
+    valida_luoghi(luoghi)
     scrivi_js(eventi)
     scrivi_sqlite(eventi)
     scrivi_indici(eventi)
     scrivi_schede(eventi)
     scrivi_rapporto(eventi)
-    print(f"OK: {len(eventi)} eventi compilati.")
+    scrivi_luoghi(eventi, luoghi)
+    print(f"OK: {len(eventi)} eventi e {len(luoghi)} luoghi compilati.")
     print(f"  js/data.js")
     print(f"  build/arda.sqlite")
     print(f"  build/indexes.json")
+    print(f"  build/luoghi.json")
     print(f"  build/schede-terza-era.md")
     print(f"  build/rapporto.md")
+    print(f"  build/rapporto-luoghi.md")
 
 
 if __name__ == "__main__":

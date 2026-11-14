@@ -58,8 +58,8 @@ Sono stati separati perché hanno partecipanti e conseguenze diverse.
 
 - I partecipanti sono nomi, non ancora schede persona collegate: la fase alberi
   li trasformerà in entità con ID, parentele e relazioni.
-- I luoghi sono nomi, non ancora geometrie: la fase mappa assegnerà coordinate
-  e scene (Arda piatta / Arda rotonda).
+- I luoghi hanno una prima anagrafica di 20 schede; le altre citazioni
+  degli eventi aspettano il secondo blocco (vedi `build/rapporto-luoghi.md`).
 - Gli eventi del 2941 e del 3019 sono stati separati, ma restano da aggiungere
   gli altri fatti dell'Appendice B (battaglie del Nord, assalti a Lórien,
   distruzione di Dol Guldur, Campo di Cormallen).
