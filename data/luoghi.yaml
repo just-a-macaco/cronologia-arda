@@ -658,3 +658,12 @@
   nota: Espressione descrittiva, non un nome proprio.
 
 
+
+- id: dagorlad
+  nome: Dagorlad
+  tipo: pianura
+  alias:
+    - Campo di Dagorlad
+  dentro: null
+  descrizione: La piana davanti al Morannon, teatro di battaglie.
+  nota: null

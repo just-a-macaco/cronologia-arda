@@ -5,6 +5,9 @@
       "istari",
       "ombra-bosco-attro",
       "saggi-dol-guldur",
+      "elrond-celebrian",
+      "nozze-arvedui-firiel",
+      "re-stregoni-mordor",
       "pace-vigile",
       "sauron-ritorno",
       "deagol-anello",
@@ -22,17 +25,27 @@
     ],
     "perdita": [
       "isildur-anello",
+      "earnil-morte-mare",
       "earnur",
       "gandalf-moria"
     ],
     "politica": [
       "divisione-arnor",
       "mordor-sorveglianza",
+      "ostoher-minas-anor",
+      "re-navigatori",
+      "ribelli-umbar",
+      "torre-bianca",
+      "alleanza-gondor-arnor",
+      "incoronazione-earnil-ii",
+      "aranarth-capitano",
+      "bucca-conte",
       "elessar"
     ],
     "fondazione": [
       "angmar",
       "nani-erebor",
+      "fondazione-contea",
       "rohan"
     ],
     "battaglia": [
@@ -40,6 +53,11 @@
       "aurighe",
       "battaglia-campo",
       "battaglia-fornost",
+      "romendacil-esterling",
+      "earnil-conquista-umbar",
+      "hyarmendacil-ii-harad",
+      "telumehtar-umbar",
+      "calimehtar-dagorlad",
       "battaglia-celebrant",
       "nanduhirion",
       "smaug-ucciso",
@@ -51,12 +69,16 @@
       "lungacque"
     ],
     "guerra": [
-      "lotta-stirpi"
+      "lotta-stirpi",
+      "invasione-esterling",
+      "assedio-minas-ithil"
     ],
     "distruzione": [
       "grande-peste",
       "cade-arnor",
       "balrog-moria",
+      "incendio-osgiliath",
+      "corsari-pelargir",
       "minas-ithil",
       "osgiliath-distrutta",
       "draghi-nord",
@@ -65,22 +87,29 @@
       "distruzione-isengard",
       "distruzione-anello"
     ],
+    "nascita": [
+      "elladan-elrohir",
+      "nascita-arwen",
+      "bilbo-nasce"
+    ],
     "morte": [
+      "morte-romendacil",
+      "assedio-umbar-ciryandil",
+      "argeleb-i-morte",
+      "aldamir-morte",
       "thror"
     ],
-    "nascita": [
-      "bilbo-nasce"
+    "viaggio": [
+      "eotheod-nord",
+      "bilbo-torna",
+      "frodo-parte",
+      "compagnia-parte",
+      "porti-grigi"
     ],
     "consiglio": [
       "consiglio-dol-guldur",
       "ultimo-consiglio",
       "consiglio-elrond"
-    ],
-    "viaggio": [
-      "bilbo-torna",
-      "frodo-parte",
-      "compagnia-parte",
-      "porti-grigi"
     ],
     "tradimento": [
       "saruman-tradisce"
@@ -93,11 +122,44 @@
     "2": [
       "isildur-anello"
     ],
+    "109": [
+      "elrond-celebrian"
+    ],
+    "130": [
+      "elladan-elrohir"
+    ],
+    "241": [
+      "nascita-arwen"
+    ],
+    "420": [
+      "ostoher-minas-anor"
+    ],
+    "490": [
+      "invasione-esterling"
+    ],
+    "500": [
+      "romendacil-esterling"
+    ],
+    "541": [
+      "morte-romendacil"
+    ],
+    "830": [
+      "re-navigatori"
+    ],
     "861": [
       "divisione-arnor"
     ],
+    "933": [
+      "earnil-conquista-umbar"
+    ],
+    "936": [
+      "earnil-morte-mare"
+    ],
     "1000": [
       "istari"
+    ],
+    "1015": [
+      "assedio-umbar-ciryandil"
     ],
     "1050": [
       "ombra-bosco-attro"
@@ -108,11 +170,32 @@
     "1300": [
       "angmar"
     ],
+    "1356": [
+      "argeleb-i-morte"
+    ],
     "1409": [
       "angmar-invaude"
     ],
     "1432": [
       "lotta-stirpi"
+    ],
+    "1436": [
+      "incendio-osgiliath"
+    ],
+    "1448": [
+      "ribelli-umbar"
+    ],
+    "1540": [
+      "aldamir-morte"
+    ],
+    "1551": [
+      "hyarmendacil-ii-harad"
+    ],
+    "1601": [
+      "fondazione-contea"
+    ],
+    "1634": [
+      "corsari-pelargir"
     ],
     "1636": [
       "grande-peste"
@@ -120,11 +203,27 @@
     "1640": [
       "mordor-sorveglianza"
     ],
+    "1810": [
+      "telumehtar-umbar"
+    ],
     "1856": [
       "aurighe"
     ],
+    "1899": [
+      "calimehtar-dagorlad"
+    ],
+    "1900": [
+      "torre-bianca"
+    ],
+    "1940": [
+      "alleanza-gondor-arnor",
+      "nozze-arvedui-firiel"
+    ],
     "1944": [
       "battaglia-campo"
+    ],
+    "1945": [
+      "incoronazione-earnil-ii"
     ],
     "1974": [
       "cade-arnor"
@@ -132,11 +231,24 @@
     "1975": [
       "battaglia-fornost"
     ],
+    "1976": [
+      "aranarth-capitano"
+    ],
+    "1977": [
+      "eotheod-nord"
+    ],
+    "1979": [
+      "bucca-conte"
+    ],
     "1980": [
-      "balrog-moria"
+      "balrog-moria",
+      "re-stregoni-mordor"
     ],
     "1999": [
       "nani-erebor"
+    ],
+    "2000": [
+      "assedio-minas-ithil"
     ],
     "2002": [
       "minas-ithil"
@@ -236,6 +348,9 @@
     ]
   },
   "per_persona": {
+    "Aldamir": [
+      "aldamir-morte"
+    ],
     "Amroth": [
       "balrog-moria"
     ],
@@ -250,18 +365,32 @@
       "elessar",
       "nozze-elessar-arwen"
     ],
+    "Aranarth": [
+      "aranarth-capitano"
+    ],
+    "Argeleb I": [
+      "argeleb-i-morte"
+    ],
+    "Argeleb II": [
+      "fondazione-contea"
+    ],
+    "Arnor": [
+      "alleanza-gondor-arnor"
+    ],
     "Arthedain": [
       "cade-arnor"
     ],
     "Arvedui": [
       "battaglia-campo",
       "cade-arnor",
-      "battaglia-fornost"
+      "battaglia-fornost",
+      "nozze-arvedui-firiel"
     ],
     "Arveleg I": [
       "angmar-invaude"
     ],
     "Arwen": [
+      "nascita-arwen",
       "elessar",
       "nozze-elessar-arwen"
     ],
@@ -290,12 +419,27 @@
       "gandalf-moria",
       "compagnia-si-scioglie"
     ],
+    "Bucca della Palude": [
+      "bucca-conte"
+    ],
+    "Calimehtar": [
+      "calimehtar-dagorlad",
+      "torre-bianca"
+    ],
     "Castamir": [
       "lotta-stirpi"
+    ],
+    "Celebrían": [
+      "elrond-celebrian",
+      "elladan-elrohir",
+      "nascita-arwen"
     ],
     "Cirion": [
       "battaglia-celebrant",
       "rohan"
+    ],
+    "Ciryandil": [
+      "assedio-umbar-ciryandil"
     ],
     "Círdan": [
       "istari",
@@ -318,12 +462,23 @@
       "deagol-anello"
     ],
     "Eldacar": [
-      "lotta-stirpi"
+      "lotta-stirpi",
+      "incendio-osgiliath"
     ],
     "Elendil": [
       "inizio-terza"
     ],
+    "Elladan": [
+      "elladan-elrohir"
+    ],
+    "Elrohir": [
+      "elladan-elrohir"
+    ],
     "Elrond": [
+      "elrond-celebrian",
+      "elladan-elrohir",
+      "nascita-arwen",
+      "aranarth-capitano",
       "consiglio-dol-guldur",
       "sauron-si-dichiara",
       "consiglio-elrond",
@@ -339,14 +494,25 @@
       "divisione-arnor"
     ],
     "Eärnil": [
-      "battaglia-campo"
+      "battaglia-campo",
+      "incoronazione-earnil-ii"
+    ],
+    "Eärnil I": [
+      "earnil-conquista-umbar",
+      "earnil-morte-mare"
     ],
     "Eärnur": [
       "battaglia-fornost",
       "earnur"
     ],
+    "Falastur": [
+      "re-navigatori"
+    ],
     "Faramir": [
       "pelennor"
+    ],
+    "Firiel": [
+      "nozze-arvedui-firiel"
     ],
     "Frodo Baggins": [
       "festa-bilbo",
@@ -358,6 +524,9 @@
       "distruzione-anello",
       "lungacque",
       "porti-grigi"
+    ],
+    "Frumgar": [
+      "eotheod-nord"
     ],
     "Fréaláf": [
       "lungo-inverno"
@@ -406,6 +575,14 @@
       "grande-peste",
       "mordor-sorveglianza",
       "aurighe",
+      "invasione-esterling",
+      "re-navigatori",
+      "earnil-conquista-umbar",
+      "incendio-osgiliath",
+      "corsari-pelargir",
+      "alleanza-gondor-arnor",
+      "incoronazione-earnil-ii",
+      "assedio-minas-ithil",
       "minas-ithil",
       "osgiliath-distrutta",
       "saruman-isengard",
@@ -419,6 +596,9 @@
     ],
     "Hyarmendacil": [
       "ombra-bosco-attro"
+    ],
+    "Hyarmendacil II": [
+      "hyarmendacil-ii-harad"
     ],
     "Imrahil": [
       "morannon"
@@ -443,6 +623,9 @@
       "pelennor",
       "lungacque"
     ],
+    "Minardil": [
+      "corsari-pelargir"
+    ],
     "Mordor": [
       "fato-avvampa"
     ],
@@ -462,7 +645,11 @@
       "battaglia-campo"
     ],
     "Ornendil": [
-      "lotta-stirpi"
+      "lotta-stirpi",
+      "incendio-osgiliath"
+    ],
+    "Ostoher": [
+      "ostoher-minas-anor"
     ],
     "Peregrino Tuc": [
       "frodo-parte",
@@ -471,6 +658,13 @@
     ],
     "Radagast": [
       "istari"
+    ],
+    "Rhudaur": [
+      "argeleb-i-morte"
+    ],
+    "Rómendacil I": [
+      "romendacil-esterling",
+      "morte-romendacil"
     ],
     "Samvise Gamgi": [
       "frodo-parte",
@@ -510,6 +704,9 @@
     ],
     "Telemnar": [
       "grande-peste"
+    ],
+    "Telumehtar Umbardacil": [
+      "telumehtar-umbar"
     ],
     "Thorin Scudodiquercia": [
       "smaug-erebor",
@@ -554,12 +751,21 @@
       "distruzione-isengard"
     ],
     "gli Esterling": [
+      "invasione-esterling",
+      "romendacil-esterling",
+      "morte-romendacil",
       "battaglia-celebrant"
+    ],
+    "gli Haradrim": [
+      "aldamir-morte",
+      "hyarmendacil-ii-harad"
     ],
     "gli Hobbit": [
       "ombra-bosco-attro",
       "angmar",
       "grande-peste",
+      "fondazione-contea",
+      "bucca-conte",
       "erba-pipa"
     ],
     "gli Hobbit della Contea": [
@@ -589,18 +795,28 @@
     "gli assalitori di Mordor": [
       "osgiliath-distrutta"
     ],
+    "gli Éothéod": [
+      "eotheod-nord"
+    ],
     "i Balchoth": [
       "battaglia-celebrant"
     ],
     "i Carrieri": [
       "aurighe",
-      "battaglia-campo"
+      "battaglia-campo",
+      "calimehtar-dagorlad"
     ],
     "i Corsari di Umbar": [
+      "aldamir-morte",
+      "corsari-pelargir",
+      "telumehtar-umbar",
       "lungo-inverno"
     ],
     "i Draghi": [
       "draghi-nord"
+    ],
+    "i Dúnedain del Nord": [
+      "aranarth-capitano"
     ],
     "i Dúnedain di Cardolan": [
       "angmar-invaude"
@@ -614,6 +830,8 @@
     "i Nazgûl": [
       "saggi-dol-guldur",
       "angmar",
+      "re-stregoni-mordor",
+      "assedio-minas-ithil",
       "minas-ithil",
       "pace-vigile",
       "sauron-ritorno",
@@ -632,6 +850,10 @@
     ],
     "i figli di Telemnar": [
       "grande-peste"
+    ],
+    "i ribelli di Castamir": [
+      "incendio-osgiliath",
+      "ribelli-umbar"
     ],
     "i tre figli di Eärendur": [
       "divisione-arnor"
@@ -652,6 +874,7 @@
       "angmar-invaude",
       "cade-arnor",
       "battaglia-fornost",
+      "re-stregoni-mordor",
       "earnur",
       "pelennor"
     ],
@@ -715,7 +938,8 @@
     ],
     "Arthedain": [
       "divisione-arnor",
-      "cade-arnor"
+      "cade-arnor",
+      "argeleb-i-morte"
     ],
     "Barad-dûr": [
       "inizio-terza",
@@ -723,7 +947,8 @@
       "distruzione-anello"
     ],
     "Baranduin": [
-      "grande-peste"
+      "grande-peste",
+      "fondazione-contea"
     ],
     "Bosco Atro": [
       "ombra-bosco-attro",
@@ -775,6 +1000,8 @@
       "morannon"
     ],
     "Contea": [
+      "fondazione-contea",
+      "bucca-conte",
       "erba-pipa",
       "lungo-inverno",
       "bilbo-nasce",
@@ -784,6 +1011,9 @@
       "festa-bilbo",
       "frodo-parte",
       "lungacque"
+    ],
+    "Dagorlad": [
+      "calimehtar-dagorlad"
     ],
     "Decumano Sud": [
       "erba-pipa",
@@ -838,7 +1068,8 @@
       "divisione-arnor",
       "angmar-invaude",
       "cade-arnor",
-      "battaglia-fornost"
+      "battaglia-fornost",
+      "aranarth-capitano"
     ],
     "Forochel": [
       "battaglia-fornost"
@@ -852,21 +1083,35 @@
       "lotta-stirpi",
       "grande-peste",
       "battaglia-campo",
+      "invasione-esterling",
+      "romendacil-esterling",
+      "morte-romendacil",
+      "re-navigatori",
+      "earnil-conquista-umbar",
+      "alleanza-gondor-arnor",
+      "nozze-arvedui-firiel",
       "lungo-inverno",
       "elessar",
       "nozze-elessar-arwen"
     ],
     "Gran Burrone": [
+      "elrond-celebrian",
+      "elladan-elrohir",
+      "nascita-arwen",
+      "aranarth-capitano",
       "consiglio-dol-guldur",
       "ultimo-consiglio",
       "consiglio-elrond",
       "compagnia-parte"
     ],
     "Grande Mare": [
+      "earnil-morte-mare",
       "porti-grigi"
     ],
     "Harad": [
-      "ombra-bosco-attro"
+      "ombra-bosco-attro",
+      "aldamir-morte",
+      "hyarmendacil-ii-harad"
     ],
     "Harlond": [
       "pelennor"
@@ -903,6 +1148,7 @@
       "balrog-moria"
     ],
     "Minas Morgul": [
+      "assedio-minas-ithil",
       "minas-ithil",
       "earnur",
       "pace-vigile",
@@ -912,6 +1158,9 @@
       "isildur-anello",
       "grande-peste",
       "mordor-sorveglianza",
+      "ostoher-minas-anor",
+      "torre-bianca",
+      "incoronazione-earnil-ii",
       "earnur",
       "pelennor",
       "elessar",
@@ -936,6 +1185,8 @@
     "Mordor": [
       "inizio-terza",
       "mordor-sorveglianza",
+      "re-stregoni-mordor",
+      "assedio-minas-ithil",
       "minas-ithil",
       "bilbo-torna",
       "sauron-si-dichiara",
@@ -962,6 +1213,7 @@
     "Osgiliath": [
       "lotta-stirpi",
       "mordor-sorveglianza",
+      "incendio-osgiliath",
       "osgiliath-distrutta",
       "osgiliath-3018"
     ],
@@ -972,16 +1224,19 @@
       "compagnia-si-scioglie"
     ],
     "Pelargir": [
-      "lotta-stirpi"
+      "lotta-stirpi",
+      "corsari-pelargir"
     ],
     "Ponte di Khazad-dûm": [
       "gandalf-moria"
     ],
     "Rhovanion": [
-      "aurighe"
+      "aurighe",
+      "eotheod-nord"
     ],
     "Rhudaur": [
-      "divisione-arnor"
+      "divisione-arnor",
+      "argeleb-i-morte"
     ],
     "Rifugi Oscuri": [
       "istari",
@@ -1005,7 +1260,12 @@
       "angmar-invaude"
     ],
     "Umbar": [
-      "lotta-stirpi"
+      "lotta-stirpi",
+      "earnil-conquista-umbar",
+      "earnil-morte-mare",
+      "assedio-umbar-ciryandil",
+      "ribelli-umbar",
+      "telumehtar-umbar"
     ],
     "Valle": [
       "smaug-erebor",
@@ -1046,7 +1306,8 @@
     ],
     "arthedain": [
       "divisione-arnor",
-      "cade-arnor"
+      "cade-arnor",
+      "argeleb-i-morte"
     ],
     "barad-dur": [
       "inizio-terza",
@@ -1054,7 +1315,8 @@
       "distruzione-anello"
     ],
     "baranduin": [
-      "grande-peste"
+      "grande-peste",
+      "fondazione-contea"
     ],
     "bosco-atro": [
       "ombra-bosco-attro",
@@ -1109,6 +1371,8 @@
       "nanduhirion"
     ],
     "contea": [
+      "fondazione-contea",
+      "bucca-conte",
       "erba-pipa",
       "lungo-inverno",
       "bilbo-nasce",
@@ -1118,6 +1382,9 @@
       "festa-bilbo",
       "frodo-parte",
       "lungacque"
+    ],
+    "dagorlad": [
+      "calimehtar-dagorlad"
     ],
     "decumano-sud": [
       "erba-pipa",
@@ -1172,7 +1439,8 @@
       "divisione-arnor",
       "angmar-invaude",
       "cade-arnor",
-      "battaglia-fornost"
+      "battaglia-fornost",
+      "aranarth-capitano"
     ],
     "forochel": [
       "battaglia-fornost"
@@ -1186,21 +1454,35 @@
       "lotta-stirpi",
       "grande-peste",
       "battaglia-campo",
+      "invasione-esterling",
+      "romendacil-esterling",
+      "morte-romendacil",
+      "re-navigatori",
+      "earnil-conquista-umbar",
+      "alleanza-gondor-arnor",
+      "nozze-arvedui-firiel",
       "lungo-inverno",
       "elessar",
       "nozze-elessar-arwen"
     ],
     "gran-burrone": [
+      "elrond-celebrian",
+      "elladan-elrohir",
+      "nascita-arwen",
+      "aranarth-capitano",
       "consiglio-dol-guldur",
       "ultimo-consiglio",
       "consiglio-elrond",
       "compagnia-parte"
     ],
     "grande-mare": [
+      "earnil-morte-mare",
       "porti-grigi"
     ],
     "harad": [
-      "ombra-bosco-attro"
+      "ombra-bosco-attro",
+      "aldamir-morte",
+      "hyarmendacil-ii-harad"
     ],
     "harlond": [
       "pelennor"
@@ -1237,6 +1519,7 @@
       "lungacque"
     ],
     "minas-morgul": [
+      "assedio-minas-ithil",
       "minas-ithil",
       "earnur",
       "pace-vigile",
@@ -1246,6 +1529,9 @@
       "isildur-anello",
       "grande-peste",
       "mordor-sorveglianza",
+      "ostoher-minas-anor",
+      "torre-bianca",
+      "incoronazione-earnil-ii",
       "earnur",
       "pelennor",
       "elessar",
@@ -1270,6 +1556,8 @@
     "mordor": [
       "inizio-terza",
       "mordor-sorveglianza",
+      "re-stregoni-mordor",
+      "assedio-minas-ithil",
       "minas-ithil",
       "bilbo-torna",
       "sauron-si-dichiara",
@@ -1296,6 +1584,7 @@
     "osgiliath": [
       "lotta-stirpi",
       "mordor-sorveglianza",
+      "incendio-osgiliath",
       "osgiliath-distrutta",
       "osgiliath-3018"
     ],
@@ -1306,7 +1595,8 @@
       "compagnia-si-scioglie"
     ],
     "pelargir": [
-      "lotta-stirpi"
+      "lotta-stirpi",
+      "corsari-pelargir"
     ],
     "ponte-di-khazad-dum": [
       "gandalf-moria"
@@ -1315,10 +1605,12 @@
       "aurighe"
     ],
     "rhovanion": [
-      "aurighe"
+      "aurighe",
+      "eotheod-nord"
     ],
     "rhudaur": [
-      "divisione-arnor"
+      "divisione-arnor",
+      "argeleb-i-morte"
     ],
     "rifugi-oscuri": [
       "istari",
@@ -1342,7 +1634,12 @@
       "angmar-invaude"
     ],
     "umbar": [
-      "lotta-stirpi"
+      "lotta-stirpi",
+      "earnil-conquista-umbar",
+      "earnil-morte-mare",
+      "assedio-umbar-ciryandil",
+      "ribelli-umbar",
+      "telumehtar-umbar"
     ],
     "valle": [
       "smaug-erebor",

@@ -11,12 +11,20 @@
       "descrizione": "Il regno degli Uomini del Sud, tra l'Anduin e le Montagne Bianche.",
       "nota": null,
       "eventi": [
+        "alleanza-gondor-arnor",
+        "assedio-minas-ithil",
         "aurighe",
+        "corsari-pelargir",
+        "earnil-conquista-umbar",
         "grande-peste",
+        "incendio-osgiliath",
+        "incoronazione-earnil-ii",
+        "invasione-esterling",
         "minas-ithil",
         "mordor-sorveglianza",
         "osgiliath-3018",
         "osgiliath-distrutta",
+        "re-navigatori",
         "saruman-isengard"
       ]
     },
@@ -56,7 +64,9 @@
       "nota": null,
       "eventi": [
         "angmar",
+        "bucca-conte",
         "erba-pipa",
+        "fondazione-contea",
         "grande-peste",
         "ombra-bosco-attro"
       ]
@@ -97,7 +107,10 @@
       "descrizione": "I popoli dell'Est che attaccano Gondor e Rohan.",
       "nota": null,
       "eventi": [
-        "battaglia-celebrant"
+        "battaglia-celebrant",
+        "invasione-esterling",
+        "morte-romendacil",
+        "romendacil-esterling"
       ]
     },
     {
@@ -138,7 +151,8 @@
       "nota": null,
       "eventi": [
         "aurighe",
-        "battaglia-campo"
+        "battaglia-campo",
+        "calimehtar-dagorlad"
       ]
     },
     {
@@ -263,7 +277,10 @@
       "descrizione": "I Corsari che assalgono Gondor nel 2758.",
       "nota": null,
       "eventi": [
-        "lungo-inverno"
+        "aldamir-morte",
+        "corsari-pelargir",
+        "lungo-inverno",
+        "telumehtar-umbar"
       ]
     },
     {
@@ -300,10 +317,12 @@
       "nota": null,
       "eventi": [
         "angmar",
+        "assedio-minas-ithil",
         "frodo-parte",
         "minas-ithil",
         "osgiliath-3018",
         "pace-vigile",
+        "re-stregoni-mordor",
         "saggi-dol-guldur",
         "sauron-ritorno",
         "sauron-si-dichiara"
@@ -452,10 +471,84 @@
       "eventi": [
         "saruman-tradisce"
       ]
+    },
+    {
+      "id": "regno-arnor",
+      "nome": "Arnor",
+      "tipo": "regno",
+      "alias": [
+        "Regno del Nord"
+      ],
+      "descrizione": "Il regno del Nord fondato da Elendil.",
+      "nota": null,
+      "eventi": [
+        "alleanza-gondor-arnor"
+      ]
+    },
+    {
+      "id": "regno-rhudaur",
+      "nome": "Rhudaur",
+      "tipo": "regno",
+      "alias": [],
+      "descrizione": "Uno dei tre regni nati dalla divisione di Arnor.",
+      "nota": null,
+      "eventi": [
+        "argeleb-i-morte"
+      ]
+    },
+    {
+      "id": "popolo-haradrim",
+      "nome": "gli Haradrim",
+      "tipo": "popolo",
+      "alias": [
+        "Haradrim"
+      ],
+      "descrizione": "I popoli del Sud che attaccano Gondor.",
+      "nota": null,
+      "eventi": [
+        "aldamir-morte",
+        "hyarmendacil-ii-harad"
+      ]
+    },
+    {
+      "id": "gruppo-ribelli-castamir",
+      "nome": "i ribelli di Castamir",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "I seguaci di Castamir che si impadroniscono di Umbar.",
+      "nota": null,
+      "eventi": [
+        "incendio-osgiliath",
+        "ribelli-umbar"
+      ]
+    },
+    {
+      "id": "gruppo-dunedain-del-nord",
+      "nome": "i Dúnedain del Nord",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "Il popolo errante discendente di Arnor, guidato dai Capitani.",
+      "nota": null,
+      "eventi": [
+        "aranarth-capitano"
+      ]
+    },
+    {
+      "id": "popolo-eotheod",
+      "nome": "gli Éothéod",
+      "tipo": "popolo",
+      "alias": [
+        "Éothéod"
+      ],
+      "descrizione": "Il popolo del Nord che diventerà i Rohirrim.",
+      "nota": null,
+      "eventi": [
+        "eotheod-nord"
+      ]
     }
   ],
   "copertura": {
-    "nomi_coperti": 37,
-    "nomi_scoperti": 71
+    "nomi_coperti": 43,
+    "nomi_scoperti": 90
   }
 }

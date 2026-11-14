@@ -1,10 +1,10 @@
 # Rapporto sul lavoro — Terza Era
 
-- Eventi: **61** (erano 51).
-- Partecipanti nominati: **108** nomi distinti, 235 presenze.
-- Luoghi nominati: **77** nomi distinti.
-- Eventi con solo anno (o senza anno): **40**.
-- Eventi con nota o certezza non piena: **16**.
+- Eventi: **90** (erano 51).
+- Partecipanti nominati: **133** nomi distinti, 296 presenze.
+- Luoghi nominati: **78** nomi distinti.
+- Eventi con solo anno (o senza anno): **69**.
+- Eventi con nota o certezza non piena: **19**.
 
 ## Eventi separati
 
@@ -41,6 +41,9 @@ Sono stati separati perché hanno partecipanti e conseguenze diverse.
 - **Giungono gli Istari** (`istari`): L'epub non nomina i due Istari azzurri; i loro nomi si trovano in altre opere e vanno trattati come tradizione separata.
 - **La Lotta delle Stirpi** (`lotta-stirpi`): La guerra è trattata come un solo evento con intervallo; le singole battaglie (Osgiliath 1436, Erui 1447, Pelargir 1447) possono diventare schede autonome in una fase successiva.
 - **I Carrieri travolgono Gondor** (`aurighe`): L'ID storico dell'evento resta `aurighe`, ma il nome visibile è ora «Carrieri», la forma dell'edizione Bompiani 2004.
+- **Eärnil I muore in mare** (`earnil-morte-mare`): La voce dell'Appendice dice che Eärnil «si disperse in mare».
+- **Osgiliath brucia** (`incendio-osgiliath`): La scheda separa l'incendio dall'evento generale della Lotta delle Stirpi.
+- **Il Re degli Stregoni entra a Mordor** (`re-stregoni-mordor`): La caduta di Moria è nella scheda separata sul Balrog.
 - **La sparizione di Eärnur** (`earnur`): La sparizione è certa; la morte è presunta, non testimoniata. L'epub alterna «Eärnur» e «Earnur»: si adotta la forma con la dieresi.
 - **Osgiliath è distrutta** (`osgiliath-distrutta`): L'Appendice B non nomina gli assalitori; la scheda li indica come «forze di Mordor» in modo generico.
 - **Il dono di Calenardhon e il Giuramento di Eorl** (`rohan`): La battaglia e il dono sono due eventi distinti dello stesso anno: hanno partecipanti e conseguenze diverse e vanno tenuti separati.

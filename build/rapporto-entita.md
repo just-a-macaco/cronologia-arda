@@ -1,22 +1,22 @@
 # Rapporto sulle entità collettive
 
-- Schede create: **37**.
-- Nomi di partecipante coperti: **37**.
+- Schede create: **43**.
+- Nomi di partecipante coperti: **43**.
 
 ## Schede
 
 | ID | Nome | Tipo | Eventi collegati |
 |---|---|---|---|
-| `regno-gondor` | Gondor | regno | 7 |
+| `regno-gondor` | Gondor | regno | 15 |
 | `regno-arthedain` | Arthedain | regno | 1 |
 | `regno-mordor` | Mordor | regno | 1 |
-| `popolo-hobbit` | gli Hobbit | popolo | 4 |
+| `popolo-hobbit` | gli Hobbit | popolo | 6 |
 | `popolo-elfi-silvani` | gli Elfi Silvani | popolo | 1 |
 | `popolo-ent` | gli Ent | popolo | 1 |
-| `popolo-esterling` | gli Esterling | popolo | 1 |
+| `popolo-esterling` | gli Esterling | popolo | 4 |
 | `popolo-orchetti` | gli Orchetti | popolo | 4 |
 | `popolo-balchoth` | i Balchoth | popolo | 1 |
-| `popolo-carrieri` | i Carrieri | popolo | 2 |
+| `popolo-carrieri` | i Carrieri | popolo | 3 |
 | `popolo-draghi` | i Draghi | popolo | 1 |
 | `popolo-nani-di-durin` | i Nani del Popolo di Durin | popolo | 1 |
 | `popolo-rohirrim` | i Rohirrim | popolo | 1 |
@@ -27,10 +27,10 @@
 | `gruppo-abitanti-ithilien` | gli abitanti dell'Ithilien | gruppo | 1 |
 | `gruppo-abitanti-esgaroth` | gli abitanti di Esgaroth | gruppo | 1 |
 | `gruppo-assalitori-mordor` | gli assalitori di Mordor | gruppo | 1 |
-| `gruppo-corsari-umbar` | i Corsari di Umbar | gruppo | 1 |
+| `gruppo-corsari-umbar` | i Corsari di Umbar | gruppo | 4 |
 | `gruppo-dunedain-cardolan` | i Dúnedain di Cardolan | gruppo | 1 |
 | `gruppo-dunedain-fornost` | i Dúnedain di Fornost | gruppo | 1 |
-| `gruppo-nazgul` | i Nazgûl | gruppo | 8 |
+| `gruppo-nazgul` | i Nazgûl | gruppo | 10 |
 | `gruppo-saggi` | i Saggi | gruppo | 1 |
 | `gruppo-compagni-thorin` | i dodici compagni di Thorin | gruppo | 1 |
 | `gruppo-figli-telemnar` | i figli di Telemnar | gruppo | 1 |
@@ -44,3 +44,9 @@
 | `gruppo-difese-orthanc` | le difese di Orthanc | gruppo | 1 |
 | `gruppo-forze-sauron` | le forze di Sauron | gruppo | 1 |
 | `gruppo-spie-saruman` | le spie di Saruman | gruppo | 1 |
+| `regno-arnor` | Arnor | regno | 1 |
+| `regno-rhudaur` | Rhudaur | regno | 1 |
+| `popolo-haradrim` | gli Haradrim | popolo | 2 |
+| `gruppo-ribelli-castamir` | i ribelli di Castamir | gruppo | 2 |
+| `gruppo-dunedain-del-nord` | i Dúnedain del Nord | gruppo | 1 |
+| `popolo-eotheod` | gli Éothéod | popolo | 1 |

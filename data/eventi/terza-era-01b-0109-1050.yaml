@@ -1,0 +1,418 @@
+# Schede della Terza Era, anni 109-1050.
+# Secondo blocco dell'Appendice B: i primi secoli di Gondor e Arnor.
+# Fonte: Il Signore degli Anelli, Appendice B (Bompiani 2004).
+
+- id: elrond-celebrian
+  titolo: Elrond sposa Celebrían
+  tipo: evento
+  data:
+    era: terza
+    anno: 109
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 109"
+  luoghi:
+    - gran-burrone
+  fa_parte_di: null
+  partecipanti:
+    - persona: elrond
+      parte: Gran Burrone
+      ruolo: sposo
+      esito: sposa Celebrían
+    - persona: celebrian
+      parte: Lórien
+      ruolo: sposa
+      esito: sposa Elrond
+  breve: >-
+    Elrond sposa Celebrían, figlia di Celeborn e Galadriel: nasce la famiglia
+    dei Mezzelfi di Gran Burrone.
+  lungo: >-
+    Elrond, signore di Gran Burrone, sposa Celebrían, figlia di Celeborn e
+    Galadriel. Dal matrimonio nasceranno i gemelli Elladan e Elrohir e, molto
+    più tardi, Arwen Undómiel. La casa di Gran Burrone diventa così il punto
+    d'incontro delle due grandi linee elfiche e della discendenza di Elros.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 109"
+  certezza: certa
+  note: null
+
+- id: elladan-elrohir
+  titolo: Nascono Elladan ed Elrohir
+  tipo: nascita
+  data:
+    era: terza
+    anno: 130
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 130"
+  luoghi:
+    - gran-burrone
+  fa_parte_di: null
+  partecipanti:
+    - persona: elladan
+      parte: Gran Burrone
+      ruolo: neonato
+      esito: nasce
+    - persona: elrohir
+      parte: Gran Burrone
+      ruolo: neonato
+      esito: nasce
+    - persona: elrond
+      parte: Gran Burrone
+      ruolo: padre
+      esito: li alleva
+    - persona: celebrian
+      parte: Gran Burrone
+      ruolo: madre
+      esito: li alleva
+  breve: >-
+    Nascono Elladan ed Elrohir, i gemelli figli di Elrond e Celebrían.
+  lungo: >-
+    A Gran Burrone nascono Elladan ed Elrohir, figli gemelli di Elrond e
+    Celebrían. Cresceranno come Mezzelfi nella casa del padre e prenderanno
+    parte alle vicende del Nord, dalla caccia agli Orchetti alla Guerra
+    dell'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 130"
+  certezza: certa
+  note: null
+
+- id: nascita-arwen
+  titolo: Nasce Arwen Undómiel
+  tipo: nascita
+  data:
+    era: terza
+    anno: 241
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 241"
+  luoghi:
+    - gran-burrone
+  fa_parte_di: null
+  partecipanti:
+    - persona: arwen
+      parte: Gran Burrone
+      ruolo: neonata
+      esito: nasce
+    - persona: elrond
+      parte: Gran Burrone
+      ruolo: padre
+      esito: la alleva
+    - persona: celebrian
+      parte: Gran Burrone
+      ruolo: madre
+      esito: la alleva
+  breve: >-
+    Nasce Arwen Undómiel, figlia di Elrond e Celebrían.
+  lungo: >-
+    A Gran Burrone nasce Arwen Undómiel, figlia di Elrond e Celebrían. È
+    chiamata la Stella del Vespro, perché in lei si rinnova la bellezza di
+    Lúthien. Molti secoli dopo sceglierà la sorte degli Uomini per amore di
+    Aragorn.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 241"
+  certezza: certa
+  note: null
+
+- id: ostoher-minas-anor
+  titolo: Ostoher ricostruisce Minas Anor
+  tipo: politica
+  data:
+    era: terza
+    anno: 420
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: circa
+    calendario: terza
+    testo: "Anno 420 circa"
+  luoghi:
+    - minas-tirith
+  fa_parte_di: null
+  partecipanti:
+    - persona: ostoher
+      parte: Gondor
+      ruolo: re
+      esito: ricostruisce la città
+  breve: >-
+    Re Ostoher ricostruisce Minas Anor, la futura Minas Tirith.
+  lungo: >-
+    Intorno al 420 re Ostoher ricostruisce e fortifica Minas Anor, la città
+    sorta ai piedi del Mindolluin. Per ora è una roccaforte secondaria, ma
+    diventerà la capitale di Gondor e la Minas Tirith della Guerra
+    dell'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 420 circa"
+  certezza: certa
+  note: null
+
+- id: invasione-esterling
+  titolo: Prima invasione degli Esterling
+  tipo: guerra
+  data:
+    era: terza
+    anno: 490
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 490"
+  luoghi:
+    - gondor
+  fa_parte_di: null
+  partecipanti:
+    - entita: popolo-esterling
+      parte: Est
+      ruolo: invasori
+      esito: invadono Gondor
+    - entita: regno-gondor
+      parte: Gondor
+      ruolo: difensore
+      esito: subisce l'invasione
+  breve: >-
+    Gli Esterling invadono per la prima volta i territori di Gondor.
+  lungo: >-
+    Nel 490 gli Esterling, popoli dell'Est, attaccano per la prima volta i
+    territori di Gondor. È l'inizio di una pressione che accompagnerà il regno
+    del Sud per secoli, tra invasioni, guerre e alleanze.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 490"
+  certezza: certa
+  note: null
+
+- id: romendacil-esterling
+  titolo: Rómendacil I sconfigge gli Esterling
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 500
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 500"
+  luoghi:
+    - gondor
+  fa_parte_di: null
+  partecipanti:
+    - persona: romendacil-i
+      parte: Gondor
+      ruolo: re
+      esito: vince
+    - entita: popolo-esterling
+      parte: Est
+      ruolo: invasori
+      esito: sconfitti
+  breve: >-
+    Re Rómendacil I sconfigge gli Esterling e li respinge fuori da Gondor.
+  lungo: >-
+    Nel 500 re Rómendacil I affronta gli Esterling e li sconfigge, respingendo
+    la loro invasione. La vittoria dà a Gondor un periodo di respiro, ma la
+    minaccia dell'Est non è finita.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 500"
+  certezza: certa
+  note: null
+
+- id: morte-romendacil
+  titolo: Muore Rómendacil I
+  tipo: morte
+  data:
+    era: terza
+    anno: 541
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 541"
+  luoghi:
+    - gondor
+  fa_parte_di: null
+  partecipanti:
+    - persona: romendacil-i
+      parte: Gondor
+      ruolo: re
+      esito: muore in battaglia
+    - entita: popolo-esterling
+      parte: Est
+      ruolo: nemici
+      esito: vincono lo scontro
+  breve: >-
+    Re Rómendacil I cade in battaglia contro gli Esterling.
+  lungo: >-
+    Nel 541 Rómendacil I cade combattendo contro gli Esterling. La sua morte
+    mostra che la vittoria del 500 non aveva eliminato la minaccia: Gondor
+    dovrà difendere i suoi confini orientali ancora per generazioni.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 541"
+  certezza: certa
+  note: null
+
+- id: re-navigatori
+  titolo: Inizia la linea dei Re Navigatori
+  tipo: politica
+  data:
+    era: terza
+    anno: 830
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 830"
+  luoghi:
+    - gondor
+  fa_parte_di: null
+  partecipanti:
+    - persona: falastur
+      parte: Gondor
+      ruolo: re
+      esito: fonda la linea dei Re Navigatori
+    - entita: regno-gondor
+      parte: Gondor
+      ruolo: regno
+      esito: rafforza la potenza marittima
+  breve: >-
+    Falastur inaugura la linea dei Re Navigatori di Gondor.
+  lungo: >-
+    Nell'830 Falastur diventa re e inaugura la linea dei Re Navigatori. Gondor
+    punta sul mare e sulle flotte, estendendo la propria influenza lungo le
+    coste. È una svolta che preparerà le guerre per Umbar.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 830"
+  certezza: certa
+  note: null
+
+- id: earnil-conquista-umbar
+  titolo: Eärnil I conquista Umbar
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 933
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 933"
+  luoghi:
+    - umbar
+    - gondor
+  fa_parte_di: null
+  partecipanti:
+    - persona: earnil-i
+      parte: Gondor
+      ruolo: re
+      esito: conquista Umbar
+    - entita: regno-gondor
+      parte: Gondor
+      ruolo: regno
+      esito: occupa il porto
+  breve: >-
+    Re Eärnil I conquista Umbar e ne fa una fortezza di Gondor.
+  lungo: >-
+    Nel 933 re Eärnil I conquista il porto di Umbar e lo trasforma in una
+    fortezza di Gondor. Il controllo della città rafforza la presenza del
+    regno del Sud nel mare, ma crea anche un nuovo motivo di conflitto con i
+    popoli del sud.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 933"
+  certezza: certa
+  note: null
+
+- id: earnil-morte-mare
+  titolo: Eärnil I muore in mare
+  tipo: perdita
+  data:
+    era: terza
+    anno: 936
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 936"
+  luoghi:
+    - grande-mare
+    - umbar
+  fa_parte_di: null
+  partecipanti:
+    - persona: earnil-i
+      parte: Gondor
+      ruolo: re
+      esito: muore in mare
+  breve: >-
+    Eärnil I muore in mare con la sua flotta.
+  lungo: >-
+    Nel 936 Eärnil I perisce in mare. La conquista di Umbar lascia a Gondor un
+    porto importante, ma la morte del re mostra quanto fosse pericolosa la
+    nuova frontiera marittima.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 936"
+  certezza: certa
+  note: La voce dell'Appendice dice che Eärnil «si disperse in mare».
+
+- id: assedio-umbar-ciryandil
+  titolo: Ciryandil cade a Umbar
+  tipo: morte
+  data:
+    era: terza
+    anno: 1015
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1015"
+  luoghi:
+    - umbar
+  fa_parte_di: null
+  partecipanti:
+    - persona: ciryandil
+      parte: Gondor
+      ruolo: re
+      esito: muore durante l'assedio
+  breve: >-
+    Re Ciryandil viene ucciso durante l'assedio di Umbar.
+  lungo: >-
+    Nel 1015 re Ciryandil cade durante l'assedio di Umbar. Il porto conteso
+    diventa il simbolo della lotta tra Gondor e le forze del sud, una lotta
+    che durerà per secoli.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1015"
+  certezza: certa
+  note: null

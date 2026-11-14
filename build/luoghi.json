@@ -14,9 +14,11 @@
       "eventi": [
         "bilbo-nasce",
         "bilbo-torna",
+        "bucca-conte",
         "erba-pipa",
         "festa-bilbo",
         "festa-inattesa",
+        "fondazione-contea",
         "frodo-parte",
         "lungacque",
         "lungo-inverno",
@@ -81,9 +83,13 @@
       "descrizione": "Il rifugio elfico di Elrond nella gola del Bruinen, ai piedi delle Montagne Nebbiose.",
       "nota": null,
       "eventi": [
+        "aranarth-capitano",
         "compagnia-parte",
         "consiglio-dol-guldur",
         "consiglio-elrond",
+        "elladan-elrohir",
+        "elrond-celebrian",
+        "nascita-arwen",
         "ultimo-consiglio"
       ]
     },
@@ -136,10 +142,13 @@
         "earnur",
         "elessar",
         "grande-peste",
+        "incoronazione-earnil-ii",
         "isildur-anello",
         "mordor-sorveglianza",
         "nozze-elessar-arwen",
-        "pelennor"
+        "ostoher-minas-anor",
+        "pelennor",
+        "torre-bianca"
       ]
     },
     {
@@ -151,6 +160,7 @@
       "descrizione": "L'antica capitale di Gondor sull'Anduin, rovinata dalla peste e dalla guerra.",
       "nota": "Fu la prima capitale di Gondor.",
       "eventi": [
+        "incendio-osgiliath",
         "lotta-stirpi",
         "mordor-sorveglianza",
         "osgiliath-3018",
@@ -169,10 +179,12 @@
       "descrizione": "La terra di Sauron a est dell'Anduin, chiusa dall'Ephel Dúath, dall'Ered Lithui e dalle alture di Núrnen.",
       "nota": null,
       "eventi": [
+        "assedio-minas-ithil",
         "bilbo-torna",
         "inizio-terza",
         "minas-ithil",
         "mordor-sorveglianza",
+        "re-stregoni-mordor",
         "saruman-tradisce",
         "sauron-si-dichiara"
       ]
@@ -345,13 +357,20 @@
       "descrizione": "Il regno degli Uomini del Sud, tra l'Anduin e le Montagne Bianche, con capitale Minas Tirith.",
       "nota": "Fondato da Isildur e Anárion alla fine della Seconda Era.",
       "eventi": [
+        "alleanza-gondor-arnor",
         "battaglia-campo",
+        "earnil-conquista-umbar",
         "elessar",
         "grande-peste",
+        "invasione-esterling",
         "lotta-stirpi",
         "lungo-inverno",
+        "morte-romendacil",
+        "nozze-arvedui-firiel",
         "nozze-elessar-arwen",
-        "ombra-bosco-attro"
+        "ombra-bosco-attro",
+        "re-navigatori",
+        "romendacil-esterling"
       ]
     },
     {
@@ -408,7 +427,8 @@
       "descrizione": "La vasta regione a est delle Montagne Nebbiose, tra il Bosco Atro, Erebor e il Mare di Rhûn.",
       "nota": null,
       "eventi": [
-        "aurighe"
+        "aurighe",
+        "eotheod-nord"
       ]
     },
     {
@@ -433,6 +453,7 @@
       "descrizione": "Il regno del Nord fondato nel 861, il più fedele alla linea di Isildur, con capitale Fornost.",
       "nota": null,
       "eventi": [
+        "argeleb-i-morte",
         "cade-arnor",
         "divisione-arnor"
       ]
@@ -458,6 +479,7 @@
       "descrizione": "Il regno del Nord a est, tra le Montagne Nebbiose e l'Eriador orientale.",
       "nota": null,
       "eventi": [
+        "argeleb-i-morte",
         "divisione-arnor"
       ]
     },
@@ -502,6 +524,7 @@
       "descrizione": "La città conquistata dai Nazgûl nel 2002 e trasformata in torre di stregoneria.",
       "nota": "Prima della conquista si chiamava Minas Ithil.",
       "eventi": [
+        "assedio-minas-ithil",
         "earnur",
         "minas-ithil",
         "osgiliath-3018",
@@ -520,6 +543,7 @@
       "nota": null,
       "eventi": [
         "angmar-invaude",
+        "aranarth-capitano",
         "battaglia-fornost",
         "cade-arnor",
         "divisione-arnor"
@@ -653,6 +677,7 @@
       "descrizione": "Il fiume che segna il confine orientale della Contea.",
       "nota": null,
       "eventi": [
+        "fondazione-contea",
         "grande-peste"
       ]
     },
@@ -831,6 +856,8 @@
       "descrizione": "Le terre del sud, oltre Gondor e Umbar.",
       "nota": null,
       "eventi": [
+        "aldamir-morte",
+        "hyarmendacil-ii-harad",
         "ombra-bosco-attro"
       ]
     },
@@ -894,6 +921,7 @@
       "descrizione": "Il mare a ovest della Terra di Mezzo, oltre i Rifugi Oscuri.",
       "nota": null,
       "eventi": [
+        "earnil-morte-mare",
         "porti-grigi"
       ]
     },
@@ -971,6 +999,7 @@
       "descrizione": "Il porto di Gondor sull'Anduin, a sud di Minas Tirith.",
       "nota": null,
       "eventi": [
+        "corsari-pelargir",
         "lotta-stirpi"
       ]
     },
@@ -1045,7 +1074,12 @@
       "descrizione": "La città portuale del sud, rifugio dei Corsari.",
       "nota": null,
       "eventi": [
-        "lotta-stirpi"
+        "assedio-umbar-ciryandil",
+        "earnil-conquista-umbar",
+        "earnil-morte-mare",
+        "lotta-stirpi",
+        "ribelli-umbar",
+        "telumehtar-umbar"
       ]
     },
     {
@@ -1085,11 +1119,25 @@
       "eventi": [
         "aurighe"
       ]
+    },
+    {
+      "id": "dagorlad",
+      "nome": "Dagorlad",
+      "tipo": "pianura",
+      "alias": [
+        "Campo di Dagorlad"
+      ],
+      "dentro": null,
+      "descrizione": "La piana davanti al Morannon, teatro di battaglie.",
+      "nota": null,
+      "eventi": [
+        "calimehtar-dagorlad"
+      ]
     }
   ],
   "copertura": {
-    "luoghi_citati": 77,
-    "luoghi_coperti": 77,
+    "luoghi_citati": 78,
+    "luoghi_coperti": 78,
     "luoghi_scoperti": 0,
     "scoperti": []
   }

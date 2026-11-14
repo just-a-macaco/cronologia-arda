@@ -211,9 +211,13 @@
       "descrizione": "Il signore di Gran Burrone e custode di uno dei Tre Anelli.",
       "nota": null,
       "eventi": [
+        "aranarth-capitano",
         "consiglio-dol-guldur",
         "consiglio-elrond",
         "elessar",
+        "elladan-elrohir",
+        "elrond-celebrian",
+        "nascita-arwen",
         "nozze-elessar-arwen",
         "porti-grigi",
         "sauron-si-dichiara"
@@ -437,7 +441,8 @@
       "eventi": [
         "battaglia-campo",
         "battaglia-fornost",
-        "cade-arnor"
+        "cade-arnor",
+        "nozze-arvedui-firiel"
       ]
     },
     {
@@ -468,6 +473,7 @@
       "nota": null,
       "eventi": [
         "elessar",
+        "nascita-arwen",
         "nozze-elessar-arwen"
       ]
     },
@@ -656,6 +662,7 @@
       "descrizione": "Il re di Gondor che riconquista il trono nel 1447.",
       "nota": null,
       "eventi": [
+        "incendio-osgiliath",
         "lotta-stirpi"
       ]
     },
@@ -719,7 +726,8 @@
       "descrizione": "Il generale che sconfigge i Carrieri e diventa re di Gondor.",
       "nota": null,
       "eventi": [
-        "battaglia-campo"
+        "battaglia-campo",
+        "incoronazione-earnil-ii"
       ]
     },
     {
@@ -976,6 +984,7 @@
       "descrizione": "Il figlio di Eldacar, ucciso durante la Lotta delle Stirpi.",
       "nota": null,
       "eventi": [
+        "incendio-osgiliath",
         "lotta-stirpi"
       ]
     },
@@ -1171,7 +1180,8 @@
         "battaglia-fornost",
         "cade-arnor",
         "earnur",
-        "pelennor"
+        "pelennor",
+        "re-stregoni-mordor"
       ]
     },
     {
@@ -1206,12 +1216,304 @@
       "eventi": [
         "thror"
       ]
+    },
+    {
+      "id": "celebrian",
+      "nome": "Celebrían",
+      "tipo": "personaggio",
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "La figlia di Celeborn e Galadriel, moglie di Elrond.",
+      "nota": null,
+      "eventi": [
+        "elladan-elrohir",
+        "elrond-celebrian",
+        "nascita-arwen"
+      ]
+    },
+    {
+      "id": "elladan",
+      "nome": "Elladan",
+      "tipo": "personaggio",
+      "specie": "Mezzelfo",
+      "popolo": "Mezzelfi",
+      "nascita": 130,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Figlio di Elrond e Celebrían, gemello di Elrohir.",
+      "nota": null,
+      "eventi": [
+        "elladan-elrohir"
+      ]
+    },
+    {
+      "id": "elrohir",
+      "nome": "Elrohir",
+      "tipo": "personaggio",
+      "specie": "Mezzelfo",
+      "popolo": "Mezzelfi",
+      "nascita": 130,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Figlio di Elrond e Celebrían, gemello di Elladan.",
+      "nota": null,
+      "eventi": [
+        "elladan-elrohir"
+      ]
+    },
+    {
+      "id": "ostoher",
+      "nome": "Ostoher",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor che ricostruisce Minas Anor.",
+      "nota": null,
+      "eventi": [
+        "ostoher-minas-anor"
+      ]
+    },
+    {
+      "id": "romendacil-i",
+      "nome": "Rómendacil I",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor che sconfigge gli Esterling.",
+      "nota": null,
+      "eventi": [
+        "morte-romendacil",
+        "romendacil-esterling"
+      ]
+    },
+    {
+      "id": "falastur",
+      "nome": "Falastur",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor, primo della linea dei Re Navigatori.",
+      "nota": null,
+      "eventi": [
+        "re-navigatori"
+      ]
+    },
+    {
+      "id": "earnil-i",
+      "nome": "Eärnil I",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor che conquista Umbar.",
+      "nota": null,
+      "eventi": [
+        "earnil-conquista-umbar",
+        "earnil-morte-mare"
+      ]
+    },
+    {
+      "id": "ciryandil",
+      "nome": "Ciryandil",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor caduto durante l'assedio di Umbar.",
+      "nota": null,
+      "eventi": [
+        "assedio-umbar-ciryandil"
+      ]
+    },
+    {
+      "id": "argeleb-i",
+      "nome": "Argeleb I",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re dell'Arthedain caduto contro il Rhudaur.",
+      "nota": null,
+      "eventi": [
+        "argeleb-i-morte"
+      ]
+    },
+    {
+      "id": "aldimir",
+      "nome": "Aldamir",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor caduto contro Haradrim e Corsari.",
+      "nota": null,
+      "eventi": [
+        "aldamir-morte"
+      ]
+    },
+    {
+      "id": "hyarmendacil-ii",
+      "nome": "Hyarmendacil II",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor che sconfigge gli Haradrim.",
+      "nota": null,
+      "eventi": [
+        "hyarmendacil-ii-harad"
+      ]
+    },
+    {
+      "id": "minardil",
+      "nome": "Minardil",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor ucciso dai Corsari a Pelargir.",
+      "nota": null,
+      "eventi": [
+        "corsari-pelargir"
+      ]
+    },
+    {
+      "id": "telumehtar",
+      "nome": "Telumehtar Umbardacil",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [
+        "Telumehtar"
+      ],
+      "descrizione": "Il re di Gondor che riconquista Umbar.",
+      "nota": null,
+      "eventi": [
+        "telumehtar-umbar"
+      ]
+    },
+    {
+      "id": "calimehtar",
+      "nome": "Calimehtar",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor che sconfigge i Carrieri a Dagorlad.",
+      "nota": null,
+      "eventi": [
+        "calimehtar-dagorlad",
+        "torre-bianca"
+      ]
+    },
+    {
+      "id": "argeleb-ii",
+      "nome": "Argeleb II",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re dell'Arthedain che dona le terre oltre il Baranduin agli Hobbit.",
+      "nota": null,
+      "eventi": [
+        "fondazione-contea"
+      ]
+    },
+    {
+      "id": "aranarth",
+      "nome": "Aranarth",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il figlio di Arvedui, primo Capitano dei Dúnedain del Nord.",
+      "nota": null,
+      "eventi": [
+        "aranarth-capitano"
+      ]
+    },
+    {
+      "id": "frumgar",
+      "nome": "Frumgar",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Uomini del Nord",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il condottiero degli Éothéod che li guida a nord.",
+      "nota": null,
+      "eventi": [
+        "eotheod-nord"
+      ]
+    },
+    {
+      "id": "bucca-della-palude",
+      "nome": "Bucca della Palude",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il primo Conte della Contea.",
+      "nota": null,
+      "eventi": [
+        "bucca-conte"
+      ]
+    },
+    {
+      "id": "firiel",
+      "nome": "Firiel",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "La figlia di Ondoher, moglie di Arvedui.",
+      "nota": null,
+      "eventi": [
+        "nozze-arvedui-firiel"
+      ]
     }
   ],
   "copertura": {
-    "nomi_citati": 108,
-    "nomi_coperti": 71,
-    "nomi_coperti_da_entita": 37,
+    "nomi_citati": 133,
+    "nomi_coperti": 90,
+    "nomi_coperti_da_entita": 43,
     "nomi_scoperti": 0,
     "scoperti": {}
   }

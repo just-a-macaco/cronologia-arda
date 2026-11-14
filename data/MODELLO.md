@@ -200,12 +200,12 @@ contiene 77 schede, che coprono tutti gli 85 nomi citati dagli eventi (alcuni no
 sono alias dello stesso luogo). Gli eventi ora **richiamano i luoghi per ID**: il
 build controlla che ogni ID esista e usa il nome solo per la visualizzazione.
 
-Anagrafica dei partecipanti completa: `data/persone.yaml` contiene **71 personaggi**
-e `data/entita.yaml` contiene **37 entità collettive** (11 popoli, 3 regni, 25
-gruppi, contando i nomi coperti). Insieme coprono **tutti i 112 nomi** di
-partecipante citati dagli eventi. Anche i partecipanti ora richiamano le schede
-per ID (`persona:` o `entita:`), come i luoghi.
+Anagrafica dei partecipanti completa: `data/persone.yaml` contiene **90 personaggi**
+e `data/entita.yaml` contiene **43 entità collettive**. Insieme coprono **tutti i
+133 nomi** di partecipante citati dagli eventi. Anche i partecipanti richiamano le
+schede per ID (`persona:` o `entita:`), come i luoghi.
 
-Per la Terza Era il database di eventi, luoghi e partecipanti è completo.
-Restano, per le fasi successive, le famiglie (per gli alberi genealogici) e le
-fonti come entità separate. Poi si torna alla vetrina.
+Per la Terza Era il database di eventi, luoghi e partecipanti è pronto. Il lavoro
+continua con l'espansione dell'Appendice B: 90 eventi e 64 anni su 127 coperti.
+Restano le famiglie (per gli alberi genealogici), le fonti come entità separate e
+la vetrina.

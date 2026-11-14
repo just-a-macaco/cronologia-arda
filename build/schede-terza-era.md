@@ -53,6 +53,184 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Note:** L'Anello resta perduto nel fiume per circa 2.500 anni, fino al 2463.
 
+## Elrond sposa Celebrían
+
+**ID:** `elrond-celebrian` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 109 · Terza Era
+
+**Dove:** Gran Burrone
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Elrond | Gran Burrone | sposo | sposa Celebrían |
+| Celebrían | Lórien | sposa | sposa Elrond |
+
+**Versione breve:** Elrond sposa Celebrían, figlia di Celeborn e Galadriel: nasce la famiglia dei Mezzelfi di Gran Burrone.
+
+**Testo lungo:** Elrond, signore di Gran Burrone, sposa Celebrían, figlia di Celeborn e Galadriel. Dal matrimonio nasceranno i gemelli Elladan e Elrohir e, molto più tardi, Arwen Undómiel. La casa di Gran Burrone diventa così il punto d'incontro delle due grandi linee elfiche e della discendenza di Elros.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 109
+
+## Nascono Elladan ed Elrohir
+
+**ID:** `elladan-elrohir` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** Anno 130 · Terza Era
+
+**Dove:** Gran Burrone
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Elladan | Gran Burrone | neonato | nasce |
+| Elrohir | Gran Burrone | neonato | nasce |
+| Elrond | Gran Burrone | padre | li alleva |
+| Celebrían | Gran Burrone | madre | li alleva |
+
+**Versione breve:** Nascono Elladan ed Elrohir, i gemelli figli di Elrond e Celebrían.
+
+**Testo lungo:** A Gran Burrone nascono Elladan ed Elrohir, figli gemelli di Elrond e Celebrían. Cresceranno come Mezzelfi nella casa del padre e prenderanno parte alle vicende del Nord, dalla caccia agli Orchetti alla Guerra dell'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 130
+
+## Nasce Arwen Undómiel
+
+**ID:** `nascita-arwen` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** Anno 241 · Terza Era
+
+**Dove:** Gran Burrone
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Arwen | Gran Burrone | neonata | nasce |
+| Elrond | Gran Burrone | padre | la alleva |
+| Celebrían | Gran Burrone | madre | la alleva |
+
+**Versione breve:** Nasce Arwen Undómiel, figlia di Elrond e Celebrían.
+
+**Testo lungo:** A Gran Burrone nasce Arwen Undómiel, figlia di Elrond e Celebrían. È chiamata la Stella del Vespro, perché in lei si rinnova la bellezza di Lúthien. Molti secoli dopo sceglierà la sorte degli Uomini per amore di Aragorn.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 241
+
+## Ostoher ricostruisce Minas Anor
+
+**ID:** `ostoher-minas-anor` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 420 circa · Terza Era
+
+**Dove:** Minas Tirith
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Ostoher | Gondor | re | ricostruisce la città |
+
+**Versione breve:** Re Ostoher ricostruisce Minas Anor, la futura Minas Tirith.
+
+**Testo lungo:** Intorno al 420 re Ostoher ricostruisce e fortifica Minas Anor, la città sorta ai piedi del Mindolluin. Per ora è una roccaforte secondaria, ma diventerà la capitale di Gondor e la Minas Tirith della Guerra dell'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 420 circa
+
+## Prima invasione degli Esterling
+
+**ID:** `invasione-esterling` · **Tipo:** guerra · **Certezza:** certa
+
+**Quando:** Anno 490 · Terza Era
+
+**Dove:** Gondor
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| gli Esterling | Est | invasori | invadono Gondor |
+| Gondor | Gondor | difensore | subisce l'invasione |
+
+**Versione breve:** Gli Esterling invadono per la prima volta i territori di Gondor.
+
+**Testo lungo:** Nel 490 gli Esterling, popoli dell'Est, attaccano per la prima volta i territori di Gondor. È l'inizio di una pressione che accompagnerà il regno del Sud per secoli, tra invasioni, guerre e alleanze.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 490
+
+## Rómendacil I sconfigge gli Esterling
+
+**ID:** `romendacil-esterling` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** Anno 500 · Terza Era
+
+**Dove:** Gondor
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Rómendacil I | Gondor | re | vince |
+| gli Esterling | Est | invasori | sconfitti |
+
+**Versione breve:** Re Rómendacil I sconfigge gli Esterling e li respinge fuori da Gondor.
+
+**Testo lungo:** Nel 500 re Rómendacil I affronta gli Esterling e li sconfigge, respingendo la loro invasione. La vittoria dà a Gondor un periodo di respiro, ma la minaccia dell'Est non è finita.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 500
+
+## Muore Rómendacil I
+
+**ID:** `morte-romendacil` · **Tipo:** morte · **Certezza:** certa
+
+**Quando:** Anno 541 · Terza Era
+
+**Dove:** Gondor
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Rómendacil I | Gondor | re | muore in battaglia |
+| gli Esterling | Est | nemici | vincono lo scontro |
+
+**Versione breve:** Re Rómendacil I cade in battaglia contro gli Esterling.
+
+**Testo lungo:** Nel 541 Rómendacil I cade combattendo contro gli Esterling. La sua morte mostra che la vittoria del 500 non aveva eliminato la minaccia: Gondor dovrà difendere i suoi confini orientali ancora per generazioni.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 541
+
+## Inizia la linea dei Re Navigatori
+
+**ID:** `re-navigatori` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 830 · Terza Era
+
+**Dove:** Gondor
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Falastur | Gondor | re | fonda la linea dei Re Navigatori |
+| Gondor | Gondor | regno | rafforza la potenza marittima |
+
+**Versione breve:** Falastur inaugura la linea dei Re Navigatori di Gondor.
+
+**Testo lungo:** Nell'830 Falastur diventa re e inaugura la linea dei Re Navigatori. Gondor punta sul mare e sulle flotte, estendendo la propria influenza lungo le coste. È una svolta che preparerà le guerre per Umbar.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 830
+
 ## Arnor si divide
 
 **ID:** `divisione-arnor` · **Tipo:** politica · **Certezza:** certa
@@ -74,6 +252,51 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 861; Appendice A, Arnor
+
+## Eärnil I conquista Umbar
+
+**ID:** `earnil-conquista-umbar` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** Anno 933 · Terza Era
+
+**Dove:** Umbar, Gondor
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Eärnil I | Gondor | re | conquista Umbar |
+| Gondor | Gondor | regno | occupa il porto |
+
+**Versione breve:** Re Eärnil I conquista Umbar e ne fa una fortezza di Gondor.
+
+**Testo lungo:** Nel 933 re Eärnil I conquista il porto di Umbar e lo trasforma in una fortezza di Gondor. Il controllo della città rafforza la presenza del regno del Sud nel mare, ma crea anche un nuovo motivo di conflitto con i popoli del sud.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 933
+
+## Eärnil I muore in mare
+
+**ID:** `earnil-morte-mare` · **Tipo:** perdita · **Certezza:** certa
+
+**Quando:** Anno 936 · Terza Era
+
+**Dove:** Grande Mare, Umbar
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Eärnil I | Gondor | re | muore in mare |
+
+**Versione breve:** Eärnil I muore in mare con la sua flotta.
+
+**Testo lungo:** Nel 936 Eärnil I perisce in mare. La conquista di Umbar lascia a Gondor un porto importante, ma la morte del re mostra quanto fosse pericolosa la nuova frontiera marittima.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 936
+
+**Note:** La voce dell'Appendice dice che Eärnil «si disperse in mare».
 
 ## Giungono gli Istari
 
@@ -100,6 +323,27 @@ la versione breve è quella che compare sulla linea del tempo.
 - Il Signore degli Anelli, Appendice B, anno 1000 circa
 
 **Note:** L'epub non nomina i due Istari azzurri; i loro nomi si trovano in altre opere e vanno trattati come tradizione separata.
+
+## Ciryandil cade a Umbar
+
+**ID:** `assedio-umbar-ciryandil` · **Tipo:** morte · **Certezza:** certa
+
+**Quando:** Anno 1015 · Terza Era
+
+**Dove:** Umbar
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Ciryandil | Gondor | re | muore durante l'assedio |
+
+**Versione breve:** Re Ciryandil viene ucciso durante l'assedio di Umbar.
+
+**Testo lungo:** Nel 1015 re Ciryandil cade durante l'assedio di Umbar. Il porto conteso diventa il simbolo della lotta tra Gondor e le forze del sud, una lotta che durerà per secoli.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1015
 
 ## L'ombra sul Bosco Atro
 
@@ -169,6 +413,28 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 1300 circa
 
+## Muore Argeleb I
+
+**ID:** `argeleb-i-morte` · **Tipo:** morte · **Certezza:** certa
+
+**Quando:** Anno 1356 · Terza Era
+
+**Dove:** Rhudaur, Arthedain
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Argeleb I | Arthedain | re | muore in battaglia |
+| Rhudaur | Rhudaur | nemico | vince lo scontro |
+
+**Versione breve:** Re Argeleb I cade combattendo contro il Rhudaur.
+
+**Testo lungo:** Nel 1356 re Argeleb I muore combattendo contro il Rhudaur. Il regno del Nord perde un altro sovrano nella lunga guerra tra Arthedain, Cardolan e Rhudaur, mentre Angmar cresce ai margini.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1356
+
 ## Angmar invade Arnor
 
 **ID:** `angmar-invaude` · **Tipo:** battaglia · **Certezza:** certa
@@ -219,6 +485,147 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Note:** La guerra è trattata come un solo evento con intervallo; le singole battaglie (Osgiliath 1436, Erui 1447, Pelargir 1447) possono diventare schede autonome in una fase successiva.
 
+## Osgiliath brucia
+
+**ID:** `incendio-osgiliath` · **Tipo:** distruzione · **Certezza:** certa
+
+**Quando:** Anno 1436 · Terza Era
+
+**Dove:** Osgiliath
+
+**Fa parte di:** La Lotta delle Stirpi
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Eldacar | Gondor | erede legittimo | fugge nel Rhovanion |
+| Ornendil | Gondor | figlio di Eldacar | viene ucciso |
+| i ribelli di Castamir | ribelli | assalitori | incendiano la città |
+| Gondor | Gondor | regno | perde il palantír |
+
+**Versione breve:** Osgiliath brucia e il palantír va perduto. Eldacar fugge nel Rhovanion e suo figlio Ornendil viene ucciso.
+
+**Testo lungo:** Nel 1436, durante la Lotta delle Stirpi, Osgiliath viene incendiata. Il palantír che vi era custodito va perduto. Eldacar fugge nel Rhovanion, mentre suo figlio Ornendil viene ucciso. La città che era stata la capitale di Gondor comincia il suo declino.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1436
+
+**Note:** La scheda separa l'incendio dall'evento generale della Lotta delle Stirpi.
+
+## I ribelli prendono Umbar
+
+**ID:** `ribelli-umbar` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 1448 · Terza Era
+
+**Dove:** Umbar
+
+**Fa parte di:** La Lotta delle Stirpi
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| i ribelli di Castamir | ribelli | fuggiaschi | si impadroniscono di Umbar |
+
+**Versione breve:** I ribelli di Castamir si impadroniscono di Umbar e vi si stabiliscono.
+
+**Testo lungo:** Nel 1448 i ribelli di Castamir, fuggiti da Gondor dopo la sconfitta, compiono una sortita e si impadroniscono di Umbar. Da quel momento il porto diventa la base dei Corsari e dei nemici di Gondor.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1448
+
+## Muore Aldamir
+
+**ID:** `aldamir-morte` · **Tipo:** morte · **Certezza:** certa
+
+**Quando:** Anno 1540 · Terza Era
+
+**Dove:** Harad
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aldamir | Gondor | re | muore in battaglia |
+| gli Haradrim | Harad | invasori | attaccano Gondor |
+| i Corsari di Umbar | Umbar | alleati degli Haradrim | combattono con loro |
+
+**Versione breve:** Re Aldamir cade lottando contro gli Haradrim e i Corsari di Umbar.
+
+**Testo lungo:** Nel 1540 re Aldamir muore combattendo contro gli Haradrim e i Corsari di Umbar. La minaccia del Sud si somma a quella dell'Est e Gondor deve difendersi su più fronti.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1540
+
+## Hyarmendacil II sconfigge gli Haradrim
+
+**ID:** `hyarmendacil-ii-harad` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** Anno 1551 · Terza Era
+
+**Dove:** Harad
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Hyarmendacil II | Gondor | re | vince |
+| gli Haradrim | Harad | nemici | sconfitti |
+
+**Versione breve:** Re Hyarmendacil II sconfigge gli Haradrim e vendica la morte di Aldamir.
+
+**Testo lungo:** Nel 1551 Hyarmendacil II sconfigge gli Haradrim, vendicando la morte del padre Aldamir. La vittoria rafforza ancora la posizione di Gondor nel Sud, ma non elimina la minaccia dei Corsari di Umbar.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1551
+
+## Nasce la Contea
+
+**ID:** `fondazione-contea` · **Tipo:** fondazione · **Certezza:** certa
+
+**Quando:** Anno 1601 · Terza Era
+
+**Dove:** Contea, Baranduin
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Argeleb II | Arthedain | re | dona le terre |
+| gli Hobbit | Hobbit | popolo | si stabilisce oltre il Baranduin |
+
+**Versione breve:** Argeleb II dona agli Hobbit le terre oltre il Baranduin: nasce la Contea.
+
+**Testo lungo:** Nel 1601 molti Periannath lasciano Brea e ricevono in dono da Argeleb II le terre oltre il Baranduin. Gli Hobbit vi si stabiliscono e fondano la Contea, destinata a restare il loro paese fino alla Guerra dell'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1601
+
+## I Corsari devastano Pelargir
+
+**ID:** `corsari-pelargir` · **Tipo:** distruzione · **Certezza:** certa
+
+**Quando:** Anno 1634 · Terza Era
+
+**Dove:** Pelargir
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| i Corsari di Umbar | Umbar | assalitori | devastano la città |
+| Minardil | Gondor | re | viene ucciso |
+| Gondor | Gondor | regno | subisce il colpo |
+
+**Versione breve:** I Corsari devastano Pelargir e uccidono re Minardil.
+
+**Testo lungo:** Nel 1634 i Corsari di Umbar attaccano Pelargir, la devastano e uccidono re Minardil. È uno dei colpi più duri subiti da Gondor nel Sud, e mostra quanto il porto di Umbar sia diventato pericoloso.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1634
+
 ## La Grande Peste
 
 **ID:** `grande-peste` · **Tipo:** distruzione · **Certezza:** certa
@@ -265,6 +672,28 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 1640
 
+## Telumehtar riconquista Umbar
+
+**ID:** `telumehtar-umbar` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** Anno 1810 · Terza Era
+
+**Dove:** Umbar
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Telumehtar Umbardacil | Gondor | re | riconquista il porto |
+| i Corsari di Umbar | Umbar | nemici | respinti |
+
+**Versione breve:** Re Telumehtar Umbardacil riconquista Umbar e respinge i Corsari.
+
+**Testo lungo:** Nel 1810 re Telumehtar Umbardacil riconquista Umbar e respinge i Corsari. Gondor riprende per un tempo il controllo del porto, ma la lotta per il Sud non è conclusa.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1810
+
 ## I Carrieri travolgono Gondor
 
 **ID:** `aurighe` · **Tipo:** battaglia · **Certezza:** certa
@@ -290,6 +719,93 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Note:** L'ID storico dell'evento resta `aurighe`, ma il nome visibile è ora «Carrieri», la forma dell'edizione Bompiani 2004.
 
+## Calimehtar vince a Dagorlad
+
+**ID:** `calimehtar-dagorlad` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** Anno 1899 · Terza Era
+
+**Dove:** Dagorlad
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Calimehtar | Gondor | re | vince |
+| i Carrieri | Est | invasori | sconfitti |
+
+**Versione breve:** Re Calimehtar sconfigge i Carrieri sul Campo di Dagorlad.
+
+**Testo lungo:** Nel 1899 re Calimehtar sconfigge i Carrieri sul Campo di Dagorlad, la piana davanti al Morannon. È una vittoria importante, ma la pressione dei popoli dell'Est riprenderà presto.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1899
+
+## Calimehtar costruisce la Torre Bianca
+
+**ID:** `torre-bianca` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 1900 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Calimehtar | Gondor | re | costruisce la torre |
+
+**Versione breve:** Calimehtar costruisce la Torre Bianca a Minas Anor.
+
+**Testo lungo:** Nel 1900 re Calimehtar costruisce la Torre Bianca a Minas Anor. La torre diventa uno dei simboli della città e, secoli dopo, il luogo da cui Denethor osserverà l'avanzata di Mordor.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1900
+
+## Alleanza tra Gondor e Arnor
+
+**ID:** `alleanza-gondor-arnor` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 1940 · Terza Era
+
+**Dove:** Gondor
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gondor | Gondor | regno | stringe l'alleanza |
+| Arnor | Arnor | regno | stringe l'alleanza |
+
+**Versione breve:** Gondor e Arnor riallacciano i rapporti e stringono un'alleanza.
+
+**Testo lungo:** Nel 1940 Gondor e Arnor riallacciano i rapporti e stringono un'alleanza. È il tentativo di unire i due regni fondati da Elendil contro le minacce che crescono a est e a nord.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1940
+
+## Arvedui sposa Firiel
+
+**ID:** `nozze-arvedui-firiel` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 1940 · Terza Era
+
+**Dove:** Gondor
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Arvedui | Arthedain | sposo | sposa Firiel |
+| Firiel | Gondor | sposa | sposa Arvedui |
+
+**Versione breve:** Arvedui, erede di Arnor, sposa Firiel, figlia di re Ondoher di Gondor.
+
+**Testo lungo:** Nel 1940 Arvedui sposa Firiel, figlia di re Ondoher di Gondor. Dal matrimonio nascerà una rivendicazione al trono di Gondor che, dopo la morte di Ondoher, dividerà i due regni invece di unirli.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1940
+
 ## Battaglia del Campo
 
 **ID:** `battaglia-campo` · **Tipo:** battaglia · **Certezza:** certa
@@ -313,6 +829,28 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anni 1944-1945; Appendice A, Gondor
+
+## Eärnil II riceve la corona
+
+**ID:** `incoronazione-earnil-ii` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 1945 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Eärnil | Gondor | re | riceve la corona |
+| Gondor | Gondor | regno | lo riconosce re |
+
+**Versione breve:** Eärnil II riceve la corona di Gondor.
+
+**Testo lungo:** Nel 1945 Eärnil II riceve la corona di Gondor. Il Consiglio sceglie lui e non Arvedui, che pure aveva sposato Firiel. La decisione spezza per sempre la possibilità di riunire i due regni di Elendil.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1945
 
 ## Cade il regno del Nord
 
@@ -361,6 +899,73 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 1975; Appendice A, Gondor
 
+## Aranarth primo Capitano dei Dúnedain
+
+**ID:** `aranarth-capitano` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 1976 · Terza Era
+
+**Dove:** Fornost, Gran Burrone
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aranarth | Dúnedain del Nord | capitano | assume il titolo |
+| i Dúnedain del Nord | Dúnedain del Nord | popolo | lo segue |
+| Elrond | Gran Burrone | custode | riceve i tesori di Arnor |
+
+**Versione breve:** Aranarth prende il titolo di Capitano dei Dúnedain; i tesori di Arnor sono affidati a Elrond.
+
+**Testo lungo:** Nel 1976 Aranarth, figlio di Arvedui, prende il titolo di Capitano dei Dúnedain. I tesori di Arnor vengono affidati a Elrond a Gran Burrone. Il regno del Nord non esiste più, ma la sua discendenza continua nei Raminghi.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1976
+
+## Frumgar conduce gli Éothéod a nord
+
+**ID:** `eotheod-nord` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** Anno 1977 · Terza Era
+
+**Dove:** Rhovanion
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frumgar | Éothéod | condottiero | guida il popolo a nord |
+| gli Éothéod | Éothéod | popolo | si sposta a nord |
+
+**Versione breve:** Frumgar conduce gli Éothéod verso nord.
+
+**Testo lungo:** Nel 1977 Frumgar conduce gli Éothéod verso nord. Questo popolo del Nord, discendente dagli Uomini di Rhovanion, si sposterà ancora e diventerà noto come i Rohirrim.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1977
+
+## Bucca della Palude primo Conte
+
+**ID:** `bucca-conte` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 1979 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Bucca della Palude | Contea | conte | assume il titolo |
+| gli Hobbit | Contea | popolo | lo riconosce |
+
+**Versione breve:** Bucca della Palude diventa il primo Conte della Contea.
+
+**Testo lungo:** Nel 1979 Bucca della Palude diventa il primo Conte della Contea. La carica, nata per guidare gli Hobbit nella difesa del loro paese, diventerà una delle istituzioni stabili della Contea.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1979
+
 ## Un Balrog a Moria
 
 **ID:** `balrog-moria` · **Tipo:** distruzione · **Certezza:** certa
@@ -385,6 +990,30 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anni 1980-1981
 
+## Il Re degli Stregoni entra a Mordor
+
+**ID:** `re-stregoni-mordor` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 1980 · Terza Era
+
+**Dove:** Mordor
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| il Re degli Stregoni | Mordor | capo dei Nazgûl | si reca a Mordor |
+| i Nazgûl | Mordor | spettri | si radunano con lui |
+
+**Versione breve:** Il Re degli Stregoni si reca a Mordor e vi raduna i Nazgûl.
+
+**Testo lungo:** Nel 1980 il Re degli Stregoni si reca a Mordor e vi raduna i Nazgûl. È il segno che il potere di Sauron sta preparando il ritorno nel suo antico regno, mentre a Moria il Balrog scaccia i Nani.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1980
+
+**Note:** La caduta di Moria è nella scheda separata sul Balrog.
+
 ## I Nani fondano Erebor
 
 **ID:** `nani-erebor` · **Tipo:** fondazione · **Certezza:** certa
@@ -406,6 +1035,28 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 1999
+
+## I Nazgûl assediano Minas Ithil
+
+**ID:** `assedio-minas-ithil` · **Tipo:** guerra · **Certezza:** certa
+
+**Quando:** Anno 2000 · Terza Era
+
+**Dove:** Minas Morgul, Mordor
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| i Nazgûl | Mordor | assedianti | stringono d'assedio la città |
+| Gondor | Gondor | difensore | resiste per due anni |
+
+**Versione breve:** I Nazgûl escono da Mordor e assediano Minas Ithil.
+
+**Testo lungo:** Nel 2000 i Nazgûl escono da Mordor e assediano Minas Ithil, la città gemella di Minas Anor. L'assedio durerà due anni, fino alla caduta della città e alla sua trasformazione in Minas Morgul.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2000
 
 ## Caduta di Minas Ithil
 

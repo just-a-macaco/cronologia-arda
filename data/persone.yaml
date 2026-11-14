@@ -804,3 +804,213 @@
   descrizione: L'Orchetto che uccide Thrór davanti al Cancello Orientale.
   nota: null
 
+
+- id: celebrian
+  nome: Celebrían
+  tipo: personaggio
+  specie: Elfo
+  popolo: Elfi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: La figlia di Celeborn e Galadriel, moglie di Elrond.
+  nota: null
+
+- id: elladan
+  nome: Elladan
+  tipo: personaggio
+  specie: Mezzelfo
+  popolo: Mezzelfi
+  nascita: 130
+  morte: null
+  alias: []
+  descrizione: Figlio di Elrond e Celebrían, gemello di Elrohir.
+  nota: null
+
+- id: elrohir
+  nome: Elrohir
+  tipo: personaggio
+  specie: Mezzelfo
+  popolo: Mezzelfi
+  nascita: 130
+  morte: null
+  alias: []
+  descrizione: Figlio di Elrond e Celebrían, gemello di Elladan.
+  nota: null
+
+- id: ostoher
+  nome: Ostoher
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor che ricostruisce Minas Anor.
+  nota: null
+
+- id: romendacil-i
+  nome: Rómendacil I
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor che sconfigge gli Esterling.
+  nota: null
+
+- id: falastur
+  nome: Falastur
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor, primo della linea dei Re Navigatori.
+  nota: null
+
+- id: earnil-i
+  nome: Eärnil I
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor che conquista Umbar.
+  nota: null
+
+- id: ciryandil
+  nome: Ciryandil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor caduto durante l'assedio di Umbar.
+  nota: null
+
+- id: argeleb-i
+  nome: Argeleb I
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re dell'Arthedain caduto contro il Rhudaur.
+  nota: null
+
+- id: aldimir
+  nome: Aldamir
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor caduto contro Haradrim e Corsari.
+  nota: null
+
+- id: hyarmendacil-ii
+  nome: Hyarmendacil II
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor che sconfigge gli Haradrim.
+  nota: null
+
+- id: minardil
+  nome: Minardil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor ucciso dai Corsari a Pelargir.
+  nota: null
+
+- id: telumehtar
+  nome: Telumehtar Umbardacil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias:
+    - Telumehtar
+  descrizione: Il re di Gondor che riconquista Umbar.
+  nota: null
+
+- id: calimehtar
+  nome: Calimehtar
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor che sconfigge i Carrieri a Dagorlad.
+  nota: null
+
+- id: argeleb-ii
+  nome: Argeleb II
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re dell'Arthedain che dona le terre oltre il Baranduin agli Hobbit.
+  nota: null
+
+- id: aranarth
+  nome: Aranarth
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il figlio di Arvedui, primo Capitano dei Dúnedain del Nord.
+  nota: null
+
+- id: frumgar
+  nome: Frumgar
+  tipo: personaggio
+  specie: Uomo
+  popolo: Uomini del Nord
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il condottiero degli Éothéod che li guida a nord.
+  nota: null
+
+- id: bucca-della-palude
+  nome: Bucca della Palude
+  tipo: personaggio
+  specie: Hobbit
+  popolo: Hobbit
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il primo Conte della Contea.
+  nota: null
+
+- id: firiel
+  nome: Firiel
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: La figlia di Ondoher, moglie di Arvedui.
+  nota: null

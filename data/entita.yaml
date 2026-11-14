@@ -276,3 +276,48 @@
   alias: []
   descrizione: Gli informatori di Saruman nella Contea e a Brea.
   nota: null
+
+- id: regno-arnor
+  nome: Arnor
+  tipo: regno
+  alias:
+    - Regno del Nord
+  descrizione: Il regno del Nord fondato da Elendil.
+  nota: null
+
+- id: regno-rhudaur
+  nome: Rhudaur
+  tipo: regno
+  alias: []
+  descrizione: Uno dei tre regni nati dalla divisione di Arnor.
+  nota: null
+
+- id: popolo-haradrim
+  nome: gli Haradrim
+  tipo: popolo
+  alias:
+    - Haradrim
+  descrizione: I popoli del Sud che attaccano Gondor.
+  nota: null
+
+- id: gruppo-ribelli-castamir
+  nome: i ribelli di Castamir
+  tipo: gruppo
+  alias: []
+  descrizione: I seguaci di Castamir che si impadroniscono di Umbar.
+  nota: null
+
+- id: gruppo-dunedain-del-nord
+  nome: i Dúnedain del Nord
+  tipo: gruppo
+  alias: []
+  descrizione: Il popolo errante discendente di Arnor, guidato dai Capitani.
+  nota: null
+
+- id: popolo-eotheod
+  nome: gli Éothéod
+  tipo: popolo
+  alias:
+    - Éothéod
+  descrizione: Il popolo del Nord che diventerà i Rohirrim.
+  nota: null
