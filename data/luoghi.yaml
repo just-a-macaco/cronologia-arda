@@ -684,3 +684,100 @@
   dentro: montagne-nebbiose
   descrizione: Il passo delle Montagne Nebbiose dove Celebrían viene assalita nel 2509.
   nota: null
+
+- id: sala-d-oro
+  nome: Sala d'Oro
+  tipo: edificio
+  alias: []
+  dentro: edoras
+  descrizione: La grande sala reale di Edoras, completata da Brego.
+  nota: null
+
+- id: porta-proibita
+  nome: Porta Proibita
+  tipo: passo
+  alias: []
+  dentro: rohan
+  descrizione: L'ingresso oscuro che Baldor varca nel 2570 e da cui non torna.
+  nota: null
+
+- id: grandi-smial
+  nome: Grandi Smial
+  tipo: edificio
+  alias: []
+  dentro: contea
+  descrizione: Le grandi dimore scavate dagli Hobbit nella Contea.
+  nota: null
+
+- id: poros
+  nome: Poros
+  tipo: fiume
+  alias: []
+  dentro: gondor
+  descrizione: Il fiume del Sud di Gondor, attraversato dagli Haradrim nel 2885.
+  nota: null
+
+- id: henneth-annun
+  nome: Henneth Annûn
+  tipo: rifugio
+  alias: []
+  dentro: ithilien
+  descrizione: Il rifugio segreto costruito in Ithilien nel 2901.
+  nota: null
+
+- id: enedwaith
+  nome: Enedwaith
+  tipo: regione
+  alias: []
+  dentro: null
+  descrizione: La regione dell'Eriador meridionale devastata dalle inondazioni del 2912.
+  nota: null
+
+- id: minhiriath
+  nome: Minhiriath
+  tipo: regione
+  alias: []
+  dentro: null
+  descrizione: La regione meridionale dell'Eriador, colpita dalle inondazioni del 2912.
+  nota: null
+
+- id: tharbad
+  nome: Tharbad
+  tipo: città
+  alias: []
+  dentro: null
+  descrizione: La città sul Gwathló, distrutta dalle inondazioni del 2912.
+  nota: null
+
+- id: cerin-amroth
+  nome: Cerin Amroth
+  tipo: collina
+  alias: []
+  dentro: lorien
+  descrizione: La collina di Lórien dove Aragorn e Arwen si giurano fedeltà.
+  nota: null
+
+- id: cirith-ungol
+  nome: Cirith Ungol
+  tipo: passo
+  alias: []
+  dentro: mordor
+  descrizione: Il passo di Mordor dove vive Shelob.
+  nota: null
+
+- id: dol-amroth
+  nome: Dol Amroth
+  tipo: porto
+  alias: []
+  dentro: gondor
+  descrizione: Il principato costiero di Gondor, patria di Finduilas.
+  nota: null
+
+- id: dunland
+  nome: Dunland
+  tipo: regione
+  alias:
+    - Dun'and
+  dentro: null
+  descrizione: La regione a sud dell'Eriador dove si stabiliscono gli Sturoi.
+  nota: null

@@ -1,37 +1,37 @@
 # Rapporto sui luoghi
 
-- Schede create: **80**.
-- Luoghi citati dagli eventi: **80** distinti (su 223 citazioni).
-- Luoghi con una scheda: **80**.
+- Schede create: **92**.
+- Luoghi citati dagli eventi: **92** distinti (su 308 citazioni).
+- Luoghi con una scheda: **92**.
 - Luoghi senza scheda: **0**.
 
 ## Schede
 
 | ID | Nome | Tipo | Dentro | Eventi collegati |
 |---|---|---|---|---|
-| `contea` | Contea | regione | eriador | 12 |
-| `hobbiville` | Hobbiville | villaggio | contea | 6 |
+| `contea` | Contea | regione | eriador | 22 |
+| `hobbiville` | Hobbiville | villaggio | contea | 7 |
 | `casa-baggins` | Casa Baggins | edificio | hobbiville | 3 |
 | `brea` | Brea | città | eriador | 2 |
-| `gran-burrone` | Gran Burrone | rifugio | eriador | 8 |
-| `moria` | Moria | città sotterranea | montagne-nebbiose | 5 |
-| `isengard` | Isengard | fortezza | — | 5 |
-| `minas-tirith` | Minas Tirith | città | gondor | 10 |
+| `gran-burrone` | Gran Burrone | rifugio | eriador | 13 |
+| `moria` | Moria | città sotterranea | montagne-nebbiose | 8 |
+| `isengard` | Isengard | fortezza | — | 6 |
+| `minas-tirith` | Minas Tirith | città | gondor | 19 |
 | `osgiliath` | Osgiliath | città | gondor | 5 |
-| `mordor` | Mordor | regione | — | 8 |
+| `mordor` | Mordor | regione | — | 10 |
 | `barad-dur` | Barad-dûr | fortezza | mordor | 3 |
 | `monte-fato` | Monte Fato | montagna | mordor | 2 |
-| `anduin` | Anduin | fiume | — | 5 |
-| `bosco-atro` | Bosco Atro | bosco | rhovanion | 8 |
-| `rohan` | Rohan | regno | — | 3 |
-| `edoras` | Edoras | città | rohan | 1 |
+| `anduin` | Anduin | fiume | — | 6 |
+| `bosco-atro` | Bosco Atro | bosco | rhovanion | 10 |
+| `rohan` | Rohan | regno | — | 11 |
+| `edoras` | Edoras | città | rohan | 3 |
 | `fosso-di-helm` | Fosso di Helm | valle | rohan | 2 |
-| `erebor` | Erebor | montagna | rhovanion | 6 |
+| `erebor` | Erebor | montagna | rhovanion | 8 |
 | `esgaroth` | Esgaroth | città | rhovanion | 2 |
 | `rifugi-oscuri` | Rifugi Oscuri | porto | lindon | 3 |
-| `gondor` | Gondor | regno | — | 14 |
+| `gondor` | Gondor | regno | — | 16 |
 | `arnor` | Arnor | regno | — | 3 |
-| `eriador` | Eriador | regione | — | 3 |
+| `eriador` | Eriador | regione | — | 13 |
 | `lindon` | Lindon | regione | — | 1 |
 | `rhovanion` | Rhovanion | regione | — | 2 |
 | `calenardhon` | Calenardhon | regione | — | 2 |
@@ -43,17 +43,17 @@
 | `minas-morgul` | Minas Morgul | città | mordor | 5 |
 | `fornost` | Fornost | città | arthedain | 5 |
 | `amon-sul` | Amon Sûl | collina | eriador | 1 |
-| `montagne-nebbiose` | Montagne Nebbiose | montagna | — | 7 |
+| `montagne-nebbiose` | Montagne Nebbiose | montagna | — | 9 |
 | `ered-luin` | Ered Luin | montagna | — | 1 |
 | `montagne-grigie` | Montagne Grigie | montagna | — | 2 |
-| `lorien` | Lórien | regno | rhovanion | 1 |
+| `lorien` | Lórien | regno | rhovanion | 2 |
 | `fangorn` | Fangorn | bosco | rhovanion | 1 |
 | `morannon` | Morannon | passo | mordor | 1 |
 | `argentaroggia` | Argentaroggia | fiume | lorien | 1 |
 | `argonath` | Argonath | monumento | — | 1 |
-| `baranduin` | Baranduin | fiume | — | 2 |
+| `baranduin` | Baranduin | fiume | — | 4 |
 | `campi-del-pelennor` | Campi del Pelennor | pianura | gondor | 1 |
-| `campo-gaggiolo` | Campo Gaggiolo | pianura | — | 2 |
+| `campo-gaggiolo` | Campo Gaggiolo | pianura | — | 4 |
 | `campo-di-celebrant` | Campo di Celebrant | pianura | calenardhon | 1 |
 | `cancello-orientale-di-moria` | Cancello Orientale di Moria | passo | moria | 2 |
 | `clivovalle` | Clivovalle | valle | rohan | 1 |
@@ -63,32 +63,44 @@
 | `desolazione-del-morannon` | Desolazione del Morannon | pianura | — | 1 |
 | `emyn-muil` | Emyn Muil | regione | — | 1 |
 | `erenbrulli` | Erenbrulli | regione | eriador | 1 |
-| `erui` | Erui | fiume | gondor | 1 |
+| `erui` | Erui | fiume | gondor | 2 |
 | `forochel` | Forochel | regione | — | 1 |
 | `harad` | Harad | regione | — | 3 |
 | `harlond` | Harlond | porto | gondor | 1 |
-| `ithilien` | Ithilien | regione | gondor | 2 |
+| `ithilien` | Ithilien | regione | gondor | 3 |
 | `limterso` | Limterso | fiume | rohan | 1 |
 | `lungacque` | Lungacque | villaggio | contea | 1 |
 | `grande-mare` | Grande Mare | mare | — | 3 |
 | `nanduhirion` | Nanduhirion | valle | montagne-nebbiose | 1 |
 | `nimrodel` | Nimrodel | fiume | lorien | 2 |
 | `orthanc` | Orthanc | torre | isengard | 3 |
-| `paludi-morte` | Paludi Morte | palude | rhovanion | 1 |
+| `paludi-morte` | Paludi Morte | palude | rhovanion | 2 |
 | `parth-galen` | Parth Galen | pianura | — | 1 |
-| `pelargir` | Pelargir | città | gondor | 2 |
+| `pelargir` | Pelargir | città | gondor | 3 |
 | `ponte-di-khazad-dum` | Ponte di Khazad-dûm | ponte | moria | 1 |
 | `sammath-naur` | Sammath Naur | caverna | monte-fato | 1 |
 | `terra-di-mezzo` | Terra di Mezzo | mondo | — | 1 |
 | `trombatorrione` | Trombatorrione | fortezza | fosso-di-helm | 1 |
 | `tyrn-gorthad` | Tyrn Gorthad | collina | cardolan | 1 |
 | `umbar` | Umbar | città | — | 6 |
-| `valle` | Valle | città | rhovanion | 3 |
+| `valle` | Valle | città | rhovanion | 6 |
 | `caverna-di-gollum` | caverna di Gollum | caverna | montagne-nebbiose | 1 |
 | `province-orientali-di-gondor` | territori orientali di Gondor | regione | — | 1 |
 | `dagorlad` | Dagorlad | pianura | — | 1 |
 | `terra-di-buck` | Terra di Buck | regione | — | 1 |
-| `valico-cornorosso` | Valico Cornorosso | passo | montagne-nebbiose | 1 |
+| `valico-cornorosso` | Valico Cornorosso | passo | montagne-nebbiose | 2 |
+| `sala-d-oro` | Sala d'Oro | edificio | edoras | 1 |
+| `porta-proibita` | Porta Proibita | passo | rohan | 1 |
+| `grandi-smial` | Grandi Smial | edificio | contea | 1 |
+| `poros` | Poros | fiume | gondor | 1 |
+| `henneth-annun` | Henneth Annûn | rifugio | ithilien | 1 |
+| `enedwaith` | Enedwaith | regione | — | 1 |
+| `minhiriath` | Minhiriath | regione | — | 1 |
+| `tharbad` | Tharbad | città | — | 1 |
+| `cerin-amroth` | Cerin Amroth | collina | lorien | 1 |
+| `cirith-ungol` | Cirith Ungol | passo | mordor | 1 |
+| `dol-amroth` | Dol Amroth | porto | gondor | 1 |
+| `dunland` | Dunland | regione | — | 1 |
 
 ## Copertura
 

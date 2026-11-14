@@ -58,7 +58,7 @@ TIPI_LUOGO = {
 }
 TIPI_PERSONA = {"personaggio", "popolo", "regno", "gruppo"}
 TIPI_ENTITA = {"popolo", "regno", "gruppo"}
-SPECIE = {"Hobbit", "Uomo", "Elfo", "Nano", "Maia", "Sturoi", "Mezzelfo", "Drago", "Ent", "Orchetto"}
+SPECIE = {"Hobbit", "Uomo", "Elfo", "Nano", "Maia", "Sturoi", "Mezzelfo", "Drago", "Ent", "Orchetto", "Ragno"}
 PRECISIONI = {"giorno", "mese", "anno", "intervallo", "ignoto"}
 QUALIFICATORI = {None, "circa", "prima", "dopo", "inizio", "fine"}
 

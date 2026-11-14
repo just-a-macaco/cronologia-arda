@@ -1,0 +1,953 @@
+# Schede della Terza Era, anni 2545-2944.
+# Quinto blocco dell'Appendice B: Rohan, Gondor, la Contea e la giovinezza di Aragorn.
+# Fonte: Il Signore degli Anelli, Appendice B (Bompiani 2004).
+
+- id: morte-eorl
+  titolo: Muore Eorl il Giovane
+  tipo: morte
+  data:
+    era: terza
+    anno: 2545
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2545"
+  luoghi:
+    - rohan
+  fa_parte_di: null
+  partecipanti:
+    - persona: eorl-il-giovane
+      parte: Rohan
+      ruolo: re
+      esito: muore in battaglia
+  breve: >-
+    Eorl il Giovane, primo re di Rohan, cade combattendo.
+  lungo: >-
+    Nel 2545 Eorl il Giovane cade in battaglia. Il fondatore di Rohan lascia
+    ai suoi successori un regno ancora giovane, stretto tra Gondor, le
+    montagne e le pianure dell'Est.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2545"
+  certezza: certa
+  note: null
+
+- id: sala-d-oro
+  titolo: Brego completa la Sala d'Oro
+  tipo: politica
+  data:
+    era: terza
+    anno: 2569
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2569"
+  luoghi:
+    - edoras
+    - sala-d-oro
+  fa_parte_di: null
+  partecipanti:
+    - persona: brego
+      parte: Rohan
+      ruolo: re
+      esito: completa la sala
+  breve: >-
+    Brego, figlio di Eorl, completa la costruzione della Sala d'Oro a Edoras.
+  lungo: >-
+    Nel 2569 Brego, figlio di Eorl, termina la costruzione della Sala d'Oro a
+    Edoras. La grande sala diventa il cuore della regalità di Rohan e il luogo
+    delle assemblee dei Cavalieri.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2569"
+  certezza: certa
+  note: null
+
+- id: baldor-scompare
+  titolo: Baldor varca la Porta Proibita
+  tipo: perdita
+  data:
+    era: terza
+    anno: 2570
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2570"
+  luoghi:
+    - porta-proibita
+    - rohan
+  fa_parte_di: null
+  partecipanti:
+    - persona: baldor
+      parte: Rohan
+      ruolo: principe
+      esito: scompare
+  breve: >-
+    Baldor, figlio di Brego, varca la Porta Proibita e scompare.
+  lungo: >-
+    Nel 2570 Baldor, figlio di Brego, varca la Porta Proibita e non torna più.
+    La sua scomparsa alimenta le leggende sui Sentieri dei Morti e sul giuramento
+    tradito degli Uomini delle Montagne.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2570"
+  certezza: certa
+  note: null
+
+- id: isengrim-grandi-smial
+  titolo: Isengrim II e i Grandi Smial
+  tipo: politica
+  data:
+    era: terza
+    anno: 2683
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2683"
+  luoghi:
+    - contea
+    - grandi-smial
+  fa_parte_di: null
+  partecipanti:
+    - persona: isengrim-ii
+      parte: Contea
+      ruolo: conte
+      esito: comincia i Grandi Smial
+    - entita: popolo-hobbit
+      parte: Contea
+      ruolo: popolo
+      esito: lo segue
+  breve: >-
+    Isengrim II diventa decimo Conte e comincia a scavare i Grandi Smial.
+  lungo: >-
+    Nel 2683 Isengrim II diventa il decimo Conte della Contea e comincia a
+    scavare i Grandi Smial. Le dimore sotterranee diventano il centro della
+    vita pubblica hobbit e resteranno tali per secoli.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2683"
+  certezza: certa
+  note: null
+
+- id: ecthelion-torre
+  titolo: Ecthelion I ricostruisce la Torre Bianca
+  tipo: politica
+  data:
+    era: terza
+    anno: 2698
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2698"
+  luoghi:
+    - minas-tirith
+  fa_parte_di: null
+  partecipanti:
+    - persona: ecthelion-i
+      parte: Gondor
+      ruolo: re
+      esito: ricostruisce la torre
+  breve: >-
+    Ecthelion I ricostruisce la Torre Bianca di Minas Tirith.
+  lungo: >-
+    Nel 2698 Ecthelion I ricostruisce la Torre Bianca di Minas Tirith. La torre
+    torna a essere il simbolo della città e la sede da cui i Sovrintendenti
+    osserveranno Mordor.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2698"
+  certezza: certa
+  note: null
+
+- id: orcs-eridor
+  titolo: Gli Orchetti invadono l'Eriador
+  tipo: guerra
+  data:
+    era: terza
+    anno: 2740
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2740"
+  luoghi:
+    - eriador
+  fa_parte_di: null
+  partecipanti:
+    - entita: popolo-orchetti
+      parte: Montagne Nebbiose
+      ruolo: invasori
+      esito: attaccano l'Eriador
+    - entita: gruppo-dunedain-del-nord
+      parte: Eriador
+      ruolo: difensori
+      esito: resistono
+  breve: >-
+    Una nuova invasione di Orchetti colpisce l'Eriador.
+  lungo: >-
+    Nel 2740 gli Orchetti delle Montagne Nebbiose invadono l'Eriador. I
+    Dúnedain del Nord e gli Hobbit resistono, ma la regione resta insicura e
+    le strade diventano pericolose.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2740"
+  certezza: certa
+  note: null
+
+- id: brandobras-orcs
+  titolo: Brandobras Tuc sconfigge gli Orchetti
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 2747
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2747"
+  luoghi:
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: brandobras-tuc
+      parte: Contea
+      ruolo: condottiero
+      esito: vince
+    - entita: popolo-orchetti
+      parte: Nord
+      ruolo: invasori
+      esito: sconfitti
+  breve: >-
+    Brandobras Tuc sconfigge una banda di Orchetti nel Decumano Nord.
+  lungo: >-
+    Nel 2747 Brandobras Tuc guida gli Hobbit contro una banda di Orchetti
+    penetrata nel Decumano Nord e la sconfigge. È una delle poche battaglie
+    combattute dentro i confini della Contea.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2747"
+  certezza: certa
+  note: null
+
+- id: guerra-nani-orchetti
+  titolo: Guerra tra Nani e Orchetti
+  tipo: guerra
+  data:
+    era: terza
+    anno: 2793
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2793"
+  luoghi:
+    - montagne-nebbiose
+    - moria
+  fa_parte_di: null
+  partecipanti:
+    - entita: popolo-nani-di-durin
+      parte: Nani
+      ruolo: vendicatori
+      esito: muovono guerra
+    - entita: popolo-orchetti
+      parte: Moria
+      ruolo: nemici
+      esito: subiscono l'attacco
+  breve: >-
+    Comincia la guerra di vendetta dei Nani contro gli Orchetti di Moria.
+  lungo: >-
+    Nel 2793 comincia la guerra tra i Nani e gli Orchetti di Moria, decisa dopo
+    l'uccisione di Thrór. La guerra durerà sei anni e culminerà nella battaglia
+    di Nanduhirion.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2793"
+  certezza: certa
+  note: null
+
+- id: orcs-rovano
+  titolo: Gli Orchetti del Nord tormentano Rohan
+  tipo: guerra
+  data:
+    era: terza
+    anno: 2800
+    mese: null
+    giorno: null
+    anno_fine: 2861
+    precisione: intervallo
+    qualificatore: null
+    calendario: terza
+    testo: "2800-2861"
+  luoghi:
+    - rohan
+  fa_parte_di: null
+  partecipanti:
+    - entita: popolo-orchetti
+      parte: Nord
+      ruolo: predoni
+      esito: tormentano Rohan
+    - entita: popolo-rohirrim
+      parte: Rohan
+      ruolo: difensori
+      esito: subiscono le incursioni
+    - persona: walda
+      parte: Rohan
+      ruolo: re
+      esito: viene ucciso nel 2861
+  breve: >-
+    Per decenni gli Orchetti del Nord tormentano Rohan; nel 2861 cade re Walda.
+  lungo: >-
+    Tra il 2800 e il 2861 gli Orchetti del Nord compiono incursioni continue
+    contro Rohan. Nel 2861 re Walda viene ucciso. La minaccia contribuisce a
+    indebolire il regno prima del Lungo Inverno.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 2800-2861"
+  certezza: certa
+  note: null
+
+- id: consiglio-2851
+  titolo: Il Bianco Consiglio rifiuta l'attacco
+  tipo: consiglio
+  data:
+    era: terza
+    anno: 2851
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2851"
+  luoghi:
+    - gran-burrone
+    - campo-gaggiolo
+  fa_parte_di: null
+  partecipanti:
+    - entita: gruppo-bianco-consiglio
+      parte: Eldar e Istari
+      ruolo: consiglio
+      esito: rifiuta l'attacco
+    - persona: gandalf
+      parte: Istari
+      ruolo: promotore
+      esito: esorta ad assalire Dol Guldur
+    - persona: saruman
+      parte: Istari
+      ruolo: capo
+      esito: respinge la proposta
+  breve: >-
+    Il Bianco Consiglio si riunisce: Gandalf vuole attaccare Dol Guldur,
+    Saruman rifiuta e comincia a cercare l'Anello a Campo Gaggiolo.
+  lungo: >-
+    Nel 2851 il Bianco Consiglio si riunisce. Gandalf esorta ad assalire Dol
+    Guldur, ma Saruman respinge la proposta. Poco dopo Saruman comincia a
+    compiere ricerche nei pressi di Campo Gaggiolo, sperando di trovare
+    l'Unico Anello prima di Sauron.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2851"
+  certezza: certa
+  note: null
+
+- id: albero-morto
+  titolo: Muore l'Albero Bianco
+  tipo: perdita
+  data:
+    era: terza
+    anno: 2852
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2852"
+  luoghi:
+    - minas-tirith
+  fa_parte_di: null
+  partecipanti:
+    - persona: belecthor-ii
+      parte: Gondor
+      ruolo: Sovrintendente
+      esito: muore
+    - entita: regno-gondor
+      parte: Gondor
+      ruolo: regno
+      esito: perde l'Albero Bianco
+  breve: >-
+    Muore Belecthor II e con lui muore l'Albero Bianco; non si trova un nuovo
+    seme.
+  lungo: >-
+    Nel 2852 muore il Sovrintendente Belecthor II e muore anche l'Albero
+    Bianco. Non si trova un nuovo seme, e l'Albero Morto viene lasciato al suo
+    posto. È uno dei segni più visibili del declino di Gondor.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2852"
+  certezza: certa
+  note: null
+
+- id: haradrim-poros
+  titolo: Gli Haradrim attraversano il Poros
+  tipo: guerra
+  data:
+    era: terza
+    anno: 2885
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2885"
+  luoghi:
+    - poros
+    - gondor
+  fa_parte_di: null
+  partecipanti:
+    - entita: popolo-haradrim
+      parte: Harad
+      ruolo: invasori
+      esito: attraversano il Poros
+    - entita: regno-gondor
+      parte: Gondor
+      ruolo: difensore
+      esito: respinge l'attacco
+    - persona: folcwine
+      parte: Rohan
+      ruolo: re
+      esito: manda i figli in aiuto
+    - entita: gruppo-figli-folcwine
+      parte: Rohan
+      ruolo: cavalieri
+      esito: muoiono in battaglia
+  breve: >-
+    Gli Haradrim attraversano il Poros e attaccano Gondor; i figli di Folcwine
+    muoiono combattendo al suo fianco.
+  lungo: >-
+    Nel 2885, incitati da emissari di Sauron, gli Haradrim attraversano il
+    Poros e attaccano Gondor. Re Folcwine di Rohan manda i suoi figli in aiuto
+    di Gondor; entrambi muoiono in battaglia. Gondor respinge l'attacco, ma il
+    prezzo è alto.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2885"
+  certezza: certa
+  note: null
+
+- id: ithilien-abbandonata
+  titolo: L'Ithilien viene abbandonato
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 2901
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2901"
+  luoghi:
+    - ithilien
+    - henneth-annun
+  fa_parte_di: null
+  partecipanti:
+    - entita: gruppo-abitanti-ithilien
+      parte: Gondor
+      ruolo: popolazione
+      esito: abbandona la regione
+    - entita: gruppo-uruk-hai
+      parte: Mordor
+      ruolo: assalitori
+      esito: rendono la regione insicura
+    - entita: regno-gondor
+      parte: Gondor
+      ruolo: regno
+      esito: costruisce Henneth Annûn
+  breve: >-
+    Gli attacchi degli Uruk costringono gli abitanti a lasciare l'Ithilien;
+    Gondor costruisce il rifugio di Henneth Annûn.
+  lungo: >-
+    Nel 2901 la maggior parte degli abitanti dell'Ithilien abbandona la regione
+    a causa dei ripetuti attacchi degli Uruk di Mordor. Gondor costruisce il
+    rifugio segreto di Henneth Annûn, che servirà ai Raminghi e a Faramir
+    durante la Guerra dell'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2901"
+  certezza: certa
+  note: null
+
+- id: nascita-gilraen
+  titolo: Nasce Gilraen
+  tipo: nascita
+  data:
+    era: terza
+    anno: 2907
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2907"
+  luoghi:
+    - eriador
+  fa_parte_di: null
+  partecipanti:
+    - persona: gilraen
+      parte: Dúnedain del Nord
+      ruolo: neonata
+      esito: nasce
+  breve: >-
+    Nasce Gilraen, futura madre di Aragorn.
+  lungo: >-
+    Nel 2907 nasce Gilraen, discendente dei Dúnedain del Nord. Sposerà Arathorn
+    II e darà alla luce Aragorn, l'erede di Isildur.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2907"
+  certezza: certa
+  note: null
+
+- id: crudele-inverno
+  titolo: Il Crudele Inverno
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 2911
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2911"
+  luoghi:
+    - baranduin
+    - eriador
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - entita: gruppo-lupi-bianchi
+      parte: Nord
+      ruolo: predatori
+      esito: invadono l'Eriador
+    - entita: popolo-hobbit
+      parte: Contea
+      ruolo: popolazione
+      esito: subisce il gelo
+  breve: >-
+    Il Crudele Inverno gela i fiumi e i Lupi Bianchi invadono l'Eriador.
+  lungo: >-
+    Nel 2911 il Crudele Inverno gela il Baranduin e altri fiumi. I Lupi Bianchi
+    scendono da nord e invadono l'Eriador. Gli Hobbit della Contea soffrono il
+    freddo e la fame, e la memoria di quell'inverno resterà a lungo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2911"
+  certezza: certa
+  note: null
+
+- id: inondazioni-2912
+  titolo: Le inondazioni distruggono Tharbad
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 2912
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2912"
+  luoghi:
+    - enedwaith
+    - minhiriath
+    - tharbad
+  fa_parte_di: null
+  partecipanti:
+    - entita: gruppo-abitanti-tharbad
+      parte: Tharbad
+      ruolo: popolazione
+      esito: perde la città
+  breve: >-
+    Grandi inondazioni devastano l'Enedwaith e il Minhiriath; Tharbad viene
+    distrutta e abbandonata.
+  lungo: >-
+    Nel 2912 grandi inondazioni devastano l'Enedwaith e il Minhiriath. Tharbad,
+    la città sul Gwathló, viene distrutta e abbandonata. La regione resta
+    spopolata e le vie che la attraversano diventano sempre più deserte.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2912"
+  certezza: certa
+  note: null
+
+- id: morte-vecchio-tuc
+  titolo: Muore il Vecchio Tuc
+  tipo: morte
+  data:
+    era: terza
+    anno: 2920
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2920"
+  luoghi:
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: gerontius-tuc
+      parte: Contea
+      ruolo: anziano
+      esito: muore
+  breve: >-
+    Muore Gerontius Tuc, il Vecchio Tuc.
+  lungo: >-
+    Nel 2920 muore Gerontius Tuc, conosciuto come il Vecchio Tuc. La sua
+    longevità e la sua famiglia restano nella memoria della Contea, e Bilbo
+    Baggins ne parlerà come di un parente illustre.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2920"
+  certezza: certa
+  note: null
+
+- id: nozze-arathorn-gilraen
+  titolo: Arathorn sposa Gilraen
+  tipo: evento
+  data:
+    era: terza
+    anno: 2929
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2929"
+  luoghi:
+    - eriador
+  fa_parte_di: null
+  partecipanti:
+    - persona: arathorn-ii
+      parte: Dúnedain del Nord
+      ruolo: sposo
+      esito: sposa Gilraen
+    - persona: gilraen
+      parte: Dúnedain del Nord
+      ruolo: sposa
+      esito: sposa Arathorn
+  breve: >-
+    Arathorn II, figlio di Arador, sposa Gilraen.
+  lungo: >-
+    Nel 2929 Arathorn II, figlio di Arador e erede dei Capitani dei Dúnedain,
+    sposa Gilraen. Dal matrimonio nascerà Aragorn, destinato a diventare re di
+    Gondor e Arnor.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2929"
+  certezza: certa
+  note: null
+
+- id: arador-ucciso
+  titolo: Arador viene ucciso
+  tipo: morte
+  data:
+    era: terza
+    anno: 2930
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2930"
+  luoghi:
+    - eriador
+  fa_parte_di: null
+  partecipanti:
+    - persona: arador
+      parte: Dúnedain del Nord
+      ruolo: capitano
+      esito: viene ucciso
+    - entita: gruppo-vagabondi
+      parte: Eriador
+      ruolo: predoni
+      esito: lo uccidono
+  breve: >-
+    Arador, Capitano dei Dúnedain, viene ucciso dai Vagabondi.
+  lungo: >-
+    Nel 2930 Arador, Capitano dei Dúnedain del Nord e nonno di Aragorn, viene
+    ucciso dai Vagabondi nell'Eriador. Suo figlio Arathorn gli succede, ma
+    anche la sua vita sarà breve.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2930"
+  certezza: certa
+  note: null
+
+- id: nascita-denethor
+  titolo: Nasce Denethor II
+  tipo: nascita
+  data:
+    era: terza
+    anno: 2930
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2930"
+  luoghi:
+    - minas-tirith
+  fa_parte_di: null
+  partecipanti:
+    - persona: denethor-ii
+      parte: Gondor
+      ruolo: neonato
+      esito: nasce
+    - persona: ecthelion-ii
+      parte: Gondor
+      ruolo: padre
+      esito: lo alleva
+  breve: >-
+    Nasce Denethor II, figlio di Ecthelion II di Gondor.
+  lungo: >-
+    Nel 2930 nasce a Minas Tirith Denethor II, figlio del Sovrintendente
+    Ecthelion II. Diventerà l'ultimo Sovrintendente Regnante di Gondor e il
+    padre di Boromir e Faramir.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2930"
+  certezza: certa
+  note: null
+
+- id: nascita-aragorn
+  titolo: Nasce Aragorn
+  tipo: nascita
+  data:
+    era: terza
+    anno: 2931
+    mese: 3
+    giorno: 1
+    anno_fine: null
+    precisione: giorno
+    qualificatore: null
+    calendario: terza
+    testo: "1 marzo 2931"
+  luoghi:
+    - eriador
+  fa_parte_di: null
+  partecipanti:
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: neonato
+      esito: nasce
+    - persona: arathorn-ii
+      parte: Dúnedain del Nord
+      ruolo: padre
+      esito: lo riconosce erede
+    - persona: gilraen
+      parte: Dúnedain del Nord
+      ruolo: madre
+      esito: lo alleva
+  breve: >-
+    Nasce Aragorn, figlio di Arathorn II e Gilraen, erede di Isildur.
+  lungo: >-
+    Il primo marzo del 2931 nasce Aragorn, figlio di Arathorn II e Gilraen.
+    È l'erede di Isildur e il futuro re Elessar, ma la sua discendenza resterà
+    nascosta finché Elrond non lo rivelerà.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2931"
+  certezza: certa
+  note: null
+
+- id: arathorn-ucciso
+  titolo: Arathorn II viene ucciso
+  tipo: morte
+  data:
+    era: terza
+    anno: 2933
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2933"
+  luoghi:
+    - eriador
+    - gran-burrone
+  fa_parte_di: null
+  partecipanti:
+    - persona: arathorn-ii
+      parte: Dúnedain del Nord
+      ruolo: capitano
+      esito: viene ucciso
+    - persona: gilraen
+      parte: Dúnedain del Nord
+      ruolo: madre
+      esito: porta Aragorn a Gran Burrone
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: erede
+      esito: viene accolto da Elrond
+    - persona: elrond
+      parte: Gran Burrone
+      ruolo: signore elfico
+      esito: lo chiama Estel
+  breve: >-
+    Arathorn II viene ucciso; Gilraen porta Aragorn a Gran Burrone, dove Elrond
+    lo alleva come Estel.
+  lungo: >-
+    Nel 2933 Arathorn II viene ucciso. Gilraen porta il figlio Aragorn a Gran
+    Burrone, dove Elrond lo accoglie come figlio adottivo e lo chiama Estel,
+    «Speranza». La vera discendenza di Aragorn viene tenuta nascosta per
+    proteggerlo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2933"
+  certezza: certa
+  note: null
+
+- id: saruman-scopre
+  titolo: Saruman scopre la ricerca di Sauron
+  tipo: evento
+  data:
+    era: terza
+    anno: 2939
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2939"
+  luoghi:
+    - campo-gaggiolo
+    - isengard
+  fa_parte_di: null
+  partecipanti:
+    - persona: saruman
+      parte: Isengard
+      ruolo: capo del Bianco Consiglio
+      esito: tace ciò che scopre
+    - entita: gruppo-forze-sauron
+      parte: Mordor
+      ruolo: cercatori
+      esito: ispezionano l'Anduin
+  breve: >-
+    Saruman scopre che i servitori di Sauron cercano l'Anello lungo l'Anduin,
+    ma non dice nulla al Consiglio.
+  lungo: >-
+    Nel 2939 Saruman scopre che i servitori di Sauron stanno ispezionando
+    l'Anduin nei pressi di Campo Gaggiolo, e che Sauron sa della fine di
+    Isildur. Preoccupato, ma geloso del proprio potere, non informa il Bianco
+    Consiglio.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2939"
+  certezza: certa
+  note: null
+
+- id: bard-re-valle
+  titolo: Bard ricostruisce Valle
+  tipo: politica
+  data:
+    era: terza
+    anno: 2944
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2944"
+  luoghi:
+    - valle
+    - erebor
+  fa_parte_di: null
+  partecipanti:
+    - persona: bard
+      parte: Valle
+      ruolo: re
+      esito: ricostruisce la città
+    - entita: gruppo-abitanti-valle
+      parte: Valle
+      ruolo: popolazione
+      esito: torna a vivere nella città
+  breve: >-
+    Bard ricostruisce Valle e ne diventa re.
+  lungo: >-
+    Nel 2944 Bard ricostruisce Valle, la città distrutta da Smaug, e ne diventa
+    re. Con il tesoro di Erebor e l'aiuto dei Nani, la città torna a vivere
+    sotto la Montagna.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2944"
+  certezza: certa
+  note: null
+
+- id: gollum-lascia-montagne
+  titolo: Gollum lascia le Montagne
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 2944
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2944"
+  luoghi:
+    - montagne-nebbiose
+  fa_parte_di: null
+  partecipanti:
+    - persona: gollum
+      parte: Montagne Nebbiose
+      ruolo: custode
+      esito: parte in cerca del ladro
+  breve: >-
+    Gollum lascia le Montagne Nebbiose in cerca del «ladro» dell'Anello.
+  lungo: >-
+    Nel 2944 Gollum lascia le Montagne Nebbiose e comincia a cercare il
+    «ladro» che gli ha portato via l'Anello. La sua caccia lo porterà fuori
+    dalle caverne e, anni dopo, fino a Mordor.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2944"
+  certezza: certa
+  note: null

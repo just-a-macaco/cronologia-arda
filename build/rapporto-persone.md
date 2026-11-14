@@ -1,31 +1,31 @@
 # Rapporto sulle persone
 
-- Schede create: **92**.
-- Nomi di partecipante citati dagli eventi: **136** distinti.
-- Nomi coperti da una scheda persona: **92**.
-- Nomi coperti da un'entità collettiva: **44**.
+- Schede create: **112**.
+- Nomi di partecipante citati dagli eventi: **163** distinti.
+- Nomi coperti da una scheda persona: **112**.
+- Nomi coperti da un'entità collettiva: **51**.
 - Nomi ancora senza scheda: **0**.
 
 ## Schede
 
 | ID | Nome | Tipo | Specie | Eventi collegati |
 |---|---|---|---|---|
-| `gandalf` | Gandalf | personaggio | Maia | 17 |
-| `frodo-baggins` | Frodo Baggins | personaggio | Hobbit | 9 |
-| `aragorn` | Aragorn | personaggio | Uomo | 9 |
-| `bilbo-baggins` | Bilbo Baggins | personaggio | Hobbit | 8 |
-| `samvise-gamgi` | Samvise Gamgi | personaggio | Hobbit | 5 |
+| `gandalf` | Gandalf | personaggio | Maia | 24 |
+| `frodo-baggins` | Frodo Baggins | personaggio | Hobbit | 12 |
+| `aragorn` | Aragorn | personaggio | Uomo | 16 |
+| `bilbo-baggins` | Bilbo Baggins | personaggio | Hobbit | 10 |
+| `samvise-gamgi` | Samvise Gamgi | personaggio | Hobbit | 6 |
 | `sauron` | Sauron | personaggio | Maia | 12 |
-| `saruman` | Saruman | personaggio | Maia | 8 |
-| `gollum` | Gollum | personaggio | Sturoi | 6 |
-| `elrond` | Elrond | personaggio | Mezzelfo | 10 |
+| `saruman` | Saruman | personaggio | Maia | 10 |
+| `gollum` | Gollum | personaggio | Sturoi | 10 |
+| `elrond` | Elrond | personaggio | Mezzelfo | 12 |
 | `galadriel` | Galadriel | personaggio | Elfo | 2 |
 | `thorin-scudodiquercia` | Thorin Scudodiquercia | personaggio | Nano | 4 |
-| `theoden` | Théoden | personaggio | Uomo | 2 |
-| `eowyn` | Éowyn | personaggio | Uomo | 1 |
-| `eomer` | Éomer | personaggio | Uomo | 3 |
-| `boromir` | Boromir | personaggio | Uomo | 3 |
-| `faramir` | Faramir | personaggio | Uomo | 1 |
+| `theoden` | Théoden | personaggio | Uomo | 4 |
+| `eowyn` | Éowyn | personaggio | Uomo | 2 |
+| `eomer` | Éomer | personaggio | Uomo | 4 |
+| `boromir` | Boromir | personaggio | Uomo | 4 |
+| `faramir` | Faramir | personaggio | Uomo | 2 |
 | `meriadoc-brandibuck` | Meriadoc Brandibuck | personaggio | Hobbit | 4 |
 | `peregrino-tuc` | Peregrino Tuc | personaggio | Hobbit | 3 |
 | `gimli` | Gimli | personaggio | Nano | 2 |
@@ -33,21 +33,21 @@
 | `amroth` | Amroth | personaggio | Elfo | 1 |
 | `arvedui` | Arvedui | personaggio | Uomo | 4 |
 | `arveleg-i` | Arveleg I | personaggio | Uomo | 1 |
-| `arwen` | Arwen | personaggio | Mezzelfo | 3 |
+| `arwen` | Arwen | personaggio | Mezzelfo | 5 |
 | `barbalbero` | Barbalbero | personaggio | Ent | 1 |
-| `bard` | Bard | personaggio | Uomo | 2 |
+| `bard` | Bard | personaggio | Uomo | 3 |
 | `beregond` | Beregond | personaggio | Uomo | 1 |
-| `castamir` | Castamir | personaggio | Uomo | 1 |
+| `castamir` | Castamir | personaggio | Uomo | 2 |
 | `cirion` | Cirion | personaggio | Uomo | 2 |
 | `cirdan` | Círdan | personaggio | Elfo | 3 |
-| `denethor-ii` | Denethor II | personaggio | Uomo | 1 |
+| `denethor-ii` | Denethor II | personaggio | Uomo | 6 |
 | `durin-vi` | Durin VI | personaggio | Nano | 1 |
 | `dain-i` | Dàin I | personaggio | Nano | 1 |
 | `dain-piediferro` | Dàin Piediferro | personaggio | Nano | 2 |
 | `deagol` | Déagol | personaggio | Sturoi | 1 |
-| `eldacar` | Eldacar | personaggio | Uomo | 2 |
+| `eldacar` | Eldacar | personaggio | Uomo | 3 |
 | `elendil` | Elendil | personaggio | Uomo | 1 |
-| `eorl-il-giovane` | Eorl il Giovane | personaggio | Uomo | 2 |
+| `eorl-il-giovane` | Eorl il Giovane | personaggio | Uomo | 3 |
 | `earendur` | Eärendur | personaggio | Uomo | 1 |
 | `earnil` | Eärnil | personaggio | Uomo | 2 |
 | `earnur` | Eärnur | personaggio | Uomo | 2 |
@@ -71,7 +71,7 @@
 | `smaug` | Smaug | personaggio | Drago | 2 |
 | `tarondor` | Tarondor | personaggio | Uomo | 1 |
 | `telemnar` | Telemnar | personaggio | Uomo | 1 |
-| `thranduil` | Thranduil | personaggio | Elfo | 2 |
+| `thranduil` | Thranduil | personaggio | Elfo | 3 |
 | `thrain-i` | Thràin I | personaggio | Nano | 1 |
 | `thrain-ii` | Thràin II | personaggio | Nano | 3 |
 | `thror` | Thrór | personaggio | Nano | 3 |
@@ -102,6 +102,26 @@
 | `firiel` | Firiel | personaggio | Uomo | 1 |
 | `thorin-i` | Thorin I | personaggio | Nano | 1 |
 | `isumbras-i` | Isumbras I | personaggio | Hobbit | 1 |
+| `brego` | Brego | personaggio | Uomo | 1 |
+| `baldor` | Baldor | personaggio | Uomo | 1 |
+| `isengrim-ii` | Isengrim II | personaggio | Hobbit | 1 |
+| `ecthelion-i` | Ecthelion I | personaggio | Uomo | 1 |
+| `brandobras-tuc` | Brandobras Tuc | personaggio | Hobbit | 1 |
+| `walda` | Walda | personaggio | Uomo | 1 |
+| `belecthor-ii` | Belecthor II | personaggio | Uomo | 1 |
+| `folcwine` | Folcwine | personaggio | Uomo | 1 |
+| `gilraen` | Gilraen | personaggio | Uomo | 5 |
+| `arathorn-ii` | Arathorn II | personaggio | Uomo | 3 |
+| `arador` | Arador | personaggio | Uomo | 1 |
+| `gerontius-tuc` | Gerontius Tuc | personaggio | Hobbit | 1 |
+| `ecthelion-ii` | Ecthelion II | personaggio | Uomo | 3 |
+| `thengel` | Thengel | personaggio | Uomo | 2 |
+| `balin` | Balin | personaggio | Nano | 3 |
+| `finduilas` | Finduilas | personaggio | Uomo | 5 |
+| `adrahil` | Adrahil | personaggio | Uomo | 1 |
+| `bain` | Bain | personaggio | Uomo | 1 |
+| `brand` | Brand | personaggio | Uomo | 1 |
+| `shelob` | Shelob | personaggio | Ragno | 1 |
 
 ## Nomi di partecipante non ancora coperti
 

@@ -14,7 +14,9 @@
       "descrizione": "Lo Istaro Mithrandir, il Grigio, inviato in Terra di Mezzo per contrastare Sauron.",
       "nota": "Muore a Moria nel 3019 e ritorna come Gandalf il Bianco.",
       "eventi": [
+        "aragorn-gandalf",
         "compagnia-parte",
+        "consiglio-2851",
         "consiglio-dol-guldur",
         "consiglio-elrond",
         "elessar",
@@ -22,14 +24,19 @@
         "festa-inattesa",
         "fosso-helm",
         "frodo-parte",
+        "gandalf-balin-bilbo",
         "gandalf-dol-guldur",
         "gandalf-moria",
+        "gandalf-visita-frodo",
+        "gollum-catturato",
         "istari",
         "lungo-inverno",
         "morannon",
         "pace-vigile",
         "pelennor",
         "porti-grigi",
+        "ricerca-gollum",
+        "ultima-visita-gandalf",
         "ultimo-consiglio"
       ]
     },
@@ -54,8 +61,11 @@
         "festa-bilbo",
         "frodo-parte",
         "gandalf-moria",
+        "gandalf-visita-frodo",
         "lungacque",
-        "porti-grigi"
+        "nascita-frodo",
+        "porti-grigi",
+        "ultima-visita-gandalf"
       ]
     },
     {
@@ -74,15 +84,22 @@
       "descrizione": "L'erede di Isildur, Ramingo del Nord, incoronato re Elessar.",
       "nota": null,
       "eventi": [
+        "aragorn-arwen-cerin-amroth",
+        "aragorn-gandalf",
+        "arathorn-ucciso",
         "compagnia-si-scioglie",
         "consiglio-elrond",
         "elessar",
         "fosso-helm",
         "gandalf-moria",
+        "gollum-catturato",
         "morannon",
+        "nascita-aragorn",
         "nozze-elessar-arwen",
         "pelennor",
-        "sauron-si-dichiara"
+        "ricerca-gollum",
+        "sauron-si-dichiara",
+        "viaggi-aragorn"
       ]
     },
     {
@@ -100,12 +117,14 @@
       "nota": null,
       "eventi": [
         "anello-bilbo",
+        "bilbo-gran-burrone",
         "bilbo-nasce",
         "bilbo-torna",
         "cinque-eserciti",
         "consiglio-elrond",
         "festa-bilbo",
         "festa-inattesa",
+        "gandalf-balin-bilbo",
         "porti-grigi"
       ]
     },
@@ -127,6 +146,7 @@
         "distruzione-anello",
         "frodo-parte",
         "lungacque",
+        "nascita-faramir-sam",
         "porti-grigi"
       ]
     },
@@ -170,12 +190,14 @@
       "descrizione": "Il capo del Bianco Consiglio, poi traditore chiuso a Isengard.",
       "nota": null,
       "eventi": [
+        "consiglio-2851",
         "consiglio-dol-guldur",
         "distruzione-isengard",
         "fosso-helm",
         "istari",
         "lungacque",
         "saruman-isengard",
+        "saruman-scopre",
         "saruman-tradisce",
         "ultimo-consiglio"
       ]
@@ -197,8 +219,12 @@
         "anello-bilbo",
         "deagol-anello",
         "distruzione-anello",
+        "gollum-catturato",
         "gollum-fugge",
+        "gollum-lascia-montagne",
         "gollum-montagne",
+        "gollum-shelob",
+        "ricerca-gollum",
         "sauron-si-dichiara"
       ]
     },
@@ -215,6 +241,8 @@
       "nota": null,
       "eventi": [
         "aranarth-capitano",
+        "arathorn-ucciso",
+        "bilbo-gran-burrone",
         "consiglio-dol-guldur",
         "consiglio-elrond",
         "elessar",
@@ -275,7 +303,9 @@
       "nota": null,
       "eventi": [
         "fosso-helm",
-        "pelennor"
+        "nascita-theoden",
+        "pelennor",
+        "theoden-re"
       ]
     },
     {
@@ -292,6 +322,7 @@
       "descrizione": "La nipote di Théoden, che uccide il Re degli Stregoni sotto il nome di Dernhelm.",
       "nota": null,
       "eventi": [
+        "nascita-eowyn",
         "pelennor"
       ]
     },
@@ -309,6 +340,7 @@
       "eventi": [
         "fosso-helm",
         "morannon",
+        "nascita-eomer",
         "pelennor"
       ]
     },
@@ -326,7 +358,8 @@
       "eventi": [
         "compagnia-si-scioglie",
         "consiglio-elrond",
-        "gandalf-moria"
+        "gandalf-moria",
+        "nascita-boromir"
       ]
     },
     {
@@ -341,6 +374,7 @@
       "descrizione": "Il figlio di Denethor, Sovrintendente di Gondor dopo la guerra.",
       "nota": null,
       "eventi": [
+        "nascita-faramir-sam",
         "pelennor"
       ]
     },
@@ -475,9 +509,11 @@
       "descrizione": "La figlia di Elrond, che sposa Aragorn e sceglie la sorte degli Uomini.",
       "nota": null,
       "eventi": [
+        "aragorn-arwen-cerin-amroth",
         "elessar",
         "nascita-arwen",
-        "nozze-elessar-arwen"
+        "nozze-elessar-arwen",
+        "ricerca-gollum"
       ]
     },
     {
@@ -507,6 +543,7 @@
       "descrizione": "L'arciere di Esgaroth che uccide Smaug.",
       "nota": null,
       "eventi": [
+        "bard-re-valle",
         "cinque-eserciti",
         "smaug-ucciso"
       ]
@@ -538,6 +575,7 @@
       "descrizione": "L'usurpatore di Gondor, sconfitto da Eldacar nel 1447.",
       "nota": null,
       "eventi": [
+        "battaglia-erui",
         "lotta-stirpi"
       ]
     },
@@ -588,6 +626,11 @@
       "descrizione": "L'ultimo Sovrintendente Regnante di Gondor.",
       "nota": null,
       "eventi": [
+        "denethor-sovrintendente",
+        "nascita-boromir",
+        "nascita-denethor",
+        "nascita-faramir-sam",
+        "nozze-denethor-finduilas",
         "pelennor"
       ]
     },
@@ -666,6 +709,7 @@
       "descrizione": "Il re di Gondor che riconquista il trono nel 1447.",
       "nota": null,
       "eventi": [
+        "battaglia-erui",
         "incendio-osgiliath",
         "lotta-stirpi"
       ]
@@ -700,6 +744,7 @@
       "nota": null,
       "eventi": [
         "battaglia-celebrant",
+        "morte-eorl",
         "rohan"
       ]
     },
@@ -1066,6 +1111,7 @@
       "nota": null,
       "eventi": [
         "cinque-eserciti",
+        "gollum-catturato",
         "gollum-fugge"
       ]
     },
@@ -1544,12 +1590,329 @@
       "eventi": [
         "isumbras-conte"
       ]
+    },
+    {
+      "id": "brego",
+      "nome": "Brego",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il figlio di Eorl che completa la Sala d'Oro a Edoras.",
+      "nota": null,
+      "eventi": [
+        "sala-d-oro"
+      ]
+    },
+    {
+      "id": "baldor",
+      "nome": "Baldor",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il figlio di Brego che scompare nella Porta Proibita.",
+      "nota": null,
+      "eventi": [
+        "baldor-scompare"
+      ]
+    },
+    {
+      "id": "isengrim-ii",
+      "nome": "Isengrim II",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il decimo Conte della Contea, che comincia i Grandi Smial.",
+      "nota": null,
+      "eventi": [
+        "isengrim-grandi-smial"
+      ]
+    },
+    {
+      "id": "ecthelion-i",
+      "nome": "Ecthelion I",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor che ricostruisce la Torre Bianca.",
+      "nota": null,
+      "eventi": [
+        "ecthelion-torre"
+      ]
+    },
+    {
+      "id": "brandobras-tuc",
+      "nome": "Brandobras Tuc",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "L'Hobbit che sconfigge una banda di Orchetti nel Decumano Nord.",
+      "nota": null,
+      "eventi": [
+        "brandobras-orcs"
+      ]
+    },
+    {
+      "id": "walda",
+      "nome": "Walda",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Rohan ucciso dagli Orchetti nel 2861.",
+      "nota": null,
+      "eventi": [
+        "orcs-rovano"
+      ]
+    },
+    {
+      "id": "belecthor-ii",
+      "nome": "Belecthor II",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il Sovrintendente di Gondor alla morte dell'Albero Bianco.",
+      "nota": null,
+      "eventi": [
+        "albero-morto"
+      ]
+    },
+    {
+      "id": "folcwine",
+      "nome": "Folcwine",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Rohan i cui figli muoiono al servizio di Gondor.",
+      "nota": null,
+      "eventi": [
+        "haradrim-poros"
+      ]
+    },
+    {
+      "id": "gilraen",
+      "nome": "Gilraen",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "La madre di Aragorn.",
+      "nota": null,
+      "eventi": [
+        "arathorn-ucciso",
+        "morte-gilraen",
+        "nascita-aragorn",
+        "nascita-gilraen",
+        "nozze-arathorn-gilraen"
+      ]
+    },
+    {
+      "id": "arathorn-ii",
+      "nome": "Arathorn II",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il padre di Aragorn, ucciso nel 2933.",
+      "nota": null,
+      "eventi": [
+        "arathorn-ucciso",
+        "nascita-aragorn",
+        "nozze-arathorn-gilraen"
+      ]
+    },
+    {
+      "id": "arador",
+      "nome": "Arador",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il nonno di Aragorn, ucciso dai Vagabondi.",
+      "nota": null,
+      "eventi": [
+        "arador-ucciso"
+      ]
+    },
+    {
+      "id": "gerontius-tuc",
+      "nome": "Gerontius Tuc",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "alias": [
+        "Vecchio Tuc"
+      ],
+      "descrizione": "Il Vecchio Tuc, morto nel 2920.",
+      "nota": null,
+      "eventi": [
+        "morte-vecchio-tuc"
+      ]
+    },
+    {
+      "id": "ecthelion-ii",
+      "nome": "Ecthelion II",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il Sovrintendente di Gondor, padre di Denethor.",
+      "nota": null,
+      "eventi": [
+        "denethor-sovrintendente",
+        "nascita-denethor",
+        "viaggi-aragorn"
+      ]
+    },
+    {
+      "id": "thengel",
+      "nome": "Thengel",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Rohan, padre di Théoden.",
+      "nota": null,
+      "eventi": [
+        "nascita-theoden",
+        "viaggi-aragorn"
+      ]
+    },
+    {
+      "id": "balin",
+      "nome": "Balin",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il Nano che guida la colonia di Moria e vi muore nel 2994.",
+      "nota": null,
+      "eventi": [
+        "balin-moria",
+        "colonia-moria",
+        "gandalf-balin-bilbo"
+      ]
+    },
+    {
+      "id": "finduilas",
+      "nome": "Finduilas",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": 2950,
+      "morte": null,
+      "alias": [],
+      "descrizione": "La figlia di Adrahil di Dol Amroth, moglie di Denethor.",
+      "nota": null,
+      "eventi": [
+        "morte-finduilas",
+        "nascita-boromir",
+        "nascita-faramir-sam",
+        "nascita-finduilas",
+        "nozze-denethor-finduilas"
+      ]
+    },
+    {
+      "id": "adrahil",
+      "nome": "Adrahil",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il principe di Dol Amroth, padre di Finduilas.",
+      "nota": null,
+      "eventi": [
+        "nascita-finduilas"
+      ]
+    },
+    {
+      "id": "bain",
+      "nome": "Bain",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il figlio di Bard, re della Valle.",
+      "nota": null,
+      "eventi": [
+        "bain-re-valle"
+      ]
+    },
+    {
+      "id": "brand",
+      "nome": "Brand",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il figlio di Bain, re della Valle durante la Guerra dell'Anello.",
+      "nota": null,
+      "eventi": [
+        "brand-re-valle"
+      ]
+    },
+    {
+      "id": "shelob",
+      "nome": "Shelob",
+      "tipo": "personaggio",
+      "specie": "Ragno",
+      "popolo": "Ragni",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "La grande ragna che vive a Cirith Ungol.",
+      "nota": null,
+      "eventi": [
+        "gollum-shelob"
+      ]
     }
   ],
   "copertura": {
-    "nomi_citati": 136,
-    "nomi_coperti": 92,
-    "nomi_coperti_da_entita": 44,
+    "nomi_citati": 163,
+    "nomi_coperti": 112,
+    "nomi_coperti_da_entita": 51,
     "nomi_scoperti": 0,
     "scoperti": {}
   }

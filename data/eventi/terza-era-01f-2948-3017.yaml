@@ -1,0 +1,986 @@
+# Schede della Terza Era, anni 2948-3017.
+# Sesto blocco dell'Appendice B: nascite, nozze e avvicinamento alla Guerra dell'Anello.
+# Fonte: Il Signore degli Anelli, Appendice B (Bompiani 2004).
+
+- id: nascita-theoden
+  titolo: Nasce Théoden
+  tipo: nascita
+  data:
+    era: terza
+    anno: 2948
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2948"
+  luoghi:
+    - rohan
+  fa_parte_di: null
+  partecipanti:
+    - persona: theoden
+      parte: Rohan
+      ruolo: neonato
+      esito: nasce
+    - persona: thengel
+      parte: Rohan
+      ruolo: padre
+      esito: lo alleva
+  breve: >-
+    Nasce Théoden, figlio di Thengel, futuro re di Rohan.
+  lungo: >-
+    Nel 2948 nasce Théoden, figlio di Thengel, re di Rohan. Diventerà re del
+    Mark e guiderà i Rohirrim nella Guerra dell'Anello, fino alla battaglia dei
+    Campi del Pelennor.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2948"
+  certezza: certa
+  note: null
+
+- id: gandalf-balin-bilbo
+  titolo: Gandalf e Balin visitano Bilbo
+  tipo: evento
+  data:
+    era: terza
+    anno: 2949
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2949"
+  luoghi:
+    - contea
+    - hobbiville
+  fa_parte_di: null
+  partecipanti:
+    - persona: gandalf
+      parte: Istari
+      ruolo: visitatore
+      esito: visita Bilbo
+    - persona: balin
+      parte: Nani
+      ruolo: visitatore
+      esito: visita Bilbo
+    - persona: bilbo-baggins
+      parte: Hobbit
+      ruolo: ospite
+      esito: li accoglie
+  breve: >-
+    Gandalf e Balin vanno a trovare Bilbo nella Contea.
+  lungo: >-
+    Nel 2949 Gandalf e Balin visitano Bilbo a Casa Baggins. È una visita
+    amichevole, ma mostra che il Nano e il mago continuano a seguire le
+    vicende del tesoro di Erebor e dell'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2949"
+  certezza: certa
+  note: null
+
+- id: nascita-finduilas
+  titolo: Nasce Finduilas
+  tipo: nascita
+  data:
+    era: terza
+    anno: 2950
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2950"
+  luoghi:
+    - dol-amroth
+  fa_parte_di: null
+  partecipanti:
+    - persona: finduilas
+      parte: Dol Amroth
+      ruolo: neonata
+      esito: nasce
+    - persona: adrahil
+      parte: Dol Amroth
+      ruolo: padre
+      esito: la alleva
+  breve: >-
+    Nasce Finduilas, figlia di Adrahil di Dol Amroth.
+  lungo: >-
+    Nel 2950 nasce Finduilas, figlia di Adrahil, principe di Dol Amroth.
+    Sposerà Denethor II e sarà la madre di Boromir e Faramir.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2950"
+  certezza: certa
+  note: null
+
+- id: aragorn-gandalf
+  titolo: Aragorn incontra Gandalf
+  tipo: evento
+  data:
+    era: terza
+    anno: 2956
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2956"
+  luoghi:
+    - eriador
+  fa_parte_di: null
+  partecipanti:
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: Ramingo
+      esito: stringe amicizia con Gandalf
+    - persona: gandalf
+      parte: Istari
+      ruolo: mago
+      esito: diventa suo amico
+  breve: >-
+    Aragorn incontra Gandalf e nasce la loro amicizia.
+  lungo: >-
+    Nel 2956 Aragorn incontra Gandalf. Da questo incontro nasce un'amicizia
+    destinata a cambiare la storia della Terra di Mezzo: il Ramingo e il mago
+    collaboreranno nella caccia a Gollum e nella Guerra dell'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2956"
+  certezza: certa
+  note: null
+
+- id: viaggi-aragorn
+  titolo: I viaggi di Aragorn
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 2957
+    mese: null
+    giorno: null
+    anno_fine: 2980
+    precisione: intervallo
+    qualificatore: null
+    calendario: terza
+    testo: "2957-2980"
+  luoghi:
+    - rohan
+    - gondor
+    - eriador
+  fa_parte_di: null
+  partecipanti:
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: viaggiatore
+      esito: percorre la Terra di Mezzo
+    - persona: thengel
+      parte: Rohan
+      ruolo: re
+      esito: lo accoglie come Thorongil
+    - persona: ecthelion-ii
+      parte: Gondor
+      ruolo: Sovrintendente
+      esito: gli affida incarichi
+  breve: >-
+    Aragorn percorre la Terra di Mezzo sotto il nome di Thorongil e serve
+    Thengel di Rohan ed Ecthelion II di Gondor.
+  lungo: >-
+    Tra il 2957 e il 2980 Aragorn viaggia a lungo. Si fa chiamare Thorongil,
+    «Aquila della Stella», e serve Thengel di Rohan ed Ecthelion II di Gondor.
+    Impara la guerra, la politica e i confini del mondo, preparandosi al ruolo
+    di re.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 2957-2980"
+  certezza: certa
+  note: null
+
+- id: nascita-frodo
+  titolo: Nasce Frodo
+  tipo: nascita
+  data:
+    era: terza
+    anno: 2968
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2968"
+  luoghi:
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: neonato
+      esito: nasce
+  breve: >-
+    Nasce Frodo Baggins, futuro Portatore dell'Anello.
+  lungo: >-
+    Nel 2968 nasce Frodo Baggins nella Contea. Crescerà con Bilbo a Casa
+    Baggins e, molti anni dopo, riceverà da lui l'Unico Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2968"
+  certezza: certa
+  note: null
+
+- id: nozze-denethor-finduilas
+  titolo: Denethor sposa Finduilas
+  tipo: evento
+  data:
+    era: terza
+    anno: 2976
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2976"
+  luoghi:
+    - minas-tirith
+  fa_parte_di: null
+  partecipanti:
+    - persona: denethor-ii
+      parte: Gondor
+      ruolo: sposo
+      esito: sposa Finduilas
+    - persona: finduilas
+      parte: Dol Amroth
+      ruolo: sposa
+      esito: sposa Denethor
+  breve: >-
+    Denethor sposa Finduilas di Dol Amroth.
+  lungo: >-
+    Nel 2976 Denethor sposa Finduilas di Dol Amroth. Dal matrimonio nasceranno
+    Boromir e Faramir. La morte precoce di Finduilas segnerà profondamente
+    Denethor.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2976"
+  certezza: certa
+  note: null
+
+- id: bain-re-valle
+  titolo: Bain diventa re della Valle
+  tipo: politica
+  data:
+    era: terza
+    anno: 2977
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2977"
+  luoghi:
+    - valle
+  fa_parte_di: null
+  partecipanti:
+    - persona: bain
+      parte: Valle
+      ruolo: re
+      esito: succede a Bard
+  breve: >-
+    Bain, figlio di Bard, diventa re della Valle.
+  lungo: >-
+    Nel 2977 Bain succede al padre Bard come re della Valle. Il regno della
+    città sotto Erebor continua a prosperare grazie al commercio con i Nani.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2977"
+  certezza: certa
+  note: null
+
+- id: nascita-boromir
+  titolo: Nasce Boromir
+  tipo: nascita
+  data:
+    era: terza
+    anno: 2978
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2978"
+  luoghi:
+    - minas-tirith
+  fa_parte_di: null
+  partecipanti:
+    - persona: boromir
+      parte: Gondor
+      ruolo: neonato
+      esito: nasce
+    - persona: denethor-ii
+      parte: Gondor
+      ruolo: padre
+      esito: lo alleva
+    - persona: finduilas
+      parte: Gondor
+      ruolo: madre
+      esito: lo alleva
+  breve: >-
+    Nasce Boromir, figlio di Denethor II e Finduilas.
+  lungo: >-
+    Nel 2978 nasce Boromir, figlio maggiore di Denethor II e Finduilas.
+    Diventerà un valoroso comandante di Gondor e membro della Compagnia
+    dell'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2978"
+  certezza: certa
+  note: null
+
+- id: aragorn-arwen-cerin-amroth
+  titolo: Aragorn e Arwen si giurano fedeltà
+  tipo: evento
+  data:
+    era: terza
+    anno: 2980
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2980"
+  luoghi:
+    - cerin-amroth
+    - lorien
+  fa_parte_di: null
+  partecipanti:
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: innamorato
+      esito: le dona l'anello di Barahir
+    - persona: arwen
+      parte: Gran Burrone
+      ruolo: innamorata
+      esito: gli giura fedeltà
+  breve: >-
+    Aragorn ritorna a Lórien e incontra Arwen; sulla collina di Cerin Amroth
+    si giurano eterna fedeltà.
+  lungo: >-
+    Nel 2980 Aragorn ritorna a Lórien e incontra per la seconda volta Arwen.
+    Le dona l'anello di Barahir e sulla collina di Cerin Amroth si giurano
+    eterna fedeltà. Arwen sceglierà poi la sorte degli Uomini per sposarlo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2980"
+  certezza: certa
+  note: null
+
+- id: gollum-shelob
+  titolo: Gollum conosce Shelob
+  tipo: evento
+  data:
+    era: terza
+    anno: 2980
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2980"
+  luoghi:
+    - cirith-ungol
+    - mordor
+  fa_parte_di: null
+  partecipanti:
+    - persona: gollum
+      parte: Montagne Nebbiose
+      ruolo: cercatore
+      esito: raggiunge Mordor
+    - persona: shelob
+      parte: Cirith Ungol
+      ruolo: ragna
+      esito: lo lascia passare
+  breve: >-
+    Gollum raggiunge i confini di Mordor e conosce Shelob.
+  lungo: >-
+    Intorno al 2980 Gollum raggiunge i confini di Mordor e conosce Shelob, la
+    grande ragna di Cirith Ungol. Da lei imparerà la via segreta che porta
+    dentro Mordor, la stessa che useranno Frodo e Sam.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2980"
+  certezza: certa
+  note: null
+
+- id: theoden-re
+  titolo: Théoden diventa re di Rohan
+  tipo: politica
+  data:
+    era: terza
+    anno: 2980
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2980"
+  luoghi:
+    - rohan
+    - edoras
+  fa_parte_di: null
+  partecipanti:
+    - persona: theoden
+      parte: Rohan
+      ruolo: re
+      esito: sale al trono
+  breve: >-
+    Théoden diventa re del Mark.
+  lungo: >-
+    Nel 2980 Théoden diventa re di Rohan. Il suo regno sarà segnato dalla
+    minaccia di Saruman, dalla morte del figlio e dalla grande battaglia dei
+    Campi del Pelennor.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2980"
+  certezza: certa
+  note: null
+
+- id: nascita-faramir-sam
+  titolo: Nascono Faramir e Samvise
+  tipo: nascita
+  data:
+    era: terza
+    anno: 2983
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2983"
+  luoghi:
+    - minas-tirith
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: faramir
+      parte: Gondor
+      ruolo: neonato
+      esito: nasce
+    - persona: samvise-gamgi
+      parte: Hobbit
+      ruolo: neonato
+      esito: nasce
+    - persona: denethor-ii
+      parte: Gondor
+      ruolo: padre di Faramir
+      esito: lo alleva
+    - persona: finduilas
+      parte: Gondor
+      ruolo: madre di Faramir
+      esito: lo alleva
+  breve: >-
+    Nascono Faramir, figlio di Denethor, e Samvise Gamgi nella Contea.
+  lungo: >-
+    Nel 2983 nascono Faramir, secondo figlio di Denethor II e Finduilas, e
+    Samvise Gamgi nella Contea. I due non si conosceranno prima della Guerra
+    dell'Anello, ma saranno entrambi decisivi nella caduta di Sauron.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2983"
+  certezza: certa
+  note: null
+
+- id: denethor-sovrintendente
+  titolo: Denethor diventa Sovrintendente
+  tipo: politica
+  data:
+    era: terza
+    anno: 2984
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2984"
+  luoghi:
+    - minas-tirith
+  fa_parte_di: null
+  partecipanti:
+    - persona: ecthelion-ii
+      parte: Gondor
+      ruolo: Sovrintendente
+      esito: muore
+    - persona: denethor-ii
+      parte: Gondor
+      ruolo: erede
+      esito: assume il governo
+  breve: >-
+    Muore Ecthelion II; Denethor II diventa Sovrintendente di Gondor.
+  lungo: >-
+    Nel 2984 muore Ecthelion II e Denethor II assume il governo di Gondor
+    come Sovrintendente. Il suo carattere orgoglioso e la sua lotta con Sauron
+    segneranno gli ultimi anni del regno.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2984"
+  certezza: certa
+  note: null
+
+- id: morte-finduilas
+  titolo: Muore Finduilas
+  tipo: morte
+  data:
+    era: terza
+    anno: 2988
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2988"
+  luoghi:
+    - minas-tirith
+  fa_parte_di: null
+  partecipanti:
+    - persona: finduilas
+      parte: Gondor
+      ruolo: moglie di Denethor
+      esito: muore giovane
+  breve: >-
+    Finduilas, moglie di Denethor, muore ancora giovane.
+  lungo: >-
+    Nel 2988 muore Finduilas, moglie di Denethor e madre di Boromir e Faramir.
+    La sua morte lascia Denethor più solo e amareggiato, e contribuisce a
+    indurirlo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2988"
+  certezza: certa
+  note: null
+
+- id: balin-moria
+  titolo: Balin parte per Moria
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 2989
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2989"
+  luoghi:
+    - erebor
+    - moria
+  fa_parte_di: null
+  partecipanti:
+    - persona: balin
+      parte: Nani
+      ruolo: condottiero
+      esito: guida una colonia a Moria
+  breve: >-
+    Balin lascia Erebor e si reca a Moria con una colonia di Nani.
+  lungo: >-
+    Nel 2989 Balin lascia Erebor e si reca a Moria con una colonia di Nani,
+    sperando di riconquistare l'antica città. La spedizione sembra inizialmente
+    riuscire, ma Moria è ancora abitata da creature ostili.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2989"
+  certezza: certa
+  note: null
+
+- id: nascita-eomer
+  titolo: Nasce Éomer
+  tipo: nascita
+  data:
+    era: terza
+    anno: 2991
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2991"
+  luoghi:
+    - rohan
+  fa_parte_di: null
+  partecipanti:
+    - persona: eomer
+      parte: Rohan
+      ruolo: neonato
+      esito: nasce
+  breve: >-
+    Nasce Éomer, figlio di Éomund, futuro re di Rohan.
+  lungo: >-
+    Nel 2991 nasce Éomer, figlio di Éomund e nipote di Théoden. Diventerà
+    maresciallo del Mark e, dopo la guerra, re di Rohan.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2991"
+  certezza: certa
+  note: null
+
+- id: colonia-moria
+  titolo: La colonia di Moria viene distrutta
+  tipo: distruzione
+  data:
+    era: terza
+    anno: 2994
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2994"
+  luoghi:
+    - moria
+  fa_parte_di: null
+  partecipanti:
+    - persona: balin
+      parte: Nani
+      ruolo: signore della colonia
+      esito: muore
+    - entita: popolo-nani-di-durin
+      parte: Nani
+      ruolo: coloni
+      esito: vengono uccisi
+    - entita: popolo-orchetti
+      parte: Moria
+      ruolo: assalitori
+      esito: distruggono la colonia
+  breve: >-
+    Balin muore e la colonia dei Nani a Moria viene distrutta dagli Orchetti.
+  lungo: >-
+    Nel 2994 Balin muore e la colonia dei Nani a Moria viene distrutta dagli
+    Orchetti. La tomba di Balin resterà nella città sotterranea, e la
+    Compagnia dell'Anello la troverà anni dopo.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2994"
+  certezza: certa
+  note: null
+
+- id: nascita-eowyn
+  titolo: Nasce Éowyn
+  tipo: nascita
+  data:
+    era: terza
+    anno: 2995
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 2995"
+  luoghi:
+    - rohan
+  fa_parte_di: null
+  partecipanti:
+    - persona: eowyn
+      parte: Rohan
+      ruolo: neonata
+      esito: nasce
+  breve: >-
+    Nasce Éowyn, sorella di Éomer.
+  lungo: >-
+    Nel 2995 nasce Éowyn, sorella di Éomer e nipote di Théoden. Crescerà a
+    Edoras e diventerà la donna che, sotto il nome di Dernhelm, ucciderà il Re
+    degli Stregoni.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 2995"
+  certezza: certa
+  note: null
+
+- id: bilbo-gran-burrone
+  titolo: Bilbo si stabilisce a Gran Burrone
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3002
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 3002"
+  luoghi:
+    - gran-burrone
+  fa_parte_di: null
+  partecipanti:
+    - persona: bilbo-baggins
+      parte: Hobbit
+      ruolo: ospite
+      esito: si stabilisce da Elrond
+    - persona: elrond
+      parte: Gran Burrone
+      ruolo: signore elfico
+      esito: lo accoglie
+  breve: >-
+    Bilbo, ospite di Elrond, si stabilisce a Gran Burrone.
+  lungo: >-
+    Nel 3002 Bilbo lascia la Contea e si stabilisce a Gran Burrone come ospite
+    di Elrond. Qui scriverà le sue memorie e resterà fino alla partenza
+    dell'Ultima Nave.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3002"
+  certezza: certa
+  note: null
+
+- id: gandalf-visita-frodo
+  titolo: Gandalf visita Frodo
+  tipo: evento
+  data:
+    era: terza
+    anno: 3004
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 3004"
+  luoghi:
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: gandalf
+      parte: Istari
+      ruolo: visitatore
+      esito: comincia le sue visite
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: ospite
+      esito: lo accoglie
+  breve: >-
+    Gandalf si reca da Frodo nella Contea e continua a visitarlo per quattro
+    anni.
+  lungo: >-
+    Nel 3004 Gandalf si reca da Frodo nella Contea e comincia una serie di
+    visite saltuarie che dureranno quattro anni. Il mago cerca di capire la
+    natura dell'Anello che Frodo custodisce.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3004"
+  certezza: certa
+  note: null
+
+- id: brand-re-valle
+  titolo: Brand diventa re della Valle
+  tipo: politica
+  data:
+    era: terza
+    anno: 3007
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 3007"
+  luoghi:
+    - valle
+  fa_parte_di: null
+  partecipanti:
+    - persona: brand
+      parte: Valle
+      ruolo: re
+      esito: succede a Bain
+  breve: >-
+    Brand, figlio di Bain, diventa re della Valle.
+  lungo: >-
+    Nel 3007 Brand succede al padre Bain come re della Valle. Combatterà
+    accanto ai Nani di Erebor nella battaglia della Valle, durante la Guerra
+    dell'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3007"
+  certezza: certa
+  note: null
+
+- id: morte-gilraen
+  titolo: Muore Gilraen
+  tipo: morte
+  data:
+    era: terza
+    anno: 3007
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 3007"
+  luoghi:
+    - gran-burrone
+  fa_parte_di: null
+  partecipanti:
+    - persona: gilraen
+      parte: Dúnedain del Nord
+      ruolo: madre di Aragorn
+      esito: muore
+  breve: >-
+    Muore Gilraen, madre di Aragorn.
+  lungo: >-
+    Nel 3007 muore Gilraen, madre di Aragorn, a Gran Burrone. La sua morte
+    chiude il legame diretto di Aragorn con la madre e lo lascia solo con il
+    compito di rivendicare l'eredità di Isildur.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3007"
+  certezza: certa
+  note: null
+
+- id: ultima-visita-gandalf
+  titolo: Ultima visita di Gandalf a Frodo
+  tipo: evento
+  data:
+    era: terza
+    anno: 3008
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 3008"
+  luoghi:
+    - contea
+  fa_parte_di: null
+  partecipanti:
+    - persona: gandalf
+      parte: Istari
+      ruolo: visitatore
+      esito: visita Frodo per l'ultima volta
+    - persona: frodo-baggins
+      parte: Hobbit
+      ruolo: ospite
+      esito: lo saluta
+  breve: >-
+    In autunno Gandalf fa la sua ultima visita a Frodo prima della guerra.
+  lungo: >-
+    Nell'autunno del 3008 Gandalf fa la sua ultima visita a Frodo. Per alcuni
+    anni non tornerà nella Contea, mentre cerca notizie di Gollum e
+    dell'Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3008"
+  certezza: certa
+  note: null
+
+- id: ricerca-gollum
+  titolo: La ricerca di Gollum
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 3009
+    mese: null
+    giorno: null
+    anno_fine: 3017
+    precisione: intervallo
+    qualificatore: null
+    calendario: terza
+    testo: "3009-3017"
+  luoghi:
+    - anduin
+    - bosco-atro
+    - mordor
+    - gran-burrone
+  fa_parte_di: null
+  partecipanti:
+    - persona: gandalf
+      parte: Istari
+      ruolo: cercatore
+      esito: cerca Gollum
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: cercatore
+      esito: cattura Gollum
+    - persona: gollum
+      parte: Montagne Nebbiose
+      ruolo: fuggiasco
+      esito: viene catturato da Sauron e poi da Aragorn
+    - persona: arwen
+      parte: Gran Burrone
+      ruolo: ospite
+      esito: torna a Imladris
+  breve: >-
+    Gandalf e Aragorn cercano Gollum per otto anni; Gollum arriva a Mordor,
+    viene catturato da Sauron e poi da Aragorn.
+  lungo: >-
+    Tra il 3009 e il 3017 Gandalf e Aragorn percorrono le valli dell'Anduin,
+    il Bosco Atro e le Terre Selvagge alla ricerca di Gollum. Gollum, nel
+    frattempo, raggiunge Mordor e viene catturato da Sauron, che lo interroga.
+    In questo periodo Arwen torna a Gran Burrone.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anni 3009-3017"
+  certezza: certa
+  note: null
+
+- id: gollum-catturato
+  titolo: Gollum viene catturato
+  tipo: evento
+  data:
+    era: terza
+    anno: 3017
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 3017"
+  luoghi:
+    - paludi-morte
+    - bosco-atro
+    - minas-tirith
+  fa_parte_di: null
+  partecipanti:
+    - persona: gollum
+      parte: Mordor
+      ruolo: prigioniero
+      esito: viene condotto da Thranduil
+    - persona: aragorn
+      parte: Dúnedain del Nord
+      ruolo: catturatore
+      esito: lo trova nelle Paludi Morte
+    - persona: thranduil
+      parte: Bosco Atro
+      ruolo: re elfico
+      esito: lo custodisce
+    - persona: gandalf
+      parte: Istari
+      ruolo: studioso
+      esito: legge la pergamena di Isildur
+  breve: >-
+    Gollum viene liberato da Mordor, catturato da Aragorn nelle Paludi Morte e
+    affidato a Thranduil; Gandalf legge la pergamena di Isildur.
+  lungo: >-
+    Nel 3017 Gollum viene liberato dal potere di Mordor. Aragorn lo trova nelle
+    Paludi Morte e lo conduce da Thranduil nel Bosco Atro. Nello stesso periodo
+    Gandalf si reca a Minas Tirith e legge la pergamena di Isildur, trovando la
+    conferma che l'Anello di Frodo è l'Unico Anello.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 3017"
+  certezza: certa
+  note: null

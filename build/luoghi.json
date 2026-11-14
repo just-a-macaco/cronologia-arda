@@ -14,16 +14,26 @@
       "eventi": [
         "bilbo-nasce",
         "bilbo-torna",
+        "brandobras-orcs",
         "bucca-conte",
+        "crudele-inverno",
         "erba-pipa",
         "festa-bilbo",
         "festa-inattesa",
         "fondazione-contea",
         "frodo-parte",
+        "gandalf-balin-bilbo",
+        "gandalf-visita-frodo",
+        "isengrim-grandi-smial",
         "isumbras-conte",
         "lungacque",
         "lungo-inverno",
-        "saruman-tradisce"
+        "morte-vecchio-tuc",
+        "nascita-faramir-sam",
+        "nascita-frodo",
+        "saruman-tradisce",
+        "sturoi-contea",
+        "ultima-visita-gandalf"
       ]
     },
     {
@@ -42,6 +52,7 @@
         "festa-bilbo",
         "festa-inattesa",
         "frodo-parte",
+        "gandalf-balin-bilbo",
         "lungacque"
       ]
     },
@@ -85,12 +96,17 @@
       "nota": null,
       "eventi": [
         "aranarth-capitano",
+        "arathorn-ucciso",
+        "bilbo-gran-burrone",
         "compagnia-parte",
+        "consiglio-2851",
         "consiglio-dol-guldur",
         "consiglio-elrond",
         "elladan-elrohir",
         "elrond-celebrian",
+        "morte-gilraen",
         "nascita-arwen",
+        "ricerca-gollum",
         "ultimo-consiglio"
       ]
     },
@@ -105,10 +121,13 @@
       "descrizione": "La grande città sotterranea dei Nani nelle Montagne Nebbiose, abbandonata dopo il risveglio del Balrog.",
       "nota": "«Khazad-dûm» è il nome nanico; «Moria» è il nome comune dopo la caduta.",
       "eventi": [
+        "balin-moria",
         "balrog-moria",
+        "colonia-moria",
         "fortezze-orchetti",
         "gandalf-moria",
         "gollum-fugge",
+        "guerra-nani-orchetti",
         "thror"
       ]
     },
@@ -126,6 +145,7 @@
         "distruzione-isengard",
         "istari",
         "saruman-isengard",
+        "saruman-scopre",
         "saruman-tradisce",
         "ultimo-consiglio"
       ]
@@ -141,12 +161,21 @@
       "descrizione": "La città bianca di Gondor, costruita sul Mindolluin e protetta da sette cerchi di mura.",
       "nota": "Chiamata Minas Anor fino al 1640, quando Tarondor vi spostò la residenza reale.",
       "eventi": [
+        "albero-morto",
+        "denethor-sovrintendente",
         "earnur",
+        "ecthelion-torre",
         "elessar",
+        "gollum-catturato",
         "grande-peste",
         "incoronazione-earnil-ii",
         "isildur-anello",
         "mordor-sorveglianza",
+        "morte-finduilas",
+        "nascita-boromir",
+        "nascita-denethor",
+        "nascita-faramir-sam",
+        "nozze-denethor-finduilas",
         "nozze-elessar-arwen",
         "ostoher-minas-anor",
         "pelennor",
@@ -183,10 +212,12 @@
       "eventi": [
         "assedio-minas-ithil",
         "bilbo-torna",
+        "gollum-shelob",
         "inizio-terza",
         "minas-ithil",
         "mordor-sorveglianza",
         "re-stregoni-mordor",
+        "ricerca-gollum",
         "saruman-tradisce",
         "sauron-si-dichiara"
       ]
@@ -235,7 +266,8 @@
         "fato-avvampa",
         "isildur-anello",
         "osgiliath-3018",
-        "osgiliath-distrutta"
+        "osgiliath-distrutta",
+        "ricerca-gollum"
       ]
     },
     {
@@ -252,9 +284,11 @@
         "consiglio-dol-guldur",
         "dol-guldur-cresce",
         "gandalf-dol-guldur",
+        "gollum-catturato",
         "gollum-fugge",
         "ombra-bosco-attro",
         "pace-vigile",
+        "ricerca-gollum",
         "saggi-dol-guldur",
         "sauron-ritorno"
       ]
@@ -271,9 +305,17 @@
       "descrizione": "Il regno dei Rohirrim tra l'Anduin e le Montagne Bianche, nato dal dono del Calenardhon.",
       "nota": "Nato nel 2510, quando Cirion donò il Calenardhon a Eorl.",
       "eventi": [
+        "baldor-scompare",
         "compagnia-si-scioglie",
         "lungo-inverno",
-        "rohan"
+        "morte-eorl",
+        "nascita-eomer",
+        "nascita-eowyn",
+        "nascita-theoden",
+        "orcs-rovano",
+        "rohan",
+        "theoden-re",
+        "viaggi-aragorn"
       ]
     },
     {
@@ -285,7 +327,9 @@
       "descrizione": "La capitale di Rohan, costruita su un colle ai piedi delle Montagne Bianche.",
       "nota": null,
       "eventi": [
-        "lungo-inverno"
+        "lungo-inverno",
+        "sala-d-oro",
+        "theoden-re"
       ]
     },
     {
@@ -312,6 +356,8 @@
       "descrizione": "La Montagna Solitaria a nord-est del Bosco Atro, sede del regno dei Nani sotto la Montagna.",
       "nota": "Il regno dei Nani «sotto la Montagna» fu fondato qui nel 1999.",
       "eventi": [
+        "balin-moria",
+        "bard-re-valle",
         "cinque-eserciti",
         "draghi-nord",
         "nani-erebor",
@@ -367,6 +413,7 @@
         "earnil-conquista-umbar",
         "elessar",
         "grande-peste",
+        "haradrim-poros",
         "invasione-esterling",
         "lotta-stirpi",
         "lungo-inverno",
@@ -375,7 +422,8 @@
         "nozze-elessar-arwen",
         "ombra-bosco-attro",
         "re-navigatori",
-        "romendacil-esterling"
+        "romendacil-esterling",
+        "viaggi-aragorn"
       ]
     },
     {
@@ -405,8 +453,18 @@
       "nota": null,
       "eventi": [
         "angmar",
+        "arador-ucciso",
+        "aragorn-gandalf",
+        "arathorn-ucciso",
+        "crudele-inverno",
         "grande-peste",
-        "ombra-bosco-attro"
+        "migrazione-sturoi",
+        "nascita-aragorn",
+        "nascita-gilraen",
+        "nozze-arathorn-gilraen",
+        "ombra-bosco-attro",
+        "orcs-eridor",
+        "viaggi-aragorn"
       ]
     },
     {
@@ -584,7 +642,9 @@
         "deagol-anello",
         "fortezze-orchetti",
         "gollum-fugge",
-        "gollum-montagne"
+        "gollum-lascia-montagne",
+        "gollum-montagne",
+        "guerra-nani-orchetti"
       ]
     },
     {
@@ -623,6 +683,7 @@
       "descrizione": "Il regno elfico di Galadriel e Celeborn nel bosco a est delle Montagne Nebbiose.",
       "nota": null,
       "eventi": [
+        "aragorn-arwen-cerin-amroth",
         "balrog-moria"
       ]
     },
@@ -687,8 +748,10 @@
       "descrizione": "Il fiume che segna il confine orientale della Contea.",
       "nota": null,
       "eventi": [
+        "crudele-inverno",
         "fondazione-contea",
-        "grande-peste"
+        "grande-peste",
+        "sturoi-contea"
       ]
     },
     {
@@ -714,8 +777,10 @@
       "descrizione": "I campi lungo l'Anduin dove Isildur perse l'Anello e Déagol lo ritrovò.",
       "nota": null,
       "eventi": [
+        "consiglio-2851",
         "deagol-anello",
-        "isildur-anello"
+        "isildur-anello",
+        "saruman-scopre"
       ]
     },
     {
@@ -840,6 +905,7 @@
       "descrizione": "Il fiume di Gondor dove Eldacar sconfisse Castamir nel 1447.",
       "nota": null,
       "eventi": [
+        "battaglia-erui",
         "lotta-stirpi"
       ]
     },
@@ -893,7 +959,8 @@
       "nota": null,
       "eventi": [
         "battaglia-campo",
-        "fato-avvampa"
+        "fato-avvampa",
+        "ithilien-abbandonata"
       ]
     },
     {
@@ -986,7 +1053,8 @@
       "descrizione": "Le paludi a est dell'Emyn Muil, piene di fuochi e di morti.",
       "nota": null,
       "eventi": [
-        "battaglia-campo"
+        "battaglia-campo",
+        "gollum-catturato"
       ]
     },
     {
@@ -1010,6 +1078,7 @@
       "descrizione": "Il porto di Gondor sull'Anduin, a sud di Minas Tirith.",
       "nota": null,
       "eventi": [
+        "battaglia-erui",
         "corsari-pelargir",
         "lotta-stirpi"
       ]
@@ -1102,6 +1171,9 @@
       "descrizione": "La città ai piedi di Erebor, ricostruita dopo la morte di Smaug.",
       "nota": null,
       "eventi": [
+        "bain-re-valle",
+        "bard-re-valle",
+        "brand-re-valle",
         "cinque-eserciti",
         "smaug-erebor",
         "smaug-ucciso"
@@ -1168,13 +1240,160 @@
       "descrizione": "Il passo delle Montagne Nebbiose dove Celebrían viene assalita nel 2509.",
       "nota": null,
       "eventi": [
-        "celebrian-ferita"
+        "celebrian-ferita",
+        "migrazione-sturoi"
+      ]
+    },
+    {
+      "id": "sala-d-oro",
+      "nome": "Sala d'Oro",
+      "tipo": "edificio",
+      "alias": [],
+      "dentro": "edoras",
+      "descrizione": "La grande sala reale di Edoras, completata da Brego.",
+      "nota": null,
+      "eventi": [
+        "sala-d-oro"
+      ]
+    },
+    {
+      "id": "porta-proibita",
+      "nome": "Porta Proibita",
+      "tipo": "passo",
+      "alias": [],
+      "dentro": "rohan",
+      "descrizione": "L'ingresso oscuro che Baldor varca nel 2570 e da cui non torna.",
+      "nota": null,
+      "eventi": [
+        "baldor-scompare"
+      ]
+    },
+    {
+      "id": "grandi-smial",
+      "nome": "Grandi Smial",
+      "tipo": "edificio",
+      "alias": [],
+      "dentro": "contea",
+      "descrizione": "Le grandi dimore scavate dagli Hobbit nella Contea.",
+      "nota": null,
+      "eventi": [
+        "isengrim-grandi-smial"
+      ]
+    },
+    {
+      "id": "poros",
+      "nome": "Poros",
+      "tipo": "fiume",
+      "alias": [],
+      "dentro": "gondor",
+      "descrizione": "Il fiume del Sud di Gondor, attraversato dagli Haradrim nel 2885.",
+      "nota": null,
+      "eventi": [
+        "haradrim-poros"
+      ]
+    },
+    {
+      "id": "henneth-annun",
+      "nome": "Henneth Annûn",
+      "tipo": "rifugio",
+      "alias": [],
+      "dentro": "ithilien",
+      "descrizione": "Il rifugio segreto costruito in Ithilien nel 2901.",
+      "nota": null,
+      "eventi": [
+        "ithilien-abbandonata"
+      ]
+    },
+    {
+      "id": "enedwaith",
+      "nome": "Enedwaith",
+      "tipo": "regione",
+      "alias": [],
+      "dentro": null,
+      "descrizione": "La regione dell'Eriador meridionale devastata dalle inondazioni del 2912.",
+      "nota": null,
+      "eventi": [
+        "inondazioni-2912"
+      ]
+    },
+    {
+      "id": "minhiriath",
+      "nome": "Minhiriath",
+      "tipo": "regione",
+      "alias": [],
+      "dentro": null,
+      "descrizione": "La regione meridionale dell'Eriador, colpita dalle inondazioni del 2912.",
+      "nota": null,
+      "eventi": [
+        "inondazioni-2912"
+      ]
+    },
+    {
+      "id": "tharbad",
+      "nome": "Tharbad",
+      "tipo": "città",
+      "alias": [],
+      "dentro": null,
+      "descrizione": "La città sul Gwathló, distrutta dalle inondazioni del 2912.",
+      "nota": null,
+      "eventi": [
+        "inondazioni-2912"
+      ]
+    },
+    {
+      "id": "cerin-amroth",
+      "nome": "Cerin Amroth",
+      "tipo": "collina",
+      "alias": [],
+      "dentro": "lorien",
+      "descrizione": "La collina di Lórien dove Aragorn e Arwen si giurano fedeltà.",
+      "nota": null,
+      "eventi": [
+        "aragorn-arwen-cerin-amroth"
+      ]
+    },
+    {
+      "id": "cirith-ungol",
+      "nome": "Cirith Ungol",
+      "tipo": "passo",
+      "alias": [],
+      "dentro": "mordor",
+      "descrizione": "Il passo di Mordor dove vive Shelob.",
+      "nota": null,
+      "eventi": [
+        "gollum-shelob"
+      ]
+    },
+    {
+      "id": "dol-amroth",
+      "nome": "Dol Amroth",
+      "tipo": "porto",
+      "alias": [],
+      "dentro": "gondor",
+      "descrizione": "Il principato costiero di Gondor, patria di Finduilas.",
+      "nota": null,
+      "eventi": [
+        "nascita-finduilas"
+      ]
+    },
+    {
+      "id": "dunland",
+      "nome": "Dunland",
+      "tipo": "regione",
+      "alias": [
+        "Dun'and"
+      ],
+      "dentro": null,
+      "descrizione": "La regione a sud dell'Eriador dove si stabiliscono gli Sturoi.",
+      "nota": null,
+      "eventi": [
+        "migrazione-sturoi"
       ]
     }
   ],
   "copertura": {
-    "luoghi_citati": 80,
-    "luoghi_coperti": 80,
+    "luoghi_citati": 92,
+    "luoghi_coperti": 92,
     "luoghi_scoperti": 0,
     "scoperti": []
   }

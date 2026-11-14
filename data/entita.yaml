@@ -329,3 +329,54 @@
     - Vecchiobecco
   descrizione: La famiglia hobbit che si installa nella Terra di Buck.
   nota: null
+
+- id: gruppo-figli-folcwine
+  nome: i figli di Folcwine
+  tipo: gruppo
+  alias: []
+  descrizione: I figli del re Folcwine, morti al servizio di Gondor.
+  nota: null
+
+- id: gruppo-lupi-bianchi
+  nome: i Lupi Bianchi
+  tipo: gruppo
+  alias: []
+  descrizione: I lupi che invadono l'Eriador durante il Crudele Inverno.
+  nota: null
+
+- id: gruppo-abitanti-tharbad
+  nome: gli abitanti di Tharbad
+  tipo: gruppo
+  alias: []
+  descrizione: La popolazione della città di Tharbad, distrutta dalle inondazioni.
+  nota: null
+
+- id: gruppo-vagabondi
+  nome: i Vagabondi
+  tipo: gruppo
+  alias: []
+  descrizione: I predoni che uccidono Arador nell'Eriador.
+  nota: null
+
+- id: gruppo-abitanti-valle
+  nome: gli abitanti di Valle
+  tipo: gruppo
+  alias: []
+  descrizione: Gli abitanti della città di Valle, ricostruita da Bard.
+  nota: null
+
+- id: popolo-paloidi
+  nome: i Paloidi
+  tipo: popolo
+  alias:
+    - Paloidi
+  descrizione: Un ramo degli Hobbit che si sposta nell'Eriador.
+  nota: null
+
+- id: popolo-sturoi
+  nome: gli Sturoi
+  tipo: popolo
+  alias:
+    - Sturoi
+  descrizione: Il ramo degli Hobbit che passa il Valico Cornorosso e si stabilisce nel Dunland.
+  nota: null

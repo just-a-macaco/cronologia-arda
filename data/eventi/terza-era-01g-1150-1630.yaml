@@ -1,0 +1,128 @@
+# Schede della Terza Era, anni 1150-1630.
+# Completamento delle righe dell'Appendice B rimaste scoperte.
+# Fonte: Il Signore degli Anelli, Appendice B (Bompiani 2004).
+
+- id: migrazione-sturoi
+  titolo: Paloidi e Sturoi si spostano
+  tipo: viaggio
+  data:
+    era: terza
+    anno: 1150
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: circa
+    calendario: terza
+    testo: "Anno 1150 circa"
+  luoghi:
+    - eriador
+    - valico-cornorosso
+    - dunland
+  fa_parte_di: null
+  partecipanti:
+    - entita: popolo-paloidi
+      parte: Hobbit
+      ruolo: migranti
+      esito: si recano nell'Eriador
+    - entita: popolo-sturoi
+      parte: Hobbit
+      ruolo: migranti
+      esito: si stabiliscono nel Dunland
+  breve: >-
+    I Paloidi si recano nell'Eriador; gli Sturoi passano il Valico Cornorosso e
+    si stabiliscono nel Dunland.
+  lungo: >-
+    Intorno al 1150 i Paloidi si spostano nell'Eriador, mentre gli Sturoi
+    passano il Valico Cornorosso e si stabiliscono nel Dunland. Sono tappe
+    della lunga migrazione degli Hobbit verso ovest, che li porterà fino alla
+    Contea.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1150 circa"
+  certezza: certa
+  note: null
+
+- id: battaglia-erui
+  titolo: Battaglia dei Guadi dell'Erui
+  tipo: battaglia
+  data:
+    era: terza
+    anno: 1447
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1447"
+  luoghi:
+    - erui
+    - pelargir
+  fa_parte_di: La Lotta delle Stirpi
+  partecipanti:
+    - persona: eldacar
+      parte: Gondor
+      ruolo: re legittimo
+      esito: vince
+    - persona: castamir
+      parte: ribelli
+      ruolo: usurpatore
+      esito: viene sconfitto e ucciso
+    - entita: gruppo-ribelli-castamir
+      parte: ribelli
+      ruolo: esercito
+      esito: sconfitto
+    - entita: regno-gondor
+      parte: Gondor
+      ruolo: regno
+      esito: torna a Eldacar
+  breve: >-
+    Eldacar sconfigge Castamir ai Guadi dell'Erui e assedia Pelargir.
+  lungo: >-
+    Nel 1447 Eldacar ritorna con un esercito, sconfigge Castamir ai Guadi
+    dell'Erui e assedia Pelargir. Castamir viene ucciso e Eldacar riconquista
+    il trono. I figli dell'usurpatore fuggono a Umbar.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1447"
+  certezza: certa
+  note: null
+
+- id: sturoi-contea
+  titolo: Gli Sturoi si uniscono agli Hobbit
+  tipo: evento
+  data:
+    era: terza
+    anno: 1630
+    mese: null
+    giorno: null
+    anno_fine: null
+    precisione: anno
+    qualificatore: null
+    calendario: terza
+    testo: "Anno 1630"
+  luoghi:
+    - contea
+    - baranduin
+  fa_parte_di: null
+  partecipanti:
+    - entita: popolo-sturoi
+      parte: Hobbit
+      ruolo: migranti
+      esito: si uniscono agli Hobbit della Contea
+    - entita: popolo-hobbit
+      parte: Contea
+      ruolo: popolo
+      esito: li accoglie
+  breve: >-
+    Gli Sturoi raggiungono la Contea e si uniscono agli Hobbit che vi abitano.
+  lungo: >-
+    Nel 1630 gli Sturoi, giunti dal Dunland, si uniscono agli Hobbit stabiliti
+    oltre il Baranduin. La Contea diventa così il punto d'incontro dei diversi
+    rami del popolo hobbit.
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice B, anno 1630"
+  certezza: certa
+  note: null

@@ -389,6 +389,28 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 1100 circa
 
+## Paloidi e Sturoi si spostano
+
+**ID:** `migrazione-sturoi` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** Anno 1150 circa · Terza Era
+
+**Dove:** Eriador, Valico Cornorosso, Dunland
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| i Paloidi | Hobbit | migranti | si recano nell'Eriador |
+| gli Sturoi | Hobbit | migranti | si stabiliscono nel Dunland |
+
+**Versione breve:** I Paloidi si recano nell'Eriador; gli Sturoi passano il Valico Cornorosso e si stabiliscono nel Dunland.
+
+**Testo lungo:** Intorno al 1150 i Paloidi si spostano nell'Eriador, mentre gli Sturoi passano il Valico Cornorosso e si stabiliscono nel Dunland. Sono tappe della lunga migrazione degli Hobbit verso ovest, che li porterà fino alla Contea.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1150 circa
+
 ## Il Re Stregone fonda Angmar
 
 **ID:** `angmar` · **Tipo:** fondazione · **Certezza:** certa
@@ -513,6 +535,32 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Note:** La scheda separa l'incendio dall'evento generale della Lotta delle Stirpi.
 
+## Battaglia dei Guadi dell'Erui
+
+**ID:** `battaglia-erui` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** Anno 1447 · Terza Era
+
+**Dove:** Erui, Pelargir
+
+**Fa parte di:** La Lotta delle Stirpi
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Eldacar | Gondor | re legittimo | vince |
+| Castamir | ribelli | usurpatore | viene sconfitto e ucciso |
+| i ribelli di Castamir | ribelli | esercito | sconfitto |
+| Gondor | Gondor | regno | torna a Eldacar |
+
+**Versione breve:** Eldacar sconfigge Castamir ai Guadi dell'Erui e assedia Pelargir.
+
+**Testo lungo:** Nel 1447 Eldacar ritorna con un esercito, sconfigge Castamir ai Guadi dell'Erui e assedia Pelargir. Castamir viene ucciso e Eldacar riconquista il trono. I figli dell'usurpatore fuggono a Umbar.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1447
+
 ## I ribelli prendono Umbar
 
 **ID:** `ribelli-umbar` · **Tipo:** politica · **Certezza:** certa
@@ -602,6 +650,28 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 1601
+
+## Gli Sturoi si uniscono agli Hobbit
+
+**ID:** `sturoi-contea` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 1630 · Terza Era
+
+**Dove:** Contea, Baranduin
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| gli Sturoi | Hobbit | migranti | si uniscono agli Hobbit della Contea |
+| gli Hobbit | Contea | popolo | li accoglie |
+
+**Versione breve:** Gli Sturoi raggiungono la Contea e si uniscono agli Hobbit che vi abitano.
+
+**Testo lungo:** Nel 1630 gli Sturoi, giunti dal Dunland, si uniscono agli Hobbit stabiliti oltre il Baranduin. La Contea diventa così il punto d'incontro dei diversi rami del popolo hobbit.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 1630
 
 ## I Corsari devastano Pelargir
 
@@ -1402,6 +1472,69 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Note:** La battaglia e il dono sono due eventi distinti dello stesso anno: hanno partecipanti e conseguenze diverse e vanno tenuti separati.
 
+## Muore Eorl il Giovane
+
+**ID:** `morte-eorl` · **Tipo:** morte · **Certezza:** certa
+
+**Quando:** Anno 2545 · Terza Era
+
+**Dove:** Rohan
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Eorl il Giovane | Rohan | re | muore in battaglia |
+
+**Versione breve:** Eorl il Giovane, primo re di Rohan, cade combattendo.
+
+**Testo lungo:** Nel 2545 Eorl il Giovane cade in battaglia. Il fondatore di Rohan lascia ai suoi successori un regno ancora giovane, stretto tra Gondor, le montagne e le pianure dell'Est.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2545
+
+## Brego completa la Sala d'Oro
+
+**ID:** `sala-d-oro` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 2569 · Terza Era
+
+**Dove:** Edoras, Sala d'Oro
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Brego | Rohan | re | completa la sala |
+
+**Versione breve:** Brego, figlio di Eorl, completa la costruzione della Sala d'Oro a Edoras.
+
+**Testo lungo:** Nel 2569 Brego, figlio di Eorl, termina la costruzione della Sala d'Oro a Edoras. La grande sala diventa il cuore della regalità di Rohan e il luogo delle assemblee dei Cavalieri.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2569
+
+## Baldor varca la Porta Proibita
+
+**ID:** `baldor-scompare` · **Tipo:** perdita · **Certezza:** certa
+
+**Quando:** Anno 2570 · Terza Era
+
+**Dove:** Porta Proibita, Rohan
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Baldor | Rohan | principe | scompare |
+
+**Versione breve:** Baldor, figlio di Brego, varca la Porta Proibita e scompare.
+
+**Testo lungo:** Nel 2570 Baldor, figlio di Brego, varca la Porta Proibita e non torna più. La sua scomparsa alimenta le leggende sui Sentieri dei Morti e sul giuramento tradito degli Uomini delle Montagne.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2570
+
 ## I Draghi del Nord
 
 **ID:** `draghi-nord` · **Tipo:** distruzione · **Certezza:** certa
@@ -1447,6 +1580,93 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 2670 circa; Prologo
+
+## Isengrim II e i Grandi Smial
+
+**ID:** `isengrim-grandi-smial` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 2683 · Terza Era
+
+**Dove:** Contea, Grandi Smial
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Isengrim II | Contea | conte | comincia i Grandi Smial |
+| gli Hobbit | Contea | popolo | lo segue |
+
+**Versione breve:** Isengrim II diventa decimo Conte e comincia a scavare i Grandi Smial.
+
+**Testo lungo:** Nel 2683 Isengrim II diventa il decimo Conte della Contea e comincia a scavare i Grandi Smial. Le dimore sotterranee diventano il centro della vita pubblica hobbit e resteranno tali per secoli.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2683
+
+## Ecthelion I ricostruisce la Torre Bianca
+
+**ID:** `ecthelion-torre` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 2698 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Ecthelion I | Gondor | re | ricostruisce la torre |
+
+**Versione breve:** Ecthelion I ricostruisce la Torre Bianca di Minas Tirith.
+
+**Testo lungo:** Nel 2698 Ecthelion I ricostruisce la Torre Bianca di Minas Tirith. La torre torna a essere il simbolo della città e la sede da cui i Sovrintendenti osserveranno Mordor.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2698
+
+## Gli Orchetti invadono l'Eriador
+
+**ID:** `orcs-eridor` · **Tipo:** guerra · **Certezza:** certa
+
+**Quando:** Anno 2740 · Terza Era
+
+**Dove:** Eriador
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| gli Orchetti | Montagne Nebbiose | invasori | attaccano l'Eriador |
+| i Dúnedain del Nord | Eriador | difensori | resistono |
+
+**Versione breve:** Una nuova invasione di Orchetti colpisce l'Eriador.
+
+**Testo lungo:** Nel 2740 gli Orchetti delle Montagne Nebbiose invadono l'Eriador. I Dúnedain del Nord e gli Hobbit resistono, ma la regione resta insicura e le strade diventano pericolose.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2740
+
+## Brandobras Tuc sconfigge gli Orchetti
+
+**ID:** `brandobras-orcs` · **Tipo:** battaglia · **Certezza:** certa
+
+**Quando:** Anno 2747 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Brandobras Tuc | Contea | condottiero | vince |
+| gli Orchetti | Nord | invasori | sconfitti |
+
+**Versione breve:** Brandobras Tuc sconfigge una banda di Orchetti nel Decumano Nord.
+
+**Testo lungo:** Nel 2747 Brandobras Tuc guida gli Hobbit contro una banda di Orchetti penetrata nel Decumano Nord e la sconfigge. È una delle poche battaglie combattute dentro i confini della Contea.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2747
 
 ## Il Lungo Inverno
 
@@ -1542,6 +1762,28 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 2790; Appendice A, Durin
 
+## Guerra tra Nani e Orchetti
+
+**ID:** `guerra-nani-orchetti` · **Tipo:** guerra · **Certezza:** certa
+
+**Quando:** Anno 2793 · Terza Era
+
+**Dove:** Montagne Nebbiose, Moria
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| i Nani del Popolo di Durin | Nani | vendicatori | muovono guerra |
+| gli Orchetti | Moria | nemici | subiscono l'attacco |
+
+**Versione breve:** Comincia la guerra di vendetta dei Nani contro gli Orchetti di Moria.
+
+**Testo lungo:** Nel 2793 comincia la guerra tra i Nani e gli Orchetti di Moria, decisa dopo l'uccisione di Thrór. La guerra durerà sei anni e culminerà nella battaglia di Nanduhirion.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2793
+
 ## Battaglia di Nanduhirion
 
 **ID:** `nanduhirion` · **Tipo:** battaglia · **Certezza:** certa
@@ -1566,6 +1808,29 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anni 2793-2799; Appendice A, Durin
 
+## Gli Orchetti del Nord tormentano Rohan
+
+**ID:** `orcs-rovano` · **Tipo:** guerra · **Certezza:** certa
+
+**Quando:** 2800-2861 · Terza Era
+
+**Dove:** Rohan
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| gli Orchetti | Nord | predoni | tormentano Rohan |
+| i Rohirrim | Rohan | difensori | subiscono le incursioni |
+| Walda | Rohan | re | viene ucciso nel 2861 |
+
+**Versione breve:** Per decenni gli Orchetti del Nord tormentano Rohan; nel 2861 cade re Walda.
+
+**Testo lungo:** Tra il 2800 e il 2861 gli Orchetti del Nord compiono incursioni continue contro Rohan. Nel 2861 re Walda viene ucciso. La minaccia contribuisce a indebolire il regno prima del Lungo Inverno.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anni 2800-2861
+
 ## Gandalf a Dol Guldur
 
 **ID:** `gandalf-dol-guldur` · **Tipo:** evento · **Certezza:** certa
@@ -1589,6 +1854,75 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anni 2841-2850; Appendice A, Durin
 
+## Il Bianco Consiglio rifiuta l'attacco
+
+**ID:** `consiglio-2851` · **Tipo:** consiglio · **Certezza:** certa
+
+**Quando:** Anno 2851 · Terza Era
+
+**Dove:** Gran Burrone, Campo Gaggiolo
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| il Bianco Consiglio | Eldar e Istari | consiglio | rifiuta l'attacco |
+| Gandalf | Istari | promotore | esorta ad assalire Dol Guldur |
+| Saruman | Istari | capo | respinge la proposta |
+
+**Versione breve:** Il Bianco Consiglio si riunisce: Gandalf vuole attaccare Dol Guldur, Saruman rifiuta e comincia a cercare l'Anello a Campo Gaggiolo.
+
+**Testo lungo:** Nel 2851 il Bianco Consiglio si riunisce. Gandalf esorta ad assalire Dol Guldur, ma Saruman respinge la proposta. Poco dopo Saruman comincia a compiere ricerche nei pressi di Campo Gaggiolo, sperando di trovare l'Unico Anello prima di Sauron.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2851
+
+## Muore l'Albero Bianco
+
+**ID:** `albero-morto` · **Tipo:** perdita · **Certezza:** certa
+
+**Quando:** Anno 2852 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Belecthor II | Gondor | Sovrintendente | muore |
+| Gondor | Gondor | regno | perde l'Albero Bianco |
+
+**Versione breve:** Muore Belecthor II e con lui muore l'Albero Bianco; non si trova un nuovo seme.
+
+**Testo lungo:** Nel 2852 muore il Sovrintendente Belecthor II e muore anche l'Albero Bianco. Non si trova un nuovo seme, e l'Albero Morto viene lasciato al suo posto. È uno dei segni più visibili del declino di Gondor.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2852
+
+## Gli Haradrim attraversano il Poros
+
+**ID:** `haradrim-poros` · **Tipo:** guerra · **Certezza:** certa
+
+**Quando:** Anno 2885 · Terza Era
+
+**Dove:** Poros, Gondor
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| gli Haradrim | Harad | invasori | attraversano il Poros |
+| Gondor | Gondor | difensore | respinge l'attacco |
+| Folcwine | Rohan | re | manda i figli in aiuto |
+| i figli di Folcwine | Rohan | cavalieri | muoiono in battaglia |
+
+**Versione breve:** Gli Haradrim attraversano il Poros e attaccano Gondor; i figli di Folcwine muoiono combattendo al suo fianco.
+
+**Testo lungo:** Nel 2885, incitati da emissari di Sauron, gli Haradrim attraversano il Poros e attaccano Gondor. Re Folcwine di Rohan manda i suoi figli in aiuto di Gondor; entrambi muoiono in battaglia. Gondor respinge l'attacco, ma il prezzo è alto.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2885
+
 ## Nasce Bilbo
 
 **ID:** `bilbo-nasce` · **Tipo:** nascita · **Certezza:** certa
@@ -1610,6 +1944,249 @@ la versione breve è quella che compare sulla linea del tempo.
 
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 2890; Appendice C, Bilbo
+
+## L'Ithilien viene abbandonato
+
+**ID:** `ithilien-abbandonata` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** Anno 2901 · Terza Era
+
+**Dove:** Ithilien, Henneth Annûn
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| gli abitanti dell'Ithilien | Gondor | popolazione | abbandona la regione |
+| gli Uruk-hai | Mordor | assalitori | rendono la regione insicura |
+| Gondor | Gondor | regno | costruisce Henneth Annûn |
+
+**Versione breve:** Gli attacchi degli Uruk costringono gli abitanti a lasciare l'Ithilien; Gondor costruisce il rifugio di Henneth Annûn.
+
+**Testo lungo:** Nel 2901 la maggior parte degli abitanti dell'Ithilien abbandona la regione a causa dei ripetuti attacchi degli Uruk di Mordor. Gondor costruisce il rifugio segreto di Henneth Annûn, che servirà ai Raminghi e a Faramir durante la Guerra dell'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2901
+
+## Nasce Gilraen
+
+**ID:** `nascita-gilraen` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** Anno 2907 · Terza Era
+
+**Dove:** Eriador
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gilraen | Dúnedain del Nord | neonata | nasce |
+
+**Versione breve:** Nasce Gilraen, futura madre di Aragorn.
+
+**Testo lungo:** Nel 2907 nasce Gilraen, discendente dei Dúnedain del Nord. Sposerà Arathorn II e darà alla luce Aragorn, l'erede di Isildur.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2907
+
+## Il Crudele Inverno
+
+**ID:** `crudele-inverno` · **Tipo:** distruzione · **Certezza:** certa
+
+**Quando:** Anno 2911 · Terza Era
+
+**Dove:** Baranduin, Eriador, Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| i Lupi Bianchi | Nord | predatori | invadono l'Eriador |
+| gli Hobbit | Contea | popolazione | subisce il gelo |
+
+**Versione breve:** Il Crudele Inverno gela i fiumi e i Lupi Bianchi invadono l'Eriador.
+
+**Testo lungo:** Nel 2911 il Crudele Inverno gela il Baranduin e altri fiumi. I Lupi Bianchi scendono da nord e invadono l'Eriador. Gli Hobbit della Contea soffrono il freddo e la fame, e la memoria di quell'inverno resterà a lungo.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2911
+
+## Le inondazioni distruggono Tharbad
+
+**ID:** `inondazioni-2912` · **Tipo:** distruzione · **Certezza:** certa
+
+**Quando:** Anno 2912 · Terza Era
+
+**Dove:** Enedwaith, Minhiriath, Tharbad
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| gli abitanti di Tharbad | Tharbad | popolazione | perde la città |
+
+**Versione breve:** Grandi inondazioni devastano l'Enedwaith e il Minhiriath; Tharbad viene distrutta e abbandonata.
+
+**Testo lungo:** Nel 2912 grandi inondazioni devastano l'Enedwaith e il Minhiriath. Tharbad, la città sul Gwathló, viene distrutta e abbandonata. La regione resta spopolata e le vie che la attraversano diventano sempre più deserte.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2912
+
+## Muore il Vecchio Tuc
+
+**ID:** `morte-vecchio-tuc` · **Tipo:** morte · **Certezza:** certa
+
+**Quando:** Anno 2920 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gerontius Tuc | Contea | anziano | muore |
+
+**Versione breve:** Muore Gerontius Tuc, il Vecchio Tuc.
+
+**Testo lungo:** Nel 2920 muore Gerontius Tuc, conosciuto come il Vecchio Tuc. La sua longevità e la sua famiglia restano nella memoria della Contea, e Bilbo Baggins ne parlerà come di un parente illustre.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2920
+
+## Arathorn sposa Gilraen
+
+**ID:** `nozze-arathorn-gilraen` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 2929 · Terza Era
+
+**Dove:** Eriador
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Arathorn II | Dúnedain del Nord | sposo | sposa Gilraen |
+| Gilraen | Dúnedain del Nord | sposa | sposa Arathorn |
+
+**Versione breve:** Arathorn II, figlio di Arador, sposa Gilraen.
+
+**Testo lungo:** Nel 2929 Arathorn II, figlio di Arador e erede dei Capitani dei Dúnedain, sposa Gilraen. Dal matrimonio nascerà Aragorn, destinato a diventare re di Gondor e Arnor.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2929
+
+## Arador viene ucciso
+
+**ID:** `arador-ucciso` · **Tipo:** morte · **Certezza:** certa
+
+**Quando:** Anno 2930 · Terza Era
+
+**Dove:** Eriador
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Arador | Dúnedain del Nord | capitano | viene ucciso |
+| i Vagabondi | Eriador | predoni | lo uccidono |
+
+**Versione breve:** Arador, Capitano dei Dúnedain, viene ucciso dai Vagabondi.
+
+**Testo lungo:** Nel 2930 Arador, Capitano dei Dúnedain del Nord e nonno di Aragorn, viene ucciso dai Vagabondi nell'Eriador. Suo figlio Arathorn gli succede, ma anche la sua vita sarà breve.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2930
+
+## Nasce Denethor II
+
+**ID:** `nascita-denethor` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** Anno 2930 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Denethor II | Gondor | neonato | nasce |
+| Ecthelion II | Gondor | padre | lo alleva |
+
+**Versione breve:** Nasce Denethor II, figlio di Ecthelion II di Gondor.
+
+**Testo lungo:** Nel 2930 nasce a Minas Tirith Denethor II, figlio del Sovrintendente Ecthelion II. Diventerà l'ultimo Sovrintendente Regnante di Gondor e il padre di Boromir e Faramir.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2930
+
+## Nasce Aragorn
+
+**ID:** `nascita-aragorn` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** 1 marzo 2931 · Terza Era
+
+**Dove:** Eriador
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aragorn | Dúnedain del Nord | neonato | nasce |
+| Arathorn II | Dúnedain del Nord | padre | lo riconosce erede |
+| Gilraen | Dúnedain del Nord | madre | lo alleva |
+
+**Versione breve:** Nasce Aragorn, figlio di Arathorn II e Gilraen, erede di Isildur.
+
+**Testo lungo:** Il primo marzo del 2931 nasce Aragorn, figlio di Arathorn II e Gilraen. È l'erede di Isildur e il futuro re Elessar, ma la sua discendenza resterà nascosta finché Elrond non lo rivelerà.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2931
+
+## Arathorn II viene ucciso
+
+**ID:** `arathorn-ucciso` · **Tipo:** morte · **Certezza:** certa
+
+**Quando:** Anno 2933 · Terza Era
+
+**Dove:** Eriador, Gran Burrone
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Arathorn II | Dúnedain del Nord | capitano | viene ucciso |
+| Gilraen | Dúnedain del Nord | madre | porta Aragorn a Gran Burrone |
+| Aragorn | Dúnedain del Nord | erede | viene accolto da Elrond |
+| Elrond | Gran Burrone | signore elfico | lo chiama Estel |
+
+**Versione breve:** Arathorn II viene ucciso; Gilraen porta Aragorn a Gran Burrone, dove Elrond lo alleva come Estel.
+
+**Testo lungo:** Nel 2933 Arathorn II viene ucciso. Gilraen porta il figlio Aragorn a Gran Burrone, dove Elrond lo accoglie come figlio adottivo e lo chiama Estel, «Speranza». La vera discendenza di Aragorn viene tenuta nascosta per proteggerlo.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2933
+
+## Saruman scopre la ricerca di Sauron
+
+**ID:** `saruman-scopre` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 2939 · Terza Era
+
+**Dove:** Campo Gaggiolo, Isengard
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Saruman | Isengard | capo del Bianco Consiglio | tace ciò che scopre |
+| le forze di Sauron | Mordor | cercatori | ispezionano l'Anduin |
+
+**Versione breve:** Saruman scopre che i servitori di Sauron cercano l'Anello lungo l'Anduin, ma non dice nulla al Consiglio.
+
+**Testo lungo:** Nel 2939 Saruman scopre che i servitori di Sauron stanno ispezionando l'Anduin nei pressi di Campo Gaggiolo, e che Sauron sa della fine di Isildur. Preoccupato, ma geloso del proprio potere, non informa il Bianco Consiglio.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2939
 
 ## L'Anello ritrova Bilbo
 
@@ -1767,6 +2344,116 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 2942
 
+## Bard ricostruisce Valle
+
+**ID:** `bard-re-valle` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 2944 · Terza Era
+
+**Dove:** Valle, Erebor
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Bard | Valle | re | ricostruisce la città |
+| gli abitanti di Valle | Valle | popolazione | torna a vivere nella città |
+
+**Versione breve:** Bard ricostruisce Valle e ne diventa re.
+
+**Testo lungo:** Nel 2944 Bard ricostruisce Valle, la città distrutta da Smaug, e ne diventa re. Con il tesoro di Erebor e l'aiuto dei Nani, la città torna a vivere sotto la Montagna.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2944
+
+## Gollum lascia le Montagne
+
+**ID:** `gollum-lascia-montagne` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** Anno 2944 · Terza Era
+
+**Dove:** Montagne Nebbiose
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gollum | Montagne Nebbiose | custode | parte in cerca del ladro |
+
+**Versione breve:** Gollum lascia le Montagne Nebbiose in cerca del «ladro» dell'Anello.
+
+**Testo lungo:** Nel 2944 Gollum lascia le Montagne Nebbiose e comincia a cercare il «ladro» che gli ha portato via l'Anello. La sua caccia lo porterà fuori dalle caverne e, anni dopo, fino a Mordor.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2944
+
+## Nasce Théoden
+
+**ID:** `nascita-theoden` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** Anno 2948 · Terza Era
+
+**Dove:** Rohan
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Théoden | Rohan | neonato | nasce |
+| Thengel | Rohan | padre | lo alleva |
+
+**Versione breve:** Nasce Théoden, figlio di Thengel, futuro re di Rohan.
+
+**Testo lungo:** Nel 2948 nasce Théoden, figlio di Thengel, re di Rohan. Diventerà re del Mark e guiderà i Rohirrim nella Guerra dell'Anello, fino alla battaglia dei Campi del Pelennor.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2948
+
+## Gandalf e Balin visitano Bilbo
+
+**ID:** `gandalf-balin-bilbo` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 2949 · Terza Era
+
+**Dove:** Contea, Hobbiville
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gandalf | Istari | visitatore | visita Bilbo |
+| Balin | Nani | visitatore | visita Bilbo |
+| Bilbo Baggins | Hobbit | ospite | li accoglie |
+
+**Versione breve:** Gandalf e Balin vanno a trovare Bilbo nella Contea.
+
+**Testo lungo:** Nel 2949 Gandalf e Balin visitano Bilbo a Casa Baggins. È una visita amichevole, ma mostra che il Nano e il mago continuano a seguire le vicende del tesoro di Erebor e dell'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2949
+
+## Nasce Finduilas
+
+**ID:** `nascita-finduilas` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** Anno 2950 · Terza Era
+
+**Dove:** Dol Amroth
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Finduilas | Dol Amroth | neonata | nasce |
+| Adrahil | Dol Amroth | padre | la alleva |
+
+**Versione breve:** Nasce Finduilas, figlia di Adrahil di Dol Amroth.
+
+**Testo lungo:** Nel 2950 nasce Finduilas, figlia di Adrahil, principe di Dol Amroth. Sposerà Denethor II e sarà la madre di Boromir e Faramir.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2950
+
 ## Sauron si dichiara
 
 **ID:** `sauron-si-dichiara` · **Tipo:** evento · **Certezza:** certa
@@ -1837,6 +2524,356 @@ la versione breve è quella che compare sulla linea del tempo.
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anno 2954
 
+## Aragorn incontra Gandalf
+
+**ID:** `aragorn-gandalf` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 2956 · Terza Era
+
+**Dove:** Eriador
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aragorn | Dúnedain del Nord | Ramingo | stringe amicizia con Gandalf |
+| Gandalf | Istari | mago | diventa suo amico |
+
+**Versione breve:** Aragorn incontra Gandalf e nasce la loro amicizia.
+
+**Testo lungo:** Nel 2956 Aragorn incontra Gandalf. Da questo incontro nasce un'amicizia destinata a cambiare la storia della Terra di Mezzo: il Ramingo e il mago collaboreranno nella caccia a Gollum e nella Guerra dell'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2956
+
+## I viaggi di Aragorn
+
+**ID:** `viaggi-aragorn` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 2957-2980 · Terza Era
+
+**Dove:** Rohan, Gondor, Eriador
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aragorn | Dúnedain del Nord | viaggiatore | percorre la Terra di Mezzo |
+| Thengel | Rohan | re | lo accoglie come Thorongil |
+| Ecthelion II | Gondor | Sovrintendente | gli affida incarichi |
+
+**Versione breve:** Aragorn percorre la Terra di Mezzo sotto il nome di Thorongil e serve Thengel di Rohan ed Ecthelion II di Gondor.
+
+**Testo lungo:** Tra il 2957 e il 2980 Aragorn viaggia a lungo. Si fa chiamare Thorongil, «Aquila della Stella», e serve Thengel di Rohan ed Ecthelion II di Gondor. Impara la guerra, la politica e i confini del mondo, preparandosi al ruolo di re.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anni 2957-2980
+
+## Nasce Frodo
+
+**ID:** `nascita-frodo` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** Anno 2968 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Frodo Baggins | Hobbit | neonato | nasce |
+
+**Versione breve:** Nasce Frodo Baggins, futuro Portatore dell'Anello.
+
+**Testo lungo:** Nel 2968 nasce Frodo Baggins nella Contea. Crescerà con Bilbo a Casa Baggins e, molti anni dopo, riceverà da lui l'Unico Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2968
+
+## Denethor sposa Finduilas
+
+**ID:** `nozze-denethor-finduilas` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 2976 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Denethor II | Gondor | sposo | sposa Finduilas |
+| Finduilas | Dol Amroth | sposa | sposa Denethor |
+
+**Versione breve:** Denethor sposa Finduilas di Dol Amroth.
+
+**Testo lungo:** Nel 2976 Denethor sposa Finduilas di Dol Amroth. Dal matrimonio nasceranno Boromir e Faramir. La morte precoce di Finduilas segnerà profondamente Denethor.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2976
+
+## Bain diventa re della Valle
+
+**ID:** `bain-re-valle` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 2977 · Terza Era
+
+**Dove:** Valle
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Bain | Valle | re | succede a Bard |
+
+**Versione breve:** Bain, figlio di Bard, diventa re della Valle.
+
+**Testo lungo:** Nel 2977 Bain succede al padre Bard come re della Valle. Il regno della città sotto Erebor continua a prosperare grazie al commercio con i Nani.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2977
+
+## Nasce Boromir
+
+**ID:** `nascita-boromir` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** Anno 2978 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Boromir | Gondor | neonato | nasce |
+| Denethor II | Gondor | padre | lo alleva |
+| Finduilas | Gondor | madre | lo alleva |
+
+**Versione breve:** Nasce Boromir, figlio di Denethor II e Finduilas.
+
+**Testo lungo:** Nel 2978 nasce Boromir, figlio maggiore di Denethor II e Finduilas. Diventerà un valoroso comandante di Gondor e membro della Compagnia dell'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2978
+
+## Aragorn e Arwen si giurano fedeltà
+
+**ID:** `aragorn-arwen-cerin-amroth` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 2980 · Terza Era
+
+**Dove:** Cerin Amroth, Lórien
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Aragorn | Dúnedain del Nord | innamorato | le dona l'anello di Barahir |
+| Arwen | Gran Burrone | innamorata | gli giura fedeltà |
+
+**Versione breve:** Aragorn ritorna a Lórien e incontra Arwen; sulla collina di Cerin Amroth si giurano eterna fedeltà.
+
+**Testo lungo:** Nel 2980 Aragorn ritorna a Lórien e incontra per la seconda volta Arwen. Le dona l'anello di Barahir e sulla collina di Cerin Amroth si giurano eterna fedeltà. Arwen sceglierà poi la sorte degli Uomini per sposarlo.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2980
+
+## Gollum conosce Shelob
+
+**ID:** `gollum-shelob` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 2980 · Terza Era
+
+**Dove:** Cirith Ungol, Mordor
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gollum | Montagne Nebbiose | cercatore | raggiunge Mordor |
+| Shelob | Cirith Ungol | ragna | lo lascia passare |
+
+**Versione breve:** Gollum raggiunge i confini di Mordor e conosce Shelob.
+
+**Testo lungo:** Intorno al 2980 Gollum raggiunge i confini di Mordor e conosce Shelob, la grande ragna di Cirith Ungol. Da lei imparerà la via segreta che porta dentro Mordor, la stessa che useranno Frodo e Sam.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2980
+
+## Théoden diventa re di Rohan
+
+**ID:** `theoden-re` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 2980 · Terza Era
+
+**Dove:** Rohan, Edoras
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Théoden | Rohan | re | sale al trono |
+
+**Versione breve:** Théoden diventa re del Mark.
+
+**Testo lungo:** Nel 2980 Théoden diventa re di Rohan. Il suo regno sarà segnato dalla minaccia di Saruman, dalla morte del figlio e dalla grande battaglia dei Campi del Pelennor.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2980
+
+## Nascono Faramir e Samvise
+
+**ID:** `nascita-faramir-sam` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** Anno 2983 · Terza Era
+
+**Dove:** Minas Tirith, Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Faramir | Gondor | neonato | nasce |
+| Samvise Gamgi | Hobbit | neonato | nasce |
+| Denethor II | Gondor | padre di Faramir | lo alleva |
+| Finduilas | Gondor | madre di Faramir | lo alleva |
+
+**Versione breve:** Nascono Faramir, figlio di Denethor, e Samvise Gamgi nella Contea.
+
+**Testo lungo:** Nel 2983 nascono Faramir, secondo figlio di Denethor II e Finduilas, e Samvise Gamgi nella Contea. I due non si conosceranno prima della Guerra dell'Anello, ma saranno entrambi decisivi nella caduta di Sauron.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2983
+
+## Denethor diventa Sovrintendente
+
+**ID:** `denethor-sovrintendente` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 2984 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Ecthelion II | Gondor | Sovrintendente | muore |
+| Denethor II | Gondor | erede | assume il governo |
+
+**Versione breve:** Muore Ecthelion II; Denethor II diventa Sovrintendente di Gondor.
+
+**Testo lungo:** Nel 2984 muore Ecthelion II e Denethor II assume il governo di Gondor come Sovrintendente. Il suo carattere orgoglioso e la sua lotta con Sauron segneranno gli ultimi anni del regno.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2984
+
+## Muore Finduilas
+
+**ID:** `morte-finduilas` · **Tipo:** morte · **Certezza:** certa
+
+**Quando:** Anno 2988 · Terza Era
+
+**Dove:** Minas Tirith
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Finduilas | Gondor | moglie di Denethor | muore giovane |
+
+**Versione breve:** Finduilas, moglie di Denethor, muore ancora giovane.
+
+**Testo lungo:** Nel 2988 muore Finduilas, moglie di Denethor e madre di Boromir e Faramir. La sua morte lascia Denethor più solo e amareggiato, e contribuisce a indurirlo.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2988
+
+## Balin parte per Moria
+
+**ID:** `balin-moria` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** Anno 2989 · Terza Era
+
+**Dove:** Erebor, Moria
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Balin | Nani | condottiero | guida una colonia a Moria |
+
+**Versione breve:** Balin lascia Erebor e si reca a Moria con una colonia di Nani.
+
+**Testo lungo:** Nel 2989 Balin lascia Erebor e si reca a Moria con una colonia di Nani, sperando di riconquistare l'antica città. La spedizione sembra inizialmente riuscire, ma Moria è ancora abitata da creature ostili.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2989
+
+## Nasce Éomer
+
+**ID:** `nascita-eomer` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** Anno 2991 · Terza Era
+
+**Dove:** Rohan
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Éomer | Rohan | neonato | nasce |
+
+**Versione breve:** Nasce Éomer, figlio di Éomund, futuro re di Rohan.
+
+**Testo lungo:** Nel 2991 nasce Éomer, figlio di Éomund e nipote di Théoden. Diventerà maresciallo del Mark e, dopo la guerra, re di Rohan.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2991
+
+## La colonia di Moria viene distrutta
+
+**ID:** `colonia-moria` · **Tipo:** distruzione · **Certezza:** certa
+
+**Quando:** Anno 2994 · Terza Era
+
+**Dove:** Moria
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Balin | Nani | signore della colonia | muore |
+| i Nani del Popolo di Durin | Nani | coloni | vengono uccisi |
+| gli Orchetti | Moria | assalitori | distruggono la colonia |
+
+**Versione breve:** Balin muore e la colonia dei Nani a Moria viene distrutta dagli Orchetti.
+
+**Testo lungo:** Nel 2994 Balin muore e la colonia dei Nani a Moria viene distrutta dagli Orchetti. La tomba di Balin resterà nella città sotterranea, e la Compagnia dell'Anello la troverà anni dopo.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2994
+
+## Nasce Éowyn
+
+**ID:** `nascita-eowyn` · **Tipo:** nascita · **Certezza:** certa
+
+**Quando:** Anno 2995 · Terza Era
+
+**Dove:** Rohan
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Éowyn | Rohan | neonata | nasce |
+
+**Versione breve:** Nasce Éowyn, sorella di Éomer.
+
+**Testo lungo:** Nel 2995 nasce Éowyn, sorella di Éomer e nipote di Théoden. Crescerà a Edoras e diventerà la donna che, sotto il nome di Dernhelm, ucciderà il Re degli Stregoni.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 2995
+
 ## Saruman tradisce
 
 **ID:** `saruman-tradisce` · **Tipo:** tradimento · **Certezza:** certa
@@ -1884,6 +2921,162 @@ la versione breve è quella che compare sulla linea del tempo.
 - Il Signore degli Anelli, Appendice B, anno 3001; Libro I, capitolo 1
 
 **Note:** La data è quella del calendario della Contea, come nell'Appendice B.
+
+## Bilbo si stabilisce a Gran Burrone
+
+**ID:** `bilbo-gran-burrone` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** Anno 3002 · Terza Era
+
+**Dove:** Gran Burrone
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Bilbo Baggins | Hobbit | ospite | si stabilisce da Elrond |
+| Elrond | Gran Burrone | signore elfico | lo accoglie |
+
+**Versione breve:** Bilbo, ospite di Elrond, si stabilisce a Gran Burrone.
+
+**Testo lungo:** Nel 3002 Bilbo lascia la Contea e si stabilisce a Gran Burrone come ospite di Elrond. Qui scriverà le sue memorie e resterà fino alla partenza dell'Ultima Nave.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3002
+
+## Gandalf visita Frodo
+
+**ID:** `gandalf-visita-frodo` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 3004 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gandalf | Istari | visitatore | comincia le sue visite |
+| Frodo Baggins | Hobbit | ospite | lo accoglie |
+
+**Versione breve:** Gandalf si reca da Frodo nella Contea e continua a visitarlo per quattro anni.
+
+**Testo lungo:** Nel 3004 Gandalf si reca da Frodo nella Contea e comincia una serie di visite saltuarie che dureranno quattro anni. Il mago cerca di capire la natura dell'Anello che Frodo custodisce.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3004
+
+## Brand diventa re della Valle
+
+**ID:** `brand-re-valle` · **Tipo:** politica · **Certezza:** certa
+
+**Quando:** Anno 3007 · Terza Era
+
+**Dove:** Valle
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Brand | Valle | re | succede a Bain |
+
+**Versione breve:** Brand, figlio di Bain, diventa re della Valle.
+
+**Testo lungo:** Nel 3007 Brand succede al padre Bain come re della Valle. Combatterà accanto ai Nani di Erebor nella battaglia della Valle, durante la Guerra dell'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3007
+
+## Muore Gilraen
+
+**ID:** `morte-gilraen` · **Tipo:** morte · **Certezza:** certa
+
+**Quando:** Anno 3007 · Terza Era
+
+**Dove:** Gran Burrone
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gilraen | Dúnedain del Nord | madre di Aragorn | muore |
+
+**Versione breve:** Muore Gilraen, madre di Aragorn.
+
+**Testo lungo:** Nel 3007 muore Gilraen, madre di Aragorn, a Gran Burrone. La sua morte chiude il legame diretto di Aragorn con la madre e lo lascia solo con il compito di rivendicare l'eredità di Isildur.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3007
+
+## Ultima visita di Gandalf a Frodo
+
+**ID:** `ultima-visita-gandalf` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 3008 · Terza Era
+
+**Dove:** Contea
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gandalf | Istari | visitatore | visita Frodo per l'ultima volta |
+| Frodo Baggins | Hobbit | ospite | lo saluta |
+
+**Versione breve:** In autunno Gandalf fa la sua ultima visita a Frodo prima della guerra.
+
+**Testo lungo:** Nell'autunno del 3008 Gandalf fa la sua ultima visita a Frodo. Per alcuni anni non tornerà nella Contea, mentre cerca notizie di Gollum e dell'Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3008
+
+## La ricerca di Gollum
+
+**ID:** `ricerca-gollum` · **Tipo:** viaggio · **Certezza:** certa
+
+**Quando:** 3009-3017 · Terza Era
+
+**Dove:** Anduin, Bosco Atro, Mordor, Gran Burrone
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gandalf | Istari | cercatore | cerca Gollum |
+| Aragorn | Dúnedain del Nord | cercatore | cattura Gollum |
+| Gollum | Montagne Nebbiose | fuggiasco | viene catturato da Sauron e poi da Aragorn |
+| Arwen | Gran Burrone | ospite | torna a Imladris |
+
+**Versione breve:** Gandalf e Aragorn cercano Gollum per otto anni; Gollum arriva a Mordor, viene catturato da Sauron e poi da Aragorn.
+
+**Testo lungo:** Tra il 3009 e il 3017 Gandalf e Aragorn percorrono le valli dell'Anduin, il Bosco Atro e le Terre Selvagge alla ricerca di Gollum. Gollum, nel frattempo, raggiunge Mordor e viene catturato da Sauron, che lo interroga. In questo periodo Arwen torna a Gran Burrone.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anni 3009-3017
+
+## Gollum viene catturato
+
+**ID:** `gollum-catturato` · **Tipo:** evento · **Certezza:** certa
+
+**Quando:** Anno 3017 · Terza Era
+
+**Dove:** Paludi Morte, Bosco Atro, Minas Tirith
+
+**Partecipanti:**
+
+| Nome | Parte | Ruolo | Esito |
+|---|---|---|---|
+| Gollum | Mordor | prigioniero | viene condotto da Thranduil |
+| Aragorn | Dúnedain del Nord | catturatore | lo trova nelle Paludi Morte |
+| Thranduil | Bosco Atro | re elfico | lo custodisce |
+| Gandalf | Istari | studioso | legge la pergamena di Isildur |
+
+**Versione breve:** Gollum viene liberato da Mordor, catturato da Aragorn nelle Paludi Morte e affidato a Thranduil; Gandalf legge la pergamena di Isildur.
+
+**Testo lungo:** Nel 3017 Gollum viene liberato dal potere di Mordor. Aragorn lo trova nelle Paludi Morte e lo conduce da Thranduil nel Bosco Atro. Nello stesso periodo Gandalf si reca a Minas Tirith e legge la pergamena di Isildur, trovando la conferma che l'Anello di Frodo è l'Unico Anello.
+
+**Fonti:**
+- Il Signore degli Anelli, Appendice B, anno 3017
 
 ## Gollum fugge dal Bosco Atro
 

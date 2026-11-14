@@ -11,15 +11,19 @@
       "descrizione": "Il regno degli Uomini del Sud, tra l'Anduin e le Montagne Bianche.",
       "nota": null,
       "eventi": [
+        "albero-morto",
         "alleanza-gondor-arnor",
         "assedio-minas-ithil",
         "aurighe",
+        "battaglia-erui",
         "corsari-pelargir",
         "earnil-conquista-umbar",
         "grande-peste",
+        "haradrim-poros",
         "incendio-osgiliath",
         "incoronazione-earnil-ii",
         "invasione-esterling",
+        "ithilien-abbandonata",
         "minas-ithil",
         "mordor-sorveglianza",
         "osgiliath-3018",
@@ -65,11 +69,14 @@
       "eventi": [
         "angmar",
         "bucca-conte",
+        "crudele-inverno",
         "erba-pipa",
         "fondazione-contea",
         "grande-peste",
+        "isengrim-grandi-smial",
         "isumbras-conte",
-        "ombra-bosco-attro"
+        "ombra-bosco-attro",
+        "sturoi-contea"
       ]
     },
     {
@@ -126,10 +133,15 @@
       "eventi": [
         "angmar",
         "battaglia-celebrant",
+        "brandobras-orcs",
         "celebrian-ferita",
+        "colonia-moria",
         "compagnia-si-scioglie",
         "fortezze-orchetti",
-        "gollum-fugge"
+        "gollum-fugge",
+        "guerra-nani-orchetti",
+        "orcs-eridor",
+        "orcs-rovano"
       ]
     },
     {
@@ -179,6 +191,8 @@
       "descrizione": "I Nani discendenti di Durin, dispersi tra Erebor, Moria e i Colli Ferrosi.",
       "nota": null,
       "eventi": [
+        "colonia-moria",
+        "guerra-nani-orchetti",
         "nani-erebor",
         "thorin-i-montagne-grigie"
       ]
@@ -193,6 +207,7 @@
       "descrizione": "Il popolo dei Cavalieri di Rohan.",
       "nota": null,
       "eventi": [
+        "orcs-rovano",
         "rohan"
       ]
     },
@@ -237,7 +252,8 @@
       "descrizione": "Gli Orchetti guerrieri di Saruman.",
       "nota": null,
       "eventi": [
-        "fosso-helm"
+        "fosso-helm",
+        "ithilien-abbandonata"
       ]
     },
     {
@@ -248,7 +264,8 @@
       "descrizione": "Gli abitanti dell'Ithilien che fuggono dopo il 2954.",
       "nota": null,
       "eventi": [
-        "fato-avvampa"
+        "fato-avvampa",
+        "ithilien-abbandonata"
       ]
     },
     {
@@ -396,6 +413,7 @@
       "descrizione": "Il consiglio dei Saggi che si riunisce contro Dol Guldur.",
       "nota": null,
       "eventi": [
+        "consiglio-2851",
         "deagol-anello",
         "ultimo-consiglio"
       ]
@@ -463,7 +481,8 @@
       "descrizione": "L'esercito di Sauron nella Guerra dell'Anello.",
       "nota": null,
       "eventi": [
-        "morannon"
+        "morannon",
+        "saruman-scopre"
       ]
     },
     {
@@ -512,6 +531,7 @@
       "nota": null,
       "eventi": [
         "aldamir-morte",
+        "haradrim-poros",
         "hyarmendacil-ii-harad"
       ]
     },
@@ -523,6 +543,7 @@
       "descrizione": "I seguaci di Castamir che si impadroniscono di Umbar.",
       "nota": null,
       "eventi": [
+        "battaglia-erui",
         "incendio-osgiliath",
         "ribelli-umbar"
       ]
@@ -535,7 +556,8 @@
       "descrizione": "Il popolo errante discendente di Arnor, guidato dai Capitani.",
       "nota": null,
       "eventi": [
-        "aranarth-capitano"
+        "aranarth-capitano",
+        "orcs-eridor"
       ]
     },
     {
@@ -563,10 +585,92 @@
       "eventi": [
         "isumbras-conte"
       ]
+    },
+    {
+      "id": "gruppo-figli-folcwine",
+      "nome": "i figli di Folcwine",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "I figli del re Folcwine, morti al servizio di Gondor.",
+      "nota": null,
+      "eventi": [
+        "haradrim-poros"
+      ]
+    },
+    {
+      "id": "gruppo-lupi-bianchi",
+      "nome": "i Lupi Bianchi",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "I lupi che invadono l'Eriador durante il Crudele Inverno.",
+      "nota": null,
+      "eventi": [
+        "crudele-inverno"
+      ]
+    },
+    {
+      "id": "gruppo-abitanti-tharbad",
+      "nome": "gli abitanti di Tharbad",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "La popolazione della città di Tharbad, distrutta dalle inondazioni.",
+      "nota": null,
+      "eventi": [
+        "inondazioni-2912"
+      ]
+    },
+    {
+      "id": "gruppo-vagabondi",
+      "nome": "i Vagabondi",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "I predoni che uccidono Arador nell'Eriador.",
+      "nota": null,
+      "eventi": [
+        "arador-ucciso"
+      ]
+    },
+    {
+      "id": "gruppo-abitanti-valle",
+      "nome": "gli abitanti di Valle",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "Gli abitanti della città di Valle, ricostruita da Bard.",
+      "nota": null,
+      "eventi": [
+        "bard-re-valle"
+      ]
+    },
+    {
+      "id": "popolo-paloidi",
+      "nome": "i Paloidi",
+      "tipo": "popolo",
+      "alias": [
+        "Paloidi"
+      ],
+      "descrizione": "Un ramo degli Hobbit che si sposta nell'Eriador.",
+      "nota": null,
+      "eventi": [
+        "migrazione-sturoi"
+      ]
+    },
+    {
+      "id": "popolo-sturoi",
+      "nome": "gli Sturoi",
+      "tipo": "popolo",
+      "alias": [
+        "Sturoi"
+      ],
+      "descrizione": "Il ramo degli Hobbit che passa il Valico Cornorosso e si stabilisce nel Dunland.",
+      "nota": null,
+      "eventi": [
+        "migrazione-sturoi",
+        "sturoi-contea"
+      ]
     }
   ],
   "copertura": {
-    "nomi_coperti": 44,
-    "nomi_scoperti": 92
+    "nomi_coperti": 51,
+    "nomi_scoperti": 112
   }
 }

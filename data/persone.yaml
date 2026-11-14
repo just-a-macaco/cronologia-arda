@@ -1036,3 +1036,224 @@
   alias: []
   descrizione: Il tredicesimo Conte della Contea, primo della casa dei Tuc.
   nota: null
+
+- id: brego
+  nome: Brego
+  tipo: personaggio
+  specie: Uomo
+  popolo: Rohirrim
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il figlio di Eorl che completa la Sala d'Oro a Edoras.
+  nota: null
+
+- id: baldor
+  nome: Baldor
+  tipo: personaggio
+  specie: Uomo
+  popolo: Rohirrim
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il figlio di Brego che scompare nella Porta Proibita.
+  nota: null
+
+- id: isengrim-ii
+  nome: Isengrim II
+  tipo: personaggio
+  specie: Hobbit
+  popolo: Hobbit
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il decimo Conte della Contea, che comincia i Grandi Smial.
+  nota: null
+
+- id: ecthelion-i
+  nome: Ecthelion I
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor che ricostruisce la Torre Bianca.
+  nota: null
+
+- id: brandobras-tuc
+  nome: Brandobras Tuc
+  tipo: personaggio
+  specie: Hobbit
+  popolo: Hobbit
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: L'Hobbit che sconfigge una banda di Orchetti nel Decumano Nord.
+  nota: null
+
+- id: walda
+  nome: Walda
+  tipo: personaggio
+  specie: Uomo
+  popolo: Rohirrim
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Rohan ucciso dagli Orchetti nel 2861.
+  nota: null
+
+- id: belecthor-ii
+  nome: Belecthor II
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il Sovrintendente di Gondor alla morte dell'Albero Bianco.
+  nota: null
+
+- id: folcwine
+  nome: Folcwine
+  tipo: personaggio
+  specie: Uomo
+  popolo: Rohirrim
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Rohan i cui figli muoiono al servizio di Gondor.
+  nota: null
+
+- id: gilraen
+  nome: Gilraen
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: La madre di Aragorn.
+  nota: null
+
+- id: arathorn-ii
+  nome: Arathorn II
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il padre di Aragorn, ucciso nel 2933.
+  nota: null
+
+- id: arador
+  nome: Arador
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il nonno di Aragorn, ucciso dai Vagabondi.
+  nota: null
+
+- id: gerontius-tuc
+  nome: Gerontius Tuc
+  tipo: personaggio
+  specie: Hobbit
+  popolo: Hobbit
+  nascita: null
+  morte: null
+  alias:
+    - Vecchio Tuc
+  descrizione: Il Vecchio Tuc, morto nel 2920.
+  nota: null
+
+- id: ecthelion-ii
+  nome: Ecthelion II
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il Sovrintendente di Gondor, padre di Denethor.
+  nota: null
+
+- id: thengel
+  nome: Thengel
+  tipo: personaggio
+  specie: Uomo
+  popolo: Rohirrim
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Rohan, padre di Théoden.
+  nota: null
+
+- id: balin
+  nome: Balin
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il Nano che guida la colonia di Moria e vi muore nel 2994.
+  nota: null
+
+- id: finduilas
+  nome: Finduilas
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: 2950
+  morte: null
+  alias: []
+  descrizione: La figlia di Adrahil di Dol Amroth, moglie di Denethor.
+  nota: null
+
+- id: adrahil
+  nome: Adrahil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il principe di Dol Amroth, padre di Finduilas.
+  nota: null
+
+- id: bain
+  nome: Bain
+  tipo: personaggio
+  specie: Uomo
+  popolo: Uomini
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il figlio di Bard, re della Valle.
+  nota: null
+
+- id: brand
+  nome: Brand
+  tipo: personaggio
+  specie: Uomo
+  popolo: Uomini
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il figlio di Bain, re della Valle durante la Guerra dell'Anello.
+  nota: null
+
+- id: shelob
+  nome: Shelob
+  tipo: personaggio
+  specie: Ragno
+  popolo: Ragni
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: La grande ragna che vive a Cirith Ungol.
+  nota: null
