@@ -82,8 +82,9 @@ Vuole risposte dirette, senza convenevoli e senza adulazione. Preferisce che tu 
 ## 9. Stato a novembre 2026 (sessione OpenCode)
 
 - **Decisioni confermate**: v1 solo Terza Era, cerchio con l'intera era in scala reale (la tabella `eras` sarà completa da subito, gli eventi solo Terza). Quarta Era rimandata. Cosmologia completa rimandata alla fase di apertura delle altre Ere. Mappe: dettaglio geografico alto senza sacrificare la leggibilità.
-- **Il design "infografica" non convince del tutto**: in `proposte/` ci sono tre varianti da scegliere (atlante, editoriale, notturno), ciascuna pagina singola autonoma con 21 eventi della Terza Era tratti da Appendice B (date **da verificare**).
-- **Fonti**: in `fonti/` (ignorata da git, testi protetti) ci sono LoTR con Appendici (Bompiani 2004) e Lo Hobbit in .epub. Serve anche Il Silmarillion per la fase 4.
+- **Grafica scelta: «Atlante»** (in `proposte/atlante.html`). Le altre due proposte («Editoriale», «Notturno») restano in `proposte/` come riferimento scartato. Giudizio condiviso: Atlante è la più sobria; da affinare con dettagli per non risultare fredda.
+- **Fase 0 completata**: progetto strutturato (git attivo). `index.html` + `css/main.css` + `js/circle.js` (disegno del cerchio) + `js/data.js` (dataset). **Nota tecnica**: i dati sono in file `.js` con costanti globali e non JSON puro, per far funzionare la pagina anche aprendola direttamente da file senza server. Se in futuro si passa a fetch+JSON serve un server locale. Nessun build.
+- **Fonti**: in `fonti/` (ignorata da git, testi protetti) ci sono LoTR con Appendici (Bompiani 2004) e Lo Hobbit in .epub. Estrazione del testo dell'Appendice B in `fonti/estrazione/`. Serve anche Il Silmarillion per la fase 4.
 - **Git non ancora attivo**: mancano gli Xcode Command Line Tools (installazione avviata al primo `git init`; riprendere con `git init` e primo commit quando disponibili).
 - **Piano concordato in 5 fasi**: 0 impianto → 1 dataset Terza Era (45–55 eventi da Appendice B) → 2 mappa Terza Era ad alto dettaglio → 3 funzioni (zoom, ricerca, filtri, mappa a schermo intero; pannello laterale solo, in v1) → 4 apertura altre Ere → 5 alberi genealogici da Appendice A.
 - Problema noto nei prototipi: gli eventi del 3018–3021 si addensano in fondo al cerchio; lo zoom (fase 3) è la soluzione, per ora sono solo distanziati.

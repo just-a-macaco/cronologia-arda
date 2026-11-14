@@ -1,0 +1,45 @@
+:root{--bg:#f2f3f4;--ink:#1a1d21;--mt:#6b7178;--ln:#d7dbde;--ac:#b23a2e;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Space Grotesk",Helvetica,Arial,sans-serif;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+svg{display:block;width:100%;height:auto;user-select:none;-webkit-tap-highlight-color:transparent}
+svg text{font-family:"Space Grotesk",Helvetica,Arial,sans-serif}
+main{max-width:680px;margin:0 auto;padding:18px 14px 40px}
+h1{font:500 1rem/1.3 "Space Grotesk",sans-serif;letter-spacing:.3em;text-transform:uppercase;margin:0}
+.stat{margin:12px 0 10px;font:300 .95rem "Space Grotesk",sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--mt)}
+.stat b{font:700 3.2rem/1 "Space Grotesk",sans-serif;color:var(--ac);letter-spacing:0;margin-right:.25em;text-transform:none;font-variant-numeric:tabular-nums}
+.sub{margin:0 0 6px;color:var(--mt);font-size:.9rem;max-width:36em}
+.dot{cursor:pointer}
+.dot:focus-visible circle.v{stroke-width:4}
+#det{border-left:2px solid var(--ac);padding:2px 0 2px 16px;margin:6px 0 14px;min-height:7.6em}
+#det .y{font:600 .82rem/1.5 "Space Grotesk",sans-serif;letter-spacing:.15em;text-transform:uppercase;color:var(--ac);margin:0}
+#det h2{font:500 1.35rem/1.25 "Space Grotesk",sans-serif;margin:2px 0 6px}
+#det p{margin:0;font-size:1.02rem}
+.ctl{display:flex;justify-content:space-between;align-items:center;gap:10px;font:500 .85rem "Space Grotesk",sans-serif;color:var(--mt);letter-spacing:.1em}
+button{font:600 .8rem "Space Grotesk",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);background:none;border:1px solid var(--ink);border-radius:2px;padding:10px 18px;cursor:pointer;min-width:112px}
+button:active{background:var(--ink);color:var(--bg)}
+button:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+.note{color:var(--mt);font-size:.82rem;margin-top:22px}
+/* cerchio */
+.arc{fill:none;stroke:var(--ink);stroke-width:1.5;opacity:.85}
+.era{font-size:13px;font-weight:500;letter-spacing:.42em;fill:var(--mt)}
+.tick{stroke:var(--mt);stroke-width:1}
+.tickL{font-size:11px;fill:var(--mt);font-variant-numeric:tabular-nums}
+.conn{stroke:var(--ac);stroke-width:1.5;stroke-dasharray:1 5;stroke-linecap:round}
+.big{font-weight:700;fill:var(--ac);font-variant-numeric:tabular-nums}
+.ttl{fill:var(--ink);font-weight:300;font-size:24px;letter-spacing:.04em;text-transform:uppercase}
+.dot .v{fill:var(--bg);stroke:var(--ink);stroke-width:2}
+.dot .ring{fill:none;stroke:var(--ac);stroke-width:1.5}
+.dot:hover .v{stroke:var(--ac)}
+@media(min-width:900px){
+main{max-width:1560px;min-height:100vh;padding:28px 48px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(340px,1fr);grid-template-rows:1fr auto auto auto auto 1fr;column-gap:64px}
+#chart{grid-column:1;grid-row:1/7;align-self:center}
+#chart svg{max-height:calc(100vh - 56px);margin:0 auto}
+.hd{grid-column:2;grid-row:2}
+#det{grid-column:2;grid-row:3;min-height:11em;margin:18px 0 22px}
+.ctl{grid-column:2;grid-row:4}
+.note{grid-column:2;grid-row:5}
+.stat b{font-size:4.6rem}
+#det h2{font-size:1.7rem}
+#det p{font-size:1.15rem}
+.sub{font-size:1rem}
+}
