@@ -29,7 +29,7 @@ jobs:
       - name: Prepara il sito (solo i file pubblicabili)
         run: |
           mkdir -p _site
-          cp index.html _site/
+          cp index.html schede.html _site/
           cp -r css js _site/
           touch _site/.nojekyll
           ls -R _site

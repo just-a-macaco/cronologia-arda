@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Schede della Terza Era — Cronologia di Arda</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<main class="schede-main">
+<a class="back" href="index.html">← Torna al cerchio</a>
+<div class="hd">
+  <h1>Schede della Terza Era</h1>
+  <p class="sub">61 eventi in ordine di data. La scheda breve è sempre visibile; apri «Leggi la scheda completa» per il testo lungo, i partecipanti e le fonti.</p>
+  <div class="filters">
+    <label for="q">Cerca per titolo, luogo o persona</label>
+    <input id="q" type="search" placeholder="Per esempio: Frodo, Pelennor, 3019…" autocomplete="off">
+    <p id="count" class="count" aria-live="polite"></p>
+  </div>
+</div>
+<div id="cards" class="card-list"></div>
+<p class="note">61 eventi della Terza Era, verificati sull'Appendice B del Signore degli Anelli (Bompiani 2004). I nomi seguono l'edizione di riferimento.</p>
+</main>
+<script src="js/data.js"></script>
+<script src="js/schede.js"></script>
+</body>
+</html>
