@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cronologia di Arda · proposta Editoriale</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf9f6;--ink:#171310;--mt:#8a8378;--ln:#e2ded6;--ac:#7a2c25;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Archivo,Helvetica,Arial,sans-serif;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+svg{display:block;width:100%;height:auto;user-select:none;-webkit-tap-highlight-color:transparent}
+svg text{font-family:Archivo,Helvetica,Arial,sans-serif}
+svg text.f{font-family:Fraunces,Georgia,serif}
+main{max-width:680px;margin:0 auto;padding:18px 14px 40px}
+h1{font:600 1.9rem/1.15 Fraunces,Georgia,serif;margin:0}
+.stat{margin:12px 0 10px;font:500 .85rem Archivo,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--mt)}
+.stat b{font:700 3.2rem/1 Fraunces,serif;color:var(--ac);letter-spacing:0;margin-right:.25em;text-transform:none}
+.sub{margin:0 0 6px;color:var(--mt);font-size:.9rem;max-width:36em}
+.dot{cursor:pointer}
+.dot:focus-visible circle.v{stroke-width:5}
+#det{border-top:2px solid var(--ink);border-bottom:1px solid var(--ln);padding:12px 0 14px;margin:6px 0 14px;min-height:7.6em}
+#det .y{font:600 .8rem/1.5 Archivo,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--ac);margin:0}
+#det h2{font:600 1.5rem/1.25 Fraunces,Georgia,serif;margin:2px 0 8px}
+#det p{margin:0;font-size:1.02rem}
+.ctl{display:flex;justify-content:space-between;align-items:center;gap:10px;font:500 .8rem Archivo,sans-serif;color:var(--mt);letter-spacing:.12em}
+button{font:600 .8rem Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);background:none;border:1.5px solid var(--ink);border-radius:0;padding:10px 18px;cursor:pointer;min-width:112px}
+button:active{background:var(--ink);color:var(--bg)}
+button:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+.note{color:var(--mt);font-size:.82rem;margin-top:22px}
+/* cerchio */
+.arc{fill:none;stroke:var(--ink);stroke-width:14;opacity:.92}
+.era{font-size:13px;font-weight:600;letter-spacing:.42em;fill:var(--mt)}
+.tick{stroke:var(--bg);stroke-width:1.5}
+.tickL{font-size:11px;font-weight:600;fill:var(--mt);letter-spacing:.08em;font-variant-numeric:tabular-nums}
+.conn{stroke:var(--ac);stroke-width:2}
+.big{font-weight:600;fill:var(--ac);letter-spacing:.14em;text-transform:uppercase;font-variant-numeric:tabular-nums}
+.ttl{fill:var(--ink);font-weight:600;font-size:26px}
+.dot .v{fill:var(--bg);stroke:var(--ink);stroke-width:3}
+.dot .ring{fill:none;stroke:var(--ac);stroke-width:2}
+.dot:hover .v{stroke:var(--ac)}
+@media(min-width:900px){
+main{max-width:1560px;min-height:100vh;padding:28px 48px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(340px,1fr);grid-template-rows:1fr auto auto auto auto 1fr;column-gap:64px}
+#chart{grid-column:1;grid-row:1/7;align-self:center}
+#chart svg{max-height:calc(100vh - 56px);margin:0 auto}
+.hd{grid-column:2;grid-row:2}
+#det{grid-column:2;grid-row:3;min-height:11em;margin:18px 0 22px}
+.ctl{grid-column:2;grid-row:4}
+.note{grid-column:2;grid-row:5}
+.stat b{font-size:4.6rem}
+h1{font-size:2.6rem}
+#det h2{font-size:1.9rem}
+#det p{font-size:1.15rem}
+.sub{font-size:1rem}
+}
+</style>
+</head>
+<body>
+<main>
+<div class="hd"><h1>Cronologia di Arda</h1><p class="stat"><b>3021</b>anni della Terza Era</p>
+<p class="sub">Il cerchio copre l'intera Terza Era in scala reale: dall'Anno 1, con la fondazione di Arnor e Gondor, alla partenza dai Porti Grigi. Gli eventi vicini nel tempo sono leggermente distanziati per poterli toccare.</p></div>
+<div id="chart"></div>
+<div id="det" aria-live="polite"></div>
+<div class="ctl"><button id="pv">Precedente</button><span id="cn"></span><button id="nx">Successivo</button></div>
+<p class="note">Proposta grafica «Editoriale»: serif di character, fascia nera piena, un solo accento ossidato. Confronta con «Atlante» e «Notturno» nella stessa cartella, e con la versione precedente in prototipi/. I dati sono un primo campione della Terza Era (21 eventi da Appendice B, date da verificare prima della pubblicazione).</p>
+</main>
+<script>
+const EV=[
+[1,"Anno 1","Nascono Arnor e Gondor","Dopo la sconfitta di Sauron, Isildur e Anárion fondano i due regni dei Dúnedain in esilio: il regno del Nord e quello del Sud.",1],
+[2,"Anno 2","Isildur e l'Anello","Isildur, che aveva rifiutato di distruggere l'Unico, muore in un agguato presso i Campi Gladden: l'Anello sprofonda nell'Anduin.",2],
+[1000,"Anno 1000 circa","Giungono gli Istari","Nell'ansia per l'Ombra che cresce in Oriente, giungono in Terra di Mezzo i cinque Maghi: fra essi Gandalf e Saruman.",1000],
+[1050,"Anno 1050 circa","Sauron occupa Dol Guldur","L'Ombra cala sul Bosco Verde, che da allora è chiamato Bosco Atro. Nessuno sa ancora chi vi si nasconda.",1050],
+[1300,"Anno 1300 circa","Il Re Stregone fonda Angmar","Il capo dei Nazgûl riappare a nord e fonda il regno di Angmar, dichiarando guerra ai Dúnedain del Nord.",1300],
+[1636,"Anno 1636","La Grande Peste","Un'epidemia devastante spopola la Contea e uccide gran parte della popolazione di Gondor. Il regno del Sud non si riprenderà mai del tutto.",1636],
+[1944,"Anno 1944","Battaglia del Campo","Gli Auriga d'Oriente travolgono l'esercito di Gondor e uccidono il re Ondoher. È il generale Eärnil a riportare l'ultima grande vittoria del Sud.",1944],
+[1975,"Anno 1975","Battaglia di Fornost","Un esercito di Gondor sbarcato nel Nord sconfigge il Re Stregone davanti alle rovine di Fornost. Il regno di Arnor non si rialza più.",1975],
+[2050,"Anno 2050","Sparisce Eärnur","L'ultimo re di Gondor accetta la sfida del Re Stregone e non fa più ritorno. Da allora i Steward governano, in attesa di un re che non torna.",2050],
+[2460,"Anno 2460","Sauron torna a Dol Guldur","Dopo secoli di silenzio, l'Ombroso vi fa ritorno con forza rinnovata.",2460],
+[2470,"Anno 2470 circa","L'Anello ritrova un padrone","Sméagol uccide l'amico Déagol presso l'Anduin, si impadronisce dell'Anello e si nasconde sotto le Montagne Nebbiose: nasce Gollum.",2470],
+[2510,"Anno 2510","Nasce Rohan","Gli Auriga giungono alle porte di Gondor: gli uomini di Éorl li sbaragliano ai Campi del Celebrant e ricevono in dono la pianura di Calenardhon.",2510],
+[2758,"Anno 2758","Il Lungo Inverno","Neve senza precedenti e un'invasione da sud-ovest mettono in ginocchio Rohan: il re Helm muore nella fortezza di Hornburg.",2758],
+[2799,"Anno 2799","Fine della guerra dei Nani","Dopo anni di guerra vendicativa per la morte di Thrór, i Nani sconfiggono gli Orchi alla battaglia di Azanulbizar, alle porte di Moria.",2799],
+[2941,"Anno 2941","Smaug cade, e i Cinque Eserciti","Un drago, un nano, un mago e un hobbista: la morte di Smaug e la battaglia dei Cinque Eserciti riequilibrano il nord della Terra di Mezzo.",2941],
+[2951,"Anno 2951","Sauron si dichiara","L'Ombroso torna a Dol Guldur e si proclama apertamente: manda tre Nazgûl lungo l'Anduin a cercare l'Anello.",2951],
+[3018,"23 settembre 3018","Frodo lascia la Contea","Inizia la devastante traversata della Terra di Mezzo che porterà l'Anello a sud.",3018.72],
+[3019,"15 gennaio 3019","Gandalf cade a Moria","Sul Ponte di Khazad-dûm il mago affronta il flagello di Durin per permettere alla Compagnia di fuggire.",3019.04],
+[3019,"15 marzo 3019","Battaglia dei Campi del Pelennor","Minas Tirith è all'assedio quando arriva Rohan: la più grande battaglia della Terza Era si svolge sotto le mura della città.",3019.2],
+[3019,"25 marzo 3019","Distruzione dell'Anello","Ai piedi del Monte Fato la missione si compie: Gollum, l'Anello e il fuoco chiudono insieme la storia dell'Unico.",3019.27],
+[3021,"29 settembre 3021","Partenza dai Porti Grigi","Frodo, Bilbo e gli ultimi portatori dell'Anello salpano verso l'Occidente: finisce la Terza Era.",3021.75]
+];
+const CX=350,CY=350,R=250,A0=10,SP=340,LEN=3021;
+const AN=EV.map(e=>A0+e[4]/LEN*SP);
+for(let i=AN.length-2;i>=0;i--)AN[i]=Math.min(AN[i],AN[i+1]-3.6);
+if(AN[0]<A0+.4){AN[0]=A0+.4;for(let i=1;AN[i]<AN[i-1]+3.6;i++)AN[i]=AN[i-1]+3.6}
+const P=(a,r)=>{const t=a*Math.PI/180;return[CX+r*Math.sin(t),CY-r*Math.cos(t)]};
+const arc=(a,b,r)=>{const[x1,y1]=P(a,r),[x2,y2]=P(b,r);return`M${x1.toFixed(1)} ${y1.toFixed(1)}A${r} ${r} 0 ${b-a>180?1:0} 1 ${x2.toFixed(1)} ${y2.toFixed(1)}`};
+const wrap=(t,n)=>{const w=t.split(" ");const L=[];let c="";w.forEach(x=>{if((c+" "+x).trim().length>n&&c){L.push(c);c=x}else c=(c+" "+x).trim()});L.push(c);return L};
+let S=19;
+function draw(){
+  const e=EV[S];let g="";
+  g+=`<path class="arc" d="${arc(A0+.4,A0+SP-.4,R)}"/>`;
+  g+=`<text class="era" x="350" y="${350-R-16}" text-anchor="middle">TERZA ERA</text>`;
+  for(let y=500;y<LEN;y+=500){const a=A0+y/LEN*SP,[x1,y1]=P(a,R-10),[x2,y2]=P(a,R-20);
+    g+=`<line class="tick" x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}"/>`;
+    const[tx,ty]=P(a,R-40);g+=`<text class="tickL" x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" dy=".35em" text-anchor="middle">${y}</text>`}
+  const a=AN[S],[sx,sy]=P(a,R),[ex,ey]=P(a,R-58);
+  g+=`<line class="conn" x1="${sx}" y1="${sy}" x2="${ex}" y2="${ey}"/>`;
+  const L=wrap(e[2],18).slice(0,3),big=e[1],fs=big.length>14?24:(big.length>8?30:38),n=L.length;
+  g+=`<text class="big" x="350" y="${296-(n-1)*16}" text-anchor="middle" font-size="${fs}">${big}</text>`;
+  g+=L.map((l,i)=>`<text class="ttl f" x="350" y="${348-(n-1)*16+i*36}" text-anchor="middle">${l}</text>`).join("");
+  EV.forEach((v,i)=>{const[x,y]=P(AN[i],R),on=i===S;
+    g+=`<g class="dot" tabindex="0" role="button" aria-label="${v[2]}" data-i="${i}"><circle class="hit" cx="${x}" cy="${y}" r="15" fill="transparent"/><circle class="v" cx="${x}" cy="${y}" r="${on?10:5.5}"/>${on?`<circle class="ring" cx="${x}" cy="${y}" r="16"/>`:""}</g>`});
+  document.getElementById("chart").innerHTML=`<svg viewBox="0 0 700 700" role="group" aria-label="Cerchio del tempo">${g}</svg>`;
+  document.getElementById("det").innerHTML=`<p class="y">Terza Era · ${e[1]}</p><h2>${e[2]}</h2><p>${e[3]}</p>`;
+  document.getElementById("cn").textContent=`${S+1} di ${EV.length}`;
+}
+const go=i=>{S=(i+EV.length)%EV.length;draw()};
+document.getElementById("chart").addEventListener("click",ev=>{
+  const d=ev.target.closest("[data-i]");if(d)go(+d.dataset.i);
+});
+document.getElementById("chart").addEventListener("keydown",ev=>{
+  if((ev.key==="Enter"||ev.key===" ")&&ev.target.dataset.i){ev.preventDefault();go(+ev.target.dataset.i);
+    const g=document.querySelector(`[data-i="${S}"]`);g&&g.focus()}
+});
+document.getElementById("pv").onclick=()=>go(S-1);
+document.getElementById("nx").onclick=()=>go(S+1);
+document.addEventListener("keydown",e=>{if(e.key==="ArrowLeft")go(S-1);if(e.key==="ArrowRight")go(S+1)});
+draw();
+</script>
+</body>
+</html>
