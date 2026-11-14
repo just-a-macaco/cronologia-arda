@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """Compila le schede degli eventi in dati per il sito.
 
-Legge i file YAML in data/eventi/ e data/luoghi.yaml, controlla i riferimenti e produce:
+Legge i file YAML in data/eventi/, data/luoghi.yaml e data/persone.yaml,
+controlla i riferimenti e produce:
   - js/data.js                 (formato compatibile con js/circle.js)
   - build/arda.sqlite          (database interrogabile con SQL)
   - build/indexes.json         (indici per ricerca e filtri)
   - build/luoghi.json          (anagrafica dei luoghi e copertura degli eventi)
+  - build/persone.json         (anagrafica delle persone e copertura degli eventi)
   - build/schede-terza-era.md  (le schede in forma leggibile)
   - build/rapporto.md          (riepilogo del lavoro)
   - build/rapporto-luoghi.md   (stato dell'anagrafica dei luoghi)
+  - build/rapporto-persone.md  (stato dell'anagrafica delle persone)
 
 Uso: python3 tools/build_data.py
 """
@@ -26,6 +29,7 @@ import yaml
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data", "eventi")
 LUOGHI_FILE = os.path.join(ROOT, "data", "luoghi.yaml")
+PERSONE_FILE = os.path.join(ROOT, "data", "persone.yaml")
 BUILD_DIR = os.path.join(ROOT, "build")
 JS_DIR = os.path.join(ROOT, "js")
 
@@ -48,6 +52,8 @@ TIPI_LUOGO = {
     "città sotterranea", "passo", "pianura", "palude", "caverna", "ponte",
     "monumento", "mondo", "mare",
 }
+TIPI_PERSONA = {"personaggio", "popolo", "regno", "gruppo"}
+SPECIE = {"Hobbit", "Uomo", "Elfo", "Nano", "Maia", "Sturoi", "Mezzelfo", "Drago", "Ent"}
 PRECISIONI = {"giorno", "mese", "anno", "intervallo", "ignoto"}
 QUALIFICATORI = {None, "circa", "prima", "dopo", "inizio", "fine"}
 
@@ -253,6 +259,90 @@ def collega_luoghi(eventi: list[dict], luoghi: list[dict]) -> dict:
         "citati": citati,
         "scoperti": scoperti,
         "per_luogo": {k: sorted(v) for k, v in per_luogo.items()},
+    }
+
+
+def carica_persone() -> list[dict]:
+    if not os.path.exists(PERSONE_FILE):
+        fail("manca data/persone.yaml")
+    with open(PERSONE_FILE, encoding="utf-8") as fh:
+        blocco = yaml.safe_load(fh)
+    if not isinstance(blocco, list):
+        fail("data/persone.yaml deve contenere una lista di persone")
+    return blocco
+
+
+def valida_persone(persone: list[dict]) -> None:
+    ids: set[str] = set()
+    nomi: dict[str, str] = {}
+    alias_visti: dict[str, str] = {}
+    for persona in persone:
+        pid = persona.get("id", "?")
+        for campo in ("id", "nome", "tipo", "descrizione"):
+            if not persona.get(campo):
+                fail(f"persona {pid}: campo mancante o vuoto «{campo}»")
+        if persona["tipo"] not in TIPI_PERSONA:
+            fail(f"persona {pid}: tipo sconosciuto «{persona['tipo']}»")
+        if persona["tipo"] == "personaggio" and persona.get("specie") not in SPECIE:
+            fail(f"persona {pid}: specie mancante o sconosciuta «{persona.get('specie')}»")
+        if persona.get("specie") is not None and persona["specie"] not in SPECIE:
+            fail(f"persona {pid}: specie sconosciuta «{persona['specie']}»")
+        for campo in ("nascita", "morte"):
+            valore = persona.get(campo)
+            if valore is not None and not isinstance(valore, int):
+                fail(f"persona {pid}: «{campo}» deve essere un anno o null")
+        if persona.get("nascita") is not None and persona.get("morte") is not None:
+            if persona["morte"] < persona["nascita"]:
+                fail(f"persona {pid}: morte precedente alla nascita")
+        if pid in ids:
+            fail(f"persona con id duplicato: {pid}")
+        ids.add(pid)
+        if persona["nome"] in nomi:
+            fail(f"persona con nome duplicato: {persona['nome']} ({nomi[persona['nome']]} e {pid})")
+        nomi[persona["nome"]] = pid
+        alias = persona.get("alias") or []
+        if not isinstance(alias, list):
+            fail(f"persona {pid}: «alias» deve essere una lista")
+        for nome_alias in alias:
+            if nome_alias in alias_visti and alias_visti[nome_alias] != pid:
+                fail(f"alias «{nome_alias}» usato da {alias_visti[nome_alias]} e {pid}")
+            alias_visti[nome_alias] = pid
+    for nome, pid in nomi.items():
+        if nome in alias_visti and alias_visti[nome] != pid:
+            fail(f"«{nome}» è nome di {pid} ma anche alias di {alias_visti[nome]}")
+
+
+def indice_nomi_persone(persone: list[dict]) -> dict[str, str]:
+    indice: dict[str, str] = {}
+    for persona in persone:
+        indice[persona["nome"]] = persona["id"]
+        for nome_alias in persona.get("alias") or []:
+            indice[nome_alias] = persona["id"]
+    return indice
+
+
+def collega_persone(eventi: list[dict], persone: list[dict]) -> dict:
+    indice = indice_nomi_persone(persone)
+    citazioni: dict[str, list[str]] = {}
+    for ev in eventi:
+        for partecipante in ev["partecipanti"]:
+            nome = partecipante["nome"]
+            citazioni.setdefault(nome, []).append(ev["id"])
+    coperti = {nome: indice[nome] for nome in citazioni if nome in indice}
+    scoperti = {nome: ids for nome, ids in citazioni.items() if nome not in indice}
+    per_persona: dict[str, set[str]] = {}
+    for nome, pid in coperti.items():
+        per_persona.setdefault(pid, set()).update(citazioni[nome])
+    schede = []
+    for persona in persone:
+        record = dict(persona)
+        record["eventi"] = sorted(per_persona.get(persona["id"], set()))
+        schede.append(record)
+    return {
+        "schede": schede,
+        "coperti": coperti,
+        "scoperti": scoperti,
+        "per_persona": {k: sorted(v) for k, v in per_persona.items()},
     }
 
 
@@ -560,26 +650,83 @@ def scrivi_luoghi(eventi: list[dict], luoghi: list[dict]) -> None:
         fh.write("\n".join(righe))
 
 
+def scrivi_persone(eventi: list[dict], persone: list[dict]) -> None:
+    dati = collega_persone(eventi, persone)
+    os.makedirs(BUILD_DIR, exist_ok=True)
+    nomi_citati = len(dati["coperti"]) + len(dati["scoperti"])
+    with open(os.path.join(BUILD_DIR, "persone.json"), "w", encoding="utf-8") as fh:
+        json.dump(
+            {
+                "persone": dati["schede"],
+                "copertura": {
+                    "nomi_citati": nomi_citati,
+                    "nomi_coperti": len(dati["coperti"]),
+                    "nomi_scoperti": len(dati["scoperti"]),
+                    "scoperti": dict(sorted(dati["scoperti"].items())),
+                },
+            },
+            fh,
+            ensure_ascii=False,
+            indent=2,
+        )
+    righe = [
+        "# Rapporto sulle persone",
+        "",
+        f"- Schede create: **{len(persone)}**.",
+        f"- Nomi di partecipante citati dagli eventi: **{nomi_citati}** distinti.",
+        f"- Nomi già coperti da una scheda: **{len(dati['coperti'])}**.",
+        f"- Nomi ancora senza scheda: **{len(dati['scoperti'])}**.",
+        "",
+        "## Schede",
+        "",
+        "| ID | Nome | Tipo | Specie | Eventi collegati |",
+        "|---|---|---|---|---|",
+    ]
+    for persona in dati["schede"]:
+        righe.append(
+            f"| `{persona['id']}` | {persona['nome']} | {persona['tipo']} | "
+            f"{persona.get('specie') or '—'} | {len(persona['eventi'])} |"
+        )
+    righe += [
+        "",
+        "## Nomi di partecipante non ancora coperti",
+        "",
+        "Non sono tutti persone: molti sono popoli, regni o gruppi. Vanno",
+        "classificati prima di diventare schede.",
+        "",
+    ]
+    for nome in sorted(dati["scoperti"]):
+        righe.append(f"- {nome}")
+    righe.append("")
+    with open(os.path.join(BUILD_DIR, "rapporto-persone.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(righe))
+
+
 def main() -> None:
     eventi = carica()
     valida(eventi)
     luoghi = carica_luoghi()
     valida_luoghi(luoghi)
     valida_riferimenti_luoghi(eventi, luoghi)
+    persone = carica_persone()
+    valida_persone(persone)
     scrivi_js(eventi, luoghi)
     scrivi_sqlite(eventi, luoghi)
     scrivi_indici(eventi, luoghi)
     scrivi_schede(eventi, luoghi)
     scrivi_rapporto(eventi, luoghi)
     scrivi_luoghi(eventi, luoghi)
-    print(f"OK: {len(eventi)} eventi e {len(luoghi)} luoghi compilati.")
+    scrivi_persone(eventi, persone)
+    print(f"OK: {len(eventi)} eventi, {len(luoghi)} luoghi e {len(persone)} persone compilati.")
     print(f"  js/data.js")
     print(f"  build/arda.sqlite")
     print(f"  build/indexes.json")
     print(f"  build/luoghi.json")
+    print(f"  build/persone.json")
     print(f"  build/schede-terza-era.md")
     print(f"  build/rapporto.md")
     print(f"  build/rapporto-luoghi.md")
+    print(f"  build/rapporto-persone.md")
 
 
 if __name__ == "__main__":

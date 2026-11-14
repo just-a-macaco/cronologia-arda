@@ -1,0 +1,732 @@
+{
+  "persone": [
+    {
+      "id": "gandalf",
+      "nome": "Gandalf",
+      "tipo": "personaggio",
+      "specie": "Maia",
+      "popolo": "Maiar",
+      "nascita": null,
+      "morte": null,
+      "alias": [
+        "Mithrandir"
+      ],
+      "descrizione": "Lo Istaro Mithrandir, il Grigio, inviato in Terra di Mezzo per contrastare Sauron.",
+      "nota": "Muore a Moria nel 3019 e ritorna come Gandalf il Bianco.",
+      "eventi": [
+        "compagnia-parte",
+        "consiglio-dol-guldur",
+        "consiglio-elrond",
+        "elessar",
+        "festa-bilbo",
+        "festa-inattesa",
+        "fosso-helm",
+        "frodo-parte",
+        "gandalf-dol-guldur",
+        "gandalf-moria",
+        "istari",
+        "lungo-inverno",
+        "morannon",
+        "pace-vigile",
+        "pelennor",
+        "porti-grigi",
+        "ultimo-consiglio"
+      ]
+    },
+    {
+      "id": "frodo-baggins",
+      "nome": "Frodo Baggins",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2968,
+      "morte": null,
+      "alias": [
+        "Frodo"
+      ],
+      "descrizione": "L'Hobbit della Contea che porta l'Unico Anello fino al Monte Fato.",
+      "nota": null,
+      "eventi": [
+        "compagnia-parte",
+        "compagnia-si-scioglie",
+        "consiglio-elrond",
+        "distruzione-anello",
+        "festa-bilbo",
+        "frodo-parte",
+        "gandalf-moria",
+        "lungacque",
+        "porti-grigi"
+      ]
+    },
+    {
+      "id": "aragorn",
+      "nome": "Aragorn",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": 2931,
+      "morte": null,
+      "alias": [
+        "Passolungo",
+        "Elessar",
+        "Estel"
+      ],
+      "descrizione": "L'erede di Isildur, Ramingo del Nord, incoronato re Elessar.",
+      "nota": null,
+      "eventi": [
+        "compagnia-si-scioglie",
+        "consiglio-elrond",
+        "elessar",
+        "fosso-helm",
+        "gandalf-moria",
+        "morannon",
+        "nozze-elessar-arwen",
+        "pelennor",
+        "sauron-si-dichiara"
+      ]
+    },
+    {
+      "id": "bilbo-baggins",
+      "nome": "Bilbo Baggins",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2890,
+      "morte": null,
+      "alias": [
+        "Bilbo"
+      ],
+      "descrizione": "L'Hobbit che trova l'Anello nel 2941 e lo lascia a Frodo nel 3001.",
+      "nota": null,
+      "eventi": [
+        "anello-bilbo",
+        "bilbo-nasce",
+        "bilbo-torna",
+        "cinque-eserciti",
+        "consiglio-elrond",
+        "festa-bilbo",
+        "festa-inattesa",
+        "porti-grigi"
+      ]
+    },
+    {
+      "id": "samvise-gamgi",
+      "nome": "Samvise Gamgi",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2980,
+      "morte": null,
+      "alias": [
+        "Sam"
+      ],
+      "descrizione": "Il giardiniere di Frodo, che lo accompagna fino a Mordor.",
+      "nota": null,
+      "eventi": [
+        "compagnia-si-scioglie",
+        "distruzione-anello",
+        "frodo-parte",
+        "lungacque",
+        "porti-grigi"
+      ]
+    },
+    {
+      "id": "sauron",
+      "nome": "Sauron",
+      "tipo": "personaggio",
+      "specie": "Maia",
+      "popolo": "Maiar",
+      "nascita": null,
+      "morte": 3019,
+      "alias": [],
+      "descrizione": "Il Signore Oscuro di Mordor, artefice dell'Unico Anello.",
+      "nota": null,
+      "eventi": [
+        "bilbo-torna",
+        "consiglio-dol-guldur",
+        "distruzione-anello",
+        "gandalf-dol-guldur",
+        "inizio-terza",
+        "osgiliath-3018",
+        "pace-vigile",
+        "saruman-tradisce",
+        "sauron-ritorno",
+        "sauron-si-dichiara"
+      ]
+    },
+    {
+      "id": "saruman",
+      "nome": "Saruman",
+      "tipo": "personaggio",
+      "specie": "Maia",
+      "popolo": "Maiar",
+      "nascita": null,
+      "morte": 3019,
+      "alias": [
+        "Curunír"
+      ],
+      "descrizione": "Il capo del Bianco Consiglio, poi traditore chiuso a Isengard.",
+      "nota": null,
+      "eventi": [
+        "consiglio-dol-guldur",
+        "distruzione-isengard",
+        "fosso-helm",
+        "istari",
+        "lungacque",
+        "saruman-isengard",
+        "saruman-tradisce",
+        "ultimo-consiglio"
+      ]
+    },
+    {
+      "id": "gollum",
+      "nome": "Gollum",
+      "tipo": "personaggio",
+      "specie": "Sturoi",
+      "popolo": "Sturoi",
+      "nascita": 2430,
+      "morte": 3019,
+      "alias": [
+        "Sméagol"
+      ],
+      "descrizione": "Lo Sturoi Sméagol, corrotto dall'Anello e suo custode per secoli.",
+      "nota": "La nascita è approssimativa, intorno al 2430.",
+      "eventi": [
+        "anello-bilbo",
+        "deagol-anello",
+        "distruzione-anello",
+        "gollum-fugge",
+        "sauron-si-dichiara"
+      ]
+    },
+    {
+      "id": "elrond",
+      "nome": "Elrond",
+      "tipo": "personaggio",
+      "specie": "Mezzelfo",
+      "popolo": "Mezzelfi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il signore di Gran Burrone e custode di uno dei Tre Anelli.",
+      "nota": null,
+      "eventi": [
+        "consiglio-dol-guldur",
+        "consiglio-elrond",
+        "elessar",
+        "nozze-elessar-arwen",
+        "porti-grigi",
+        "sauron-si-dichiara"
+      ]
+    },
+    {
+      "id": "galadriel",
+      "nome": "Galadriel",
+      "tipo": "personaggio",
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "La signora elfica di Lórien e custode di uno dei Tre Anelli.",
+      "nota": null,
+      "eventi": [
+        "consiglio-dol-guldur",
+        "porti-grigi"
+      ]
+    },
+    {
+      "id": "thorin-scudodiquercia",
+      "nome": "Thorin Scudodiquercia",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": 2746,
+      "morte": 2941,
+      "alias": [
+        "Thorin"
+      ],
+      "descrizione": "Il capo della compagnia dei Nani che riconquista Erebor nel 2941.",
+      "nota": null,
+      "eventi": [
+        "cinque-eserciti",
+        "festa-inattesa",
+        "nanduhirion",
+        "smaug-erebor"
+      ]
+    },
+    {
+      "id": "theoden",
+      "nome": "Théoden",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2948,
+      "morte": 3019,
+      "alias": [],
+      "descrizione": "Il re di Rohan nella Guerra dell'Anello, morto ai Campi del Pelennor.",
+      "nota": null,
+      "eventi": [
+        "fosso-helm",
+        "pelennor"
+      ]
+    },
+    {
+      "id": "eowyn",
+      "nome": "Éowyn",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2995,
+      "morte": null,
+      "alias": [
+        "Dernhelm"
+      ],
+      "descrizione": "La nipote di Théoden, che uccide il Re degli Stregoni sotto il nome di Dernhelm.",
+      "nota": null,
+      "eventi": [
+        "pelennor"
+      ]
+    },
+    {
+      "id": "eomer",
+      "nome": "Éomer",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2991,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il nipote di Théoden e maresciallo del Mark, poi re di Rohan.",
+      "nota": null,
+      "eventi": [
+        "fosso-helm",
+        "morannon",
+        "pelennor"
+      ]
+    },
+    {
+      "id": "boromir",
+      "nome": "Boromir",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": 2978,
+      "morte": 3019,
+      "alias": [],
+      "descrizione": "Il figlio di Denethor, caduto a Parth Galen.",
+      "nota": null,
+      "eventi": [
+        "compagnia-si-scioglie",
+        "consiglio-elrond",
+        "gandalf-moria"
+      ]
+    },
+    {
+      "id": "faramir",
+      "nome": "Faramir",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": 2983,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il figlio di Denethor, Sovrintendente di Gondor dopo la guerra.",
+      "nota": null,
+      "eventi": [
+        "pelennor"
+      ]
+    },
+    {
+      "id": "meriadoc-brandibuck",
+      "nome": "Meriadoc Brandibuck",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2982,
+      "morte": null,
+      "alias": [
+        "Merry"
+      ],
+      "descrizione": "L'Hobbit che ferisce il Re degli Stregoni ai Campi del Pelennor.",
+      "nota": null,
+      "eventi": [
+        "compagnia-si-scioglie",
+        "frodo-parte",
+        "lungacque",
+        "pelennor"
+      ]
+    },
+    {
+      "id": "peregrino-tuc",
+      "nome": "Peregrino Tuc",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2990,
+      "morte": null,
+      "alias": [
+        "Pippin"
+      ],
+      "descrizione": "L'Hobbit che diventa scudiero di Gondor e combatte al Morannon.",
+      "nota": null,
+      "eventi": [
+        "compagnia-si-scioglie",
+        "frodo-parte",
+        "lungacque"
+      ]
+    },
+    {
+      "id": "gimli",
+      "nome": "Gimli",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": 2879,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il Nano della Compagnia, figlio di Glóin.",
+      "nota": null,
+      "eventi": [
+        "consiglio-elrond",
+        "gandalf-moria"
+      ]
+    },
+    {
+      "id": "legolas",
+      "nome": "Legolas",
+      "tipo": "personaggio",
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "L'elfo di Bosco Atro, arciere della Compagnia.",
+      "nota": null,
+      "eventi": [
+        "consiglio-elrond",
+        "gandalf-moria"
+      ]
+    }
+  ],
+  "copertura": {
+    "nomi_citati": 112,
+    "nomi_coperti": 21,
+    "nomi_scoperti": 91,
+    "scoperti": {
+      "Amroth": [
+        "balrog-moria"
+      ],
+      "Arthedain": [
+        "cade-arnor"
+      ],
+      "Arvedui": [
+        "battaglia-campo",
+        "cade-arnor",
+        "battaglia-fornost"
+      ],
+      "Arveleg I": [
+        "angmar-invaude"
+      ],
+      "Arwen": [
+        "elessar",
+        "nozze-elessar-arwen"
+      ],
+      "Barbalbero": [
+        "distruzione-isengard"
+      ],
+      "Bard": [
+        "smaug-ucciso",
+        "cinque-eserciti"
+      ],
+      "Beregond": [
+        "pelennor"
+      ],
+      "Castamir": [
+        "lotta-stirpi"
+      ],
+      "Cirion": [
+        "battaglia-celebrant",
+        "rohan"
+      ],
+      "Círdan": [
+        "istari",
+        "porti-grigi"
+      ],
+      "Denethor II": [
+        "pelennor"
+      ],
+      "Durin VI": [
+        "balrog-moria"
+      ],
+      "Dàin I": [
+        "draghi-nord"
+      ],
+      "Dàin Piediferro": [
+        "nanduhirion",
+        "cinque-eserciti"
+      ],
+      "Déagol": [
+        "deagol-anello"
+      ],
+      "Eldacar": [
+        "lotta-stirpi"
+      ],
+      "Elendil": [
+        "inizio-terza"
+      ],
+      "Eorl il Giovane": [
+        "battaglia-celebrant",
+        "rohan"
+      ],
+      "Eärendur": [
+        "divisione-arnor"
+      ],
+      "Eärnil": [
+        "battaglia-campo"
+      ],
+      "Eärnur": [
+        "battaglia-fornost",
+        "earnur"
+      ],
+      "Fornost": [
+        "angmar-invaude"
+      ],
+      "Fréaláf": [
+        "lungo-inverno"
+      ],
+      "Gil-galad": [
+        "inizio-terza"
+      ],
+      "Glorfindel": [
+        "battaglia-fornost"
+      ],
+      "Gondor": [
+        "grande-peste",
+        "mordor-sorveglianza",
+        "aurighe",
+        "minas-ithil",
+        "osgiliath-distrutta",
+        "saruman-isengard",
+        "osgiliath-3018"
+      ],
+      "Grór": [
+        "draghi-nord"
+      ],
+      "Helm": [
+        "lungo-inverno"
+      ],
+      "Hyarmendacil": [
+        "ombra-bosco-attro"
+      ],
+      "Imrahil": [
+        "morannon"
+      ],
+      "Isildur": [
+        "inizio-terza",
+        "isildur-anello"
+      ],
+      "Mardil": [
+        "earnur"
+      ],
+      "Meneldil": [
+        "isildur-anello"
+      ],
+      "Nain I": [
+        "balrog-moria"
+      ],
+      "Narmacil II": [
+        "aurighe"
+      ],
+      "Nár": [
+        "thror"
+      ],
+      "Ohtar": [
+        "isildur-anello"
+      ],
+      "Ondoher": [
+        "battaglia-campo"
+      ],
+      "Ornendil": [
+        "lotta-stirpi"
+      ],
+      "Orthanc": [
+        "distruzione-isengard"
+      ],
+      "Radagast": [
+        "istari"
+      ],
+      "Smaug": [
+        "smaug-erebor",
+        "smaug-ucciso"
+      ],
+      "Tarondor": [
+        "mordor-sorveglianza"
+      ],
+      "Telemnar": [
+        "grande-peste"
+      ],
+      "Thranduil": [
+        "cinque-eserciti",
+        "gollum-fugge"
+      ],
+      "Thràin I": [
+        "nani-erebor"
+      ],
+      "Thràin II": [
+        "smaug-erebor",
+        "nanduhirion",
+        "gandalf-dol-guldur"
+      ],
+      "Thrór": [
+        "draghi-nord",
+        "smaug-erebor",
+        "thror"
+      ],
+      "Tobaldo": [
+        "erba-pipa"
+      ],
+      "Tyrn Gorthad": [
+        "angmar-invaude"
+      ],
+      "Valacar": [
+        "lotta-stirpi"
+      ],
+      "Wulf": [
+        "lungo-inverno"
+      ],
+      "gli Elfi Silvani": [
+        "gollum-fugge"
+      ],
+      "gli Ent": [
+        "distruzione-isengard"
+      ],
+      "gli Esterling": [
+        "battaglia-celebrant"
+      ],
+      "gli Hobbit": [
+        "erba-pipa"
+      ],
+      "gli Hobbit della Contea": [
+        "lungacque"
+      ],
+      "gli Orchetti": [
+        "angmar",
+        "battaglia-celebrant",
+        "gollum-fugge",
+        "compagnia-si-scioglie"
+      ],
+      "gli Orchetti di Moria": [
+        "nanduhirion"
+      ],
+      "gli Orchetti e i Lupi": [
+        "cinque-eserciti"
+      ],
+      "gli Uruk-hai": [
+        "fosso-helm"
+      ],
+      "gli abitanti dell'Ithilien": [
+        "fato-avvampa"
+      ],
+      "gli abitanti di Esgaroth": [
+        "smaug-ucciso"
+      ],
+      "gli assalitori di Mordor": [
+        "osgiliath-distrutta"
+      ],
+      "i Balchoth": [
+        "battaglia-celebrant"
+      ],
+      "i Carrieri": [
+        "aurighe",
+        "battaglia-campo"
+      ],
+      "i Cavalieri Neri": [
+        "frodo-parte"
+      ],
+      "i Corsari di Umbar": [
+        "lungo-inverno"
+      ],
+      "i Draghi": [
+        "draghi-nord"
+      ],
+      "i Nani del Popolo di Durin": [
+        "nani-erebor"
+      ],
+      "i Nazgûl": [
+        "saggi-dol-guldur",
+        "angmar",
+        "minas-ithil",
+        "pace-vigile",
+        "sauron-ritorno",
+        "sauron-si-dichiara",
+        "osgiliath-3018"
+      ],
+      "i Periannath": [
+        "ombra-bosco-attro",
+        "angmar",
+        "grande-peste"
+      ],
+      "i Rohirrim": [
+        "rohan"
+      ],
+      "i Saggi": [
+        "saggi-dol-guldur"
+      ],
+      "i dodici compagni di Thorin": [
+        "festa-inattesa"
+      ],
+      "i figli di Telemnar": [
+        "grande-peste"
+      ],
+      "i tre figli di Eärendur": [
+        "divisione-arnor"
+      ],
+      "i tre figli maggiori di Isildur": [
+        "isildur-anello"
+      ],
+      "il Balrog": [
+        "balrog-moria",
+        "gandalf-moria"
+      ],
+      "il Bianco Consiglio": [
+        "deagol-anello",
+        "ultimo-consiglio"
+      ],
+      "il Monte Fato": [
+        "fato-avvampa"
+      ],
+      "il Re degli Stregoni": [
+        "angmar",
+        "angmar-invaude",
+        "cade-arnor",
+        "battaglia-fornost",
+        "pelennor"
+      ],
+      "il Signore di Morgul": [
+        "earnur"
+      ],
+      "l'Esercito dell'Ovest": [
+        "morannon"
+      ],
+      "la Compagnia dell'Anello": [
+        "compagnia-parte"
+      ],
+      "la famiglia Baggins": [
+        "bilbo-nasce"
+      ],
+      "la scorta di cavalieri": [
+        "earnur"
+      ],
+      "le forze di Sauron": [
+        "morannon"
+      ],
+      "le spie di Saruman": [
+        "saruman-tradisce"
+      ],
+      "un Orchetto di Moria": [
+        "thror"
+      ]
+    }
+  }
+}

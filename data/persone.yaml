@@ -1,0 +1,237 @@
+# Anagrafica delle persone.
+# Primo blocco: 20 personaggi principali.
+# Regole: id stabile, nome visibile, tipo, specie, popolo, date (anno o null),
+# alias, descrizione. Gli eventi useranno gli ID in una fase successiva.
+
+- id: gandalf
+  nome: Gandalf
+  tipo: personaggio
+  specie: Maia
+  popolo: Maiar
+  nascita: null
+  morte: null
+  alias:
+    - Mithrandir
+  descrizione: Lo Istaro Mithrandir, il Grigio, inviato in Terra di Mezzo per contrastare Sauron.
+  nota: Muore a Moria nel 3019 e ritorna come Gandalf il Bianco.
+
+- id: frodo-baggins
+  nome: Frodo Baggins
+  tipo: personaggio
+  specie: Hobbit
+  popolo: Hobbit
+  nascita: 2968
+  morte: null
+  alias:
+    - Frodo
+  descrizione: L'Hobbit della Contea che porta l'Unico Anello fino al Monte Fato.
+  nota: null
+
+- id: aragorn
+  nome: Aragorn
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: 2931
+  morte: null
+  alias:
+    - Passolungo
+    - Elessar
+    - Estel
+  descrizione: L'erede di Isildur, Ramingo del Nord, incoronato re Elessar.
+  nota: null
+
+- id: bilbo-baggins
+  nome: Bilbo Baggins
+  tipo: personaggio
+  specie: Hobbit
+  popolo: Hobbit
+  nascita: 2890
+  morte: null
+  alias:
+    - Bilbo
+  descrizione: L'Hobbit che trova l'Anello nel 2941 e lo lascia a Frodo nel 3001.
+  nota: null
+
+- id: samvise-gamgi
+  nome: Samvise Gamgi
+  tipo: personaggio
+  specie: Hobbit
+  popolo: Hobbit
+  nascita: 2980
+  morte: null
+  alias:
+    - Sam
+  descrizione: Il giardiniere di Frodo, che lo accompagna fino a Mordor.
+  nota: null
+
+- id: sauron
+  nome: Sauron
+  tipo: personaggio
+  specie: Maia
+  popolo: Maiar
+  nascita: null
+  morte: 3019
+  alias: []
+  descrizione: Il Signore Oscuro di Mordor, artefice dell'Unico Anello.
+  nota: null
+
+- id: saruman
+  nome: Saruman
+  tipo: personaggio
+  specie: Maia
+  popolo: Maiar
+  nascita: null
+  morte: 3019
+  alias:
+    - Curunír
+  descrizione: Il capo del Bianco Consiglio, poi traditore chiuso a Isengard.
+  nota: null
+
+- id: gollum
+  nome: Gollum
+  tipo: personaggio
+  specie: Sturoi
+  popolo: Sturoi
+  nascita: 2430
+  morte: 3019
+  alias:
+    - Sméagol
+  descrizione: Lo Sturoi Sméagol, corrotto dall'Anello e suo custode per secoli.
+  nota: La nascita è approssimativa, intorno al 2430.
+
+- id: elrond
+  nome: Elrond
+  tipo: personaggio
+  specie: Mezzelfo
+  popolo: Mezzelfi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il signore di Gran Burrone e custode di uno dei Tre Anelli.
+  nota: null
+
+- id: galadriel
+  nome: Galadriel
+  tipo: personaggio
+  specie: Elfo
+  popolo: Elfi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: La signora elfica di Lórien e custode di uno dei Tre Anelli.
+  nota: null
+
+- id: thorin-scudodiquercia
+  nome: Thorin Scudodiquercia
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: 2746
+  morte: 2941
+  alias:
+    - Thorin
+  descrizione: Il capo della compagnia dei Nani che riconquista Erebor nel 2941.
+  nota: null
+
+- id: theoden
+  nome: Théoden
+  tipo: personaggio
+  specie: Uomo
+  popolo: Rohirrim
+  nascita: 2948
+  morte: 3019
+  alias: []
+  descrizione: Il re di Rohan nella Guerra dell'Anello, morto ai Campi del Pelennor.
+  nota: null
+
+- id: eowyn
+  nome: Éowyn
+  tipo: personaggio
+  specie: Uomo
+  popolo: Rohirrim
+  nascita: 2995
+  morte: null
+  alias:
+    - Dernhelm
+  descrizione: La nipote di Théoden, che uccide il Re degli Stregoni sotto il nome di Dernhelm.
+  nota: null
+
+- id: eomer
+  nome: Éomer
+  tipo: personaggio
+  specie: Uomo
+  popolo: Rohirrim
+  nascita: 2991
+  morte: null
+  alias: []
+  descrizione: Il nipote di Théoden e maresciallo del Mark, poi re di Rohan.
+  nota: null
+
+- id: boromir
+  nome: Boromir
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: 2978
+  morte: 3019
+  alias: []
+  descrizione: Il figlio di Denethor, caduto a Parth Galen.
+  nota: null
+
+- id: faramir
+  nome: Faramir
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: 2983
+  morte: null
+  alias: []
+  descrizione: Il figlio di Denethor, Sovrintendente di Gondor dopo la guerra.
+  nota: null
+
+- id: meriadoc-brandibuck
+  nome: Meriadoc Brandibuck
+  tipo: personaggio
+  specie: Hobbit
+  popolo: Hobbit
+  nascita: 2982
+  morte: null
+  alias:
+    - Merry
+  descrizione: L'Hobbit che ferisce il Re degli Stregoni ai Campi del Pelennor.
+  nota: null
+
+- id: peregrino-tuc
+  nome: Peregrino Tuc
+  tipo: personaggio
+  specie: Hobbit
+  popolo: Hobbit
+  nascita: 2990
+  morte: null
+  alias:
+    - Pippin
+  descrizione: L'Hobbit che diventa scudiero di Gondor e combatte al Morannon.
+  nota: null
+
+- id: gimli
+  nome: Gimli
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: 2879
+  morte: null
+  alias: []
+  descrizione: Il Nano della Compagnia, figlio di Glóin.
+  nota: null
+
+- id: legolas
+  nome: Legolas
+  tipo: personaggio
+  specie: Elfo
+  popolo: Elfi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: L'elfo di Bosco Atro, arciere della Compagnia.
+  nota: null

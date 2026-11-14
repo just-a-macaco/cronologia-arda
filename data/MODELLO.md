@@ -199,4 +199,8 @@ Anagrafica dei luoghi completa rispetto agli eventi attuali: `data/luoghi.yaml`
 contiene 77 schede, che coprono tutti gli 85 nomi citati dagli eventi (alcuni nomi
 sono alias dello stesso luogo). Gli eventi ora **richiamano i luoghi per ID**: il
 build controlla che ogni ID esista e usa il nome solo per la visualizzazione.
-Il prossimo passo sono le persone.
+
+Primo blocco delle persone: `data/persone.yaml` contiene 20 personaggi principali.
+Coprono 21 dei 112 nomi di partecipante; gli altri 91 sono elencati in
+`build/rapporto-persone.md` e vanno classificati (molti sono popoli, regni o
+gruppi, non persone). Gli eventi useranno gli ID delle persone nel passo successivo.
