@@ -348,9 +348,6 @@
     "Faramir": [
       "pelennor"
     ],
-    "Fornost": [
-      "angmar-invaude"
-    ],
     "Frodo Baggins": [
       "festa-bilbo",
       "frodo-parte",
@@ -399,6 +396,7 @@
       "battaglia-fornost"
     ],
     "Gollum": [
+      "deagol-anello",
       "anello-bilbo",
       "sauron-si-dichiara",
       "gollum-fugge",
@@ -445,6 +443,9 @@
       "pelennor",
       "lungacque"
     ],
+    "Mordor": [
+      "fato-avvampa"
+    ],
     "Nain I": [
       "balrog-moria"
     ],
@@ -462,9 +463,6 @@
     ],
     "Ornendil": [
       "lotta-stirpi"
-    ],
-    "Orthanc": [
-      "distruzione-isengard"
     ],
     "Peregrino Tuc": [
       "frodo-parte",
@@ -507,9 +505,6 @@
       "smaug-erebor",
       "smaug-ucciso"
     ],
-    "Sméagol": [
-      "deagol-anello"
-    ],
     "Tarondor": [
       "mordor-sorveglianza"
     ],
@@ -546,9 +541,6 @@
     "Tobaldo": [
       "erba-pipa"
     ],
-    "Tyrn Gorthad": [
-      "angmar-invaude"
-    ],
     "Valacar": [
       "lotta-stirpi"
     ],
@@ -565,6 +557,9 @@
       "battaglia-celebrant"
     ],
     "gli Hobbit": [
+      "ombra-bosco-attro",
+      "angmar",
+      "grande-peste",
       "erba-pipa"
     ],
     "gli Hobbit della Contea": [
@@ -601,14 +596,17 @@
       "aurighe",
       "battaglia-campo"
     ],
-    "i Cavalieri Neri": [
-      "frodo-parte"
-    ],
     "i Corsari di Umbar": [
       "lungo-inverno"
     ],
     "i Draghi": [
       "draghi-nord"
+    ],
+    "i Dúnedain di Cardolan": [
+      "angmar-invaude"
+    ],
+    "i Dúnedain di Fornost": [
+      "angmar-invaude"
     ],
     "i Nani del Popolo di Durin": [
       "nani-erebor"
@@ -620,12 +618,8 @@
       "pace-vigile",
       "sauron-ritorno",
       "sauron-si-dichiara",
-      "osgiliath-3018"
-    ],
-    "i Periannath": [
-      "ombra-bosco-attro",
-      "angmar",
-      "grande-peste"
+      "osgiliath-3018",
+      "frodo-parte"
     ],
     "i Rohirrim": [
       "rohan"
@@ -653,18 +647,13 @@
       "deagol-anello",
       "ultimo-consiglio"
     ],
-    "il Monte Fato": [
-      "fato-avvampa"
-    ],
     "il Re degli Stregoni": [
       "angmar",
       "angmar-invaude",
       "cade-arnor",
       "battaglia-fornost",
+      "earnur",
       "pelennor"
-    ],
-    "il Signore di Morgul": [
-      "earnur"
     ],
     "l'Esercito dell'Ovest": [
       "morannon"
@@ -677,6 +666,9 @@
     ],
     "la scorta di cavalieri": [
       "earnur"
+    ],
+    "le difese di Orthanc": [
+      "distruzione-isengard"
     ],
     "le forze di Sauron": [
       "morannon"

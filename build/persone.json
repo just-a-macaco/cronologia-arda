@@ -407,326 +407,812 @@
         "consiglio-elrond",
         "gandalf-moria"
       ]
-    }
-  ],
-  "copertura": {
-    "nomi_citati": 112,
-    "nomi_coperti": 21,
-    "nomi_scoperti": 91,
-    "scoperti": {
-      "Amroth": [
+    },
+    {
+      "id": "amroth",
+      "nome": "Amroth",
+      "tipo": "personaggio",
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re elfico di Lórien, perduto nel mare inseguendo Nimrodel.",
+      "nota": null,
+      "eventi": [
         "balrog-moria"
-      ],
-      "Arthedain": [
-        "cade-arnor"
-      ],
-      "Arvedui": [
+      ]
+    },
+    {
+      "id": "arvedui",
+      "nome": "Arvedui",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "L'ultimo re dell'Arthedain, annegato nella baia di Forochel.",
+      "nota": null,
+      "eventi": [
         "battaglia-campo",
-        "cade-arnor",
-        "battaglia-fornost"
-      ],
-      "Arveleg I": [
+        "battaglia-fornost",
+        "cade-arnor"
+      ]
+    },
+    {
+      "id": "arveleg-i",
+      "nome": "Arveleg I",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re dell'Arthedain caduto nel 1409 contro Angmar.",
+      "nota": null,
+      "eventi": [
         "angmar-invaude"
-      ],
-      "Arwen": [
+      ]
+    },
+    {
+      "id": "arwen",
+      "nome": "Arwen",
+      "tipo": "personaggio",
+      "specie": "Mezzelfo",
+      "popolo": "Mezzelfi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "La figlia di Elrond, che sposa Aragorn e sceglie la sorte degli Uomini.",
+      "nota": null,
+      "eventi": [
         "elessar",
         "nozze-elessar-arwen"
-      ],
-      "Barbalbero": [
+      ]
+    },
+    {
+      "id": "barbalbero",
+      "nome": "Barbalbero",
+      "tipo": "personaggio",
+      "specie": "Ent",
+      "popolo": "Ent",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "L'Ent più antico di Fangorn, che guida l'assalto a Isengard.",
+      "nota": null,
+      "eventi": [
         "distruzione-isengard"
-      ],
-      "Bard": [
-        "smaug-ucciso",
-        "cinque-eserciti"
-      ],
-      "Beregond": [
+      ]
+    },
+    {
+      "id": "bard",
+      "nome": "Bard",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "L'arciere di Esgaroth che uccide Smaug.",
+      "nota": null,
+      "eventi": [
+        "cinque-eserciti",
+        "smaug-ucciso"
+      ]
+    },
+    {
+      "id": "beregond",
+      "nome": "Beregond",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il soldato di Gondor che salva Faramir.",
+      "nota": null,
+      "eventi": [
         "pelennor"
-      ],
-      "Castamir": [
+      ]
+    },
+    {
+      "id": "castamir",
+      "nome": "Castamir",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "L'usurpatore di Gondor, sconfitto da Eldacar nel 1447.",
+      "nota": null,
+      "eventi": [
         "lotta-stirpi"
-      ],
-      "Cirion": [
+      ]
+    },
+    {
+      "id": "cirion",
+      "nome": "Cirion",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il Sovrintendente di Gondor che dona il Calenardhon a Eorl.",
+      "nota": null,
+      "eventi": [
         "battaglia-celebrant",
         "rohan"
-      ],
-      "Círdan": [
+      ]
+    },
+    {
+      "id": "cirdan",
+      "nome": "Círdan",
+      "tipo": "personaggio",
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il Signore dei Rifugi Oscuri, costruttore di navi.",
+      "nota": null,
+      "eventi": [
         "istari",
         "porti-grigi"
+      ]
+    },
+    {
+      "id": "denethor-ii",
+      "nome": "Denethor II",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [
+        "Denethor"
       ],
-      "Denethor II": [
+      "descrizione": "L'ultimo Sovrintendente Regnante di Gondor.",
+      "nota": null,
+      "eventi": [
         "pelennor"
-      ],
-      "Durin VI": [
+      ]
+    },
+    {
+      "id": "durin-vi",
+      "nome": "Durin VI",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Moria ucciso dal Balrog nel 1980.",
+      "nota": null,
+      "eventi": [
         "balrog-moria"
-      ],
-      "Dàin I": [
+      ]
+    },
+    {
+      "id": "dain-i",
+      "nome": "Dàin I",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re dei Nani ucciso da un Drago nel 2589.",
+      "nota": null,
+      "eventi": [
         "draghi-nord"
+      ]
+    },
+    {
+      "id": "dain-piediferro",
+      "nome": "Dàin Piediferro",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "alias": [
+        "Dàin II"
       ],
-      "Dàin Piediferro": [
-        "nanduhirion",
-        "cinque-eserciti"
-      ],
-      "Déagol": [
+      "descrizione": "Il re nano che diventa Re sotto la Montagna dopo Thorin.",
+      "nota": null,
+      "eventi": [
+        "cinque-eserciti",
+        "nanduhirion"
+      ]
+    },
+    {
+      "id": "deagol",
+      "nome": "Déagol",
+      "tipo": "personaggio",
+      "specie": "Sturoi",
+      "popolo": "Sturoi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Lo Sturoi che trova l'Anello nell'Anduin e viene ucciso da Sméagol.",
+      "nota": null,
+      "eventi": [
         "deagol-anello"
-      ],
-      "Eldacar": [
+      ]
+    },
+    {
+      "id": "eldacar",
+      "nome": "Eldacar",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor che riconquista il trono nel 1447.",
+      "nota": null,
+      "eventi": [
         "lotta-stirpi"
-      ],
-      "Elendil": [
+      ]
+    },
+    {
+      "id": "elendil",
+      "nome": "Elendil",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il fondatore di Arnor e Gondor, caduto contro Sauron.",
+      "nota": null,
+      "eventi": [
         "inizio-terza"
+      ]
+    },
+    {
+      "id": "eorl-il-giovane",
+      "nome": "Eorl il Giovane",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Uomini del Nord",
+      "nascita": null,
+      "morte": null,
+      "alias": [
+        "Eorl"
       ],
-      "Eorl il Giovane": [
+      "descrizione": "Il condottiero dei Rohirrim che vince a Celebrant e riceve il Calenardhon.",
+      "nota": null,
+      "eventi": [
         "battaglia-celebrant",
         "rohan"
-      ],
-      "Eärendur": [
+      ]
+    },
+    {
+      "id": "earendur",
+      "nome": "Eärendur",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il decimo re di Arnor, alla cui morte il regno si divide.",
+      "nota": null,
+      "eventi": [
         "divisione-arnor"
-      ],
-      "Eärnil": [
+      ]
+    },
+    {
+      "id": "earnil",
+      "nome": "Eärnil",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il generale che sconfigge i Carrieri e diventa re di Gondor.",
+      "nota": null,
+      "eventi": [
         "battaglia-campo"
-      ],
-      "Eärnur": [
+      ]
+    },
+    {
+      "id": "earnur",
+      "nome": "Eärnur",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "L'ultimo re di Gondor prima dei Sovrintendenti, scomparso a Minas Morgul.",
+      "nota": null,
+      "eventi": [
         "battaglia-fornost",
         "earnur"
-      ],
-      "Fornost": [
-        "angmar-invaude"
-      ],
-      "Fréaláf": [
+      ]
+    },
+    {
+      "id": "frealaf",
+      "nome": "Fréaláf",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il nipote di Helm che caccia Wulf e fonda la seconda linea dei re di Rohan.",
+      "nota": null,
+      "eventi": [
         "lungo-inverno"
-      ],
-      "Gil-galad": [
+      ]
+    },
+    {
+      "id": "gil-galad",
+      "nome": "Gil-galad",
+      "tipo": "personaggio",
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "L'Alto Re degli Elfi, caduto contro Sauron.",
+      "nota": null,
+      "eventi": [
         "inizio-terza"
-      ],
-      "Glorfindel": [
+      ]
+    },
+    {
+      "id": "glorfindel",
+      "nome": "Glorfindel",
+      "tipo": "personaggio",
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il signore elfico di Gran Burrone che pronuncia la profezia sul Re degli Stregoni.",
+      "nota": null,
+      "eventi": [
         "battaglia-fornost"
-      ],
-      "Gondor": [
-        "grande-peste",
-        "mordor-sorveglianza",
-        "aurighe",
-        "minas-ithil",
-        "osgiliath-distrutta",
-        "saruman-isengard",
-        "osgiliath-3018"
-      ],
-      "Grór": [
+      ]
+    },
+    {
+      "id": "gror",
+      "nome": "Grór",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il fratello di Thrór, che conduce i Nani ai Colli Ferrosi.",
+      "nota": null,
+      "eventi": [
         "draghi-nord"
-      ],
-      "Helm": [
+      ]
+    },
+    {
+      "id": "helm",
+      "nome": "Helm",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Rohan che muore nel Fosso di Helm durante il Lungo Inverno.",
+      "nota": null,
+      "eventi": [
         "lungo-inverno"
-      ],
-      "Hyarmendacil": [
+      ]
+    },
+    {
+      "id": "hyarmendacil",
+      "nome": "Hyarmendacil",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor che conquista l'Harad.",
+      "nota": null,
+      "eventi": [
         "ombra-bosco-attro"
-      ],
-      "Imrahil": [
+      ]
+    },
+    {
+      "id": "imrahil",
+      "nome": "Imrahil",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il principe di Dol Amroth, comandante nella Guerra dell'Anello.",
+      "nota": null,
+      "eventi": [
         "morannon"
-      ],
-      "Isildur": [
+      ]
+    },
+    {
+      "id": "isildur",
+      "nome": "Isildur",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il figlio di Elendil che prende l'Anello e lo perde nell'Anduin.",
+      "nota": null,
+      "eventi": [
         "inizio-terza",
         "isildur-anello"
-      ],
-      "Mardil": [
+      ]
+    },
+    {
+      "id": "mardil",
+      "nome": "Mardil",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il primo Sovrintendente Regnante di Gondor.",
+      "nota": null,
+      "eventi": [
         "earnur"
-      ],
-      "Meneldil": [
+      ]
+    },
+    {
+      "id": "meneldil",
+      "nome": "Meneldil",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il primo re di Gondor dopo Isildur.",
+      "nota": null,
+      "eventi": [
         "isildur-anello"
-      ],
-      "Nain I": [
+      ]
+    },
+    {
+      "id": "nain-i",
+      "nome": "Nain I",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il figlio di Durin VI, ucciso dal Balrog nel 1981.",
+      "nota": null,
+      "eventi": [
         "balrog-moria"
-      ],
-      "Narmacil II": [
+      ]
+    },
+    {
+      "id": "narmacil-ii",
+      "nome": "Narmacil II",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor caduto contro i Carrieri nel 1856.",
+      "nota": null,
+      "eventi": [
         "aurighe"
-      ],
-      "Nár": [
+      ]
+    },
+    {
+      "id": "nar",
+      "nome": "Nár",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il compagno di Thrór, che porta la notizia della sua morte.",
+      "nota": null,
+      "eventi": [
         "thror"
-      ],
-      "Ohtar": [
+      ]
+    },
+    {
+      "id": "ohtar",
+      "nome": "Ohtar",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Lo scudiero che porta i frantumi di Narsil a Gran Burrone.",
+      "nota": null,
+      "eventi": [
         "isildur-anello"
-      ],
-      "Ondoher": [
+      ]
+    },
+    {
+      "id": "ondoher",
+      "nome": "Ondoher",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor caduto contro i Carrieri nel 1944.",
+      "nota": null,
+      "eventi": [
         "battaglia-campo"
-      ],
-      "Ornendil": [
+      ]
+    },
+    {
+      "id": "ornendil",
+      "nome": "Ornendil",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il figlio di Eldacar, ucciso durante la Lotta delle Stirpi.",
+      "nota": null,
+      "eventi": [
         "lotta-stirpi"
-      ],
-      "Orthanc": [
-        "distruzione-isengard"
-      ],
-      "Radagast": [
+      ]
+    },
+    {
+      "id": "radagast",
+      "nome": "Radagast",
+      "tipo": "personaggio",
+      "specie": "Maia",
+      "popolo": "Maiar",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Lo Istaro Bruno, signore delle bestie e degli uccelli.",
+      "nota": null,
+      "eventi": [
         "istari"
-      ],
-      "Smaug": [
+      ]
+    },
+    {
+      "id": "smaug",
+      "nome": "Smaug",
+      "tipo": "personaggio",
+      "specie": "Drago",
+      "popolo": "Draghi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il drago che conquista Erebor e viene ucciso da Bard.",
+      "nota": null,
+      "eventi": [
         "smaug-erebor",
         "smaug-ucciso"
-      ],
-      "Tarondor": [
+      ]
+    },
+    {
+      "id": "tarondor",
+      "nome": "Tarondor",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor che sposta la capitale a Minas Anor.",
+      "nota": null,
+      "eventi": [
         "mordor-sorveglianza"
-      ],
-      "Telemnar": [
+      ]
+    },
+    {
+      "id": "telemnar",
+      "nome": "Telemnar",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor morto nella Grande Peste con i suoi figli.",
+      "nota": null,
+      "eventi": [
         "grande-peste"
-      ],
-      "Thranduil": [
+      ]
+    },
+    {
+      "id": "thranduil",
+      "nome": "Thranduil",
+      "tipo": "personaggio",
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re elfico del Bosco Atro, padre di Legolas.",
+      "nota": null,
+      "eventi": [
         "cinque-eserciti",
         "gollum-fugge"
-      ],
-      "Thràin I": [
+      ]
+    },
+    {
+      "id": "thrain-i",
+      "nome": "Thràin I",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re nano che fonda il regno sotto la Montagna nel 1999.",
+      "nota": null,
+      "eventi": [
         "nani-erebor"
-      ],
-      "Thràin II": [
-        "smaug-erebor",
+      ]
+    },
+    {
+      "id": "thrain-ii",
+      "nome": "Thràin II",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il figlio di Thrór, morto prigioniero a Dol Guldur.",
+      "nota": null,
+      "eventi": [
+        "gandalf-dol-guldur",
         "nanduhirion",
-        "gandalf-dol-guldur"
-      ],
-      "Thrór": [
+        "smaug-erebor"
+      ]
+    },
+    {
+      "id": "thror",
+      "nome": "Thrór",
+      "tipo": "personaggio",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re nano ucciso da un Orchetto davanti a Moria nel 2790.",
+      "nota": null,
+      "eventi": [
         "draghi-nord",
         "smaug-erebor",
         "thror"
-      ],
-      "Tobaldo": [
+      ]
+    },
+    {
+      "id": "tobaldo",
+      "nome": "Tobaldo",
+      "tipo": "personaggio",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "L'Hobbit che introduce l'erba-pipa nella Contea.",
+      "nota": null,
+      "eventi": [
         "erba-pipa"
-      ],
-      "Tyrn Gorthad": [
-        "angmar-invaude"
-      ],
-      "Valacar": [
+      ]
+    },
+    {
+      "id": "valacar",
+      "nome": "Valacar",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il re di Gondor la cui morte scatena la Lotta delle Stirpi.",
+      "nota": null,
+      "eventi": [
         "lotta-stirpi"
-      ],
-      "Wulf": [
+      ]
+    },
+    {
+      "id": "wulf",
+      "nome": "Wulf",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "Il condottiero che occupa Edoras durante il Lungo Inverno.",
+      "nota": null,
+      "eventi": [
         "lungo-inverno"
+      ]
+    },
+    {
+      "id": "re-degli-stregoni",
+      "nome": "il Re degli Stregoni",
+      "tipo": "personaggio",
+      "specie": "Uomo",
+      "popolo": "Nazgûl",
+      "nascita": null,
+      "morte": null,
+      "alias": [
+        "il Signore di Morgul",
+        "Signore di Morgul",
+        "Re di Angmar"
       ],
-      "gli Elfi Silvani": [
-        "gollum-fugge"
-      ],
-      "gli Ent": [
-        "distruzione-isengard"
-      ],
-      "gli Esterling": [
-        "battaglia-celebrant"
-      ],
-      "gli Hobbit": [
-        "erba-pipa"
-      ],
-      "gli Hobbit della Contea": [
-        "lungacque"
-      ],
-      "gli Orchetti": [
-        "angmar",
-        "battaglia-celebrant",
-        "gollum-fugge",
-        "compagnia-si-scioglie"
-      ],
-      "gli Orchetti di Moria": [
-        "nanduhirion"
-      ],
-      "gli Orchetti e i Lupi": [
-        "cinque-eserciti"
-      ],
-      "gli Uruk-hai": [
-        "fosso-helm"
-      ],
-      "gli abitanti dell'Ithilien": [
-        "fato-avvampa"
-      ],
-      "gli abitanti di Esgaroth": [
-        "smaug-ucciso"
-      ],
-      "gli assalitori di Mordor": [
-        "osgiliath-distrutta"
-      ],
-      "i Balchoth": [
-        "battaglia-celebrant"
-      ],
-      "i Carrieri": [
-        "aurighe",
-        "battaglia-campo"
-      ],
-      "i Cavalieri Neri": [
-        "frodo-parte"
-      ],
-      "i Corsari di Umbar": [
-        "lungo-inverno"
-      ],
-      "i Draghi": [
-        "draghi-nord"
-      ],
-      "i Nani del Popolo di Durin": [
-        "nani-erebor"
-      ],
-      "i Nazgûl": [
-        "saggi-dol-guldur",
-        "angmar",
-        "minas-ithil",
-        "pace-vigile",
-        "sauron-ritorno",
-        "sauron-si-dichiara",
-        "osgiliath-3018"
-      ],
-      "i Periannath": [
-        "ombra-bosco-attro",
-        "angmar",
-        "grande-peste"
-      ],
-      "i Rohirrim": [
-        "rohan"
-      ],
-      "i Saggi": [
-        "saggi-dol-guldur"
-      ],
-      "i dodici compagni di Thorin": [
-        "festa-inattesa"
-      ],
-      "i figli di Telemnar": [
-        "grande-peste"
-      ],
-      "i tre figli di Eärendur": [
-        "divisione-arnor"
-      ],
-      "i tre figli maggiori di Isildur": [
-        "isildur-anello"
-      ],
-      "il Balrog": [
-        "balrog-moria",
-        "gandalf-moria"
-      ],
-      "il Bianco Consiglio": [
-        "deagol-anello",
-        "ultimo-consiglio"
-      ],
-      "il Monte Fato": [
-        "fato-avvampa"
-      ],
-      "il Re degli Stregoni": [
+      "descrizione": "Il capo dei Nazgûl, signore di Angmar e di Minas Morgul.",
+      "nota": null,
+      "eventi": [
         "angmar",
         "angmar-invaude",
-        "cade-arnor",
         "battaglia-fornost",
+        "cade-arnor",
+        "earnur",
         "pelennor"
+      ]
+    },
+    {
+      "id": "balrog",
+      "nome": "il Balrog",
+      "tipo": "personaggio",
+      "specie": "Maia",
+      "popolo": "Maiar",
+      "nascita": null,
+      "morte": null,
+      "alias": [
+        "flagello di Durin"
       ],
-      "il Signore di Morgul": [
-        "earnur"
-      ],
-      "l'Esercito dell'Ovest": [
-        "morannon"
-      ],
-      "la Compagnia dell'Anello": [
-        "compagnia-parte"
-      ],
-      "la famiglia Baggins": [
-        "bilbo-nasce"
-      ],
-      "la scorta di cavalieri": [
-        "earnur"
-      ],
-      "le forze di Sauron": [
-        "morannon"
-      ],
-      "le spie di Saruman": [
-        "saruman-tradisce"
-      ],
-      "un Orchetto di Moria": [
+      "descrizione": "Il demone del fuoco che scaccia i Nani da Moria.",
+      "nota": null,
+      "eventi": [
+        "balrog-moria",
+        "gandalf-moria"
+      ]
+    },
+    {
+      "id": "orchetto-di-moria",
+      "nome": "un Orchetto di Moria",
+      "tipo": "personaggio",
+      "specie": "Orchetto",
+      "popolo": "Orchetti",
+      "nascita": null,
+      "morte": null,
+      "alias": [],
+      "descrizione": "L'Orchetto che uccide Thrór davanti al Cancello Orientale.",
+      "nota": null,
+      "eventi": [
         "thror"
       ]
     }
+  ],
+  "copertura": {
+    "nomi_citati": 108,
+    "nomi_coperti": 71,
+    "nomi_coperti_da_entita": 37,
+    "nomi_scoperti": 0,
+    "scoperti": {}
   }
 }

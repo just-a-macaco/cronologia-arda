@@ -22,23 +22,23 @@
     - dol-guldur
   fa_parte_di: null
   partecipanti:
-    - nome: Sauron
+    - persona: sauron
       parte: Mordor
       ruolo: Signore Oscuro
       esito: dichiara il proprio ritorno
-    - nome: i Nazgûl
+    - entita: gruppo-nazgul
       parte: Mordor
       ruolo: servi
       esito: tre rioccupano Dol Guldur
-    - nome: Gollum
+    - persona: gollum
       parte: Montagne Nebbiose
       ruolo: cercatore
       esito: si dirige verso Mordor
-    - nome: Elrond
+    - persona: elrond
       parte: Imladris
       ruolo: signore elfico
       esito: rivela ad Aragorn la sua discendenza
-    - nome: Aragorn
+    - persona: aragorn
       parte: Dúnedain
       ruolo: erede di Isildur
       esito: riceve i frantumi di Narsil
@@ -79,15 +79,15 @@
     - decumano-sud
   fa_parte_di: null
   partecipanti:
-    - nome: Saruman
+    - persona: saruman
       parte: Bianco Consiglio
       ruolo: capo
       esito: mente sull'Anello e si ritira a Isengard
-    - nome: Gandalf
+    - persona: gandalf
       parte: Bianco Consiglio
       ruolo: membro
       esito: viene spiato
-    - nome: il Bianco Consiglio
+    - entita: gruppo-bianco-consiglio
       parte: Eldar e Istari
       ruolo: consiglio dei saggi
       esito: si scioglie
@@ -126,11 +126,11 @@
     - anduin
   fa_parte_di: null
   partecipanti:
-    - nome: il Monte Fato
+    - entita: regno-mordor
       parte: Mordor
-      ruolo: vulcano
-      esito: torna in eruzione
-    - nome: gli abitanti dell'Ithilien
+      ruolo: terra di Sauron
+      esito: si risveglia
+    - entita: gruppo-abitanti-ithilien
       parte: Gondor
       ruolo: popolazione
       esito: fuggono oltre l'Anduin
@@ -168,15 +168,15 @@
     - contea
   fa_parte_di: null
   partecipanti:
-    - nome: Saruman
+    - persona: saruman
       parte: Isengard
       ruolo: capo del Bianco Consiglio
       esito: usa il palantír e cade sotto il dominio di Sauron
-    - nome: Sauron
+    - persona: sauron
       parte: Mordor
       ruolo: Signore Oscuro
       esito: irretisce Saruman
-    - nome: le spie di Saruman
+    - entita: gruppo-spie-saruman
       parte: Isengard
       ruolo: informatori
       esito: riferiscono sulla Contea
@@ -215,15 +215,15 @@
     - casa-baggins
   fa_parte_di: null
   partecipanti:
-    - nome: Bilbo Baggins
+    - persona: bilbo-baggins
       parte: Hobbit
       ruolo: festeggiato
       esito: parte e lascia l'Anello a Frodo
-    - nome: Frodo Baggins
+    - persona: frodo-baggins
       parte: Hobbit
       ruolo: erede
       esito: riceve l'Anello
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: ospite
       esito: comincia a sospettare la verità
@@ -263,15 +263,15 @@
     - minas-morgul
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
-    - nome: Sauron
+    - persona: sauron
       parte: Mordor
       ruolo: Signore Oscuro
       esito: ordina l'attacco
-    - nome: Gondor
+    - entita: regno-gondor
       parte: Gondor
       ruolo: difensore
       esito: perde Osgiliath
-    - nome: i Nazgûl
+    - entita: gruppo-nazgul
       parte: Mordor
       ruolo: cavalieri
       esito: attraversano il fiume
@@ -310,19 +310,19 @@
     - moria
   fa_parte_di: null
   partecipanti:
-    - nome: Gollum
+    - persona: gollum
       parte: Montagne Nebbiose
       ruolo: prigioniero
       esito: fugge
-    - nome: Thranduil
+    - persona: thranduil
       parte: Bosco Atro
       ruolo: re elfico
       esito: subisce l'assalto
-    - nome: gli Elfi Silvani
+    - entita: popolo-elfi-silvani
       parte: Bosco Atro
       ruolo: guardiani
       esito: perdono il prigioniero
-    - nome: gli Orchetti
+    - entita: popolo-orchetti
       parte: Montagne
       ruolo: assalitori
       esito: liberano Gollum
@@ -360,27 +360,27 @@
     - casa-baggins
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
-    - nome: Frodo Baggins
+    - persona: frodo-baggins
       parte: Hobbit
       ruolo: Portatore dell'Anello
       esito: parte da Casa Baggins
-    - nome: Samvise Gamgi
+    - persona: samvise-gamgi
       parte: Hobbit
       ruolo: compagno
       esito: parte con Frodo
-    - nome: Meriadoc Brandibuck
+    - persona: meriadoc-brandibuck
       parte: Hobbit
       ruolo: compagno
       esito: parte con Frodo
-    - nome: Peregrino Tuc
+    - persona: peregrino-tuc
       parte: Hobbit
       ruolo: compagno
       esito: parte con Frodo
-    - nome: i Cavalieri Neri
+    - entita: gruppo-nazgul
       parte: Mordor
       ruolo: inseguitori
       esito: entrano nella Contea
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: guida
       esito: parte da Rohan
@@ -416,35 +416,35 @@
     - gran-burrone
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
-    - nome: Elrond
+    - persona: elrond
       parte: Imladris
       ruolo: signore del consiglio
       esito: convoca il Consiglio
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: consigliere
       esito: sostiene la distruzione dell'Anello
-    - nome: Frodo Baggins
+    - persona: frodo-baggins
       parte: Hobbit
       ruolo: Portatore
       esito: si offre di portare l'Anello
-    - nome: Aragorn
+    - persona: aragorn
       parte: Dúnedain
       ruolo: erede di Isildur
       esito: entra nella Compagnia
-    - nome: Boromir
+    - persona: boromir
       parte: Gondor
       ruolo: figlio del Sovrintendente
       esito: entra nella Compagnia
-    - nome: Legolas
+    - persona: legolas
       parte: Bosco Atro
       ruolo: elfo
       esito: entra nella Compagnia
-    - nome: Gimli
+    - persona: gimli
       parte: Nani
       ruolo: nano
       esito: entra nella Compagnia
-    - nome: Bilbo Baggins
+    - persona: bilbo-baggins
       parte: Hobbit
       ruolo: ospite
       esito: offre il suo aiuto
@@ -481,15 +481,15 @@
     - gran-burrone
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
-    - nome: la Compagnia dell'Anello
+    - entita: gruppo-compagnia-anello
       parte: Compagnia
       ruolo: nove viandanti
       esito: parte da Gran Burrone
-    - nome: Frodo Baggins
+    - persona: frodo-baggins
       parte: Hobbit
       ruolo: Portatore
       esito: guida la compagnia
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: guida
       esito: accompagna la compagnia
@@ -526,31 +526,31 @@
     - nimrodel
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
-    - nome: Gandalf
+    - persona: gandalf
       parte: Compagnia
       ruolo: Istaro
       esito: cade con il Balrog
-    - nome: il Balrog
+    - persona: balrog
       parte: Morgoth
       ruolo: demone del fuoco
       esito: precipita con Gandalf
-    - nome: Aragorn
+    - persona: aragorn
       parte: Compagnia
       ruolo: guida
       esito: conduce i superstiti fuori da Moria
-    - nome: Frodo Baggins
+    - persona: frodo-baggins
       parte: Hobbit
       ruolo: Portatore
       esito: sopravvive
-    - nome: Boromir
+    - persona: boromir
       parte: Compagnia
       ruolo: guerriero
       esito: sopravvive
-    - nome: Legolas
+    - persona: legolas
       parte: Compagnia
       ruolo: arciere
       esito: sopravvive
-    - nome: Gimli
+    - persona: gimli
       parte: Compagnia
       ruolo: nano
       esito: sopravvive
@@ -590,31 +590,31 @@
     - rohan
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
-    - nome: Boromir
+    - persona: boromir
       parte: Compagnia
       ruolo: guerriero
       esito: muore
-    - nome: Meriadoc Brandibuck
+    - persona: meriadoc-brandibuck
       parte: Hobbit
       ruolo: compagno
       esito: catturato
-    - nome: Peregrino Tuc
+    - persona: peregrino-tuc
       parte: Hobbit
       ruolo: compagno
       esito: catturato
-    - nome: Frodo Baggins
+    - persona: frodo-baggins
       parte: Hobbit
       ruolo: Portatore
       esito: prosegue da solo con Sam
-    - nome: Samvise Gamgi
+    - persona: samvise-gamgi
       parte: Hobbit
       ruolo: compagno
       esito: segue Frodo
-    - nome: Aragorn
+    - persona: aragorn
       parte: Compagnia
       ruolo: guida
       esito: insegue gli Orchetti
-    - nome: gli Orchetti
+    - entita: popolo-orchetti
       parte: Mordor
       ruolo: rapitori
       esito: fuggono con Merry e Pippin
@@ -652,27 +652,27 @@
     - clivovalle
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
-    - nome: Théoden
+    - persona: theoden
       parte: Rohan
       ruolo: re
       esito: resiste
-    - nome: Éomer
+    - persona: eomer
       parte: Rohan
       ruolo: comandante
       esito: combatte
-    - nome: Aragorn
+    - persona: aragorn
       parte: Compagnia
       ruolo: comandante
       esito: combatte
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: soccorritore
       esito: arriva con i rinforzi
-    - nome: Saruman
+    - persona: saruman
       parte: Isengard
       ruolo: nemico
       esito: attacca con il suo esercito
-    - nome: gli Uruk-hai
+    - entita: gruppo-uruk-hai
       parte: Isengard
       ruolo: assalitori
       esito: sconfitti
@@ -713,22 +713,22 @@
     - fangorn
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
-    - nome: Barbalbero
+    - persona: barbalbero
       parte: Ent
       ruolo: guida
       esito: dirige l'assalto
-    - nome: gli Ent
+    - entita: popolo-ent
       parte: Fangorn
       ruolo: esercito
       esito: distruggono Isengard
-    - nome: Saruman
+    - persona: saruman
       parte: Isengard
       ruolo: signore
       esito: resta chiuso a Orthanc
-    - nome: Orthanc
+    - entita: gruppo-difese-orthanc
       parte: Isengard
-      ruolo: torre
-      esito: resiste
+      ruolo: guarnigione
+      esito: resistono
   breve: >-
     Gli Ent marciano su Isengard e ne distruggono le difese. Saruman resta
     chiuso nella torre di Orthanc.
@@ -762,43 +762,43 @@
     - harlond
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
-    - nome: Denethor II
+    - persona: denethor-ii
       parte: Gondor
       ruolo: Sovrintendente
       esito: muore
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: difesa della città
       esito: vivo
-    - nome: Théoden
+    - persona: theoden
       parte: Rohan
       ruolo: re, comandante
       esito: muore
-    - nome: Éomer
+    - persona: eomer
       parte: Rohan
       ruolo: erede, guida la carica
       esito: vivo
-    - nome: Éowyn
+    - persona: eowyn
       parte: Rohan
       ruolo: Dernhelm, uccide il Re degli Stregoni
       esito: ferita
-    - nome: Meriadoc Brandibuck
+    - persona: meriadoc-brandibuck
       parte: Rohan
       ruolo: scudiero, ferisce il Re degli Stregoni
       esito: ferito
-    - nome: il Re degli Stregoni
+    - persona: re-degli-stregoni
       parte: Mordor
       ruolo: comandante
       esito: distrutto
-    - nome: Aragorn
+    - persona: aragorn
       parte: Gondor
       ruolo: rinforzi dal Sud
       esito: vivo
-    - nome: Beregond
+    - persona: beregond
       parte: Gondor
       ruolo: salva Faramir
       esito: vivo
-    - nome: Faramir
+    - persona: faramir
       parte: Gondor
       ruolo: ferito
       esito: vivo
@@ -843,27 +843,27 @@
     - desolazione-del-morannon
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
-    - nome: Aragorn
+    - persona: aragorn
       parte: Esercito dell'Ovest
       ruolo: comandante
       esito: resiste
-    - nome: Gandalf
+    - persona: gandalf
       parte: Esercito dell'Ovest
       ruolo: comandante
       esito: resiste
-    - nome: Éomer
+    - persona: eomer
       parte: Rohan
       ruolo: comandante
       esito: resiste
-    - nome: Imrahil
+    - persona: imrahil
       parte: Dol Amroth
       ruolo: comandante
       esito: resiste
-    - nome: l'Esercito dell'Ovest
+    - entita: gruppo-esercito-ovest
       parte: Gondor e Rohan
       ruolo: esercito
       esito: circondato
-    - nome: le forze di Sauron
+    - entita: gruppo-forze-sauron
       parte: Mordor
       ruolo: esercito
       esito: crolla alla caduta di Sauron
@@ -902,19 +902,19 @@
     - barad-dur
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
-    - nome: Frodo Baggins
+    - persona: frodo-baggins
       parte: Hobbit
       ruolo: Portatore
       esito: cede all'Anello, poi viene salvato
-    - nome: Samvise Gamgi
+    - persona: samvise-gamgi
       parte: Hobbit
       ruolo: compagno
       esito: sopravvive
-    - nome: Gollum
+    - persona: gollum
       parte: Montagne Nebbiose
       ruolo: custode
       esito: cade nella Voragine con l'Anello
-    - nome: Sauron
+    - persona: sauron
       parte: Mordor
       ruolo: Signore Oscuro
       esito: muore
@@ -951,19 +951,19 @@
     - gondor
   fa_parte_di: null
   partecipanti:
-    - nome: Aragorn
+    - persona: aragorn
       parte: Gondor
       ruolo: re
       esito: viene incoronato Elessar
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: consigliere
       esito: pone la corona
-    - nome: Elrond
+    - persona: elrond
       parte: Imladris
       ruolo: signore elfico
       esito: parte da Gran Burrone
-    - nome: Arwen
+    - persona: arwen
       parte: Imladris
       ruolo: regina
       esito: parte con Elrond
@@ -999,15 +999,15 @@
     - gondor
   fa_parte_di: null
   partecipanti:
-    - nome: Aragorn
+    - persona: aragorn
       parte: Gondor
       ruolo: re
       esito: sposa Arwen
-    - nome: Arwen
+    - persona: arwen
       parte: Imladris
       ruolo: regina
       esito: sposa Aragorn
-    - nome: Elrond
+    - persona: elrond
       parte: Imladris
       ruolo: padre della sposa
       esito: celebra le nozze
@@ -1045,27 +1045,27 @@
     - hobbiville
   fa_parte_di: La Guerra dell'Anello
   partecipanti:
-    - nome: Frodo Baggins
+    - persona: frodo-baggins
       parte: Hobbit
       ruolo: guida
       esito: sopravvive
-    - nome: Samvise Gamgi
+    - persona: samvise-gamgi
       parte: Hobbit
       ruolo: combattente
       esito: sopravvive
-    - nome: Meriadoc Brandibuck
+    - persona: meriadoc-brandibuck
       parte: Hobbit
       ruolo: combattente
       esito: sopravvive
-    - nome: Peregrino Tuc
+    - persona: peregrino-tuc
       parte: Hobbit
       ruolo: combattente
       esito: sopravvive
-    - nome: Saruman
+    - persona: saruman
       parte: Isengard
       ruolo: nemico
       esito: muore
-    - nome: gli Hobbit della Contea
+    - entita: gruppo-hobbit-contea
       parte: Hobbit
       ruolo: popolo
       esito: sollevano la Contea
@@ -1105,31 +1105,31 @@
     - grande-mare
   fa_parte_di: null
   partecipanti:
-    - nome: Frodo Baggins
+    - persona: frodo-baggins
       parte: Hobbit
       ruolo: Portatore
       esito: salpa
-    - nome: Bilbo Baggins
+    - persona: bilbo-baggins
       parte: Hobbit
       ruolo: Portatore
       esito: salpa
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: Custode
       esito: salpa
-    - nome: Elrond
+    - persona: elrond
       parte: Imladris
       ruolo: Custode
       esito: salpa
-    - nome: Galadriel
+    - persona: galadriel
       parte: Lórien
       ruolo: Custode
       esito: salpa
-    - nome: Círdan
+    - persona: cirdan
       parte: Rifugi Oscuri
       ruolo: Signore del porto
       esito: assiste alla partenza
-    - nome: Samvise Gamgi
+    - persona: samvise-gamgi
       parte: Hobbit
       ruolo: compagno
       esito: torna alla Contea

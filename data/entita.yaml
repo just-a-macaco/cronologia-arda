@@ -1,0 +1,278 @@
+# Anagrafica delle entità collettive.
+# Popoli, regni e gruppi che compaiono come partecipanti negli eventi.
+# Le persone con un nome proprio stanno in data/persone.yaml.
+# Gli ID hanno un prefisso per non confonderli con i luoghi:
+#   popolo-…, regno-…, gruppo-…
+
+- id: regno-gondor
+  nome: Gondor
+  tipo: regno
+  alias:
+    - Regno del Sud
+    - Reame del Sud
+  descrizione: Il regno degli Uomini del Sud, tra l'Anduin e le Montagne Bianche.
+  nota: null
+
+- id: regno-arthedain
+  nome: Arthedain
+  tipo: regno
+  alias: []
+  descrizione: Il regno del Nord nato dalla divisione di Arnor nel 861.
+  nota: null
+
+- id: regno-mordor
+  nome: Mordor
+  tipo: regno
+  alias:
+    - Terra Nera
+  descrizione: La terra di Sauron a est dell'Anduin.
+  nota: null
+
+- id: popolo-hobbit
+  nome: gli Hobbit
+  tipo: popolo
+  alias:
+    - i Periannath
+    - Hobbit
+  descrizione: Il popolo degli Hobbit, chiamato Periannath dagli Elfi.
+  nota: null
+
+- id: popolo-elfi-silvani
+  nome: gli Elfi Silvani
+  tipo: popolo
+  alias:
+    - Elfi Silvani
+  descrizione: Gli Elfi del Bosco Atro e di Lórien.
+  nota: null
+
+- id: popolo-ent
+  nome: gli Ent
+  tipo: popolo
+  alias:
+    - Ent
+  descrizione: I pastori degli alberi di Fangorn.
+  nota: null
+
+- id: popolo-esterling
+  nome: gli Esterling
+  tipo: popolo
+  alias:
+    - Esterling
+  descrizione: I popoli dell'Est che attaccano Gondor e Rohan.
+  nota: null
+
+- id: popolo-orchetti
+  nome: gli Orchetti
+  tipo: popolo
+  alias:
+    - Orchetti
+  descrizione: Le creature di Sauron e di Morgoth, nemiche di Elfi e Uomini.
+  nota: null
+
+- id: popolo-balchoth
+  nome: i Balchoth
+  tipo: popolo
+  alias: []
+  descrizione: Gli Uomini dell'Est che invadono il Calenardhon nel 2510.
+  nota: null
+
+- id: popolo-carrieri
+  nome: i Carrieri
+  tipo: popolo
+  alias:
+    - Carrieri
+  descrizione: Il popolo dell'Est che attacca Gondor tra il 1851 e il 1856.
+  nota: null
+
+- id: popolo-draghi
+  nome: i Draghi
+  tipo: popolo
+  alias:
+    - Draghi
+  descrizione: I Draghi del Nord, tra cui Smaug.
+  nota: null
+
+- id: popolo-nani-di-durin
+  nome: i Nani del Popolo di Durin
+  tipo: popolo
+  alias: []
+  descrizione: I Nani discendenti di Durin, dispersi tra Erebor, Moria e i Colli Ferrosi.
+  nota: null
+
+- id: popolo-rohirrim
+  nome: i Rohirrim
+  tipo: popolo
+  alias:
+    - Rohirrim
+  descrizione: Il popolo dei Cavalieri di Rohan.
+  nota: null
+
+- id: gruppo-hobbit-contea
+  nome: gli Hobbit della Contea
+  tipo: gruppo
+  alias: []
+  descrizione: Gli Hobbit della Contea che insorgono nel 3019.
+  nota: null
+
+- id: gruppo-orchetti-moria
+  nome: gli Orchetti di Moria
+  tipo: gruppo
+  alias: []
+  descrizione: Gli Orchetti che occupano Moria dopo il 1981.
+  nota: null
+
+- id: gruppo-orchetti-lupi
+  nome: gli Orchetti e i Lupi
+  tipo: gruppo
+  alias: []
+  descrizione: La coalizione di Orchetti e Lupi alla Battaglia dei Cinque Eserciti.
+  nota: null
+
+- id: gruppo-uruk-hai
+  nome: gli Uruk-hai
+  tipo: gruppo
+  alias: []
+  descrizione: Gli Orchetti guerrieri di Saruman.
+  nota: null
+
+- id: gruppo-abitanti-ithilien
+  nome: gli abitanti dell'Ithilien
+  tipo: gruppo
+  alias: []
+  descrizione: Gli abitanti dell'Ithilien che fuggono dopo il 2954.
+  nota: null
+
+- id: gruppo-abitanti-esgaroth
+  nome: gli abitanti di Esgaroth
+  tipo: gruppo
+  alias: []
+  descrizione: Gli abitanti di Esgaroth colpiti da Smaug.
+  nota: null
+
+- id: gruppo-assalitori-mordor
+  nome: gli assalitori di Mordor
+  tipo: gruppo
+  alias: []
+  descrizione: Le forze di Mordor che attaccano Osgiliath.
+  nota: null
+
+- id: gruppo-corsari-umbar
+  nome: i Corsari di Umbar
+  tipo: gruppo
+  alias: []
+  descrizione: I Corsari che assalgono Gondor nel 2758.
+  nota: null
+
+- id: gruppo-dunedain-cardolan
+  nome: i Dúnedain di Cardolan
+  tipo: gruppo
+  alias: []
+  descrizione: I Dúnedain di Cardolan che difendono Tyrn Gorthad.
+  nota: null
+
+- id: gruppo-dunedain-fornost
+  nome: i Dúnedain di Fornost
+  tipo: gruppo
+  alias: []
+  descrizione: I Dúnedain di Arthedain che difendono Fornost.
+  nota: null
+
+- id: gruppo-nazgul
+  nome: i Nazgûl
+  tipo: gruppo
+  alias:
+    - i Cavalieri Neri
+    - Nazgûl
+  descrizione: I nove servi di Sauron, guidati dal Re degli Stregoni.
+  nota: null
+
+- id: gruppo-saggi
+  nome: i Saggi
+  tipo: gruppo
+  alias: []
+  descrizione: Il consiglio dei sapienti, formato da Istari e capi degli Eldar.
+  nota: null
+
+- id: gruppo-compagni-thorin
+  nome: i dodici compagni di Thorin
+  tipo: gruppo
+  alias: []
+  descrizione: I dodici Nani che seguono Thorin verso Erebor.
+  nota: null
+
+- id: gruppo-figli-telemnar
+  nome: i figli di Telemnar
+  tipo: gruppo
+  alias: []
+  descrizione: I figli del re Telemnar, morti con lui nella Grande Peste.
+  nota: null
+
+- id: gruppo-figli-earendur
+  nome: i tre figli di Eärendur
+  tipo: gruppo
+  alias: []
+  descrizione: I tre figli di Eärendur che dividono Arnor.
+  nota: null
+
+- id: gruppo-figli-isildur
+  nome: i tre figli maggiori di Isildur
+  tipo: gruppo
+  alias: []
+  descrizione: I tre figli maggiori di Isildur, morti con lui.
+  nota: null
+
+- id: gruppo-bianco-consiglio
+  nome: il Bianco Consiglio
+  tipo: gruppo
+  alias: []
+  descrizione: Il consiglio dei Saggi che si riunisce contro Dol Guldur.
+  nota: null
+
+- id: gruppo-esercito-ovest
+  nome: l'Esercito dell'Ovest
+  tipo: gruppo
+  alias: []
+  descrizione: L'esercito di Gondor e Rohan che marcia sul Morannon.
+  nota: null
+
+- id: gruppo-compagnia-anello
+  nome: la Compagnia dell'Anello
+  tipo: gruppo
+  alias: []
+  descrizione: I nove viandanti che partono da Gran Burrone.
+  nota: null
+
+- id: gruppo-famiglia-baggins
+  nome: la famiglia Baggins
+  tipo: gruppo
+  alias: []
+  descrizione: La famiglia di Bilbo e Frodo a Hobbiville.
+  nota: null
+
+- id: gruppo-scorta-cavalieri
+  nome: la scorta di cavalieri
+  tipo: gruppo
+  alias: []
+  descrizione: La scorta che segue Eärnur a Minas Morgul.
+  nota: null
+
+- id: gruppo-difese-orthanc
+  nome: le difese di Orthanc
+  tipo: gruppo
+  alias: []
+  descrizione: La guarnigione di Orthanc che resiste agli Ent.
+  nota: null
+
+- id: gruppo-forze-sauron
+  nome: le forze di Sauron
+  tipo: gruppo
+  alias: []
+  descrizione: L'esercito di Sauron nella Guerra dell'Anello.
+  nota: null
+
+- id: gruppo-spie-saruman
+  nome: le spie di Saruman
+  tipo: gruppo
+  alias: []
+  descrizione: Gli informatori di Saruman nella Contea e a Brea.
+  nota: null

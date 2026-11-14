@@ -103,7 +103,7 @@ Meglio un errore sul computer che una scheda sbagliata online.
 
 ## 5. La distinzione più importante: persona non significa "nome nella tabella"
 
-Oggi nella colonna "partecipanti" sono finiti anche regni e popoli:
+Oggi nella colonna "partecipanti" erano finiti anche regni e popoli:
 
 - Gondor
 - Rohan
@@ -200,7 +200,12 @@ contiene 77 schede, che coprono tutti gli 85 nomi citati dagli eventi (alcuni no
 sono alias dello stesso luogo). Gli eventi ora **richiamano i luoghi per ID**: il
 build controlla che ogni ID esista e usa il nome solo per la visualizzazione.
 
-Primo blocco delle persone: `data/persone.yaml` contiene 20 personaggi principali.
-Coprono 21 dei 112 nomi di partecipante; gli altri 91 sono elencati in
-`build/rapporto-persone.md` e vanno classificati (molti sono popoli, regni o
-gruppi, non persone). Gli eventi useranno gli ID delle persone nel passo successivo.
+Anagrafica dei partecipanti completa: `data/persone.yaml` contiene **71 personaggi**
+e `data/entita.yaml` contiene **37 entità collettive** (11 popoli, 3 regni, 25
+gruppi, contando i nomi coperti). Insieme coprono **tutti i 112 nomi** di
+partecipante citati dagli eventi. Anche i partecipanti ora richiamano le schede
+per ID (`persona:` o `entita:`), come i luoghi.
+
+Per la Terza Era il database di eventi, luoghi e partecipanti è completo.
+Restano, per le fasi successive, le famiglie (per gli alberi genealogici) e le
+fonti come entità separate. Poi si torna alla vetrina.

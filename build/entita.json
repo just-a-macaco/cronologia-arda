@@ -1,0 +1,461 @@
+{
+  "entita": [
+    {
+      "id": "regno-gondor",
+      "nome": "Gondor",
+      "tipo": "regno",
+      "alias": [
+        "Regno del Sud",
+        "Reame del Sud"
+      ],
+      "descrizione": "Il regno degli Uomini del Sud, tra l'Anduin e le Montagne Bianche.",
+      "nota": null,
+      "eventi": [
+        "aurighe",
+        "grande-peste",
+        "minas-ithil",
+        "mordor-sorveglianza",
+        "osgiliath-3018",
+        "osgiliath-distrutta",
+        "saruman-isengard"
+      ]
+    },
+    {
+      "id": "regno-arthedain",
+      "nome": "Arthedain",
+      "tipo": "regno",
+      "alias": [],
+      "descrizione": "Il regno del Nord nato dalla divisione di Arnor nel 861.",
+      "nota": null,
+      "eventi": [
+        "cade-arnor"
+      ]
+    },
+    {
+      "id": "regno-mordor",
+      "nome": "Mordor",
+      "tipo": "regno",
+      "alias": [
+        "Terra Nera"
+      ],
+      "descrizione": "La terra di Sauron a est dell'Anduin.",
+      "nota": null,
+      "eventi": [
+        "fato-avvampa"
+      ]
+    },
+    {
+      "id": "popolo-hobbit",
+      "nome": "gli Hobbit",
+      "tipo": "popolo",
+      "alias": [
+        "i Periannath",
+        "Hobbit"
+      ],
+      "descrizione": "Il popolo degli Hobbit, chiamato Periannath dagli Elfi.",
+      "nota": null,
+      "eventi": [
+        "angmar",
+        "erba-pipa",
+        "grande-peste",
+        "ombra-bosco-attro"
+      ]
+    },
+    {
+      "id": "popolo-elfi-silvani",
+      "nome": "gli Elfi Silvani",
+      "tipo": "popolo",
+      "alias": [
+        "Elfi Silvani"
+      ],
+      "descrizione": "Gli Elfi del Bosco Atro e di Lórien.",
+      "nota": null,
+      "eventi": [
+        "gollum-fugge"
+      ]
+    },
+    {
+      "id": "popolo-ent",
+      "nome": "gli Ent",
+      "tipo": "popolo",
+      "alias": [
+        "Ent"
+      ],
+      "descrizione": "I pastori degli alberi di Fangorn.",
+      "nota": null,
+      "eventi": [
+        "distruzione-isengard"
+      ]
+    },
+    {
+      "id": "popolo-esterling",
+      "nome": "gli Esterling",
+      "tipo": "popolo",
+      "alias": [
+        "Esterling"
+      ],
+      "descrizione": "I popoli dell'Est che attaccano Gondor e Rohan.",
+      "nota": null,
+      "eventi": [
+        "battaglia-celebrant"
+      ]
+    },
+    {
+      "id": "popolo-orchetti",
+      "nome": "gli Orchetti",
+      "tipo": "popolo",
+      "alias": [
+        "Orchetti"
+      ],
+      "descrizione": "Le creature di Sauron e di Morgoth, nemiche di Elfi e Uomini.",
+      "nota": null,
+      "eventi": [
+        "angmar",
+        "battaglia-celebrant",
+        "compagnia-si-scioglie",
+        "gollum-fugge"
+      ]
+    },
+    {
+      "id": "popolo-balchoth",
+      "nome": "i Balchoth",
+      "tipo": "popolo",
+      "alias": [],
+      "descrizione": "Gli Uomini dell'Est che invadono il Calenardhon nel 2510.",
+      "nota": null,
+      "eventi": [
+        "battaglia-celebrant"
+      ]
+    },
+    {
+      "id": "popolo-carrieri",
+      "nome": "i Carrieri",
+      "tipo": "popolo",
+      "alias": [
+        "Carrieri"
+      ],
+      "descrizione": "Il popolo dell'Est che attacca Gondor tra il 1851 e il 1856.",
+      "nota": null,
+      "eventi": [
+        "aurighe",
+        "battaglia-campo"
+      ]
+    },
+    {
+      "id": "popolo-draghi",
+      "nome": "i Draghi",
+      "tipo": "popolo",
+      "alias": [
+        "Draghi"
+      ],
+      "descrizione": "I Draghi del Nord, tra cui Smaug.",
+      "nota": null,
+      "eventi": [
+        "draghi-nord"
+      ]
+    },
+    {
+      "id": "popolo-nani-di-durin",
+      "nome": "i Nani del Popolo di Durin",
+      "tipo": "popolo",
+      "alias": [],
+      "descrizione": "I Nani discendenti di Durin, dispersi tra Erebor, Moria e i Colli Ferrosi.",
+      "nota": null,
+      "eventi": [
+        "nani-erebor"
+      ]
+    },
+    {
+      "id": "popolo-rohirrim",
+      "nome": "i Rohirrim",
+      "tipo": "popolo",
+      "alias": [
+        "Rohirrim"
+      ],
+      "descrizione": "Il popolo dei Cavalieri di Rohan.",
+      "nota": null,
+      "eventi": [
+        "rohan"
+      ]
+    },
+    {
+      "id": "gruppo-hobbit-contea",
+      "nome": "gli Hobbit della Contea",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "Gli Hobbit della Contea che insorgono nel 3019.",
+      "nota": null,
+      "eventi": [
+        "lungacque"
+      ]
+    },
+    {
+      "id": "gruppo-orchetti-moria",
+      "nome": "gli Orchetti di Moria",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "Gli Orchetti che occupano Moria dopo il 1981.",
+      "nota": null,
+      "eventi": [
+        "nanduhirion"
+      ]
+    },
+    {
+      "id": "gruppo-orchetti-lupi",
+      "nome": "gli Orchetti e i Lupi",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "La coalizione di Orchetti e Lupi alla Battaglia dei Cinque Eserciti.",
+      "nota": null,
+      "eventi": [
+        "cinque-eserciti"
+      ]
+    },
+    {
+      "id": "gruppo-uruk-hai",
+      "nome": "gli Uruk-hai",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "Gli Orchetti guerrieri di Saruman.",
+      "nota": null,
+      "eventi": [
+        "fosso-helm"
+      ]
+    },
+    {
+      "id": "gruppo-abitanti-ithilien",
+      "nome": "gli abitanti dell'Ithilien",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "Gli abitanti dell'Ithilien che fuggono dopo il 2954.",
+      "nota": null,
+      "eventi": [
+        "fato-avvampa"
+      ]
+    },
+    {
+      "id": "gruppo-abitanti-esgaroth",
+      "nome": "gli abitanti di Esgaroth",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "Gli abitanti di Esgaroth colpiti da Smaug.",
+      "nota": null,
+      "eventi": [
+        "smaug-ucciso"
+      ]
+    },
+    {
+      "id": "gruppo-assalitori-mordor",
+      "nome": "gli assalitori di Mordor",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "Le forze di Mordor che attaccano Osgiliath.",
+      "nota": null,
+      "eventi": [
+        "osgiliath-distrutta"
+      ]
+    },
+    {
+      "id": "gruppo-corsari-umbar",
+      "nome": "i Corsari di Umbar",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "I Corsari che assalgono Gondor nel 2758.",
+      "nota": null,
+      "eventi": [
+        "lungo-inverno"
+      ]
+    },
+    {
+      "id": "gruppo-dunedain-cardolan",
+      "nome": "i Dúnedain di Cardolan",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "I Dúnedain di Cardolan che difendono Tyrn Gorthad.",
+      "nota": null,
+      "eventi": [
+        "angmar-invaude"
+      ]
+    },
+    {
+      "id": "gruppo-dunedain-fornost",
+      "nome": "i Dúnedain di Fornost",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "I Dúnedain di Arthedain che difendono Fornost.",
+      "nota": null,
+      "eventi": [
+        "angmar-invaude"
+      ]
+    },
+    {
+      "id": "gruppo-nazgul",
+      "nome": "i Nazgûl",
+      "tipo": "gruppo",
+      "alias": [
+        "i Cavalieri Neri",
+        "Nazgûl"
+      ],
+      "descrizione": "I nove servi di Sauron, guidati dal Re degli Stregoni.",
+      "nota": null,
+      "eventi": [
+        "angmar",
+        "frodo-parte",
+        "minas-ithil",
+        "osgiliath-3018",
+        "pace-vigile",
+        "saggi-dol-guldur",
+        "sauron-ritorno",
+        "sauron-si-dichiara"
+      ]
+    },
+    {
+      "id": "gruppo-saggi",
+      "nome": "i Saggi",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "Il consiglio dei sapienti, formato da Istari e capi degli Eldar.",
+      "nota": null,
+      "eventi": [
+        "saggi-dol-guldur"
+      ]
+    },
+    {
+      "id": "gruppo-compagni-thorin",
+      "nome": "i dodici compagni di Thorin",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "I dodici Nani che seguono Thorin verso Erebor.",
+      "nota": null,
+      "eventi": [
+        "festa-inattesa"
+      ]
+    },
+    {
+      "id": "gruppo-figli-telemnar",
+      "nome": "i figli di Telemnar",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "I figli del re Telemnar, morti con lui nella Grande Peste.",
+      "nota": null,
+      "eventi": [
+        "grande-peste"
+      ]
+    },
+    {
+      "id": "gruppo-figli-earendur",
+      "nome": "i tre figli di Eärendur",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "I tre figli di Eärendur che dividono Arnor.",
+      "nota": null,
+      "eventi": [
+        "divisione-arnor"
+      ]
+    },
+    {
+      "id": "gruppo-figli-isildur",
+      "nome": "i tre figli maggiori di Isildur",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "I tre figli maggiori di Isildur, morti con lui.",
+      "nota": null,
+      "eventi": [
+        "isildur-anello"
+      ]
+    },
+    {
+      "id": "gruppo-bianco-consiglio",
+      "nome": "il Bianco Consiglio",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "Il consiglio dei Saggi che si riunisce contro Dol Guldur.",
+      "nota": null,
+      "eventi": [
+        "deagol-anello",
+        "ultimo-consiglio"
+      ]
+    },
+    {
+      "id": "gruppo-esercito-ovest",
+      "nome": "l'Esercito dell'Ovest",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "L'esercito di Gondor e Rohan che marcia sul Morannon.",
+      "nota": null,
+      "eventi": [
+        "morannon"
+      ]
+    },
+    {
+      "id": "gruppo-compagnia-anello",
+      "nome": "la Compagnia dell'Anello",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "I nove viandanti che partono da Gran Burrone.",
+      "nota": null,
+      "eventi": [
+        "compagnia-parte"
+      ]
+    },
+    {
+      "id": "gruppo-famiglia-baggins",
+      "nome": "la famiglia Baggins",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "La famiglia di Bilbo e Frodo a Hobbiville.",
+      "nota": null,
+      "eventi": [
+        "bilbo-nasce"
+      ]
+    },
+    {
+      "id": "gruppo-scorta-cavalieri",
+      "nome": "la scorta di cavalieri",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "La scorta che segue Eärnur a Minas Morgul.",
+      "nota": null,
+      "eventi": [
+        "earnur"
+      ]
+    },
+    {
+      "id": "gruppo-difese-orthanc",
+      "nome": "le difese di Orthanc",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "La guarnigione di Orthanc che resiste agli Ent.",
+      "nota": null,
+      "eventi": [
+        "distruzione-isengard"
+      ]
+    },
+    {
+      "id": "gruppo-forze-sauron",
+      "nome": "le forze di Sauron",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "L'esercito di Sauron nella Guerra dell'Anello.",
+      "nota": null,
+      "eventi": [
+        "morannon"
+      ]
+    },
+    {
+      "id": "gruppo-spie-saruman",
+      "nome": "le spie di Saruman",
+      "tipo": "gruppo",
+      "alias": [],
+      "descrizione": "Gli informatori di Saruman nella Contea e a Brea.",
+      "nota": null,
+      "eventi": [
+        "saruman-tradisce"
+      ]
+    }
+  ],
+  "copertura": {
+    "nomi_coperti": 37,
+    "nomi_scoperti": 71
+  }
+}

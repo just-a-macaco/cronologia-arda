@@ -22,19 +22,19 @@
     - barad-dur
   fa_parte_di: null
   partecipanti:
-    - nome: Sauron
+    - persona: sauron
       parte: Mordor
       ruolo: Signore Oscuro
       esito: sconfitto
-    - nome: Isildur
+    - persona: isildur
       parte: Ultima Alleanza
       ruolo: re di Gondor
       esito: prende l'Unico Anello
-    - nome: Elendil
+    - persona: elendil
       parte: Ultima Alleanza
       ruolo: re
       esito: muore
-    - nome: Gil-galad
+    - persona: gil-galad
       parte: Ultima Alleanza
       ruolo: Alto Re degli Elfi
       esito: muore
@@ -72,19 +72,19 @@
     - anduin
   fa_parte_di: null
   partecipanti:
-    - nome: Isildur
+    - persona: isildur
       parte: Gondor
       ruolo: re
       esito: muore
-    - nome: Meneldil
+    - persona: meneldil
       parte: Gondor
       ruolo: re del Sud
       esito: riceve il regno
-    - nome: Ohtar
+    - persona: ohtar
       parte: Gondor
       ruolo: scudiero di Isildur
       esito: porta i frantumi di Narsil a Imladris
-    - nome: i tre figli maggiori di Isildur
+    - entita: gruppo-figli-isildur
       parte: Gondor
       ruolo: principi
       esito: muoiono
@@ -128,11 +128,11 @@
     - fornost
   fa_parte_di: null
   partecipanti:
-    - nome: Eärendur
+    - persona: earendur
       parte: Arnor
       ruolo: re
       esito: muore
-    - nome: i tre figli di Eärendur
+    - entita: gruppo-figli-earendur
       parte: Arnor
       ruolo: eredi
       esito: si dividono il regno
@@ -170,19 +170,19 @@
     - isengard
   fa_parte_di: null
   partecipanti:
-    - nome: Saruman
+    - persona: saruman
       parte: Istari
       ruolo: il Bianco, capo dell'ordine
       esito: si stabilisce a Isengard
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: il Grigio
       esito: percorre l'Ovest
-    - nome: Radagast
+    - persona: radagast
       parte: Istari
       ruolo: il Bruno
       esito: si dedica alle bestie e agli uccelli
-    - nome: Círdan
+    - persona: cirdan
       parte: Lindon
       ruolo: Signore dei Rifugi Oscuri
       esito: accoglie Gandalf e gli affida Narya
@@ -226,11 +226,11 @@
     - eriador
   fa_parte_di: null
   partecipanti:
-    - nome: Hyarmendacil
+    - persona: hyarmendacil
       parte: Gondor
       ruolo: re
       esito: conquista l'Harad
-    - nome: i Periannath
+    - entita: popolo-hobbit
       parte: Hobbit
       ruolo: popolo
       esito: compaiono per la prima volta nei documenti
@@ -269,11 +269,11 @@
     - bosco-atro
   fa_parte_di: null
   partecipanti:
-    - nome: i Saggi
+    - entita: gruppo-saggi
       parte: Eldar e Istari
       ruolo: consiglio dei sapienti
       esito: scoprono il male di Dol Guldur
-    - nome: i Nazgûl
+    - entita: gruppo-nazgul
       parte: Mordor
       ruolo: sospettati
       esito: il sospetto è errato
@@ -312,19 +312,19 @@
     - eriador
   fa_parte_di: null
   partecipanti:
-    - nome: il Re degli Stregoni
+    - persona: re-degli-stregoni
       parte: Mordor
       ruolo: capo dei Nazgûl
       esito: fonda Angmar
-    - nome: i Nazgûl
+    - entita: gruppo-nazgul
       parte: Mordor
       ruolo: spettri
       esito: riappaiono
-    - nome: gli Orchetti
+    - entita: popolo-orchetti
       parte: Angmar
       ruolo: esercito
       esito: infestano le Montagne Nebbiose
-    - nome: i Periannath
+    - entita: popolo-hobbit
       parte: Hobbit
       ruolo: popolo
       esito: molti emigrano a Brea
@@ -364,22 +364,22 @@
     - tyrn-gorthad
   fa_parte_di: null
   partecipanti:
-    - nome: il Re degli Stregoni
+    - persona: re-degli-stregoni
       parte: Angmar
       ruolo: comandante
       esito: invade Arnor
-    - nome: Arveleg I
+    - persona: arveleg-i
       parte: Arthedain
       ruolo: re
       esito: muore
-    - nome: Fornost
+    - entita: gruppo-dunedain-fornost
       parte: Arthedain
-      ruolo: fortezza
-      esito: resiste
-    - nome: Tyrn Gorthad
+      ruolo: difensori
+      esito: resistono
+    - entita: gruppo-dunedain-cardolan
       parte: Cardolan
-      ruolo: colline dei tumuli
-      esito: resiste
+      ruolo: difensori
+      esito: resistono
   breve: >-
     Il Re degli Stregoni muove contro Arnor: cade re Arveleg I e viene
     distrutta la torre di Amon Sûl. Fornost e Tyrn Gorthad resistono.
@@ -416,19 +416,19 @@
     - umbar
   fa_parte_di: null
   partecipanti:
-    - nome: Valacar
+    - persona: valacar
       parte: Gondor
       ruolo: re
       esito: muore
-    - nome: Eldacar
+    - persona: eldacar
       parte: Gondor
       ruolo: erede legittimo
       esito: riconquista il trono
-    - nome: Castamir
+    - persona: castamir
       parte: ribelli
       ruolo: usurpatore
       esito: sconfitto e ucciso
-    - nome: Ornendil
+    - persona: ornendil
       parte: Gondor
       ruolo: figlio di Eldacar
       esito: ucciso
@@ -474,19 +474,19 @@
     - baranduin
   fa_parte_di: null
   partecipanti:
-    - nome: Telemnar
+    - persona: telemnar
       parte: Gondor
       ruolo: re
       esito: muore
-    - nome: i figli di Telemnar
+    - entita: gruppo-figli-telemnar
       parte: Gondor
       ruolo: principi
       esito: muoiono
-    - nome: Gondor
+    - entita: regno-gondor
       parte: Gondor
       ruolo: regno
       esito: perde gran parte della popolazione
-    - nome: i Periannath
+    - entita: popolo-hobbit
       parte: Hobbit
       ruolo: popolo
       esito: sopravvivono con gravi perdite
@@ -524,11 +524,11 @@
     - mordor
   fa_parte_di: null
   partecipanti:
-    - nome: Tarondor
+    - persona: tarondor
       parte: Gondor
       ruolo: re
       esito: sposta la residenza a Minas Anor
-    - nome: Gondor
+    - entita: regno-gondor
       parte: Gondor
       ruolo: regno
       esito: abbandona i presidi su Mordor
@@ -566,15 +566,15 @@
     - rhovanion
   fa_parte_di: null
   partecipanti:
-    - nome: Narmacil II
+    - persona: narmacil-ii
       parte: Gondor
       ruolo: re
       esito: muore in battaglia
-    - nome: i Carrieri
+    - entita: popolo-carrieri
       parte: Est
       ruolo: popolo invasore
       esito: conquistano i territori orientali
-    - nome: Gondor
+    - entita: regno-gondor
       parte: Gondor
       ruolo: regno
       esito: perde le province orientali
@@ -614,19 +614,19 @@
     - gondor
   fa_parte_di: null
   partecipanti:
-    - nome: Ondoher
+    - persona: ondoher
       parte: Gondor
       ruolo: re
       esito: muore
-    - nome: Eärnil
+    - persona: earnil
       parte: Gondor
       ruolo: generale
       esito: vince la battaglia
-    - nome: Arvedui
+    - persona: arvedui
       parte: Arthedain
       ruolo: re
       esito: rivendica la corona di Gondor
-    - nome: i Carrieri
+    - entita: popolo-carrieri
       parte: Est
       ruolo: invasori
       esito: sconfitti e respinti
@@ -667,15 +667,15 @@
     - arnor
   fa_parte_di: null
   partecipanti:
-    - nome: il Re degli Stregoni
+    - persona: re-degli-stregoni
       parte: Angmar
       ruolo: comandante
       esito: conquista Fornost
-    - nome: Arvedui
+    - persona: arvedui
       parte: Arthedain
       ruolo: re
       esito: fugge a nord
-    - nome: Arthedain
+    - entita: regno-arthedain
       parte: Arnor
       ruolo: regno
       esito: finisce
@@ -714,19 +714,19 @@
     - erenbrulli
   fa_parte_di: null
   partecipanti:
-    - nome: Arvedui
+    - persona: arvedui
       parte: Arthedain
       ruolo: re in fuga
       esito: annega nella Baia di Forochel
-    - nome: Eärnur
+    - persona: earnur
       parte: Gondor
       ruolo: principe
       esito: guida la flotta del Lindon
-    - nome: il Re degli Stregoni
+    - persona: re-degli-stregoni
       parte: Angmar
       ruolo: comandante
       esito: sconfitto, scompare dal Nord
-    - nome: Glorfindel
+    - persona: glorfindel
       parte: Imladris
       ruolo: signore elfico
       esito: pronuncia la profezia
@@ -766,19 +766,19 @@
     - nimrodel
   fa_parte_di: null
   partecipanti:
-    - nome: Durin VI
+    - persona: durin-vi
       parte: Nani
       ruolo: re di Khazad-dûm
       esito: ucciso dal Balrog
-    - nome: Nain I
+    - persona: nain-i
       parte: Nani
       ruolo: re
       esito: ucciso
-    - nome: il Balrog
+    - persona: balrog
       parte: Morgoth
       ruolo: demone del fuoco
       esito: scaccia i Nani da Moria
-    - nome: Amroth
+    - persona: amroth
       parte: Lórien
       ruolo: re
       esito: perduto
@@ -814,11 +814,11 @@
     - erebor
   fa_parte_di: null
   partecipanti:
-    - nome: Thràin I
+    - persona: thrain-i
       parte: Nani
       ruolo: re
       esito: fonda il regno sotto la Montagna
-    - nome: i Nani del Popolo di Durin
+    - entita: popolo-nani-di-durin
       parte: Nani
       ruolo: popolo
       esito: si stabiliscono a Erebor

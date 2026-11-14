@@ -114,7 +114,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
 | Hyarmendacil | Gondor | re | conquista l'Harad |
-| i Periannath | Hobbit | popolo | compaiono per la prima volta nei documenti |
+| gli Hobbit | Hobbit | popolo | compaiono per la prima volta nei documenti |
 
 **Versione breve:** Mentre Gondor tocca il culmine della potenza, un'ombra incombe sulla Foresta Verde, che comincia a chiamarsi Bosco Atro. Gli Hobbit compaiono per la prima volta nei documenti.
 
@@ -160,7 +160,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | il Re degli Stregoni | Mordor | capo dei Nazgûl | fonda Angmar |
 | i Nazgûl | Mordor | spettri | riappaiono |
 | gli Orchetti | Angmar | esercito | infestano le Montagne Nebbiose |
-| i Periannath | Hobbit | popolo | molti emigrano a Brea |
+| gli Hobbit | Hobbit | popolo | molti emigrano a Brea |
 
 **Versione breve:** I Nazgûl riappaiono: il loro capo sale a nord e fonda Angmar, nemico dei Dúnedain. Gli Orchetti infestano le Montagne Nebbiose e molti Hobbit emigrano a Brea.
 
@@ -183,8 +183,8 @@ la versione breve è quella che compare sulla linea del tempo.
 |---|---|---|---|
 | il Re degli Stregoni | Angmar | comandante | invade Arnor |
 | Arveleg I | Arthedain | re | muore |
-| Fornost | Arthedain | fortezza | resiste |
-| Tyrn Gorthad | Cardolan | colline dei tumuli | resiste |
+| i Dúnedain di Fornost | Arthedain | difensori | resistono |
+| i Dúnedain di Cardolan | Cardolan | difensori | resistono |
 
 **Versione breve:** Il Re degli Stregoni muove contro Arnor: cade re Arveleg I e viene distrutta la torre di Amon Sûl. Fornost e Tyrn Gorthad resistono.
 
@@ -234,7 +234,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Telemnar | Gondor | re | muore |
 | i figli di Telemnar | Gondor | principi | muoiono |
 | Gondor | Gondor | regno | perde gran parte della popolazione |
-| i Periannath | Hobbit | popolo | sopravvivono con gravi perdite |
+| gli Hobbit | Hobbit | popolo | sopravvivono con gravi perdite |
 
 **Versione breve:** L'epidemia fa strage a Gondor: muoiono re Telemnar e i suoi figli, e appassisce l'Albero Bianco. La peste dilaga a nord e devasta l'Eriador.
 
@@ -443,7 +443,7 @@ la versione breve è quella che compare sulla linea del tempo.
 |---|---|---|---|
 | Eärnur | Gondor | re | scompare |
 | Mardil | Gondor | Sovrintendente | diventa Sovrintendente Regnante |
-| il Signore di Morgul | Mordor | sfidante | vittoria non testimoniata |
+| il Re degli Stregoni | Mordor | sfidante | vittoria non testimoniata |
 | la scorta di cavalieri | Gondor | seguito del re | scompare |
 
 **Versione breve:** Il Signore di Morgul sfida Eärnur: il re cavalca fino a Minas Morgul e scompare. Mardil diventa il primo Sovrintendente Regnante.
@@ -513,7 +513,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
 | Déagol | Sturoi | pescatore | trova l'Anello e viene ucciso |
-| Sméagol | Sturoi | assassino | prende l'Anello, diventa Gollum |
+| Gollum | Sturoi | assassino | prende l'Anello, diventa Gollum |
 | il Bianco Consiglio | Eldar e Istari | consiglio dei saggi | si costituisce |
 
 **Versione breve:** Si costituisce il Bianco Consiglio. Presso l'Anduin, Déagol rinviene l'Unico Anello e viene ucciso dall'amico Sméagol.
@@ -1022,7 +1022,7 @@ la versione breve è quella che compare sulla linea del tempo.
 
 | Nome | Parte | Ruolo | Esito |
 |---|---|---|---|
-| il Monte Fato | Mordor | vulcano | torna in eruzione |
+| Mordor | Mordor | terra di Sauron | si risveglia |
 | gli abitanti dell'Ithilien | Gondor | popolazione | fuggono oltre l'Anduin |
 
 **Versione breve:** Il vulcano torna in eruzione: gli ultimi abitanti dell'Ithilien fuggono oltre l'Anduin.
@@ -1147,7 +1147,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Samvise Gamgi | Hobbit | compagno | parte con Frodo |
 | Meriadoc Brandibuck | Hobbit | compagno | parte con Frodo |
 | Peregrino Tuc | Hobbit | compagno | parte con Frodo |
-| i Cavalieri Neri | Mordor | inseguitori | entrano nella Contea |
+| i Nazgûl | Mordor | inseguitori | entrano nella Contea |
 | Gandalf | Istari | guida | parte da Rohan |
 
 **Versione breve:** Quattro Cavalieri Neri entrano nella Contea prima dell'alba. Frodo parte da Casa Baggins: comincia la traversata che porterà l'Anello a sud.
@@ -1287,7 +1287,7 @@ la versione breve è quella che compare sulla linea del tempo.
 | Barbalbero | Ent | guida | dirige l'assalto |
 | gli Ent | Fangorn | esercito | distruggono Isengard |
 | Saruman | Isengard | signore | resta chiuso a Orthanc |
-| Orthanc | Isengard | torre | resiste |
+| le difese di Orthanc | Isengard | guarnigione | resistono |
 
 **Versione breve:** Gli Ent marciano su Isengard e ne distruggono le difese. Saruman resta chiuso nella torre di Orthanc.
 

@@ -235,3 +235,572 @@
   alias: []
   descrizione: L'elfo di Bosco Atro, arciere della Compagnia.
   nota: null
+
+- id: amroth
+  nome: Amroth
+  tipo: personaggio
+  specie: Elfo
+  popolo: Elfi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re elfico di Lórien, perduto nel mare inseguendo Nimrodel.
+  nota: null
+
+- id: arvedui
+  nome: Arvedui
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: L'ultimo re dell'Arthedain, annegato nella baia di Forochel.
+  nota: null
+
+- id: arveleg-i
+  nome: Arveleg I
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re dell'Arthedain caduto nel 1409 contro Angmar.
+  nota: null
+
+- id: arwen
+  nome: Arwen
+  tipo: personaggio
+  specie: Mezzelfo
+  popolo: Mezzelfi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: La figlia di Elrond, che sposa Aragorn e sceglie la sorte degli Uomini.
+  nota: null
+
+- id: barbalbero
+  nome: Barbalbero
+  tipo: personaggio
+  specie: Ent
+  popolo: Ent
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: L'Ent più antico di Fangorn, che guida l'assalto a Isengard.
+  nota: null
+
+- id: bard
+  nome: Bard
+  tipo: personaggio
+  specie: Uomo
+  popolo: Uomini
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: L'arciere di Esgaroth che uccide Smaug.
+  nota: null
+
+- id: beregond
+  nome: Beregond
+  tipo: personaggio
+  specie: Uomo
+  popolo: Uomini
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il soldato di Gondor che salva Faramir.
+  nota: null
+
+- id: castamir
+  nome: Castamir
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: L'usurpatore di Gondor, sconfitto da Eldacar nel 1447.
+  nota: null
+
+- id: cirion
+  nome: Cirion
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il Sovrintendente di Gondor che dona il Calenardhon a Eorl.
+  nota: null
+
+- id: cirdan
+  nome: Círdan
+  tipo: personaggio
+  specie: Elfo
+  popolo: Elfi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il Signore dei Rifugi Oscuri, costruttore di navi.
+  nota: null
+
+- id: denethor-ii
+  nome: Denethor II
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias:
+    - Denethor
+  descrizione: L'ultimo Sovrintendente Regnante di Gondor.
+  nota: null
+
+- id: durin-vi
+  nome: Durin VI
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Moria ucciso dal Balrog nel 1980.
+  nota: null
+
+- id: dain-i
+  nome: Dàin I
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re dei Nani ucciso da un Drago nel 2589.
+  nota: null
+
+- id: dain-piediferro
+  nome: Dàin Piediferro
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: null
+  morte: null
+  alias:
+    - Dàin II
+  descrizione: Il re nano che diventa Re sotto la Montagna dopo Thorin.
+  nota: null
+
+- id: deagol
+  nome: Déagol
+  tipo: personaggio
+  specie: Sturoi
+  popolo: Sturoi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Lo Sturoi che trova l'Anello nell'Anduin e viene ucciso da Sméagol.
+  nota: null
+
+- id: eldacar
+  nome: Eldacar
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor che riconquista il trono nel 1447.
+  nota: null
+
+- id: elendil
+  nome: Elendil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il fondatore di Arnor e Gondor, caduto contro Sauron.
+  nota: null
+
+- id: eorl-il-giovane
+  nome: Eorl il Giovane
+  tipo: personaggio
+  specie: Uomo
+  popolo: Uomini del Nord
+  nascita: null
+  morte: null
+  alias:
+    - Eorl
+  descrizione: Il condottiero dei Rohirrim che vince a Celebrant e riceve il Calenardhon.
+  nota: null
+
+- id: earendur
+  nome: Eärendur
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il decimo re di Arnor, alla cui morte il regno si divide.
+  nota: null
+
+- id: earnil
+  nome: Eärnil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il generale che sconfigge i Carrieri e diventa re di Gondor.
+  nota: null
+
+- id: earnur
+  nome: Eärnur
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: L'ultimo re di Gondor prima dei Sovrintendenti, scomparso a Minas Morgul.
+  nota: null
+
+- id: frealaf
+  nome: Fréaláf
+  tipo: personaggio
+  specie: Uomo
+  popolo: Rohirrim
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il nipote di Helm che caccia Wulf e fonda la seconda linea dei re di Rohan.
+  nota: null
+
+- id: gil-galad
+  nome: Gil-galad
+  tipo: personaggio
+  specie: Elfo
+  popolo: Elfi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: L'Alto Re degli Elfi, caduto contro Sauron.
+  nota: null
+
+- id: glorfindel
+  nome: Glorfindel
+  tipo: personaggio
+  specie: Elfo
+  popolo: Elfi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il signore elfico di Gran Burrone che pronuncia la profezia sul Re degli Stregoni.
+  nota: null
+
+- id: gror
+  nome: Grór
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il fratello di Thrór, che conduce i Nani ai Colli Ferrosi.
+  nota: null
+
+- id: helm
+  nome: Helm
+  tipo: personaggio
+  specie: Uomo
+  popolo: Rohirrim
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Rohan che muore nel Fosso di Helm durante il Lungo Inverno.
+  nota: null
+
+- id: hyarmendacil
+  nome: Hyarmendacil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor che conquista l'Harad.
+  nota: null
+
+- id: imrahil
+  nome: Imrahil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il principe di Dol Amroth, comandante nella Guerra dell'Anello.
+  nota: null
+
+- id: isildur
+  nome: Isildur
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il figlio di Elendil che prende l'Anello e lo perde nell'Anduin.
+  nota: null
+
+- id: mardil
+  nome: Mardil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il primo Sovrintendente Regnante di Gondor.
+  nota: null
+
+- id: meneldil
+  nome: Meneldil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il primo re di Gondor dopo Isildur.
+  nota: null
+
+- id: nain-i
+  nome: Nain I
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il figlio di Durin VI, ucciso dal Balrog nel 1981.
+  nota: null
+
+- id: narmacil-ii
+  nome: Narmacil II
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor caduto contro i Carrieri nel 1856.
+  nota: null
+
+- id: nar
+  nome: Nár
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il compagno di Thrór, che porta la notizia della sua morte.
+  nota: null
+
+- id: ohtar
+  nome: Ohtar
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Lo scudiero che porta i frantumi di Narsil a Gran Burrone.
+  nota: null
+
+- id: ondoher
+  nome: Ondoher
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor caduto contro i Carrieri nel 1944.
+  nota: null
+
+- id: ornendil
+  nome: Ornendil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il figlio di Eldacar, ucciso durante la Lotta delle Stirpi.
+  nota: null
+
+- id: radagast
+  nome: Radagast
+  tipo: personaggio
+  specie: Maia
+  popolo: Maiar
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Lo Istaro Bruno, signore delle bestie e degli uccelli.
+  nota: null
+
+- id: smaug
+  nome: Smaug
+  tipo: personaggio
+  specie: Drago
+  popolo: Draghi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il drago che conquista Erebor e viene ucciso da Bard.
+  nota: null
+
+- id: tarondor
+  nome: Tarondor
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor che sposta la capitale a Minas Anor.
+  nota: null
+
+- id: telemnar
+  nome: Telemnar
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor morto nella Grande Peste con i suoi figli.
+  nota: null
+
+- id: thranduil
+  nome: Thranduil
+  tipo: personaggio
+  specie: Elfo
+  popolo: Elfi
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re elfico del Bosco Atro, padre di Legolas.
+  nota: null
+
+- id: thrain-i
+  nome: Thràin I
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re nano che fonda il regno sotto la Montagna nel 1999.
+  nota: null
+
+- id: thrain-ii
+  nome: Thràin II
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il figlio di Thrór, morto prigioniero a Dol Guldur.
+  nota: null
+
+- id: thror
+  nome: Thrór
+  tipo: personaggio
+  specie: Nano
+  popolo: Nani
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re nano ucciso da un Orchetto davanti a Moria nel 2790.
+  nota: null
+
+- id: tobaldo
+  nome: Tobaldo
+  tipo: personaggio
+  specie: Hobbit
+  popolo: Hobbit
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: L'Hobbit che introduce l'erba-pipa nella Contea.
+  nota: null
+
+- id: valacar
+  nome: Valacar
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il re di Gondor la cui morte scatena la Lotta delle Stirpi.
+  nota: null
+
+- id: wulf
+  nome: Wulf
+  tipo: personaggio
+  specie: Uomo
+  popolo: Uomini
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il condottiero che occupa Edoras durante il Lungo Inverno.
+  nota: null
+
+- id: re-degli-stregoni
+  nome: il Re degli Stregoni
+  tipo: personaggio
+  specie: Uomo
+  popolo: Nazgûl
+  nascita: null
+  morte: null
+  alias:
+    - il Signore di Morgul
+    - Signore di Morgul
+    - Re di Angmar
+  descrizione: Il capo dei Nazgûl, signore di Angmar e di Minas Morgul.
+  nota: null
+
+- id: balrog
+  nome: il Balrog
+  tipo: personaggio
+  specie: Maia
+  popolo: Maiar
+  nascita: null
+  morte: null
+  alias:
+    - flagello di Durin
+  descrizione: Il demone del fuoco che scaccia i Nani da Moria.
+  nota: null
+
+- id: orchetto-di-moria
+  nome: un Orchetto di Moria
+  tipo: personaggio
+  specie: Orchetto
+  popolo: Orchetti
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: L'Orchetto che uccide Thrór davanti al Cancello Orientale.
+  nota: null
+

@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
 """Compila le schede degli eventi in dati per il sito.
 
-Legge i file YAML in data/eventi/, data/luoghi.yaml e data/persone.yaml,
-controlla i riferimenti e produce:
+Legge i file YAML in data/eventi/, data/luoghi.yaml, data/persone.yaml e
+data/entita.yaml, controlla i riferimenti e produce:
   - js/data.js                 (formato compatibile con js/circle.js)
   - build/arda.sqlite          (database interrogabile con SQL)
   - build/indexes.json         (indici per ricerca e filtri)
   - build/luoghi.json          (anagrafica dei luoghi e copertura degli eventi)
-  - build/persone.json         (anagrafica delle persone e copertura degli eventi)
+  - build/persone.json         (anagrafica dei personaggi e copertura)
+  - build/entita.json          (popoli, regni e gruppi)
   - build/schede-terza-era.md  (le schede in forma leggibile)
   - build/rapporto.md          (riepilogo del lavoro)
   - build/rapporto-luoghi.md   (stato dell'anagrafica dei luoghi)
-  - build/rapporto-persone.md  (stato dell'anagrafica delle persone)
+  - build/rapporto-persone.md  (stato dell'anagrafica dei personaggi)
+  - build/rapporto-entita.md   (stato delle entità collettive)
+  - build/rapporto-partecipanti.md (copertura complessiva dei partecipanti)
 
 Uso: python3 tools/build_data.py
 """
@@ -30,6 +33,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data", "eventi")
 LUOGHI_FILE = os.path.join(ROOT, "data", "luoghi.yaml")
 PERSONE_FILE = os.path.join(ROOT, "data", "persone.yaml")
+ENTITA_FILE = os.path.join(ROOT, "data", "entita.yaml")
 BUILD_DIR = os.path.join(ROOT, "build")
 JS_DIR = os.path.join(ROOT, "js")
 
@@ -53,7 +57,8 @@ TIPI_LUOGO = {
     "monumento", "mondo", "mare",
 }
 TIPI_PERSONA = {"personaggio", "popolo", "regno", "gruppo"}
-SPECIE = {"Hobbit", "Uomo", "Elfo", "Nano", "Maia", "Sturoi", "Mezzelfo", "Drago", "Ent"}
+TIPI_ENTITA = {"popolo", "regno", "gruppo"}
+SPECIE = {"Hobbit", "Uomo", "Elfo", "Nano", "Maia", "Sturoi", "Mezzelfo", "Drago", "Ent", "Orchetto"}
 PRECISIONI = {"giorno", "mese", "anno", "intervallo", "ignoto"}
 QUALIFICATORI = {None, "circa", "prima", "dopo", "inizio", "fine"}
 
@@ -160,8 +165,12 @@ def valida(eventi: list[dict]) -> None:
         if d["precisione"] == "intervallo" and fine is None:
             fail(f"{eid}: intervallo senza anno_fine")
         for p in ev["partecipanti"]:
-            if not p.get("nome"):
-                fail(f"{eid}: partecipante senza nome")
+            if not (p.get("persona") or p.get("entita")):
+                fail(f"{eid}: partecipante senza «persona» o «entita»")
+            if p.get("persona") and p.get("entita"):
+                fail(f"{eid}: partecipante con «persona» ed «entita» insieme")
+            if not p.get("ruolo"):
+                fail(f"{eid}: partecipante senza ruolo")
         for f in ev["fonti"]:
             if not f.get("opera") or not f.get("riferimento"):
                 fail(f"{eid}: fonte incompleta")
@@ -343,6 +352,121 @@ def collega_persone(eventi: list[dict], persone: list[dict]) -> dict:
         "coperti": coperti,
         "scoperti": scoperti,
         "per_persona": {k: sorted(v) for k, v in per_persona.items()},
+    }
+
+
+def carica_entita() -> list[dict]:
+    if not os.path.exists(ENTITA_FILE):
+        fail("manca data/entita.yaml")
+    with open(ENTITA_FILE, encoding="utf-8") as fh:
+        blocco = yaml.safe_load(fh)
+    if not isinstance(blocco, list):
+        fail("data/entita.yaml deve contenere una lista di entità")
+    return blocco
+
+
+def valida_entita(entita: list[dict]) -> None:
+    ids: set[str] = set()
+    nomi: dict[str, str] = {}
+    alias_visti: dict[str, str] = {}
+    for voce in entita:
+        eid = voce.get("id", "?")
+        for campo in ("id", "nome", "tipo", "descrizione"):
+            if not voce.get(campo):
+                fail(f"entità {eid}: campo mancante o vuoto «{campo}»")
+        if voce["tipo"] not in TIPI_ENTITA:
+            fail(f"entità {eid}: tipo sconosciuto «{voce['tipo']}»")
+        if eid in ids:
+            fail(f"entità con id duplicato: {eid}")
+        ids.add(eid)
+        if voce["nome"] in nomi:
+            fail(f"entità con nome duplicato: {voce['nome']} ({nomi[voce['nome']]} e {eid})")
+        nomi[voce["nome"]] = eid
+        alias = voce.get("alias") or []
+        if not isinstance(alias, list):
+            fail(f"entità {eid}: «alias» deve essere una lista")
+        for nome_alias in alias:
+            if nome_alias in alias_visti and alias_visti[nome_alias] != eid:
+                fail(f"alias «{nome_alias}» usato da {alias_visti[nome_alias]} e {eid}")
+            alias_visti[nome_alias] = eid
+    for nome, eid in nomi.items():
+        if nome in alias_visti and alias_visti[nome] != eid:
+            fail(f"«{nome}» è nome di {eid} ma anche alias di {alias_visti[nome]}")
+
+
+def valida_nomi_unici(persone: list[dict], entita: list[dict]) -> None:
+    visti: dict[str, str] = {}
+    for voce in persone + entita:
+        chiavi = [voce["nome"]] + (voce.get("alias") or [])
+        for chiave in chiavi:
+            if chiave in visti and visti[chiave] != voce["id"]:
+                fail(f"«{chiave}» è usato da {visti[chiave]} e {voce['id']}")
+            visti[chiave] = voce["id"]
+
+
+def valida_riferimenti_partecipanti(eventi: list[dict], persone: list[dict], entita: list[dict]) -> None:
+    persone_per_id = {p["id"]: p for p in persone}
+    entita_per_id = {e["id"]: e for e in entita}
+    for ev in eventi:
+        for p in ev["partecipanti"]:
+            if p.get("persona"):
+                if p["persona"] not in persone_per_id:
+                    fail(f"{ev['id']}: persona sconosciuta «{p['persona']}»")
+            else:
+                if p["entita"] not in entita_per_id:
+                    fail(f"{ev['id']}: entità sconosciuta «{p['entita']}»")
+
+
+def arricchisci_partecipanti(eventi: list[dict], persone: list[dict], entita: list[dict]) -> None:
+    per_id = {p["id"]: p for p in persone + entita}
+    for ev in eventi:
+        nuovi = []
+        for p in ev["partecipanti"]:
+            pid = p.get("persona") or p.get("entita")
+            voce = per_id[pid]
+            nuovo = {
+                "nome": voce["nome"],
+                "id": pid,
+                "tipo": voce["tipo"],
+                "parte": p.get("parte"),
+                "ruolo": p.get("ruolo"),
+                "esito": p.get("esito"),
+            }
+            nuovi.append(nuovo)
+        ev["partecipanti"] = nuovi
+
+
+def indice_nomi_entita(entita: list[dict]) -> dict[str, str]:
+    indice: dict[str, str] = {}
+    for voce in entita:
+        indice[voce["nome"]] = voce["id"]
+        for nome_alias in voce.get("alias") or []:
+            indice[nome_alias] = voce["id"]
+    return indice
+
+
+def collega_entita(eventi: list[dict], entita: list[dict]) -> dict:
+    indice = indice_nomi_entita(entita)
+    citazioni: dict[str, list[str]] = {}
+    for ev in eventi:
+        for partecipante in ev["partecipanti"]:
+            nome = partecipante["nome"]
+            citazioni.setdefault(nome, []).append(ev["id"])
+    coperti = {nome: indice[nome] for nome in citazioni if nome in indice}
+    scoperti = {nome: ids for nome, ids in citazioni.items() if nome not in indice}
+    per_entita: dict[str, set[str]] = {}
+    for nome, eid in coperti.items():
+        per_entita.setdefault(eid, set()).update(citazioni[nome])
+    schede = []
+    for voce in entita:
+        record = dict(voce)
+        record["eventi"] = sorted(per_entita.get(voce["id"], set()))
+        schede.append(record)
+    return {
+        "schede": schede,
+        "coperti": coperti,
+        "scoperti": scoperti,
+        "per_entita": {k: sorted(v) for k, v in per_entita.items()},
     }
 
 
@@ -574,8 +698,8 @@ def scrivi_rapporto(eventi: list[dict], luoghi: list[dict]) -> None:
         "",
         "## Cosa manca ancora",
         "",
-        "- I partecipanti sono nomi, non ancora schede persona collegate: la fase alberi",
-        "  li trasformerà in entità con ID, parentele e relazioni.",
+        "- I partecipanti sono collegati agli eventi tramite ID; le schede persona",
+        "  ed entità collettiva sono pronte. Restano famiglie e fonti come entità separate.",
         "- I luoghi sono ora collegati agli eventi tramite ID: la fase mappa assegnerà",
         "  coordinate e scene (Arda piatta / Arda rotonda).",
         "- Gli eventi del 2941 e del 3019 sono stati separati, ma restano da aggiungere",
@@ -650,8 +774,11 @@ def scrivi_luoghi(eventi: list[dict], luoghi: list[dict]) -> None:
         fh.write("\n".join(righe))
 
 
-def scrivi_persone(eventi: list[dict], persone: list[dict]) -> None:
+def scrivi_persone(eventi: list[dict], persone: list[dict], entita: list[dict]) -> None:
     dati = collega_persone(eventi, persone)
+    indice_entita = indice_nomi_entita(entita)
+    coperti_da_entita = {n: indice_entita[n] for n in dati["scoperti"] if n in indice_entita}
+    mancanti = {n: ids for n, ids in dati["scoperti"].items() if n not in indice_entita}
     os.makedirs(BUILD_DIR, exist_ok=True)
     nomi_citati = len(dati["coperti"]) + len(dati["scoperti"])
     with open(os.path.join(BUILD_DIR, "persone.json"), "w", encoding="utf-8") as fh:
@@ -661,8 +788,9 @@ def scrivi_persone(eventi: list[dict], persone: list[dict]) -> None:
                 "copertura": {
                     "nomi_citati": nomi_citati,
                     "nomi_coperti": len(dati["coperti"]),
-                    "nomi_scoperti": len(dati["scoperti"]),
-                    "scoperti": dict(sorted(dati["scoperti"].items())),
+                    "nomi_coperti_da_entita": len(coperti_da_entita),
+                    "nomi_scoperti": len(mancanti),
+                    "scoperti": dict(sorted(mancanti.items())),
                 },
             },
             fh,
@@ -674,8 +802,9 @@ def scrivi_persone(eventi: list[dict], persone: list[dict]) -> None:
         "",
         f"- Schede create: **{len(persone)}**.",
         f"- Nomi di partecipante citati dagli eventi: **{nomi_citati}** distinti.",
-        f"- Nomi già coperti da una scheda: **{len(dati['coperti'])}**.",
-        f"- Nomi ancora senza scheda: **{len(dati['scoperti'])}**.",
+        f"- Nomi coperti da una scheda persona: **{len(dati['coperti'])}**.",
+        f"- Nomi coperti da un'entità collettiva: **{len(coperti_da_entita)}**.",
+        f"- Nomi ancora senza scheda: **{len(mancanti)}**.",
         "",
         "## Schede",
         "",
@@ -691,14 +820,90 @@ def scrivi_persone(eventi: list[dict], persone: list[dict]) -> None:
         "",
         "## Nomi di partecipante non ancora coperti",
         "",
-        "Non sono tutti persone: molti sono popoli, regni o gruppi. Vanno",
-        "classificati prima di diventare schede.",
-        "",
     ]
-    for nome in sorted(dati["scoperti"]):
-        righe.append(f"- {nome}")
+    if mancanti:
+        for nome in sorted(mancanti):
+            righe.append(f"- {nome}")
+    else:
+        righe.append("Nessuno: tutti i nomi hanno una scheda persona o un'entità collettiva.")
     righe.append("")
     with open(os.path.join(BUILD_DIR, "rapporto-persone.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(righe))
+
+
+def scrivi_entita(eventi: list[dict], entita: list[dict]) -> None:
+    dati = collega_entita(eventi, entita)
+    os.makedirs(BUILD_DIR, exist_ok=True)
+    with open(os.path.join(BUILD_DIR, "entita.json"), "w", encoding="utf-8") as fh:
+        json.dump(
+            {
+                "entita": dati["schede"],
+                "copertura": {
+                    "nomi_coperti": len(dati["coperti"]),
+                    "nomi_scoperti": len(dati["scoperti"]),
+                },
+            },
+            fh,
+            ensure_ascii=False,
+            indent=2,
+        )
+    righe = [
+        "# Rapporto sulle entità collettive",
+        "",
+        f"- Schede create: **{len(entita)}**.",
+        f"- Nomi di partecipante coperti: **{len(dati['coperti'])}**.",
+        "",
+        "## Schede",
+        "",
+        "| ID | Nome | Tipo | Eventi collegati |",
+        "|---|---|---|---|",
+    ]
+    for voce in dati["schede"]:
+        righe.append(
+            f"| `{voce['id']}` | {voce['nome']} | {voce['tipo']} | {len(voce['eventi'])} |"
+        )
+    righe.append("")
+    with open(os.path.join(BUILD_DIR, "rapporto-entita.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(righe))
+
+
+def scrivi_partecipanti(eventi: list[dict], persone: list[dict], entita: list[dict]) -> None:
+    indice = {}
+    tipo_di = {}
+    for voce in persone + entita:
+        tipo_di[voce["id"]] = voce["tipo"]
+        for chiave in [voce["nome"]] + (voce.get("alias") or []):
+            indice[chiave] = voce["id"]
+    citati = {}
+    for ev in eventi:
+        for partecipante in ev["partecipanti"]:
+            citati.setdefault(partecipante["nome"], set()).add(ev["id"])
+    coperti = {n: indice[n] for n in citati if n in indice}
+    mancanti = sorted(n for n in citati if n not in indice)
+    per_tipo = {}
+    for nome, pid in coperti.items():
+        per_tipo[tipo_di[pid]] = per_tipo.get(tipo_di[pid], 0) + 1
+    righe = [
+        "# Rapporto sui partecipanti",
+        "",
+        f"- Nomi di partecipante citati: **{len(citati)}**.",
+        f"- Nomi con una scheda: **{len(coperti)}**.",
+        f"- Nomi senza scheda: **{len(mancanti)}**.",
+        "",
+        "## Per tipo",
+        "",
+        "| Tipo | Nomi coperti |",
+        "|---|---|",
+    ]
+    for tipo in ("personaggio", "popolo", "regno", "gruppo"):
+        righe.append(f"| {tipo} | {per_tipo.get(tipo, 0)} |")
+    righe.append("")
+    if mancanti:
+        righe += ["## Nomi senza scheda", ""]
+        for nome in mancanti:
+            righe.append(f"- {nome}")
+        righe.append("")
+    with open(os.path.join(BUILD_DIR, "rapporto-partecipanti.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(righe))
 
 
@@ -710,23 +915,33 @@ def main() -> None:
     valida_riferimenti_luoghi(eventi, luoghi)
     persone = carica_persone()
     valida_persone(persone)
+    entita = carica_entita()
+    valida_entita(entita)
+    valida_nomi_unici(persone, entita)
+    valida_riferimenti_partecipanti(eventi, persone, entita)
+    arricchisci_partecipanti(eventi, persone, entita)
     scrivi_js(eventi, luoghi)
     scrivi_sqlite(eventi, luoghi)
     scrivi_indici(eventi, luoghi)
     scrivi_schede(eventi, luoghi)
     scrivi_rapporto(eventi, luoghi)
     scrivi_luoghi(eventi, luoghi)
-    scrivi_persone(eventi, persone)
-    print(f"OK: {len(eventi)} eventi, {len(luoghi)} luoghi e {len(persone)} persone compilati.")
+    scrivi_persone(eventi, persone, entita)
+    scrivi_entita(eventi, entita)
+    scrivi_partecipanti(eventi, persone, entita)
+    print(f"OK: {len(eventi)} eventi, {len(luoghi)} luoghi, {len(persone)} persone e {len(entita)} entità compilati.")
     print(f"  js/data.js")
     print(f"  build/arda.sqlite")
     print(f"  build/indexes.json")
     print(f"  build/luoghi.json")
     print(f"  build/persone.json")
+    print(f"  build/entita.json")
     print(f"  build/schede-terza-era.md")
     print(f"  build/rapporto.md")
     print(f"  build/rapporto-luoghi.md")
     print(f"  build/rapporto-persone.md")
+    print(f"  build/rapporto-entita.md")
+    print(f"  build/rapporto-partecipanti.md")
 
 
 if __name__ == "__main__":

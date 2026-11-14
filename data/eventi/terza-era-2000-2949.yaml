@@ -21,11 +21,11 @@
     - mordor
   fa_parte_di: null
   partecipanti:
-    - nome: i Nazgûl
+    - entita: gruppo-nazgul
       parte: Mordor
       ruolo: assedianti
       esito: conquistano la città
-    - nome: Gondor
+    - entita: regno-gondor
       parte: Gondor
       ruolo: difensore
       esito: perde Minas Ithil e il palantír
@@ -62,19 +62,19 @@
     - minas-tirith
   fa_parte_di: null
   partecipanti:
-    - nome: Eärnur
+    - persona: earnur
       parte: Gondor
       ruolo: re
       esito: scompare
-    - nome: Mardil
+    - persona: mardil
       parte: Gondor
       ruolo: Sovrintendente
       esito: diventa Sovrintendente Regnante
-    - nome: il Signore di Morgul
+    - persona: re-degli-stregoni
       parte: Mordor
       ruolo: sfidante
       esito: vittoria non testimoniata
-    - nome: la scorta di cavalieri
+    - entita: gruppo-scorta-cavalieri
       parte: Gondor
       ruolo: seguito del re
       esito: scompare
@@ -117,15 +117,15 @@
     - bosco-atro
   fa_parte_di: null
   partecipanti:
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: esploratore
       esito: entra a Dol Guldur
-    - nome: Sauron
+    - persona: sauron
       parte: Dol Guldur
       ruolo: signore nascosto
       esito: si ritira a est
-    - nome: i Nazgûl
+    - entita: gruppo-nazgul
       parte: Mordor
       ruolo: spettri
       esito: attendono a Minas Morgul
@@ -162,11 +162,11 @@
     - bosco-atro
   fa_parte_di: null
   partecipanti:
-    - nome: Sauron
+    - persona: sauron
       parte: Dol Guldur
       ruolo: signore oscuro
       esito: rioccupa la fortezza
-    - nome: i Nazgûl
+    - entita: gruppo-nazgul
       parte: Mordor
       ruolo: servi
       esito: si radunano
@@ -202,15 +202,15 @@
     - montagne-nebbiose
   fa_parte_di: null
   partecipanti:
-    - nome: Déagol
+    - persona: deagol
       parte: Sturoi
       ruolo: pescatore
       esito: trova l'Anello e viene ucciso
-    - nome: Sméagol
+    - persona: gollum
       parte: Sturoi
       ruolo: assassino
       esito: prende l'Anello, diventa Gollum
-    - nome: il Bianco Consiglio
+    - entita: gruppo-bianco-consiglio
       parte: Eldar e Istari
       ruolo: consiglio dei saggi
       esito: si costituisce
@@ -247,11 +247,11 @@
     - anduin
   fa_parte_di: null
   partecipanti:
-    - nome: Gondor
+    - entita: regno-gondor
       parte: Gondor
       ruolo: difensore
       esito: perde la città
-    - nome: gli assalitori di Mordor
+    - entita: gruppo-assalitori-mordor
       parte: Mordor
       ruolo: esercito
       esito: distruggono Osgiliath
@@ -292,23 +292,23 @@
     - argentaroggia
   fa_parte_di: null
   partecipanti:
-    - nome: Eorl il Giovane
+    - persona: eorl-il-giovane
       parte: popolo del Nord
       ruolo: comandante
       esito: vince
-    - nome: Cirion
+    - persona: cirion
       parte: Gondor
       ruolo: Sovrintendente
       esito: chiede aiuto e concede la terra
-    - nome: i Balchoth
+    - entita: popolo-balchoth
       parte: Est
       ruolo: invasori
       esito: sconfitti
-    - nome: gli Esterling
+    - entita: popolo-esterling
       parte: Est
       ruolo: invasori
       esito: sconfitti
-    - nome: gli Orchetti
+    - entita: popolo-orchetti
       parte: Montagne
       ruolo: alleati degli invasori
       esito: respinti
@@ -348,15 +348,15 @@
     - rohan
   fa_parte_di: null
   partecipanti:
-    - nome: Cirion
+    - persona: cirion
       parte: Gondor
       ruolo: Sovrintendente
       esito: dona il Calenardhon
-    - nome: Eorl il Giovane
+    - persona: eorl-il-giovane
       parte: popolo del Nord
       ruolo: condottiero
       esito: riceve la terra e presta il Giuramento
-    - nome: i Rohirrim
+    - entita: popolo-rohirrim
       parte: Rohan
       ruolo: popolo
       esito: si stabiliscono nel Calenardhon
@@ -397,19 +397,19 @@
     - colli-ferrosi
   fa_parte_di: null
   partecipanti:
-    - nome: Dàin I
+    - persona: dain-i
       parte: Nani
       ruolo: re
       esito: ucciso da un Drago
-    - nome: Thrór
+    - persona: thror
       parte: Nani
       ruolo: erede
       esito: torna a Erebor
-    - nome: Grór
+    - persona: gror
       parte: Nani
       ruolo: fratello di Thrór
       esito: si reca ai Colli Ferrosi
-    - nome: i Draghi
+    - entita: popolo-draghi
       parte: Nord
       ruolo: predatori
       esito: ricompaiono all'estremo Nord
@@ -446,11 +446,11 @@
     - contea
   fa_parte_di: null
   partecipanti:
-    - nome: Tobaldo
+    - persona: tobaldo
       parte: Hobbit
       ruolo: coltivatore
       esito: pianta l'erba-pipa
-    - nome: gli Hobbit
+    - entita: popolo-hobbit
       parte: Hobbit
       ruolo: popolo
       esito: prendono l'abitudine di fumare
@@ -490,23 +490,23 @@
     - contea
   fa_parte_di: null
   partecipanti:
-    - nome: Helm
+    - persona: helm
       parte: Rohan
       ruolo: re
       esito: muore nel Fosso di Helm
-    - nome: Wulf
+    - persona: wulf
       parte: invasori
       ruolo: usurpatore
       esito: assedia Edoras
-    - nome: Fréaláf
+    - persona: frealaf
       parte: Rohan
       ruolo: nipote di Helm
       esito: caccia Wulf e fonda la seconda linea dei re
-    - nome: i Corsari di Umbar
+    - entita: gruppo-corsari-umbar
       parte: Umbar
       ruolo: invasori
       esito: assalgono Gondor
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: soccorritore
       esito: aiuta la Contea
@@ -546,11 +546,11 @@
     - orthanc
   fa_parte_di: null
   partecipanti:
-    - nome: Saruman
+    - persona: saruman
       parte: Istari
       ruolo: capo del Bianco Consiglio
       esito: prende possesso di Isengard
-    - nome: Gondor
+    - entita: regno-gondor
       parte: Gondor
       ruolo: proprietario formale
       esito: cede la torre al Consiglio
@@ -586,19 +586,19 @@
     - esgaroth
   fa_parte_di: null
   partecipanti:
-    - nome: Smaug
+    - persona: smaug
       parte: Draghi
       ruolo: drago
       esito: conquista Erebor
-    - nome: Thrór
+    - persona: thror
       parte: Nani
       ruolo: re
       esito: fugge
-    - nome: Thràin II
+    - persona: thrain-ii
       parte: Nani
       ruolo: principe
       esito: fugge
-    - nome: Thorin Scudodiquercia
+    - persona: thorin-scudodiquercia
       parte: Nani
       ruolo: principe
       esito: fugge
@@ -635,15 +635,15 @@
     - cancello-orientale-di-moria
   fa_parte_di: null
   partecipanti:
-    - nome: Thrór
+    - persona: thror
       parte: Nani
       ruolo: re in esilio
       esito: ucciso
-    - nome: un Orchetto di Moria
+    - persona: orchetto-di-moria
       parte: Moria
       ruolo: assassino
       esito: uccide Thrór
-    - nome: Nár
+    - persona: nar
       parte: Nani
       ruolo: compagno di Thrór
       esito: porta la notizia
@@ -681,19 +681,19 @@
     - ered-luin
   fa_parte_di: null
   partecipanti:
-    - nome: Dàin Piediferro
+    - persona: dain-piediferro
       parte: Nani
       ruolo: comandante
       esito: torna ai Colli Ferrosi
-    - nome: Thràin II
+    - persona: thrain-ii
       parte: Nani
       ruolo: erede di Thrór
       esito: parte verso ovest
-    - nome: Thorin Scudodiquercia
+    - persona: thorin-scudodiquercia
       parte: Nani
       ruolo: principe
       esito: parte verso ovest
-    - nome: gli Orchetti di Moria
+    - entita: gruppo-orchetti-moria
       parte: Moria
       ruolo: nemici
       esito: sconfitti
@@ -732,15 +732,15 @@
     - bosco-atro
   fa_parte_di: null
   partecipanti:
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: esploratore
       esito: scopre Sauron e riceve la chiave di Erebor
-    - nome: Thràin II
+    - persona: thrain-ii
       parte: Nani
       ruolo: prigioniero
       esito: muore a Dol Guldur
-    - nome: Sauron
+    - persona: sauron
       parte: Dol Guldur
       ruolo: signore oscuro
       esito: cerca l'Anello e l'Erede di Isildur
@@ -777,11 +777,11 @@
     - hobbiville
   fa_parte_di: null
   partecipanti:
-    - nome: Bilbo Baggins
+    - persona: bilbo-baggins
       parte: Hobbit
       ruolo: neonato
       esito: nasce a Casa Baggins
-    - nome: la famiglia Baggins
+    - entita: gruppo-famiglia-baggins
       parte: Hobbit
       ruolo: famiglia
       esito: lo accoglie
@@ -817,19 +817,19 @@
     - casa-baggins
   fa_parte_di: La ricerca di Erebor
   partecipanti:
-    - nome: Bilbo Baggins
+    - persona: bilbo-baggins
       parte: Hobbit
       ruolo: futuro scassinatore
       esito: accetta la missione
-    - nome: Gandalf
+    - persona: gandalf
       parte: Istari
       ruolo: mandante
       esito: organizza la compagnia
-    - nome: Thorin Scudodiquercia
+    - persona: thorin-scudodiquercia
       parte: Nani
       ruolo: capo della compagnia
       esito: recluta Bilbo
-    - nome: i dodici compagni di Thorin
+    - entita: gruppo-compagni-thorin
       parte: Nani
       ruolo: membri della compagnia
       esito: partono con lui
@@ -869,11 +869,11 @@
     - caverna-di-gollum
   fa_parte_di: La ricerca di Erebor
   partecipanti:
-    - nome: Bilbo Baggins
+    - persona: bilbo-baggins
       parte: Hobbit
       ruolo: portatore
       esito: trova l'Unico Anello
-    - nome: Gollum
+    - persona: gollum
       parte: Montagne Nebbiose
       ruolo: custode
       esito: perde l'Anello
@@ -914,23 +914,23 @@
     - gran-burrone
   fa_parte_di: null
   partecipanti:
-    - nome: Saruman
+    - persona: saruman
       parte: Bianco Consiglio
       ruolo: capo
       esito: acconsente all'attacco
-    - nome: Gandalf
+    - persona: gandalf
       parte: Bianco Consiglio
       ruolo: promotore
       esito: ottiene l'attacco
-    - nome: Galadriel
+    - persona: galadriel
       parte: Bianco Consiglio
       ruolo: signora di Lórien
       esito: partecipa
-    - nome: Elrond
+    - persona: elrond
       parte: Bianco Consiglio
       ruolo: signore di Imladris
       esito: partecipa
-    - nome: Sauron
+    - persona: sauron
       parte: Dol Guldur
       ruolo: signore oscuro
       esito: abbandona la fortezza
@@ -971,15 +971,15 @@
     - erebor
   fa_parte_di: La ricerca di Erebor
   partecipanti:
-    - nome: Bard
+    - persona: bard
       parte: Esgaroth
       ruolo: arciere
       esito: uccide Smaug
-    - nome: Smaug
+    - persona: smaug
       parte: Draghi
       ruolo: drago
       esito: muore
-    - nome: gli abitanti di Esgaroth
+    - entita: gruppo-abitanti-esgaroth
       parte: Esgaroth
       ruolo: città
       esito: sopravvivono alla distruzione
@@ -1015,27 +1015,27 @@
     - erebor
   fa_parte_di: La ricerca di Erebor
   partecipanti:
-    - nome: Thorin Scudodiquercia
+    - persona: thorin-scudodiquercia
       parte: Nani
       ruolo: re
       esito: muore
-    - nome: Dàin Piediferro
+    - persona: dain-piediferro
       parte: Nani
       ruolo: comandante
       esito: diventa Re sotto la Montagna
-    - nome: Bard
+    - persona: bard
       parte: Esgaroth
       ruolo: comandante
       esito: sopravvive
-    - nome: Thranduil
+    - persona: thranduil
       parte: Bosco Atro
       ruolo: re elfico
       esito: sopravvive
-    - nome: Bilbo Baggins
+    - persona: bilbo-baggins
       parte: Hobbit
       ruolo: portatore dell'Anello
       esito: sopravvive
-    - nome: gli Orchetti e i Lupi
+    - entita: gruppo-orchetti-lupi
       parte: Nord
       ruolo: invasori
       esito: sconfitti
@@ -1073,11 +1073,11 @@
     - mordor
   fa_parte_di: null
   partecipanti:
-    - nome: Bilbo Baggins
+    - persona: bilbo-baggins
       parte: Hobbit
       ruolo: viaggiatore
       esito: torna a Casa Baggins con l'Anello
-    - nome: Sauron
+    - persona: sauron
       parte: Mordor
       ruolo: signore oscuro
       esito: rientra in segreto a Mordor
