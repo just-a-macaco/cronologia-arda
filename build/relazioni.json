@@ -13,12 +13,12 @@
     {
       "id": "frodo-baggins",
       "nome": "Frodo Baggins",
-      "genere": null,
+      "genere": "m",
       "specie": "Hobbit",
       "popolo": "Hobbit",
       "nascita": 2968,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "aragorn",
@@ -33,22 +33,22 @@
     {
       "id": "bilbo-baggins",
       "nome": "Bilbo Baggins",
-      "genere": null,
+      "genere": "m",
       "specie": "Hobbit",
       "popolo": "Hobbit",
       "nascita": 2890,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "samvise-gamgi",
       "nome": "Samvise Gamgi",
-      "genere": null,
+      "genere": "m",
       "specie": "Hobbit",
       "popolo": "Hobbit",
       "nascita": 2980,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "sauron",
@@ -143,42 +143,42 @@
     {
       "id": "boromir",
       "nome": "Boromir",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": 2978,
       "morte": 3019,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "faramir",
       "nome": "Faramir",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": 2983,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "meriadoc-brandibuck",
       "nome": "Meriadoc Brandibuck",
-      "genere": null,
+      "genere": "m",
       "specie": "Hobbit",
       "popolo": "Hobbit",
       "nascita": 2982,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "peregrino-tuc",
       "nome": "Peregrino Tuc",
-      "genere": null,
+      "genere": "m",
       "specie": "Hobbit",
       "popolo": "Hobbit",
       "nascita": 2990,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "gimli",
@@ -283,12 +283,12 @@
     {
       "id": "cirion",
       "nome": "Cirion",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 2567,
+      "collegata": true
     },
     {
       "id": "cirdan",
@@ -303,12 +303,12 @@
     {
       "id": "denethor-ii",
       "nome": "Denethor II",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 3019,
+      "collegata": true
     },
     {
       "id": "durin-vi",
@@ -473,12 +473,12 @@
     {
       "id": "imrahil",
       "nome": "Imrahil",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "isildur",
@@ -493,12 +493,12 @@
     {
       "id": "mardil",
       "nome": "Mardil",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 2080,
+      "collegata": true
     },
     {
       "id": "meneldil",
@@ -943,32 +943,32 @@
     {
       "id": "isengrim-ii",
       "nome": "Isengrim II",
-      "genere": null,
+      "genere": "m",
       "specie": "Hobbit",
       "popolo": "Hobbit",
-      "nascita": null,
-      "morte": null,
-      "collegata": false
+      "nascita": 2620,
+      "morte": 2722,
+      "collegata": true
     },
     {
       "id": "ecthelion-i",
       "nome": "Ecthelion I",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 2698,
+      "collegata": true
     },
     {
       "id": "brandobras-tuc",
       "nome": "Brandobras Tuc",
-      "genere": null,
+      "genere": "m",
       "specie": "Hobbit",
       "popolo": "Hobbit",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "walda",
@@ -983,12 +983,12 @@
     {
       "id": "belecthor-ii",
       "nome": "Belecthor II",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 2872,
+      "collegata": true
     },
     {
       "id": "folcwine",
@@ -1033,22 +1033,22 @@
     {
       "id": "gerontius-tuc",
       "nome": "Gerontius Tuc",
-      "genere": null,
+      "genere": "m",
       "specie": "Hobbit",
       "popolo": "Hobbit",
-      "nascita": null,
-      "morte": null,
-      "collegata": false
+      "nascita": 2790,
+      "morte": 2920,
+      "collegata": true
     },
     {
       "id": "ecthelion-ii",
       "nome": "Ecthelion II",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 2984,
+      "collegata": true
     },
     {
       "id": "thengel",
@@ -1073,22 +1073,22 @@
     {
       "id": "finduilas",
       "nome": "Finduilas",
-      "genere": null,
+      "genere": "f",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": 2950,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "adrahil",
       "nome": "Adrahil",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "bain",
@@ -1173,22 +1173,22 @@
     {
       "id": "elanor",
       "nome": "Elanor",
-      "genere": null,
+      "genere": "f",
       "specie": "Hobbit",
       "popolo": "Hobbit",
       "nascita": 3021,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "rosie-cotton",
       "nome": "Rosie Cotton",
-      "genere": null,
+      "genere": "f",
       "specie": "Hobbit",
       "popolo": "Hobbit",
-      "nascita": null,
+      "nascita": 2984,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "anarion",
@@ -1887,6 +1887,1316 @@
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "hurin-di-emyn-arnen",
+      "nome": "Húrin di Emyn Arnen",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "pelendur",
+      "nome": "Pelendur",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 1998,
+      "collegata": true
+    },
+    {
+      "id": "vorondil",
+      "nome": "Vorondil il Cacciatore",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2029,
+      "collegata": true
+    },
+    {
+      "id": "eradan",
+      "nome": "Eradan",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2116,
+      "collegata": true
+    },
+    {
+      "id": "herion",
+      "nome": "Herion",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2148,
+      "collegata": true
+    },
+    {
+      "id": "belegorn",
+      "nome": "Belegorn",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2204,
+      "collegata": true
+    },
+    {
+      "id": "hurin-i",
+      "nome": "Húrin I",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2244,
+      "collegata": true
+    },
+    {
+      "id": "turin-i",
+      "nome": "Túrin I",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2278,
+      "collegata": true
+    },
+    {
+      "id": "hador",
+      "nome": "Hador",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2395,
+      "collegata": true
+    },
+    {
+      "id": "barahir",
+      "nome": "Barahir",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2412,
+      "collegata": true
+    },
+    {
+      "id": "dior",
+      "nome": "Dior",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2435,
+      "collegata": true
+    },
+    {
+      "id": "denethor-i",
+      "nome": "Denethor I",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2477,
+      "collegata": true
+    },
+    {
+      "id": "boromir-i",
+      "nome": "Boromir I",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2489,
+      "collegata": true
+    },
+    {
+      "id": "hallas",
+      "nome": "Hallas",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2605,
+      "collegata": true
+    },
+    {
+      "id": "hurin-ii",
+      "nome": "Húrin II",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2628,
+      "collegata": true
+    },
+    {
+      "id": "belecthor-i",
+      "nome": "Belecthor I",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2655,
+      "collegata": true
+    },
+    {
+      "id": "orodreth",
+      "nome": "Orodreth",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2685,
+      "collegata": true
+    },
+    {
+      "id": "egalmoth",
+      "nome": "Egalmoth",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2743,
+      "collegata": true
+    },
+    {
+      "id": "beren",
+      "nome": "Beren",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2763,
+      "collegata": true
+    },
+    {
+      "id": "beregond-i",
+      "nome": "Beregond I",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2811,
+      "collegata": true
+    },
+    {
+      "id": "thorondir",
+      "nome": "Thorondir",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2882,
+      "collegata": true
+    },
+    {
+      "id": "turin-ii",
+      "nome": "Túrin II",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2914,
+      "collegata": true
+    },
+    {
+      "id": "turgon",
+      "nome": "Turgon",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2953,
+      "collegata": true
+    },
+    {
+      "id": "balbo-baggins",
+      "nome": "Balbo Baggins",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2767,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "berylla-boffin",
+      "nome": "Berylla Boffin",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "mungo-baggins",
+      "nome": "Mungo Baggins",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2807,
+      "morte": 2900,
+      "collegata": true
+    },
+    {
+      "id": "bungo-baggins",
+      "nome": "Bungo Baggins",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2846,
+      "morte": 2926,
+      "collegata": true
+    },
+    {
+      "id": "belladonna-tuc",
+      "nome": "Belladonna Tuc",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2852,
+      "morte": 2934,
+      "collegata": true
+    },
+    {
+      "id": "belba-baggins",
+      "nome": "Belba Baggins",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2856,
+      "morte": 2956,
+      "collegata": true
+    },
+    {
+      "id": "longo-baggins",
+      "nome": "Longo Baggins",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2860,
+      "morte": 2950,
+      "collegata": true
+    },
+    {
+      "id": "camelia-sackville",
+      "nome": "Camelia Sackville",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "oto-sackville-baggins",
+      "nome": "Oto Sackville-Baggins",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2910,
+      "morte": 3012,
+      "collegata": true
+    },
+    {
+      "id": "lobelia-serracinta",
+      "nome": "Lobelia Serracinta",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "lotho-sackville-baggins",
+      "nome": "Lotho Sackville-Baggins",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "linda-baggins",
+      "nome": "Linda Baggins",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2862,
+      "morte": 2963,
+      "collegata": true
+    },
+    {
+      "id": "bingo-baggins",
+      "nome": "Bingo Baggins",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2864,
+      "morte": 2960,
+      "collegata": true
+    },
+    {
+      "id": "ponto-baggins",
+      "nome": "Ponto Baggins",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2816,
+      "morte": 2911,
+      "collegata": true
+    },
+    {
+      "id": "mimosa-bunce",
+      "nome": "Mimosa Bunce",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "largo-baggins",
+      "nome": "Largo Baggins",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2820,
+      "morte": 2912,
+      "collegata": true
+    },
+    {
+      "id": "tanta-sfacciatonda",
+      "nome": "Tanta Sfacciatonda",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "fosco-baggins",
+      "nome": "Fosco Baggins",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2864,
+      "morte": 2960,
+      "collegata": true
+    },
+    {
+      "id": "ruby-bolgeri",
+      "nome": "Ruby Bolgeri",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "drogo-baggins",
+      "nome": "Drogo Baggins",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2908,
+      "morte": 2980,
+      "collegata": true
+    },
+    {
+      "id": "primula-brandibuck",
+      "nome": "Primula Brandibuck",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2920,
+      "morte": 2980,
+      "collegata": true
+    },
+    {
+      "id": "dora-baggins",
+      "nome": "Dora Baggins",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2902,
+      "morte": 3006,
+      "collegata": true
+    },
+    {
+      "id": "dudo-baggins",
+      "nome": "Dudo Baggins",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2911,
+      "morte": 3009,
+      "collegata": true
+    },
+    {
+      "id": "daisy-baggins",
+      "nome": "Daisy Baggins",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2950,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "griffo-boffin",
+      "nome": "Griffo Boffin",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "lily-baggins",
+      "nome": "Lily Baggins",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2822,
+      "morte": 2912,
+      "collegata": true
+    },
+    {
+      "id": "togo-boscoscuro",
+      "nome": "Togo Boscoscuro",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "rosa-baggins",
+      "nome": "Rosa Baggins",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2856,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "isumbras-iii",
+      "nome": "Isumbras III",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2666,
+      "morte": 2759,
+      "collegata": true
+    },
+    {
+      "id": "ferumbras-ii",
+      "nome": "Ferumbras II",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2701,
+      "morte": 2801,
+      "collegata": true
+    },
+    {
+      "id": "fortinbras-i",
+      "nome": "Fortinbras I",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2745,
+      "morte": 2848,
+      "collegata": true
+    },
+    {
+      "id": "adamanta-paffuti",
+      "nome": "Adamanta Paffuti",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "isengrim-iii",
+      "nome": "Isengrim III",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2832,
+      "morte": 2930,
+      "collegata": true
+    },
+    {
+      "id": "hildigardo-tuc",
+      "nome": "Hildigardo Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "isumbras-iv",
+      "nome": "Isumbras IV",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2838,
+      "morte": 2939,
+      "collegata": true
+    },
+    {
+      "id": "fortinbras-ii",
+      "nome": "Fortinbras II",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2878,
+      "morte": 2980,
+      "collegata": true
+    },
+    {
+      "id": "ferumbras-iii",
+      "nome": "Ferumbras III",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2916,
+      "morte": 3015,
+      "collegata": true
+    },
+    {
+      "id": "perla-tuc",
+      "nome": "Perla Tuc",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2975,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "pimpernel-tuc",
+      "nome": "Pimpernel Tuc",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2979,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "pervinca-tuc",
+      "nome": "Pervinca Tuc",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2985,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "isemboldo-tuc",
+      "nome": "Isemboldo Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2842,
+      "morte": 2946,
+      "collegata": true
+    },
+    {
+      "id": "hildifonso-tuc",
+      "nome": "Hildifonso Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2844,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "isembardo-tuc",
+      "nome": "Isembardo Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2847,
+      "morte": 2946,
+      "collegata": true
+    },
+    {
+      "id": "hildibrando-tuc",
+      "nome": "Hildibrando Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2849,
+      "morte": 2934,
+      "collegata": true
+    },
+    {
+      "id": "flambardo-tuc",
+      "nome": "Flambardo Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2887,
+      "morte": 2989,
+      "collegata": true
+    },
+    {
+      "id": "sigismondo-tuc",
+      "nome": "Sigismondo Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2890,
+      "morte": 2991,
+      "collegata": true
+    },
+    {
+      "id": "adelardo-tuc",
+      "nome": "Adelardo Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2928,
+      "morte": 3023,
+      "collegata": true
+    },
+    {
+      "id": "reginardo-tuc",
+      "nome": "Reginardo Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2969,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "everardo-tuc",
+      "nome": "Everardo Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2960,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "rosamunda-tuc",
+      "nome": "Rosamunda Tuc",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2938,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "odovacar-bolgeri",
+      "nome": "Odovacar Bolgeri",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "fredegaro-bolgeri",
+      "nome": "Fredegaro Bolgeri",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2980,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "ferdinando-tuc",
+      "nome": "Ferdinando Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2940,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "ferdibrando-tuc",
+      "nome": "Ferdibrando Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2963,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "donnamira-tuc",
+      "nome": "Donnamira Tuc",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2856,
+      "morte": 2946,
+      "collegata": true
+    },
+    {
+      "id": "ugo-boffin",
+      "nome": "Ugo Boffin",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "hildigrim-tuc",
+      "nome": "Hildigrim Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2840,
+      "morte": 2941,
+      "collegata": true
+    },
+    {
+      "id": "adalgrim-tuc",
+      "nome": "Adalgrim Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2880,
+      "morte": 2982,
+      "collegata": true
+    },
+    {
+      "id": "paladino-ii",
+      "nome": "Paladino II",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2933,
+      "morte": 3034,
+      "collegata": true
+    },
+    {
+      "id": "eglantina-banks",
+      "nome": "Eglantina Banks",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "esmeralda-tuc",
+      "nome": "Esmeralda Tuc",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2936,
+      "morte": 3032,
+      "collegata": true
+    },
+    {
+      "id": "diamante-di-lungo-squarcio",
+      "nome": "Diamante di Lungo Squarcio",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2995,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "faramir-i",
+      "nome": "Faramir I",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3030,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "mirabella-tuc",
+      "nome": "Mirabella Tuc",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2860,
+      "morte": 2960,
+      "collegata": true
+    },
+    {
+      "id": "isengar-tuc",
+      "nome": "Isengar Tuc",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2862,
+      "morte": 2960,
+      "collegata": true
+    },
+    {
+      "id": "gorhendad-brandibuck",
+      "nome": "Gorhendad Vecchiobecco",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2340,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "gormadoc-brandibuck",
+      "nome": "Gormadoc «Scavafondo»",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2734,
+      "morte": 2836,
+      "collegata": true
+    },
+    {
+      "id": "malva-testaforte",
+      "nome": "Malva Testaforte",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "madoc-brandibuck",
+      "nome": "Madoc «Fierocollo»",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2773,
+      "morte": 2877,
+      "collegata": true
+    },
+    {
+      "id": "anna-goldworthy",
+      "nome": "Anna Goldworthy",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "marmadoc-brandibuck",
+      "nome": "Marmadoc «l'Imperioso»",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2817,
+      "morte": 2910,
+      "collegata": true
+    },
+    {
+      "id": "adaldrida-bolgeri",
+      "nome": "Adaldrida Bolgeri",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "gorbadoc-brandibuck",
+      "nome": "Gorbadoc «Largacino»",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2860,
+      "morte": 2963,
+      "collegata": true
+    },
+    {
+      "id": "rorimac-brandibuck",
+      "nome": "Rorimac «Balbodorco»",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2902,
+      "morte": 3068,
+      "collegata": true
+    },
+    {
+      "id": "menegilda-gula",
+      "nome": "Menegilda Gulà",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "saradoc-brandibuck",
+      "nome": "Saradoc Brandibuck",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "merimac-brandibuck",
+      "nome": "Merimac Brandibuck",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2942,
+      "morte": 3030,
+      "collegata": true
+    },
+    {
+      "id": "berilac-brandibuck",
+      "nome": "Berilac Brandibuck",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2980,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "amaranth-brandibuck",
+      "nome": "Amaranth Brandibuck",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2904,
+      "morte": 2998,
+      "collegata": true
+    },
+    {
+      "id": "saradas-brandibuck",
+      "nome": "Saradas Brandibuck",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2906,
+      "morte": 3007,
+      "collegata": true
+    },
+    {
+      "id": "seredic-brandibuck",
+      "nome": "Seredic Brandibuck",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2948,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "hilda-serracinta",
+      "nome": "Hilda Serracinta",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "doderic-brandibuck",
+      "nome": "Doderic Brandibuck",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2989,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "ilberic-brandibuck",
+      "nome": "Ilberic Brandibuck",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2991,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "celandine-brandibuck",
+      "nome": "Celandine Brandibuck",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2994,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "dodinas-brandibuck",
+      "nome": "Dodinas Brandibuck",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "asfodelia-brandibuck",
+      "nome": "Asfodelia Brandibuck",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2913,
+      "morte": 3012,
+      "collegata": true
+    },
+    {
+      "id": "rufo-rintanati",
+      "nome": "Rufo Rintanati",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "milo-rintanati",
+      "nome": "Milo Rintanati",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2947,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "dinodas-brandibuck",
+      "nome": "Dinodas Brandibuck",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "sadoc-brandibuck",
+      "nome": "Sadoc Brandibuck",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2779,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "salvia-brandibuck",
+      "nome": "Salvia Brandibuck",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2826,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "gundebaldo-bolgeri",
+      "nome": "Gundebaldo Bolgeri",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "marroc-brandibuck",
+      "nome": "Marroc Brandibuck",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "hamfast-gamgi",
+      "nome": "Hamfast Gamgi",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2926,
+      "morte": 3028,
+      "collegata": true
+    },
+    {
+      "id": "bell-buonabimba",
+      "nome": "Bell Buonabimba",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "frodo-giardiniere",
+      "nome": "Frodo Giardiniere",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3023,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "rosa-gamgi",
+      "nome": "Rosa Gamgi",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3025,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "merry-gamgi",
+      "nome": "Merry Gamgi",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3027,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "pipino-gamgi",
+      "nome": "Pipino Gamgi",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3029,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "croccadoro-gamgi",
+      "nome": "Croccadoro Gamgi",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3031,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "hamfast-gamgi-ii",
+      "nome": "Hamfast Gamgi II",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3032,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "daisy-gamgi",
+      "nome": "Daisy Gamgi",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3033,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "primarosa-gamgi",
+      "nome": "Primarosa Gamgi",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3035,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "bilbo-gamgi",
+      "nome": "Bilbo Gamgi",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3036,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "ruby-gamgi",
+      "nome": "Ruby Gamgi",
+      "genere": "f",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3038,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "robin-gamgi",
+      "nome": "Robin Gamgi",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3040,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "tolman-gamgi",
+      "nome": "Tolman Gamgi",
+      "genere": "m",
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3042,
       "morte": null,
       "collegata": true
     }
@@ -3516,10 +4826,2037 @@
         }
       ],
       "nota": null
+    },
+    {
+      "da": "hurin-di-emyn-arnen",
+      "a": "pelendur",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "pelendur",
+      "a": "vorondil",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "vorondil",
+      "a": "mardil",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "mardil",
+      "a": "eradan",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "eradan",
+      "a": "herion",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "herion",
+      "a": "belegorn",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "belegorn",
+      "a": "hurin-i",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "hurin-i",
+      "a": "turin-i",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "turin-i",
+      "a": "hador",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "hador",
+      "a": "barahir",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "barahir",
+      "a": "dior",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "dior",
+      "a": "denethor-i",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "denethor-i",
+      "a": "boromir-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "boromir-i",
+      "a": "cirion",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "cirion",
+      "a": "hallas",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "hallas",
+      "a": "hurin-ii",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "hurin-ii",
+      "a": "belecthor-i",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "belecthor-i",
+      "a": "orodreth",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "orodreth",
+      "a": "ecthelion-i",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "ecthelion-i",
+      "a": "egalmoth",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "egalmoth",
+      "a": "beren",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "beren",
+      "a": "beregond-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "beregond-i",
+      "a": "belecthor-ii",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "belecthor-ii",
+      "a": "thorondir",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "thorondir",
+      "a": "turin-ii",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "turin-ii",
+      "a": "turgon",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+    },
+    {
+      "da": "turgon",
+      "a": "ecthelion-ii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "ecthelion-ii",
+      "a": "denethor-ii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "denethor-ii",
+      "a": "boromir",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "denethor-ii",
+      "a": "faramir",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "adrahil",
+      "a": "finduilas",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "adrahil",
+      "a": "imrahil",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Imrahil è detto principe di Dol Amroth; il legame con Adrahil si ricava dalla casa di Dol Amroth."
+    },
+    {
+      "da": "imrahil",
+      "a": "lothiriel",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "finduilas",
+      "a": "denethor-ii",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": "Le nozze si celebrano nel 2976."
+    },
+    {
+      "da": "eowyn",
+      "a": "faramir",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "Le nozze si celebrano a Minas Tirith nel 3019."
+    },
+    {
+      "da": "balbo-baggins",
+      "a": "mungo-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "balbo-baggins",
+      "a": "ponto-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "balbo-baggins",
+      "a": "largo-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "balbo-baggins",
+      "a": "lily-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "mungo-baggins",
+      "a": "bungo-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "mungo-baggins",
+      "a": "belba-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "mungo-baggins",
+      "a": "longo-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "mungo-baggins",
+      "a": "linda-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "mungo-baggins",
+      "a": "bingo-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "bungo-baggins",
+      "a": "bilbo-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "longo-baggins",
+      "a": "oto-sackville-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "oto-sackville-baggins",
+      "a": "lotho-sackville-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "ponto-baggins",
+      "a": "rosa-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "largo-baggins",
+      "a": "fosco-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "fosco-baggins",
+      "a": "dora-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "fosco-baggins",
+      "a": "drogo-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "fosco-baggins",
+      "a": "dudo-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "drogo-baggins",
+      "a": "frodo-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "dudo-baggins",
+      "a": "daisy-baggins",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "isengrim-ii",
+      "a": "isumbras-iii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "isumbras-iii",
+      "a": "ferumbras-ii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "isumbras-iii",
+      "a": "brandobras-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "ferumbras-ii",
+      "a": "fortinbras-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "fortinbras-i",
+      "a": "gerontius-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "isengrim-iii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "hildigardo-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "isumbras-iv",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "isemboldo-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "hildifonso-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "isembardo-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "hildibrando-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "belladonna-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "donnamira-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "mirabella-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "isengar-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "hildigrim-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "hildigrim-tuc",
+      "a": "adalgrim-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "adalgrim-tuc",
+      "a": "paladino-ii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "adalgrim-tuc",
+      "a": "esmeralda-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "isumbras-iv",
+      "a": "fortinbras-ii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "fortinbras-ii",
+      "a": "ferumbras-iii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "fortinbras-ii",
+      "a": "perla-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "fortinbras-ii",
+      "a": "pimpernel-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "fortinbras-ii",
+      "a": "pervinca-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "hildibrando-tuc",
+      "a": "flambardo-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "hildibrando-tuc",
+      "a": "sigismondo-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "flambardo-tuc",
+      "a": "adelardo-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "adelardo-tuc",
+      "a": "reginardo-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "adelardo-tuc",
+      "a": "everardo-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "sigismondo-tuc",
+      "a": "rosamunda-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "sigismondo-tuc",
+      "a": "ferdinando-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "ferdinando-tuc",
+      "a": "ferdibrando-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "paladino-ii",
+      "a": "peregrino-tuc",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "peregrino-tuc",
+      "a": "faramir-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gorhendad-brandibuck",
+      "a": "gormadoc-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gormadoc-brandibuck",
+      "a": "madoc-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gormadoc-brandibuck",
+      "a": "sadoc-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gormadoc-brandibuck",
+      "a": "marroc-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "madoc-brandibuck",
+      "a": "marmadoc-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "marmadoc-brandibuck",
+      "a": "gorbadoc-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gorbadoc-brandibuck",
+      "a": "rorimac-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gorbadoc-brandibuck",
+      "a": "amaranth-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gorbadoc-brandibuck",
+      "a": "saradas-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gorbadoc-brandibuck",
+      "a": "dodinas-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gorbadoc-brandibuck",
+      "a": "asfodelia-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gorbadoc-brandibuck",
+      "a": "dinodas-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gorbadoc-brandibuck",
+      "a": "primula-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "rorimac-brandibuck",
+      "a": "saradoc-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "rorimac-brandibuck",
+      "a": "merimac-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "merimac-brandibuck",
+      "a": "berilac-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "saradas-brandibuck",
+      "a": "seredic-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "seredic-brandibuck",
+      "a": "doderic-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "seredic-brandibuck",
+      "a": "ilberic-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "seredic-brandibuck",
+      "a": "celandine-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "asfodelia-brandibuck",
+      "a": "milo-rintanati",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "sadoc-brandibuck",
+      "a": "salvia-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "saradoc-brandibuck",
+      "a": "meriadoc-brandibuck",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "hamfast-gamgi",
+      "a": "samvise-gamgi",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "elanor",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "frodo-giardiniere",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "rosa-gamgi",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "merry-gamgi",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "pipino-gamgi",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "croccadoro-gamgi",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "hamfast-gamgi-ii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "daisy-gamgi",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "primarosa-gamgi",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "bilbo-gamgi",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "ruby-gamgi",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "robin-gamgi",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "tolman-gamgi",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "balbo-baggins",
+      "a": "berylla-boffin",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "bungo-baggins",
+      "a": "belladonna-tuc",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "longo-baggins",
+      "a": "camelia-sackville",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "oto-sackville-baggins",
+      "a": "lobelia-serracinta",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "ponto-baggins",
+      "a": "mimosa-bunce",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "largo-baggins",
+      "a": "tanta-sfacciatonda",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "fosco-baggins",
+      "a": "ruby-bolgeri",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "drogo-baggins",
+      "a": "primula-brandibuck",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "daisy-baggins",
+      "a": "griffo-boffin",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "lily-baggins",
+      "a": "togo-boscoscuro",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gerontius-tuc",
+      "a": "adamanta-paffuti",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "paladino-ii",
+      "a": "eglantina-banks",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "peregrino-tuc",
+      "a": "diamante-di-lungo-squarcio",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "faramir-i",
+      "a": "croccadoro-gamgi",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "rosamunda-tuc",
+      "a": "fredegaro-bolgeri",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "rosamunda-tuc",
+      "a": "odovacar-bolgeri",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "donnamira-tuc",
+      "a": "ugo-boffin",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "mirabella-tuc",
+      "a": "gorbadoc-brandibuck",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "esmeralda-tuc",
+      "a": "saradoc-brandibuck",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "hildigrim-tuc",
+      "a": "rosa-baggins",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gormadoc-brandibuck",
+      "a": "malva-testaforte",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "madoc-brandibuck",
+      "a": "anna-goldworthy",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "marmadoc-brandibuck",
+      "a": "adaldrida-bolgeri",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "rorimac-brandibuck",
+      "a": "menegilda-gula",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "seredic-brandibuck",
+      "a": "hilda-serracinta",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "asfodelia-brandibuck",
+      "a": "rufo-rintanati",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "salvia-brandibuck",
+      "a": "gundebaldo-bolgeri",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "hamfast-gamgi",
+      "a": "bell-buonabimba",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "samvise-gamgi",
+      "a": "rosie-cotton",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice C, Alberi genealogici"
+        }
+      ],
+      "nota": null
     }
   ],
   "derivate": {
     "figli": {
+      "adalgrim-tuc": [
+        "esmeralda-tuc",
+        "paladino-ii"
+      ],
+      "adelardo-tuc": [
+        "everardo-tuc",
+        "reginardo-tuc"
+      ],
+      "adrahil": [
+        "finduilas",
+        "imrahil"
+      ],
       "aldor": [
         "frea"
       ],
@@ -3604,11 +6941,41 @@
       "arveleg-ii": [
         "araval"
       ],
+      "asfodelia-brandibuck": [
+        "milo-rintanati"
+      ],
+      "balbo-baggins": [
+        "largo-baggins",
+        "lily-baggins",
+        "mungo-baggins",
+        "ponto-baggins"
+      ],
+      "barahir": [
+        "dior"
+      ],
+      "belecthor-i": [
+        "orodreth"
+      ],
+      "belecthor-ii": [
+        "thorondir"
+      ],
       "beleg-di-arthedain": [
         "mallor"
       ],
+      "belegorn": [
+        "hurin-i"
+      ],
+      "beregond-i": [
+        "belecthor-ii"
+      ],
+      "beren": [
+        "beregond-i"
+      ],
       "borin": [
         "farin"
+      ],
+      "boromir-i": [
+        "cirion"
       ],
       "brego": [
         "aldor",
@@ -3616,6 +6983,9 @@
       ],
       "brytta": [
         "walda"
+      ],
+      "bungo-baggins": [
+        "bilbo-baggins"
       ],
       "celeborn": [
         "celebrian"
@@ -3631,6 +7001,9 @@
       "celepharn": [
         "celebrindor"
       ],
+      "cirion": [
+        "hallas"
+      ],
       "dain-i": [
         "fror",
         "gror",
@@ -3639,12 +7012,28 @@
       "dain-piediferro": [
         "thorin-iii"
       ],
+      "denethor-i": [
+        "boromir-i"
+      ],
+      "denethor-ii": [
+        "boromir",
+        "faramir"
+      ],
       "deor": [
         "gram"
+      ],
+      "dior": [
+        "denethor-i"
       ],
       "dis": [
         "fili",
         "kili"
+      ],
+      "drogo-baggins": [
+        "frodo-baggins"
+      ],
+      "dudo-baggins": [
+        "daisy-baggins"
       ],
       "durin-i": [
         "durin-vi"
@@ -3654,6 +7043,15 @@
       ],
       "earendur": [
         "amlaith"
+      ],
+      "ecthelion-i": [
+        "egalmoth"
+      ],
+      "ecthelion-ii": [
+        "denethor-ii"
+      ],
+      "egalmoth": [
+        "beren"
       ],
       "eldacar-di-arnor": [
         "arantar"
@@ -3683,6 +7081,9 @@
       "eorl-il-giovane": [
         "brego"
       ],
+      "eradan": [
+        "herion"
+      ],
       "farin": [
         "fundin",
         "groin"
@@ -3690,8 +7091,17 @@
       "fengel": [
         "thengel"
       ],
+      "ferdinando-tuc": [
+        "ferdibrando-tuc"
+      ],
+      "ferumbras-ii": [
+        "fortinbras-i"
+      ],
       "firiel": [
         "aranarth"
+      ],
+      "flambardo-tuc": [
+        "adelardo-tuc"
       ],
       "folca": [
         "folcwine"
@@ -3700,6 +7110,20 @@
         "fastred",
         "fengel",
         "folcred"
+      ],
+      "fortinbras-i": [
+        "gerontius-tuc"
+      ],
+      "fortinbras-ii": [
+        "ferumbras-iii",
+        "perla-tuc",
+        "pervinca-tuc",
+        "pimpernel-tuc"
+      ],
+      "fosco-baggins": [
+        "dora-baggins",
+        "drogo-baggins",
+        "dudo-baggins"
       ],
       "frea": [
         "freawine"
@@ -3717,6 +7141,20 @@
       "galadriel": [
         "celebrian"
       ],
+      "gerontius-tuc": [
+        "belladonna-tuc",
+        "donnamira-tuc",
+        "hildibrando-tuc",
+        "hildifonso-tuc",
+        "hildigardo-tuc",
+        "hildigrim-tuc",
+        "isembardo-tuc",
+        "isemboldo-tuc",
+        "isengar-tuc",
+        "isengrim-iii",
+        "isumbras-iv",
+        "mirabella-tuc"
+      ],
       "gilraen": [
         "aragorn"
       ],
@@ -3729,6 +7167,23 @@
       "goldwine": [
         "deor"
       ],
+      "gorbadoc-brandibuck": [
+        "amaranth-brandibuck",
+        "asfodelia-brandibuck",
+        "dinodas-brandibuck",
+        "dodinas-brandibuck",
+        "primula-brandibuck",
+        "rorimac-brandibuck",
+        "saradas-brandibuck"
+      ],
+      "gorhendad-brandibuck": [
+        "gormadoc-brandibuck"
+      ],
+      "gormadoc-brandibuck": [
+        "madoc-brandibuck",
+        "marroc-brandibuck",
+        "sadoc-brandibuck"
+      ],
       "gram": [
         "helm",
         "hild"
@@ -3740,21 +7195,71 @@
       "gror": [
         "nain-gror"
       ],
+      "hador": [
+        "barahir"
+      ],
+      "hallas": [
+        "hurin-ii"
+      ],
+      "hamfast-gamgi": [
+        "samvise-gamgi"
+      ],
       "helm": [
         "haleth",
         "hama-figlio-di-helm"
       ],
+      "herion": [
+        "belegorn"
+      ],
       "hild": [
         "frealaf"
+      ],
+      "hildibrando-tuc": [
+        "flambardo-tuc",
+        "sigismondo-tuc"
+      ],
+      "hildigrim-tuc": [
+        "adalgrim-tuc"
+      ],
+      "hurin-di-emyn-arnen": [
+        "pelendur"
+      ],
+      "hurin-i": [
+        "turin-i"
+      ],
+      "hurin-ii": [
+        "belecthor-i"
+      ],
+      "imrahil": [
+        "lothiriel"
+      ],
+      "isengrim-ii": [
+        "isumbras-iii"
       ],
       "isildur": [
         "valandil"
       ],
+      "isumbras-iii": [
+        "brandobras-tuc",
+        "ferumbras-ii"
+      ],
+      "isumbras-iv": [
+        "fortinbras-ii"
+      ],
+      "largo-baggins": [
+        "fosco-baggins"
+      ],
       "leod": [
         "eorl-il-giovane"
       ],
+      "longo-baggins": [
+        "oto-sackville-baggins"
+      ],
       "lothiriel": [
         "elfwine"
+      ],
+      "madoc-brandibuck": [
+        "marmadoc-brandibuck"
       ],
       "mallor": [
         "celepharn"
@@ -3762,9 +7267,25 @@
       "malvegil": [
         "argeleb-i"
       ],
+      "mardil": [
+        "eradan"
+      ],
+      "marmadoc-brandibuck": [
+        "gorbadoc-brandibuck"
+      ],
+      "merimac-brandibuck": [
+        "berilac-brandibuck"
+      ],
       "morwen": [
         "theoden",
         "theodwyn"
+      ],
+      "mungo-baggins": [
+        "belba-baggins",
+        "bingo-baggins",
+        "bungo-baggins",
+        "linda-baggins",
+        "longo-baggins"
       ],
       "nain-gror": [
         "dain-piediferro"
@@ -3778,6 +7299,64 @@
       ],
       "oin-re": [
         "nain-ii"
+      ],
+      "orodreth": [
+        "ecthelion-i"
+      ],
+      "oto-sackville-baggins": [
+        "lotho-sackville-baggins"
+      ],
+      "paladino-ii": [
+        "peregrino-tuc"
+      ],
+      "pelendur": [
+        "vorondil"
+      ],
+      "peregrino-tuc": [
+        "faramir-i"
+      ],
+      "ponto-baggins": [
+        "rosa-baggins"
+      ],
+      "rorimac-brandibuck": [
+        "merimac-brandibuck",
+        "saradoc-brandibuck"
+      ],
+      "rosamunda-tuc": [
+        "fredegaro-bolgeri"
+      ],
+      "sadoc-brandibuck": [
+        "salvia-brandibuck"
+      ],
+      "samvise-gamgi": [
+        "bilbo-gamgi",
+        "croccadoro-gamgi",
+        "daisy-gamgi",
+        "elanor",
+        "frodo-giardiniere",
+        "hamfast-gamgi-ii",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "primarosa-gamgi",
+        "robin-gamgi",
+        "rosa-gamgi",
+        "ruby-gamgi",
+        "tolman-gamgi"
+      ],
+      "saradas-brandibuck": [
+        "seredic-brandibuck"
+      ],
+      "saradoc-brandibuck": [
+        "meriadoc-brandibuck"
+      ],
+      "seredic-brandibuck": [
+        "celandine-brandibuck",
+        "doderic-brandibuck",
+        "ilberic-brandibuck"
+      ],
+      "sigismondo-tuc": [
+        "ferdinando-tuc",
+        "rosamunda-tuc"
       ],
       "tarcil": [
         "tarondor-di-arnor"
@@ -3802,6 +7381,9 @@
       "thorin-iii": [
         "durin-vii"
       ],
+      "thorondir": [
+        "turin-ii"
+      ],
       "thrain-i": [
         "thorin-i"
       ],
@@ -3813,19 +7395,40 @@
       "thror": [
         "thrain-ii"
       ],
+      "turgon": [
+        "ecthelion-ii"
+      ],
+      "turin-i": [
+        "hador"
+      ],
+      "turin-ii": [
+        "turgon"
+      ],
       "valandil": [
         "eldacar-di-arnor"
       ],
       "valandur": [
         "elendur-di-arnor"
       ],
+      "vorondil": [
+        "mardil"
+      ],
       "walda": [
         "folca"
       ]
     },
     "genitori": {
+      "adalgrim-tuc": [
+        "hildigrim-tuc"
+      ],
+      "adelardo-tuc": [
+        "flambardo-tuc"
+      ],
       "aldor": [
         "brego"
+      ],
+      "amaranth-brandibuck": [
+        "gorbadoc-brandibuck"
       ],
       "amlaith": [
         "earendur"
@@ -3917,23 +7520,77 @@
         "celebrian",
         "elrond"
       ],
+      "asfodelia-brandibuck": [
+        "gorbadoc-brandibuck"
+      ],
       "baldor": [
         "brego"
       ],
       "balin": [
         "fundin"
       ],
+      "barahir": [
+        "hador"
+      ],
+      "belba-baggins": [
+        "mungo-baggins"
+      ],
+      "belecthor-i": [
+        "hurin-ii"
+      ],
+      "belecthor-ii": [
+        "beregond-i"
+      ],
       "beleg-di-arthedain": [
         "amlaith"
       ],
+      "belegorn": [
+        "herion"
+      ],
+      "belladonna-tuc": [
+        "gerontius-tuc"
+      ],
+      "beregond-i": [
+        "beren"
+      ],
+      "beren": [
+        "egalmoth"
+      ],
+      "berilac-brandibuck": [
+        "merimac-brandibuck"
+      ],
+      "bilbo-baggins": [
+        "bungo-baggins"
+      ],
+      "bilbo-gamgi": [
+        "samvise-gamgi"
+      ],
+      "bingo-baggins": [
+        "mungo-baggins"
+      ],
       "borin": [
         "nain-ii"
+      ],
+      "boromir": [
+        "denethor-ii"
+      ],
+      "boromir-i": [
+        "denethor-i"
+      ],
+      "brandobras-tuc": [
+        "isumbras-iii"
       ],
       "brego": [
         "eorl-il-giovane"
       ],
       "brytta": [
         "frealaf"
+      ],
+      "bungo-baggins": [
+        "mungo-baggins"
+      ],
+      "celandine-brandibuck": [
+        "seredic-brandibuck"
       ],
       "celebrian": [
         "celeborn",
@@ -3945,17 +7602,59 @@
       "celepharn": [
         "mallor"
       ],
+      "cirion": [
+        "boromir-i"
+      ],
+      "croccadoro-gamgi": [
+        "samvise-gamgi"
+      ],
       "dain-i": [
         "nain-ii"
       ],
       "dain-piediferro": [
         "nain-gror"
       ],
+      "daisy-baggins": [
+        "dudo-baggins"
+      ],
+      "daisy-gamgi": [
+        "samvise-gamgi"
+      ],
+      "denethor-i": [
+        "dior"
+      ],
+      "denethor-ii": [
+        "ecthelion-ii"
+      ],
       "deor": [
         "goldwine"
       ],
+      "dinodas-brandibuck": [
+        "gorbadoc-brandibuck"
+      ],
+      "dior": [
+        "barahir"
+      ],
       "dis": [
         "thrain-ii"
+      ],
+      "doderic-brandibuck": [
+        "seredic-brandibuck"
+      ],
+      "dodinas-brandibuck": [
+        "gorbadoc-brandibuck"
+      ],
+      "donnamira-tuc": [
+        "gerontius-tuc"
+      ],
+      "dora-baggins": [
+        "fosco-baggins"
+      ],
+      "drogo-baggins": [
+        "fosco-baggins"
+      ],
+      "dudo-baggins": [
+        "fosco-baggins"
       ],
       "durin-vi": [
         "durin-i"
@@ -3968,6 +7667,18 @@
       ],
       "earendur": [
         "elendur-di-arnor"
+      ],
+      "ecthelion-i": [
+        "orodreth"
+      ],
+      "ecthelion-ii": [
+        "turgon"
+      ],
+      "egalmoth": [
+        "ecthelion-i"
+      ],
+      "elanor": [
+        "samvise-gamgi"
       ],
       "eldacar-di-arnor": [
         "valandil"
@@ -3998,6 +7709,21 @@
         "eomund",
         "theodwyn"
       ],
+      "eradan": [
+        "mardil"
+      ],
+      "esmeralda-tuc": [
+        "adalgrim-tuc"
+      ],
+      "everardo-tuc": [
+        "adelardo-tuc"
+      ],
+      "faramir": [
+        "denethor-ii"
+      ],
+      "faramir-i": [
+        "peregrino-tuc"
+      ],
       "farin": [
         "borin"
       ],
@@ -4007,8 +7733,26 @@
       "fengel": [
         "folcwine"
       ],
+      "ferdibrando-tuc": [
+        "ferdinando-tuc"
+      ],
+      "ferdinando-tuc": [
+        "sigismondo-tuc"
+      ],
+      "ferumbras-ii": [
+        "isumbras-iii"
+      ],
+      "ferumbras-iii": [
+        "fortinbras-ii"
+      ],
       "fili": [
         "dis"
+      ],
+      "finduilas": [
+        "adrahil"
+      ],
+      "flambardo-tuc": [
+        "hildibrando-tuc"
       ],
       "folca": [
         "walda"
@@ -4019,6 +7763,15 @@
       "folcwine": [
         "folca"
       ],
+      "fortinbras-i": [
+        "ferumbras-ii"
+      ],
+      "fortinbras-ii": [
+        "isumbras-iv"
+      ],
+      "fosco-baggins": [
+        "largo-baggins"
+      ],
       "frea": [
         "aldor"
       ],
@@ -4028,14 +7781,26 @@
       "freawine": [
         "frea"
       ],
+      "fredegaro-bolgeri": [
+        "rosamunda-tuc"
+      ],
       "frerin": [
         "thrain-ii"
+      ],
+      "frodo-baggins": [
+        "drogo-baggins"
+      ],
+      "frodo-giardiniere": [
+        "samvise-gamgi"
       ],
       "fror": [
         "dain-i"
       ],
       "fundin": [
         "farin"
+      ],
+      "gerontius-tuc": [
+        "fortinbras-i"
       ],
       "gimli": [
         "gloin"
@@ -4049,6 +7814,12 @@
       "goldwine": [
         "freawine"
       ],
+      "gorbadoc-brandibuck": [
+        "marmadoc-brandibuck"
+      ],
+      "gormadoc-brandibuck": [
+        "gorhendad-brandibuck"
+      ],
       "gram": [
         "deor"
       ],
@@ -4058,23 +7829,98 @@
       "gror": [
         "dain-i"
       ],
+      "hador": [
+        "turin-i"
+      ],
       "haleth": [
         "helm"
+      ],
+      "hallas": [
+        "cirion"
       ],
       "hama-figlio-di-helm": [
         "helm"
       ],
+      "hamfast-gamgi-ii": [
+        "samvise-gamgi"
+      ],
       "helm": [
         "gram"
+      ],
+      "herion": [
+        "eradan"
       ],
       "hild": [
         "gram"
       ],
+      "hildibrando-tuc": [
+        "gerontius-tuc"
+      ],
+      "hildifonso-tuc": [
+        "gerontius-tuc"
+      ],
+      "hildigardo-tuc": [
+        "gerontius-tuc"
+      ],
+      "hildigrim-tuc": [
+        "gerontius-tuc"
+      ],
+      "hurin-i": [
+        "belegorn"
+      ],
+      "hurin-ii": [
+        "hallas"
+      ],
+      "ilberic-brandibuck": [
+        "seredic-brandibuck"
+      ],
+      "imrahil": [
+        "adrahil"
+      ],
+      "isembardo-tuc": [
+        "gerontius-tuc"
+      ],
+      "isemboldo-tuc": [
+        "gerontius-tuc"
+      ],
+      "isengar-tuc": [
+        "gerontius-tuc"
+      ],
+      "isengrim-iii": [
+        "gerontius-tuc"
+      ],
       "isildur": [
         "elendil"
       ],
+      "isumbras-iii": [
+        "isengrim-ii"
+      ],
+      "isumbras-iv": [
+        "gerontius-tuc"
+      ],
       "kili": [
         "dis"
+      ],
+      "largo-baggins": [
+        "balbo-baggins"
+      ],
+      "lily-baggins": [
+        "balbo-baggins"
+      ],
+      "linda-baggins": [
+        "mungo-baggins"
+      ],
+      "longo-baggins": [
+        "mungo-baggins"
+      ],
+      "lothiriel": [
+        "imrahil"
+      ],
+      "lotho-sackville-baggins": [
+        "oto-sackville-baggins"
+      ],
+      "madoc-brandibuck": [
+        "gormadoc-brandibuck"
       ],
       "mallor": [
         "beleg-di-arthedain"
@@ -4082,8 +7928,35 @@
       "malvegil": [
         "celebrindor"
       ],
+      "mardil": [
+        "vorondil"
+      ],
+      "marmadoc-brandibuck": [
+        "madoc-brandibuck"
+      ],
+      "marroc-brandibuck": [
+        "gormadoc-brandibuck"
+      ],
       "meneldil": [
         "anarion"
+      ],
+      "meriadoc-brandibuck": [
+        "saradoc-brandibuck"
+      ],
+      "merimac-brandibuck": [
+        "rorimac-brandibuck"
+      ],
+      "merry-gamgi": [
+        "samvise-gamgi"
+      ],
+      "milo-rintanati": [
+        "asfodelia-brandibuck"
+      ],
+      "mirabella-tuc": [
+        "gerontius-tuc"
+      ],
+      "mungo-baggins": [
+        "balbo-baggins"
       ],
       "nain-gror": [
         "gror"
@@ -4099,6 +7972,84 @@
       ],
       "oin-re": [
         "gloin-re"
+      ],
+      "orodreth": [
+        "belecthor-i"
+      ],
+      "oto-sackville-baggins": [
+        "longo-baggins"
+      ],
+      "paladino-ii": [
+        "adalgrim-tuc"
+      ],
+      "pelendur": [
+        "hurin-di-emyn-arnen"
+      ],
+      "peregrino-tuc": [
+        "paladino-ii"
+      ],
+      "perla-tuc": [
+        "fortinbras-ii"
+      ],
+      "pervinca-tuc": [
+        "fortinbras-ii"
+      ],
+      "pimpernel-tuc": [
+        "fortinbras-ii"
+      ],
+      "pipino-gamgi": [
+        "samvise-gamgi"
+      ],
+      "ponto-baggins": [
+        "balbo-baggins"
+      ],
+      "primarosa-gamgi": [
+        "samvise-gamgi"
+      ],
+      "primula-brandibuck": [
+        "gorbadoc-brandibuck"
+      ],
+      "reginardo-tuc": [
+        "adelardo-tuc"
+      ],
+      "robin-gamgi": [
+        "samvise-gamgi"
+      ],
+      "rorimac-brandibuck": [
+        "gorbadoc-brandibuck"
+      ],
+      "rosa-baggins": [
+        "ponto-baggins"
+      ],
+      "rosa-gamgi": [
+        "samvise-gamgi"
+      ],
+      "rosamunda-tuc": [
+        "sigismondo-tuc"
+      ],
+      "ruby-gamgi": [
+        "samvise-gamgi"
+      ],
+      "sadoc-brandibuck": [
+        "gormadoc-brandibuck"
+      ],
+      "salvia-brandibuck": [
+        "sadoc-brandibuck"
+      ],
+      "samvise-gamgi": [
+        "hamfast-gamgi"
+      ],
+      "saradas-brandibuck": [
+        "gorbadoc-brandibuck"
+      ],
+      "saradoc-brandibuck": [
+        "rorimac-brandibuck"
+      ],
+      "seredic-brandibuck": [
+        "saradas-brandibuck"
+      ],
+      "sigismondo-tuc": [
+        "hildibrando-tuc"
       ],
       "tarcil": [
         "arantar"
@@ -4130,6 +8081,9 @@
       "thorin-scudodiquercia": [
         "thrain-ii"
       ],
+      "thorondir": [
+        "belecthor-ii"
+      ],
       "thrain-i": [
         "nain-i"
       ],
@@ -4139,17 +8093,41 @@
       "thror": [
         "dain-i"
       ],
+      "tolman-gamgi": [
+        "samvise-gamgi"
+      ],
+      "turgon": [
+        "turin-ii"
+      ],
+      "turin-i": [
+        "hurin-i"
+      ],
+      "turin-ii": [
+        "thorondir"
+      ],
       "valandil": [
         "isildur"
       ],
       "valandur": [
         "tarondor-di-arnor"
       ],
+      "vorondil": [
+        "pelendur"
+      ],
       "walda": [
         "brytta"
       ]
     },
     "coniugi": {
+      "adaldrida-bolgeri": [
+        "marmadoc-brandibuck"
+      ],
+      "adamanta-paffuti": [
+        "gerontius-tuc"
+      ],
+      "anna-goldworthy": [
+        "madoc-brandibuck"
+      ],
       "aragorn": [
         "arwen"
       ],
@@ -4162,11 +8140,53 @@
       "arwen": [
         "aragorn"
       ],
+      "asfodelia-brandibuck": [
+        "rufo-rintanati"
+      ],
+      "balbo-baggins": [
+        "berylla-boffin"
+      ],
+      "bell-buonabimba": [
+        "hamfast-gamgi"
+      ],
+      "belladonna-tuc": [
+        "bungo-baggins"
+      ],
+      "berylla-boffin": [
+        "balbo-baggins"
+      ],
+      "bungo-baggins": [
+        "belladonna-tuc"
+      ],
+      "camelia-sackville": [
+        "longo-baggins"
+      ],
       "celeborn": [
         "galadriel"
       ],
       "celebrian": [
         "elrond"
+      ],
+      "croccadoro-gamgi": [
+        "faramir-i"
+      ],
+      "daisy-baggins": [
+        "griffo-boffin"
+      ],
+      "denethor-ii": [
+        "finduilas"
+      ],
+      "diamante-di-lungo-squarcio": [
+        "peregrino-tuc"
+      ],
+      "donnamira-tuc": [
+        "ugo-boffin"
+      ],
+      "drogo-baggins": [
+        "primula-brandibuck"
+      ],
+      "eglantina-banks": [
+        "paladino-ii"
       ],
       "elfhild": [
         "theoden"
@@ -4180,20 +8200,143 @@
       "eomund": [
         "theodwyn"
       ],
+      "eowyn": [
+        "faramir"
+      ],
+      "esmeralda-tuc": [
+        "saradoc-brandibuck"
+      ],
+      "faramir": [
+        "eowyn"
+      ],
+      "faramir-i": [
+        "croccadoro-gamgi"
+      ],
+      "finduilas": [
+        "denethor-ii"
+      ],
       "firiel": [
         "arvedui"
+      ],
+      "fosco-baggins": [
+        "ruby-bolgeri"
       ],
       "galadriel": [
         "celeborn"
       ],
+      "gerontius-tuc": [
+        "adamanta-paffuti"
+      ],
       "gilraen": [
         "arathorn-ii"
+      ],
+      "gorbadoc-brandibuck": [
+        "mirabella-tuc"
+      ],
+      "gormadoc-brandibuck": [
+        "malva-testaforte"
+      ],
+      "griffo-boffin": [
+        "daisy-baggins"
+      ],
+      "gundebaldo-bolgeri": [
+        "salvia-brandibuck"
+      ],
+      "hamfast-gamgi": [
+        "bell-buonabimba"
+      ],
+      "hilda-serracinta": [
+        "seredic-brandibuck"
+      ],
+      "hildigrim-tuc": [
+        "rosa-baggins"
+      ],
+      "largo-baggins": [
+        "tanta-sfacciatonda"
+      ],
+      "lily-baggins": [
+        "togo-boscoscuro"
+      ],
+      "lobelia-serracinta": [
+        "oto-sackville-baggins"
+      ],
+      "longo-baggins": [
+        "camelia-sackville"
       ],
       "lothiriel": [
         "eomer"
       ],
+      "madoc-brandibuck": [
+        "anna-goldworthy"
+      ],
+      "malva-testaforte": [
+        "gormadoc-brandibuck"
+      ],
+      "marmadoc-brandibuck": [
+        "adaldrida-bolgeri"
+      ],
+      "menegilda-gula": [
+        "rorimac-brandibuck"
+      ],
+      "mimosa-bunce": [
+        "ponto-baggins"
+      ],
+      "mirabella-tuc": [
+        "gorbadoc-brandibuck"
+      ],
       "morwen": [
         "thengel"
+      ],
+      "odovacar-bolgeri": [
+        "rosamunda-tuc"
+      ],
+      "oto-sackville-baggins": [
+        "lobelia-serracinta"
+      ],
+      "paladino-ii": [
+        "eglantina-banks"
+      ],
+      "peregrino-tuc": [
+        "diamante-di-lungo-squarcio"
+      ],
+      "ponto-baggins": [
+        "mimosa-bunce"
+      ],
+      "primula-brandibuck": [
+        "drogo-baggins"
+      ],
+      "rorimac-brandibuck": [
+        "menegilda-gula"
+      ],
+      "rosa-baggins": [
+        "hildigrim-tuc"
+      ],
+      "rosamunda-tuc": [
+        "odovacar-bolgeri"
+      ],
+      "rosie-cotton": [
+        "samvise-gamgi"
+      ],
+      "ruby-bolgeri": [
+        "fosco-baggins"
+      ],
+      "rufo-rintanati": [
+        "asfodelia-brandibuck"
+      ],
+      "salvia-brandibuck": [
+        "gundebaldo-bolgeri"
+      ],
+      "samvise-gamgi": [
+        "rosie-cotton"
+      ],
+      "saradoc-brandibuck": [
+        "esmeralda-tuc"
+      ],
+      "seredic-brandibuck": [
+        "hilda-serracinta"
+      ],
+      "tanta-sfacciatonda": [
+        "largo-baggins"
       ],
       "thengel": [
         "morwen"
@@ -4203,11 +8346,25 @@
       ],
       "theodwyn": [
         "eomund"
+      ],
+      "togo-boscoscuro": [
+        "lily-baggins"
+      ],
+      "ugo-boffin": [
+        "donnamira-tuc"
       ]
     },
     "fratelli": {
       "aldor": [
         "baldor"
+      ],
+      "amaranth-brandibuck": [
+        "asfodelia-brandibuck",
+        "dinodas-brandibuck",
+        "dodinas-brandibuck",
+        "primula-brandibuck",
+        "rorimac-brandibuck",
+        "saradas-brandibuck"
       ],
       "anarion": [
         "isildur"
@@ -4216,24 +8373,174 @@
         "elladan",
         "elrohir"
       ],
+      "asfodelia-brandibuck": [
+        "amaranth-brandibuck",
+        "dinodas-brandibuck",
+        "dodinas-brandibuck",
+        "primula-brandibuck",
+        "rorimac-brandibuck",
+        "saradas-brandibuck"
+      ],
       "baldor": [
         "aldor"
       ],
       "balin": [
         "dwalin"
       ],
+      "belba-baggins": [
+        "bingo-baggins",
+        "bungo-baggins",
+        "linda-baggins",
+        "longo-baggins"
+      ],
+      "belladonna-tuc": [
+        "donnamira-tuc",
+        "hildibrando-tuc",
+        "hildifonso-tuc",
+        "hildigardo-tuc",
+        "hildigrim-tuc",
+        "isembardo-tuc",
+        "isemboldo-tuc",
+        "isengar-tuc",
+        "isengrim-iii",
+        "isumbras-iv",
+        "mirabella-tuc"
+      ],
+      "bilbo-gamgi": [
+        "croccadoro-gamgi",
+        "daisy-gamgi",
+        "elanor",
+        "frodo-giardiniere",
+        "hamfast-gamgi-ii",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "primarosa-gamgi",
+        "robin-gamgi",
+        "rosa-gamgi",
+        "ruby-gamgi",
+        "tolman-gamgi"
+      ],
+      "bingo-baggins": [
+        "belba-baggins",
+        "bungo-baggins",
+        "linda-baggins",
+        "longo-baggins"
+      ],
       "borin": [
         "dain-i"
       ],
+      "boromir": [
+        "faramir"
+      ],
+      "brandobras-tuc": [
+        "ferumbras-ii"
+      ],
+      "bungo-baggins": [
+        "belba-baggins",
+        "bingo-baggins",
+        "linda-baggins",
+        "longo-baggins"
+      ],
+      "celandine-brandibuck": [
+        "doderic-brandibuck",
+        "ilberic-brandibuck"
+      ],
+      "croccadoro-gamgi": [
+        "bilbo-gamgi",
+        "daisy-gamgi",
+        "elanor",
+        "frodo-giardiniere",
+        "hamfast-gamgi-ii",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "primarosa-gamgi",
+        "robin-gamgi",
+        "rosa-gamgi",
+        "ruby-gamgi",
+        "tolman-gamgi"
+      ],
       "dain-i": [
         "borin"
+      ],
+      "daisy-gamgi": [
+        "bilbo-gamgi",
+        "croccadoro-gamgi",
+        "elanor",
+        "frodo-giardiniere",
+        "hamfast-gamgi-ii",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "primarosa-gamgi",
+        "robin-gamgi",
+        "rosa-gamgi",
+        "ruby-gamgi",
+        "tolman-gamgi"
+      ],
+      "dinodas-brandibuck": [
+        "amaranth-brandibuck",
+        "asfodelia-brandibuck",
+        "dodinas-brandibuck",
+        "primula-brandibuck",
+        "rorimac-brandibuck",
+        "saradas-brandibuck"
       ],
       "dis": [
         "frerin",
         "thorin-scudodiquercia"
       ],
+      "doderic-brandibuck": [
+        "celandine-brandibuck",
+        "ilberic-brandibuck"
+      ],
+      "dodinas-brandibuck": [
+        "amaranth-brandibuck",
+        "asfodelia-brandibuck",
+        "dinodas-brandibuck",
+        "primula-brandibuck",
+        "rorimac-brandibuck",
+        "saradas-brandibuck"
+      ],
+      "donnamira-tuc": [
+        "belladonna-tuc",
+        "hildibrando-tuc",
+        "hildifonso-tuc",
+        "hildigardo-tuc",
+        "hildigrim-tuc",
+        "isembardo-tuc",
+        "isemboldo-tuc",
+        "isengar-tuc",
+        "isengrim-iii",
+        "isumbras-iv",
+        "mirabella-tuc"
+      ],
+      "dora-baggins": [
+        "drogo-baggins",
+        "dudo-baggins"
+      ],
+      "drogo-baggins": [
+        "dora-baggins",
+        "dudo-baggins"
+      ],
+      "dudo-baggins": [
+        "dora-baggins",
+        "drogo-baggins"
+      ],
       "dwalin": [
         "balin"
+      ],
+      "elanor": [
+        "bilbo-gamgi",
+        "croccadoro-gamgi",
+        "daisy-gamgi",
+        "frodo-giardiniere",
+        "hamfast-gamgi-ii",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "primarosa-gamgi",
+        "robin-gamgi",
+        "rosa-gamgi",
+        "ruby-gamgi",
+        "tolman-gamgi"
       ],
       "elladan": [
         "arwen",
@@ -4249,6 +8556,15 @@
       "eowyn": [
         "eomer"
       ],
+      "esmeralda-tuc": [
+        "paladino-ii"
+      ],
+      "everardo-tuc": [
+        "reginardo-tuc"
+      ],
+      "faramir": [
+        "boromir"
+      ],
       "fastred": [
         "fengel",
         "folcred"
@@ -4257,8 +8573,25 @@
         "fastred",
         "folcred"
       ],
+      "ferdinando-tuc": [
+        "rosamunda-tuc"
+      ],
+      "ferumbras-ii": [
+        "brandobras-tuc"
+      ],
+      "ferumbras-iii": [
+        "perla-tuc",
+        "pervinca-tuc",
+        "pimpernel-tuc"
+      ],
       "fili": [
         "kili"
+      ],
+      "finduilas": [
+        "imrahil"
+      ],
+      "flambardo-tuc": [
+        "sigismondo-tuc"
       ],
       "folcred": [
         "fastred",
@@ -4267,6 +8600,20 @@
       "frerin": [
         "dis",
         "thorin-scudodiquercia"
+      ],
+      "frodo-giardiniere": [
+        "bilbo-gamgi",
+        "croccadoro-gamgi",
+        "daisy-gamgi",
+        "elanor",
+        "hamfast-gamgi-ii",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "primarosa-gamgi",
+        "robin-gamgi",
+        "rosa-gamgi",
+        "ruby-gamgi",
+        "tolman-gamgi"
       ],
       "fror": [
         "gror",
@@ -4291,20 +8638,356 @@
       "hama-figlio-di-helm": [
         "haleth"
       ],
+      "hamfast-gamgi-ii": [
+        "bilbo-gamgi",
+        "croccadoro-gamgi",
+        "daisy-gamgi",
+        "elanor",
+        "frodo-giardiniere",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "primarosa-gamgi",
+        "robin-gamgi",
+        "rosa-gamgi",
+        "ruby-gamgi",
+        "tolman-gamgi"
+      ],
       "helm": [
         "hild"
       ],
       "hild": [
         "helm"
       ],
+      "hildibrando-tuc": [
+        "belladonna-tuc",
+        "donnamira-tuc",
+        "hildifonso-tuc",
+        "hildigardo-tuc",
+        "hildigrim-tuc",
+        "isembardo-tuc",
+        "isemboldo-tuc",
+        "isengar-tuc",
+        "isengrim-iii",
+        "isumbras-iv",
+        "mirabella-tuc"
+      ],
+      "hildifonso-tuc": [
+        "belladonna-tuc",
+        "donnamira-tuc",
+        "hildibrando-tuc",
+        "hildigardo-tuc",
+        "hildigrim-tuc",
+        "isembardo-tuc",
+        "isemboldo-tuc",
+        "isengar-tuc",
+        "isengrim-iii",
+        "isumbras-iv",
+        "mirabella-tuc"
+      ],
+      "hildigardo-tuc": [
+        "belladonna-tuc",
+        "donnamira-tuc",
+        "hildibrando-tuc",
+        "hildifonso-tuc",
+        "hildigrim-tuc",
+        "isembardo-tuc",
+        "isemboldo-tuc",
+        "isengar-tuc",
+        "isengrim-iii",
+        "isumbras-iv",
+        "mirabella-tuc"
+      ],
+      "hildigrim-tuc": [
+        "belladonna-tuc",
+        "donnamira-tuc",
+        "hildibrando-tuc",
+        "hildifonso-tuc",
+        "hildigardo-tuc",
+        "isembardo-tuc",
+        "isemboldo-tuc",
+        "isengar-tuc",
+        "isengrim-iii",
+        "isumbras-iv",
+        "mirabella-tuc"
+      ],
+      "ilberic-brandibuck": [
+        "celandine-brandibuck",
+        "doderic-brandibuck"
+      ],
+      "imrahil": [
+        "finduilas"
+      ],
+      "isembardo-tuc": [
+        "belladonna-tuc",
+        "donnamira-tuc",
+        "hildibrando-tuc",
+        "hildifonso-tuc",
+        "hildigardo-tuc",
+        "hildigrim-tuc",
+        "isemboldo-tuc",
+        "isengar-tuc",
+        "isengrim-iii",
+        "isumbras-iv",
+        "mirabella-tuc"
+      ],
+      "isemboldo-tuc": [
+        "belladonna-tuc",
+        "donnamira-tuc",
+        "hildibrando-tuc",
+        "hildifonso-tuc",
+        "hildigardo-tuc",
+        "hildigrim-tuc",
+        "isembardo-tuc",
+        "isengar-tuc",
+        "isengrim-iii",
+        "isumbras-iv",
+        "mirabella-tuc"
+      ],
+      "isengar-tuc": [
+        "belladonna-tuc",
+        "donnamira-tuc",
+        "hildibrando-tuc",
+        "hildifonso-tuc",
+        "hildigardo-tuc",
+        "hildigrim-tuc",
+        "isembardo-tuc",
+        "isemboldo-tuc",
+        "isengrim-iii",
+        "isumbras-iv",
+        "mirabella-tuc"
+      ],
+      "isengrim-iii": [
+        "belladonna-tuc",
+        "donnamira-tuc",
+        "hildibrando-tuc",
+        "hildifonso-tuc",
+        "hildigardo-tuc",
+        "hildigrim-tuc",
+        "isembardo-tuc",
+        "isemboldo-tuc",
+        "isengar-tuc",
+        "isumbras-iv",
+        "mirabella-tuc"
+      ],
       "isildur": [
         "anarion"
+      ],
+      "isumbras-iv": [
+        "belladonna-tuc",
+        "donnamira-tuc",
+        "hildibrando-tuc",
+        "hildifonso-tuc",
+        "hildigardo-tuc",
+        "hildigrim-tuc",
+        "isembardo-tuc",
+        "isemboldo-tuc",
+        "isengar-tuc",
+        "isengrim-iii",
+        "mirabella-tuc"
       ],
       "kili": [
         "fili"
       ],
+      "largo-baggins": [
+        "lily-baggins",
+        "mungo-baggins",
+        "ponto-baggins"
+      ],
+      "lily-baggins": [
+        "largo-baggins",
+        "mungo-baggins",
+        "ponto-baggins"
+      ],
+      "linda-baggins": [
+        "belba-baggins",
+        "bingo-baggins",
+        "bungo-baggins",
+        "longo-baggins"
+      ],
+      "longo-baggins": [
+        "belba-baggins",
+        "bingo-baggins",
+        "bungo-baggins",
+        "linda-baggins"
+      ],
+      "madoc-brandibuck": [
+        "marroc-brandibuck",
+        "sadoc-brandibuck"
+      ],
+      "marroc-brandibuck": [
+        "madoc-brandibuck",
+        "sadoc-brandibuck"
+      ],
+      "merimac-brandibuck": [
+        "saradoc-brandibuck"
+      ],
+      "merry-gamgi": [
+        "bilbo-gamgi",
+        "croccadoro-gamgi",
+        "daisy-gamgi",
+        "elanor",
+        "frodo-giardiniere",
+        "hamfast-gamgi-ii",
+        "pipino-gamgi",
+        "primarosa-gamgi",
+        "robin-gamgi",
+        "rosa-gamgi",
+        "ruby-gamgi",
+        "tolman-gamgi"
+      ],
+      "mirabella-tuc": [
+        "belladonna-tuc",
+        "donnamira-tuc",
+        "hildibrando-tuc",
+        "hildifonso-tuc",
+        "hildigardo-tuc",
+        "hildigrim-tuc",
+        "isembardo-tuc",
+        "isemboldo-tuc",
+        "isengar-tuc",
+        "isengrim-iii",
+        "isumbras-iv"
+      ],
+      "mungo-baggins": [
+        "largo-baggins",
+        "lily-baggins",
+        "ponto-baggins"
+      ],
       "oin": [
         "gloin"
+      ],
+      "paladino-ii": [
+        "esmeralda-tuc"
+      ],
+      "perla-tuc": [
+        "ferumbras-iii",
+        "pervinca-tuc",
+        "pimpernel-tuc"
+      ],
+      "pervinca-tuc": [
+        "ferumbras-iii",
+        "perla-tuc",
+        "pimpernel-tuc"
+      ],
+      "pimpernel-tuc": [
+        "ferumbras-iii",
+        "perla-tuc",
+        "pervinca-tuc"
+      ],
+      "pipino-gamgi": [
+        "bilbo-gamgi",
+        "croccadoro-gamgi",
+        "daisy-gamgi",
+        "elanor",
+        "frodo-giardiniere",
+        "hamfast-gamgi-ii",
+        "merry-gamgi",
+        "primarosa-gamgi",
+        "robin-gamgi",
+        "rosa-gamgi",
+        "ruby-gamgi",
+        "tolman-gamgi"
+      ],
+      "ponto-baggins": [
+        "largo-baggins",
+        "lily-baggins",
+        "mungo-baggins"
+      ],
+      "primarosa-gamgi": [
+        "bilbo-gamgi",
+        "croccadoro-gamgi",
+        "daisy-gamgi",
+        "elanor",
+        "frodo-giardiniere",
+        "hamfast-gamgi-ii",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "robin-gamgi",
+        "rosa-gamgi",
+        "ruby-gamgi",
+        "tolman-gamgi"
+      ],
+      "primula-brandibuck": [
+        "amaranth-brandibuck",
+        "asfodelia-brandibuck",
+        "dinodas-brandibuck",
+        "dodinas-brandibuck",
+        "rorimac-brandibuck",
+        "saradas-brandibuck"
+      ],
+      "reginardo-tuc": [
+        "everardo-tuc"
+      ],
+      "robin-gamgi": [
+        "bilbo-gamgi",
+        "croccadoro-gamgi",
+        "daisy-gamgi",
+        "elanor",
+        "frodo-giardiniere",
+        "hamfast-gamgi-ii",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "primarosa-gamgi",
+        "rosa-gamgi",
+        "ruby-gamgi",
+        "tolman-gamgi"
+      ],
+      "rorimac-brandibuck": [
+        "amaranth-brandibuck",
+        "asfodelia-brandibuck",
+        "dinodas-brandibuck",
+        "dodinas-brandibuck",
+        "primula-brandibuck",
+        "saradas-brandibuck"
+      ],
+      "rosa-gamgi": [
+        "bilbo-gamgi",
+        "croccadoro-gamgi",
+        "daisy-gamgi",
+        "elanor",
+        "frodo-giardiniere",
+        "hamfast-gamgi-ii",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "primarosa-gamgi",
+        "robin-gamgi",
+        "ruby-gamgi",
+        "tolman-gamgi"
+      ],
+      "rosamunda-tuc": [
+        "ferdinando-tuc"
+      ],
+      "ruby-gamgi": [
+        "bilbo-gamgi",
+        "croccadoro-gamgi",
+        "daisy-gamgi",
+        "elanor",
+        "frodo-giardiniere",
+        "hamfast-gamgi-ii",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "primarosa-gamgi",
+        "robin-gamgi",
+        "rosa-gamgi",
+        "tolman-gamgi"
+      ],
+      "sadoc-brandibuck": [
+        "madoc-brandibuck",
+        "marroc-brandibuck"
+      ],
+      "saradas-brandibuck": [
+        "amaranth-brandibuck",
+        "asfodelia-brandibuck",
+        "dinodas-brandibuck",
+        "dodinas-brandibuck",
+        "primula-brandibuck",
+        "rorimac-brandibuck"
+      ],
+      "saradoc-brandibuck": [
+        "merimac-brandibuck"
+      ],
+      "sigismondo-tuc": [
+        "flambardo-tuc"
       ],
       "theoden": [
         "theodwyn"
@@ -4319,10 +9002,154 @@
       "thror": [
         "fror",
         "gror"
+      ],
+      "tolman-gamgi": [
+        "bilbo-gamgi",
+        "croccadoro-gamgi",
+        "daisy-gamgi",
+        "elanor",
+        "frodo-giardiniere",
+        "hamfast-gamgi-ii",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "primarosa-gamgi",
+        "robin-gamgi",
+        "rosa-gamgi",
+        "ruby-gamgi"
       ]
     }
   },
   "componenti": [
+    {
+      "membri": [
+        "gorhendad-brandibuck",
+        "isengrim-ii",
+        "isumbras-iii",
+        "ferumbras-ii",
+        "gormadoc-brandibuck",
+        "fortinbras-i",
+        "balbo-baggins",
+        "madoc-brandibuck",
+        "sadoc-brandibuck",
+        "gerontius-tuc",
+        "mungo-baggins",
+        "ponto-baggins",
+        "marmadoc-brandibuck",
+        "largo-baggins",
+        "lily-baggins",
+        "salvia-brandibuck",
+        "isengrim-iii",
+        "isumbras-iv",
+        "hildigrim-tuc",
+        "isemboldo-tuc",
+        "hildifonso-tuc",
+        "bungo-baggins",
+        "isembardo-tuc",
+        "hildibrando-tuc",
+        "belladonna-tuc",
+        "belba-baggins",
+        "donnamira-tuc",
+        "rosa-baggins",
+        "gorbadoc-brandibuck",
+        "longo-baggins",
+        "mirabella-tuc",
+        "isengar-tuc",
+        "linda-baggins",
+        "bingo-baggins",
+        "fosco-baggins",
+        "fortinbras-ii",
+        "adalgrim-tuc",
+        "flambardo-tuc",
+        "bilbo-baggins",
+        "sigismondo-tuc",
+        "dora-baggins",
+        "rorimac-brandibuck",
+        "amaranth-brandibuck",
+        "saradas-brandibuck",
+        "drogo-baggins",
+        "oto-sackville-baggins",
+        "dudo-baggins",
+        "asfodelia-brandibuck",
+        "ferumbras-iii",
+        "primula-brandibuck",
+        "hamfast-gamgi",
+        "adelardo-tuc",
+        "paladino-ii",
+        "esmeralda-tuc",
+        "rosamunda-tuc",
+        "ferdinando-tuc",
+        "merimac-brandibuck",
+        "milo-rintanati",
+        "seredic-brandibuck",
+        "daisy-baggins",
+        "everardo-tuc",
+        "ferdibrando-tuc",
+        "frodo-baggins",
+        "reginardo-tuc",
+        "perla-tuc",
+        "pimpernel-tuc",
+        "berilac-brandibuck",
+        "fredegaro-bolgeri",
+        "samvise-gamgi",
+        "meriadoc-brandibuck",
+        "rosie-cotton",
+        "pervinca-tuc",
+        "doderic-brandibuck",
+        "peregrino-tuc",
+        "ilberic-brandibuck",
+        "celandine-brandibuck",
+        "diamante-di-lungo-squarcio",
+        "elanor",
+        "frodo-giardiniere",
+        "rosa-gamgi",
+        "merry-gamgi",
+        "pipino-gamgi",
+        "faramir-i",
+        "croccadoro-gamgi",
+        "hamfast-gamgi-ii",
+        "daisy-gamgi",
+        "primarosa-gamgi",
+        "bilbo-gamgi",
+        "ruby-gamgi",
+        "robin-gamgi",
+        "tolman-gamgi",
+        "adaldrida-bolgeri",
+        "adamanta-paffuti",
+        "anna-goldworthy",
+        "bell-buonabimba",
+        "berylla-boffin",
+        "brandobras-tuc",
+        "camelia-sackville",
+        "dinodas-brandibuck",
+        "dodinas-brandibuck",
+        "eglantina-banks",
+        "griffo-boffin",
+        "gundebaldo-bolgeri",
+        "hilda-serracinta",
+        "hildigardo-tuc",
+        "lobelia-serracinta",
+        "lotho-sackville-baggins",
+        "malva-testaforte",
+        "marroc-brandibuck",
+        "menegilda-gula",
+        "mimosa-bunce",
+        "odovacar-bolgeri",
+        "ruby-bolgeri",
+        "rufo-rintanati",
+        "saradoc-brandibuck",
+        "tanta-sfacciatonda",
+        "togo-boscoscuro",
+        "ugo-boffin"
+      ],
+      "radici": [
+        "balbo-baggins",
+        "bell-buonabimba",
+        "berylla-boffin",
+        "gorhendad-brandibuck",
+        "hamfast-gamgi",
+        "isengrim-ii"
+      ]
+    },
     {
       "membri": [
         "aldor",
@@ -4337,29 +9164,65 @@
         "folcred",
         "fengel",
         "theoden",
+        "finduilas",
         "theodwyn",
+        "boromir",
         "theodred",
+        "faramir",
         "eomer",
         "eowyn",
+        "adrahil",
         "baldor",
+        "barahir",
+        "belecthor-i",
+        "belecthor-ii",
+        "belegorn",
+        "beregond-i",
+        "beren",
+        "boromir-i",
         "brego",
+        "cirion",
+        "denethor-i",
+        "denethor-ii",
+        "dior",
+        "ecthelion-i",
+        "ecthelion-ii",
+        "egalmoth",
         "elfhild",
         "elfwine",
         "eorl-il-giovane",
+        "eradan",
         "folcwine",
         "frealaf",
+        "hador",
         "haleth",
+        "hallas",
         "helm",
+        "herion",
         "hild",
         "hama-figlio-di-helm",
+        "hurin-i",
+        "hurin-ii",
+        "hurin-di-emyn-arnen",
+        "imrahil",
         "lothiriel",
         "leod",
+        "mardil",
         "morwen",
+        "orodreth",
+        "pelendur",
         "thengel",
+        "thorondir",
+        "turgon",
+        "turin-i",
+        "turin-ii",
+        "vorondil",
         "walda",
         "eomund"
       ],
       "radici": [
+        "adrahil",
+        "hurin-di-emyn-arnen",
         "leod"
       ]
     },
@@ -4464,11 +9327,11 @@
     }
   ],
   "copertura": {
-    "persone_totali": 189,
-    "persone_collegate": 116,
-    "relazioni": 125,
-    "genitore": 116,
-    "coniuge": 9,
-    "componenti": 3
+    "persone_totali": 320,
+    "persone_collegate": 268,
+    "relazioni": 280,
+    "genitore": 241,
+    "coniuge": 39,
+    "componenti": 4
   }
 }

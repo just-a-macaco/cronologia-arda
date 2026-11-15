@@ -65,6 +65,13 @@ Nota sulle due edizioni: per i nomi condivisi vale il **Signore degli Anelli** B
 - **Amlaith** — varianti: Amlalth. La tavola dell'Appendice A scrive «Amlalth» (una sola occorrenza); è un refuso, e il sito usa «Amlaith».
 - **Arvegil** — varianti: Argevil. La tavola dell'Appendice A scrive «Argevil», il testo narrativo della stessa Appendice scrive «Arvegil»: il sito segue il testo narrativo.
 - **Eldacar di Arnor** e **Tarondor di Arnor** — omonimie reali: esistono un Eldacar e un Tarondor anche a Gondor. Il re del Nord porta «di Arnor», quello del Sud tiene il nome semplice.
+- **Húrin** e **Túrin** — varianti: Hùrin, Tùrin. L'epub scrive l'accento grave in tutte le occorrenze; il sito usa l'accento acuto, come le edizioni correnti: «Húrin di Emyn Arnen», «Húrin I», «Húrin II», «Túrin I», «Túrin II».
+- **Eradan** — varianti: Elladan. La tavola dell'Appendice A dell'epub scrive «Elladan» per il Sovrintendente Reggente; è il nome del figlio di Elrond e un refuso, e il sito usa «Eradan».
+- **Boromir I** e **Beregond I** — omonimie: il Sovrintendente Boromir (†2489) e il Sovrintendente Beregond (†2811) portano il numero del sito per non confonderli con Boromir figlio di Denethor II e con Beregond della Guardia di Minas Tirith.
+- **Paladino II** e **Faramir I** — numerazione dell'Appendice C, tenuta dal sito: sono i Tuc di Pippin, non il Sovrintendente Faramir.
+- **Hamfast Gamgi II** — numerazione del sito: nella tavola dell'Appendice C il figlio di Samvise si chiama «Hamfast» come il nonno, il Gaffiere.
+- **Cognomi hobbit** — le forme sono quelle Bompiani: Boffin, Bolgeri, Boscoscuro (Goodbody), Brusciacorpo, Buonabimba (Goodchild), Paffuti (Chubb), Rintanati (Burrows), Serracinta (Bracegirdle), Sfacciatonda (Hornblower), Testaforte (Headstrong), Transpiede (Proudfoot), Vecchiobecco (Oldbuck). I discendenti di Samvise portano «Giardiniere» o «Gamgi», come nella tavola.
+- **Rosie Cotton** — varianti: Rosa. Il racconto la chiama Rosie, la tavola dell'Appendice C «Rosa 1384»: il sito tiene «Rosie Cotton» e registra la variante nella scheda.
 
 ## Istituzioni
 

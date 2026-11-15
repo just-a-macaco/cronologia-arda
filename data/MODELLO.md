@@ -256,15 +256,21 @@ coperti; gli 8 anni restanti sono dentro eventi-intervallo o annotazioni di
 regno. Dei Grandi Anni 3018-3019 sono coperti i passaggi principali; restano le
 giornate minori e alcuni dettagli del 3020-3021.
 
-Le **parentele** hanno tre casate: la Casa di Elrond (pilota), la Casa di
-Isildur (la linea settentrionale da Elendil ad Aragorn II) e la Casa di Eorl
-(i Re del Mark, da Léod a Elfwine il Bello).
-`data/relazioni.yaml` contiene **95 archi** (86 genitore, 9 coniuge) e collega
-**85 persone**. Il build produce `build/alberi.md` (albero leggibile),
+Le **parentele** coprono sei gruppi: la Casa di Elrond (pilota), la Casa di
+Isildur (la linea settentrionale da Elendil ad Aragorn II), la Casa di Eorl
+(i Re del Mark, da Léod a Elfwine il Bello), la Casa di Durin (da Durin I a
+Durin VII), la Casa di Húrin (i Sovrintendenti di Gondor, da Húrin di Emyn
+Arnen a Faramir, con Dol Amroth) e gli Hobbit (Baggins, Tuc, Brandibuck,
+Gamgi, da Gorhendad a Samvise e ai suoi figli).
+`data/relazioni.yaml` contiene **280 archi** (241 genitore, 39 coniuge) e collega
+**268 persone**. Il build produce `build/alberi.md` (albero leggibile),
 `build/rapporto-parentele.md` (controllo) e `build/relazioni.json` (grafo per il
-sito). Mancano Durin, i Sovrintendenti, gli Hobbit e la linea meridionale
-di Anárion; poi le fonti come entità separate, le coordinate dei luoghi e la
-vetrina.
+sito). Mancano la linea meridionale di Anárion e i rami collaterali delle tavole
+hobbit (Boffin, Bolgeri, Cotton, Rintanati); poi le fonti come entità separate,
+le coordinate dei luoghi e la vetrina.
+
+Le date delle tavole hobbit sono nel Calendario della Contea: il build le riceve
+già convertite nella Terza Era (anno della Contea + 1600).
 
 ### Una nota sui nomi doppi
 

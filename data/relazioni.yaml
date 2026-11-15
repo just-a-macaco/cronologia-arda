@@ -1145,3 +1145,1410 @@
     - opera: Il Signore degli Anelli
       riferimento: "Appendice A, Il popolo di Durin"
   nota: null
+
+
+# Casa di Húrin: i Sovrintendenti di Gondor, da Húrin di Emyn Arnen a Faramir.
+# Fonte principale: Appendice A, «I Regni in Esilio» (I Sovrintendenti).
+# I legami segnati «probabile» si ricavano dalla successione, non da una frase
+# che dice «figlio di»; la prosa dichiara la carica ereditaria da Pelendur in poi.
+
+- da: hurin-di-emyn-arnen
+  a: pelendur
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: pelendur
+  a: vorondil
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: vorondil
+  a: mardil
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: mardil
+  a: eradan
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: eradan
+  a: herion
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: herion
+  a: belegorn
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: belegorn
+  a: hurin-i
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: hurin-i
+  a: turin-i
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: turin-i
+  a: hador
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: hador
+  a: barahir
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: barahir
+  a: dior
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: dior
+  a: denethor-i
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: denethor-i
+  a: boromir-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: boromir-i
+  a: cirion
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: cirion
+  a: hallas
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: hallas
+  a: hurin-ii
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: hurin-ii
+  a: belecthor-i
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: belecthor-i
+  a: orodreth
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: orodreth
+  a: ecthelion-i
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: ecthelion-i
+  a: egalmoth
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: egalmoth
+  a: beren
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: beren
+  a: beregond-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: beregond-i
+  a: belecthor-ii
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: belecthor-ii
+  a: thorondir
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: thorondir
+  a: turin-ii
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: turin-ii
+  a: turgon
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Legame dedotto dalla lista dei Sovrintendenti, non dichiarato parola per parola."
+
+- da: turgon
+  a: ecthelion-ii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: ecthelion-ii
+  a: denethor-ii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: denethor-ii
+  a: boromir
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: denethor-ii
+  a: faramir
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: adrahil
+  a: finduilas
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: adrahil
+  a: imrahil
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Imrahil è detto principe di Dol Amroth; il legame con Adrahil si ricava dalla casa di Dol Amroth."
+
+- da: imrahil
+  a: lothiriel
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: finduilas
+  a: denethor-ii
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: "Le nozze si celebrano nel 2976."
+
+- da: eowyn
+  a: faramir
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: "Le nozze si celebrano a Minas Tirith nel 3019."
+
+
+# Gli Hobbit: le famiglie Baggins, Tuc, Brandibuck e Gamgi.
+# Fonte: Il Signore degli Anelli, Appendice C (alberi genealogici).
+# Le date dell'Appendice C sono nel Calendario della Contea: qui sono
+# riportate nella Terza Era (anno della Contea + 1600).
+
+- da: balbo-baggins
+  a: mungo-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: balbo-baggins
+  a: ponto-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: balbo-baggins
+  a: largo-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: balbo-baggins
+  a: lily-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: mungo-baggins
+  a: bungo-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: mungo-baggins
+  a: belba-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: mungo-baggins
+  a: longo-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: mungo-baggins
+  a: linda-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: mungo-baggins
+  a: bingo-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: bungo-baggins
+  a: bilbo-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: longo-baggins
+  a: oto-sackville-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: oto-sackville-baggins
+  a: lotho-sackville-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: ponto-baggins
+  a: rosa-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: largo-baggins
+  a: fosco-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: fosco-baggins
+  a: dora-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: fosco-baggins
+  a: drogo-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: fosco-baggins
+  a: dudo-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: drogo-baggins
+  a: frodo-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: dudo-baggins
+  a: daisy-baggins
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: isengrim-ii
+  a: isumbras-iii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: isumbras-iii
+  a: ferumbras-ii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: isumbras-iii
+  a: brandobras-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: ferumbras-ii
+  a: fortinbras-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: fortinbras-i
+  a: gerontius-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: isengrim-iii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: hildigardo-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: isumbras-iv
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: isemboldo-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: hildifonso-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: isembardo-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: hildibrando-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: belladonna-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: donnamira-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: mirabella-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: isengar-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: hildigrim-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: hildigrim-tuc
+  a: adalgrim-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: adalgrim-tuc
+  a: paladino-ii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: adalgrim-tuc
+  a: esmeralda-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: isumbras-iv
+  a: fortinbras-ii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: fortinbras-ii
+  a: ferumbras-iii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: fortinbras-ii
+  a: perla-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: fortinbras-ii
+  a: pimpernel-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: fortinbras-ii
+  a: pervinca-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: hildibrando-tuc
+  a: flambardo-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: hildibrando-tuc
+  a: sigismondo-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: flambardo-tuc
+  a: adelardo-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: adelardo-tuc
+  a: reginardo-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: adelardo-tuc
+  a: everardo-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: sigismondo-tuc
+  a: rosamunda-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: sigismondo-tuc
+  a: ferdinando-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: ferdinando-tuc
+  a: ferdibrando-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: paladino-ii
+  a: peregrino-tuc
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: peregrino-tuc
+  a: faramir-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gorhendad-brandibuck
+  a: gormadoc-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gormadoc-brandibuck
+  a: madoc-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gormadoc-brandibuck
+  a: sadoc-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gormadoc-brandibuck
+  a: marroc-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: madoc-brandibuck
+  a: marmadoc-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: marmadoc-brandibuck
+  a: gorbadoc-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gorbadoc-brandibuck
+  a: rorimac-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gorbadoc-brandibuck
+  a: amaranth-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gorbadoc-brandibuck
+  a: saradas-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gorbadoc-brandibuck
+  a: dodinas-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gorbadoc-brandibuck
+  a: asfodelia-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gorbadoc-brandibuck
+  a: dinodas-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gorbadoc-brandibuck
+  a: primula-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: rorimac-brandibuck
+  a: saradoc-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: rorimac-brandibuck
+  a: merimac-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: merimac-brandibuck
+  a: berilac-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: saradas-brandibuck
+  a: seredic-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: seredic-brandibuck
+  a: doderic-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: seredic-brandibuck
+  a: ilberic-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: seredic-brandibuck
+  a: celandine-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: asfodelia-brandibuck
+  a: milo-rintanati
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: sadoc-brandibuck
+  a: salvia-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: saradoc-brandibuck
+  a: meriadoc-brandibuck
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: hamfast-gamgi
+  a: samvise-gamgi
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: elanor
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: frodo-giardiniere
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: rosa-gamgi
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: merry-gamgi
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: pipino-gamgi
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: croccadoro-gamgi
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: hamfast-gamgi-ii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: daisy-gamgi
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: primarosa-gamgi
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: bilbo-gamgi
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: ruby-gamgi
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: robin-gamgi
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: tolman-gamgi
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: balbo-baggins
+  a: berylla-boffin
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: bungo-baggins
+  a: belladonna-tuc
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: longo-baggins
+  a: camelia-sackville
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: oto-sackville-baggins
+  a: lobelia-serracinta
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: ponto-baggins
+  a: mimosa-bunce
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: largo-baggins
+  a: tanta-sfacciatonda
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: fosco-baggins
+  a: ruby-bolgeri
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: drogo-baggins
+  a: primula-brandibuck
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: daisy-baggins
+  a: griffo-boffin
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: lily-baggins
+  a: togo-boscoscuro
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gerontius-tuc
+  a: adamanta-paffuti
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: paladino-ii
+  a: eglantina-banks
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: peregrino-tuc
+  a: diamante-di-lungo-squarcio
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: faramir-i
+  a: croccadoro-gamgi
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: rosamunda-tuc
+  a: fredegaro-bolgeri
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: rosamunda-tuc
+  a: odovacar-bolgeri
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: donnamira-tuc
+  a: ugo-boffin
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: mirabella-tuc
+  a: gorbadoc-brandibuck
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: esmeralda-tuc
+  a: saradoc-brandibuck
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: hildigrim-tuc
+  a: rosa-baggins
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: gormadoc-brandibuck
+  a: malva-testaforte
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: madoc-brandibuck
+  a: anna-goldworthy
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: marmadoc-brandibuck
+  a: adaldrida-bolgeri
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: rorimac-brandibuck
+  a: menegilda-gula
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: seredic-brandibuck
+  a: hilda-serracinta
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: asfodelia-brandibuck
+  a: rufo-rintanati
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: salvia-brandibuck
+  a: gundebaldo-bolgeri
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: hamfast-gamgi
+  a: bell-buonabimba
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null
+
+- da: samvise-gamgi
+  a: rosie-cotton
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice C, Alberi genealogici"
+  nota: null

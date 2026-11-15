@@ -9,10 +9,153 @@ Quando una persona è già comparsa sotto un'altra casata, la riga dice
 «(già mostrato sopra)»: il matrimonio unisce due alberi e il testo non
 può ripeterli entrambi. Il grafo completo è in `build/relazioni.json`.
 
-## Gruppo 1 (33 persone)
+## Gruppo 1 (118 persone)
 
-Radici: Léod
+Radici: Gorhendad Vecchiobecco, Isengrim II, Balbo Baggins ⚭ Berylla Boffin, Bell Buonabimba ⚭ Hamfast Gamgi
 
+- Gorhendad Vecchiobecco
+  - Gormadoc «Scavafondo» ⚭ Malva Testaforte
+    - Marroc Brandibuck
+    - Sadoc Brandibuck
+      - Salvia Brandibuck ⚭ Gundebaldo Bolgeri
+    - Madoc «Fierocollo» ⚭ Anna Goldworthy
+      - Marmadoc «l'Imperioso» ⚭ Adaldrida Bolgeri
+        - Gorbadoc «Largacino» ⚭ Mirabella Tuc
+          - Amaranth Brandibuck
+          - Dinodas Brandibuck
+          - Dodinas Brandibuck
+          - Asfodelia Brandibuck ⚭ Rufo Rintanati
+            - Milo Rintanati
+          - Primula Brandibuck ⚭ Drogo Baggins
+            - Frodo Baggins
+          - Rorimac «Balbodorco» ⚭ Menegilda Gulà
+            - Merimac Brandibuck
+              - Berilac Brandibuck
+            - Saradoc Brandibuck ⚭ Esmeralda Tuc
+              - Meriadoc Brandibuck
+          - Saradas Brandibuck
+            - Seredic Brandibuck ⚭ Hilda Serracinta
+              - Doderic Brandibuck
+              - Ilberic Brandibuck
+              - Celandine Brandibuck
+- Isengrim II
+  - Isumbras III
+    - Brandobras Tuc
+    - Ferumbras II
+      - Fortinbras I
+        - Gerontius Tuc ⚭ Adamanta Paffuti
+          - Isengrim III
+          - Isemboldo Tuc
+          - Hildifonso Tuc
+          - Isembardo Tuc
+          - Donnamira Tuc ⚭ Ugo Boffin
+          - Isengar Tuc
+          - Hildigardo Tuc
+          - Belladonna Tuc ⚭ Bungo Baggins
+            - Bilbo Baggins
+          - Isumbras IV
+            - Fortinbras II
+              - Ferumbras III
+              - Perla Tuc
+              - Pimpernel Tuc
+              - Pervinca Tuc
+          - Hildibrando Tuc
+            - Flambardo Tuc
+              - Adelardo Tuc
+                - Everardo Tuc
+                - Reginardo Tuc
+            - Sigismondo Tuc
+              - Rosamunda Tuc ⚭ Odovacar Bolgeri
+                - Fredegaro Bolgeri
+              - Ferdinando Tuc
+                - Ferdibrando Tuc
+          - Mirabella Tuc ⚭ Gorbadoc «Largacino» (già mostrato sopra)
+          - Hildigrim Tuc ⚭ Rosa Baggins
+            - Adalgrim Tuc
+              - Esmeralda Tuc ⚭ Saradoc Brandibuck (già mostrato sopra)
+              - Paladino II ⚭ Eglantina Banks
+                - Peregrino Tuc ⚭ Diamante di Lungo Squarcio
+                  - Faramir I ⚭ Croccadoro Gamgi
+- Balbo Baggins ⚭ Berylla Boffin
+  - Lily Baggins ⚭ Togo Boscoscuro
+  - Mungo Baggins
+    - Belba Baggins
+    - Linda Baggins
+    - Bingo Baggins
+    - Bungo Baggins ⚭ Belladonna Tuc (già mostrato sopra)
+    - Longo Baggins ⚭ Camelia Sackville
+      - Oto Sackville-Baggins ⚭ Lobelia Serracinta
+        - Lotho Sackville-Baggins
+  - Largo Baggins ⚭ Tanta Sfacciatonda
+    - Fosco Baggins ⚭ Ruby Bolgeri
+      - Dora Baggins
+      - Drogo Baggins ⚭ Primula Brandibuck (già mostrato sopra)
+      - Dudo Baggins
+        - Daisy Baggins ⚭ Griffo Boffin
+  - Ponto Baggins ⚭ Mimosa Bunce
+    - Rosa Baggins ⚭ Hildigrim Tuc (già mostrato sopra)
+- Bell Buonabimba ⚭ Hamfast Gamgi
+  - Samvise Gamgi ⚭ Rosie Cotton
+    - Elanor
+    - Frodo Giardiniere
+    - Rosa Gamgi
+    - Merry Gamgi
+    - Pipino Gamgi
+    - Croccadoro Gamgi ⚭ Faramir I (già mostrato sopra)
+    - Hamfast Gamgi II
+    - Daisy Gamgi
+    - Primarosa Gamgi
+    - Bilbo Gamgi
+    - Ruby Gamgi
+    - Robin Gamgi
+    - Tolman Gamgi
+
+## Gruppo 2 (67 persone)
+
+Radici: Adrahil, Húrin di Emyn Arnen, Léod
+
+- Adrahil
+  - Finduilas ⚭ Denethor II
+    - Boromir
+    - Faramir ⚭ Éowyn
+  - Imrahil
+    - Lothíriel ⚭ Éomer
+      - Elfwine il Bello
+- Húrin di Emyn Arnen
+  - Pelendur
+    - Vorondil il Cacciatore
+      - Mardil
+        - Eradan
+          - Herion
+            - Belegorn
+              - Húrin I
+                - Túrin I
+                  - Hador
+                    - Barahir
+                      - Dior
+                        - Denethor I
+
+*↳ continuazione: Denethor I → Boromir I*
+
+- Boromir I
+  - Cirion
+    - Hallas
+      - Húrin II
+        - Belecthor I
+          - Orodreth
+            - Ecthelion I
+              - Egalmoth
+                - Beren
+                  - Beregond I
+                    - Belecthor II
+                      - Thorondir
+                        - Túrin II
+
+*↳ continuazione: Túrin II → Turgon*
+
+- Turgon
+  - Ecthelion II
+    - Denethor II ⚭ Finduilas (già mostrato sopra)
 - Léod
   - Eorl il Giovane
     - Brego
@@ -42,11 +185,10 @@ Radici: Léod
         - Théoden ⚭ Elfhild
           - Théodred
         - Théodwyn ⚭ Éomund
-          - Éowyn
-          - Éomer ⚭ Lothíriel
-            - Elfwine il Bello
+          - Éowyn ⚭ Faramir (già mostrato sopra)
+          - Éomer ⚭ Lothíriel (già mostrato sopra)
 
-## Gruppo 2 (52 persone)
+## Gruppo 3 (52 persone)
 
 Radici: Celeborn ⚭ Galadriel, Elendil
 
@@ -108,7 +250,7 @@ Radici: Celeborn ⚭ Galadriel, Elendil
 - Arathorn II ⚭ Gilraen
   - Aragorn ⚭ Arwen (già mostrato sopra)
 
-## Gruppo 3 (31 persone)
+## Gruppo 4 (31 persone)
 
 Radici: Durin I
 
