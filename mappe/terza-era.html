@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cronologia di Arda · mappa della Terza Era — stadio 4</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f6f7f7;--sea:#dce6e9;--ink:#1a1d21;--mt:#6b7178;--ln:#d7dbde;--ac:#b23a2e}
+*{box-sizing:border-box}
+body{margin:0;background:#f2f3f4;color:var(--ink);
+  font:400 16px/1.6 "Space Grotesk",Helvetica,Arial,sans-serif;padding:20px 14px 40px}
+main{max-width:1150px;margin:0 auto}
+h1{font:500 .82rem/1.35 "Space Grotesk",sans-serif;letter-spacing:.28em;
+  text-transform:uppercase;margin:0 0 4px}
+.sub{color:var(--mt);font-size:.88rem;max-width:70em;margin:0 0 2px}
+svg{display:block;width:100%;height:auto;margin-top:14px;border:1px solid var(--ln);background:var(--paper)}
+svg text{font-family:"Space Grotesk",Helvetica,Arial,sans-serif}
+.land{fill:var(--paper)}
+.sea{fill:var(--sea)}
+.coast{fill:none;stroke:var(--ink);stroke-width:1.3;stroke-linejoin:round;stroke-linecap:round}
+.isle{fill:var(--paper);stroke:var(--ink);stroke-width:1;stroke-linejoin:round}
+.lake{fill:var(--sea);stroke:var(--ink);stroke-width:1;stroke-linejoin:round}
+.forest{fill:#e2e9df}
+.ridge{fill:#ccd5d6;stroke:none;opacity:.5}
+.peak{fill:#3c4a4f;stroke:none;opacity:.42}
+.river{fill:none;stroke:#7f9499;stroke-width:.9;stroke-linecap:round;stroke-linejoin:round}
+.grid line{stroke:var(--ln);stroke-width:1;opacity:.9}
+.reg{fill:var(--mt);opacity:.45;letter-spacing:.34em;text-anchor:middle}
+.wat{fill:#6f8b91;font-style:italic;opacity:.8;letter-spacing:.06em;text-anchor:middle}
+.scalebar text{fill:var(--ink);font-size:11px}
+</style>
+</head>
+<body><main>
+<h1>Mappa della Terza Era · stadio 4 — base, rilievo, fiumi</h1>
+<p class="sub">1 unità = 1 miglio, cornice di 1780 × 1880 miglia. Griglia ogni 200 miglia.
+Mancano i luoghi e le etichette definitive.</p>
+<svg id="m" viewBox="-600 -740 1860 1960" role="img" aria-label="Carta della Terra di Mezzo"></svg>
+<p class="sub" style="margin-top:8px;font-size:.8rem">Costa e acque adattate da mapmiddleearth.com (CC BY-NC 4.0). Rilievo, fiumi, boschi e stile sono nostri.</p>
+</main>
+<script src="terza-era/mare.js"></script>
+<script src="terza-era/dati.js"></script>
+<script>
+const M = window.MAPPA, R = window.MARE, F = M.frame;
+const NS = "http://www.w3.org/2000/svg";
+const svg = document.getElementById('m');
+
+function el(name, attrs, parent){
+  const n = document.createElementNS(NS, name);
+  for (const k in attrs) n.setAttribute(k, attrs[k]);
+  (parent||svg).appendChild(n);
+  return n;
+}
+const pt = p => `${p[0].toFixed(1)} ${p[1].toFixed(1)}`;
+const closed = pts => `M${pt(pts[0])}` + pts.slice(1).map(p => ` L${pt(p)}`).join("") + " Z";
+
+/* Rumore continuo: serve per fiumi e boschi. */
+function rnd(i){ const s = Math.sin(i*12.9898 + 78.233) * 43758.5453; return s - Math.floor(s); }
+function vnoise(t, seed){
+  const i = Math.floor(t), f = t - i;
+  const a = rnd(i + seed), b = rnd(i + 1 + seed);
+  const u = f*f*(3-2*f);
+  return (a + (b-a)*u) * 2 - 1;
+}
+function curve(pts){
+  let d = "";
+  for (let i = 0; i < pts.length - 1; i++){
+    const p0 = pts[Math.max(i-1,0)], p1 = pts[i],
+          p2 = pts[i+1], p3 = pts[Math.min(i+2,pts.length-1)];
+    const c1x = p1[0] + (p2[0]-p0[0])/6, c1y = p1[1] + (p2[1]-p0[1])/6;
+    const c2x = p2[0] - (p3[0]-p1[0])/6, c2y = p2[1] - (p3[1]-p1[1])/6;
+    d += ` C${c1x.toFixed(1)} ${c1y.toFixed(1)} ${c2x.toFixed(1)} ${c2y.toFixed(1)} ${p2[0].toFixed(1)} ${p2[1].toFixed(1)}`;
+  }
+  return d;
+}
+function smooth(pts){
+  const d = [[pts[0][0],pts[0][1]]];
+  for (let i=0;i<pts.length-1;i++){
+    const a=pts[i], b=pts[i+1];
+    for (let t=0.25;t<1;t+=0.25)
+      d.push([a[0]+(b[0]-a[0])*t + (rnd(i*7+t*13)-0.5)*6,
+              a[1]+(b[1]-a[1])*t + (rnd(i*11+t*17)-0.5)*6]);
+    d.push([b[0],b[1]]);
+  }
+  return d;
+}
+
+/* Mare di sfondo */
+el('rect', {x:F.x, y:F.y, width:F.w, height:F.h, class:'sea'});
+
+/* Costa con un po' di dettaglio, poi terra sopra il mare. */
+const coastDetail = (function(pts){
+  const cfg = {amp1:10, wl1:140, amp2:3, wl2:45, step:8};
+  const segs=[]; let total=0;
+  for (let i=0;i<pts.length-1;i++){ const d=Math.hypot(pts[i+1][0]-pts[i][0],pts[i+1][1]-pts[i][1]); segs.push(d); total+=d; }
+  const n=Math.max(2,Math.round(total/cfg.step)), out=[];
+  for (let k=0;k<=n;k++){
+    const dist=total*k/n; let acc=0, idx=0;
+    while (idx<segs.length-1 && acc+segs[idx]<dist){ acc+=segs[idx]; idx++; }
+    const len=segs[idx]||1, f=(dist-acc)/len, p0=pts[idx], p1=pts[idx+1];
+    const x=p0[0]+(p1[0]-p0[0])*f, y=p0[1]+(p1[1]-p0[1])*f;
+    const tx=(p1[0]-p0[0])/len, ty=(p1[1]-p0[1])/len;
+    const o=cfg.amp1*vnoise(dist/cfg.wl1,3.1)+cfg.amp2*vnoise(dist/cfg.wl2,9.7);
+    const fade=Math.min(1,k/4,(n-k)/4);
+    out.push([x-ty*o*fade, y+tx*o*fade]);
+  }
+  return out;
+})(R.coast);
+
+const landD = `M${pt(coastDetail[0])}` + curve(coastDetail)
+  + ` L${F.x+F.w} ${coastDetail[coastDetail.length-1][1]}`
+  + ` L${F.x+F.w} ${F.y} L${F.x} ${F.y} Z`;
+el('path', {d: landD, class:'land'});
+el('path', {d: `M${pt(coastDetail[0])}` + curve(coastDetail), class:'coast'});
+
+/* Boschi */
+M.forests.forEach(f => {
+  el('path', {d: closed(smooth(f.pts.concat([f.pts[0]]))), class:'forest'});
+});
+
+/* Montagne: fascia + file sfalsate di cime. */
+function resample(pts, step){
+  const segs = [];
+  let total = 0;
+  for (let i=0;i<pts.length-1;i++){
+    const d = Math.hypot(pts[i+1][0]-pts[i][0], pts[i+1][1]-pts[i][1]);
+    segs.push(d); total += d;
+  }
+  const out = [];
+  let acc = 0, idx = 0;
+  for (let at = 0; at <= total; at += step){
+    while (idx < segs.length-1 && acc + segs[idx] < at){ acc += segs[idx]; idx++; }
+    const len = segs[idx] || 1, f = (at - acc)/len;
+    const p0 = pts[idx], p1 = pts[idx+1];
+    out.push({ x: p0[0]+(p1[0]-p0[0])*f, y: p0[1]+(p1[1]-p0[1])*f,
+               tx: (p1[0]-p0[0])/len, ty: (p1[1]-p0[1])/len });
+  }
+  return out;
+}
+function rangeBand(range, half){
+  const rs = resample(range.pts, 6);
+  const a = rs.map(p => [p.x - p.ty*half, p.y + p.tx*half]);
+  const b = rs.map(p => [p.x + p.ty*half, p.y - p.tx*half]).reverse();
+  return `M${pt(a[0])}` + a.concat(b).map(p => ` L${pt(p)}`).join("") + " Z";
+}
+function peaks(range){
+  const rs = resample(range.pts, 5);
+  let d = "";
+  rs.forEach((p, i) => {
+    const side = (i % 2 ? -1 : 1);
+    const h = 3.6 + (i % 4) * 0.9;
+    d += `M${(p.x - p.tx*3.6).toFixed(1)} ${(p.y - p.ty*3.6).toFixed(1)}`
+      + ` L${(p.x - p.ty*h*side).toFixed(1)} ${(p.y + p.tx*h*side).toFixed(1)}`
+      + ` L${(p.x + p.tx*3.6).toFixed(1)} ${(p.y + p.ty*3.6).toFixed(1)} Z `;
+  });
+  return d;
+}
+M.ranges.forEach(r => {
+  el('path', {d: rangeBand(r, 5), class:'ridge'});
+  el('path', {d: peaks(r), class:'peak'});
+});
+
+/* Fiumi */
+M.rivers.forEach(r => {
+  el('path', {d: `M${pt(r.pts[0])}` + curve(r.pts), class:'river'});
+});
+
+/* Laghi e isole */
+/* Acque interne e isole nostre */
+const lakes = [
+  { id:"rhun", pts:[[950,150],[975,105],[1015,72],[1065,58],[1120,66],[1160,95],[1175,135],[1168,180],[1140,215],[1095,232],[1045,230],[1000,205],[968,178]] },
+  { id:"nurnen", pts:[[975,915],[995,892],[1030,884],[1065,896],[1080,922],[1070,948],[1035,960],[998,948],[978,932]] }
+];
+lakes.forEach(l => el('path', {d: closed(l.pts), class:'lake'}));
+const islands = [
+  { id:"tolfalas", pts:[[726,900],[742,896],[752,908],[748,924],[734,932],[722,920]] },
+  { id:"himling", pts:[[-392,-250],[-378,-255],[-370,-247],[-378,-236],[-390,-238]] }
+];
+islands.forEach(i => el('path', {d: closed(i.pts), class:'isle'}));
+
+/* Costa: solo i tratti corti (i tratti lunghi sono i tagli del poligono). */
+let coastD = "";
+for (let i = 0; i < R.sea.length - 1; i++){
+  const a = R.sea[i], b = R.sea[i+1];
+  if (Math.hypot(b[0]-a[0], b[1]-a[1]) < 40) coastD += `M${pt(a)} L${pt(b)} `;
+}
+el('path', {d: coastD, class:'coast'});
+
+/* Griglia ogni 200 miglia */
+const g = el('g', {class:'grid'});
+for (let x = Math.ceil(F.x/200)*200; x <= F.x+F.w; x += 200)
+  el('line', {x1:x, y1:F.y, x2:x, y2:F.y+F.h}, g);
+for (let y = Math.ceil(F.y/200)*200; y <= F.y+F.h; y += 200)
+  el('line', {x1:F.x, y1:y, x2:F.x+F.w, y2:y}, g);
+
+/* Nomi delle acque */
+M.waterLabels.forEach(l => {
+  const t = el('text', {x:l.x, y:l.y, class:'wat', 'font-size':l.s, 'text-anchor':'middle'});
+  if (l.r) t.setAttribute('transform', `rotate(${l.r} ${l.x} ${l.y})`);
+  t.textContent = l.t;
+});
+
+/* Nomi provvisori delle regioni */
+M.labels.forEach(l => {
+  const t = el('text', {x:l.x, y:l.y, class:'reg', 'font-size':l.s, 'text-anchor':'middle'});
+  if (l.r) t.setAttribute('transform', `rotate(${l.r} ${l.x} ${l.y})`);
+  t.textContent = l.t;
+});
+
+/* Scala: 200 miglia */
+const sb = el('g', {class:'scalebar'});
+el('rect', {x:F.x+60, y:F.y+F.h-70, width:200, height:3, fill:'var(--ink)'}, sb);
+el('line', {x1:F.x+60, y1:F.y+F.h-82, x2:F.x+60, y2:F.y+F.h-55, stroke:'var(--ink)', 'stroke-width':1.6}, sb);
+el('line', {x1:F.x+260, y1:F.y+F.h-82, x2:F.x+260, y2:F.y+F.h-55, stroke:'var(--ink)', 'stroke-width':1.6}, sb);
+const sbt = el('text', {x:F.x+160, y:F.y+F.h-88, 'text-anchor':'middle'}, sb);
+sbt.textContent = "200 miglia";
+</script>
+</body></html>
