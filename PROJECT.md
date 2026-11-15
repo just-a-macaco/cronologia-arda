@@ -114,6 +114,7 @@ Le sezioni precedenti raccontano la storia del progetto. Questa dice dove siamo 
 - **Parentele**: modello ad archi in `data/relazioni.yaml`, validato dal build (ID, generi, duplicati, cicli, doppio padre/madre, ordine delle nascite). Completati il pilota Casa di Elrond (11 relazioni), la Casa di Isildur (57 relazioni, 52 persone collegate, un unico gruppo familiare da Elendil ad Aragorn II) e la Casa di Eorl (38 relazioni, da Léod a Elfwine; 12 legami segnati «probabile» perché ricavati dalla lista dei re).
 - **Vetrina**: `schede.html` resta una bozza non pubblicata, da riprendere dopo il completamento del database.
 - **Repository ripulito (novembre 2026)**: cancellati `prototipi/cerchio-a-inchiostro.html` e `prototipi/cerchio-con-mappa.html`, ormai superati dal sito vero, insieme alla bozza non tracciata `bozze/prova-warp.html`. Il codice da guardare è `index.html` con `js/`.
+- **Regole di lavoro aggiornate (novembre 2026)**: in `AGENTS.md` chiarito che si usano prima gli strumenti di lettura e ricerca e solo dopo la shell (un comando mirato invece di molti piccoli), e aggiunta la regola «una sessione = un lavoro»: sessione nuova a lavoro chiuso, stop dopo due compattazioni, modello fisso per sessione.
 
 ### Prossimi passi (in ordine)
 

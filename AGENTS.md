@@ -18,14 +18,21 @@ Valgono per ogni sessione. Il progetto è in questa cartella.
 
 ## Regole di lettura (il contesto è di 200.000 token: si esaurisce in fretta)
 
-- Massimo 40 righe di output per comando. Oltre, filtrare o salvare su file e riportare solo il riepilogo.
+- Prima lo strumento giusto, poi la shell. Per leggere un file: strumento di lettura con
+  `offset`/`limit`. Per cercare: `grep`. La shell serve per lanciare script, non per
+  leggere o cercare.
+- Un comando solo e mirato, non cinque comandi piccoli. Se un output supera le 40 righe,
+  filtrare (`grep`, `-m`, `head`) o salvare su file e riportare solo il riepilogo.
 - Mai `cat` di file interi. Mai leggere per intero file oltre ~20 KB, e mai
   `fonti/**`, `build/**`, `js/data.js`, `fonti/estrazione/mme/*` (l'SVG è 1,8 MB),
   `.epub`, `.sqlite`, immagini.
 - Cercare in questo ordine: `rg -l "testo"` (quali file) → `rg -c` (quante volte) →
-  `rg -n -m 10` (massimo 10 righe). Solo dopo leggere il pezzo che serve con
-  `sed -n 'inizio,finep'` o con `read` e `offset`/`limit`.
+  `rg -n -m 10` (massimo 10 righe). Solo dopo leggere il pezzo che serve con `read` e
+  `offset`/`limit`.
+- Non rileggere un file già letto nella stessa sessione: se il dato serve ancora, usa
+  quello che hai già visto o rileggi solo poche righe intorno.
 - Non scaricare pagine web intere: se serve un dato da una pagina, estrarre solo quella parte.
+- Non incollare testi lunghi in chat: basta il nome del file e la sezione da guardare.
 - Per i JSON grandi usare `jq` su un singolo campo, non aprire il file.
 - Non incollare output lunghi nei messaggi: riassumere.
 
@@ -52,3 +59,12 @@ Valgono per ogni sessione. Il progetto è in questa cartella.
   perdere lavoro. Chiedere conferma solo se il push pubblicherebbe qualcosa di protetto
   (testi o mappe delle fonti) o se `fonti/` comparisse tra i file da caricare.
 - Se il push fallisce (rete, chiave SSH), dirlo subito e lasciare il commit fatto in locale.
+
+## Una sessione = un lavoro
+
+- Una sessione per un lavoro, non una sessione per tutta la giornata. Quando il lavoro è
+  chiuso (commit e push fatti), dirlo chiaramente e aprire una sessione nuova.
+- Se la sessione si compatta due volte, fermarsi subito: aggiornare la sezione 10 di
+  `PROJECT.md` con lo stato raggiunto e ripartire in una sessione nuova leggendo solo
+  quella sezione.
+- Non cambiare modello a metà sessione: obbliga a rileggere tutto da capo.
