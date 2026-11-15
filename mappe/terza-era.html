@@ -6,7 +6,7 @@
 <title>Cronologia di Arda · mappa della Terza Era — stadio 4</title>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
-:root{--paper:#f6f7f7;--sea:#dce6e9;--ink:#1a1d21;--mt:#6b7178;--ln:#d7dbde;--ac:#b23a2e}
+:root{--paper:#f8f7f2;--sea:#cbdfe5;--ink:#1a1d21;--mt:#6b7178;--ln:#d7dbde;--ac:#b23a2e}
 *{box-sizing:border-box}
 body{margin:0;background:#f2f3f4;color:var(--ink);
   font:400 16px/1.6 "Space Grotesk",Helvetica,Arial,sans-serif;padding:20px 14px 40px}
@@ -18,28 +18,32 @@ svg{display:block;width:100%;height:auto;margin-top:14px;border:1px solid var(--
 svg text{font-family:"Space Grotesk",Helvetica,Arial,sans-serif}
 .land{fill:var(--paper)}
 .sea{fill:var(--sea)}
-.coast{fill:none;stroke:var(--ink);stroke-width:1.3;stroke-linejoin:round;stroke-linecap:round}
+.coast{fill:none;stroke:var(--ink);stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
 .isle{fill:var(--paper);stroke:var(--ink);stroke-width:1;stroke-linejoin:round}
 .lake{fill:var(--sea);stroke:var(--ink);stroke-width:1;stroke-linejoin:round}
 .forest{fill:#e2e9df}
 .ridge{fill:#ccd5d6;stroke:none;opacity:.5}
 .peak{fill:#3c4a4f;stroke:none;opacity:.42}
-.river{fill:none;stroke:#7f9499;stroke-width:.9;stroke-linecap:round;stroke-linejoin:round}
+.river{fill:none;stroke:#6d868b;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round}
 .grid line{stroke:var(--ln);stroke-width:1;opacity:.9}
 .reg{fill:var(--mt);opacity:.45;letter-spacing:.34em;text-anchor:middle}
-.wat{fill:#6f8b91;font-style:italic;opacity:.8;letter-spacing:.06em;text-anchor:middle}
+.wat{fill:#4f6e75;font-style:italic;opacity:.8;letter-spacing:.06em;text-anchor:middle}
+.shelf{fill:none;stroke:#b6cdd4;stroke-width:9;stroke-linecap:round;opacity:.55}
+.place circle{fill:var(--ac);stroke:#fff;stroke-width:.6}
+.place text{fill:var(--ink);font-size:11px;letter-spacing:.01em}
 .scalebar text{fill:var(--ink);font-size:11px}
 </style>
 </head>
 <body><main>
-<h1>Mappa della Terza Era · stadio 4 — base, rilievo, fiumi</h1>
+<h1>Mappa della Terza Era · stadio 5 — base, rilievo, luoghi</h1>
 <p class="sub">1 unità = 1 miglio, cornice di 1780 × 1880 miglia. Griglia ogni 200 miglia.
-Mancano i luoghi e le etichette definitive.</p>
+Nomi provvisori, presi dai luoghi degli eventi.</p>
 <svg id="m" viewBox="-600 -740 1860 1960" role="img" aria-label="Carta della Terra di Mezzo"></svg>
 <p class="sub" style="margin-top:8px;font-size:.8rem">Costa e acque adattate da mapmiddleearth.com (CC BY-NC 4.0). Rilievo, fiumi, boschi e stile sono nostri.</p>
 </main>
 <script src="terza-era/mare.js"></script>
 <script src="terza-era/dati.js"></script>
+<script src="terza-era/luoghi.js"></script>
 <script>
 const M = window.MAPPA, R = window.MARE, F = M.frame;
 const NS = "http://www.w3.org/2000/svg";
@@ -111,6 +115,7 @@ const landD = `M${pt(coastDetail[0])}` + curve(coastDetail)
   + ` L${F.x+F.w} ${coastDetail[coastDetail.length-1][1]}`
   + ` L${F.x+F.w} ${F.y} L${F.x} ${F.y} Z`;
 el('path', {d: landD, class:'land'});
+el('path', {d: `M${pt(coastDetail[0])}` + curve(coastDetail), class:'shelf'});
 el('path', {d: `M${pt(coastDetail[0])}` + curve(coastDetail), class:'coast'});
 
 /* Boschi */
@@ -178,13 +183,33 @@ const islands = [
 ];
 islands.forEach(i => el('path', {d: closed(i.pts), class:'isle'}));
 
-/* Costa: solo i tratti corti (i tratti lunghi sono i tagli del poligono). */
-let coastD = "";
-for (let i = 0; i < R.sea.length - 1; i++){
-  const a = R.sea[i], b = R.sea[i+1];
-  if (Math.hypot(b[0]-a[0], b[1]-a[1]) < 40) coastD += `M${pt(a)} L${pt(b)} `;
-}
-el('path', {d: coastD, class:'coast'});
+/* Luoghi: punto + nome, con controllo delle sovrapposizioni */
+(function(){
+  const LU = window.LUOGHI || [];
+  const big = new Set(["Hobbiville","Brea","Gran Burrone","Moria","Lothlórien","Isengard",
+    "Edoras","Minas Tirith","Osgiliath","Barad-dûr","Erebor","Pontelagolungo","Dol Guldur",
+    "Umbar","Pelargir","Dol Amroth","Tharbad","Fornost","Annúminas","Angmar","Valle",
+    "Monte Fato","Il Cancello Nero","Caras Galadhon","Fosso di Helm","Monte Gundabad"]);
+  const items = LU.slice().sort((a,b) => (big.has(b.n)?1:0)-(big.has(a.n)?1:0));
+  const boxes = [];
+  const hit = (x,y,w,h) => boxes.some(b => x < b[2] && x+w > b[0] && y < b[3] && y+h > b[1]);
+  items.forEach(p => {
+    el('circle', {cx:p.x, cy:p.y, r:2.4, class:'place-dot'}).setAttribute('class','');
+    const w = p.n.length * 8.2, h = 20;
+    const tries = [[10,-6,'start'],[ -10,-6,'end'],[0,-12,'middle'],[0,22,'middle']];
+    for (const [dx,dy,anchor] of tries){
+      const x = anchor === 'start' ? p.x+dx : anchor === 'end' ? p.x+dx-w : p.x-w/2;
+      const y = p.y+dy-h/2;
+      if (!hit(x,y,w,h)){
+        boxes.push([x,y,x+w,y+h]);
+        const t = el('text', {x: p.x+dx, y: p.y+dy+4, 'text-anchor': anchor}, null);
+        t.setAttribute('class','place-name');
+        t.textContent = p.n;
+        break;
+      }
+    }
+  });
+})();
 
 /* Griglia ogni 200 miglia */
 const g = el('g', {class:'grid'});
