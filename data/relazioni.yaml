@@ -872,3 +872,276 @@
     - opera: Il Signore degli Anelli
       riferimento: "Appendice A, La casa di Eorl"
   nota: "La madre non è nominata accanto al figlio: si ricava dal matrimonio con Éomer."
+
+# Casa di Durin.
+# Fonte: Il Signore degli Anelli, Appendice A, «Il popolo di Durin».
+
+- da: durin-i
+  a: durin-vi
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: "Il diagramma della linea dei re passa da Durin I a Durin VI senza nominare i cinque re intermedi."
+
+- da: durin-vi
+  a: nain-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: nain-i
+  a: thrain-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: thrain-i
+  a: thorin-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: thorin-i
+  a: gloin-re
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: gloin-re
+  a: oin-re
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: oin-re
+  a: nain-ii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: nain-ii
+  a: dain-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: nain-ii
+  a: borin
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: dain-i
+  a: thror
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: dain-i
+  a: fror
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: dain-i
+  a: gror
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: thror
+  a: thrain-ii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: thrain-ii
+  a: thorin-scudodiquercia
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: thrain-ii
+  a: frerin
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: thrain-ii
+  a: dis
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: dis
+  a: fili
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: dis
+  a: kili
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: gror
+  a: nain-gror
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: nain-gror
+  a: dain-piediferro
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: dain-piediferro
+  a: thorin-iii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: thorin-iii
+  a: durin-vii
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: "Il diagramma pone Durin VII in linea diretta dopo Thorin III, senza nominare altri discendenti."
+
+- da: borin
+  a: farin
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: farin
+  a: fundin
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: farin
+  a: groin
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: fundin
+  a: balin
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: fundin
+  a: dwalin
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: groin
+  a: oin
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: groin
+  a: gloin
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null
+
+- da: gloin
+  a: gimli
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Il popolo di Durin"
+  nota: null

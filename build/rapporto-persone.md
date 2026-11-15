@@ -1,6 +1,6 @@
 # Rapporto sulle persone
 
-- Schede create: **171**.
+- Schede create: **189**.
 - Nomi di partecipante citati dagli eventi: **170** distinti.
 - Nomi coperti da una scheda persona: **119**.
 - Nomi coperti da un'entità collettiva: **51**.
@@ -20,7 +20,7 @@
 | `gollum` | Gollum | personaggio | Sturoi | — | 17 |
 | `elrond` | Elrond | personaggio | Mezzelfo | m | 15 |
 | `galadriel` | Galadriel | personaggio | Elfo | f | 8 |
-| `thorin-scudodiquercia` | Thorin Scudodiquercia | personaggio | Nano | — | 4 |
+| `thorin-scudodiquercia` | Thorin Scudodiquercia | personaggio | Nano | m | 4 |
 | `theoden` | Théoden | personaggio | Uomo | m | 10 |
 | `eowyn` | Éowyn | personaggio | Uomo | f | 3 |
 | `eomer` | Éomer | personaggio | Uomo | m | 8 |
@@ -28,7 +28,7 @@
 | `faramir` | Faramir | personaggio | Uomo | — | 5 |
 | `meriadoc-brandibuck` | Meriadoc Brandibuck | personaggio | Hobbit | — | 7 |
 | `peregrino-tuc` | Peregrino Tuc | personaggio | Hobbit | — | 8 |
-| `gimli` | Gimli | personaggio | Nano | — | 3 |
+| `gimli` | Gimli | personaggio | Nano | m | 3 |
 | `legolas` | Legolas | personaggio | Elfo | — | 3 |
 | `amroth` | Amroth | personaggio | Elfo | — | 1 |
 | `arvedui` | Arvedui | personaggio | Uomo | m | 4 |
@@ -41,9 +41,9 @@
 | `cirion` | Cirion | personaggio | Uomo | — | 2 |
 | `cirdan` | Círdan | personaggio | Elfo | — | 3 |
 | `denethor-ii` | Denethor II | personaggio | Uomo | — | 8 |
-| `durin-vi` | Durin VI | personaggio | Nano | — | 1 |
-| `dain-i` | Dàin I | personaggio | Nano | — | 1 |
-| `dain-piediferro` | Dàin Piediferro | personaggio | Nano | — | 3 |
+| `durin-vi` | Durin VI | personaggio | Nano | m | 1 |
+| `dain-i` | Dàin I | personaggio | Nano | m | 1 |
+| `dain-piediferro` | Dàin Piediferro | personaggio | Nano | m | 3 |
 | `deagol` | Déagol | personaggio | Sturoi | — | 1 |
 | `eldacar` | Eldacar | personaggio | Uomo | — | 3 |
 | `elendil` | Elendil | personaggio | Uomo | m | 1 |
@@ -54,16 +54,16 @@
 | `frealaf` | Fréalàf | personaggio | Uomo | m | 1 |
 | `gil-galad` | Gil-galad | personaggio | Elfo | — | 1 |
 | `glorfindel` | Glorfindel | personaggio | Elfo | — | 2 |
-| `gror` | Grór | personaggio | Nano | — | 1 |
+| `gror` | Grór | personaggio | Nano | m | 1 |
 | `helm` | Helm | personaggio | Uomo | m | 1 |
 | `hyarmendacil` | Hyarmendacil | personaggio | Uomo | — | 1 |
 | `imrahil` | Imrahil | personaggio | Uomo | — | 2 |
 | `isildur` | Isildur | personaggio | Uomo | m | 2 |
 | `mardil` | Mardil | personaggio | Uomo | — | 1 |
 | `meneldil` | Meneldil | personaggio | Uomo | m | 1 |
-| `nain-i` | Nain I | personaggio | Nano | — | 1 |
+| `nain-i` | Nain I | personaggio | Nano | m | 1 |
 | `narmacil-ii` | Narmacil II | personaggio | Uomo | — | 1 |
-| `nar` | Nár | personaggio | Nano | — | 1 |
+| `nar` | Nár | personaggio | Nano | m | 1 |
 | `ohtar` | Ohtar | personaggio | Uomo | — | 1 |
 | `ondoher` | Ondoher | personaggio | Uomo | — | 1 |
 | `ornendil` | Ornendil | personaggio | Uomo | — | 2 |
@@ -72,9 +72,9 @@
 | `tarondor` | Tarondor | personaggio | Uomo | — | 1 |
 | `telemnar` | Telemnar | personaggio | Uomo | — | 1 |
 | `thranduil` | Thranduil | personaggio | Elfo | — | 4 |
-| `thrain-i` | Thràin I | personaggio | Nano | — | 1 |
-| `thrain-ii` | Thràin II | personaggio | Nano | — | 3 |
-| `thror` | Thrór | personaggio | Nano | — | 3 |
+| `thrain-i` | Thràin I | personaggio | Nano | m | 1 |
+| `thrain-ii` | Thràin II | personaggio | Nano | m | 3 |
+| `thror` | Thrór | personaggio | Nano | m | 3 |
 | `tobaldo` | Tobaldo | personaggio | Hobbit | — | 1 |
 | `valacar` | Valacar | personaggio | Uomo | — | 1 |
 | `wulf` | Wulf | personaggio | Uomo | — | 1 |
@@ -100,7 +100,7 @@
 | `frumgar` | Frumgar | personaggio | Uomo | — | 1 |
 | `bucca-della-palude` | Bucca della Palude | personaggio | Hobbit | — | 1 |
 | `firiel` | Firiel | personaggio | Uomo | f | 1 |
-| `thorin-i` | Thorin I | personaggio | Nano | — | 1 |
+| `thorin-i` | Thorin I | personaggio | Nano | m | 1 |
 | `isumbras-i` | Isumbras I | personaggio | Hobbit | — | 1 |
 | `brego` | Brego | personaggio | Uomo | m | 1 |
 | `baldor` | Baldor | personaggio | Uomo | m | 1 |
@@ -116,7 +116,7 @@
 | `gerontius-tuc` | Gerontius Tuc | personaggio | Hobbit | — | 1 |
 | `ecthelion-ii` | Ecthelion II | personaggio | Uomo | — | 3 |
 | `thengel` | Thengel | personaggio | Uomo | m | 2 |
-| `balin` | Balin | personaggio | Nano | — | 3 |
+| `balin` | Balin | personaggio | Nano | m | 3 |
 | `finduilas` | Finduilas | personaggio | Uomo | — | 5 |
 | `adrahil` | Adrahil | personaggio | Uomo | — | 1 |
 | `bain` | Bain | personaggio | Uomo | — | 1 |
@@ -125,7 +125,7 @@
 | `tom-bombadil` | Tom Bombadil | personaggio | Uomo | — | 1 |
 | `theodred` | Théodred | personaggio | Uomo | m | 1 |
 | `bard-ii` | Bard II | personaggio | Uomo | — | 1 |
-| `thorin-iii` | Thorin III Elminpietra | personaggio | Nano | — | 1 |
+| `thorin-iii` | Thorin III Elminpietra | personaggio | Nano | m | 1 |
 | `celeborn` | Celeborn | personaggio | Elfo | m | 2 |
 | `elanor` | Elanor | personaggio | Hobbit | — | 1 |
 | `rosie-cotton` | Rosie Cotton | personaggio | Hobbit | — | 2 |
@@ -181,6 +181,24 @@
 | `eomund` | Éomund | personaggio | Uomo | m | 0 |
 | `lothiriel` | Lothíriel | personaggio | Uomo | f | 0 |
 | `elfwine` | Elfwine il Bello | personaggio | Uomo | m | 0 |
+| `durin-i` | Durin I | personaggio | Nano | m | 0 |
+| `gloin-re` | Glóin I | personaggio | Nano | m | 0 |
+| `oin-re` | Óin I | personaggio | Nano | m | 0 |
+| `nain-ii` | Nain II | personaggio | Nano | m | 0 |
+| `borin` | Borin | personaggio | Nano | m | 0 |
+| `farin` | Farin | personaggio | Nano | m | 0 |
+| `fundin` | Fundin | personaggio | Nano | m | 0 |
+| `groin` | Gróin | personaggio | Nano | m | 0 |
+| `oin` | Óin | personaggio | Nano | m | 0 |
+| `gloin` | Glóin | personaggio | Nano | m | 0 |
+| `dwalin` | Dwalin | personaggio | Nano | m | 0 |
+| `fror` | Frór | personaggio | Nano | m | 0 |
+| `nain-gror` | Nain figlio di Grór | personaggio | Nano | m | 0 |
+| `frerin` | Frerin | personaggio | Nano | m | 0 |
+| `dis` | Dís | personaggio | Nano | f | 0 |
+| `fili` | Fili | personaggio | Nano | m | 0 |
+| `kili` | Kili | personaggio | Nano | m | 0 |
+| `durin-vii` | Durin VII | personaggio | Nano | m | 0 |
 
 ## Nomi di partecipante non ancora coperti
 

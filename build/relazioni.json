@@ -103,12 +103,12 @@
     {
       "id": "thorin-scudodiquercia",
       "nome": "Thorin Scudodiquercia",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": 2746,
       "morte": 2941,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "theoden",
@@ -183,12 +183,12 @@
     {
       "id": "gimli",
       "nome": "Gimli",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": 2879,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "legolas",
@@ -313,32 +313,32 @@
     {
       "id": "durin-vi",
       "nome": "Durin VI",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "dain-i",
       "nome": "Dàin I",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "dain-piediferro",
       "nome": "Dàin Piediferro",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "deagol",
@@ -443,12 +443,12 @@
     {
       "id": "gror",
       "nome": "Grór",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "helm",
@@ -513,12 +513,12 @@
     {
       "id": "nain-i",
       "nome": "Nain I",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "narmacil-ii",
@@ -533,7 +533,7 @@
     {
       "id": "nar",
       "nome": "Nár",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
@@ -623,32 +623,32 @@
     {
       "id": "thrain-i",
       "nome": "Thràin I",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "thrain-ii",
       "nome": "Thràin II",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "thror",
       "nome": "Thrór",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "tobaldo",
@@ -903,12 +903,12 @@
     {
       "id": "thorin-i",
       "nome": "Thorin I",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "isumbras-i",
@@ -1063,12 +1063,12 @@
     {
       "id": "balin",
       "nome": "Balin",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "finduilas",
@@ -1153,12 +1153,12 @@
     {
       "id": "thorin-iii",
       "nome": "Thorin III Elminpietra",
-      "genere": null,
+      "genere": "m",
       "specie": "Nano",
       "popolo": "Nani",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "celeborn",
@@ -1706,6 +1706,186 @@
       "genere": "m",
       "specie": "Uomo",
       "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "durin-i",
+      "nome": "Durin I",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "gloin-re",
+      "nome": "Glóin I",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "oin-re",
+      "nome": "Óin I",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "nain-ii",
+      "nome": "Nain II",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "borin",
+      "nome": "Borin",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "farin",
+      "nome": "Farin",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "fundin",
+      "nome": "Fundin",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "groin",
+      "nome": "Gróin",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "oin",
+      "nome": "Óin",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "gloin",
+      "nome": "Glóin",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "dwalin",
+      "nome": "Dwalin",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "fror",
+      "nome": "Frór",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "nain-gror",
+      "nome": "Nain figlio di Grór",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "frerin",
+      "nome": "Frerin",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "dis",
+      "nome": "Dís",
+      "genere": "f",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "fili",
+      "nome": "Fili",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "kili",
+      "nome": "Kili",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "durin-vii",
+      "nome": "Durin VII",
+      "genere": "m",
+      "specie": "Nano",
+      "popolo": "Nani",
       "nascita": null,
       "morte": null,
       "collegata": true
@@ -2946,6 +3126,396 @@
         }
       ],
       "nota": "La madre non è nominata accanto al figlio: si ricava dal matrimonio con Éomer."
+    },
+    {
+      "da": "durin-i",
+      "a": "durin-vi",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": "Il diagramma della linea dei re passa da Durin I a Durin VI senza nominare i cinque re intermedi."
+    },
+    {
+      "da": "durin-vi",
+      "a": "nain-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "nain-i",
+      "a": "thrain-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "thrain-i",
+      "a": "thorin-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "thorin-i",
+      "a": "gloin-re",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gloin-re",
+      "a": "oin-re",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "oin-re",
+      "a": "nain-ii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "nain-ii",
+      "a": "dain-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "nain-ii",
+      "a": "borin",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "dain-i",
+      "a": "thror",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "dain-i",
+      "a": "fror",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "dain-i",
+      "a": "gror",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "thror",
+      "a": "thrain-ii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "thrain-ii",
+      "a": "thorin-scudodiquercia",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "thrain-ii",
+      "a": "frerin",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "thrain-ii",
+      "a": "dis",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "dis",
+      "a": "fili",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "dis",
+      "a": "kili",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gror",
+      "a": "nain-gror",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "nain-gror",
+      "a": "dain-piediferro",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "dain-piediferro",
+      "a": "thorin-iii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "thorin-iii",
+      "a": "durin-vii",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": "Il diagramma pone Durin VII in linea diretta dopo Thorin III, senza nominare altri discendenti."
+    },
+    {
+      "da": "borin",
+      "a": "farin",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "farin",
+      "a": "fundin",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "farin",
+      "a": "groin",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "fundin",
+      "a": "balin",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "fundin",
+      "a": "dwalin",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "groin",
+      "a": "oin",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "groin",
+      "a": "gloin",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "gloin",
+      "a": "gimli",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Il popolo di Durin"
+        }
+      ],
+      "nota": null
     }
   ],
   "derivate": {
@@ -3037,6 +3607,9 @@
       "beleg-di-arthedain": [
         "mallor"
       ],
+      "borin": [
+        "farin"
+      ],
       "brego": [
         "aldor",
         "baldor"
@@ -3058,8 +3631,26 @@
       "celepharn": [
         "celebrindor"
       ],
+      "dain-i": [
+        "fror",
+        "gror",
+        "thror"
+      ],
+      "dain-piediferro": [
+        "thorin-iii"
+      ],
       "deor": [
         "gram"
+      ],
+      "dis": [
+        "fili",
+        "kili"
+      ],
+      "durin-i": [
+        "durin-vi"
+      ],
+      "durin-vi": [
+        "nain-i"
       ],
       "earendur": [
         "amlaith"
@@ -3092,6 +3683,10 @@
       "eorl-il-giovane": [
         "brego"
       ],
+      "farin": [
+        "fundin",
+        "groin"
+      ],
       "fengel": [
         "thengel"
       ],
@@ -3115,11 +3710,21 @@
       "freawine": [
         "goldwine"
       ],
+      "fundin": [
+        "balin",
+        "dwalin"
+      ],
       "galadriel": [
         "celebrian"
       ],
       "gilraen": [
         "aragorn"
+      ],
+      "gloin": [
+        "gimli"
+      ],
+      "gloin-re": [
+        "oin-re"
       ],
       "goldwine": [
         "deor"
@@ -3127,6 +3732,13 @@
       "gram": [
         "helm",
         "hild"
+      ],
+      "groin": [
+        "gloin",
+        "oin"
+      ],
+      "gror": [
+        "nain-gror"
       ],
       "helm": [
         "haleth",
@@ -3154,6 +3766,19 @@
         "theoden",
         "theodwyn"
       ],
+      "nain-gror": [
+        "dain-piediferro"
+      ],
+      "nain-i": [
+        "thrain-i"
+      ],
+      "nain-ii": [
+        "borin",
+        "dain-i"
+      ],
+      "oin-re": [
+        "nain-ii"
+      ],
       "tarcil": [
         "tarondor-di-arnor"
       ],
@@ -3170,6 +3795,23 @@
       "theodwyn": [
         "eomer",
         "eowyn"
+      ],
+      "thorin-i": [
+        "gloin-re"
+      ],
+      "thorin-iii": [
+        "durin-vii"
+      ],
+      "thrain-i": [
+        "thorin-i"
+      ],
+      "thrain-ii": [
+        "dis",
+        "frerin",
+        "thorin-scudodiquercia"
+      ],
+      "thror": [
+        "thrain-ii"
       ],
       "valandil": [
         "eldacar-di-arnor"
@@ -3278,8 +3920,14 @@
       "baldor": [
         "brego"
       ],
+      "balin": [
+        "fundin"
+      ],
       "beleg-di-arthedain": [
         "amlaith"
+      ],
+      "borin": [
+        "nain-ii"
       ],
       "brego": [
         "eorl-il-giovane"
@@ -3297,8 +3945,26 @@
       "celepharn": [
         "mallor"
       ],
+      "dain-i": [
+        "nain-ii"
+      ],
+      "dain-piediferro": [
+        "nain-gror"
+      ],
       "deor": [
         "goldwine"
+      ],
+      "dis": [
+        "thrain-ii"
+      ],
+      "durin-vi": [
+        "durin-i"
+      ],
+      "durin-vii": [
+        "thorin-iii"
+      ],
+      "dwalin": [
+        "fundin"
       ],
       "earendur": [
         "elendur-di-arnor"
@@ -3332,11 +3998,17 @@
         "eomund",
         "theodwyn"
       ],
+      "farin": [
+        "borin"
+      ],
       "fastred": [
         "folcwine"
       ],
       "fengel": [
         "folcwine"
+      ],
+      "fili": [
+        "dis"
       ],
       "folca": [
         "walda"
@@ -3356,11 +4028,35 @@
       "freawine": [
         "frea"
       ],
+      "frerin": [
+        "thrain-ii"
+      ],
+      "fror": [
+        "dain-i"
+      ],
+      "fundin": [
+        "farin"
+      ],
+      "gimli": [
+        "gloin"
+      ],
+      "gloin": [
+        "groin"
+      ],
+      "gloin-re": [
+        "thorin-i"
+      ],
       "goldwine": [
         "freawine"
       ],
       "gram": [
         "deor"
+      ],
+      "groin": [
+        "farin"
+      ],
+      "gror": [
+        "dain-i"
       ],
       "haleth": [
         "helm"
@@ -3377,6 +4073,9 @@
       "isildur": [
         "elendil"
       ],
+      "kili": [
+        "dis"
+      ],
       "mallor": [
         "beleg-di-arthedain"
       ],
@@ -3385,6 +4084,21 @@
       ],
       "meneldil": [
         "anarion"
+      ],
+      "nain-gror": [
+        "gror"
+      ],
+      "nain-i": [
+        "durin-vi"
+      ],
+      "nain-ii": [
+        "oin-re"
+      ],
+      "oin": [
+        "groin"
+      ],
+      "oin-re": [
+        "gloin-re"
       ],
       "tarcil": [
         "arantar"
@@ -3406,6 +4120,24 @@
       "theodwyn": [
         "morwen",
         "thengel"
+      ],
+      "thorin-i": [
+        "thrain-i"
+      ],
+      "thorin-iii": [
+        "dain-piediferro"
+      ],
+      "thorin-scudodiquercia": [
+        "thrain-ii"
+      ],
+      "thrain-i": [
+        "nain-i"
+      ],
+      "thrain-ii": [
+        "thror"
+      ],
+      "thror": [
+        "dain-i"
       ],
       "valandil": [
         "isildur"
@@ -3487,6 +4219,22 @@
       "baldor": [
         "aldor"
       ],
+      "balin": [
+        "dwalin"
+      ],
+      "borin": [
+        "dain-i"
+      ],
+      "dain-i": [
+        "borin"
+      ],
+      "dis": [
+        "frerin",
+        "thorin-scudodiquercia"
+      ],
+      "dwalin": [
+        "balin"
+      ],
       "elladan": [
         "arwen",
         "elrohir"
@@ -3509,9 +4257,33 @@
         "fastred",
         "folcred"
       ],
+      "fili": [
+        "kili"
+      ],
       "folcred": [
         "fastred",
         "fengel"
+      ],
+      "frerin": [
+        "dis",
+        "thorin-scudodiquercia"
+      ],
+      "fror": [
+        "gror",
+        "thror"
+      ],
+      "fundin": [
+        "groin"
+      ],
+      "gloin": [
+        "oin"
+      ],
+      "groin": [
+        "fundin"
+      ],
+      "gror": [
+        "fror",
+        "thror"
       ],
       "haleth": [
         "hama-figlio-di-helm"
@@ -3528,11 +4300,25 @@
       "isildur": [
         "anarion"
       ],
+      "kili": [
+        "fili"
+      ],
+      "oin": [
+        "gloin"
+      ],
       "theoden": [
         "theodwyn"
       ],
       "theodwyn": [
         "theoden"
+      ],
+      "thorin-scudodiquercia": [
+        "dis",
+        "frerin"
+      ],
+      "thror": [
+        "fror",
+        "gror"
       ]
     }
   },
@@ -3637,14 +4423,52 @@
         "elendil",
         "galadriel"
       ]
+    },
+    {
+      "membri": [
+        "thorin-scudodiquercia",
+        "gimli",
+        "balin",
+        "borin",
+        "durin-i",
+        "durin-vi",
+        "durin-vii",
+        "dwalin",
+        "dain-i",
+        "dain-piediferro",
+        "dis",
+        "farin",
+        "fili",
+        "frerin",
+        "fror",
+        "fundin",
+        "gloin",
+        "gloin-re",
+        "groin",
+        "gror",
+        "kili",
+        "nain-i",
+        "nain-ii",
+        "nain-gror",
+        "thorin-i",
+        "thorin-iii",
+        "thrain-i",
+        "thrain-ii",
+        "thror",
+        "oin",
+        "oin-re"
+      ],
+      "radici": [
+        "durin-i"
+      ]
     }
   ],
   "copertura": {
-    "persone_totali": 171,
-    "persone_collegate": 85,
-    "relazioni": 95,
-    "genitore": 86,
+    "persone_totali": 189,
+    "persone_collegate": 116,
+    "relazioni": 125,
+    "genitore": 116,
     "coniuge": 9,
-    "componenti": 2
+    "componenti": 3
   }
 }

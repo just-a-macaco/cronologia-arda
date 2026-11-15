@@ -50,6 +50,11 @@ Nota sulle due edizioni: per i nomi condivisi vale il **Signore degli Anelli** B
 - **Dàin** — varianti: Dáin, Dain. L'epub usa l'accento grave (32 occorrenze): «Dàin Piediferro», «Dàin I».
 - **Thràin** — varianti: Thráin, Thrain. L'epub usa l'accento grave (30 occorrenze): «Thràin I», «Thràin II».
 - **Nain** — varianti: Náin, Nàin. L'epub scrive «Nain» senza accento: «Nain I».
+- **Durin** — «Durin I», «Durin VI», «Durin VII». I cinque re intermedi (Durin II–V) non sono nominati nell'Appendice A e non hanno una scheda.
+- **Glóin** — omonimia: il re della linea di Durin è «Glóin I» (numerazione del sito), il compagno di Thorin e padre di Gimli è «Glóin».
+- **Óin** — omonimia: il re della linea di Durin è «Óin I» (numerazione del sito), il compagno di Thorin è «Óin».
+- **Fili e Kili** — l'Appendice A dell'epub scrive una volta «Flói e Kili» per i figli di Dís: «Flói» è il nome di un altro Nano (caduto nella colonia di Balin) ed è un refuso; il sito usa «Fili» e «Kili», come l'epub di Lo Hobbit.
+- **Dís** — con l'accento acuto, come nell'epub; è l'unica donna dei Nani nominata nelle storie.
 - **Eorl** — varianti: Éorl. L'epub scrive sempre «Eorl», senza accento: «Eorl il Giovane», «Giuramento di Eorl».
 - **Fréalàf** — varianti: Fréaláf, Frealaf. L'epub scrive l'accento grave sulla seconda a in tutte le occorrenze: il sito segue l'epub.
 - **Lothíriel** — varianti: Lothfriel. L'Appendice A dell'epub scrive «Lothfriel» una sola volta: è un refuso, e il sito usa «Lothíriel».

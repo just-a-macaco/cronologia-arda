@@ -107,3 +107,42 @@ Radici: Celeborn ⚭ Galadriel, Elendil
 
 - Arathorn II ⚭ Gilraen
   - Aragorn ⚭ Arwen (già mostrato sopra)
+
+## Gruppo 3 (31 persone)
+
+Radici: Durin I
+
+- Durin I
+  - Durin VI
+    - Nain I
+      - Thràin I
+        - Thorin I
+          - Glóin I
+            - Óin I
+              - Nain II
+                - Borin
+                  - Farin
+                    - Fundin
+                      - Balin
+                      - Dwalin
+                    - Gróin
+                      - Óin
+                      - Glóin
+                        - Gimli
+                - Dàin I
+                  - Frór
+                  - Thrór
+                    - Thràin II
+                      - Thorin Scudodiquercia
+                      - Frerin
+                      - Dís
+                        - Fili
+                        - Kili
+                  - Grór
+                    - Nain figlio di Grór
+                      - Dàin Piediferro
+                        - Thorin III Elminpietra
+
+*↳ continuazione: Thorin III Elminpietra → Durin VII*
+
+- Durin VII

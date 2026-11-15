@@ -1,12 +1,12 @@
 # Rapporto sulle parentele
 
-- Relazioni registrate: **95**.
-  - genitore: **86**.
+- Relazioni registrate: **125**.
+  - genitore: **116**.
   - coniuge: **9**.
-- Persone collegate: **85** su **171**.
-- Gruppi familiari (componenti): **2**.
-- Coppie di fratelli ricavate dai genitori comuni: **12**.
-- Persone con genere dichiarato: **85**.
+- Persone collegate: **116** su **189**.
+- Gruppi familiari (componenti): **3**.
+- Coppie di fratelli ricavate dai genitori comuni: **23**.
+- Persone con genere dichiarato: **117**.
 
 ## Controlli superati
 
@@ -24,6 +24,7 @@
 |---|---|---|
 | 1 | Aldor il Vecchio, Baldor, Brego, Brytta, Déor, Elfhild, Elfwine il Bello, Eorl il Giovane, Fastred, Fengel, Folca, Folcred, Folcwine, Fréa, Fréalàf, Fréawine, Goldwine, Gram, Haleth, Helm, Hild, Háma, Lothíriel, Léod, Morwen, Thengel, Théoden, Théodred, Théodwyn, Walda, Éomer, Éomund, Éowyn | Léod |
 | 2 | Amlaith, Anárion, Arador, Araglas, Aragorn, Aragorn I, Aragost, Arahad I, Arahad II, Arahael, Aranarth, Arantar, Aranuir, Araphant, Araphor, Arassuil, Arathorn I, Arathorn II, Araval, Aravir, Aravorn, Argeleb I, Argeleb II, Argonui, Arvedui, Arvegil, Arveleg I, Arveleg II, Arwen, Beleg, Celeborn, Celebrindor, Celebrían, Celepharn, Eldacar di Arnor, Elendil, Elendur, Elladan, Elrohir, Elrond, Eärendur, Firiel, Galadriel, Gilraen, Isildur, Mallor, Malvegil, Meneldil, Tarcil, Tarondor di Arnor, Valandil, Valandur | Celeborn ⚭ Galadriel; Elendil |
+| 3 | Balin, Borin, Durin I, Durin VI, Durin VII, Dwalin, Dàin I, Dàin Piediferro, Dís, Farin, Fili, Frerin, Frór, Fundin, Gimli, Glóin, Glóin I, Gróin, Grór, Kili, Nain I, Nain II, Nain figlio di Grór, Thorin I, Thorin III Elminpietra, Thorin Scudodiquercia, Thràin I, Thràin II, Thrór, Óin, Óin I | Durin I |
 
 ## Persone collegate
 
@@ -60,14 +61,23 @@
 | Arveleg II | m | Arvegil | — | Araval |
 | Arwen | f | Celebrían, Elrond | Aragorn | — |
 | Baldor | m | Brego | — | — |
+| Balin | m | Fundin | — | — |
 | Beleg | m | Amlaith | — | Mallor |
+| Borin | m | Nain II | — | Farin |
 | Brego | m | Eorl il Giovane | — | Aldor il Vecchio, Baldor |
 | Brytta | m | Fréalàf | — | Walda |
 | Celeborn | m | — | Galadriel | Celebrían |
 | Celebrindor | m | Celepharn | — | Malvegil |
 | Celebrían | f | Celeborn, Galadriel | Elrond | Arwen, Elladan, Elrohir |
 | Celepharn | m | Mallor | — | Celebrindor |
+| Durin I | m | — | — | Durin VI |
+| Durin VI | m | Durin I | — | Nain I |
+| Durin VII | m | Thorin III Elminpietra | — | — |
+| Dwalin | m | Fundin | — | — |
+| Dàin I | m | Nain II | — | Frór, Grór, Thrór |
+| Dàin Piediferro | m | Nain figlio di Grór | — | Thorin III Elminpietra |
 | Déor | m | Goldwine | — | Gram |
+| Dís | f | Thràin II | — | Fili, Kili |
 | Eldacar di Arnor | m | Valandil | — | Arantar |
 | Elendil | m | — | — | Anárion, Isildur |
 | Elendur | m | Valandur | — | Eärendur |
@@ -78,33 +88,53 @@
 | Elrond | m | — | Celebrían | Arwen, Elladan, Elrohir |
 | Eorl il Giovane | m | Léod | — | Brego |
 | Eärendur | m | Elendur | — | Amlaith |
+| Farin | m | Borin | — | Fundin, Gróin |
 | Fastred | m | Folcwine | — | — |
 | Fengel | m | Folcwine | — | Thengel |
+| Fili | m | Dís | — | — |
 | Firiel | f | — | Arvedui | Aranarth |
 | Folca | m | Walda | — | Folcwine |
 | Folcred | m | Folcwine | — | — |
 | Folcwine | m | Folca | — | Fastred, Fengel, Folcred |
+| Frerin | m | Thràin II | — | — |
 | Fréa | m | Aldor il Vecchio | — | Fréawine |
 | Fréalàf | m | Hild | — | Brytta |
 | Fréawine | m | Fréa | — | Goldwine |
+| Frór | m | Dàin I | — | — |
+| Fundin | m | Farin | — | Balin, Dwalin |
 | Galadriel | f | — | Celeborn | Celebrían |
 | Gilraen | f | — | Arathorn II | Aragorn |
+| Gimli | m | Glóin | — | — |
+| Glóin | m | Gróin | — | Gimli |
+| Glóin I | m | Thorin I | — | Óin I |
 | Goldwine | m | Fréawine | — | Déor |
 | Gram | m | Déor | — | Helm, Hild |
+| Gróin | m | Farin | — | Glóin, Óin |
+| Grór | m | Dàin I | — | Nain figlio di Grór |
 | Haleth | m | Helm | — | — |
 | Helm | m | Gram | — | Haleth, Háma |
 | Hild | f | Gram | — | Fréalàf |
 | Háma | m | Helm | — | — |
 | Isildur | m | Elendil | — | Valandil |
+| Kili | m | Dís | — | — |
 | Lothíriel | f | — | Éomer | Elfwine il Bello |
 | Léod | m | — | — | Eorl il Giovane |
 | Mallor | m | Beleg | — | Celepharn |
 | Malvegil | m | Celebrindor | — | Argeleb I |
 | Meneldil | m | Anárion | — | — |
 | Morwen | f | — | Thengel | Théoden, Théodwyn |
+| Nain I | m | Durin VI | — | Thràin I |
+| Nain II | m | Óin I | — | Borin, Dàin I |
+| Nain figlio di Grór | m | Grór | — | Dàin Piediferro |
 | Tarcil | m | Arantar | — | Tarondor di Arnor |
 | Tarondor di Arnor | m | Tarcil | — | Valandur |
 | Thengel | m | Fengel | Morwen | Théoden, Théodwyn |
+| Thorin I | m | Thràin I | — | Glóin I |
+| Thorin III Elminpietra | m | Dàin Piediferro | — | Durin VII |
+| Thorin Scudodiquercia | m | Thràin II | — | — |
+| Thràin I | m | Nain I | — | Thorin I |
+| Thràin II | m | Thrór | — | Dís, Frerin, Thorin Scudodiquercia |
+| Thrór | m | Dàin I | — | Thràin II |
 | Théoden | m | Morwen, Thengel | Elfhild | Théodred |
 | Théodred | m | Elfhild, Théoden | — | — |
 | Théodwyn | f | Morwen, Thengel | Éomund | Éomer, Éowyn |
@@ -114,6 +144,8 @@
 | Éomer | m | Théodwyn, Éomund | Lothíriel | Elfwine il Bello |
 | Éomund | m | — | Théodwyn | Éomer, Éowyn |
 | Éowyn | f | Théodwyn, Éomund | — | — |
+| Óin | m | Gróin | — | — |
+| Óin I | m | Glóin I | — | Nain II |
 
 ## Limiti noti
 
@@ -135,14 +167,12 @@
 
 ## Persone non ancora collegate
 
-Sono **86**. Verranno aggiunte una casata alla volta.
+Sono **73**. Verranno aggiunte una casata alla volta.
 
 <details>
 <summary>Mostra l'elenco</summary>
 
 - Gollum
-- Thorin Scudodiquercia
-- Gimli
 - Bilbo Baggins
 - Finduilas
 - Frodo Baggins
@@ -156,7 +186,6 @@ Sono **86**. Verranno aggiunte una casata alla volta.
 - Aldamir
 - Amroth
 - Bain
-- Balin
 - Barbalbero
 - Bard
 - Bard II
@@ -171,9 +200,6 @@ Sono **86**. Verranno aggiunte una casata alla volta.
 - Ciryandil
 - Círdan
 - Denethor II
-- Durin VI
-- Dàin I
-- Dàin Piediferro
 - Déagol
 - Ecthelion I
 - Ecthelion II
@@ -187,7 +213,6 @@ Sono **86**. Verranno aggiunte una casata alla volta.
 - Gerontius Tuc
 - Gil-galad
 - Glorfindel
-- Grór
 - Hyarmendacil
 - Hyarmendacil II
 - Imrahil
@@ -196,7 +221,6 @@ Sono **86**. Verranno aggiunte una casata alla volta.
 - Legolas
 - Mardil
 - Minardil
-- Nain I
 - Narmacil II
 - Nár
 - Ohtar
@@ -213,12 +237,7 @@ Sono **86**. Verranno aggiunte una casata alla volta.
 - Tarondor
 - Telemnar
 - Telumehtar Umbardacil
-- Thorin I
-- Thorin III Elminpietra
 - Thranduil
-- Thràin I
-- Thràin II
-- Thrór
 - Tobaldo
 - Tom Bombadil
 - Valacar

@@ -110,22 +110,22 @@ Le sezioni precedenti raccontano la storia del progetto. Questa dice dove siamo 
 
 ### Stato attuale
 
-- **Timeline v1 chiusa**: 204 eventi della Terza Era, 100 luoghi, 171 personaggi, 51 entità, 582 partecipanti, 403 citazioni di luogo; 0 schede mancanti.
-- **Parentele**: modello ad archi in `data/relazioni.yaml`, validato dal build (ID, generi, duplicati, cicli, doppio padre/madre, ordine delle nascite). Completati il pilota Casa di Elrond (11 relazioni), la Casa di Isildur (57 relazioni, 52 persone collegate, un unico gruppo familiare da Elendil ad Aragorn II) e la Casa di Eorl (38 relazioni, da Léod a Elfwine; 12 legami segnati «probabile» perché ricavati dalla lista dei re).
+- **Timeline v1 chiusa**: 204 eventi della Terza Era, 100 luoghi, 189 personaggi, 51 entità, 582 partecipanti, 403 citazioni di luogo; 0 schede mancanti.
+- **Parentele**: modello ad archi in `data/relazioni.yaml`, validato dal build (ID, generi, duplicati, cicli, doppio padre/madre, ordine delle nascite). Completati il pilota Casa di Elrond (11 relazioni), la Casa di Isildur (57 relazioni, 52 persone collegate, un unico gruppo familiare da Elendil ad Aragorn II), la Casa di Eorl (38 relazioni, da Léod a Elfwine; 12 legami segnati «probabile» perché ricavati dalla lista dei re) e la Casa di Durin (30 relazioni, 31 persone collegate, da Durin I a Durin VII, con i rami di Balin e Gimli; 2 legami «probabile»).
 - **Vetrina**: `schede.html` resta una bozza non pubblicata, da riprendere dopo il completamento del database.
 - **Repository ripulito (novembre 2026)**: cancellati `prototipi/cerchio-a-inchiostro.html` e `prototipi/cerchio-con-mappa.html`, ormai superati dal sito vero, insieme alla bozza non tracciata `bozze/prova-warp.html`. Il codice da guardare è `index.html` con `js/`.
 - **Regole di lavoro aggiornate (novembre 2026)**: in `AGENTS.md` chiarito che si usano prima gli strumenti di lettura e ricerca e solo dopo la shell (un comando mirato invece di molti piccoli), e aggiunta la regola «una sessione = un lavoro»: sessione nuova a lavoro chiuso, stop dopo due compattazioni, modello fisso per sessione.
 
 ### Prossimi passi (in ordine)
 
-1. Parentele: casata di Durin.
-2. Poi i Sovrintendenti (con il matrimonio di Éowyn e Faramir) e gli Hobbit.
-3. Poi progetto mappa: proiezione, scala, stile, base disegnata da zero.
-4. Poi coordinate dei luoghi, vocabolario controllato di ruoli ed esiti, infine la vetrina.
+1. Parentele: i Sovrintendenti (con il matrimonio di Éowyn e Faramir) e gli Hobbit.
+2. Poi progetto mappa: proiezione, scala, stile, base disegnata da zero.
+3. Poi coordinate dei luoghi, vocabolario controllato di ruoli ed esiti, infine la vetrina.
 
 ### Decisioni da non dimenticare
 
 - **Se l'epub Bompiani 2004 dice X, il sito dice X.** I nomi ufficiali vivono in `glossario.md`.
+- **Omonimie dei Nani**: i re della linea di Durin sono «Glóin I» e «Óin I» (numerazione del sito), i compagni di Thorin restano «Glóin» e «Óin».
 - Mappe disegnate da zero, mai copiate da mappe ufficiali (comprese quelle di Christopher Tolkien).
 - Sito statico, solo frontend, hosting GitHub Pages. Tutto in italiano, sito fan non commerciale.
 - La timeline v1 è chiusa: nuovi eventi solo su richiesta esplicita dell'utente.
