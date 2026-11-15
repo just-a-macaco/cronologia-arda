@@ -47,4 +47,8 @@ Valgono per ogni sessione. Il progetto è in questa cartella.
 - L'utente non è programmatore: ogni passaggio tecnico va spiegato in una riga, a cosa serve.
 - Prima di un lavoro lungo: piano in 5 righe, poi esecuzione.
 - Niente complimenti né adulazione; essere critici quando serve.
-- A fine lavoro, aggiornare la sezione 10 di `PROJECT.md` (stato attuale, prossimi passi).
+- A fine lavoro, sempre: aggiornare la sezione 10 di `PROJECT.md`, poi `git add`, `git commit`
+  e `git push` su GitHub. Non chiedere conferma per il push: l'utente lo vuole sempre, per non
+  perdere lavoro. Chiedere conferma solo se il push pubblicherebbe qualcosa di protetto
+  (testi o mappe delle fonti) o se `fonti/` comparisse tra i file da caricare.
+- Se il push fallisce (rete, chiave SSH), dirlo subito e lasciare il commit fatto in locale.
