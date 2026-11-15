@@ -122,13 +122,13 @@ Le sezioni precedenti raccontano la storia del progetto. Questa dice dove siamo 
 
 1. Mappa: **in attesa della tavola disegnata a mano** (sagoma: costa, isole, laghi). All'arrivo: portarla in miglia, riposizionare i luoghi, sostituire `mare.js`.
 2. Mappa, a seguire: rilievo, fiumi, vegetazione, etichette; prove sul telefono e inserimento nel sito.
-5. Dopo la mappa: vocabolario controllato di ruoli ed esiti, infine la vetrina.
-6. Parentele: restano solo la linea meridionale di Anárion e i rami collaterali hobbit (Boffin, Bolgeri, Cotton, Rintanati), da fare solo se serviranno.
+3. Dopo la mappa: vocabolario controllato di ruoli ed esiti, infine la vetrina.
+4. Parentele: restano solo la linea meridionale di Anárion e i rami collaterali hobbit (Boffin, Bolgeri, Cotton, Rintanati), da fare solo se serviranno.
 
 ### Decisioni da non dimenticare
 
 - **Se l'epub Bompiani 2004 dice X, il sito dice X.** I nomi ufficiali vivono in `glossario.md`.
-- **Costa e luoghi nello stesso spazio**: la deformazione che ha prodotto `luoghi.js` (TPS in `tools/estrai-mappa.py`) è la base comune delle zone. La carta di riferimento è deformata: non esiste una scala unica (errore medio 168 miglia), quindi non si converte con una semplice proporzione.
+- **La mappa la disegna l'utente a mano** (Procreate, `mappe/tavola/README.md`): 2 px = 1 miglio, un livello per tipo di elemento, solo inchiostro, niente nomi. I luoghi si riposizionano sul disegno. La carta di riferimento è deformata: non esiste una scala unica, quindi non si converte con una proporzione.
 - **Omonimie dei Nani**: i re della linea di Durin sono «Glóin I» e «Óin I» (numerazione del sito), i compagni di Thorin restano «Glóin» e «Óin».
 - Mappe disegnate da zero, mai copiate da mappe ufficiali (comprese quelle di Christopher Tolkien).
 - La mappa si ridisegna a mano guardando la carta di mapmiddleearth.com (CC BY-NC 4.0): la carta non si pubblica, il credito resta obbligatorio e il sito non si vende.
