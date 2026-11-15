@@ -101,12 +101,16 @@ della deformazione TPS di `tools/estrai-mappa.py` (la stessa che ha prodotto
 **Trappole nuove:**
 
 - il tratteggio è inchiostro come la costa: il contorno lo segue e non è la costa;
-- il lago Evendim tocca la costa nella maschera: il tratto è dritto e provvisorio;
+- il lago Evendim (Annúminas) è collegato al mare nel disegno: la costa entra
+  nell'insenatura e ne segue la riva. Non va tagliato per traverso — la prima
+  versione lo faceva e la linea attraversava l'acqua;
+- la linea resta 10–15 px (10–15 miglia) dentro il tratteggio, cioè un po'
+  sulla terra: da correggere nella passata di unione delle zone;
 - la costa esce dal bordo sinistro: a ovest di Forlindon va unita alla zona 2;
 - la TPS estrapola male fuori dai punti di controllo (nord): ogni zona va
   controllata contro i luoghi vicini prima di passare avanti.
 
-**Risultato:** 71 punti, ~1141 miglia di costa, in `terza-era/costa/01-forochel.js`,
+**Risultato:** 86 punti, ~1150 miglia di costa, in `terza-era/costa/01-forochel.js`,
 disegnata in rosso tratteggiato in `terza-era.html` sopra quella vecchia.
 Le immagini di confronto restano fuori dal repo: contengono la carta.
 
