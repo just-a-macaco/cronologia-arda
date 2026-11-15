@@ -2,7 +2,7 @@
 
 Sito fan non commerciale su Tolkien (Il Signore degli Anelli, Lo Hobbit, Il Silmarillion e altri scritti). Lingua del sito e dei testi: **italiano**.
 
-Questo file riassume obiettivi, decisioni prese, stato del codice e prossimi passi. Il codice esistente è in `prototipi/`. Leggi prima tutto il file, poi apri `prototipi/cerchio-con-mappa.html`.
+Questo file riassume obiettivi, decisioni prese, stato del codice e prossimi passi. Il sito è `index.html` con il codice in `js/` e i dati in `data/`. Leggi prima tutto il file, poi apri `index.html`.
 
 ## 1. Obiettivo: tre funzioni
 
@@ -15,7 +15,7 @@ Si parte dalla timeline. Le altre due funzioni vanno progettate in modo che cond
 ## 2. Decisioni già prese dall'utente
 
 - **Interfaccia timeline:** cerchio con gli anni e le note intorno, ispirato all'infografica "Timeline of the One Ring" di lotrproject.com (Emil Johansson). Il cerchio è la linea del tempo, la mappa sta **al centro del cerchio**, e dall'evento sull'anello parte una linea fino al luogo sulla mappa.
-- **Variante grafica scelta:** "infografica" (file `cerchio-a-infografica` nella storia del progetto; il prototipo attuale ne deriva). Alternativa non scelta ma non bocciata: "inchiostro", in `prototipi/cerchio-a-inchiostro.html`.
+- **Variante grafica scelta:** "infografica" (file `cerchio-a-infografica` nella storia del progetto; il cerchio attuale ne deriva). Alternativa non scelta ma non bocciata: la variante "inchiostro", non più nel repository.
 - **Titolo:** "Cronologia di Arda". Il titolo precedente "Il cerchio del tempo" è stato bocciato.
 - **Responsive vero, non solo mobile:** su schermo largo il cerchio diventa grande nella colonna di sinistra e a destra stanno titolo, descrizione e pulsanti. Su schermo stretto colonna singola.
 - **Interazione:** niente movimenti automatici legati allo scroll (una versione precedente scattava ed è stata scartata). Selezione con tocco o clic, pulsanti Precedente e Successivo, frecce della tastiera.
@@ -32,7 +32,7 @@ Riferimento: infografica con fondo neutro, un solo carattere sans geometrico, li
 
 **Da evitare, perché l'utente li ha bocciati come "AI slop":** schede tutte uguali, palette pergamena marrone e crema, un solo elemento evidenziato a caso, caratteri calligrafici ornamentali (Almendra bocciato), navigazione che si muove da sola.
 
-## 4. Stato del codice (`prototipi/cerchio-con-mappa.html`)
+## 4. Stato del codice (`index.html` e `js/`)
 
 Pagina HTML singola, JavaScript senza librerie, tutto in SVG. Nessun build.
 
@@ -102,7 +102,7 @@ Vuole risposte dirette, senza convenevoli e senza adulazione. Preferisce che tu 
 - **Decisioni d'impianto (Blocco 0)**: hosting GitHub + Pages, dominio gratuito per ora, una sola pagina in v1 (generatore statico solo se si supereranno 6–8 pagine o servirà la SEO per singolo evento), statico senza build, font da auto-ospitare nel repository, divisione del lavoro: OpenCode scrive codice e bozze di contenuti, l'utente corregge e decide le convenzioni. Il piano completo è in `~/.opencode/plan/piano-cronologia-arda.md` (fuori dal repo).
 - **Tipo evento** (vocabolario attuale, validato dal build): fondazione, battaglia, guerra, distruzione, perdita, tradimento, morte, nascita, viaggio, consiglio, politica, evento. `place`, `people`, `places`, `participants`, `sources` sono ora popolati; `people` è la lista piatta dei nomi usata dal cerchio, `participants` la tabella strutturata con parte, ruolo ed esito.
 - **Piano concordato in 5 fasi**: 0 impianto → 1 dataset Terza Era (45–55 eventi da Appendice B) → 2 mappa Terza Era ad alto dettaglio → 3 funzioni (zoom, ricerca, filtri, mappa a schermo intero; pannello laterale solo, in v1) → 4 apertura altre Ere → 5 alberi genealogici da Appendice A.
-- Problema noto nei prototipi: gli eventi del 3018–3021 si addensano in fondo al cerchio; lo zoom (fase 3) è la soluzione, per ora sono solo distanziati.
+- Problema noto nel cerchio: gli eventi del 3018–3021 si addensano in fondo al cerchio; lo zoom (fase 3) è la soluzione, per ora sono solo distanziati.
 
 ## 10. Punto di ripartenza (da aggiornare a fine sessione)
 
@@ -113,6 +113,7 @@ Le sezioni precedenti raccontano la storia del progetto. Questa dice dove siamo 
 - **Timeline v1 chiusa**: 204 eventi della Terza Era, 100 luoghi, 171 personaggi, 51 entità, 582 partecipanti, 403 citazioni di luogo; 0 schede mancanti.
 - **Parentele**: modello ad archi in `data/relazioni.yaml`, validato dal build (ID, generi, duplicati, cicli, doppio padre/madre, ordine delle nascite). Completati il pilota Casa di Elrond (11 relazioni), la Casa di Isildur (57 relazioni, 52 persone collegate, un unico gruppo familiare da Elendil ad Aragorn II) e la Casa di Eorl (38 relazioni, da Léod a Elfwine; 12 legami segnati «probabile» perché ricavati dalla lista dei re).
 - **Vetrina**: `schede.html` resta una bozza non pubblicata, da riprendere dopo il completamento del database.
+- **Repository ripulito (novembre 2026)**: cancellati `prototipi/cerchio-a-inchiostro.html` e `prototipi/cerchio-con-mappa.html`, ormai superati dal sito vero, insieme alla bozza non tracciata `bozze/prova-warp.html`. Il codice da guardare è `index.html` con `js/`.
 
 ### Prossimi passi (in ordine)
 

@@ -14,7 +14,7 @@ Valgono per ogni sessione. Il progetto è in questa cartella.
   Testi protetti, non pubblicati. **Non leggerli interi.**
 - `js/`, `css/`, `*.html` — il sito. `js/data.js` è generato: non modificarlo a mano.
 - `PROJECT.md` — stato, decisioni, prossimi passi. `glossario.md` — nomi ufficiali.
-- `proposte/`, `prototipi/`, `bozze/` — materiale storico o in attesa: consultare solo se richiesto.
+- `proposte/`, `bozze/` — materiale storico o in attesa: consultare solo se richiesto.
 
 ## Regole di lettura (il contesto è di 200.000 token: si esaurisce in fretta)
 
