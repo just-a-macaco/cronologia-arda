@@ -114,6 +114,18 @@ della deformazione TPS di `tools/estrai-mappa.py` (la stessa che ha prodotto
 disegnata in rosso tratteggiato in `terza-era.html` sopra quella vecchia.
 Le immagini di confronto restano fuori dal repo: contengono la carta.
 
+## Disegno a mano dell'utente (novembre 2026) — lavoro in pausa
+
+La traccia automatica zona per zona è **ferma**: l'utente disegna la sagoma a mano
+in Procreate. Le specifiche della tavola stanno in `mappe/tavola/README.md`
+(3560 × 3760 px, 2 px = 1 miglio, livelli `10-costa`, `11-isole`, `12-laghi`, …).
+La base da importare è `mappe/tavola/base-3560x3760.png` (griglia, cornice,
+106 luoghi provvisori).
+
+Quando arriva: la sagoma sostituisce `mare.js`, poi si riposizionano i luoghi,
+poi rilievo, fiumi, vegetazione, etichette. `costa/01-forochel.js` resta come
+prova, non si usa.
+
 ## Criterio di chiusura della mappa
 
 - Si legge nel cerchio piccolo e a schermo intero sul telefono.
