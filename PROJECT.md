@@ -103,3 +103,34 @@ Vuole risposte dirette, senza convenevoli e senza adulazione. Preferisce che tu 
 - **Tipo evento** (vocabolario attuale, validato dal build): fondazione, battaglia, guerra, distruzione, perdita, tradimento, morte, nascita, viaggio, consiglio, politica, evento. `place`, `people`, `places`, `participants`, `sources` sono ora popolati; `people` è la lista piatta dei nomi usata dal cerchio, `participants` la tabella strutturata con parte, ruolo ed esito.
 - **Piano concordato in 5 fasi**: 0 impianto → 1 dataset Terza Era (45–55 eventi da Appendice B) → 2 mappa Terza Era ad alto dettaglio → 3 funzioni (zoom, ricerca, filtri, mappa a schermo intero; pannello laterale solo, in v1) → 4 apertura altre Ere → 5 alberi genealogici da Appendice A.
 - Problema noto nei prototipi: gli eventi del 3018–3021 si addensano in fondo al cerchio; lo zoom (fase 3) è la soluzione, per ora sono solo distanziati.
+
+## 10. Punto di ripartenza (da aggiornare a fine sessione)
+
+Le sezioni precedenti raccontano la storia del progetto. Questa dice dove siamo **adesso**: è la memoria breve da cui ripartire in una sessione nuova.
+
+### Stato attuale
+
+- **Timeline v1 chiusa**: 204 eventi della Terza Era, 100 luoghi, 150 personaggi, 51 entità, 582 partecipanti, 403 citazioni di luogo; 0 schede mancanti.
+- **Parentele**: modello ad archi in `data/relazioni.yaml`, validato dal build (ID, generi, duplicati, cicli, doppio padre/madre, ordine delle nascite). Completati il pilota Casa di Elrond (11 relazioni) e la Casa di Isildur (57 relazioni, 52 persone collegate, un unico gruppo familiare da Elendil ad Aragorn II).
+- **Vetrina**: `schede.html` resta una bozza non pubblicata, da riprendere dopo il completamento del database.
+
+### Prossimi passi (in ordine)
+
+1. Parentele: casata di Rohan.
+2. Poi Durin, Sovrintendenti, Hobbit.
+3. Poi progetto mappa: proiezione, scala, stile, base disegnata da zero.
+4. Poi coordinate dei luoghi, vocabolario controllato di ruoli ed esiti, infine la vetrina.
+
+### Decisioni da non dimenticare
+
+- **Se l'epub Bompiani 2004 dice X, il sito dice X.** I nomi ufficiali vivono in `glossario.md`.
+- Mappe disegnate da zero, mai copiate da mappe ufficiali (comprese quelle di Christopher Tolkien).
+- Sito statico, solo frontend, hosting GitHub Pages. Tutto in italiano, sito fan non commerciale.
+- La timeline v1 è chiusa: nuovi eventi solo su richiesta esplicita dell'utente.
+- I file in `data/` sono l'unica fonte dei dati; `build/` e `js/data.js` sono generati da `tools/build_data.py`.
+
+### Come si aggiorna questa sezione (per l'utente)
+
+- A fine lavoro cambia solo le righe di **Stato attuale** e **Prossimi passi**.
+- Se prendi una decisione importante, aggiungila alle **Decisioni da non dimenticare**.
+- Non serve riscrivere le altre sezioni: restano come storia del progetto.
