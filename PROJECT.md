@@ -130,6 +130,7 @@ Le sezioni precedenti raccontano la storia del progetto. Questa dice dove siamo 
 ### Decisioni da non dimenticare
 
 - **Se l'epub Bompiani 2004 dice X, il sito dice X.** I nomi ufficiali vivono in `glossario.md`.
+- **Costa e luoghi nello stesso spazio**: la deformazione che ha prodotto `luoghi.js` (TPS in `tools/estrai-mappa.py`) è la base comune delle zone. La carta di riferimento è deformata: non esiste una scala unica (errore medio 168 miglia), quindi non si converte con una semplice proporzione.
 - **Omonimie dei Nani**: i re della linea di Durin sono «Glóin I» e «Óin I» (numerazione del sito), i compagni di Thorin restano «Glóin» e «Óin».
 - Mappe disegnate da zero, mai copiate da mappe ufficiali (comprese quelle di Christopher Tolkien).
 - La mappa si ridisegna a mano guardando la carta di mapmiddleearth.com (CC BY-NC 4.0): la carta non si pubblica, il credito resta obbligatorio e il sito non si vende.
