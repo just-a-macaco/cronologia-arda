@@ -113,25 +113,26 @@ Le sezioni precedenti raccontano la storia del progetto. Questa dice dove siamo 
 
 - **Timeline v1 chiusa**: 204 eventi della Terza Era, 100 luoghi, 320 personaggi, 51 entità, 582 partecipanti, 403 citazioni di luogo; 0 schede mancanti.
 - **Parentele**: modello ad archi in `data/relazioni.yaml`, validato dal build (ID, generi, duplicati, cicli, doppio padre/madre, ordine delle nascite). Sono completi sei gruppi: Casa di Elrond (11 relazioni), Casa di Isildur (46, da Elendil ad Aragorn II), Casa di Eorl (38, da Léod a Elfwine), Casa di Durin (30, da Durin I a Durin VII), Casa di Húrin (35: i Sovrintendenti di Gondor da Húrin di Emyn Arnen a Faramir, con la casa di Dol Amroth e il matrimonio Éowyn ⚭ Faramir) e gli Hobbit (120: Baggins, Tuc, Brandibuck, Gamgi, da Gorhendad a Samvise e ai suoi tredici figli; 117 persone collegate). Totale: **280 archi** (241 genitore, 39 coniuge) e **268 persone collegate** in 4 gruppi familiari. Le date hobbit sono convertite dal Calendario della Contea alla Terza Era; i nomi ambigui sono dichiarati in `glossario.md`.
-- **Mappa (novembre 2026)**: aperto il cantiere della mappa. Regole scritte in `mappe/REGOLE.md` (area dal Lindon al Mare di Rhûn, 1 unità = 1 miglio, stile «Atlante», nessuna strada né confine). Base in `mappe/terza-era.html` con dati in `mappe/terza-era/`: costa e acque adattate dalla carta di mapmiddleearth.com (CC BY-NC 4.0, credito obbligatorio), rilievo, fiumi e boschi nostri. La costa è quella della carta di riferimento; sopra ci sono 14 catene montuose, 8 boschi, 9 fiumi e i 106 nomi dei luoghi degli eventi. Lo stile del rilievo è ancora grezzo e la costa va verificata zona per zona.
+- **Mappa (novembre 2026)**: cantiere aperto, decisione presa: la mappa si **ridisegna a mano** guardando la carta di riferimento (`https://mapmiddleearth.com/crops/en/full.webp`, CC BY-NC 4.0, non pubblicata nel repo). Il banco di prova è `mappe/terza-era.html`; il metodo, le zone da rifare e le trappole sono in `mappe/APPUNTI.md`; le regole fisse in `mappe/REGOLE.md` (area dal Forochel al Rhûn, 1 unità = 1 miglio, stile «Atlante»). La base attuale (278 punti, da `bozze/costa.json`) è troppo semplificata: combacia con sé stessa ma non con la carta vera, e va rifatta. Rilievo, fiumi, boschi e i 106 nomi dei luoghi sono già in `mappe/terza-era/dati.js` e `luoghi.js`.
 - **Vetrina**: `schede.html` resta una bozza non pubblicata, da riprendere dopo il completamento del database.
 - **Repository ripulito (novembre 2026)**: cancellati `prototipi/cerchio-a-inchiostro.html` e `prototipi/cerchio-con-mappa.html`, ormai superati dal sito vero, insieme alla bozza non tracciata `bozze/prova-warp.html`. Il codice da guardare è `index.html` con `js/`.
 - **Regole di lavoro aggiornate (novembre 2026)**: in `AGENTS.md` chiarito che si usano prima gli strumenti di lettura e ricerca e solo dopo la shell (un comando mirato invece di molti piccoli), e aggiunta la regola «una sessione = un lavoro»: sessione nuova a lavoro chiuso, stop dopo due compattazioni, modello fisso per sessione.
 
 ### Prossimi passi (in ordine)
 
-1. Mappa: correggere la costa dove non torna (Golfo di Lune, baia di Belfalas, delta) e rifinire lo stile del rilievo.
-2. Mappa: mettere i 100 luoghi del database al loro posto, con verifica dei lati di fiumi e monti.
-3. Mappa: etichette su due livelli (cerchio e schermo intero), prove sul telefono, poi inserimento nel sito.
-4. Dopo la mappa: vocabolario controllato di ruoli ed esiti, infine la vetrina.
-5. Parentele: restano solo la linea meridionale di Anárion e i rami collaterali hobbit (Boffin, Bolgeri, Cotton, Rintanati), da fare solo se serviranno.
+1. Mappa, prima zona: **Forochel e la costa nord**, ridisegnata a mano dal riferimento (metodo in `mappe/APPUNTI.md`), con zoom di confronto.
+2. Mappa, a seguire: Lindon e Golfo di Lune, poi Minhiriath, Andrast, Belfalas, delta e Tolfalas, Harondor e Umbar, Harad.
+3. Mappa: rilievo rifatto (fasce dense di cime, non zig-zag), poi fiumi e boschi allineati alla nuova costa.
+4. Mappa: luoghi ed etichette (il foglio `luoghi.js` esiste già), prove sul telefono, inserimento nel sito.
+5. Dopo la mappa: vocabolario controllato di ruoli ed esiti, infine la vetrina.
+6. Parentele: restano solo la linea meridionale di Anárion e i rami collaterali hobbit (Boffin, Bolgeri, Cotton, Rintanati), da fare solo se serviranno.
 
 ### Decisioni da non dimenticare
 
 - **Se l'epub Bompiani 2004 dice X, il sito dice X.** I nomi ufficiali vivono in `glossario.md`.
 - **Omonimie dei Nani**: i re della linea di Durin sono «Glóin I» e «Óin I» (numerazione del sito), i compagni di Thorin restano «Glóin» e «Óin».
 - Mappe disegnate da zero, mai copiate da mappe ufficiali (comprese quelle di Christopher Tolkien).
-- La base della mappa (costa e acque) è adattata da mapmiddleearth.com, CC BY-NC 4.0: credito obbligatorio nel sito e divieto di vendita.
+- La mappa si ridisegna a mano guardando la carta di mapmiddleearth.com (CC BY-NC 4.0): la carta non si pubblica, il credito resta obbligatorio e il sito non si vende.
 - Sito statico, solo frontend, hosting GitHub Pages. Tutto in italiano, sito fan non commerciale.
 - La timeline v1 è chiusa: nuovi eventi solo su richiesta esplicita dell'utente.
 - I file in `data/` sono l'unica fonte dei dati; `build/` e `js/data.js` sono generati da `tools/build_data.py`.

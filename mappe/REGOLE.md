@@ -50,17 +50,16 @@ Se una regola va cambiata, si cambia qui e si annota in `PROJECT.md`, non a voce
 
 ## Provenienza
 
-- La **costa e le acque** sono adattate dalla carta di **mapmiddleearth.com**
-  (licenza CC BY-NC 4.0: uso non commerciale, credito obbligatorio). Il credito
-  va scritto nella pagina della mappa e nel sito: «Costa e acque adattate da
-  mapmiddleearth.com (CC BY-NC 4.0)».
-- Il resto è nostro: rilievo, fiumi, boschi, etichette, stile, impaginazione.
+- La mappa si **disegna a mano** guardando la carta di riferimento di
+  **mapmiddleearth.com** (CC BY-NC 4.0). La carta non si usa come sfondo e non
+  si pubblica nel repository.
+- Il risultato è comunque un'opera ispirata a quella carta: il credito
+  «cartografia ispirata a mapmiddleearth.com (CC BY-NC 4.0)» resta nel sito,
+  e il sito resta non commerciale.
 - Resta vietato copiare le mappe ufficiali (Tolkien, Christopher Tolkien,
   edizioni Bompiani e simili).
-- La mappa non si vende e il sito non ha pubblicità: la licenza lo permette solo
-  a queste condizioni.
-- Se un giorno si togliesse il credito o si mettesse in vendita qualcosa, la
-  base va rifatta da zero.
+- Se un giorno si mettesse in vendita il sito o si togliesse il credito, la
+  mappa va rifatta da zero.
 
 ## Come è fatta la mappa (tecnica, in breve)
 
