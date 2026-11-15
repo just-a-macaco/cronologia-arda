@@ -51,6 +51,10 @@ Nota sulle due edizioni: per i nomi condivisi vale il **Signore degli Anelli** B
 - **Thràin** — varianti: Thráin, Thrain. L'epub usa l'accento grave (30 occorrenze): «Thràin I», «Thràin II».
 - **Nain** — varianti: Náin, Nàin. L'epub scrive «Nain» senza accento: «Nain I».
 - **Eorl** — varianti: Éorl. L'epub scrive sempre «Eorl», senza accento: «Eorl il Giovane», «Giuramento di Eorl».
+- **Fréalàf** — varianti: Fréaláf, Frealaf. L'epub scrive l'accento grave sulla seconda a in tutte le occorrenze: il sito segue l'epub.
+- **Lothíriel** — varianti: Lothfriel. L'Appendice A dell'epub scrive «Lothfriel» una sola volta: è un refuso, e il sito usa «Lothíriel».
+- **Mandimartello** — varianti: Hammerhand. È il soprannome di Helm nell'edizione Bompiani.
+- **Háma** — omonimia: il figlio cadetto di Helm e Háma guardiano della porta di Meduseld sono due persone diverse.
 - **Grima Vermilinguo** — varianti: Grima, Grima Linguadiserpe, Wormtongue. Forma dell'epub: «Vermilinguo» compare 64 volte, «Linguadiserpe» mai.
 - **Nevecrino** — varianti: Snowmane. È il cavallo di Théoden nell'edizione Bompiani.
 - **Amlaith** — varianti: Amlalth. La tavola dell'Appendice A scrive «Amlalth» (una sola occorrenza); è un refuso, e il sito usa «Amlaith».

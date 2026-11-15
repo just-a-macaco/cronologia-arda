@@ -1,14 +1,52 @@
 # Alberi genealogici (testo)
 
 Generato da `data/relazioni.yaml`. Il simbolo ⚭ indica un matrimonio.
-Le righe indentate sono i figli della coppia sopra.
-La riga «↳ continuazione dell'albero» spezza una discendenza lunga per non
-indentarla troppo: il legame con la riga precedente resta.
+Le righe indentate sono i figli della coppia sopra. I figli sono elencati
+prima i rami corti e poi quello lungo, così i fratelli restano vicini.
+La riga «↳ continuazione: X → Y» spezza una discendenza lunga per non
+indentarla troppo e dice da chi riparte: Y è figlio di X.
 Quando una persona è già comparsa sotto un'altra casata, la riga dice
 «(già mostrato sopra)»: il matrimonio unisce due alberi e il testo non
 può ripeterli entrambi. Il grafo completo è in `build/relazioni.json`.
 
-## Gruppo 1 (52 persone)
+## Gruppo 1 (33 persone)
+
+Radici: Léod
+
+- Léod
+  - Eorl il Giovane
+    - Brego
+      - Baldor
+      - Aldor il Vecchio
+        - Fréa
+          - Fréawine
+            - Goldwine
+              - Déor
+                - Gram
+                  - Helm
+                    - Haleth
+                    - Háma
+                  - Hild
+                    - Fréalàf
+                      - Brytta
+                        - Walda
+
+*↳ continuazione: Walda → Folca*
+
+- Folca
+  - Folcwine
+    - Fastred
+    - Folcred
+    - Fengel
+      - Thengel ⚭ Morwen
+        - Théoden ⚭ Elfhild
+          - Théodred
+        - Théodwyn ⚭ Éomund
+          - Éowyn
+          - Éomer ⚭ Lothíriel
+            - Elfwine il Bello
+
+## Gruppo 2 (52 persone)
 
 Radici: Celeborn ⚭ Galadriel, Elendil
 
@@ -33,7 +71,7 @@ Radici: Celeborn ⚭ Galadriel, Elendil
                       - Beleg
                         - Mallor
 
-*↳ continuazione dell'albero*
+*↳ continuazione: Mallor → Celepharn*
 
 - Celepharn
   - Celebrindor
@@ -49,7 +87,7 @@ Radici: Celeborn ⚭ Galadriel, Elendil
                       - Arvedui ⚭ Firiel
                         - Aranarth
 
-*↳ continuazione dell'albero*
+*↳ continuazione: Aranarth → Arahael*
 
 - Arahael
   - Aranuir
@@ -65,7 +103,7 @@ Radici: Celeborn ⚭ Galadriel, Elendil
                       - Argonui
                         - Arador
 
-*↳ continuazione dell'albero*
+*↳ continuazione: Arador → Arathorn II ⚭ Gilraen*
 
 - Arathorn II ⚭ Gilraen
   - Aragorn ⚭ Arwen (già mostrato sopra)

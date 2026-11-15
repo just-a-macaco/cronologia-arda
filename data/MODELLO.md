@@ -136,6 +136,8 @@ Regole:
   perché senza genere non si distingue un padre da una madre.
 - Se una persona ha più coniugi, per ora il disegno la raggruppa in un solo
   nodo. Quando servirà, i matrimoni avranno un identificativo proprio.
+- `certezza: certa` quando il testo dice il legame; `certezza: probabile` quando
+  il legame si ricava solo dalla successione, come nella lista dei re del Mark.
 
 Il computer controlla che gli ID esistano, che nessuno sia genitore di se
 stesso, che non ci siano cicli, che un figlio non abbia due padri o due madri,
@@ -254,12 +256,13 @@ coperti; gli 8 anni restanti sono dentro eventi-intervallo o annotazioni di
 regno. Dei Grandi Anni 3018-3019 sono coperti i passaggi principali; restano le
 giornate minori e alcuni dettagli del 3020-3021.
 
-Le **parentele** hanno due casate: la Casa di Elrond (pilota) e la Casa di
-Isildur, cioè la linea settentrionale da Elendil ad Aragorn II.
-`data/relazioni.yaml` contiene **57 archi** (52 genitore, 5 coniuge) e collega
-**52 persone**. Il build produce `build/alberi.md` (albero leggibile),
+Le **parentele** hanno tre casate: la Casa di Elrond (pilota), la Casa di
+Isildur (la linea settentrionale da Elendil ad Aragorn II) e la Casa di Eorl
+(i Re del Mark, da Léod a Elfwine il Bello).
+`data/relazioni.yaml` contiene **95 archi** (86 genitore, 9 coniuge) e collega
+**85 persone**. Il build produce `build/alberi.md` (albero leggibile),
 `build/rapporto-parentele.md` (controllo) e `build/relazioni.json` (grafo per il
-sito). Mancano Rohan, Durin, i Sovrintendenti, gli Hobbit e la linea meridionale
+sito). Mancano Durin, i Sovrintendenti, gli Hobbit e la linea meridionale
 di Anárion; poi le fonti come entità separate, le coordinate dei luoghi e la
 vetrina.
 

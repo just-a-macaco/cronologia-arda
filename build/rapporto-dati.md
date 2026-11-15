@@ -2,7 +2,7 @@
 
 - Eventi: **204**.
 - Luoghi: **100**.
-- Personaggi: **150**.
+- Personaggi: **171**.
 - Entità collettive: **51**.
 - Partecipanti: **582**.
 - Citazioni di luogo: **403**.
@@ -11,8 +11,8 @@
 
 - Partecipanti senza scheda: **0**.
 - Luoghi senza scheda: **0**.
-- Personaggi senza eventi: **31**.
-  - collegati da una parentela: **31**.
+- Personaggi senza eventi: **52**.
+  - collegati da una parentela: **52**.
   - senza alcun collegamento: **0**.
 - Entità senza eventi: **0**.
 - Luoghi senza eventi: **0**.
@@ -38,8 +38,8 @@ contesto. Non sono errori, ma non sono filtri precisi.
 
 ## Parentele
 
-- Relazioni registrate: **57**.
-- Persone collegate: **52** su **150**.
-- Gruppi familiari: **1**.
-- Persone con genere dichiarato: **52**.
+- Relazioni registrate: **95**.
+- Persone collegate: **85** su **171**.
+- Gruppi familiari: **2**.
+- Persone con genere dichiarato: **85**.
 

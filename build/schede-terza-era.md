@@ -1682,13 +1682,13 @@ la versione breve è quella che compare sulla linea del tempo.
 |---|---|---|---|
 | Helm | Rohan | re | muore nel Fosso di Helm |
 | Wulf | invasori | usurpatore | assedia Edoras |
-| Fréaláf | Rohan | nipote di Helm | caccia Wulf e fonda la seconda linea dei re |
+| Fréalàf | Rohan | nipote di Helm | caccia Wulf e fonda la seconda linea dei re |
 | i Corsari di Umbar | Umbar | invasori | assalgono Gondor |
 | Gandalf | Istari | soccorritore | aiuta la Contea |
 
 **Versione breve:** Rohan, assalita da est e da ovest, è travolta: Helm si asserraglia nel Fosso e vi muore, mentre i Corsari incalzano Gondor. Il Lungo Inverno gela ogni terra e Gandalf soccorre la Contea.
 
-**Testo lungo:** Nel 2758 Rohan viene attaccato da est e da ovest. Re Helm si rifugia nel Fosso di Helm, mentre Wulf assedia Edoras. Nello stesso periodo le flotte dei Corsari di Umbar assalgono Gondor. L'inverno che segue, il Lungo Inverno, è durissimo: gela le terre, uccide uomini e bestie e provoca grandi sofferenze nell'Eriador e nel Rohan. Gandalf soccorre la gente della Contea. Nel 2759 muore Helm; Fréaláf caccia Wulf e dà inizio alla seconda linea dei Re del Mark.
+**Testo lungo:** Nel 2758 Rohan viene attaccato da est e da ovest. Re Helm si rifugia nel Fosso di Helm, mentre Wulf assedia Edoras. Nello stesso periodo le flotte dei Corsari di Umbar assalgono Gondor. L'inverno che segue, il Lungo Inverno, è durissimo: gela le terre, uccide uomini e bestie e provoca grandi sofferenze nell'Eriador e nel Rohan. Gandalf soccorre la gente della Contea. Nel 2759 muore Helm; Fréalàf caccia Wulf e dà inizio alla seconda linea dei Re del Mark.
 
 **Fonti:**
 - Il Signore degli Anelli, Appendice B, anni 2758-2759; Appendice A, Rohan

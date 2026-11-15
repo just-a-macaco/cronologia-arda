@@ -113,32 +113,32 @@
     {
       "id": "theoden",
       "nome": "Théoden",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Rohirrim",
       "nascita": 2948,
       "morte": 3019,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "eowyn",
       "nome": "Éowyn",
-      "genere": null,
+      "genere": "f",
       "specie": "Uomo",
       "popolo": "Rohirrim",
       "nascita": 2995,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "eomer",
       "nome": "Éomer",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Rohirrim",
       "nascita": 2991,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "boromir",
@@ -373,12 +373,12 @@
     {
       "id": "eorl-il-giovane",
       "nome": "Eorl il Giovane",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Uomini del Nord",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "earendur",
@@ -412,13 +412,13 @@
     },
     {
       "id": "frealaf",
-      "nome": "Fréaláf",
-      "genere": null,
+      "nome": "Fréalàf",
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Rohirrim",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "gil-galad",
@@ -453,12 +453,12 @@
     {
       "id": "helm",
       "nome": "Helm",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Rohirrim",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "hyarmendacil",
@@ -923,22 +923,22 @@
     {
       "id": "brego",
       "nome": "Brego",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Rohirrim",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "baldor",
       "nome": "Baldor",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Rohirrim",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "isengrim-ii",
@@ -973,12 +973,12 @@
     {
       "id": "walda",
       "nome": "Walda",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Rohirrim",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "belecthor-ii",
@@ -993,12 +993,12 @@
     {
       "id": "folcwine",
       "nome": "Folcwine",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Rohirrim",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "gilraen",
@@ -1053,12 +1053,12 @@
     {
       "id": "thengel",
       "nome": "Thengel",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Rohirrim",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "balin",
@@ -1133,12 +1133,12 @@
     {
       "id": "theodred",
       "nome": "Théodred",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Rohirrim",
-      "nascita": null,
+      "nascita": 2978,
       "morte": 3019,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "bard-ii",
@@ -1498,6 +1498,216 @@
       "popolo": "Dúnedain",
       "nascita": null,
       "morte": 2912,
+      "collegata": true
+    },
+    {
+      "id": "leod",
+      "nome": "Léod",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": 2501,
+      "collegata": true
+    },
+    {
+      "id": "aldor",
+      "nome": "Aldor il Vecchio",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2544,
+      "morte": 2645,
+      "collegata": true
+    },
+    {
+      "id": "frea",
+      "nome": "Fréa",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2570,
+      "morte": 2659,
+      "collegata": true
+    },
+    {
+      "id": "freawine",
+      "nome": "Fréawine",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2594,
+      "morte": 2680,
+      "collegata": true
+    },
+    {
+      "id": "goldwine",
+      "nome": "Goldwine",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2619,
+      "morte": 2699,
+      "collegata": true
+    },
+    {
+      "id": "deor",
+      "nome": "Déor",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2644,
+      "morte": 2718,
+      "collegata": true
+    },
+    {
+      "id": "gram",
+      "nome": "Gram",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2668,
+      "morte": 2741,
+      "collegata": true
+    },
+    {
+      "id": "haleth",
+      "nome": "Haleth",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": 2758,
+      "collegata": true
+    },
+    {
+      "id": "hama-figlio-di-helm",
+      "nome": "Háma",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": 2759,
+      "collegata": true
+    },
+    {
+      "id": "hild",
+      "nome": "Hild",
+      "genere": "f",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "brytta",
+      "nome": "Brytta",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2752,
+      "morte": 2842,
+      "collegata": true
+    },
+    {
+      "id": "folca",
+      "nome": "Folca",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2804,
+      "morte": 2864,
+      "collegata": true
+    },
+    {
+      "id": "folcred",
+      "nome": "Folcred",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2858,
+      "morte": 2885,
+      "collegata": true
+    },
+    {
+      "id": "fastred",
+      "nome": "Fastred",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2858,
+      "morte": 2885,
+      "collegata": true
+    },
+    {
+      "id": "fengel",
+      "nome": "Fengel",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2870,
+      "morte": 2953,
+      "collegata": true
+    },
+    {
+      "id": "morwen",
+      "nome": "Morwen",
+      "genere": "f",
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "elfhild",
+      "nome": "Elfhild",
+      "genere": "f",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "theodwyn",
+      "nome": "Théodwyn",
+      "genere": "f",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2963,
+      "morte": 3002,
+      "collegata": true
+    },
+    {
+      "id": "eomund",
+      "nome": "Éomund",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": 3002,
+      "collegata": true
+    },
+    {
+      "id": "lothiriel",
+      "nome": "Lothíriel",
+      "genere": "f",
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "elfwine",
+      "nome": "Elfwine il Bello",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
       "collegata": true
     }
   ],
@@ -2242,10 +2452,507 @@
         }
       ],
       "nota": null
+    },
+    {
+      "da": "leod",
+      "a": "eorl-il-giovane",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "eorl-il-giovane",
+      "a": "brego",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola."
+    },
+    {
+      "da": "brego",
+      "a": "baldor",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "brego",
+      "a": "aldor",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "aldor",
+      "a": "frea",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "frea",
+      "a": "freawine",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola."
+    },
+    {
+      "da": "freawine",
+      "a": "goldwine",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola."
+    },
+    {
+      "da": "goldwine",
+      "a": "deor",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola."
+    },
+    {
+      "da": "deor",
+      "a": "gram",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola."
+    },
+    {
+      "da": "gram",
+      "a": "helm",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola."
+    },
+    {
+      "da": "gram",
+      "a": "hild",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola."
+    },
+    {
+      "da": "helm",
+      "a": "haleth",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "helm",
+      "a": "hama-figlio-di-helm",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "hild",
+      "a": "frealaf",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "frealaf",
+      "a": "brytta",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola."
+    },
+    {
+      "da": "brytta",
+      "a": "walda",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola."
+    },
+    {
+      "da": "walda",
+      "a": "folca",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola."
+    },
+    {
+      "da": "folca",
+      "a": "folcwine",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola."
+    },
+    {
+      "da": "folcwine",
+      "a": "folcred",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "folcwine",
+      "a": "fastred",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "folcwine",
+      "a": "fengel",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "fengel",
+      "a": "thengel",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "thengel",
+      "a": "morwen",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "thengel",
+      "a": "theoden",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "morwen",
+      "a": "theoden",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "thengel",
+      "a": "theodwyn",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "morwen",
+      "a": "theodwyn",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "theoden",
+      "a": "elfhild",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "theoden",
+      "a": "theodred",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "elfhild",
+      "a": "theodred",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "theodwyn",
+      "a": "eomund",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "eomund",
+      "a": "eomer",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "theodwyn",
+      "a": "eomer",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "eomund",
+      "a": "eowyn",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "theodwyn",
+      "a": "eowyn",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "eomer",
+      "a": "lothiriel",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "eomer",
+      "a": "elfwine",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "lothiriel",
+      "a": "elfwine",
+      "tipo": "genitore",
+      "certezza": "probabile",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La casa di Eorl"
+        }
+      ],
+      "nota": "La madre non è nominata accanto al figlio: si ricava dal matrimonio con Éomer."
     }
   ],
   "derivate": {
     "figli": {
+      "aldor": [
+        "frea"
+      ],
       "amlaith": [
         "beleg-di-arthedain"
       ],
@@ -2330,6 +3037,13 @@
       "beleg-di-arthedain": [
         "mallor"
       ],
+      "brego": [
+        "aldor",
+        "baldor"
+      ],
+      "brytta": [
+        "walda"
+      ],
       "celeborn": [
         "celebrian"
       ],
@@ -2344,6 +3058,9 @@
       "celepharn": [
         "celebrindor"
       ],
+      "deor": [
+        "gram"
+      ],
       "earendur": [
         "amlaith"
       ],
@@ -2357,13 +3074,46 @@
       "elendur-di-arnor": [
         "earendur"
       ],
+      "elfhild": [
+        "theodred"
+      ],
       "elrond": [
         "arwen",
         "elladan",
         "elrohir"
       ],
+      "eomer": [
+        "elfwine"
+      ],
+      "eomund": [
+        "eomer",
+        "eowyn"
+      ],
+      "eorl-il-giovane": [
+        "brego"
+      ],
+      "fengel": [
+        "thengel"
+      ],
       "firiel": [
         "aranarth"
+      ],
+      "folca": [
+        "folcwine"
+      ],
+      "folcwine": [
+        "fastred",
+        "fengel",
+        "folcred"
+      ],
+      "frea": [
+        "freawine"
+      ],
+      "frealaf": [
+        "brytta"
+      ],
+      "freawine": [
+        "goldwine"
       ],
       "galadriel": [
         "celebrian"
@@ -2371,8 +3121,28 @@
       "gilraen": [
         "aragorn"
       ],
+      "goldwine": [
+        "deor"
+      ],
+      "gram": [
+        "helm",
+        "hild"
+      ],
+      "helm": [
+        "haleth",
+        "hama-figlio-di-helm"
+      ],
+      "hild": [
+        "frealaf"
+      ],
       "isildur": [
         "valandil"
+      ],
+      "leod": [
+        "eorl-il-giovane"
+      ],
+      "lothiriel": [
+        "elfwine"
       ],
       "mallor": [
         "celepharn"
@@ -2380,20 +3150,41 @@
       "malvegil": [
         "argeleb-i"
       ],
+      "morwen": [
+        "theoden",
+        "theodwyn"
+      ],
       "tarcil": [
         "tarondor-di-arnor"
       ],
       "tarondor-di-arnor": [
         "valandur"
       ],
+      "thengel": [
+        "theoden",
+        "theodwyn"
+      ],
+      "theoden": [
+        "theodred"
+      ],
+      "theodwyn": [
+        "eomer",
+        "eowyn"
+      ],
       "valandil": [
         "eldacar-di-arnor"
       ],
       "valandur": [
         "elendur-di-arnor"
+      ],
+      "walda": [
+        "folca"
       ]
     },
     "genitori": {
+      "aldor": [
+        "brego"
+      ],
       "amlaith": [
         "earendur"
       ],
@@ -2484,8 +3275,17 @@
         "celebrian",
         "elrond"
       ],
+      "baldor": [
+        "brego"
+      ],
       "beleg-di-arthedain": [
         "amlaith"
+      ],
+      "brego": [
+        "eorl-il-giovane"
+      ],
+      "brytta": [
+        "frealaf"
       ],
       "celebrian": [
         "celeborn",
@@ -2497,6 +3297,9 @@
       "celepharn": [
         "mallor"
       ],
+      "deor": [
+        "goldwine"
+      ],
       "earendur": [
         "elendur-di-arnor"
       ],
@@ -2506,6 +3309,10 @@
       "elendur-di-arnor": [
         "valandur"
       ],
+      "elfwine": [
+        "eomer",
+        "lothiriel"
+      ],
       "elladan": [
         "celebrian",
         "elrond"
@@ -2513,6 +3320,59 @@
       "elrohir": [
         "celebrian",
         "elrond"
+      ],
+      "eomer": [
+        "eomund",
+        "theodwyn"
+      ],
+      "eorl-il-giovane": [
+        "leod"
+      ],
+      "eowyn": [
+        "eomund",
+        "theodwyn"
+      ],
+      "fastred": [
+        "folcwine"
+      ],
+      "fengel": [
+        "folcwine"
+      ],
+      "folca": [
+        "walda"
+      ],
+      "folcred": [
+        "folcwine"
+      ],
+      "folcwine": [
+        "folca"
+      ],
+      "frea": [
+        "aldor"
+      ],
+      "frealaf": [
+        "hild"
+      ],
+      "freawine": [
+        "frea"
+      ],
+      "goldwine": [
+        "freawine"
+      ],
+      "gram": [
+        "deor"
+      ],
+      "haleth": [
+        "helm"
+      ],
+      "hama-figlio-di-helm": [
+        "helm"
+      ],
+      "helm": [
+        "gram"
+      ],
+      "hild": [
+        "gram"
       ],
       "isildur": [
         "elendil"
@@ -2532,11 +3392,29 @@
       "tarondor-di-arnor": [
         "tarcil"
       ],
+      "thengel": [
+        "fengel"
+      ],
+      "theoden": [
+        "morwen",
+        "thengel"
+      ],
+      "theodred": [
+        "elfhild",
+        "theoden"
+      ],
+      "theodwyn": [
+        "morwen",
+        "thengel"
+      ],
       "valandil": [
         "isildur"
       ],
       "valandur": [
         "tarondor-di-arnor"
+      ],
+      "walda": [
+        "brytta"
       ]
     },
     "coniugi": {
@@ -2558,8 +3436,17 @@
       "celebrian": [
         "elrond"
       ],
+      "elfhild": [
+        "theoden"
+      ],
       "elrond": [
         "celebrian"
+      ],
+      "eomer": [
+        "lothiriel"
+      ],
+      "eomund": [
+        "theodwyn"
       ],
       "firiel": [
         "arvedui"
@@ -2569,15 +3456,36 @@
       ],
       "gilraen": [
         "arathorn-ii"
+      ],
+      "lothiriel": [
+        "eomer"
+      ],
+      "morwen": [
+        "thengel"
+      ],
+      "thengel": [
+        "morwen"
+      ],
+      "theoden": [
+        "elfhild"
+      ],
+      "theodwyn": [
+        "eomund"
       ]
     },
     "fratelli": {
+      "aldor": [
+        "baldor"
+      ],
       "anarion": [
         "isildur"
       ],
       "arwen": [
         "elladan",
         "elrohir"
+      ],
+      "baldor": [
+        "aldor"
       ],
       "elladan": [
         "arwen",
@@ -2587,12 +3495,88 @@
         "arwen",
         "elladan"
       ],
+      "eomer": [
+        "eowyn"
+      ],
+      "eowyn": [
+        "eomer"
+      ],
+      "fastred": [
+        "fengel",
+        "folcred"
+      ],
+      "fengel": [
+        "fastred",
+        "folcred"
+      ],
+      "folcred": [
+        "fastred",
+        "fengel"
+      ],
+      "haleth": [
+        "hama-figlio-di-helm"
+      ],
+      "hama-figlio-di-helm": [
+        "haleth"
+      ],
+      "helm": [
+        "hild"
+      ],
+      "hild": [
+        "helm"
+      ],
       "isildur": [
         "anarion"
+      ],
+      "theoden": [
+        "theodwyn"
+      ],
+      "theodwyn": [
+        "theoden"
       ]
     }
   },
   "componenti": [
+    {
+      "membri": [
+        "aldor",
+        "frea",
+        "freawine",
+        "goldwine",
+        "deor",
+        "gram",
+        "brytta",
+        "folca",
+        "fastred",
+        "folcred",
+        "fengel",
+        "theoden",
+        "theodwyn",
+        "theodred",
+        "eomer",
+        "eowyn",
+        "baldor",
+        "brego",
+        "elfhild",
+        "elfwine",
+        "eorl-il-giovane",
+        "folcwine",
+        "frealaf",
+        "haleth",
+        "helm",
+        "hild",
+        "hama-figlio-di-helm",
+        "lothiriel",
+        "leod",
+        "morwen",
+        "thengel",
+        "walda",
+        "eomund"
+      ],
+      "radici": [
+        "leod"
+      ]
+    },
     {
       "membri": [
         "elladan",
@@ -2656,11 +3640,11 @@
     }
   ],
   "copertura": {
-    "persone_totali": 150,
-    "persone_collegate": 52,
-    "relazioni": 57,
-    "genitore": 52,
-    "coniuge": 5,
-    "componenti": 1
+    "persone_totali": 171,
+    "persone_collegate": 85,
+    "relazioni": 95,
+    "genitore": 86,
+    "coniuge": 9,
+    "componenti": 2
   }
 }

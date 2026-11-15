@@ -110,14 +110,14 @@ Le sezioni precedenti raccontano la storia del progetto. Questa dice dove siamo 
 
 ### Stato attuale
 
-- **Timeline v1 chiusa**: 204 eventi della Terza Era, 100 luoghi, 150 personaggi, 51 entità, 582 partecipanti, 403 citazioni di luogo; 0 schede mancanti.
-- **Parentele**: modello ad archi in `data/relazioni.yaml`, validato dal build (ID, generi, duplicati, cicli, doppio padre/madre, ordine delle nascite). Completati il pilota Casa di Elrond (11 relazioni) e la Casa di Isildur (57 relazioni, 52 persone collegate, un unico gruppo familiare da Elendil ad Aragorn II).
+- **Timeline v1 chiusa**: 204 eventi della Terza Era, 100 luoghi, 171 personaggi, 51 entità, 582 partecipanti, 403 citazioni di luogo; 0 schede mancanti.
+- **Parentele**: modello ad archi in `data/relazioni.yaml`, validato dal build (ID, generi, duplicati, cicli, doppio padre/madre, ordine delle nascite). Completati il pilota Casa di Elrond (11 relazioni), la Casa di Isildur (57 relazioni, 52 persone collegate, un unico gruppo familiare da Elendil ad Aragorn II) e la Casa di Eorl (38 relazioni, da Léod a Elfwine; 12 legami segnati «probabile» perché ricavati dalla lista dei re).
 - **Vetrina**: `schede.html` resta una bozza non pubblicata, da riprendere dopo il completamento del database.
 
 ### Prossimi passi (in ordine)
 
-1. Parentele: casata di Rohan.
-2. Poi Durin, Sovrintendenti, Hobbit.
+1. Parentele: casata di Durin.
+2. Poi i Sovrintendenti (con il matrimonio di Éowyn e Faramir) e gli Hobbit.
 3. Poi progetto mappa: proiezione, scala, stile, base disegnata da zero.
 4. Poi coordinate dei luoghi, vocabolario controllato di ruoli ed esiti, infine la vetrina.
 

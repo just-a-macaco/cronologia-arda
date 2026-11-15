@@ -1,12 +1,12 @@
 # Rapporto sulle parentele
 
-- Relazioni registrate: **57**.
-  - genitore: **52**.
-  - coniuge: **5**.
-- Persone collegate: **52** su **150**.
-- Gruppi familiari (componenti): **1**.
-- Coppie di fratelli ricavate dai genitori comuni: **4**.
-- Persone con genere dichiarato: **52**.
+- Relazioni registrate: **95**.
+  - genitore: **86**.
+  - coniuge: **9**.
+- Persone collegate: **85** su **171**.
+- Gruppi familiari (componenti): **2**.
+- Coppie di fratelli ricavate dai genitori comuni: **12**.
+- Persone con genere dichiarato: **85**.
 
 ## Controlli superati
 
@@ -22,12 +22,14 @@
 
 | Gruppo | Membri | Radici |
 |---|---|---|
-| 1 | Amlaith, Anárion, Arador, Araglas, Aragorn, Aragorn I, Aragost, Arahad I, Arahad II, Arahael, Aranarth, Arantar, Aranuir, Araphant, Araphor, Arassuil, Arathorn I, Arathorn II, Araval, Aravir, Aravorn, Argeleb I, Argeleb II, Argonui, Arvedui, Arvegil, Arveleg I, Arveleg II, Arwen, Beleg, Celeborn, Celebrindor, Celebrían, Celepharn, Eldacar di Arnor, Elendil, Elendur, Elladan, Elrohir, Elrond, Eärendur, Firiel, Galadriel, Gilraen, Isildur, Mallor, Malvegil, Meneldil, Tarcil, Tarondor di Arnor, Valandil, Valandur | Celeborn ⚭ Galadriel; Elendil |
+| 1 | Aldor il Vecchio, Baldor, Brego, Brytta, Déor, Elfhild, Elfwine il Bello, Eorl il Giovane, Fastred, Fengel, Folca, Folcred, Folcwine, Fréa, Fréalàf, Fréawine, Goldwine, Gram, Haleth, Helm, Hild, Háma, Lothíriel, Léod, Morwen, Thengel, Théoden, Théodred, Théodwyn, Walda, Éomer, Éomund, Éowyn | Léod |
+| 2 | Amlaith, Anárion, Arador, Araglas, Aragorn, Aragorn I, Aragost, Arahad I, Arahad II, Arahael, Aranarth, Arantar, Aranuir, Araphant, Araphor, Arassuil, Arathorn I, Arathorn II, Araval, Aravir, Aravorn, Argeleb I, Argeleb II, Argonui, Arvedui, Arvegil, Arveleg I, Arveleg II, Arwen, Beleg, Celeborn, Celebrindor, Celebrían, Celepharn, Eldacar di Arnor, Elendil, Elendur, Elladan, Elrohir, Elrond, Eärendur, Firiel, Galadriel, Gilraen, Isildur, Mallor, Malvegil, Meneldil, Tarcil, Tarondor di Arnor, Valandil, Valandur | Celeborn ⚭ Galadriel; Elendil |
 
 ## Persone collegate
 
 | Persona | Genere | Genitori | Coniugi | Figli |
 |---|---|---|---|---|
+| Aldor il Vecchio | m | Brego | — | Fréa |
 | Amlaith | m | Eärendur | — | Beleg |
 | Anárion | m | Elendil | — | Meneldil |
 | Arador | m | Argonui | — | Arathorn II |
@@ -57,35 +59,71 @@
 | Arveleg I | m | Argeleb I | — | Araphor |
 | Arveleg II | m | Arvegil | — | Araval |
 | Arwen | f | Celebrían, Elrond | Aragorn | — |
+| Baldor | m | Brego | — | — |
 | Beleg | m | Amlaith | — | Mallor |
+| Brego | m | Eorl il Giovane | — | Aldor il Vecchio, Baldor |
+| Brytta | m | Fréalàf | — | Walda |
 | Celeborn | m | — | Galadriel | Celebrían |
 | Celebrindor | m | Celepharn | — | Malvegil |
 | Celebrían | f | Celeborn, Galadriel | Elrond | Arwen, Elladan, Elrohir |
 | Celepharn | m | Mallor | — | Celebrindor |
+| Déor | m | Goldwine | — | Gram |
 | Eldacar di Arnor | m | Valandil | — | Arantar |
 | Elendil | m | — | — | Anárion, Isildur |
 | Elendur | m | Valandur | — | Eärendur |
+| Elfhild | f | — | Théoden | Théodred |
+| Elfwine il Bello | m | Lothíriel, Éomer | — | — |
 | Elladan | m | Celebrían, Elrond | — | — |
 | Elrohir | m | Celebrían, Elrond | — | — |
 | Elrond | m | — | Celebrían | Arwen, Elladan, Elrohir |
+| Eorl il Giovane | m | Léod | — | Brego |
 | Eärendur | m | Elendur | — | Amlaith |
+| Fastred | m | Folcwine | — | — |
+| Fengel | m | Folcwine | — | Thengel |
 | Firiel | f | — | Arvedui | Aranarth |
+| Folca | m | Walda | — | Folcwine |
+| Folcred | m | Folcwine | — | — |
+| Folcwine | m | Folca | — | Fastred, Fengel, Folcred |
+| Fréa | m | Aldor il Vecchio | — | Fréawine |
+| Fréalàf | m | Hild | — | Brytta |
+| Fréawine | m | Fréa | — | Goldwine |
 | Galadriel | f | — | Celeborn | Celebrían |
 | Gilraen | f | — | Arathorn II | Aragorn |
+| Goldwine | m | Fréawine | — | Déor |
+| Gram | m | Déor | — | Helm, Hild |
+| Haleth | m | Helm | — | — |
+| Helm | m | Gram | — | Haleth, Háma |
+| Hild | f | Gram | — | Fréalàf |
+| Háma | m | Helm | — | — |
 | Isildur | m | Elendil | — | Valandil |
+| Lothíriel | f | — | Éomer | Elfwine il Bello |
+| Léod | m | — | — | Eorl il Giovane |
 | Mallor | m | Beleg | — | Celepharn |
 | Malvegil | m | Celebrindor | — | Argeleb I |
 | Meneldil | m | Anárion | — | — |
+| Morwen | f | — | Thengel | Théoden, Théodwyn |
 | Tarcil | m | Arantar | — | Tarondor di Arnor |
 | Tarondor di Arnor | m | Tarcil | — | Valandur |
+| Thengel | m | Fengel | Morwen | Théoden, Théodwyn |
+| Théoden | m | Morwen, Thengel | Elfhild | Théodred |
+| Théodred | m | Elfhild, Théoden | — | — |
+| Théodwyn | f | Morwen, Thengel | Éomund | Éomer, Éowyn |
 | Valandil | m | Isildur | — | Eldacar di Arnor |
 | Valandur | m | Tarondor di Arnor | — | Elendur |
+| Walda | m | Brytta | — | Folca |
+| Éomer | m | Théodwyn, Éomund | Lothíriel | Elfwine il Bello |
+| Éomund | m | — | Théodwyn | Éomer, Éowyn |
+| Éowyn | f | Théodwyn, Éomund | — | — |
 
 ## Limiti noti
 
-- Le parentele coperte sono due casate: la Casa di Elrond e la Casa di
-  Isildur (linea settentrionale, da Elendil ad Aragorn II). Mancano Rohan,
-  Durin, i Sovrintendenti, gli Hobbit e la linea meridionale di Anárion.
+- Le parentele coperte sono tre casate: la Casa di Elrond, la Casa di
+  Isildur (linea settentrionale, da Elendil ad Aragorn II) e la Casa di
+  Eorl (i Re del Mark, da Léod a Elfwine). Mancano Durin, i Sovrintendenti,
+  gli Hobbit e la linea meridionale di Anárion.
+- Nella Casa di Eorl alcuni legami sono segnati come «probabile»: la lista
+  dei re dice chi succede a chi, non sempre chi è figlio di chi.
+- Il matrimonio di Éowyn con Faramir entrerà con i Sovrintendenti.
 - L'albero testuale non sa disegnare un matrimonio che unisce due casate:
   quando una persona compare già sotto un'altra discendenza, la riga lo
   segnala con «(già mostrato sopra)». Il grafo completo è in
@@ -97,7 +135,7 @@
 
 ## Persone non ancora collegate
 
-Sono **98**. Verranno aggiunte una casata alla volta.
+Sono **86**. Verranno aggiunte una casata alla volta.
 
 <details>
 <summary>Mostra l'elenco</summary>
@@ -106,7 +144,6 @@ Sono **98**. Verranno aggiunte una casata alla volta.
 - Thorin Scudodiquercia
 - Gimli
 - Bilbo Baggins
-- Théoden
 - Finduilas
 - Frodo Baggins
 - Boromir
@@ -114,14 +151,11 @@ Sono **98**. Verranno aggiunte una casata alla volta.
 - Meriadoc Brandibuck
 - Faramir
 - Peregrino Tuc
-- Éomer
-- Éowyn
 - Elanor
 - Adrahil
 - Aldamir
 - Amroth
 - Bain
-- Baldor
 - Balin
 - Barbalbero
 - Bard
@@ -130,7 +164,6 @@ Sono **98**. Verranno aggiunte una casata alla volta.
 - Beregond
 - Brand
 - Brandobras Tuc
-- Brego
 - Bucca della Palude
 - Calimehtar
 - Castamir
@@ -145,20 +178,16 @@ Sono **98**. Verranno aggiunte una casata alla volta.
 - Ecthelion I
 - Ecthelion II
 - Eldacar
-- Eorl il Giovane
 - Eärnil
 - Eärnil I
 - Eärnur
 - Falastur
-- Folcwine
 - Frumgar
-- Fréaláf
 - Gandalf
 - Gerontius Tuc
 - Gil-galad
 - Glorfindel
 - Grór
-- Helm
 - Hyarmendacil
 - Hyarmendacil II
 - Imrahil
@@ -184,18 +213,15 @@ Sono **98**. Verranno aggiunte una casata alla volta.
 - Tarondor
 - Telemnar
 - Telumehtar Umbardacil
-- Thengel
 - Thorin I
 - Thorin III Elminpietra
 - Thranduil
 - Thràin I
 - Thràin II
 - Thrór
-- Théodred
 - Tobaldo
 - Tom Bombadil
 - Valacar
-- Walda
 - Wulf
 - il Balrog
 - il Re degli Stregoni

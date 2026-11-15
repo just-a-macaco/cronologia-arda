@@ -627,18 +627,45 @@ def _albero_componente(
     radici, unita_di = _radici_unita(componente, per_id, genitori, coniugi)
     righe: list[str] = []
     visitate: set[frozenset] = set()
+    profondita: dict[frozenset, int] = {}
 
-    def rendi(gruppo: frozenset, livello: int, principale: str | None = None) -> None:
+    def _profondita(unita: frozenset) -> int:
+        """Quanti livelli di discendenza ha un nucleo familiare."""
+        if unita in profondita:
+            return profondita[unita]
+        profondita[unita] = 1
+        sotto = [
+            unita_di[figlio]
+            for figlio in _figli_unita(unita, figli, unita_di, per_id)
+            if unita_di[figlio] != unita
+        ]
+        if sotto:
+            profondita[unita] = 1 + max(_profondita(u) for u in sotto)
+        return profondita[unita]
+
+    def rendi(
+        gruppo: frozenset,
+        livello: int,
+        principale: str | None = None,
+        genitore: str | None = None,
+    ) -> None:
         if gruppo in visitate:
             return
         visitate.add(gruppo)
+        nome = _nome_unita(gruppo, per_id, principale)
         if livello > 12:
             righe.append("")
-            righe.append("*↳ continuazione dell'albero*")
+            righe.append(f"*↳ continuazione: {genitore} → {nome}*")
             righe.append("")
             livello = 0
-        righe.append("  " * livello + "- " + _nome_unita(gruppo, per_id, principale))
-        for figlio in _figli_unita(gruppo, figli, unita_di, per_id):
+        righe.append("  " * livello + "- " + nome)
+        figli_unita = _figli_unita(gruppo, figli, unita_di, per_id)
+        # I rami corti vengono prima: così una discendenza lunga non separa
+        # i fratelli rimasti dal loro genitore.
+        figli_unita.sort(
+            key=lambda pid: (_profondita(unita_di[pid]), _ordine_persona(per_id[pid]))
+        )
+        for figlio in figli_unita:
             unita_figlio = unita_di[figlio]
             if unita_figlio in visitate:
                 righe.append(
@@ -648,7 +675,7 @@ def _albero_componente(
                     + " (già mostrato sopra)"
                 )
                 continue
-            rendi(unita_figlio, livello + 1, figlio)
+            rendi(unita_figlio, livello + 1, figlio, nome)
 
     for radice in radici:
         rendi(radice, 0)
@@ -768,9 +795,13 @@ def scrivi_parentele(persone: list[dict], relazioni: list[dict]) -> None:
         "",
         "## Limiti noti",
         "",
-        "- Le parentele coperte sono due casate: la Casa di Elrond e la Casa di",
-        "  Isildur (linea settentrionale, da Elendil ad Aragorn II). Mancano Rohan,",
-        "  Durin, i Sovrintendenti, gli Hobbit e la linea meridionale di Anárion.",
+        "- Le parentele coperte sono tre casate: la Casa di Elrond, la Casa di",
+        "  Isildur (linea settentrionale, da Elendil ad Aragorn II) e la Casa di",
+        "  Eorl (i Re del Mark, da Léod a Elfwine). Mancano Durin, i Sovrintendenti,",
+        "  gli Hobbit e la linea meridionale di Anárion.",
+        "- Nella Casa di Eorl alcuni legami sono segnati come «probabile»: la lista",
+        "  dei re dice chi succede a chi, non sempre chi è figlio di chi.",
+        "- Il matrimonio di Éowyn con Faramir entrerà con i Sovrintendenti.",
         "- L'albero testuale non sa disegnare un matrimonio che unisce due casate:",
         "  quando una persona compare già sotto un'altra discendenza, la riga lo",
         "  segnala con «(già mostrato sopra)». Il grafo completo è in",
@@ -797,9 +828,10 @@ def scrivi_parentele(persone: list[dict], relazioni: list[dict]) -> None:
         "# Alberi genealogici (testo)",
         "",
         "Generato da `data/relazioni.yaml`. Il simbolo ⚭ indica un matrimonio.",
-        "Le righe indentate sono i figli della coppia sopra.",
-        "La riga «↳ continuazione dell'albero» spezza una discendenza lunga per non",
-        "indentarla troppo: il legame con la riga precedente resta.",
+        "Le righe indentate sono i figli della coppia sopra. I figli sono elencati",
+        "prima i rami corti e poi quello lungo, così i fratelli restano vicini.",
+        "La riga «↳ continuazione: X → Y» spezza una discendenza lunga per non",
+        "indentarla troppo e dice da chi riparte: Y è figlio di X.",
         "Quando una persona è già comparsa sotto un'altra casata, la riga dice",
         "«(già mostrato sopra)»: il matrimonio unisce due alberi e il testo non",
         "può ripeterli entrambi. Il grafo completo è in `build/relazioni.json`.",

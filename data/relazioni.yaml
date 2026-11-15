@@ -525,3 +525,350 @@
     - opera: Il Signore degli Anelli
       riferimento: "Appendice A, La storia di Aragorn e Arwen"
   nota: null
+
+# Casa di Eorl: i Re del Mark, da Léod a Elfwine il Bello.
+# Fonte principale: Appendice A, «La casa di Eorl» (lista dei re del Mark).
+# I legami segnati «probabile» si ricavano dalla successione, non da una frase
+# che dice «figlio di».
+
+- da: leod
+  a: eorl-il-giovane
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: eorl-il-giovane
+  a: brego
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola.
+
+- da: brego
+  a: baldor
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: brego
+  a: aldor
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: aldor
+  a: frea
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: frea
+  a: freawine
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola.
+
+- da: freawine
+  a: goldwine
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola.
+
+- da: goldwine
+  a: deor
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola.
+
+- da: deor
+  a: gram
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola.
+
+- da: gram
+  a: helm
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola.
+
+- da: gram
+  a: hild
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola.
+
+- da: helm
+  a: haleth
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: helm
+  a: hama-figlio-di-helm
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: hild
+  a: frealaf
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: frealaf
+  a: brytta
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola.
+
+- da: brytta
+  a: walda
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola.
+
+- da: walda
+  a: folca
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola.
+
+- da: folca
+  a: folcwine
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: Legame dedotto dalla lista dei re del Mark, non dichiarato parola per parola.
+
+- da: folcwine
+  a: folcred
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: folcwine
+  a: fastred
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: folcwine
+  a: fengel
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: fengel
+  a: thengel
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: thengel
+  a: morwen
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: thengel
+  a: theoden
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: morwen
+  a: theoden
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: thengel
+  a: theodwyn
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: morwen
+  a: theodwyn
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: theoden
+  a: elfhild
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: theoden
+  a: theodred
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: elfhild
+  a: theodred
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: theodwyn
+  a: eomund
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: eomund
+  a: eomer
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: theodwyn
+  a: eomer
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: eomund
+  a: eowyn
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: theodwyn
+  a: eowyn
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: eomer
+  a: lothiriel
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: eomer
+  a: elfwine
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: null
+
+- da: lothiriel
+  a: elfwine
+  tipo: genitore
+  certezza: probabile
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La casa di Eorl"
+  nota: "La madre non è nominata accanto al figlio: si ricava dal matrimonio con Éomer."
