@@ -15,6 +15,10 @@ data/entita.yaml, controlla i riferimenti e produce:
   - build/rapporto-persone.md  (stato dell'anagrafica dei personaggi)
   - build/rapporto-entita.md   (stato delle entità collettive)
   - build/rapporto-partecipanti.md (copertura complessiva dei partecipanti)
+  - build/rapporto-dati.md     (controllo complessivo del database)
+  - build/relazioni.json       (grafo delle parentele per il sito)
+  - build/rapporto-parentele.md (stato delle parentele)
+  - build/alberi.md            (alberi genealogici in forma testuale)
 
 Uso: python3 tools/build_data.py
 """
@@ -35,6 +39,7 @@ DATA_DIR = os.path.join(ROOT, "data", "eventi")
 LUOGHI_FILE = os.path.join(ROOT, "data", "luoghi.yaml")
 PERSONE_FILE = os.path.join(ROOT, "data", "persone.yaml")
 ENTITA_FILE = os.path.join(ROOT, "data", "entita.yaml")
+RELAZIONI_FILE = os.path.join(ROOT, "data", "relazioni.yaml")
 BUILD_DIR = os.path.join(ROOT, "build")
 JS_DIR = os.path.join(ROOT, "js")
 
@@ -60,6 +65,8 @@ TIPI_LUOGO = {
 TIPI_PERSONA = {"personaggio", "popolo", "regno", "gruppo"}
 TIPI_ENTITA = {"popolo", "regno", "gruppo"}
 SPECIE = {"Hobbit", "Uomo", "Elfo", "Nano", "Maia", "Sturoi", "Mezzelfo", "Drago", "Ent", "Orchetto", "Ragno"}
+GENERI = {"m", "f"}
+TIPI_RELAZIONE = {"genitore", "coniuge"}
 PRECISIONI = {"giorno", "mese", "anno", "intervallo", "ignoto"}
 QUALIFICATORI = {None, "circa", "prima", "dopo", "inizio", "fine"}
 
@@ -299,6 +306,8 @@ def valida_persone(persone: list[dict]) -> None:
             fail(f"persona {pid}: specie mancante o sconosciuta «{persona.get('specie')}»")
         if persona.get("specie") is not None and persona["specie"] not in SPECIE:
             fail(f"persona {pid}: specie sconosciuta «{persona['specie']}»")
+        if persona.get("genere") is not None and persona["genere"] not in GENERI:
+            fail(f"persona {pid}: genere sconosciuto «{persona['genere']}»")
         for campo in ("nascita", "morte"):
             valore = persona.get(campo)
             if valore is not None and not isinstance(valore, int):
@@ -418,6 +427,374 @@ def valida_riferimenti_partecipanti(eventi: list[dict], persone: list[dict], ent
             else:
                 if p["entita"] not in entita_per_id:
                     fail(f"{ev['id']}: entità sconosciuta «{p['entita']}»")
+
+
+def carica_relazioni() -> list[dict]:
+    if not os.path.exists(RELAZIONI_FILE):
+        return []
+    with open(RELAZIONI_FILE, encoding="utf-8") as fh:
+        blocco = yaml.safe_load(fh) or []
+    if not isinstance(blocco, list):
+        fail("data/relazioni.yaml deve contenere una lista di relazioni")
+    return blocco
+
+
+def valida_relazioni(relazioni: list[dict], persone: list[dict]) -> None:
+    per_id = {p["id"]: p for p in persone}
+    visti_genitori: set[tuple[str, str]] = set()
+    visti_coniugi: set[tuple[str, str]] = set()
+    genitori: dict[str, list[str]] = {}
+    for indice, rel in enumerate(relazioni, 1):
+        etichetta = f"relazione {indice}"
+        for campo in ("da", "a", "tipo", "certezza", "fonti"):
+            if not rel.get(campo):
+                fail(f"{etichetta}: campo mancante o vuoto «{campo}»")
+        if rel["tipo"] not in TIPI_RELAZIONE:
+            fail(f"{etichetta}: tipo sconosciuto «{rel['tipo']}»")
+        for chiave in ("da", "a"):
+            if rel[chiave] not in per_id:
+                fail(f"{etichetta}: persona sconosciuta «{rel[chiave]}»")
+        if rel["da"] == rel["a"]:
+            fail(f"{etichetta}: una persona non può essere parente di se stessa")
+        for chiave in ("da", "a"):
+            if per_id[rel[chiave]].get("genere") not in GENERI:
+                fail(f"{etichetta}: {rel[chiave]} deve avere «genere: m» o «genere: f»")
+        if not isinstance(rel["fonti"], list):
+            fail(f"{etichetta}: «fonti» deve essere una lista")
+        if rel["tipo"] == "genitore":
+            chiave = (rel["da"], rel["a"])
+            if chiave in visti_genitori:
+                fail(f"{etichetta}: relazione genitore duplicata ({rel['da']} → {rel['a']})")
+            visti_genitori.add(chiave)
+            genitori.setdefault(rel["a"], []).append(rel["da"])
+        else:
+            chiave = tuple(sorted((rel["da"], rel["a"])))
+            if chiave in visti_coniugi:
+                fail(f"{etichetta}: coniugi registrati due volte ({rel['da']} e {rel['a']})")
+            visti_coniugi.add(chiave)
+        for fonte in rel["fonti"]:
+            if not fonte.get("opera") or not fonte.get("riferimento"):
+                fail(f"{etichetta}: fonte incompleta")
+    for figlio, padrini in genitori.items():
+        generi = [per_id[p]["genere"] for p in padrini]
+        if generi.count("m") > 1:
+            fail(f"{figlio}: più di un padre")
+        if generi.count("f") > 1:
+            fail(f"{figlio}: più di una madre")
+        for genitore in padrini:
+            anno_genitore = per_id[genitore].get("nascita")
+            anno_figlio = per_id[figlio].get("nascita")
+            if anno_genitore is not None and anno_figlio is not None and anno_genitore >= anno_figlio:
+                fail(f"{genitore} non può essere genitore di {figlio}: nato prima o nello stesso anno")
+    finiti: set[str] = set()
+
+    def visita(nodo: str, in_corso: set[str]) -> None:
+        if nodo in finiti:
+            return
+        if nodo in in_corso:
+            fail(f"parentela circolare intorno a {nodo}")
+        in_corso.add(nodo)
+        for genitore in genitori.get(nodo, []):
+            visita(genitore, in_corso)
+        in_corso.remove(nodo)
+        finiti.add(nodo)
+
+    for nodo in genitori:
+        visita(nodo, set())
+
+
+def _ordine_persona(persona: dict) -> tuple:
+    """Ordine di lettura: prima chi ha una data di nascita, poi il nome."""
+    return (persona.get("nascita") is None, persona.get("nascita") or 0, persona["nome"])
+
+
+def costruisci_parentele(persone: list[dict], relazioni: list[dict]) -> dict:
+    per_id = {p["id"]: p for p in persone}
+    figli: dict[str, set[str]] = {}
+    genitori: dict[str, set[str]] = {}
+    coniugi: dict[str, set[str]] = {}
+    adiacenza: dict[str, set[str]] = {}
+    for rel in relazioni:
+        a, b = rel["da"], rel["a"]
+        adiacenza.setdefault(a, set()).add(b)
+        adiacenza.setdefault(b, set()).add(a)
+        if rel["tipo"] == "genitore":
+            figli.setdefault(a, set()).add(b)
+            genitori.setdefault(b, set()).add(a)
+        else:
+            coniugi.setdefault(a, set()).add(b)
+            coniugi.setdefault(b, set()).add(a)
+    fratelli: dict[str, set[str]] = {}
+    for suoi_figli in figli.values():
+        for x in suoi_figli:
+            for y in suoi_figli:
+                if x != y:
+                    fratelli.setdefault(x, set()).add(y)
+    visti: set[str] = set()
+    componenti: list[list[str]] = []
+    for partenza in sorted(adiacenza, key=lambda pid: per_id[pid]["nome"]):
+        if partenza in visti:
+            continue
+        coda = [partenza]
+        visti.add(partenza)
+        membri = []
+        while coda:
+            corrente = coda.pop()
+            membri.append(corrente)
+            for vicino in sorted(adiacenza[corrente]):
+                if vicino not in visti:
+                    visti.add(vicino)
+                    coda.append(vicino)
+        componenti.append(sorted(membri, key=lambda pid: _ordine_persona(per_id[pid])))
+    return {
+        "per_id": per_id,
+        "figli": figli,
+        "genitori": genitori,
+        "coniugi": coniugi,
+        "fratelli": fratelli,
+        "componenti": componenti,
+        "collegate": set(adiacenza),
+    }
+
+
+def _unita_coniugi(componente: list[str], coniugi: dict[str, set[str]]) -> tuple[dict[str, frozenset], list[frozenset]]:
+    capo = {pid: pid for pid in componente}
+
+    def trova(x: str) -> str:
+        while capo[x] != x:
+            capo[x] = capo[capo[x]]
+            x = capo[x]
+        return x
+
+    for pid in componente:
+        for altro in coniugi.get(pid, set()):
+            if altro not in capo:
+                continue
+            ra, rb = trova(pid), trova(altro)
+            if ra != rb:
+                capo[rb] = ra
+    gruppi: dict[str, list[str]] = {}
+    for pid in componente:
+        gruppi.setdefault(trova(pid), []).append(pid)
+    unita = [frozenset(gruppo) for gruppo in gruppi.values()]
+    unita_di = {pid: gruppo for gruppo in unita for pid in gruppo}
+    return unita_di, unita
+
+
+def _nome_unita(unita: frozenset, per_id: dict[str, dict], principale: str | None = None) -> str:
+    if principale is not None and principale in unita:
+        nomi = [per_id[principale]["nome"]] + sorted(
+            per_id[pid]["nome"] for pid in unita if pid != principale
+        )
+    else:
+        nomi = sorted(per_id[pid]["nome"] for pid in unita)
+    return " ⚭ ".join(nomi)
+
+
+def _radici_unita(
+    componente: list[str],
+    per_id: dict[str, dict],
+    genitori: dict[str, set[str]],
+    coniugi: dict[str, set[str]],
+) -> tuple[list[frozenset], dict[str, frozenset]]:
+    unita_di, unita = _unita_coniugi(componente, coniugi)
+    radici = [g for g in unita if all(not genitori.get(pid) for pid in g)]
+    radici.sort(key=lambda g: min(_ordine_persona(per_id[pid]) for pid in g))
+    return radici, unita_di
+
+
+def _figli_unita(
+    unita: frozenset,
+    figli: dict[str, set[str]],
+    unita_di: dict[str, frozenset],
+    per_id: dict[str, dict],
+) -> list[str]:
+    trovati: set[str] = set()
+    for pid in unita:
+        for figlio in figli.get(pid, set()):
+            if unita_di[figlio] != unita:
+                trovati.add(figlio)
+    return sorted(trovati, key=lambda pid: _ordine_persona(per_id[pid]))
+
+
+def _albero_componente(
+    componente: list[str],
+    per_id: dict[str, dict],
+    figli: dict[str, set[str]],
+    genitori: dict[str, set[str]],
+    coniugi: dict[str, set[str]],
+) -> list[str]:
+    radici, unita_di = _radici_unita(componente, per_id, genitori, coniugi)
+    righe: list[str] = []
+    visitate: set[frozenset] = set()
+
+    def rendi(gruppo: frozenset, livello: int, principale: str | None = None) -> None:
+        if gruppo in visitate:
+            return
+        visitate.add(gruppo)
+        righe.append("  " * livello + "- " + _nome_unita(gruppo, per_id, principale))
+        for figlio in _figli_unita(gruppo, figli, unita_di, per_id):
+            rendi(unita_di[figlio], livello + 1, figlio)
+
+    for radice in radici:
+        rendi(radice, 0)
+    return righe
+
+
+def scrivi_parentele(persone: list[dict], relazioni: list[dict]) -> None:
+    dati = costruisci_parentele(persone, relazioni)
+    per_id = dati["per_id"]
+    collegate = dati["collegate"]
+    os.makedirs(BUILD_DIR, exist_ok=True)
+    persone_json = []
+    for persona in persone:
+        persone_json.append({
+            "id": persona["id"],
+            "nome": persona["nome"],
+            "genere": persona.get("genere"),
+            "specie": persona.get("specie"),
+            "popolo": persona.get("popolo"),
+            "nascita": persona.get("nascita"),
+            "morte": persona.get("morte"),
+            "collegata": persona["id"] in collegate,
+        })
+    componenti_json = []
+    for membri in dati["componenti"]:
+        radici, _ = _radici_unita(membri, per_id, dati["genitori"], dati["coniugi"])
+        componenti_json.append({
+            "membri": membri,
+            "radici": sorted(
+                (pid for gruppo in radici for pid in gruppo),
+                key=lambda pid: per_id[pid]["nome"],
+            ),
+        })
+    with open(os.path.join(BUILD_DIR, "relazioni.json"), "w", encoding="utf-8") as fh:
+        json.dump(
+            {
+                "persone": persone_json,
+                "relazioni": relazioni,
+                "derivate": {
+                    "figli": {k: sorted(v) for k, v in sorted(dati["figli"].items())},
+                    "genitori": {k: sorted(v) for k, v in sorted(dati["genitori"].items())},
+                    "coniugi": {k: sorted(v) for k, v in sorted(dati["coniugi"].items())},
+                    "fratelli": {k: sorted(v) for k, v in sorted(dati["fratelli"].items())},
+                },
+                "componenti": componenti_json,
+                "copertura": {
+                    "persone_totali": len(persone),
+                    "persone_collegate": len(collegate),
+                    "relazioni": len(relazioni),
+                    "genitore": sum(1 for r in relazioni if r["tipo"] == "genitore"),
+                    "coniuge": sum(1 for r in relazioni if r["tipo"] == "coniuge"),
+                    "componenti": len(dati["componenti"]),
+                },
+            },
+            fh,
+            ensure_ascii=False,
+            indent=2,
+        )
+    coppie_fratelli = sum(len(v) for v in dati["fratelli"].values()) // 2
+    senza_genere = [p["nome"] for p in persone if p.get("genere") not in GENERI]
+    non_collegate = sorted(
+        (p for p in persone if p["id"] not in collegate),
+        key=_ordine_persona,
+    )
+    righe = [
+        "# Rapporto sulle parentele",
+        "",
+        f"- Relazioni registrate: **{len(relazioni)}**.",
+        f"  - genitore: **{sum(1 for r in relazioni if r['tipo'] == 'genitore')}**.",
+        f"  - coniuge: **{sum(1 for r in relazioni if r['tipo'] == 'coniuge')}**.",
+        f"- Persone collegate: **{len(collegate)}** su **{len(persone)}**.",
+        f"- Gruppi familiari (componenti): **{len(dati['componenti'])}**.",
+        f"- Coppie di fratelli ricavate dai genitori comuni: **{coppie_fratelli}**.",
+        f"- Persone con genere dichiarato: **{len(persone) - len(senza_genere)}**.",
+        "",
+        "## Controlli superati",
+        "",
+        "- Ogni relazione rimanda a due persone che esistono.",
+        "- Nessuna persona è genitore di se stessa.",
+        "- Nessun ciclo: nessuno è antenato di se stesso.",
+        "- Ogni figlio ha al massimo un padre e una madre.",
+        "- Nessun genitore è nato prima o nello stesso anno del figlio.",
+        "- Nessuna coppia di coniugi è registrata due volte.",
+        "- Ogni persona citata in una relazione ha il genere dichiarato.",
+        "",
+        "## Gruppi familiari",
+        "",
+        "| Gruppo | Membri | Radici |",
+        "|---|---|---|",
+    ]
+    for numero, membri in enumerate(dati["componenti"], 1):
+        radici, _ = _radici_unita(membri, per_id, dati["genitori"], dati["coniugi"])
+        nomi = ", ".join(sorted(per_id[pid]["nome"] for pid in membri))
+        nomi_radici = "; ".join(_nome_unita(g, per_id) for g in radici)
+        righe.append(f"| {numero} | {nomi} | {nomi_radici or '—'} |")
+    righe += [
+        "",
+        "## Persone collegate",
+        "",
+        "| Persona | Genere | Genitori | Coniugi | Figli |",
+        "|---|---|---|---|---|",
+    ]
+    def nomi_di(ids: set[str]) -> str:
+        return ", ".join(
+            per_id[i]["nome"] for i in sorted(ids, key=lambda i: per_id[i]["nome"])
+        ) or "—"
+
+    for pid in sorted(collegate, key=lambda i: per_id[i]["nome"]):
+        persona = per_id[pid]
+        righe.append(
+            f"| {persona['nome']} | {persona.get('genere') or '—'} | "
+            f"{nomi_di(dati['genitori'].get(pid, set()))} | "
+            f"{nomi_di(dati['coniugi'].get(pid, set()))} | "
+            f"{nomi_di(dati['figli'].get(pid, set()))} |"
+        )
+    righe += [
+        "",
+        "## Limiti noti",
+        "",
+        "- Il pilota copre una sola casata: la Casa di Elrond. Mancano Isildur,",
+        "  Rohan, Durin, i Sovrintendenti e gli Hobbit.",
+        "- Una persona con più coniugi viene raggruppata in un unico nodo. Quando",
+        "  servirà, i matrimoni andranno separati con un identificativo proprio.",
+        "- I fratelli sono ricavati dai genitori comuni e non hanno una distinzione",
+        "  tra fratelli pieni e fratellastri.",
+        "",
+        "## Persone non ancora collegate",
+        "",
+        f"Sono **{len(non_collegate)}**. Verranno aggiunte una casata alla volta.",
+        "",
+        "<details>",
+        "<summary>Mostra l'elenco</summary>",
+        "",
+    ]
+    for persona in non_collegate:
+        righe.append(f"- {persona['nome']}")
+    righe += ["", "</details>", ""]
+    with open(os.path.join(BUILD_DIR, "rapporto-parentele.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(righe))
+    righe_alberi = [
+        "# Alberi genealogici (testo)",
+        "",
+        "Generato da `data/relazioni.yaml`. Il simbolo ⚭ indica un matrimonio.",
+        "Le righe indentate sono i figli della coppia sopra.",
+        "",
+    ]
+    for numero, membri in enumerate(dati["componenti"], 1):
+        righe_alberi.append(f"## Gruppo {numero} ({len(membri)} persone)")
+        righe_alberi.append("")
+        albero = _albero_componente(
+            membri, per_id, dati["figli"], dati["genitori"], dati["coniugi"]
+        )
+        radici = [riga[2:] for riga in albero if riga.startswith("- ")]
+        if radici:
+            righe_alberi.append("Radici: " + ", ".join(radici))
+            righe_alberi.append("")
+        righe_alberi.extend(albero)
+        righe_alberi.append("")
+    with open(os.path.join(BUILD_DIR, "alberi.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(righe_alberi))
 
 
 def arricchisci_partecipanti(eventi: list[dict], persone: list[dict], entita: list[dict]) -> None:
@@ -702,7 +1079,9 @@ def scrivi_rapporto(eventi: list[dict], luoghi: list[dict]) -> None:
         "## Cosa manca ancora",
         "",
         "- I partecipanti sono collegati agli eventi tramite ID; le schede persona",
-        "  ed entità collettiva sono pronte. Restano famiglie e fonti come entità separate.",
+        "  ed entità collettiva sono pronte. Le parentele sono cominciate con la",
+        "  Casa di Elrond (`data/relazioni.yaml`); mancano le altre casate e le fonti",
+        "  come entità separate.",
         "- I luoghi sono ora collegati agli eventi tramite ID: la fase mappa assegnerà",
         "  coordinate e scene (Arda piatta / Arda rotonda).",
         "- Gli eventi del 2941 e del 3019 sono stati separati, ma restano da aggiungere",
@@ -811,13 +1190,13 @@ def scrivi_persone(eventi: list[dict], persone: list[dict], entita: list[dict]) 
         "",
         "## Schede",
         "",
-        "| ID | Nome | Tipo | Specie | Eventi collegati |",
-        "|---|---|---|---|---|",
+        "| ID | Nome | Tipo | Specie | Genere | Eventi collegati |",
+        "|---|---|---|---|---|---|",
     ]
     for persona in dati["schede"]:
         righe.append(
             f"| `{persona['id']}` | {persona['nome']} | {persona['tipo']} | "
-            f"{persona.get('specie') or '—'} | {len(persona['eventi'])} |"
+            f"{persona.get('specie') or '—'} | {persona.get('genere') or '—'} | {len(persona['eventi'])} |"
         )
     righe += [
         "",
@@ -910,7 +1289,13 @@ def scrivi_partecipanti(eventi: list[dict], persone: list[dict], entita: list[di
         fh.write("\n".join(righe))
 
 
-def scrivi_audit(eventi: list[dict], luoghi: list[dict], persone: list[dict], entita: list[dict]) -> None:
+def scrivi_audit(
+    eventi: list[dict],
+    luoghi: list[dict],
+    persone: list[dict],
+    entita: list[dict],
+    relazioni: list[dict],
+) -> None:
     usati_partecipanti = set()
     usati_luoghi = set()
     parti = Counter()
@@ -927,6 +1312,7 @@ def scrivi_audit(eventi: list[dict], luoghi: list[dict], persone: list[dict], en
     senza_eventi_entita = [v["nome"] for v in entita if v["id"] not in usati_partecipanti]
     senza_eventi_luoghi = [v["nome"] for v in luoghi if v["id"] not in usati_luoghi]
     generiche = {"Montagne", "Nord", "Est", "invasori", "ribelli", "Gondor e Rohan", "Eldar e Istari"}
+    parentele = costruisci_parentele(persone, relazioni)
     righe = [
         "# Controllo del database",
         "",
@@ -960,6 +1346,16 @@ def scrivi_audit(eventi: list[dict], luoghi: list[dict], persone: list[dict], en
     for parte in sorted(generiche):
         if parti[parte]:
             righe.append(f"- {parte}: {parti[parte]}")
+    righe += [
+        "",
+        "## Parentele",
+        "",
+        f"- Relazioni registrate: **{len(relazioni)}**.",
+        f"- Persone collegate: **{len(parentele['collegate'])}** su **{len(persone)}**.",
+        f"- Gruppi familiari: **{len(parentele['componenti'])}**.",
+        f"- Persone con genere dichiarato: **{sum(1 for p in persone if p.get('genere') in GENERI)}**.",
+        "",
+    ]
     if senza_eventi_persone or senza_eventi_entita or senza_eventi_luoghi:
         righe += ["", "## Schede non collegate", ""]
         for nome in senza_eventi_persone:
@@ -984,6 +1380,8 @@ def main() -> None:
     entita = carica_entita()
     valida_entita(entita)
     valida_nomi_unici(persone, entita)
+    relazioni = carica_relazioni()
+    valida_relazioni(relazioni, persone)
     valida_riferimenti_partecipanti(eventi, persone, entita)
     arricchisci_partecipanti(eventi, persone, entita)
     scrivi_js(eventi, luoghi)
@@ -995,7 +1393,8 @@ def main() -> None:
     scrivi_persone(eventi, persone, entita)
     scrivi_entita(eventi, entita)
     scrivi_partecipanti(eventi, persone, entita)
-    scrivi_audit(eventi, luoghi, persone, entita)
+    scrivi_audit(eventi, luoghi, persone, entita, relazioni)
+    scrivi_parentele(persone, relazioni)
     print(f"OK: {len(eventi)} eventi, {len(luoghi)} luoghi, {len(persone)} persone e {len(entita)} entità compilati.")
     print(f"  js/data.js")
     print(f"  build/arda.sqlite")
@@ -1010,6 +1409,9 @@ def main() -> None:
     print(f"  build/rapporto-entita.md")
     print(f"  build/rapporto-partecipanti.md")
     print(f"  build/rapporto-dati.md")
+    print(f"  build/relazioni.json")
+    print(f"  build/rapporto-parentele.md")
+    print(f"  build/alberi.md")
 
 
 if __name__ == "__main__":

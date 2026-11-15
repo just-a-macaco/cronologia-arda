@@ -24,7 +24,7 @@ jobs:
         run: |
           python3 -m pip install --quiet -r requirements.txt
           python3 tools/build_data.py
-          git diff --exit-code js/data.js build/indexes.json build/luoghi.json build/persone.json build/entita.json build/rapporto.md build/rapporto-luoghi.md build/rapporto-persone.md build/rapporto-entita.md build/rapporto-partecipanti.md build/rapporto-dati.md build/schede-terza-era.md
+          git diff --exit-code js/data.js build/indexes.json build/luoghi.json build/persone.json build/entita.json build/relazioni.json build/rapporto.md build/rapporto-luoghi.md build/rapporto-persone.md build/rapporto-entita.md build/rapporto-partecipanti.md build/rapporto-dati.md build/rapporto-parentele.md build/alberi.md build/schede-terza-era.md
 
       - name: Prepara il sito (solo i file pubblicabili)
         run: |

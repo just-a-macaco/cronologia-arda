@@ -1,0 +1,1437 @@
+{
+  "persone": [
+    {
+      "id": "gandalf",
+      "nome": "Gandalf",
+      "genere": null,
+      "specie": "Maia",
+      "popolo": "Maiar",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "frodo-baggins",
+      "nome": "Frodo Baggins",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2968,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "aragorn",
+      "nome": "Aragorn",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": 2931,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "bilbo-baggins",
+      "nome": "Bilbo Baggins",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2890,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "samvise-gamgi",
+      "nome": "Samvise Gamgi",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2980,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "sauron",
+      "nome": "Sauron",
+      "genere": null,
+      "specie": "Maia",
+      "popolo": "Maiar",
+      "nascita": null,
+      "morte": 3019,
+      "collegata": false
+    },
+    {
+      "id": "saruman",
+      "nome": "Saruman",
+      "genere": null,
+      "specie": "Maia",
+      "popolo": "Maiar",
+      "nascita": null,
+      "morte": 3019,
+      "collegata": false
+    },
+    {
+      "id": "gollum",
+      "nome": "Gollum",
+      "genere": null,
+      "specie": "Sturoi",
+      "popolo": "Sturoi",
+      "nascita": 2430,
+      "morte": 3019,
+      "collegata": false
+    },
+    {
+      "id": "elrond",
+      "nome": "Elrond",
+      "genere": "m",
+      "specie": "Mezzelfo",
+      "popolo": "Mezzelfi",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "galadriel",
+      "nome": "Galadriel",
+      "genere": "f",
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "thorin-scudodiquercia",
+      "nome": "Thorin Scudodiquercia",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": 2746,
+      "morte": 2941,
+      "collegata": false
+    },
+    {
+      "id": "theoden",
+      "nome": "Théoden",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2948,
+      "morte": 3019,
+      "collegata": false
+    },
+    {
+      "id": "eowyn",
+      "nome": "Éowyn",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2995,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "eomer",
+      "nome": "Éomer",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": 2991,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "boromir",
+      "nome": "Boromir",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": 2978,
+      "morte": 3019,
+      "collegata": false
+    },
+    {
+      "id": "faramir",
+      "nome": "Faramir",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": 2983,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "meriadoc-brandibuck",
+      "nome": "Meriadoc Brandibuck",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2982,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "peregrino-tuc",
+      "nome": "Peregrino Tuc",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 2990,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "gimli",
+      "nome": "Gimli",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": 2879,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "legolas",
+      "nome": "Legolas",
+      "genere": null,
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "amroth",
+      "nome": "Amroth",
+      "genere": null,
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "arvedui",
+      "nome": "Arvedui",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "arveleg-i",
+      "nome": "Arveleg I",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "arwen",
+      "nome": "Arwen",
+      "genere": "f",
+      "specie": "Mezzelfo",
+      "popolo": "Mezzelfi",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "barbalbero",
+      "nome": "Barbalbero",
+      "genere": null,
+      "specie": "Ent",
+      "popolo": "Ent",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "bard",
+      "nome": "Bard",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "beregond",
+      "nome": "Beregond",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "castamir",
+      "nome": "Castamir",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "cirion",
+      "nome": "Cirion",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "cirdan",
+      "nome": "Círdan",
+      "genere": null,
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "denethor-ii",
+      "nome": "Denethor II",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "durin-vi",
+      "nome": "Durin VI",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "dain-i",
+      "nome": "Dàin I",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "dain-piediferro",
+      "nome": "Dàin Piediferro",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "deagol",
+      "nome": "Déagol",
+      "genere": null,
+      "specie": "Sturoi",
+      "popolo": "Sturoi",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "eldacar",
+      "nome": "Eldacar",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "elendil",
+      "nome": "Elendil",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "eorl-il-giovane",
+      "nome": "Eorl il Giovane",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Uomini del Nord",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "earendur",
+      "nome": "Eärendur",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "earnil",
+      "nome": "Eärnil",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "earnur",
+      "nome": "Eärnur",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "frealaf",
+      "nome": "Fréaláf",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "gil-galad",
+      "nome": "Gil-galad",
+      "genere": null,
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "glorfindel",
+      "nome": "Glorfindel",
+      "genere": null,
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "gror",
+      "nome": "Grór",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "helm",
+      "nome": "Helm",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "hyarmendacil",
+      "nome": "Hyarmendacil",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "imrahil",
+      "nome": "Imrahil",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "isildur",
+      "nome": "Isildur",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "mardil",
+      "nome": "Mardil",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "meneldil",
+      "nome": "Meneldil",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "nain-i",
+      "nome": "Nain I",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "narmacil-ii",
+      "nome": "Narmacil II",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "nar",
+      "nome": "Nár",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "ohtar",
+      "nome": "Ohtar",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "ondoher",
+      "nome": "Ondoher",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "ornendil",
+      "nome": "Ornendil",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "radagast",
+      "nome": "Radagast",
+      "genere": null,
+      "specie": "Maia",
+      "popolo": "Maiar",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "smaug",
+      "nome": "Smaug",
+      "genere": null,
+      "specie": "Drago",
+      "popolo": "Draghi",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "tarondor",
+      "nome": "Tarondor",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "telemnar",
+      "nome": "Telemnar",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "thranduil",
+      "nome": "Thranduil",
+      "genere": null,
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "thrain-i",
+      "nome": "Thràin I",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "thrain-ii",
+      "nome": "Thràin II",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "thror",
+      "nome": "Thrór",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "tobaldo",
+      "nome": "Tobaldo",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "valacar",
+      "nome": "Valacar",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "wulf",
+      "nome": "Wulf",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "re-degli-stregoni",
+      "nome": "il Re degli Stregoni",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Nazgûl",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "balrog",
+      "nome": "il Balrog",
+      "genere": null,
+      "specie": "Maia",
+      "popolo": "Maiar",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "orchetto-di-moria",
+      "nome": "un Orchetto di Moria",
+      "genere": null,
+      "specie": "Orchetto",
+      "popolo": "Orchetti",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "celebrian",
+      "nome": "Celebrían",
+      "genere": "f",
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "elladan",
+      "nome": "Elladan",
+      "genere": "m",
+      "specie": "Mezzelfo",
+      "popolo": "Mezzelfi",
+      "nascita": 130,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "elrohir",
+      "nome": "Elrohir",
+      "genere": "m",
+      "specie": "Mezzelfo",
+      "popolo": "Mezzelfi",
+      "nascita": 130,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "ostoher",
+      "nome": "Ostoher",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "romendacil-i",
+      "nome": "Rómendacil I",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "falastur",
+      "nome": "Falastur",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "earnil-i",
+      "nome": "Eärnil I",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "ciryandil",
+      "nome": "Ciryandil",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "argeleb-i",
+      "nome": "Argeleb I",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "aldimir",
+      "nome": "Aldamir",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "hyarmendacil-ii",
+      "nome": "Hyarmendacil II",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "minardil",
+      "nome": "Minardil",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "telumehtar",
+      "nome": "Telumehtar Umbardacil",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "calimehtar",
+      "nome": "Calimehtar",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "argeleb-ii",
+      "nome": "Argeleb II",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "aranarth",
+      "nome": "Aranarth",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "frumgar",
+      "nome": "Frumgar",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Uomini del Nord",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "bucca-della-palude",
+      "nome": "Bucca della Palude",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "firiel",
+      "nome": "Firiel",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "thorin-i",
+      "nome": "Thorin I",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "isumbras-i",
+      "nome": "Isumbras I",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "brego",
+      "nome": "Brego",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "baldor",
+      "nome": "Baldor",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "isengrim-ii",
+      "nome": "Isengrim II",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "ecthelion-i",
+      "nome": "Ecthelion I",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "brandobras-tuc",
+      "nome": "Brandobras Tuc",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "walda",
+      "nome": "Walda",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "belecthor-ii",
+      "nome": "Belecthor II",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "folcwine",
+      "nome": "Folcwine",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "gilraen",
+      "nome": "Gilraen",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "arathorn-ii",
+      "nome": "Arathorn II",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "arador",
+      "nome": "Arador",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "gerontius-tuc",
+      "nome": "Gerontius Tuc",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "ecthelion-ii",
+      "nome": "Ecthelion II",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "thengel",
+      "nome": "Thengel",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "balin",
+      "nome": "Balin",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "finduilas",
+      "nome": "Finduilas",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": 2950,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "adrahil",
+      "nome": "Adrahil",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "bain",
+      "nome": "Bain",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "brand",
+      "nome": "Brand",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "shelob",
+      "nome": "Shelob",
+      "genere": null,
+      "specie": "Ragno",
+      "popolo": "Ragni",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "tom-bombadil",
+      "nome": "Tom Bombadil",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Essere antico",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "theodred",
+      "nome": "Théodred",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Rohirrim",
+      "nascita": null,
+      "morte": 3019,
+      "collegata": false
+    },
+    {
+      "id": "bard-ii",
+      "nome": "Bard II",
+      "genere": null,
+      "specie": "Uomo",
+      "popolo": "Uomini",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "thorin-iii",
+      "nome": "Thorin III Elminpietra",
+      "genere": null,
+      "specie": "Nano",
+      "popolo": "Nani",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "celeborn",
+      "nome": "Celeborn",
+      "genere": "m",
+      "specie": "Elfo",
+      "popolo": "Elfi",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "elanor",
+      "nome": "Elanor",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": 3021,
+      "morte": null,
+      "collegata": false
+    },
+    {
+      "id": "rosie-cotton",
+      "nome": "Rosie Cotton",
+      "genere": null,
+      "specie": "Hobbit",
+      "popolo": "Hobbit",
+      "nascita": null,
+      "morte": null,
+      "collegata": false
+    }
+  ],
+  "relazioni": [
+    {
+      "da": "celeborn",
+      "a": "celebrian",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "galadriel",
+      "a": "celebrian",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "celeborn",
+      "a": "galadriel",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "elrond",
+      "a": "celebrian",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "elrond",
+      "a": "elladan",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "celebrian",
+      "a": "elladan",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "elrond",
+      "a": "elrohir",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "celebrian",
+      "a": "elrohir",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "elrond",
+      "a": "arwen",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "celebrian",
+      "a": "arwen",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arwen",
+      "a": "aragorn",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": "Le nozze si celebrano a Minas Tirith nel 3019."
+    }
+  ],
+  "derivate": {
+    "figli": {
+      "celeborn": [
+        "celebrian"
+      ],
+      "celebrian": [
+        "arwen",
+        "elladan",
+        "elrohir"
+      ],
+      "elrond": [
+        "arwen",
+        "elladan",
+        "elrohir"
+      ],
+      "galadriel": [
+        "celebrian"
+      ]
+    },
+    "genitori": {
+      "arwen": [
+        "celebrian",
+        "elrond"
+      ],
+      "celebrian": [
+        "celeborn",
+        "galadriel"
+      ],
+      "elladan": [
+        "celebrian",
+        "elrond"
+      ],
+      "elrohir": [
+        "celebrian",
+        "elrond"
+      ]
+    },
+    "coniugi": {
+      "aragorn": [
+        "arwen"
+      ],
+      "arwen": [
+        "aragorn"
+      ],
+      "celeborn": [
+        "galadriel"
+      ],
+      "celebrian": [
+        "elrond"
+      ],
+      "elrond": [
+        "celebrian"
+      ],
+      "galadriel": [
+        "celeborn"
+      ]
+    },
+    "fratelli": {
+      "arwen": [
+        "elladan",
+        "elrohir"
+      ],
+      "elladan": [
+        "arwen",
+        "elrohir"
+      ],
+      "elrohir": [
+        "arwen",
+        "elladan"
+      ]
+    }
+  },
+  "componenti": [
+    {
+      "membri": [
+        "elladan",
+        "elrohir",
+        "aragorn",
+        "arwen",
+        "celeborn",
+        "celebrian",
+        "elrond",
+        "galadriel"
+      ],
+      "radici": [
+        "celeborn",
+        "galadriel"
+      ]
+    }
+  ],
+  "copertura": {
+    "persone_totali": 119,
+    "persone_collegate": 8,
+    "relazioni": 11,
+    "genitore": 8,
+    "coniuge": 3,
+    "componenti": 1
+  }
+}

@@ -27,6 +27,9 @@ Tutto ciò che raccontiamo sta in una di queste cinque scatole.
 | **Famiglie** | legami di parentela | la casa di Elrond, i Re del Mark |
 | **Fonti** | da dove sappiamo una cosa | Appendice B, libro V capitolo 6 |
 
+Le famiglie non hanno una scheda propria: sono **archi** in
+`data/relazioni.yaml`, perché una parentela riguarda sempre due persone.
+
 Un evento non "contiene" le persone: le **richiama** tramite un codice.
 È la differenza tra un tema scolastico e un database.
 
@@ -57,11 +60,12 @@ schede si aggiornano da sole.
 ### Una persona
 
 ```yaml
-# data/persone/frodo-baggins.yaml
+# data/persone.yaml
 id: frodo-baggins
 nome: Frodo Baggins
 tipo: personaggio
 popolo: Hobbit
+genere: m
 nascita: 2968
 morte: null
 alias:
@@ -71,7 +75,7 @@ alias:
 ### Un luogo
 
 ```yaml
-# data/luoghi/contea.yaml
+# data/luoghi.yaml
 id: contea
 nome: la Contea
 tipo: regione
@@ -100,6 +104,38 @@ partecipanti:
 Il computer, in fase di costruzione, controlla che `frodo-baggins` e `monte-fato`
 esistano davvero. Se mancano, il sito non si costruisce e ci dice il motivo.
 Meglio un errore sul computer che una scheda sbagliata online.
+
+### Una parentela
+
+Le parentele non stanno dentro la scheda della persona. Stanno in un file
+separato, `data/relazioni.yaml`, fatto di **archi**: una riga collega due
+persone.
+
+```yaml
+# data/relazioni.yaml
+- da: elrond
+  a: arwen
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+```
+
+Regole:
+
+- `genitore`: `da` è il genitore, `a` è il figlio.
+- `coniuge`: si scrive **una volta sola**; il computer la legge in entrambe le
+  direzioni.
+- I **fratelli non si scrivono**: si ricavano dai genitori comuni.
+- Ogni persona citata in una relazione deve avere `genere: m` o `genere: f`,
+  perché senza genere non si distingue un padre da una madre.
+- Se una persona ha più coniugi, per ora il disegno la raggruppa in un solo
+  nodo. Quando servirà, i matrimoni avranno un identificativo proprio.
+
+Il computer controlla che gli ID esistano, che nessuno sia genitore di se
+stesso, che non ci siano cicli, che un figlio non abbia due padri o due madri,
+e che un genitore non sia nato dopo il figlio.
 
 ## 5. La distinzione più importante: persona non significa "nome nella tabella"
 
@@ -174,8 +210,7 @@ Partiamo dai **luoghi**, non dalle persone.
 
 Motivi:
 
-- sono 85, non 112;
-- sono più stabili (un fiume non cambia nome in base alla traduzione);
+- sono più stabili delle persone (un fiume non cambia nome in base alla traduzione);
 - servono subito per la mappa;
 - gli eventi li citano già, quindi il lavoro è classificare e unire i doppioni,
   non trascrivere.
@@ -196,16 +231,24 @@ Niente fretta: un blocco alla volta, con il computer che controlla.
 ## 9. Stato
 
 Anagrafica dei luoghi completa rispetto agli eventi attuali: `data/luoghi.yaml`
-contiene 77 schede, che coprono tutti gli 85 nomi citati dagli eventi (alcuni nomi
-sono alias dello stesso luogo). Gli eventi ora **richiamano i luoghi per ID**: il
-build controlla che ogni ID esista e usa il nome solo per la visualizzazione.
+contiene **100 schede**, che coprono tutti i nomi di luogo citati dagli eventi
+(alcuni nomi sono alias dello stesso luogo). Gli eventi **richiamano i luoghi per
+ID**: il build controlla che ogni ID esista e usa il nome solo per la
+visualizzazione.
 
-Anagrafica dei partecipanti completa: `data/persone.yaml` contiene **90 personaggi**
-e `data/entita.yaml` contiene **43 entità collettive**. Insieme coprono **tutti i
-133 nomi** di partecipante citati dagli eventi. Anche i partecipanti richiamano le
-schede per ID (`persona:` o `entita:`), come i luoghi.
+Anagrafica dei partecipanti completa: `data/persone.yaml` contiene **119
+personaggi** e `data/entita.yaml` contiene **51 entità collettive**. Insieme
+coprono **tutti i 170 nomi** di partecipante citati dagli eventi. Anche i
+partecipanti richiamano le schede per ID (`persona:` o `entita:`), come i luoghi.
 
-Per la Terza Era il database di eventi, luoghi e partecipanti è pronto. Il lavoro
-continua con l'espansione dell'Appendice B: 204 eventi e 119 anni su 127 coperti; gli 8 anni restanti sono dentro eventi-intervallo o annotazioni di regno. Dei Grandi Anni 3018-3019 sono coperti i passaggi principali; restano le giornate minori e alcuni dettagli del 3020-3021.
-Restano le famiglie (per gli alberi genealogici), le fonti come entità separate e
-la vetrina.
+Per la Terza Era il database di eventi, luoghi e partecipanti è pronto: **204
+eventi**. Il lavoro continua con l'espansione dell'Appendice B: 119 anni su 127
+coperti; gli 8 anni restanti sono dentro eventi-intervallo o annotazioni di
+regno. Dei Grandi Anni 3018-3019 sono coperti i passaggi principali; restano le
+giornate minori e alcuni dettagli del 3020-3021.
+
+Le **parentele** sono cominciate con un pilota, la Casa di Elrond:
+`data/relazioni.yaml` contiene 11 archi e collega 8 persone. Il build produce
+`build/alberi.md` (albero leggibile) e `build/relazioni.json` (grafo per il
+sito). Mancano le altre casate, le fonti come entità separate, le coordinate dei
+luoghi e la vetrina.

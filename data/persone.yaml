@@ -32,6 +32,7 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: m
   nascita: 2931
   morte: null
   alias:
@@ -105,6 +106,7 @@
   tipo: personaggio
   specie: Mezzelfo
   popolo: Mezzelfi
+  genere: m
   nascita: null
   morte: null
   alias: []
@@ -116,6 +118,7 @@
   tipo: personaggio
   specie: Elfo
   popolo: Elfi
+  genere: f
   nascita: null
   morte: null
   alias: []
@@ -274,6 +277,7 @@
   tipo: personaggio
   specie: Mezzelfo
   popolo: Mezzelfi
+  genere: f
   nascita: null
   morte: null
   alias: []
@@ -810,6 +814,7 @@
   tipo: personaggio
   specie: Elfo
   popolo: Elfi
+  genere: f
   nascita: null
   morte: null
   alias: []
@@ -821,6 +826,7 @@
   tipo: personaggio
   specie: Mezzelfo
   popolo: Mezzelfi
+  genere: m
   nascita: 130
   morte: null
   alias: []
@@ -832,6 +838,7 @@
   tipo: personaggio
   specie: Mezzelfo
   popolo: Mezzelfi
+  genere: m
   nascita: 130
   morte: null
   alias: []
@@ -1309,6 +1316,7 @@
   tipo: personaggio
   specie: Elfo
   popolo: Elfi
+  genere: m
   nascita: null
   morte: null
   alias: []

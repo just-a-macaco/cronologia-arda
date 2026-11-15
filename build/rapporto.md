@@ -60,7 +60,9 @@ Sono stati separati perché hanno partecipanti e conseguenze diverse.
 ## Cosa manca ancora
 
 - I partecipanti sono collegati agli eventi tramite ID; le schede persona
-  ed entità collettiva sono pronte. Restano famiglie e fonti come entità separate.
+  ed entità collettiva sono pronte. Le parentele sono cominciate con la
+  Casa di Elrond (`data/relazioni.yaml`); mancano le altre casate e le fonti
+  come entità separate.
 - I luoghi sono ora collegati agli eventi tramite ID: la fase mappa assegnerà
   coordinate e scene (Arda piatta / Arda rotonda).
 - Gli eventi del 2941 e del 3019 sono stati separati, ma restano da aggiungere

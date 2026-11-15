@@ -33,3 +33,11 @@ contesto. Non sono errori, ma non sono filtri precisi.
 - Nord: 5
 - invasori: 1
 - ribelli: 5
+
+## Parentele
+
+- Relazioni registrate: **11**.
+- Persone collegate: **8** su **119**.
+- Gruppi familiari: **1**.
+- Persone con genere dichiarato: **8**.
+

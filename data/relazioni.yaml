@@ -1,0 +1,111 @@
+# Relazioni di parentela.
+# Ogni voce è un arco: "da" e "a" sono ID di persone in data/persone.yaml.
+#
+# Tipi ammessi:
+#   genitore  da = genitore, a = figlio (diretto)
+#   coniuge   da e a = coniugi (si scrive una volta sola)
+#
+# I fratelli non si scrivono: il build li ricava dai genitori comuni.
+# Ogni persona citata qui deve avere il campo "genere: m" o "genere: f".
+#
+# Pilota: Casa di Elrond.
+# Fonte: Il Signore degli Anelli, Appendice A, «La storia di Aragorn e Arwen».
+
+- da: celeborn
+  a: celebrian
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null
+
+- da: galadriel
+  a: celebrian
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null
+
+- da: celeborn
+  a: galadriel
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null
+
+- da: elrond
+  a: celebrian
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null
+
+- da: elrond
+  a: elladan
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null
+
+- da: celebrian
+  a: elladan
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null
+
+- da: elrond
+  a: elrohir
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null
+
+- da: celebrian
+  a: elrohir
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null
+
+- da: elrond
+  a: arwen
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null
+
+- da: celebrian
+  a: arwen
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null
+
+- da: arwen
+  a: aragorn
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: "Le nozze si celebrano a Minas Tirith nel 3019."
