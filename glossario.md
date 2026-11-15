@@ -53,6 +53,9 @@ Nota sulle due edizioni: per i nomi condivisi vale il **Signore degli Anelli** B
 - **Eorl** — varianti: Éorl. L'epub scrive sempre «Eorl», senza accento: «Eorl il Giovane», «Giuramento di Eorl».
 - **Grima Vermilinguo** — varianti: Grima, Grima Linguadiserpe, Wormtongue. Forma dell'epub: «Vermilinguo» compare 64 volte, «Linguadiserpe» mai.
 - **Nevecrino** — varianti: Snowmane. È il cavallo di Théoden nell'edizione Bompiani.
+- **Amlaith** — varianti: Amlalth. La tavola dell'Appendice A scrive «Amlalth» (una sola occorrenza); è un refuso, e il sito usa «Amlaith».
+- **Arvegil** — varianti: Argevil. La tavola dell'Appendice A scrive «Argevil», il testo narrativo della stessa Appendice scrive «Arvegil»: il sito segue il testo narrativo.
+- **Eldacar di Arnor** e **Tarondor di Arnor** — omonimie reali: esistono un Eldacar e un Tarondor anche a Gondor. Il re del Nord porta «di Arnor», quello del Sud tiene il nome semplice.
 
 ## Istituzioni
 

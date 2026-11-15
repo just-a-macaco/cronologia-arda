@@ -632,9 +632,23 @@ def _albero_componente(
         if gruppo in visitate:
             return
         visitate.add(gruppo)
+        if livello > 12:
+            righe.append("")
+            righe.append("*↳ continuazione dell'albero*")
+            righe.append("")
+            livello = 0
         righe.append("  " * livello + "- " + _nome_unita(gruppo, per_id, principale))
         for figlio in _figli_unita(gruppo, figli, unita_di, per_id):
-            rendi(unita_di[figlio], livello + 1, figlio)
+            unita_figlio = unita_di[figlio]
+            if unita_figlio in visitate:
+                righe.append(
+                    "  " * (livello + 1)
+                    + "- "
+                    + _nome_unita(unita_figlio, per_id, figlio)
+                    + " (già mostrato sopra)"
+                )
+                continue
+            rendi(unita_figlio, livello + 1, figlio)
 
     for radice in radici:
         rendi(radice, 0)
@@ -754,8 +768,13 @@ def scrivi_parentele(persone: list[dict], relazioni: list[dict]) -> None:
         "",
         "## Limiti noti",
         "",
-        "- Il pilota copre una sola casata: la Casa di Elrond. Mancano Isildur,",
-        "  Rohan, Durin, i Sovrintendenti e gli Hobbit.",
+        "- Le parentele coperte sono due casate: la Casa di Elrond e la Casa di",
+        "  Isildur (linea settentrionale, da Elendil ad Aragorn II). Mancano Rohan,",
+        "  Durin, i Sovrintendenti, gli Hobbit e la linea meridionale di Anárion.",
+        "- L'albero testuale non sa disegnare un matrimonio che unisce due casate:",
+        "  quando una persona compare già sotto un'altra discendenza, la riga lo",
+        "  segnala con «(già mostrato sopra)». Il grafo completo è in",
+        "  `build/relazioni.json`.",
         "- Una persona con più coniugi viene raggruppata in un unico nodo. Quando",
         "  servirà, i matrimoni andranno separati con un identificativo proprio.",
         "- I fratelli sono ricavati dai genitori comuni e non hanno una distinzione",
@@ -779,6 +798,11 @@ def scrivi_parentele(persone: list[dict], relazioni: list[dict]) -> None:
         "",
         "Generato da `data/relazioni.yaml`. Il simbolo ⚭ indica un matrimonio.",
         "Le righe indentate sono i figli della coppia sopra.",
+        "La riga «↳ continuazione dell'albero» spezza una discendenza lunga per non",
+        "indentarla troppo: il legame con la riga precedente resta.",
+        "Quando una persona è già comparsa sotto un'altra casata, la riga dice",
+        "«(già mostrato sopra)»: il matrimonio unisce due alberi e il testo non",
+        "può ripeterli entrambi. Il grafo completo è in `build/relazioni.json`.",
         "",
     ]
     for numero, membri in enumerate(dati["componenti"], 1):
@@ -787,9 +811,11 @@ def scrivi_parentele(persone: list[dict], relazioni: list[dict]) -> None:
         albero = _albero_componente(
             membri, per_id, dati["figli"], dati["genitori"], dati["coniugi"]
         )
-        radici = [riga[2:] for riga in albero if riga.startswith("- ")]
+        radici, _ = _radici_unita(membri, per_id, dati["genitori"], dati["coniugi"])
         if radici:
-            righe_alberi.append("Radici: " + ", ".join(radici))
+            righe_alberi.append(
+                "Radici: " + ", ".join(_nome_unita(g, per_id) for g in radici)
+            )
             righe_alberi.append("")
         righe_alberi.extend(albero)
         righe_alberi.append("")
@@ -1313,6 +1339,11 @@ def scrivi_audit(
     senza_eventi_luoghi = [v["nome"] for v in luoghi if v["id"] not in usati_luoghi]
     generiche = {"Montagne", "Nord", "Est", "invasori", "ribelli", "Gondor e Rohan", "Eldar e Istari"}
     parentele = costruisci_parentele(persone, relazioni)
+    senza_eventi_isolate = [
+        v["nome"]
+        for v in persone
+        if v["id"] not in usati_partecipanti and v["id"] not in parentele["collegate"]
+    ]
     righe = [
         "# Controllo del database",
         "",
@@ -1328,6 +1359,8 @@ def scrivi_audit(
         f"- Partecipanti senza scheda: **0**.",
         f"- Luoghi senza scheda: **0**.",
         f"- Personaggi senza eventi: **{len(senza_eventi_persone)}**.",
+        f"  - collegati da una parentela: **{len(senza_eventi_persone) - len(senza_eventi_isolate)}**.",
+        f"  - senza alcun collegamento: **{len(senza_eventi_isolate)}**.",
         f"- Entità senza eventi: **{len(senza_eventi_entita)}**.",
         f"- Luoghi senza eventi: **{len(senza_eventi_luoghi)}**.",
         "",
@@ -1356,9 +1389,9 @@ def scrivi_audit(
         f"- Persone con genere dichiarato: **{sum(1 for p in persone if p.get('genere') in GENERI)}**.",
         "",
     ]
-    if senza_eventi_persone or senza_eventi_entita or senza_eventi_luoghi:
+    if senza_eventi_isolate or senza_eventi_entita or senza_eventi_luoghi:
         righe += ["", "## Schede non collegate", ""]
-        for nome in senza_eventi_persone:
+        for nome in senza_eventi_isolate:
             righe.append(f"- personaggio: {nome}")
         for nome in senza_eventi_entita:
             righe.append(f"- entità: {nome}")

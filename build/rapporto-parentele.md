@@ -1,12 +1,12 @@
 # Rapporto sulle parentele
 
-- Relazioni registrate: **11**.
-  - genitore: **8**.
-  - coniuge: **3**.
-- Persone collegate: **8** su **119**.
+- Relazioni registrate: **57**.
+  - genitore: **52**.
+  - coniuge: **5**.
+- Persone collegate: **52** su **150**.
 - Gruppi familiari (componenti): **1**.
-- Coppie di fratelli ricavate dai genitori comuni: **3**.
-- Persone con genere dichiarato: **8**.
+- Coppie di fratelli ricavate dai genitori comuni: **4**.
+- Persone con genere dichiarato: **52**.
 
 ## Controlli superati
 
@@ -22,25 +22,74 @@
 
 | Gruppo | Membri | Radici |
 |---|---|---|
-| 1 | Aragorn, Arwen, Celeborn, Celebrían, Elladan, Elrohir, Elrond, Galadriel | Celeborn ⚭ Galadriel |
+| 1 | Amlaith, Anárion, Arador, Araglas, Aragorn, Aragorn I, Aragost, Arahad I, Arahad II, Arahael, Aranarth, Arantar, Aranuir, Araphant, Araphor, Arassuil, Arathorn I, Arathorn II, Araval, Aravir, Aravorn, Argeleb I, Argeleb II, Argonui, Arvedui, Arvegil, Arveleg I, Arveleg II, Arwen, Beleg, Celeborn, Celebrindor, Celebrían, Celepharn, Eldacar di Arnor, Elendil, Elendur, Elladan, Elrohir, Elrond, Eärendur, Firiel, Galadriel, Gilraen, Isildur, Mallor, Malvegil, Meneldil, Tarcil, Tarondor di Arnor, Valandil, Valandur | Celeborn ⚭ Galadriel; Elendil |
 
 ## Persone collegate
 
 | Persona | Genere | Genitori | Coniugi | Figli |
 |---|---|---|---|---|
-| Aragorn | m | — | Arwen | — |
+| Amlaith | m | Eärendur | — | Beleg |
+| Anárion | m | Elendil | — | Meneldil |
+| Arador | m | Argonui | — | Arathorn II |
+| Araglas | m | Aragorn I | — | Arahad I |
+| Aragorn | m | Arathorn II, Gilraen | Arwen | — |
+| Aragorn I | m | Aravir | — | Araglas |
+| Aragost | m | Arahad I | — | Aravorn |
+| Arahad I | m | Araglas | — | Aragost |
+| Arahad II | m | Aravorn | — | Arassuil |
+| Arahael | m | Aranarth | — | Aranuir |
+| Aranarth | m | Arvedui, Firiel | — | Arahael |
+| Arantar | m | Eldacar di Arnor | — | Tarcil |
+| Aranuir | m | Arahael | — | Aravir |
+| Araphant | m | Araval | — | Arvedui |
+| Araphor | m | Arveleg I | — | Argeleb II |
+| Arassuil | m | Arahad II | — | Arathorn I |
+| Arathorn I | m | Arassuil | — | Argonui |
+| Arathorn II | m | Arador | Gilraen | Aragorn |
+| Araval | m | Arveleg II | — | Araphant |
+| Aravir | m | Aranuir | — | Aragorn I |
+| Aravorn | m | Aragost | — | Arahad II |
+| Argeleb I | m | Malvegil | — | Arveleg I |
+| Argeleb II | m | Araphor | — | Arvegil |
+| Argonui | m | Arathorn I | — | Arador |
+| Arvedui | m | Araphant | Firiel | Aranarth |
+| Arvegil | m | Argeleb II | — | Arveleg II |
+| Arveleg I | m | Argeleb I | — | Araphor |
+| Arveleg II | m | Arvegil | — | Araval |
 | Arwen | f | Celebrían, Elrond | Aragorn | — |
+| Beleg | m | Amlaith | — | Mallor |
 | Celeborn | m | — | Galadriel | Celebrían |
+| Celebrindor | m | Celepharn | — | Malvegil |
 | Celebrían | f | Celeborn, Galadriel | Elrond | Arwen, Elladan, Elrohir |
+| Celepharn | m | Mallor | — | Celebrindor |
+| Eldacar di Arnor | m | Valandil | — | Arantar |
+| Elendil | m | — | — | Anárion, Isildur |
+| Elendur | m | Valandur | — | Eärendur |
 | Elladan | m | Celebrían, Elrond | — | — |
 | Elrohir | m | Celebrían, Elrond | — | — |
 | Elrond | m | — | Celebrían | Arwen, Elladan, Elrohir |
+| Eärendur | m | Elendur | — | Amlaith |
+| Firiel | f | — | Arvedui | Aranarth |
 | Galadriel | f | — | Celeborn | Celebrían |
+| Gilraen | f | — | Arathorn II | Aragorn |
+| Isildur | m | Elendil | — | Valandil |
+| Mallor | m | Beleg | — | Celepharn |
+| Malvegil | m | Celebrindor | — | Argeleb I |
+| Meneldil | m | Anárion | — | — |
+| Tarcil | m | Arantar | — | Tarondor di Arnor |
+| Tarondor di Arnor | m | Tarcil | — | Valandur |
+| Valandil | m | Isildur | — | Eldacar di Arnor |
+| Valandur | m | Tarondor di Arnor | — | Elendur |
 
 ## Limiti noti
 
-- Il pilota copre una sola casata: la Casa di Elrond. Mancano Isildur,
-  Rohan, Durin, i Sovrintendenti e gli Hobbit.
+- Le parentele coperte sono due casate: la Casa di Elrond e la Casa di
+  Isildur (linea settentrionale, da Elendil ad Aragorn II). Mancano Rohan,
+  Durin, i Sovrintendenti, gli Hobbit e la linea meridionale di Anárion.
+- L'albero testuale non sa disegnare un matrimonio che unisce due casate:
+  quando una persona compare già sotto un'altra discendenza, la riga lo
+  segnala con «(già mostrato sopra)». Il grafo completo è in
+  `build/relazioni.json`.
 - Una persona con più coniugi viene raggruppata in un unico nodo. Quando
   servirà, i matrimoni andranno separati con un identificativo proprio.
 - I fratelli sono ricavati dai genitori comuni e non hanno una distinzione
@@ -48,7 +97,7 @@
 
 ## Persone non ancora collegate
 
-Sono **111**. Verranno aggiunte una casata alla volta.
+Sono **98**. Verranno aggiunte una casata alla volta.
 
 <details>
 <summary>Mostra l'elenco</summary>
@@ -71,13 +120,6 @@ Sono **111**. Verranno aggiunte una casata alla volta.
 - Adrahil
 - Aldamir
 - Amroth
-- Arador
-- Aranarth
-- Arathorn II
-- Argeleb I
-- Argeleb II
-- Arvedui
-- Arveleg I
 - Bain
 - Baldor
 - Balin
@@ -103,21 +145,17 @@ Sono **111**. Verranno aggiunte una casata alla volta.
 - Ecthelion I
 - Ecthelion II
 - Eldacar
-- Elendil
 - Eorl il Giovane
-- Eärendur
 - Eärnil
 - Eärnil I
 - Eärnur
 - Falastur
-- Firiel
 - Folcwine
 - Frumgar
 - Fréaláf
 - Gandalf
 - Gerontius Tuc
 - Gil-galad
-- Gilraen
 - Glorfindel
 - Grór
 - Helm
@@ -125,11 +163,9 @@ Sono **111**. Verranno aggiunte una casata alla volta.
 - Hyarmendacil II
 - Imrahil
 - Isengrim II
-- Isildur
 - Isumbras I
 - Legolas
 - Mardil
-- Meneldil
 - Minardil
 - Nain I
 - Narmacil II

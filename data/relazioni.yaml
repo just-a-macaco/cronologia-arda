@@ -109,3 +109,419 @@
     - opera: Il Signore degli Anelli
       riferimento: "Appendice A, La storia di Aragorn e Arwen"
   nota: "Le nozze si celebrano a Minas Tirith nel 3019."
+# Casa di Isildur: la linea settentrionale, dai re dell'Arnor ai Capitani.
+# Fonte principale: Appendice A, «I Regni in Esilio» (tavola della successione).
+
+- da: elendil
+  a: isildur
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+  nota: null
+
+- da: elendil
+  a: anarion
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: anarion
+  a: meneldil
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: isildur
+  a: valandil
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: valandil
+  a: eldacar-di-arnor
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: eldacar-di-arnor
+  a: arantar
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: arantar
+  a: tarcil
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: tarcil
+  a: tarondor-di-arnor
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: tarondor-di-arnor
+  a: valandur
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: valandur
+  a: elendur-di-arnor
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: elendur-di-arnor
+  a: earendur
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: earendur
+  a: amlaith
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: amlaith
+  a: beleg-di-arthedain
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: beleg-di-arthedain
+  a: mallor
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: mallor
+  a: celepharn
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: celepharn
+  a: celebrindor
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: celebrindor
+  a: malvegil
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: malvegil
+  a: argeleb-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+  nota: null
+
+- da: argeleb-i
+  a: arveleg-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+  nota: null
+
+- da: arveleg-i
+  a: araphor
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+  nota: null
+
+- da: araphor
+  a: argeleb-ii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: argeleb-ii
+  a: arvegil
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: arvegil
+  a: arveleg-ii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: arveleg-ii
+  a: araval
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: araval
+  a: araphant
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: araphant
+  a: arvedui
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: arvedui
+  a: aranarth
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+  nota: null
+
+- da: aranarth
+  a: arahael
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+  nota: null
+
+- da: arahael
+  a: aranuir
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: aranuir
+  a: aravir
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: aravir
+  a: aragorn-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: aragorn-i
+  a: araglas
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: araglas
+  a: arahad-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: arahad-i
+  a: aragost
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: aragost
+  a: aravorn
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: aravorn
+  a: arahad-ii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: arahad-ii
+  a: arassuil
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: arassuil
+  a: arathorn-i
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: arathorn-i
+  a: argonui
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: argonui
+  a: arador
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, I Regni in Esilio"
+  nota: null
+
+- da: arador
+  a: arathorn-ii
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+  nota: null
+
+- da: arathorn-ii
+  a: aragorn
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null
+
+- da: firiel
+  a: aranarth
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Gondor e gli Eredi di Anárion"
+  nota: Il testo nomina Aranarth solo come figlio di Arvedui; Fíriel è la moglie del re.
+
+- da: gilraen
+  a: aragorn
+  tipo: genitore
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null
+
+- da: arvedui
+  a: firiel
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, Gondor e gli Eredi di Anárion"
+  nota: null
+
+- da: arathorn-ii
+  a: gilraen
+  tipo: coniuge
+  certezza: certa
+  fonti:
+    - opera: Il Signore degli Anelli
+      riferimento: "Appendice A, La storia di Aragorn e Arwen"
+  nota: null

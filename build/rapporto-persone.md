@@ -1,6 +1,6 @@
 # Rapporto sulle persone
 
-- Schede create: **119**.
+- Schede create: **150**.
 - Nomi di partecipante citati dagli eventi: **170** distinti.
 - Nomi coperti da una scheda persona: **119**.
 - Nomi coperti da un'entità collettiva: **51**.
@@ -31,8 +31,8 @@
 | `gimli` | Gimli | personaggio | Nano | — | 3 |
 | `legolas` | Legolas | personaggio | Elfo | — | 3 |
 | `amroth` | Amroth | personaggio | Elfo | — | 1 |
-| `arvedui` | Arvedui | personaggio | Uomo | — | 4 |
-| `arveleg-i` | Arveleg I | personaggio | Uomo | — | 1 |
+| `arvedui` | Arvedui | personaggio | Uomo | m | 4 |
+| `arveleg-i` | Arveleg I | personaggio | Uomo | m | 1 |
 | `arwen` | Arwen | personaggio | Mezzelfo | f | 6 |
 | `barbalbero` | Barbalbero | personaggio | Ent | — | 1 |
 | `bard` | Bard | personaggio | Uomo | — | 3 |
@@ -46,9 +46,9 @@
 | `dain-piediferro` | Dàin Piediferro | personaggio | Nano | — | 3 |
 | `deagol` | Déagol | personaggio | Sturoi | — | 1 |
 | `eldacar` | Eldacar | personaggio | Uomo | — | 3 |
-| `elendil` | Elendil | personaggio | Uomo | — | 1 |
+| `elendil` | Elendil | personaggio | Uomo | m | 1 |
 | `eorl-il-giovane` | Eorl il Giovane | personaggio | Uomo | — | 3 |
-| `earendur` | Eärendur | personaggio | Uomo | — | 1 |
+| `earendur` | Eärendur | personaggio | Uomo | m | 1 |
 | `earnil` | Eärnil | personaggio | Uomo | — | 2 |
 | `earnur` | Eärnur | personaggio | Uomo | — | 2 |
 | `frealaf` | Fréaláf | personaggio | Uomo | — | 1 |
@@ -58,9 +58,9 @@
 | `helm` | Helm | personaggio | Uomo | — | 1 |
 | `hyarmendacil` | Hyarmendacil | personaggio | Uomo | — | 1 |
 | `imrahil` | Imrahil | personaggio | Uomo | — | 2 |
-| `isildur` | Isildur | personaggio | Uomo | — | 2 |
+| `isildur` | Isildur | personaggio | Uomo | m | 2 |
 | `mardil` | Mardil | personaggio | Uomo | — | 1 |
-| `meneldil` | Meneldil | personaggio | Uomo | — | 1 |
+| `meneldil` | Meneldil | personaggio | Uomo | m | 1 |
 | `nain-i` | Nain I | personaggio | Nano | — | 1 |
 | `narmacil-ii` | Narmacil II | personaggio | Uomo | — | 1 |
 | `nar` | Nár | personaggio | Nano | — | 1 |
@@ -89,17 +89,17 @@
 | `falastur` | Falastur | personaggio | Uomo | — | 1 |
 | `earnil-i` | Eärnil I | personaggio | Uomo | — | 2 |
 | `ciryandil` | Ciryandil | personaggio | Uomo | — | 1 |
-| `argeleb-i` | Argeleb I | personaggio | Uomo | — | 1 |
+| `argeleb-i` | Argeleb I | personaggio | Uomo | m | 1 |
 | `aldimir` | Aldamir | personaggio | Uomo | — | 1 |
 | `hyarmendacil-ii` | Hyarmendacil II | personaggio | Uomo | — | 1 |
 | `minardil` | Minardil | personaggio | Uomo | — | 1 |
 | `telumehtar` | Telumehtar Umbardacil | personaggio | Uomo | — | 1 |
 | `calimehtar` | Calimehtar | personaggio | Uomo | — | 2 |
-| `argeleb-ii` | Argeleb II | personaggio | Uomo | — | 1 |
-| `aranarth` | Aranarth | personaggio | Uomo | — | 1 |
+| `argeleb-ii` | Argeleb II | personaggio | Uomo | m | 1 |
+| `aranarth` | Aranarth | personaggio | Uomo | m | 1 |
 | `frumgar` | Frumgar | personaggio | Uomo | — | 1 |
 | `bucca-della-palude` | Bucca della Palude | personaggio | Hobbit | — | 1 |
-| `firiel` | Firiel | personaggio | Uomo | — | 1 |
+| `firiel` | Firiel | personaggio | Uomo | f | 1 |
 | `thorin-i` | Thorin I | personaggio | Nano | — | 1 |
 | `isumbras-i` | Isumbras I | personaggio | Hobbit | — | 1 |
 | `brego` | Brego | personaggio | Uomo | — | 1 |
@@ -110,9 +110,9 @@
 | `walda` | Walda | personaggio | Uomo | — | 1 |
 | `belecthor-ii` | Belecthor II | personaggio | Uomo | — | 1 |
 | `folcwine` | Folcwine | personaggio | Uomo | — | 1 |
-| `gilraen` | Gilraen | personaggio | Uomo | — | 5 |
-| `arathorn-ii` | Arathorn II | personaggio | Uomo | — | 3 |
-| `arador` | Arador | personaggio | Uomo | — | 1 |
+| `gilraen` | Gilraen | personaggio | Uomo | f | 5 |
+| `arathorn-ii` | Arathorn II | personaggio | Uomo | m | 3 |
+| `arador` | Arador | personaggio | Uomo | m | 1 |
 | `gerontius-tuc` | Gerontius Tuc | personaggio | Hobbit | — | 1 |
 | `ecthelion-ii` | Ecthelion II | personaggio | Uomo | — | 3 |
 | `thengel` | Thengel | personaggio | Uomo | — | 2 |
@@ -129,6 +129,37 @@
 | `celeborn` | Celeborn | personaggio | Elfo | m | 2 |
 | `elanor` | Elanor | personaggio | Hobbit | — | 1 |
 | `rosie-cotton` | Rosie Cotton | personaggio | Hobbit | — | 2 |
+| `anarion` | Anárion | personaggio | Uomo | m | 0 |
+| `valandil` | Valandil | personaggio | Uomo | m | 0 |
+| `eldacar-di-arnor` | Eldacar di Arnor | personaggio | Uomo | m | 0 |
+| `arantar` | Arantar | personaggio | Uomo | m | 0 |
+| `tarcil` | Tarcil | personaggio | Uomo | m | 0 |
+| `tarondor-di-arnor` | Tarondor di Arnor | personaggio | Uomo | m | 0 |
+| `valandur` | Valandur | personaggio | Uomo | m | 0 |
+| `elendur-di-arnor` | Elendur | personaggio | Uomo | m | 0 |
+| `amlaith` | Amlaith | personaggio | Uomo | m | 0 |
+| `beleg-di-arthedain` | Beleg | personaggio | Uomo | m | 0 |
+| `mallor` | Mallor | personaggio | Uomo | m | 0 |
+| `celepharn` | Celepharn | personaggio | Uomo | m | 0 |
+| `celebrindor` | Celebrindor | personaggio | Uomo | m | 0 |
+| `malvegil` | Malvegil | personaggio | Uomo | m | 0 |
+| `araphor` | Araphor | personaggio | Uomo | m | 0 |
+| `arvegil` | Arvegil | personaggio | Uomo | m | 0 |
+| `arveleg-ii` | Arveleg II | personaggio | Uomo | m | 0 |
+| `araval` | Araval | personaggio | Uomo | m | 0 |
+| `araphant` | Araphant | personaggio | Uomo | m | 0 |
+| `arahael` | Arahael | personaggio | Uomo | m | 0 |
+| `aranuir` | Aranuir | personaggio | Uomo | m | 0 |
+| `aravir` | Aravir | personaggio | Uomo | m | 0 |
+| `aragorn-i` | Aragorn I | personaggio | Uomo | m | 0 |
+| `araglas` | Araglas | personaggio | Uomo | m | 0 |
+| `arahad-i` | Arahad I | personaggio | Uomo | m | 0 |
+| `aragost` | Aragost | personaggio | Uomo | m | 0 |
+| `aravorn` | Aravorn | personaggio | Uomo | m | 0 |
+| `arahad-ii` | Arahad II | personaggio | Uomo | m | 0 |
+| `arassuil` | Arassuil | personaggio | Uomo | m | 0 |
+| `arathorn-i` | Arathorn I | personaggio | Uomo | m | 0 |
+| `argonui` | Argonui | personaggio | Uomo | m | 0 |
 
 ## Nomi di partecipante non ancora coperti
 

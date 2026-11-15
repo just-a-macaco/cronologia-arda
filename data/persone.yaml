@@ -255,8 +255,9 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: m
   nascita: null
-  morte: null
+  morte: 1974
   alias: []
   descrizione: L'ultimo re dell'Arthedain, annegato nella baia di Forochel.
   nota: null
@@ -266,8 +267,9 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: m
   nascita: null
-  morte: null
+  morte: 1409
   alias: []
   descrizione: Il re dell'Arthedain caduto nel 1409 contro Angmar.
   nota: null
@@ -423,11 +425,12 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: m
   nascita: null
   morte: null
   alias: []
   descrizione: Il fondatore di Arnor e Gondor, caduto contro Sauron.
-  nota: null
+  nota: Muore nella guerra dell'Ultima Alleanza, nel S.E. 3441.
 
 - id: eorl-il-giovane
   nome: Eorl il Giovane
@@ -446,8 +449,9 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: m
   nascita: null
-  morte: null
+  morte: 861
   alias: []
   descrizione: Il decimo re di Arnor, alla cui morte il regno si divide.
   nota: null
@@ -556,8 +560,9 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: m
   nascita: null
-  morte: null
+  morte: 2
   alias: []
   descrizione: Il figlio di Elendil che prende l'Anello e lo perde nell'Anduin.
   nota: null
@@ -578,8 +583,9 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: m
   nascita: null
-  morte: null
+  morte: 158
   alias: []
   descrizione: Il primo re di Gondor dopo Isildur.
   nota: null
@@ -905,11 +911,12 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: m
   nascita: null
-  morte: null
+  morte: 1356
   alias: []
   descrizione: Il re dell'Arthedain caduto contro il Rhudaur.
-  nota: null
+  nota: "La tavola dell'Appendice A riporta «†356»: l'Appendice B dice 1356."
 
 - id: aldimir
   nome: Aldamir
@@ -972,8 +979,9 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: m
   nascita: null
-  morte: null
+  morte: 1670
   alias: []
   descrizione: Il re dell'Arthedain che dona le terre oltre il Baranduin agli Hobbit.
   nota: null
@@ -983,8 +991,9 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: m
   nascita: null
-  morte: null
+  morte: 2106
   alias: []
   descrizione: Il figlio di Arvedui, primo Capitano dei Dúnedain del Nord.
   nota: null
@@ -1016,6 +1025,7 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: f
   nascita: null
   morte: null
   alias: []
@@ -1137,8 +1147,9 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: f
   nascita: null
-  morte: null
+  morte: 3007
   alias: []
   descrizione: La madre di Aragorn.
   nota: null
@@ -1148,8 +1159,9 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: m
   nascita: null
-  morte: null
+  morte: 2933
   alias: []
   descrizione: Il padre di Aragorn, ucciso nel 2933.
   nota: null
@@ -1159,8 +1171,9 @@
   tipo: personaggio
   specie: Uomo
   popolo: Dúnedain
+  genere: m
   nascita: null
-  morte: null
+  morte: 2930
   alias: []
   descrizione: Il nonno di Aragorn, ucciso dai Vagabondi.
   nota: null
@@ -1345,4 +1358,383 @@
   alias:
     - Rosie
   descrizione: La moglie di Samvise Gamgi.
+  nota: null
+
+# Casa di Isildur: re dell'Arnor, re dell'Arthedain e Capitani dei Dúnedain del Nord.
+# Anni tratti dalla tavola dell'Appendice A: sono anni di morte (fine del regno).
+# Fonte: Il Signore degli Anelli, Appendice A, «I Regni in Esilio» e
+# «Eriador, Arnor, e gli Eredi d'Isildur».
+
+- id: anarion
+  nome: Anárion
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: null
+  alias: []
+  descrizione: Il figlio di Elendil che regna su Gondor insieme a Isildur.
+  nota: "Muore nell'assedio di Barad-dûr, nel S.E. 3440."
+
+- id: valandil
+  nome: Valandil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 249
+  alias: []
+  descrizione: Il più giovane dei figli di Isildur, primo re dell'Arnor dopo la morte del padre.
+  nota: null
+
+- id: eldacar-di-arnor
+  nome: Eldacar di Arnor
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 339
+  alias: []
+  descrizione: Il figlio di Valandil, secondo degli otto Alti Re dell'Arnor.
+  nota: "Omonimo di Eldacar di Gondor: il nome porta il regno per distinguerli."
+
+- id: arantar
+  nome: Arantar
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 435
+  alias: []
+  descrizione: Il terzo degli otto Alti Re dell'Arnor, figlio di Eldacar.
+  nota: null
+
+- id: tarcil
+  nome: Tarcil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 515
+  alias: []
+  descrizione: Il quarto degli otto Alti Re dell'Arnor, figlio di Arantar.
+  nota: null
+
+- id: tarondor-di-arnor
+  nome: Tarondor di Arnor
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 602
+  alias: []
+  descrizione: Il quinto degli otto Alti Re dell'Arnor, figlio di Tarcil.
+  nota: "Omonimo di Tarondor di Gondor: il nome porta il regno per distinguerli."
+
+- id: valandur
+  nome: Valandur
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 652
+  alias: []
+  descrizione: Il sesto degli otto Alti Re dell'Arnor, figlio di Tarondor; muore ucciso.
+  nota: null
+
+- id: elendur-di-arnor
+  nome: Elendur
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 777
+  alias: []
+  descrizione: Il settimo degli otto Alti Re dell'Arnor, figlio di Valandur.
+  nota: null
+
+- id: amlaith
+  nome: Amlaith
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 946
+  alias:
+    - Amlalth
+  descrizione: Il primogenito di Eärendur e primo re dell'Arthedain dopo la divisione dell'Arnor.
+  nota: "La tavola dell'Appendice A lo scrive «Amlalth»: è un refuso per Amlaith."
+
+- id: beleg-di-arthedain
+  nome: Beleg
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 1029
+  alias: []
+  descrizione: Il secondo re dell'Arthedain, figlio di Amlaith.
+  nota: "Da non confondere con Beleg Cúthalion, l'arciere del Doriath."
+
+- id: mallor
+  nome: Mallor
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 1110
+  alias: []
+  descrizione: Il terzo re dell'Arthedain, figlio di Beleg.
+  nota: null
+
+- id: celepharn
+  nome: Celepharn
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 1191
+  alias: []
+  descrizione: Il quarto re dell'Arthedain, figlio di Mallor.
+  nota: null
+
+- id: celebrindor
+  nome: Celebrindor
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 1272
+  alias: []
+  descrizione: Il quinto re dell'Arthedain, figlio di Celepharn.
+  nota: null
+
+- id: malvegil
+  nome: Malvegil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 1349
+  alias: []
+  descrizione: Il sesto re dell'Arthedain, figlio di Celebrindor; nel suo regno nasce Angmar.
+  nota: "Dopo di lui i re di Fornost rivendicano la signoria su tutto l'Arnor."
+
+- id: araphor
+  nome: Araphor
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 1589
+  alias: []
+  descrizione: Il figlio di Arveleg I che, ancora ragazzo, respinge Angmar da Fornost con l'aiuto di Círdan.
+  nota: null
+
+- id: arvegil
+  nome: Arvegil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 1743
+  alias:
+    - Argevil
+  descrizione: L'undicesimo re dell'Arthedain, figlio di Argeleb II.
+  nota: "La tavola dell'Appendice A lo chiama «Argevil»; il testo narrativo dice «Arvegil»."
+
+- id: arveleg-ii
+  nome: Arveleg II
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 1813
+  alias: []
+  descrizione: Il dodicesimo re dell'Arthedain, figlio di Arvegil.
+  nota: null
+
+- id: araval
+  nome: Araval
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 1891
+  alias: []
+  descrizione: Il tredicesimo re dell'Arthedain, figlio di Arveleg II.
+  nota: null
+
+- id: araphant
+  nome: Araphant
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 1964
+  alias: []
+  descrizione: Il quattordicesimo re dell'Arthedain, figlio di Araval e padre di Arvedui.
+  nota: null
+
+- id: arahael
+  nome: Arahael
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 2177
+  alias: []
+  descrizione: Il figlio di Aranarth, allevato a Gran Burrone come tutti i Capitani.
+  nota: null
+
+- id: aranuir
+  nome: Aranuir
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 2247
+  alias: []
+  descrizione: Capitano dei Dúnedain del Nord, figlio di Arahael.
+  nota: null
+
+- id: aravir
+  nome: Aravir
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 2319
+  alias: []
+  descrizione: Capitano dei Dúnedain del Nord, figlio di Aranuir.
+  nota: null
+
+- id: aragorn-i
+  nome: Aragorn I
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 2327
+  alias: []
+  descrizione: Capitano dei Dúnedain del Nord, figlio di Aravir; secondo il racconto è ucciso dai lupi.
+  nota: null
+
+- id: araglas
+  nome: Araglas
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 2455
+  alias: []
+  descrizione: Capitano dei Dúnedain del Nord, figlio di Aragorn I.
+  nota: null
+
+- id: arahad-i
+  nome: Arahad I
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 2523
+  alias: []
+  descrizione: Capitano dei Dúnedain del Nord, figlio di Araglas; nel suo tempo gli Orchetti escono dalle Montagne Nebbiose.
+  nota: null
+
+- id: aragost
+  nome: Aragost
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 2588
+  alias: []
+  descrizione: Capitano dei Dúnedain del Nord, figlio di Arahad I.
+  nota: null
+
+- id: aravorn
+  nome: Aravorn
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 2654
+  alias: []
+  descrizione: Capitano dei Dúnedain del Nord, figlio di Aragost.
+  nota: null
+
+- id: arahad-ii
+  nome: Arahad II
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 2719
+  alias: []
+  descrizione: Capitano dei Dúnedain del Nord, figlio di Aravorn.
+  nota: null
+
+- id: arassuil
+  nome: Arassuil
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 2784
+  alias: []
+  descrizione: Capitano dei Dúnedain del Nord, figlio di Arahad II; sotto di lui gli Orchetti invadono la Contea.
+  nota: null
+
+- id: arathorn-i
+  nome: Arathorn I
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 2848
+  alias: []
+  descrizione: Capitano dei Dúnedain del Nord, figlio di Arassuil.
+  nota: null
+
+- id: argonui
+  nome: Argonui
+  tipo: personaggio
+  specie: Uomo
+  popolo: Dúnedain
+  genere: m
+  nascita: null
+  morte: 2912
+  alias: []
+  descrizione: Capitano dei Dúnedain del Nord, figlio di Arathorn I.
   nota: null

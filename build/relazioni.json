@@ -213,22 +213,22 @@
     {
       "id": "arvedui",
       "nome": "Arvedui",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 1974,
+      "collegata": true
     },
     {
       "id": "arveleg-i",
       "nome": "Arveleg I",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 1409,
+      "collegata": true
     },
     {
       "id": "arwen",
@@ -363,12 +363,12 @@
     {
       "id": "elendil",
       "nome": "Elendil",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "eorl-il-giovane",
@@ -383,12 +383,12 @@
     {
       "id": "earendur",
       "nome": "Eärendur",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 861,
+      "collegata": true
     },
     {
       "id": "earnil",
@@ -483,12 +483,12 @@
     {
       "id": "isildur",
       "nome": "Isildur",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 2,
+      "collegata": true
     },
     {
       "id": "mardil",
@@ -503,12 +503,12 @@
     {
       "id": "meneldil",
       "nome": "Meneldil",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 158,
+      "collegata": true
     },
     {
       "id": "nain-i",
@@ -793,12 +793,12 @@
     {
       "id": "argeleb-i",
       "nome": "Argeleb I",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 1356,
+      "collegata": true
     },
     {
       "id": "aldimir",
@@ -853,22 +853,22 @@
     {
       "id": "argeleb-ii",
       "nome": "Argeleb II",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 1670,
+      "collegata": true
     },
     {
       "id": "aranarth",
       "nome": "Aranarth",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 2106,
+      "collegata": true
     },
     {
       "id": "frumgar",
@@ -893,12 +893,12 @@
     {
       "id": "firiel",
       "nome": "Firiel",
-      "genere": null,
+      "genere": "f",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
       "morte": null,
-      "collegata": false
+      "collegata": true
     },
     {
       "id": "thorin-i",
@@ -1003,32 +1003,32 @@
     {
       "id": "gilraen",
       "nome": "Gilraen",
-      "genere": null,
+      "genere": "f",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 3007,
+      "collegata": true
     },
     {
       "id": "arathorn-ii",
       "nome": "Arathorn II",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 2933,
+      "collegata": true
     },
     {
       "id": "arador",
       "nome": "Arador",
-      "genere": null,
+      "genere": "m",
       "specie": "Uomo",
       "popolo": "Dúnedain",
       "nascita": null,
-      "morte": null,
-      "collegata": false
+      "morte": 2930,
+      "collegata": true
     },
     {
       "id": "gerontius-tuc",
@@ -1189,6 +1189,316 @@
       "nascita": null,
       "morte": null,
       "collegata": false
+    },
+    {
+      "id": "anarion",
+      "nome": "Anárion",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": null,
+      "collegata": true
+    },
+    {
+      "id": "valandil",
+      "nome": "Valandil",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 249,
+      "collegata": true
+    },
+    {
+      "id": "eldacar-di-arnor",
+      "nome": "Eldacar di Arnor",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 339,
+      "collegata": true
+    },
+    {
+      "id": "arantar",
+      "nome": "Arantar",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 435,
+      "collegata": true
+    },
+    {
+      "id": "tarcil",
+      "nome": "Tarcil",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 515,
+      "collegata": true
+    },
+    {
+      "id": "tarondor-di-arnor",
+      "nome": "Tarondor di Arnor",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 602,
+      "collegata": true
+    },
+    {
+      "id": "valandur",
+      "nome": "Valandur",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 652,
+      "collegata": true
+    },
+    {
+      "id": "elendur-di-arnor",
+      "nome": "Elendur",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 777,
+      "collegata": true
+    },
+    {
+      "id": "amlaith",
+      "nome": "Amlaith",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 946,
+      "collegata": true
+    },
+    {
+      "id": "beleg-di-arthedain",
+      "nome": "Beleg",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 1029,
+      "collegata": true
+    },
+    {
+      "id": "mallor",
+      "nome": "Mallor",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 1110,
+      "collegata": true
+    },
+    {
+      "id": "celepharn",
+      "nome": "Celepharn",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 1191,
+      "collegata": true
+    },
+    {
+      "id": "celebrindor",
+      "nome": "Celebrindor",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 1272,
+      "collegata": true
+    },
+    {
+      "id": "malvegil",
+      "nome": "Malvegil",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 1349,
+      "collegata": true
+    },
+    {
+      "id": "araphor",
+      "nome": "Araphor",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 1589,
+      "collegata": true
+    },
+    {
+      "id": "arvegil",
+      "nome": "Arvegil",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 1743,
+      "collegata": true
+    },
+    {
+      "id": "arveleg-ii",
+      "nome": "Arveleg II",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 1813,
+      "collegata": true
+    },
+    {
+      "id": "araval",
+      "nome": "Araval",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 1891,
+      "collegata": true
+    },
+    {
+      "id": "araphant",
+      "nome": "Araphant",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 1964,
+      "collegata": true
+    },
+    {
+      "id": "arahael",
+      "nome": "Arahael",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2177,
+      "collegata": true
+    },
+    {
+      "id": "aranuir",
+      "nome": "Aranuir",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2247,
+      "collegata": true
+    },
+    {
+      "id": "aravir",
+      "nome": "Aravir",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2319,
+      "collegata": true
+    },
+    {
+      "id": "aragorn-i",
+      "nome": "Aragorn I",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2327,
+      "collegata": true
+    },
+    {
+      "id": "araglas",
+      "nome": "Araglas",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2455,
+      "collegata": true
+    },
+    {
+      "id": "arahad-i",
+      "nome": "Arahad I",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2523,
+      "collegata": true
+    },
+    {
+      "id": "aragost",
+      "nome": "Aragost",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2588,
+      "collegata": true
+    },
+    {
+      "id": "aravorn",
+      "nome": "Aravorn",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2654,
+      "collegata": true
+    },
+    {
+      "id": "arahad-ii",
+      "nome": "Arahad II",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2719,
+      "collegata": true
+    },
+    {
+      "id": "arassuil",
+      "nome": "Arassuil",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2784,
+      "collegata": true
+    },
+    {
+      "id": "arathorn-i",
+      "nome": "Arathorn I",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2848,
+      "collegata": true
+    },
+    {
+      "id": "argonui",
+      "nome": "Argonui",
+      "genere": "m",
+      "specie": "Uomo",
+      "popolo": "Dúnedain",
+      "nascita": null,
+      "morte": 2912,
+      "collegata": true
     }
   ],
   "relazioni": [
@@ -1334,10 +1644,692 @@
         }
       ],
       "nota": "Le nozze si celebrano a Minas Tirith nel 3019."
+    },
+    {
+      "da": "elendil",
+      "a": "isildur",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "elendil",
+      "a": "anarion",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "anarion",
+      "a": "meneldil",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "isildur",
+      "a": "valandil",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "valandil",
+      "a": "eldacar-di-arnor",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "eldacar-di-arnor",
+      "a": "arantar",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arantar",
+      "a": "tarcil",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "tarcil",
+      "a": "tarondor-di-arnor",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "tarondor-di-arnor",
+      "a": "valandur",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "valandur",
+      "a": "elendur-di-arnor",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "elendur-di-arnor",
+      "a": "earendur",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "earendur",
+      "a": "amlaith",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "amlaith",
+      "a": "beleg-di-arthedain",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "beleg-di-arthedain",
+      "a": "mallor",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "mallor",
+      "a": "celepharn",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "celepharn",
+      "a": "celebrindor",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "celebrindor",
+      "a": "malvegil",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "malvegil",
+      "a": "argeleb-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "argeleb-i",
+      "a": "arveleg-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arveleg-i",
+      "a": "araphor",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "araphor",
+      "a": "argeleb-ii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "argeleb-ii",
+      "a": "arvegil",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arvegil",
+      "a": "arveleg-ii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arveleg-ii",
+      "a": "araval",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "araval",
+      "a": "araphant",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "araphant",
+      "a": "arvedui",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arvedui",
+      "a": "aranarth",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "aranarth",
+      "a": "arahael",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arahael",
+      "a": "aranuir",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "aranuir",
+      "a": "aravir",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "aravir",
+      "a": "aragorn-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "aragorn-i",
+      "a": "araglas",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "araglas",
+      "a": "arahad-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arahad-i",
+      "a": "aragost",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "aragost",
+      "a": "aravorn",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "aravorn",
+      "a": "arahad-ii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arahad-ii",
+      "a": "arassuil",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arassuil",
+      "a": "arathorn-i",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arathorn-i",
+      "a": "argonui",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "argonui",
+      "a": "arador",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, I Regni in Esilio"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arador",
+      "a": "arathorn-ii",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Eriador, Arnor, e gli Eredi d'Isildur"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arathorn-ii",
+      "a": "aragorn",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "firiel",
+      "a": "aranarth",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Gondor e gli Eredi di Anárion"
+        }
+      ],
+      "nota": "Il testo nomina Aranarth solo come figlio di Arvedui; Fíriel è la moglie del re."
+    },
+    {
+      "da": "gilraen",
+      "a": "aragorn",
+      "tipo": "genitore",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arvedui",
+      "a": "firiel",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, Gondor e gli Eredi di Anárion"
+        }
+      ],
+      "nota": null
+    },
+    {
+      "da": "arathorn-ii",
+      "a": "gilraen",
+      "tipo": "coniuge",
+      "certezza": "certa",
+      "fonti": [
+        {
+          "opera": "Il Signore degli Anelli",
+          "riferimento": "Appendice A, La storia di Aragorn e Arwen"
+        }
+      ],
+      "nota": null
     }
   ],
   "derivate": {
     "figli": {
+      "amlaith": [
+        "beleg-di-arthedain"
+      ],
+      "anarion": [
+        "meneldil"
+      ],
+      "arador": [
+        "arathorn-ii"
+      ],
+      "araglas": [
+        "arahad-i"
+      ],
+      "aragorn-i": [
+        "araglas"
+      ],
+      "aragost": [
+        "aravorn"
+      ],
+      "arahad-i": [
+        "aragost"
+      ],
+      "arahad-ii": [
+        "arassuil"
+      ],
+      "arahael": [
+        "aranuir"
+      ],
+      "aranarth": [
+        "arahael"
+      ],
+      "arantar": [
+        "tarcil"
+      ],
+      "aranuir": [
+        "aravir"
+      ],
+      "araphant": [
+        "arvedui"
+      ],
+      "araphor": [
+        "argeleb-ii"
+      ],
+      "arassuil": [
+        "arathorn-i"
+      ],
+      "arathorn-i": [
+        "argonui"
+      ],
+      "arathorn-ii": [
+        "aragorn"
+      ],
+      "araval": [
+        "araphant"
+      ],
+      "aravir": [
+        "aragorn-i"
+      ],
+      "aravorn": [
+        "arahad-ii"
+      ],
+      "argeleb-i": [
+        "arveleg-i"
+      ],
+      "argeleb-ii": [
+        "arvegil"
+      ],
+      "argonui": [
+        "arador"
+      ],
+      "arvedui": [
+        "aranarth"
+      ],
+      "arvegil": [
+        "arveleg-ii"
+      ],
+      "arveleg-i": [
+        "araphor"
+      ],
+      "arveleg-ii": [
+        "araval"
+      ],
+      "beleg-di-arthedain": [
+        "mallor"
+      ],
       "celeborn": [
         "celebrian"
       ],
@@ -1346,23 +2338,173 @@
         "elladan",
         "elrohir"
       ],
+      "celebrindor": [
+        "malvegil"
+      ],
+      "celepharn": [
+        "celebrindor"
+      ],
+      "earendur": [
+        "amlaith"
+      ],
+      "eldacar-di-arnor": [
+        "arantar"
+      ],
+      "elendil": [
+        "anarion",
+        "isildur"
+      ],
+      "elendur-di-arnor": [
+        "earendur"
+      ],
       "elrond": [
         "arwen",
         "elladan",
         "elrohir"
       ],
+      "firiel": [
+        "aranarth"
+      ],
       "galadriel": [
         "celebrian"
+      ],
+      "gilraen": [
+        "aragorn"
+      ],
+      "isildur": [
+        "valandil"
+      ],
+      "mallor": [
+        "celepharn"
+      ],
+      "malvegil": [
+        "argeleb-i"
+      ],
+      "tarcil": [
+        "tarondor-di-arnor"
+      ],
+      "tarondor-di-arnor": [
+        "valandur"
+      ],
+      "valandil": [
+        "eldacar-di-arnor"
+      ],
+      "valandur": [
+        "elendur-di-arnor"
       ]
     },
     "genitori": {
+      "amlaith": [
+        "earendur"
+      ],
+      "anarion": [
+        "elendil"
+      ],
+      "arador": [
+        "argonui"
+      ],
+      "araglas": [
+        "aragorn-i"
+      ],
+      "aragorn": [
+        "arathorn-ii",
+        "gilraen"
+      ],
+      "aragorn-i": [
+        "aravir"
+      ],
+      "aragost": [
+        "arahad-i"
+      ],
+      "arahad-i": [
+        "araglas"
+      ],
+      "arahad-ii": [
+        "aravorn"
+      ],
+      "arahael": [
+        "aranarth"
+      ],
+      "aranarth": [
+        "arvedui",
+        "firiel"
+      ],
+      "arantar": [
+        "eldacar-di-arnor"
+      ],
+      "aranuir": [
+        "arahael"
+      ],
+      "araphant": [
+        "araval"
+      ],
+      "araphor": [
+        "arveleg-i"
+      ],
+      "arassuil": [
+        "arahad-ii"
+      ],
+      "arathorn-i": [
+        "arassuil"
+      ],
+      "arathorn-ii": [
+        "arador"
+      ],
+      "araval": [
+        "arveleg-ii"
+      ],
+      "aravir": [
+        "aranuir"
+      ],
+      "aravorn": [
+        "aragost"
+      ],
+      "argeleb-i": [
+        "malvegil"
+      ],
+      "argeleb-ii": [
+        "araphor"
+      ],
+      "argonui": [
+        "arathorn-i"
+      ],
+      "arvedui": [
+        "araphant"
+      ],
+      "arvegil": [
+        "argeleb-ii"
+      ],
+      "arveleg-i": [
+        "argeleb-i"
+      ],
+      "arveleg-ii": [
+        "arvegil"
+      ],
       "arwen": [
         "celebrian",
         "elrond"
       ],
+      "beleg-di-arthedain": [
+        "amlaith"
+      ],
       "celebrian": [
         "celeborn",
         "galadriel"
+      ],
+      "celebrindor": [
+        "celepharn"
+      ],
+      "celepharn": [
+        "mallor"
+      ],
+      "earendur": [
+        "elendur-di-arnor"
+      ],
+      "eldacar-di-arnor": [
+        "valandil"
+      ],
+      "elendur-di-arnor": [
+        "valandur"
       ],
       "elladan": [
         "celebrian",
@@ -1371,11 +2513,41 @@
       "elrohir": [
         "celebrian",
         "elrond"
+      ],
+      "isildur": [
+        "elendil"
+      ],
+      "mallor": [
+        "beleg-di-arthedain"
+      ],
+      "malvegil": [
+        "celebrindor"
+      ],
+      "meneldil": [
+        "anarion"
+      ],
+      "tarcil": [
+        "arantar"
+      ],
+      "tarondor-di-arnor": [
+        "tarcil"
+      ],
+      "valandil": [
+        "isildur"
+      ],
+      "valandur": [
+        "tarondor-di-arnor"
       ]
     },
     "coniugi": {
       "aragorn": [
         "arwen"
+      ],
+      "arathorn-ii": [
+        "gilraen"
+      ],
+      "arvedui": [
+        "firiel"
       ],
       "arwen": [
         "aragorn"
@@ -1389,11 +2561,20 @@
       "elrond": [
         "celebrian"
       ],
+      "firiel": [
+        "arvedui"
+      ],
       "galadriel": [
         "celeborn"
+      ],
+      "gilraen": [
+        "arathorn-ii"
       ]
     },
     "fratelli": {
+      "anarion": [
+        "isildur"
+      ],
       "arwen": [
         "elladan",
         "elrohir"
@@ -1405,6 +2586,9 @@
       "elrohir": [
         "arwen",
         "elladan"
+      ],
+      "isildur": [
+        "anarion"
       ]
     }
   },
@@ -1414,24 +2598,69 @@
         "elladan",
         "elrohir",
         "aragorn",
+        "amlaith",
+        "anarion",
+        "arador",
+        "araglas",
+        "aragorn-i",
+        "aragost",
+        "arahad-i",
+        "arahad-ii",
+        "arahael",
+        "aranarth",
+        "arantar",
+        "aranuir",
+        "araphant",
+        "araphor",
+        "arassuil",
+        "arathorn-i",
+        "arathorn-ii",
+        "araval",
+        "aravir",
+        "aravorn",
+        "argeleb-i",
+        "argeleb-ii",
+        "argonui",
+        "arvedui",
+        "arvegil",
+        "arveleg-i",
+        "arveleg-ii",
         "arwen",
+        "beleg-di-arthedain",
         "celeborn",
+        "celebrindor",
         "celebrian",
+        "celepharn",
+        "eldacar-di-arnor",
+        "elendil",
+        "elendur-di-arnor",
         "elrond",
-        "galadriel"
+        "earendur",
+        "firiel",
+        "galadriel",
+        "gilraen",
+        "isildur",
+        "mallor",
+        "malvegil",
+        "meneldil",
+        "tarcil",
+        "tarondor-di-arnor",
+        "valandil",
+        "valandur"
       ],
       "radici": [
         "celeborn",
+        "elendil",
         "galadriel"
       ]
     }
   ],
   "copertura": {
-    "persone_totali": 119,
-    "persone_collegate": 8,
-    "relazioni": 11,
-    "genitore": 8,
-    "coniuge": 3,
+    "persone_totali": 150,
+    "persone_collegate": 52,
+    "relazioni": 57,
+    "genitore": 52,
+    "coniuge": 5,
     "componenti": 1
   }
 }

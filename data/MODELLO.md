@@ -72,6 +72,10 @@ alias:
   - Frodo
 ```
 
+`nascita` e `morte` sono anni della **Terza Era**. Per le altre Ere l'anno si
+scrive nella `nota` (per esempio Elendil, morto nel S.E. 3441), così non si
+confondono due calendari nello stesso campo.
+
 ### Un luogo
 
 ```yaml
@@ -236,10 +240,13 @@ contiene **100 schede**, che coprono tutti i nomi di luogo citati dagli eventi
 ID**: il build controlla che ogni ID esista e usa il nome solo per la
 visualizzazione.
 
-Anagrafica dei partecipanti completa: `data/persone.yaml` contiene **119
+Anagrafica dei partecipanti completa: `data/persone.yaml` contiene **150
 personaggi** e `data/entita.yaml` contiene **51 entità collettive**. Insieme
 coprono **tutti i 170 nomi** di partecipante citati dagli eventi. Anche i
 partecipanti richiamano le schede per ID (`persona:` o `entita:`), come i luoghi.
+Le 31 schede in più rispetto ai partecipanti sono i re e i Capitani della Casa di
+Isildur: non compaiono negli eventi della Terza Era, ma servono all'albero
+genealogico.
 
 Per la Terza Era il database di eventi, luoghi e partecipanti è pronto: **204
 eventi**. Il lavoro continua con l'espansione dell'Appendice B: 119 anni su 127
@@ -247,8 +254,23 @@ coperti; gli 8 anni restanti sono dentro eventi-intervallo o annotazioni di
 regno. Dei Grandi Anni 3018-3019 sono coperti i passaggi principali; restano le
 giornate minori e alcuni dettagli del 3020-3021.
 
-Le **parentele** sono cominciate con un pilota, la Casa di Elrond:
-`data/relazioni.yaml` contiene 11 archi e collega 8 persone. Il build produce
-`build/alberi.md` (albero leggibile) e `build/relazioni.json` (grafo per il
-sito). Mancano le altre casate, le fonti come entità separate, le coordinate dei
-luoghi e la vetrina.
+Le **parentele** hanno due casate: la Casa di Elrond (pilota) e la Casa di
+Isildur, cioè la linea settentrionale da Elendil ad Aragorn II.
+`data/relazioni.yaml` contiene **57 archi** (52 genitore, 5 coniuge) e collega
+**52 persone**. Il build produce `build/alberi.md` (albero leggibile),
+`build/rapporto-parentele.md` (controllo) e `build/relazioni.json` (grafo per il
+sito). Mancano Rohan, Durin, i Sovrintendenti, gli Hobbit e la linea meridionale
+di Anárion; poi le fonti come entità separate, le coordinate dei luoghi e la
+vetrina.
+
+### Una nota sui nomi doppi
+
+Tolkien usa più volte gli stessi nomi. Nel database il `nome` deve essere unico,
+quindi i due casi finora incontrati portano il regno:
+
+- **Eldacar di Arnor** (il re del Nord) ed **Eldacar** (il re di Gondor);
+- **Tarondor di Arnor** (il re del Nord) e **Tarondor** (il re di Gondor).
+
+La tavola dell'Appendice A scrive **Amlalth** e **Argevil**; il testo narrativo
+dice **Arvegil**. Il sito usa **Amlaith** e **Arvegil** (le forme corrette) e
+registra la variante della tavola nella `nota` della scheda.
