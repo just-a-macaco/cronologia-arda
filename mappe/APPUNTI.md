@@ -38,7 +38,7 @@ La carta **non** si usa come sfondo né si pubblica nel repository.
 
 ## Zone da rifare (in ordine)
 
-- [ ] Forochel e la costa nord (baia, capi, ghiacci)
+- [x] Forochel e la costa nord (baia, capi, ghiacci) — prima passata, `costa/01-forochel.js`
 - [ ] Lindon e il Golfo di Lune (fiordo stretto, Porti Grigi in fondo)
 - [ ] Harlindon e Minhiriath (Eryn Vorn, foce del Brandivino)
 - [ ] Enedwaith e Andrast (capo lungo, foce dell'Isen)
@@ -71,6 +71,44 @@ La carta **non** si usa come sfondo né si pubblica nel repository.
 - `bozze/costa.json` è la costa semplificata: va bene solo come confronto.
 - Il poligono del mare ha segmenti lunghi (i tagli): non vanno tracciati come costa.
 - La pagina fallisce in silenzio se un blocco JS va in errore: controllare la console.
+
+## Sessione 1 — Forochel e la costa nord (novembre 2026)
+
+**Decisione.** Costa e luoghi devono stare nello stesso spazio. Lo spazio è quello
+della deformazione TPS di `tools/estrai-mappa.py` (la stessa che ha prodotto
+`luoghi.js`). La carta si guarda, non si usa come sfondo.
+
+**Misure fatte** (distanza dei luoghi dalla costa prima del lavoro):
+
+- sud d'accordo: Dol Amroth 0, Harlindon 7, Umbar 10 miglia;
+- nord in disaccordo: Forlindon 124, Tol Fuin 193, Lond Daer 207;
+- una scala unica per la carta non esiste (errore medio 168 miglia su 41 punti):
+  la carta è deformata, non è un atlante in scala;
+- la carta ha il nord compresso (l'Icebay sta appena sopra Annúminas): nella
+  cornice attuale restano circa 450 miglia vuote in alto, da decidere quando si
+  uniscono le zone.
+
+**Metodo usato** (vale per le zone successive):
+
+1. riferimento riscaricato fuori dal repo (`/…/T/mappa/full.webp`, 1800×1200);
+2. maschera inchiostro (luminanza < 120, dilatazione 1 px), componenti libere:
+   il contorno del continente dà la costa, che però va ripulita a mano da
+   tratteggio, laghi, fiumi e montagne;
+3. punti ogni ~2 px, mediati (gauss 2 px), convertiti in miglia con la TPS,
+   semplificati (RDP 1,2 miglia);
+4. controllo visivo nel ritaglio a 4× con griglia di 10 px.
+
+**Trappole nuove:**
+
+- il tratteggio è inchiostro come la costa: il contorno lo segue e non è la costa;
+- il lago Evendim tocca la costa nella maschera: il tratto è dritto e provvisorio;
+- la costa esce dal bordo sinistro: a ovest di Forlindon va unita alla zona 2;
+- la TPS estrapola male fuori dai punti di controllo (nord): ogni zona va
+  controllata contro i luoghi vicini prima di passare avanti.
+
+**Risultato:** 71 punti, ~1141 miglia di costa, in `terza-era/costa/01-forochel.js`,
+disegnata in rosso tratteggiato in `terza-era.html` sopra quella vecchia.
+Le immagini di confronto restano fuori dal repo: contengono la carta.
 
 ## Criterio di chiusura della mappa
 

@@ -19,6 +19,7 @@ svg text{font-family:"Space Grotesk",Helvetica,Arial,sans-serif}
 .land{fill:var(--paper)}
 .sea{fill:var(--sea)}
 .coast{fill:none;stroke:var(--ink);stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
+.prova{fill:none;stroke:var(--ac);stroke-width:2;stroke-dasharray:7 4;stroke-linejoin:round;stroke-linecap:round}
 .isle{fill:var(--paper);stroke:var(--ink);stroke-width:1;stroke-linejoin:round}
 .lake{fill:var(--sea);stroke:var(--ink);stroke-width:1;stroke-linejoin:round}
 .forest{fill:#e2e9df}
@@ -37,13 +38,17 @@ svg text{font-family:"Space Grotesk",Helvetica,Arial,sans-serif}
 <body><main>
 <h1>Mappa della Terza Era · stadio 5 — base, rilievo, luoghi</h1>
 <p class="sub">1 unità = 1 miglio, cornice di 1780 × 1880 miglia. Griglia ogni 200 miglia.
-Nomi provvisori, presi dai luoghi degli eventi.</p>
+Nomi provvisori, presi dai luoghi degli eventi.
+<span style="color:#b23a2e">Linea rossa tratteggiata: zone ridisegnate nello spazio dei luoghi
+(per ora Forochel e la costa nord).</span> La base nera è ancora nello spazio vecchio:
+gli incroci sono attesi fino all'unione delle zone.</p>
 <svg id="m" viewBox="-600 -740 1860 1960" role="img" aria-label="Carta della Terra di Mezzo"></svg>
 <p class="sub" style="margin-top:8px;font-size:.8rem">Costa e acque adattate da mapmiddleearth.com (CC BY-NC 4.0). Rilievo, fiumi, boschi e stile sono nostri.</p>
 </main>
 <script src="terza-era/mare.js"></script>
 <script src="terza-era/dati.js"></script>
 <script src="terza-era/luoghi.js"></script>
+<script src="terza-era/costa/01-forochel.js"></script>
 <script>
 const M = window.MAPPA, R = window.MARE, F = M.frame;
 const NS = "http://www.w3.org/2000/svg";
@@ -117,6 +122,11 @@ const landD = `M${pt(coastDetail[0])}` + curve(coastDetail)
 el('path', {d: landD, class:'land'});
 el('path', {d: `M${pt(coastDetail[0])}` + curve(coastDetail), class:'shelf'});
 el('path', {d: `M${pt(coastDetail[0])}` + curve(coastDetail), class:'coast'});
+
+/* Prove di ridisegno (mappe/terza-era/costa/): solo confronto, la costa vera resta mare.js */
+(window.COSTE_ZONE || []).forEach(z => {
+  el('path', {d: `M${pt(z.coast[0])}` + curve(z.coast), class:'prova'});
+});
 
 /* Boschi */
 M.forests.forEach(f => {
