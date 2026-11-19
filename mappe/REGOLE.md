@@ -8,13 +8,18 @@ Se una regola va cambiata, si cambia qui e si annota in `PROJECT.md`, non a voce
 - Dal Lindon (Ered Luin) a est fino al Mare di Rhûn e a Mordor.
 - Da nord: Forochel e i Monti del Ghiaccio. Da sud: la Baia di Belfalas, con un
   margine di Harad e di Umbar.
-- Cornice quasi quadrata: la mappa sta al centro del cerchio, che è quadrato.
+- Sviluppo **orizzontale**, 3:2 (come la carta di esempio): la mappa va dentro un
+  riquadro largo, non quadrato.
 - Fuori area: Valinor, Númenor, le terre a est di Rhûn.
 
 ## Scala
 
-- Una sola: **1 unità = 1 miglio**. Le distanze fra i luoghi sono quelle dei libri.
+- **1 unità = 1 miglio in orizzontale**: le distanze est-ovest sono quelle dei libri.
+- In verticale il nord-sud è **compresso al 64%** (1 unità ≈ 1,57 miglia), per
+  stare in un foglio orizzontale come la carta di esempio. È un compromesso
+  voluto: le distanze nord-sud risultano più corte che nei libri.
 - Griglia di riferimento ogni 200 miglia, solo per il lavoro (non si pubblica).
+  Sulla tavola le celle sono rettangolari: 400 px in orizzontale, 255 in verticale.
 - La mappa è un atlante, non un rilievo: le forme sono semplificate, le distanze no.
 
 ## Stile

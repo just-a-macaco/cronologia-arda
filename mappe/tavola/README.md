@@ -1,16 +1,22 @@
 # Tavola per la mappa disegnata a mano
 
-Istruzioni per chi disegna (Procreate). Il file `base-3560x3760.png` è la base da
+Istruzioni per chi disegna (Procreate). Il file `base-3560x2400.png` è la base da
 importare: griglia, cornice e 106 luoghi provvisori.
 
 ## Tavola
 
-- **3560 × 3760 px**, sRGB, sfondo **trasparente**, 132 dpi (il dpi non conta).
-- **2 px = 1 miglio.** La tavola corrisponde esatta alla cornice della mappa:
-  - x da −560 a 1220 miglia, y da −700 a 1180 miglia;
-  - miglia_x = px_x / 2 − 560;  miglia_y = px_y / 2 − 700.
+- **3560 × 2400 px**, sviluppo **orizzontale** (3:2, come la carta di esempio),
+  sRGB, sfondo **trasparente**, 132 dpi (il dpi non conta).
+- La tavola corrisponde esatta alla cornice della mappa: x da −560 a 1220 miglia,
+  y da −700 a 1180 miglia.
+  - **2 px = 1 miglio in orizzontale** (est-ovest: distanze dei libri);
+  - **1,2766 px = 1 miglio in verticale**: il nord-sud è compresso al 64%, come
+    nella carta di esempio, per stare in un foglio orizzontale;
+  - miglia_x = px_x / 2 − 560;  miglia_y = px_y / 1,2766 − 700.
 - Nord in alto, nessuna rotazione, nessun margine interno.
-- Se Procreate fatica con i livelli: 2670 × 2820 px (1,5 px per miglio), stessa
+- La griglia della base è ogni 200 miglia: 400 px in orizzontale, 255 px in
+  verticale (celle rettangolari: è la compressione, non un errore).
+- Se Procreate fatica con i livelli: 2670 × 1800 px (1,5 px per unità), stessa
   cornice. Dirlo prima di iniziare.
 - La costa può uscire dai bordi: non serve chiuderla, la chiudo io lungo la cornice.
 

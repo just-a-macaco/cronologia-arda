@@ -118,9 +118,10 @@ Le immagini di confronto restano fuori dal repo: contengono la carta.
 
 La traccia automatica zona per zona è **ferma**: l'utente disegna la sagoma a mano
 in Procreate. Le specifiche della tavola stanno in `mappe/tavola/README.md`
-(3560 × 3760 px, 2 px = 1 miglio, livelli `10-costa`, `11-isole`, `12-laghi`, …).
-La base da importare è `mappe/tavola/base-3560x3760.png` (griglia, cornice,
-106 luoghi provvisori).
+(3560 × 2400 px, orizzontale 3:2, livelli `10-costa`, `11-isole`, `12-laghi`, …).
+La base da importare è `mappe/tavola/base-3560x2400.png` (griglia, cornice,
+106 luoghi provvisori). Il nord-sud è compresso al 64% per stare nel foglio
+orizzontale: la mappa finale avrà la cornice 1780 × 1200, non più quadrata.
 
 Quando arriva: la sagoma sostituisce `mare.js`, poi si riposizionano i luoghi,
 poi rilievo, fiumi, vegetazione, etichette. `costa/01-forochel.js` resta come
